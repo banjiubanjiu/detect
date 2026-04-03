@@ -603,6 +603,38 @@ def quality_check(text, source_type="web"):
         return {"score": 0.0, "verdict": "JUNK", "reason": "empty"}
 
     total_lines = len(lines)
+    total_chars = sum(len(l) for l in lines)
+
+    # 0) Reject invalid/error pages immediately
+    invalid_patterns = [
+        r"blocked by network security",
+        r"JavaScript is not available",
+        r"Please enable JavaScript",
+        r"Access Denied",
+        r"403 Forbidden",
+        r"404 Not Found",
+        r"captcha|CAPTCHA",
+        r"Checking if the site connection is secure",
+        r"file a ticket",
+        r"Something went wrong.*try again",
+        r"Enable JavaScript and cookies to continue",
+    ]
+    for p in invalid_patterns:
+        if re.search(p, text, re.I):
+            return {"score": 0.0, "verdict": "JUNK", "reason": f"invalid page: {p}",
+                    "details": {"lines": total_lines, "short_ratio": 0, "link_density": 0,
+                                "noise_hits": 0, "avg_line_len": 0, "headings": 0}}
+
+    # 0b) Reject content that's too thin (only metadata, no real body)
+    # Strip metadata lines (headers, links, separators) and check remaining content
+    body_lines = [l for l in lines
+                  if not re.match(r'^(?:#|---|\*\*原始链接|!\[|\[.*\]\()', l.strip())]
+    body_text = ' '.join(l.strip() for l in body_lines)
+    if len(body_text) < 100:
+        return {"score": 0.1, "verdict": "JUNK", "reason": "no substantial body content",
+                "details": {"lines": total_lines, "short_ratio": 0, "link_density": 0,
+                            "noise_hits": 0, "avg_line_len": 0, "headings": 0,
+                            "body_chars": len(body_text)}}
 
     # 1) Short-line ratio: nav junk produces many short lines (<40 chars)
     short_lines = sum(1 for l in lines if len(l.strip()) < 40)
