@@ -169,25 +169,68 @@ def translate_text(text, max_chars=500):
 
 
 def translate_item(item):
-    """Translate title and summary of an item if they are in English."""
+    """Translate and generate headline for an item. Single API call."""
     title = item.get("title", "")
     summary = item.get("summary", "")
 
-    # Check if title is English (>3 chars, less than 20% Chinese)
-    cn_in_title = len(re.findall(r'[\u4e00-\u9fff]', title))
-    if title and cn_in_title < len(title) * 0.2 and len(title) > 3 and not item.get("title_en"):
-        translated_title = translate_text(title, max_chars=200)
-        if translated_title != title:
-            item["title_en"] = title
-            item["title"] = translated_title
+    # Check if content is English
+    text = summary or title
+    if not text or len(text.strip()) < 10:
+        return item
+    cn_chars = len(re.findall(r'[\u4e00-\u9fff]', text))
+    if cn_chars > len(text) * 0.3:
+        return item  # already Chinese
+    if item.get("title_en"):
+        return item  # already translated
 
-    # Check if summary is English (>10 chars, less than 20% Chinese)
-    cn_in_summary = len(re.findall(r'[\u4e00-\u9fff]', summary))
-    if summary and cn_in_summary < len(summary) * 0.2 and len(summary) > 10 and not item.get("summary_en"):
-        translated_summary = translate_text(summary, max_chars=500)
-        if translated_summary != summary:
+    api_key = _get_openrouter_key()
+    if not api_key:
+        return item
+
+    prompt = """根据以下英文内容，输出两行（仅两行，无其他内容）：
+第一行：一句中文新闻标题（20字以内，概括核心事件，新闻标题风格）
+第二行：中文摘要（50-100字，翻译并概括主要内容）
+
+内容：
+""" + text[:500]
+
+    try:
+        payload = json.dumps({
+            "model": "google/gemini-2.0-flash-001",
+            "messages": [
+                {"role": "system", "content": "你是专业的军事/政治新闻编辑。"},
+                {"role": "user", "content": prompt}
+            ],
+            "max_tokens": 300,
+            "temperature": 0.1
+        }).encode('utf-8')
+
+        req = urllib.request.Request(
+            "https://openrouter.ai/api/v1/chat/completions",
+            data=payload,
+            headers={
+                "Authorization": f"Bearer {api_key}",
+                "Content-Type": "application/json",
+                "User-Agent": "ConflictTracker/1.0"
+            }
+        )
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            result = json.loads(resp.read().decode())
+        output = result.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+
+        lines = [l.strip() for l in output.split('\n') if l.strip()]
+        if len(lines) >= 2:
+            item["title_en"] = title
             item["summary_en"] = summary
-            item["summary"] = translated_summary
+            item["title"] = lines[0]
+            item["summary"] = lines[1]
+        elif len(lines) == 1:
+            item["title_en"] = title
+            item["title"] = lines[0]
+
+        time.sleep(0.3)
+    except Exception as e:
+        print(f"    [translate_item] Error: {e}", file=sys.stderr)
 
     return item
 
