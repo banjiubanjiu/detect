@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>战况追踪 — 全球冲突态势</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600&family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+
+  <header class="masthead">
+    <div class="mast-rule-top"></div>
+    <div class="mast-inner">
+      <div class="mast-left">
+        <h1 class="mast-title">战况追踪</h1>
+        <p class="mast-sub">Global Conflict Monitor</p>
+      </div>
+      <div class="mast-right">
+        <span class="lang-toggle" id="langToggle" onclick="toggleLang()">EN/中</span>
+        <time class="mast-date" id="mastDate"></time>
+      </div>
+    </div>
+    <div class="mast-rule-bot"></div>
+  </header>
+
+  <!-- Search -->
+  <div class="search-bar" id="searchBar">
+    <input class="search-input" id="searchInput" type="text" placeholder="搜索所有冲突的报道..." />
+    <span class="search-count" id="searchCount"></span>
+  </div>
+
+  <!-- Region-grouped conflict selector -->
+  <nav class="region-nav" id="regionNav"></nav>
+
+  <!-- View toggle: overview / timeline -->
+  <div class="view-toggle" id="viewToggle">
+    <span class="vt-btn vt-active" data-v="overview">总览</span>
+    <span class="vt-btn" data-v="timeline">最新动态</span>
+  </div>
+
+  <!-- Overview (default view) -->
+  <section class="overview" id="overview"></section>
+
+  <!-- Global timeline view -->
+  <section class="timeline" id="timeline" style="display:none"></section>
+
+  <!-- Conflict detail view (hidden by default) -->
+  <section class="conflict-detail" id="conflictDetail" style="display:none">
+    <div class="cd-back" id="cdBack">&larr; 返回总览</div>
+    <div class="cd-header">
+      <div class="cd-left">
+        <h2 class="cd-name" id="cdName"></h2>
+        <div class="cd-meta" id="cdMeta"></div>
+      </div>
+      <div class="cd-right" id="cdRight"></div>
+    </div>
+    <p class="cd-summary" id="cdSummary"></p>
+    <div class="data-strip" id="dataStrip"></div>
+    <nav class="cat-tabs" id="catTabs"></nav>
+    <div class="river" id="river"></div>
+  </section>
+
+  <!-- Article reading view -->
+  <div class="reader-progress" id="readerProgress"></div>
+  <section class="reader" id="reader" style="display:none">
+    <div class="reader-inner">
+      <div class="reader-nav">
+        <span class="reader-back" id="readerBack">&larr; 返回列表</span>
+        <span class="reader-tag" id="readerTag"></span>
+      </div>
+      <h1 class="reader-title" id="readerTitle"></h1>
+      <div class="reader-meta" id="readerMeta"></div>
+      <div class="reader-actions reader-actions-top" id="readerActionsTop"></div>
+      <div class="translate-bar" id="translateBar" style="display:none">
+        <button class="translate-btn" id="translateBtn" onclick="translateArticle()">翻译全文</button>
+        <span class="translate-status" id="translateStatus"></span>
+      </div>
+      <article class="reader-body" id="readerBody"></article>
+      <div class="reader-actions reader-actions-bot" id="readerActionsBot"></div>
+    </div>
+  </section>
+
+  <div class="kbd-hint" id="kbdHint">
+    <kbd>J</kbd><kbd>K</kbd> 导航 &nbsp; <kbd>Enter</kbd> 打开 &nbsp; <kbd>Esc</kbd> 返回 &nbsp; <kbd>/</kbd> 搜索
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

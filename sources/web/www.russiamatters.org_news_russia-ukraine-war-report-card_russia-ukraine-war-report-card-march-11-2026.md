@@ -1,0 +1,272 @@
+# The Russia-Ukraine War Report Card, March 11, 2026 | Russia Matters
+
+**原始链接：** https://www.russiamatters.org/news/russia-ukraine-war-report-card/russia-ukraine-war-report-card-march-11-2026
+
+---
+
+Menu
+  * [Analysis](https://www.russiamatters.org/analysis)
+  * [News](https://www.russiamatters.org/news)
+  * [Blog](https://www.russiamatters.org/blog)
+  * [Facts and Documents](https://www.russiamatters.org/facts)
+  * [Contestable Claims](https://www.russiamatters.org/contestable-claims)
+  * [Quoteworthy](https://www.russiamatters.org/quoteworthy)
+  * [Events](https://www.russiamatters.org/events)
+  * [Resources](https://www.russiamatters.org/resources)
+  * [About](https://www.russiamatters.org/about)
+  * [Partners](https://www.russiamatters.org/partners/institutional-partners)
+  * [Subscribe](http://russiamatters.us13.list-manage2.com/subscribe?u=c32e0458934cade1e5881c7df&id=c5ec9e9ad8 "\(opens in a new window\)")
+
+
+Skip to main content
+[Search](https://www.russiamatters.org/search)
+[
+# Russia Matters
+](https://www.russiamatters.org/ "Home")
+[ ![](https://www.russiamatters.org/themes/gesso/images/belferlogo.svg) ](https://www.belfercenter.org/ "\(opens in a new window\)")
+[ ](https://www.russiamatters.org/ "Home")
+## Main Menu
+  * [Analysis](https://www.russiamatters.org/analysis)
+  * [News](https://www.russiamatters.org/news)
+  * [Blog](https://www.russiamatters.org/blog)
+  * [Facts](https://www.russiamatters.org/facts)
+  * [Strategic Documents](https://www.russiamatters.org/strategic-documents)
+  * [Contestable Claims](https://www.russiamatters.org/contestable-claims)
+  * [Resources](https://www.russiamatters.org/resources)
+  * More
+    * [Facts](https://www.russiamatters.org/facts)
+    * [Resources](https://www.russiamatters.org/resources)
+    * [Events](https://www.russiamatters.org/events)
+    * [About](https://www.russiamatters.org/about)
+    * [Partners](https://www.russiamatters.org/partners/institutional-partners)
+
+
+## Utility
+  * [Search](https://www.russiamatters.org/search)
+  * [Subscribe](http://russiamatters.us13.list-manage2.com/subscribe?u=c32e0458934cade1e5881c7df&id=c5ec9e9ad8 "\(opens in a new window\)")
+
+
+# The Russia-Ukraine War Report Card, March 11, 2026
+_Find past issues in the Russia-Ukraine War Report Card  _[ _archive_](https://www.russiamatters.org/news-archive/russia-ukraine-war-report-card "https://www.russiamatters.org/news-archive/russia-ukraine-war-report-card") _.  _
+### March 10, 2026, update 
+RM’s analysis of ISW data for the past four weeks (Feb. 10–March 10, 2026) indicates that Russian forces have lost 57 square miles of Ukraine’s territory (area roughly equivalent to two and a half Manhattan Islands) during that period, a notable contrast to the 182 square miles they gained over the previous four-week period (Jan. 13–Feb. 10, 2026). Additionally, during the past week of March 3–10, 2026,1 Russian forces lost 30 square miles, contrasting with the Russian forces’ gain of 25 square miles of Ukrainian territory in the preceding one-week period of Feb. 24–March 3, 2026, according to ISW data.2 These estimates contrasted with Vladimir Putin’s [description](https://www.pbs.org/newshour/world/ukraine-and-russia-both-claim-progress-on-front-lines-while-u-s-brokered-talks-are-on-hold "\(opens in a new window\)") of the hostilities that he shared with Donald Trump during their March 10 conversation. During the phone call, Putin was [quoted](http://kremlin.ru/events/administration/79294 "\(opens in a new window\)") as telling Trump that the Russian forces are advancing rather successfully and argued this should encourage Kyiv to move toward a negotiated settlement. Speaking the following day, Putin [claimed](https://ria.ru/20260310/spetsoperatsiya-2079771956.html "\(opens in a new window\)") that Kyiv now controls only 15–17% of the territory of the Donetsk Oblast, down from about 25% six months ago. According to ISW’s March 10 [estimate](https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-march-10-2026/ "\(opens in a new window\)"), however, Ukraine presently holds about 19% of this eastern province, which is about 0.8 percentage point less than a Feb. 24 RM [estimate](https://www.russiamatters.org/news/russia-ukraine-war-report-card/russia-ukraine-war-report-card-feb-25-2026).
+### Territorial Control 
+ _(figures as of March 10, 2026) 3_
+![](https://www.russiamatters.org/sites/default/files/media/inline/Artboard%201_1.png)
+## Report Card *****
+### Change in Russia’s control of Ukrainian territory and change in Ukraine’s control of Russian territory
+(Based on data from the [Institute for the Study of War](https://storymaps.arcgis.com/stories/36a7f6a6f5a9448496de641cf64bd375 "\(opens in a new window\)").)
+  * Since Feb. 24, 2022:
+    * Russia: + **29,153** square miles. 13% of Ukraine. (Area roughly equivalent to half the U.S. state of Illinois).
+  * Total area of all Ukrainian territory Russia presently controls, including Crimea and parts of Donbas, that Russia had seized prior to the full-scale invasion on Feb. 24, 2022:
+    * Russia: +45,778 square miles. About 20% of Ukraine. (Area roughly equivalent to the U.S. state of Pennsylvania.)4
+  * In the period of Feb. 10–March 10, 2026: Russian forces lost 57 square miles of Ukrainian territory (are slightly larger than two Manhattan Islands), according to ISW data. During the previous four-week period of Jan. 13–Feb. 10, 2026, Russian forces gained 182 square miles, according to ISW data.
+  * In the past week (March 3–10, 2026): Russia lost 30 square miles of Ukrainian territory (area roughly equivalent to one and a half Manhattan Islands), according to ISW data. During the previous week of Feb. 24–March 3, 2026, Russian forces gained 25 square miles, according to ISW data.
+  * In Russia, Ukraine’s foothold across the Kursk and Belgorod regions was 4 square miles over the past week (March 3–10, 2026), according to ISW data, the same as the previous week (Feb. 24–March 3, 2026). 
+  * According to RM’s measurements using ISW data, from March 11, 2025, to March 10, 2026, Russia captured  **1,993 square miles  **(slightly larger than Alaska’s St. Lawrence Island)—about 0.9% of Ukraine’s total territory of 233,062 square miles at the time of its independence in 1991.
+  * Russia’s average monthly gains for the past 12 months were 170 square miles.
+
+
+### Russian net territorial control in Ukraine by month: February 2022–February 2026 
+(Based on data from the [Institute for the Study of War](https://storymaps.arcgis.com/stories/36a7f6a6f5a9448496de641cf64bd375 "\(opens in a new window\)").) 
+![](https://www.russiamatters.org/sites/default/files/media/inline/wrc-monthly%20%2814%29_0.jpg)
+### Military casualties 
+ _(see footnotes for detailed source estimates)_
+  * 1,000,000 Russian military casualties (killed and wounded), according to a late February 2026 estimate that a highly-informed former high-ranking Western official shared with RM.5
+  * 250,000-300,000 Ukrainian military casualties (killed and wounded), according to a late February 2026 estimate that a highly-informed former high-ranking Western official shared with RM.6
+
+
+### Civilian fatalities7
+  * Russia: [8,000](https://www.kommersant.ru/doc/8461394 "\(opens in a new window\)") killed, according to RF government.
+  * Ukraine: [15,954](https://ukraine.un.org/sites/default/files/2025-12/2025-12-09%20OHCHR%2043rd%20periodic%20report%20on%20Ukraine%20ENG.pdf "\(opens in a new window\)") killed, according to the U.N.
+
+
+### Military vehicles and equipment8
+  * Russia: [24,197](https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html "\(opens in a new window\)") lost. 
+    * Tanks and armored vehicles: [13,913](https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html "\(opens in a new window\)").
+    * Aircraft: [361](https://www.oryxspioenkop.com/2022/03/list-of-aircraft-losses-during-2022.html "\(opens in a new window\)").9
+    * Naval vessels: [29](https://www.oryxspioenkop.com/2022/03/list-of-naval-losses-during-2022.html "\(opens in a new window\)").
+  * Ukraine: [11,554](https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html "\(opens in a new window\)") lost.
+    * Tanks and armored vehicles: [5,650](https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html "\(opens in a new window\)").
+    * Aircraft: [194.](https://www.oryxspioenkop.com/2022/03/list-of-aircraft-losses-during-2022.html "\(opens in a new window\)")
+    * Naval vessels: [42](https://www.oryxspioenkop.com/2022/03/list-of-naval-losses-during-2022.html "\(opens in a new window\)").
+
+
+### Russian aerial attacks and Ukrainian interceptions10
+ **In February 2026**
+  *  **Russia fired:**
+    * 5,732 drones
+    * 34 ballistic missiles
+    * 175 cruise missiles
+  *  **Ukraine intercepted:**
+    * 5,083 drones
+    * 0 ballistic missiles
+    * 132 cruise missiles
+
+
+ **Since September 2022**
+  *  **Russia fired:**
+    * 83,045 drones
+    * 938 ballistic missiles
+    * 4,660 cruise missiles
+  *  **Ukraine intercepted:**
+    * 59,821 drones
+    * 194 ballistic missiles
+    * 3318 cruise missiles
+
+![](https://www.russiamatters.org/sites/default/files/media/inline/drones%20%286%29.png)![](https://www.russiamatters.org/sites/default/files/media/inline/ballistic%20missiles%20%284%29.png)![](https://www.russiamatters.org/sites/default/files/media/inline/cruise%20missiles%20%284%29.png)
+### Citizens displaced
+  * Russia:
+    * Internally displaced: [5,000](https://verstka.media/kurskaya-oblast-god-posle-vtorzheniya-vsu "\(opens in a new window\)") as of August 2025.
+    * [1,000,000](https://russiapost.info/society/back_to_russia "\(opens in a new window\)") (0.7% of Russia’s [2022](https://www.cia.gov/the-world-factbook/about/archives/2022/countries/russia/summaries "\(opens in a new window\)") population) left Russia for economic or political reasons in the first year of the full-scale war. Between [15%](https://www.ft.com/content/5e6bcce9-7bda-4b29-b1b7-f7df6e879fd9 "\(opens in a new window\)") and [45%](https://www.bloomberg.com/news/articles/2024-05-02/russians-who-fled-war-return-in-boost-for-putin-s-war-economy?embedded-checkout=true "\(opens in a new window\)") of those who had left have returned [since then](http://www.russiapost.info/society/back_to_russia "\(opens in a new window\)"), so, between 550,000 and 850,000 people have not returned to Russia.
+  * Ukraine: 10,600,000 displaced Ukrainians, 24% of Ukraine’s pre-invasion population of 44,000,000, including:
+    * Internally displaced: [3,700,000](https://www.iom.int/crisis-ukraine "\(opens in a new window\)").
+    * International refugees: [6,900,000](https://www.iom.int/crisis-ukraine "\(opens in a new window\)").  
+
+
+### Economic impact11
+  * Russia’s cumulative economic growth in 2022–2025: [8](https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG?locations=RU "\(opens in a new window\)")[%](https://www.worldbank.org/ext/en/country/russia "\(opens in a new window\)").
+    * [0.9%](https://www.imf.org/en/Countries/RUS "\(opens in a new window\)") [GDP](https://www.themoscowtimes.com/2025/10/08/world-bank-cuts-russias-growth-outlook-warns-of-long-term-stagnation-a90745 "\(opens in a new window\)") growth estimate for 2025.
+    * Budget deficit in 2025: [2.6%](https://www.reuters.com/business/russia-ran-2025-budget-deficit-26-gdp-highest-since-2020-2026-01-19/ "\(opens in a new window\)") of GDP.
+    * Russian ruble: 0.01278 U.S.  [dollars](https://www.exchange-rates.org/exchange-rate-history/rub-usd-2026 "\(opens in a new window\)"). 9% since the invasion.
+    * 3-year bond yield: [14.7 %](https://tradingeconomics.com/ruge3y:gov "\(opens in a new window\)").
+  * Ukraine’s cumulative economic growth (negative) in 2022-2025: -[21](https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG?locations=UA "\(opens in a new window\)").[2%](https://finance.yahoo.com/news/world-bank-sharply-downgrades-ukraines-144900775.html "\(opens in a new window\)")
+    * [2%](https://www.imf.org/en/Countries/UKR "\(opens in a new window\)") [GDP](https://www.worldbank.org/en/country/ukraine/overview "\(opens in a new window\)") growth estimate for 2025.
+    * Budget deficit estimate for 2025: [18.5%](https://tradingeconomics.com/ukraine/government-budget "\(opens in a new window\)") of GDP.
+    * Ukrainian hryvnia: 0.02275 [U.S. dollars.](https://www.exchange-rates.org/exchange-rate-history/uah-usd-2026 "\(opens in a new window\)") -32% since the invasion.
+    * 3-year bond yield: [22%](https://www.investing.com/rates-bonds/ukraine-3-year-bond-yield "\(opens in a new window\)").
+
+
+### Infrastructure
+ _Check out RM’s timeline of infrastructure damage  _[ _here_](https://infogram.com/energy-costs-1h984wvwvld3d2p "\(opens in a new window\)") _._
+  * Russia estimates: 
+    * An investigation by RFE/RL estimated in March 2025 that Ukrainian strikes on Russia’s energy sector had caused at least 60 billion rubles ([$714 million](https://www.rferl.org/a/ukraine-strikes-russia-economy-oil/33361997.html "\(opens in a new window\)")) in damage.
+    * As of October 2025, Ukrainian drone strikes were reported to have forced nearly 40% of Russia's oil refining capacity offline, with at least 70% of shutdowns directly linked to these strikes, according to the Russian energy market [data](https://www.russiamatters.org/news/russia-ukraine-war-report-card/russia-ukraine-war-report-card-nov-12-2025). According to Reuters’ November 2025, estimate, however, Russia's oil processing has actually fallen just [3%](https://www.reuters.com/business/energy/russia-using-spare-oil-refining-capacity-offset-ukrainian-drone-damage-sources-2025-11-13/ "\(opens in a new window\)") this year despite Ukraine's drone attacks.
+    * In January 2026, Russia’s western border regions, such as the Belgorod Oblast, saw [weeks‑long outages](https://istories.media/news/2026/01/29/pishut-chto-rossiya-i-ukraina-dogovorilis-o-prekrashchenii-udarov-po-obektam-energetiki/ "\(opens in a new window\)") caused by Ukrainian strikes, with heating at only 50% capacity and [thousands](https://www.themoscowtimes.com/2026/02/04/ukrainian-airstrikes-knock-out-power-in-belgorod-region-for-second-time-in-a-month-a91856 "\(opens in a new window\)") without power as of early February 2026.
+    * Around 100,000 customers in the western Russian city of Belgorod were without running water on Feb. 9 after power surges caused by Ukrainian airstrikes, [MT ](https://www.themoscowtimes.com/2026/02/09/thousands-without-running-water-in-belgorod-after-ukrainian-attack-a91896 "\(opens in a new window\)")reported on Feb. 9.
+  * Ukraine estimates: 
+    * Ukraine had lost [80%](https://www.iss.europa.eu/publications/commentary/keeping-lights-how-ukraine-can-build-resilient-energy-system-and-why "\(opens in a new window\)") of its thermal capacity due to Russian attacks as of September 2024.
+    * Some [90%](https://comindis.com/restoration-of-ukraines-energy-infrastructure/ "\(opens in a new window\)") of Ukraine’s thermal power generation was destroyed as of May 2025.
+    * Some [50%](https://comindis.com/restoration-of-ukraines-energy-infrastructure/ "\(opens in a new window\)") of all of Ukraine’s hydropower installations were damaged and [40%](https://comindis.com/restoration-of-ukraines-energy-infrastructure/ "\(opens in a new window\)") destroyed as of May 2025.
+    * Ukraine's energy infrastructure was operating at only about [one third](https://www.brookings.edu/articles/ukraines-energy-sector-is-a-key-battleground-in-the-war-with-russia/ "\(opens in a new window\)") of its pre-invasion generation capacity as of Fall 2025.
+    * In October 2025, Russia was reported to have destroyed [60%](https://www.ft.com/content/2ade480c-012c-47d9-8dde-85022756697c "\(opens in a new window\)") of Ukraine’s gas production ahead of the winter of 2025–2026. 
+    * Ukraine's overall electricity consumption has fallen by around [30%](https://www.kyivpost.com/post/64454 "\(opens in a new window\)") since the launch of the Russian invasion, according to an October 2025 estimate.
+    * ISW estimated in December 2025 that Russia’s strike campaign was [close to splitting](https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-december-15-2025 "\(opens in a new window\)") Ukraine’s power grid east–west, with eastern regions “at the brink” of blackout and Kyiv also at risk while [Washington Post](https://www.washingtonpost.com/world/2025/12/15/ukraine-russia-electricity-energy-infrastructure-attacks/ "\(opens in a new window\)") reported that Kyiv residents were facing up to 16 hours a day without power.
+    * As a result of the Russian attacks, Ukraine’s available generating capacity has fallen from 33.7 GW at the start of the full‑scale invasion to about 14 GW as of January 2026, according to [The Economist](https://www.economist.com/europe/2026/01/04/ukraines-power-grid-is-struggling-under-russias-blitz "\(opens in a new window\)"). The resulting outages have produced blackouts of several days in parts of Ukraine, The Economist wrote in January 2026.12
+    * Russian attacks on Ukraine’s rail network “have caused $5.8 billion in damages since the start of the invasion,” according to a December 2025 report by [WSJ.](https://www.wsj.com/world/russia-ukraine-rail-network-target-1131796d "\(opens in a new window\)")
+    * Ukrainian energy provider DTEK’s CEO said in late January 2026 Ukraine has lost about 70% of its generation capacity and many civilians get only 3–4 hours of electricity daily, driving roughly 600,000 people to leave Kyiv, according to a Jan. 29, 2026, report by [Istories.](https://istories.media/news/2026/01/29/pishut-chto-rossiya-i-ukraina-dogovorilis-o-prekrashchenii-udarov-po-obektam-energetiki/ "\(opens in a new window\)") DTEK then said Russia’s Feb. 3 assault “dealt the most powerful blow to the energy sector since the beginning of the year,” [WP reported](https://www.washingtonpost.com/world/2026/02/03/trump-war-russia-ukraine-attacks-power-sector/ "\(opens in a new window\)").
+    * From early October 2025 through mid‑January 2026, Ukraine’s intelligence service logged 256 drone and missile strikes on energy facilities: 11 on hydroelectric plants, 94 on thermal plants and 151 on substations. Ukraine’s energy minister Denys Shmyhal said on Jan. 16 that “there is not a single power plant in Ukraine that the enemy has not attacked” and that “thousands of megawatts of generation have been knocked out,” according to [The New Yorker](https://www.newyorker.com/news/the-lede/the-assault-on-ukraines-power-grid#rid=f614a6e1-eeeb-4b77-865f-d2d3d0c2f620&q=russia "\(opens in a new window\)").
+    * Every power plant in Ukraine has been damaged by Russian attacks, according to [Volodymyr Zelenskyy’s February 2026 estimate](https://www.barrons.com/news/zelensky-says-all-ukrainian-power-plants-damaged-calls-putin-slave-to-war-adff32bb "\(opens in a new window\)").
+    * At one point, about half of Kyiv’s 12,000 apartment buildings lost heating because of the Russian attacks over the last week, according to a February 2026 estimate reported by [Financial Times](https://www.ft.com/content/ad264479-52bb-4a63-bc87-e40d6f0a01c0 "\(opens in a new window\)").
+    * At least two-thirds of Ukraine’s energy production capacity has been destroyed, damaged or occupied by Russia since the fall of 2024, according to an estimate by Western military officials reported by [Times of London](https://www.thetimes.com/world/russia-ukraine-war/article/putin-accept-us-security-guarantees-ukraine-t28s0zn5w?gaa_at=eafs&gaa_n=AWEtsqeYi148vfOTliJtkqBVt5EtyLB-kSoAavWC_ZYiF1ZIbP4GO4xDkkDTcQmtInA%3D&gaa_ts=69a7114f&gaa_sig=y9HWD1GGfsw5yM4LXA4sj9it8UUt59ft9Mzy13kPDewrJ_3n5Hd5kZ8hk8M6w9YghLWcP8CGVYiiPE-cN3bRvA%3D%3D "\(opens in a new window\)") in late February 2026.
+
+
+### Popular support
+  * Russia: A record high of [67%](https://www.levada.ru/2026/03/03/konflikt-s-ukrainoi-v-fevrale-2026-goda/ "\(opens in a new window\)") support peace negotiations.13
+  * Ukraine: [25%](http://www.kiis.com.ua/?lang=eng&cat=reports&id=1589&page=1 "\(opens in a new window\)") believe the current negotiations will lead to lasting peace in Ukraine.
+
+
+ **Other criteria which may be even more important (about which we continue to search for reliable indicators):**
+  * Ammunition supply
+  * Drone supply
+  * Foreign military aid
+  * Force generation
+  * Military leadership
+  * Training
+  * Morale
+  * Control of strategic locations
+  * Information war: with U.S./Europe; with world.
+
+![](https://www.russiamatters.org/sites/default/files/media/inline/image_121.png)
+ 
+#### Endnotes
+  1. For the purposes of this product, RM counts durations exclusively (e.g. Tuesday to Tuesday is a seven day period).
+  2. In the period of March 3–10, 2026, the Russian forces occupied [Sopych](https://deepstatemap.live/en#dl!coords!51.84883947940839,34.36300277709962 "\(opens in a new window\)") and advanced near the following settlements: [Dorozhnyanka](https://deepstatemap.live/en#13/47.6017461/36.2189922 "\(opens in a new window\)"), [Hryshyne](https://deepstatemap.live/en#14/48.3340161/37.0709656 "\(opens in a new window\)"), [Huliaypole](https://deepstatemap.live/en#14/47.6567457/36.2501613 "\(opens in a new window\)"), [Pokrovka](https://deepstatemap.live/en#13/50.8080955/35.3996576 "\(opens in a new window\)"), [Popivka](https://deepstatemap.live/en#14/50.7731618/35.4644680 "\(opens in a new window\)"), [Vysoke](https://deepstatemap.live/en#15/50.7492136/35.4661417 "\(opens in a new window\)"), [Komarivka](https://deepstatemap.live/en#14/51.7173539/34.2992306 "\(opens in a new window\)"), [Piddubne](https://deepstatemap.live/en#14/48.0304141/36.6612053 "\(opens in a new window\)"), [Bessalivka](https://deepstatemap.live/en#14/51.2702998/34.3925285 "\(opens in a new window\)"), [Stupochky](https://deepstatemap.live/en#14/48.5406040/37.8114223 "\(opens in a new window\)") and [Udachne](https://deepstatemap.live/en#14/48.2604006/36.9919968 "\(opens in a new window\)"), according to DeepState, a Ukrainian OSINT group associated with the country’s MoD. DeepState reported no advancements by the Ukrainian forces in that period in its [map](https://deepstatemap.live/ "\(opens in a new window\)") update section.
+  3. Production note. RM’s map graphics incorporate publicly shared map features from ISW, ESRI, AParrish1 (European countries) and collab2021_Fleming (Black Sea).
+  4. RM’s methodology sums  **three**  ISW map layers to arrive at its totals each week rather than  **two**  (specifically, RM adds “Claimed Russian control over Ukrainian territory” to “Assessed Russian-controlled Ukrainian territory” and “Assessed Russian Advances in Ukraine”). 
+  5. Here are more estimates of Russian servicemen killed and injured [in chronological order]:
+    1. [600,000](https://truthsocial.com/@realDonaldTrump/posts/113615912452824634 "\(opens in a new window\)") killed or injured, according to Trump’s December 2024 estimate.
+    2. Almost [1,000,000](https://www.politico.eu/article/donald-trump-vladimir-putin-russia-ukraine-war-destroying/ "\(opens in a new window\)") killed, according to Trump’s January 2025 estimate.
+    3. More than [750,000](https://www.dni.gov/files/ODNI/documents/assessments/ATA-2025-Unclassified-Report.pdf "\(opens in a new window\)") killed or injured, according to a March 2025 estimate by DNI/U.S. intelligence community.
+    4. More than [790,000](https://www.armed-services.senate.gov/imo/media/doc/general_cavoli_opening_statements.pdf "\(opens in a new window\)") killed or injured, according to an April 2025 estimate by then-SACEUR Cavoli. [84,568](http://themoscowtimes.com/2025/04/24/ukraine-says-it-received-84k-missing-person-requests-from-families-of-russian-soldiers-a88866 "\(opens in a new window\)") missing, according to an April 2025 estimate by the Ukrainian Coordination Center for the Treatment of Prisoners of War.
+    5. [950,000](https://www.csis.org/analysis/russias-battlefield-woes-ukraine "\(opens in a new window\)") killed or injured, according to CSIS’s June 2025 estimate, including 250,000 killed and 700,000 injured.
+    6. More than [1,000,000](https://x.com/DefenceHQ/status/1933073278408478992?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1933073278408478992%7Ctwgr%5E0645584838f64bf172387fd1909a2c5f7cef6eef%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fukdefencejournal.org.uk%2Frussian-casualties-in-ukraine-have-now-likely-hit-the-1-million-mark%2F "\(opens in a new window\)"), including 250,000 killed, according to the U.K. Defense Ministry’s June 2025 estimate.
+    7. 219,000 Russian soldiers killed in the Ukraine war, according to Meduza and Mediazona’s [August 2025 estimate.](https://istories.media/news/2025/08/29/bolee-200-tis-rossiiskikh-soldat-pogibli-na-voine-v-ukraine-meduza-i-mediazona/ "\(opens in a new window\)")
+    8. [Some 1,000,000 ](https://www.ft.com/content/05d7d28e-8e9e-49e6-844f-57009ba98a62 "\(opens in a new window\)")in casualties, including 240,000 KIAs, according to then-British spy chief Richard Moore’s September 2025 estimate.
+    9. Some 1[,168,000](https://x.com/DefenceHQ/status/1995804832376951120 "\(opens in a new window\)") killed and wounded, according to the U.K. Ministry of Defense’s December 2025 estimate.
+    10. [1,100,000](https://www.ft.com/content/0f499ef6-323c-4000-87eb-930eded3a9ee "\(opens in a new window\)") casualties, according to ex-CIA director William Burns’ January 2026 interview in FT.
+    11. 1,200,000 Russian military casualties (killed, wounded and missing) with as many as 325,000 killed between February 2022 and December 2025, according to [CSIS](https://www.csis.org/analysis/russias-grinding-war-ukraine "\(opens in a new window\)")’s January 2026 estimate.
+    12. [1,000,000](https://raport.valisluureamet.ee/2026/en/ "\(opens in a new window\)")Russian soldiers have been killed or wounded, according to a February 2026 estimate by the Estonian Foreign Intelligence Service.
+    13. 1,200,000 casualties, including killed and wounded, according to a February 2026 estimate by Western officials reported by [Bloomberg](https://www.bloomberg.com/news/articles/2026-02-15/russia-s-losses-boosting-reliance-on-foreign-fighters-uk-says "\(opens in a new window\)"). The unnamed officials estimate that this casualty total includes 430,000 casualties in 2024 and 415,000 casualties in 2025.
+    14. More than [200,000](https://www.themoscowtimes.com/2026/02/24/verified-russian-deaths-in-ukraine-war-exceed-200k-independent-tally-shows-a92031 "\(opens in a new window\)") identified as killed, according to a February 2026 estimate by Mediazona and BBC.
+    15. 1,100,000-1,400,000 casualties including 230,000–430,000 dead, according to a February 2026 estimate by [The Economist](https://www.economist.com/graphic-detail/2026/02/23/how-russias-fatalities-compare-with-ukraines "\(opens in a new window\)").
+    16. 1,200,000 casualties, including 325,000 killed, according to a February 2026 estimate by [Wall Street Journal](https://www.wsj.com/world/as-war-enters-fifth-year-ukraine-shows-russian-victory-is-anything-but-inevitable-7898d921 "\(opens in a new window\)").
+  6. Here are more estimates of Ukrainian servicemen killed and injured [in chronological order]:
+    1. [400,000](https://truthsocial.com/@realDonaldTrump/posts/113615912452824634 "\(opens in a new window\)") killed or injured, according to Trump’s December 2024 estimate. 35,000 missing.
+    2. [43,000](https://www.politico.eu/article/ukraine-volodymyr-zelenskyy-announces-its-total-military-casualties-first-time/ "\(opens in a new window\)") Ukrainian soldiers have been killed and [370,000](https://www.politico.eu/article/ukraine-volodymyr-zelenskyy-announces-its-total-military-casualties-first-time/ "\(opens in a new window\)") injured, according to Zelenskyy’s December 2024 estimate.
+    3. [700,000](https://www.politico.eu/article/donald-trump-vladimir-putin-russia-ukraine-war-destroying/ "\(opens in a new window\)") killed, according to Trump’s January 2025 estimate.
+    4. [100,000](https://www.cbsnews.com/news/ukraine-president-volodymyr-zelenskyy-2025-60-minutes-interview-transcript/?ftag=CNM-00-10aab5j&linkId=797111036 "\(opens in a new window\)") killed, according to Zelenskyy’s April 2025 estimate.
+    5.  [400,000](https://www.csis.org/analysis/russias-battlefield-woes-ukraine "\(opens in a new window\)") killed or injured, according to CSIS’s June 2025 estimate, including somewhere between 60,000 and 100,000 killed and 300,000-340,000 injured.
+    6. [73,000–140,000](https://www.economist.com/interactive/graphic-detail/2025/07/09/russias-summer-ukraine-offensive-looks-like-its-deadliest-so-far "\(opens in a new window\)") killed, according to The Economist’s July 2025 estimate.
+    7. [140,000 killed](https://www.bbc.com/news/articles/c62n922dnw7o "\(opens in a new window\)"), according to BBC’s December 2025 estimate.
+    8. 500,000–600,000 Ukrainian military casualties, including killed, wounded and missing, and between 100,000 and 140,000 fatalities between February 2022 and December 2025, according to [CSIS](https://www.csis.org/analysis/russias-grinding-war-ukraine "\(opens in a new window\)")’s January 2026 estimate [55,000](https://meduza.io/en/news/2026/02/05/zelensky-says-55-000-ukrainian-soldiers-have-died-in-the-full-scale-war-with-russia-open-source-data-suggests-a-higher-toll "\(opens in a new window\)") Ukrainian soldiers have been killed, according to Ukrainian president Volodymyr Zelenskyy’s February 2026 estimate.
+    9. 500,000–600,000 killed, wounded or missing, according to a February 2026 estimate by [RFE/RL](https://www.rferl.org/a/ukraine-war-anniversary-ceremonies-peace-talks/33688301.html "\(opens in a new window\)").
+  7. RM cannot verify military or civilian casualty figures or equipment losses estimated by various sources cited in this card.
+  8. Oryx, “Attack On Europe: Documenting Equipment Losses During The 2022 Russian Invasion Of Ukraine,” _Oryx_ (blog), [https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html](https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html "\(opens in a new window\)"); “The Military Balance 2022,” IISS, [https://www.iiss.org/publications/the-military-balance/the-military-balance-2022](https://www.iiss.org/publications/the-military-balance/the-military-balance-2022 "\(opens in a new window\)"); Oryx, “List Of Aircraft Losses During The Russian Invasion Of Ukraine,” [https://www.oryxspioenkop.com/2022/03/list-of-aircraft-losses-during-2022.html](https://www.oryxspioenkop.com/2022/03/list-of-aircraft-losses-during-2022.html "\(opens in a new window\)"); Oryx, “List of Naval Losses During The Russian Invasion Of Ukraine,” [https://www.oryxspioenkop.com/2022/03/list-of-naval-losses-during-2022.html](https://www.oryxspioenkop.com/2022/03/list-of-naval-losses-during-2022.html "\(opens in a new window\)").  
+  9. Oryx has not updated tallies of either Russian or Ukrainian lost aircraft and naval vessels since Jan. 7, 2026.
+  10. Jensen, Benjamin and Yasir Atalan, “Russian Firepower Strike Tracker: Analyzing Missile Attacks in Ukraine,”  _Center for Strategic and International Studies_ , December 17, 2024, [https://www.csis.org/programs/futures-lab/projects/russian-firepower-strike-tracker-analyzing-missile-attacks-ukraine?f%5B0%5D=content_type%3Aarticle&f%5B1%5D=content_type%3Areport](https://www.csis.org/programs/futures-lab/projects/russian-firepower-strike-tracker-analyzing-missile-attacks-ukraine?f%5B0%5D=content_type%3Aarticle&f%5B1%5D=content_type%3Areport "\(opens in a new window\)"). Note that due to limitations associated with refreshing of attack and intercept data, this section of the scorecard is updated once a month.
+  11. International Monetary Fund, World Bank, and Russian estimates. “Russia and Ukraine 3-Year Bond Yield,” Investing.com, [https://www.investing.com/rates-bonds/russia-3-year-bond-yield](https://www.investing.com/rates-bonds/russia-3-year-bond-yield "\(opens in a new window\)"); World Bank Group, “Europe and Central Asia Economic Update,” [https://openknowledge.worldbank.org/server/api/core/bitstreams/94bdc078-9c64-4833-992a-fda7b3d1a640/content](https://openknowledge.worldbank.org/server/api/core/bitstreams/94bdc078-9c64-4833-992a-fda7b3d1a640/content "\(opens in a new window\)"); World Bank, “Russian Federation MPO,” [https://thedocs.worldbank.org/en/doc/d5f32ef28464d01f195827b7e020a3e8-0500022021/related/mpo-rus.pdf](https://thedocs.worldbank.org/en/doc/d5f32ef28464d01f195827b7e020a3e8-0500022021/related/mpo-rus.pdf "\(opens in a new window\)"); Trading Economics, “Russia 3-Year Bond Yield,” [https://tradingeconomics.com/ruge3y:gov](https://tradingeconomics.com/ruge3y:gov "\(opens in a new window\)"); World Bank, “The World Bank in Ukraine,” [https://www.worldbank.org/en/country/ukraine/overview#3](https://www.worldbank.org/en/country/ukraine/overview#3 "\(opens in a new window\)"); [https://www.exchange-rates.org/exchange-rate-history/rub-usd-2024-11-01](https://www.exchange-rates.org/exchange-rate-history/rub-usd-2024-11-01 "\(opens in a new window\)"). This count does not include the [loss](http://kyivindependent.com/russia-hits-ukrainian-vessel-killing-1-crew-member-injuring-others-navy-says/ "\(opens in a new window\)") of the Ukrainian reconnaissance warship near the mouth of the Danube river where it was attacked by a Russian naval drone on Aug. 28, 2025.
+  12. Earlier, a different estimate of Ukraine’s generating capacity and damage to it was provided by RM and CSIS: as of 2024, some 64%, or [36 out of Ukraine’s 56 GW](https://www.russiamatters.org/news/russia-ukraine-war-report-card/russia-ukraine-war-report-card-june-25-2024) electricity generating capacity destroyed or occupied. Combining the occupied, destroyed and damaged power capacities, Ukraine has lost a total of approximately 48% (27 gigawatts) of its pre-war installed capacity of 56.1 GW, according to an alternative estimate in a July 2025 report by [CSIS](https://www.csis.org/analysis/striving-access-security-and-sustainability "\(opens in a new window\)").
+  13. The Russian Field pollster [surveyed](https://t.me/russian_field_soc/3166?single "\(opens in a new window\)") Russians on the conflict in mid-February 2026 and found that 53% of respondents believe a transition to peace negotiations should be made while 38% favored the continuation of the military operation.
+
+
+ _*  This card was produced by RM staff and Belfer Center Avoiding Great Power War Project’s researcher Quinn Urich._
+Sections
+## Jump to Section
+  1. March 10, 2026, update  See More
+  2. Territorial Control  See More
+  3. Report Card *****
+    1. Change in Russia’s control of Ukrainian territory and change in Ukraine’s control of Russian territory See More
+    2. Russian net territorial control in Ukraine by month: February 2022–February 2026  See More
+    3. Military casualties  See More
+    4. Civilian fatalities7 See More
+    5. Military vehicles and equipment8 See More
+    6. Russian aerial attacks and Ukrainian interceptions10 See More
+    7. Citizens displaced See More
+    8. Economic impact11 See More
+    9. Infrastructure See More
+    10. Popular support See More
+[Show More](javascript:void\(0\))[See More](javascript:void\(0\)) See More
+
+
+[
+## Click to Subscribe
+## 
+Russia Matters offers weekly news and analysis digests, event announcements and media advisories. Choose and sign up here! ](https://russiamatters.us13.list-manage.com/subscribe?u=c32e0458934cade1e5881c7df&id=c5ec9e9ad8 "\(opens in a new window\)")
+[ ![Russia-Ukraine War Report Card Archive](https://www.russiamatters.org/sites/default/files/media/icons/folder_2.svg) Russia-Ukraine War Report Card ](https://www.russiamatters.org/news-archive/russia-ukraine-war-report-card)
+[ ![](https://www.russiamatters.org/themes/gesso/images/belferlogo.svg) ](https://www.belfercenter.org/ "\(opens in a new window\)")
+## Footer Menu
+  * [Home](https://www.russiamatters.org/)
+  * [Analysis](https://www.russiamatters.org/analysis)
+  * [News](https://www.russiamatters.org/news)
+  * [Blog](https://www.russiamatters.org/blog)
+  * [Facts and Documents](https://www.russiamatters.org/facts)
+  * [Contestable Claims](https://www.russiamatters.org/contestable-claims)
+  * [Quoteworthy](https://www.russiamatters.org/quoteworthy)
+  * [Events](https://www.russiamatters.org/events)
+  * [Resources](https://www.russiamatters.org/resources)
+  * [About](https://www.russiamatters.org/about)
+  * [Partners](https://www.russiamatters.org/partners/institutional-partners)
+  * [Subscribe](http://russiamatters.us13.list-manage2.com/subscribe?u=c32e0458934cade1e5881c7df&id=c5ec9e9ad8 "\(opens in a new window\)")
+  * [Search](https://www.russiamatters.org/search)
+
+
+[Republication Guidelines](https://www.russiamatters.org/node/7406 "Republication Guidelines")
+[Facebook ](https://www.facebook.com/russiamattersorg/ "Follow us on Facebook \(opens in a new window\)") [Twitter ](https://twitter.com/russia_matters "Follow us on Twitter \(opens in a new window\)")
+© Russia Matters 2026 | This project has been made possible with support from Carnegie Corporation of New York.
+## Footer Utiltity
+  * [Privacy Policy](https://www.russiamatters.org/node/2284)
+
+
+Back to Top
+Close menu
