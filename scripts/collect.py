@@ -1424,12 +1424,9 @@ def collect_conflict(conflict_id, config, seen_urls, date_filter):
         print(f"    [reddit] search failed: {e}", file=sys.stderr)
         reddit_results = []
     new_reddit = [r for r in reddit_results if _should_add(r["url"])]
-    reddit_urls = [r["url"] for r in new_reddit]
-    if reddit_urls:
-        run_xcrawl_scrape(reddit_urls, SOURCES_DIR / "reddit")
     for r in new_reddit:
-        safe = r["url"].replace("https://", "").replace("http://", "").replace("/", "_")[:100]
-        local_file = _find_local_file(SOURCES_DIR / "reddit", safe, r["url"])
+        # Use dedicated Reddit fetcher (ScrapeCreators API), not generic xcrawl
+        local_file = fetch_reddit_thread(r["url"], SOURCES_DIR / "reddit")
         items.append({
             "title": r.get("title", ""),
             "summary": r.get("snippet", ""),
