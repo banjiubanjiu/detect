@@ -1593,7 +1593,17 @@ def collect():
         except Exception:
             pass
 
-    # Phase 1: Collect data per conflict
+    # Phase 0: RSS feeds (fast, reliable, no rate limits)
+    print("[RSS] 采集 RSS 源...")
+    try:
+        from rss_feeds import fetch_rss, merge_rss_items, generate_feed
+        rss_items = fetch_rss()
+        rss_added = merge_rss_items(rss_items)
+        print(f"  RSS 完成: {rss_added} 条新增\n")
+    except Exception as e:
+        print(f"  RSS 跳过: {e}\n")
+
+    # Phase 1: Collect data per conflict (scraping)
     all_items = []  # flat list of all NEW items across conflicts
     conflict_items = {}  # conflict_id -> list of new items
 
@@ -1824,6 +1834,14 @@ def collect():
     print(f"  {summary_line}")
     print(f"  数据文件: {output_path}")
     print(f"  存档: {archive_path}")
+
+    # Phase 7: Generate RSS feed
+    print("[RSS] 生成 feed.xml...")
+    try:
+        from rss_feeds import generate_feed
+        generate_feed()
+    except Exception as e:
+        print(f"  RSS 输出跳过: {e}")
 
     # Append to run log for monitoring
     run_log = DATA_DIR / "run_log.txt"

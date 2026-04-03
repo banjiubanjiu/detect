@@ -8,8 +8,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600&family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="alternate" type="application/rss+xml" title="战况追踪 RSS" href="feed.xml">
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/globe.gl@2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9/dist/leaflet.css"/>
   <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9/dist/leaflet.js"></script>
 </head>
@@ -23,6 +25,7 @@
         <p class="mast-sub">Global Conflict Monitor</p>
       </div>
       <div class="mast-right">
+        <a class="rss-link" href="feed.xml" title="RSS 订阅" target="_blank">RSS</a>
         <span class="lang-toggle" id="langToggle" onclick="toggleLang()">EN/中</span>
         <time class="mast-date" id="mastDate"></time>
       </div>
@@ -57,6 +60,18 @@
 
   <!-- Overview (default view) -->
   <section class="overview" id="overview"></section>
+
+  <!-- Hot reports + Force graph row -->
+  <section class="viz-row" id="vizRow">
+    <div class="viz-panel">
+      <h3 class="viz-heading">热门报道 <span class="viz-sub">TOP 10 by engagement</span></h3>
+      <div class="hot-list" id="hotList"></div>
+    </div>
+    <div class="viz-panel">
+      <h3 class="viz-heading">冲突关系图谱 <span class="viz-sub">force-directed graph</span></h3>
+      <div class="force-wrap" id="forceWrap"></div>
+    </div>
+  </section>
 
   <!-- Global timeline view -->
   <section class="timeline" id="timeline" style="display:none"></section>

@@ -233,6 +233,7 @@ function showOverview() {
   document.getElementById('timeline').style.display = 'none';
   document.getElementById('viewToggle').style.display = '';
   document.getElementById('globeSection').style.display = '';
+  document.getElementById('vizRow').style.display = '';
 
   const el = document.getElementById('overview');
   const sorted = Object.entries(D.conflicts).sort((a, b) => {
@@ -245,8 +246,52 @@ function showOverview() {
     return bTotal - aTotal;
   });
 
+  // KPI stats
+  const allConflictItems = Object.values(D.conflicts).flatMap(c => Object.values(c.categories).flatMap(cat => cat.items));
+  const totalReports = allConflictItems.length;
+  const now = new Date();
+  const weekAgo = new Date(now - 7 * 86400000);
+  const week2Ago = new Date(now - 14 * 86400000);
+  const thisWeek = allConflictItems.filter(it => it.date && new Date(it.date) >= weekAgo).length;
+  const lastWeek = allConflictItems.filter(it => it.date && new Date(it.date) >= week2Ago && new Date(it.date) < weekAgo).length;
+  const weekDelta = thisWeek - lastWeek;
+  const weekArrow = weekDelta > 0 ? '↑' : weekDelta < 0 ? '↓' : '→';
+  const weekColor = weekDelta > 0 ? 'var(--red)' : weekDelta < 0 ? 'var(--green)' : 'var(--ink-25)';
+  const sources = new Set(allConflictItems.map(it => it.source_label || it.source));
+  const t1 = allConflictItems.filter(it => credTier(it) === 't1').length;
+  const t1pct = totalReports ? Math.round(t1 / totalReports * 100) : 0;
+  const wars = Object.values(D.conflicts).filter(c => c.intensity === 'war').length;
+  const hottest = sorted[0] ? D.conflicts[sorted[0][0]].name : '—';
+
   el.innerHTML = `
     <h2 class="ov-title">全球冲突态势总览 <span style="font-family:var(--mono);font-size:12px;font-weight:400;color:var(--ink-40);margin-left:8px">${sorted.length} active</span></h2>
+    <div class="kpi-strip">
+      <div class="kpi-cell">
+        <div class="kpi-val">${sorted.length}</div>
+        <div class="kpi-label">活跃冲突</div>
+        <div class="kpi-sub">${wars} 场战争</div>
+      </div>
+      <div class="kpi-cell">
+        <div class="kpi-val">${totalReports}</div>
+        <div class="kpi-label">总报道</div>
+        <div class="kpi-sub">${sources.size} 个信息源</div>
+      </div>
+      <div class="kpi-cell">
+        <div class="kpi-val" style="color:${weekColor}">+${thisWeek} <span class="kpi-arrow">${weekArrow}</span></div>
+        <div class="kpi-label">本周新增</div>
+        <div class="kpi-sub">上周 ${lastWeek}</div>
+      </div>
+      <div class="kpi-cell">
+        <div class="kpi-val">${t1pct}%</div>
+        <div class="kpi-label">T1 权威源</div>
+        <div class="kpi-sub">智库/机构/通讯社</div>
+      </div>
+      <div class="kpi-cell">
+        <div class="kpi-val kpi-hot">${hottest}</div>
+        <div class="kpi-label">最活跃冲突</div>
+        <div class="kpi-sub">${sorted[0] ? Object.values(D.conflicts[sorted[0][0]].categories).reduce((s,c)=>s+c.items.length,0) + ' reports' : ''}</div>
+      </div>
+    </div>
     ${sorted.map(([k, c], i) => {
       const total = Object.values(c.categories).reduce((s, cat) => s + cat.items.length, 0);
       const allItems = Object.values(c.categories).flatMap(cat => cat.items);
@@ -281,6 +326,171 @@ function showOverview() {
       showConflict();
     };
   });
+
+  renderHotReports();
+  renderForceGraph();
+}
+
+/* ═══ Hot Reports ═══ */
+function renderHotReports() {
+  const el = document.getElementById('hotList');
+  if (!el) return;
+
+  const scored = [];
+  for (const [k, c] of Object.entries(D.conflicts)) {
+    for (const cat of Object.values(c.categories)) {
+      for (const it of cat.items) {
+        const m = it.metrics || {};
+        const s = (m.likes||0) + (m.retweets||0)*2 + (m.score||0) + (m.comments||0);
+        if (s > 0) scored.push({ ...it, _score: s, _conflict: k, _cname: c.name });
+      }
+    }
+  }
+  scored.sort((a, b) => b._score - a._score);
+  const top = scored.slice(0, 10);
+
+  const srcIcon = { x:'𝕏', reddit:'⬡', youtube:'▶', web:'◉' };
+
+  el.innerHTML = top.map((it, i) => `
+    <div class="hot-item" data-k="${it._conflict}" data-id="${it.id}">
+      <span class="hot-rank ${i < 3 ? 'top3' : ''}">${i + 1}</span>
+      <div class="hot-body">
+        <div class="hot-title">${esc(it.title)}</div>
+        <div class="hot-meta">${srcIcon[it.source]||'◉'} ${it._cname} · ${it.date || ''}</div>
+      </div>
+      <span class="hot-score">${formatScore(it._score)}</span>
+    </div>
+  `).join('');
+
+  el.querySelectorAll('.hot-item').forEach(item => {
+    item.onclick = () => {
+      conflict = item.dataset.k;
+      tab = 'military';
+      document.querySelectorAll('.rn-chip').forEach(x => x.classList.toggle('on', x.dataset.k === conflict));
+      showConflict();
+    };
+  });
+}
+
+function formatScore(n) {
+  if (n >= 1000) return (n/1000).toFixed(1) + 'k';
+  return String(n);
+}
+
+/* ═══ Force Graph ═══ */
+function renderForceGraph() {
+  const wrap = document.getElementById('forceWrap');
+  if (!wrap || typeof d3 === 'undefined') return;
+  wrap.innerHTML = '';
+
+  const w = wrap.clientWidth;
+  const h = wrap.clientHeight || 320;
+
+  const COLORS = { war:'#b82818', conflict:'#c86020', tension:'#b89818' };
+  const nodes = [];
+  const links = [];
+  const nodeMap = {};
+
+  // Add conflict nodes
+  for (const [k, c] of Object.entries(D.conflicts)) {
+    const total = Object.values(c.categories).reduce((s, cat) => s + cat.items.length, 0);
+    const node = { id: k, label: c.name, type: 'conflict', intensity: c.intensity, r: Math.max(12, Math.sqrt(total) * 4) };
+    nodes.push(node);
+    nodeMap[k] = node;
+  }
+
+  // Add party nodes and links
+  for (const [k, c] of Object.entries(D.conflicts)) {
+    for (const party of (c.parties || [])) {
+      if (!nodeMap[party]) {
+        nodeMap[party] = { id: party, label: party, type: 'actor', r: 6 };
+        nodes.push(nodeMap[party]);
+      }
+      links.push({ source: k, target: party, type: 'party' });
+    }
+    // Related conflict links
+    for (const rel of (c.related || [])) {
+      if (D.conflicts[rel]) {
+        links.push({ source: k, target: rel, type: 'related' });
+      }
+    }
+  }
+
+  // Deduplicate actors that appear in multiple conflicts (shared = thicker link already shown)
+  const svg = d3.select(wrap).append('svg').attr('viewBox', `0 0 ${w} ${h}`);
+
+  const sim = d3.forceSimulation(nodes)
+    .force('link', d3.forceLink(links).id(d => d.id).distance(d => d.type === 'related' ? 60 : 40))
+    .force('charge', d3.forceManyBody().strength(d => d.type === 'conflict' ? -120 : -30))
+    .force('center', d3.forceCenter(w / 2, h / 2))
+    .force('collision', d3.forceCollide(d => d.r + 3))
+    .force('x', d3.forceX(w / 2).strength(0.07))
+    .force('y', d3.forceY(h / 2).strength(0.07));
+
+  const link = svg.append('g')
+    .selectAll('line')
+    .data(links)
+    .join('line')
+    .attr('stroke', d => d.type === 'related' ? '#b82818' : '#c4c0b4')
+    .attr('stroke-width', d => d.type === 'related' ? 1.5 : 0.8)
+    .attr('stroke-dasharray', d => d.type === 'related' ? '4,3' : 'none')
+    .attr('stroke-opacity', 0.5);
+
+  const node = svg.append('g')
+    .selectAll('g')
+    .data(nodes)
+    .join('g')
+    .attr('cursor', 'pointer')
+    .call(d3.drag()
+      .on('start', (e, d) => { if (!e.active) sim.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
+      .on('drag', (e, d) => { d.fx = e.x; d.fy = e.y; })
+      .on('end', (e, d) => { if (!e.active) sim.alphaTarget(0); d.fx = null; d.fy = null; })
+    );
+
+  // Conflict nodes: colored circles
+  node.filter(d => d.type === 'conflict')
+    .append('circle')
+    .attr('r', d => d.r)
+    .attr('fill', d => COLORS[d.intensity] || COLORS.conflict)
+    .attr('fill-opacity', 0.15)
+    .attr('stroke', d => COLORS[d.intensity] || COLORS.conflict)
+    .attr('stroke-width', 1.5);
+
+  node.filter(d => d.type === 'conflict')
+    .append('circle')
+    .attr('r', 4)
+    .attr('fill', d => COLORS[d.intensity] || COLORS.conflict);
+
+  // Actor nodes: small gray dots
+  node.filter(d => d.type === 'actor')
+    .append('circle')
+    .attr('r', d => d.r)
+    .attr('fill', '#8a8a80')
+    .attr('fill-opacity', 0.6);
+
+  // Labels
+  node.append('text')
+    .text(d => d.label)
+    .attr('dy', d => d.type === 'conflict' ? d.r + 12 : d.r + 10)
+    .attr('text-anchor', 'middle')
+    .attr('font-family', 'var(--sans)')
+    .attr('font-size', d => d.type === 'conflict' ? '10px' : '8px')
+    .attr('font-weight', d => d.type === 'conflict' ? '600' : '400')
+    .attr('fill', d => d.type === 'conflict' ? '#1a1a18' : '#8a8a80');
+
+  // Click conflict nodes to navigate
+  node.filter(d => d.type === 'conflict').on('click', (e, d) => {
+    conflict = d.id;
+    tab = 'military';
+    document.querySelectorAll('.rn-chip').forEach(x => x.classList.toggle('on', x.dataset.k === conflict));
+    showConflict();
+  });
+
+  sim.on('tick', () => {
+    link.attr('x1', d => d.source.x).attr('y1', d => d.source.y)
+        .attr('x2', d => d.target.x).attr('y2', d => d.target.y);
+    node.attr('transform', d => `translate(${d.x},${d.y})`);
+  });
 }
 
 /* ═══ Conflict Detail ═══ */
@@ -289,6 +499,7 @@ function showConflict() {
   document.getElementById('overview').style.display = 'none';
   document.getElementById('timeline').style.display = 'none';
   document.getElementById('globeSection').style.display = 'none';
+  document.getElementById('vizRow').style.display = 'none';
   document.getElementById('viewToggle').style.display = 'none';
   document.getElementById('conflictDetail').style.display = '';
 
@@ -712,6 +923,7 @@ function showTimeline() {
   document.getElementById('viewToggle').style.display = '';
   document.getElementById('timeline').style.display = '';
   document.getElementById('globeSection').style.display = 'none';
+  document.getElementById('vizRow').style.display = 'none';
 
   // Collect all items from all conflicts
   const all = [];

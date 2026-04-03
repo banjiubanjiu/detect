@@ -54,6 +54,19 @@ body {
 .mast-title { font-family:var(--serif); font-size:clamp(30px,5vw,44px); font-weight:900; letter-spacing:-1px; line-height:1 }
 .mast-sub { font-family:var(--serif); font-style:italic; font-weight:500; font-size:clamp(12px,1.5vw,15px); color:var(--ink-40); margin-top:4px }
 .mast-date { font-family:var(--mono); font-size:11px; font-weight:500; color:var(--ink-40); text-align:right; line-height:1.5 }
+.rss-link {
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: var(--orange);
+  border: 1px solid var(--orange);
+  padding: 2px 7px;
+  border-radius: 2px;
+  text-decoration: none;
+  transition: background 0.1s;
+}
+.rss-link:hover { background: var(--orange); color: #fff }
 
 /* ═══ Region Nav ═══ */
 .region-nav {
@@ -177,6 +190,143 @@ body {
   margin-bottom: 20px;
   padding-bottom: 12px;
   border-bottom: 2px solid var(--ink);
+}
+
+/* ═══ Viz Row: Hot Reports + Force Graph ═══ */
+.viz-row {
+  max-width: var(--pw);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  padding-bottom: 40px;
+}
+.viz-panel {
+  border: 1px solid var(--ink-08);
+  border-radius: 4px;
+  background: var(--paper);
+  padding: 16px;
+  min-height: 360px;
+}
+.viz-heading {
+  font-family: var(--serif);
+  font-size: 15px;
+  font-weight: 800;
+  margin-bottom: 14px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--ink-08);
+}
+.viz-sub {
+  font-family: var(--mono);
+  font-size: 9px;
+  font-weight: 400;
+  color: var(--ink-25);
+  letter-spacing: 1px;
+  margin-left: 6px;
+}
+
+/* Hot list */
+.hot-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 7px 0;
+  border-bottom: 1px solid var(--ink-04);
+  cursor: pointer;
+  transition: background 0.08s;
+}
+.hot-item:hover { background: var(--cream); margin: 0 -8px; padding-left: 8px; padding-right: 8px; border-radius: 3px }
+.hot-rank {
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--ink-25);
+  min-width: 18px;
+  text-align: right;
+  padding-top: 2px;
+}
+.hot-rank.top3 { color: var(--red); font-weight: 700 }
+.hot-body { flex: 1; min-width: 0 }
+.hot-title {
+  font-size: 12.5px;
+  font-weight: 500;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.hot-meta {
+  font-family: var(--mono);
+  font-size: 9px;
+  color: var(--ink-25);
+  margin-top: 2px;
+}
+.hot-score {
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--ink-60);
+  flex-shrink: 0;
+  padding-top: 2px;
+}
+
+/* Force graph */
+.force-wrap {
+  width: 100%;
+  height: 320px;
+  position: relative;
+}
+.force-wrap svg { width: 100%; height: 100% }
+
+@media (max-width: 640px) {
+  .viz-row { grid-template-columns: 1fr; gap: 16px; padding-bottom: 24px }
+  .viz-panel { min-height: auto }
+  .force-wrap { height: 260px }
+}
+
+/* ═══ KPI Strip ═══ */
+.kpi-strip {
+  display: flex;
+  gap: 0;
+  margin-bottom: 24px;
+  border: 1px solid var(--ink-08);
+  border-radius: 4px;
+  overflow: hidden;
+  background: var(--paper);
+}
+.kpi-cell {
+  flex: 1;
+  padding: 14px 16px;
+  text-align: center;
+  border-right: 1px solid var(--ink-08);
+}
+.kpi-cell:last-child { border-right: none }
+.kpi-val {
+  font-family: var(--serif);
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 1.1;
+}
+.kpi-val.kpi-hot {
+  font-size: 16px;
+  font-weight: 700;
+}
+.kpi-arrow { font-size: 18px }
+.kpi-label {
+  font-family: var(--mono);
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--ink-40);
+  margin-top: 4px;
+}
+.kpi-sub {
+  font-family: var(--sans);
+  font-size: 11px;
+  color: var(--ink-25);
+  margin-top: 2px;
 }
 
 .ov-card {
@@ -1090,6 +1240,10 @@ body {
 @media (max-width: 640px) {
   .mast-inner { flex-direction:column; align-items:flex-start; gap:6px }
   .region-nav { gap:16px; padding:16px 0 0 }
+  .kpi-strip { flex-wrap:wrap }
+  .kpi-cell { min-width:33%; border-bottom:1px solid var(--ink-08); padding:10px 8px }
+  .kpi-val { font-size:20px }
+  .kpi-val.kpi-hot { font-size:13px }
   .ov-card { grid-template-columns:1fr 60px }
   .ov-card-name { font-size:17px }
   .ov-card:hover { margin:0; padding-left:0; padding-right:0 }
