@@ -36,6 +36,37 @@
   --pw: min(900px, 100vw - 32px);
 }
 
+/* ═══ Dark Mode ═══ */
+[data-theme="dark"] {
+  --cream:  #111110;
+  --paper:  #1a1a18;
+  --warm:   #222220;
+  --ink:    #e8e4da;
+  --ink-90: #d8d4ca;
+  --ink-80: #c8c4ba;
+  --ink-60: #a8a49a;
+  --ink-40: #78746a;
+  --ink-25: #58544a;
+  --ink-15: #3a3630;
+  --ink-08: #2a2620;
+  --ink-04: #1e1c18;
+  --rule:   #3a3630;
+
+  --red:    #e84838;
+  --blue:   #4890d8;
+  --amber:  #d8a030;
+  --green:  #48b870;
+  --orange: #e88040;
+
+  --i-war:      #e84838;
+  --i-conflict: #e88040;
+  --i-tension:  #d8a830;
+}
+html[data-theme] body { transition: background 0.3s, color 0.3s }
+[data-theme="dark"] .globe-wrap { border: 1px solid var(--ink-08) }
+[data-theme="dark"] .cd-map { border-color: var(--ink-08) }
+[data-theme="dark"] .briefing-icon { background: var(--red) }
+
 html { font-size: 16px }
 body {
   font-family: var(--sans);
@@ -67,6 +98,20 @@ body {
   transition: background 0.1s;
 }
 .rss-link:hover { background: var(--orange); color: #fff }
+.theme-toggle {
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: var(--ink-40);
+  border: 1px solid var(--ink-15);
+  padding: 2px 7px;
+  border-radius: 2px;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.15s;
+}
+.theme-toggle:hover { color: var(--ink); border-color: var(--ink-40) }
 
 /* ═══ Region Nav ═══ */
 .region-nav {

@@ -99,6 +99,7 @@ const CONFLICT_GEO = {
 let detailMap = null;
 
 async function boot() {
+  initTheme();
   const r = await fetch(DATA);
   D = await r.json();
   mastDate();
@@ -109,6 +110,34 @@ async function boot() {
   showOverview();
   initGlobe();
   wireReader();
+}
+
+/* ═══ Theme ═══ */
+function initTheme() {
+  const saved = localStorage.getItem('theme');
+  if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    document.documentElement.setAttribute('data-theme', 'dark');
+  }
+  updateThemeBtn();
+  document.getElementById('themeToggle').onclick = toggleTheme;
+}
+
+function toggleTheme() {
+  const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+  if (isDark) {
+    document.documentElement.removeAttribute('data-theme');
+    localStorage.setItem('theme', 'light');
+  } else {
+    document.documentElement.setAttribute('data-theme', 'dark');
+    localStorage.setItem('theme', 'dark');
+  }
+  updateThemeBtn();
+}
+
+function updateThemeBtn() {
+  const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+  const btn = document.getElementById('themeToggle');
+  if (btn) btn.textContent = isDark ? 'LIGHT' : 'DARK';
 }
 
 /* ═══ Globe ═══ */
