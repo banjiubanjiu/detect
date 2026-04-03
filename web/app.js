@@ -34,7 +34,49 @@ function credBadge(item) {
   return `<span class="cred-tier cred-${t}" title="${titles[t]}">${titles[t]}</span>`;
 }
 
-let D, conflict = null, tab = 'military', cache = {}, currentView = 'overview', kbIdx = -1;
+let D, conflict = null, tab = 'military', cache = {}, currentView = 'overview', kbIdx = -1, globe = null;
+
+/* ═══ Sparkline ═══ */
+function sparkline(items, intensity, days = 30) {
+  const now = new Date();
+  const buckets = new Array(days).fill(0);
+  for (const it of items) {
+    if (!it.date) continue;
+    const diff = Math.floor((now - new Date(it.date)) / 86400000);
+    if (diff >= 0 && diff < days) buckets[days - 1 - diff]++;
+  }
+  const max = Math.max(...buckets, 1);
+  const w = 120, h = 32, bw = w / days, pad = 1;
+  const color = { war: 'var(--i-war)', conflict: 'var(--i-conflict)', tension: 'var(--i-tension)' }[intensity] || 'var(--ink-25)';
+  const bars = buckets.map((v, i) => {
+    const bh = (v / max) * (h - 2);
+    if (v === 0) return '';
+    return `<rect x="${i * bw + pad/2}" y="${h - bh}" width="${bw - pad}" height="${bh}" rx="0.5"/>`;
+  }).join('');
+  const trend = buckets.slice(-7).reduce((s,v) => s+v, 0) - buckets.slice(-14, -7).reduce((s,v) => s+v, 0);
+  const arrow = trend > 0 ? '↑' : trend < 0 ? '↓' : '→';
+  const arrowColor = trend > 0 ? 'var(--red)' : trend < 0 ? 'var(--green)' : 'var(--ink-25)';
+  return `<div class="spark-wrap">
+    <svg class="spark-svg" viewBox="0 0 ${w} ${h}" fill="${color}" opacity="0.6">${bars}</svg>
+    <span class="spark-trend" style="color:${arrowColor}">${arrow}</span>
+    <span class="spark-label">30d</span>
+  </div>`;
+}
+
+/* ═══ Globe coordinates ═══ */
+const CONFLICT_GEO = {
+  'russia-ukraine':  { lat: 48.5, lng: 35.0, zoom: 5 },
+  'israel-palestine':{ lat: 31.5, lng: 34.5, zoom: 7 },
+  'iran-war':        { lat: 32.4, lng: 53.7, zoom: 5 },
+  'sudan':           { lat: 15.5, lng: 32.5, zoom: 5 },
+  'myanmar':         { lat: 19.7, lng: 96.0, zoom: 5 },
+  'yemen-houthis':   { lat: 15.3, lng: 44.2, zoom: 6 },
+  'congo-drc':       { lat: -2.5, lng: 28.8, zoom: 5 },
+  'syria':           { lat: 35.0, lng: 38.0, zoom: 6 },
+  'taiwan-strait':   { lat: 24.0, lng: 119.0, zoom: 5 },
+};
+
+let detailMap = null;
 
 async function boot() {
   const r = await fetch(DATA);
@@ -45,7 +87,99 @@ async function boot() {
   wireSearch();
   wireKeyboard();
   showOverview();
+  initGlobe();
   wireReader();
+}
+
+/* ═══ Globe ═══ */
+function initGlobe() {
+  const wrap = document.getElementById('globeWrap');
+  if (!wrap || typeof Globe === 'undefined') return;
+
+  const COLORS = { war: '#e74c3c', conflict: '#d87030', tension: '#c89820' };
+  const RINGS  = { war: '#e74c3c', conflict: '#d87030', tension: '#c89820' };
+
+  // Build point data from conflicts
+  const points = Object.entries(D.conflicts).map(([k, c]) => {
+    const geo = CONFLICT_GEO[k];
+    if (!geo) return null;
+    const total = Object.values(c.categories).reduce((s, cat) => s + cat.items.length, 0);
+    return {
+      key: k,
+      lat: geo.lat,
+      lng: geo.lng,
+      name: c.name,
+      name_en: c.name_en,
+      intensity: c.intensity || 'conflict',
+      total,
+      color: COLORS[c.intensity] || COLORS.conflict,
+    };
+  }).filter(Boolean);
+
+  // Rings for active pulsing effect
+  const rings = points.map(p => ({
+    lat: p.lat, lng: p.lng,
+    maxR: p.intensity === 'war' ? 4 : p.intensity === 'conflict' ? 3 : 2,
+    propagationSpeed: p.intensity === 'war' ? 2 : 1.5,
+    repeatPeriod: p.intensity === 'war' ? 800 : 1200,
+    color: RINGS[p.intensity] || RINGS.conflict,
+    key: p.key,
+  }));
+
+  const w = wrap.clientWidth;
+  const h = wrap.clientHeight;
+
+  globe = new Globe(wrap)
+    .width(w)
+    .height(h)
+    .backgroundColor('rgba(0,0,0,0)')
+    .globeImageUrl('//cdn.jsdelivr.net/npm/three-globe/example/img/earth-night.jpg')
+    .atmosphereColor('#8a8a80')
+    .atmosphereAltitude(0.2)
+    // Conflict points
+    .pointsData(points)
+    .pointLat(d => d.lat)
+    .pointLng(d => d.lng)
+    .pointColor(d => d.color)
+    .pointAltitude(d => d.intensity === 'war' ? 0.08 : d.intensity === 'conflict' ? 0.05 : 0.03)
+    .pointRadius(d => d.intensity === 'war' ? 0.5 : d.intensity === 'conflict' ? 0.4 : 0.3)
+    .pointLabel(d => `
+      <div style="font-family:system-ui;font-size:13px;background:rgba(26,26,24,0.92);color:#f4efe6;padding:8px 12px;border-radius:4px;line-height:1.5;border-left:3px solid ${d.color}">
+        <div style="font-weight:700">${d.name}</div>
+        <div style="font-size:11px;opacity:0.7">${d.name_en}</div>
+        <div style="font-size:11px;margin-top:3px">${d.total} reports</div>
+      </div>
+    `)
+    // Pulsing rings
+    .ringsData(rings)
+    .ringLat(d => d.lat)
+    .ringLng(d => d.lng)
+    .ringMaxRadius(d => d.maxR)
+    .ringPropagationSpeed(d => d.propagationSpeed)
+    .ringRepeatPeriod(d => d.repeatPeriod)
+    .ringColor(d => () => d.color)
+    // Click to navigate
+    .onPointClick(d => {
+      conflict = d.key;
+      tab = 'military';
+      document.querySelectorAll('.rn-chip').forEach(x => x.classList.toggle('on', x.dataset.k === conflict));
+      showConflict();
+    });
+
+  // Initial view: center on Middle East / Africa region
+  globe.pointOfView({ lat: 25, lng: 45, altitude: 2.2 }, 0);
+
+  // Auto-rotate
+  const controls = globe.controls();
+  controls.autoRotate = true;
+  controls.autoRotateSpeed = 0.4;
+  controls.enableZoom = false;
+
+  // Responsive resize
+  const ro = new ResizeObserver(() => {
+    globe.width(wrap.clientWidth).height(wrap.clientHeight);
+  });
+  ro.observe(wrap);
 }
 
 function mastDate() {
@@ -98,6 +232,7 @@ function showOverview() {
   document.getElementById('conflictDetail').style.display = 'none';
   document.getElementById('timeline').style.display = 'none';
   document.getElementById('viewToggle').style.display = '';
+  document.getElementById('globeSection').style.display = '';
 
   const el = document.getElementById('overview');
   const sorted = Object.entries(D.conflicts).sort((a, b) => {
@@ -131,6 +266,7 @@ function showOverview() {
           <div class="ov-card-right">
             <span class="ov-count">${total}</span>
             <span class="ov-count-label">reports</span>
+            ${sparkline(allItems, c.intensity)}
           </div>
         </div>
       `;
@@ -152,6 +288,7 @@ function showConflict() {
   currentView = 'conflict';
   document.getElementById('overview').style.display = 'none';
   document.getElementById('timeline').style.display = 'none';
+  document.getElementById('globeSection').style.display = 'none';
   document.getElementById('viewToggle').style.display = 'none';
   document.getElementById('conflictDetail').style.display = '';
 
@@ -180,9 +317,53 @@ function showConflict() {
     cdRight.innerHTML = '';
   }
 
+  initDetailMap(conflict, c);
   renderDataStrip(c);
   renderCatTabs(c);
   renderRiver(c);
+}
+
+function initDetailMap(key, c) {
+  const el = document.getElementById('cdMap');
+  const geo = CONFLICT_GEO[key];
+  if (!geo || typeof L === 'undefined') { el.style.display = 'none'; return; }
+  el.style.display = '';
+
+  // Destroy previous map instance
+  if (detailMap) { detailMap.remove(); detailMap = null; }
+
+  detailMap = L.map(el, { zoomControl: true, scrollWheelZoom: false }).setView([geo.lat, geo.lng], geo.zoom);
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; OSM &amp; CartoDB',
+    maxZoom: 12,
+  }).addTo(detailMap);
+
+  // Conflict zone marker
+  const colors = { war: '#e74c3c', conflict: '#d87030', tension: '#c89820' };
+  const color = colors[c.intensity] || colors.conflict;
+
+  // Pulsing circle
+  L.circleMarker([geo.lat, geo.lng], {
+    radius: 18, color: color, fillColor: color, fillOpacity: 0.15, weight: 1.5,
+  }).addTo(detailMap);
+  L.circleMarker([geo.lat, geo.lng], {
+    radius: 6, color: color, fillColor: color, fillOpacity: 0.8, weight: 0,
+  }).addTo(detailMap);
+
+  // Related conflicts as smaller markers
+  const related = (c.related || []).filter(k => D.conflicts[k] && CONFLICT_GEO[k]);
+  related.forEach(k => {
+    const rg = CONFLICT_GEO[k];
+    const rc = D.conflicts[k];
+    const rcolor = colors[rc.intensity] || colors.conflict;
+    L.circleMarker([rg.lat, rg.lng], {
+      radius: 5, color: rcolor, fillColor: rcolor, fillOpacity: 0.5, weight: 0,
+    }).bindTooltip(rc.name, { className: 'cd-map-tip', direction: 'top', offset: [0, -6] })
+    .addTo(detailMap);
+  });
+
+  // Fix tile rendering on hidden->shown container
+  setTimeout(() => detailMap.invalidateSize(), 100);
 }
 
 function renderDataStrip(c) {
@@ -530,6 +711,7 @@ function showTimeline() {
   document.getElementById('conflictDetail').style.display = 'none';
   document.getElementById('viewToggle').style.display = '';
   document.getElementById('timeline').style.display = '';
+  document.getElementById('globeSection').style.display = 'none';
 
   // Collect all items from all conflicts
   const all = [];

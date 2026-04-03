@@ -118,6 +118,52 @@ body {
 .rn-chip.on .rn-dot.tension  { background: #ffd050 }
 
 /* ═══ Overview ═══ */
+/* ═══ Globe ═══ */
+.globe-section {
+  max-width: var(--pw);
+  margin: 20px auto 0;
+  position: relative;
+}
+.globe-wrap {
+  width: 100%;
+  height: 420px;
+  border-radius: 4px;
+  overflow: hidden;
+  background: var(--ink);
+  position: relative;
+}
+.globe-wrap canvas { cursor: grab }
+.globe-wrap canvas:active { cursor: grabbing }
+.globe-legend {
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+  padding: 10px 0 0;
+}
+.gl-item {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  color: var(--ink-40);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.gl-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+.gl-dot.war { background: var(--i-war) }
+.gl-dot.conflict { background: var(--i-conflict) }
+.gl-dot.tension { background: var(--i-tension) }
+
+@media (max-width: 640px) {
+  .globe-wrap { height: 280px }
+  .globe-legend { gap: 12px }
+  .gl-item { font-size: 9px }
+}
+
 .overview {
   max-width: var(--pw);
   margin: 0 auto;
@@ -219,6 +265,30 @@ body {
   text-transform: uppercase;
 }
 
+.spark-wrap {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 4px;
+}
+.spark-svg {
+  width: 80px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.spark-trend {
+  font-family: var(--sans);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1;
+}
+.spark-label {
+  font-family: var(--mono);
+  font-size: 8px;
+  color: var(--ink-25);
+  letter-spacing: 0.5px;
+}
+
 .ov-region-tag {
   font-family: var(--mono);
   font-size: 9px;
@@ -231,6 +301,31 @@ body {
   max-width: var(--pw);
   margin: 0 auto;
 }
+
+.cd-map {
+  height: 220px;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 16px;
+  border: 1px solid var(--ink-08);
+}
+.cd-map .leaflet-control-attribution { font-size: 8px; opacity: 0.5 }
+.cd-map .leaflet-control-zoom a {
+  background: var(--ink-90); color: var(--cream);
+  border-color: var(--ink-60);
+}
+.cd-map .leaflet-control-zoom a:hover { background: var(--ink-80) }
+.cd-map-tip {
+  font-family: var(--sans);
+  font-size: 11px;
+  background: var(--ink-90);
+  color: var(--cream);
+  border: none;
+  padding: 3px 8px;
+  border-radius: 3px;
+  box-shadow: none;
+}
+.cd-map-tip::before { border-top-color: var(--ink-90) !important }
 
 .cd-back {
   padding: 16px 0 0;
@@ -998,6 +1093,9 @@ body {
   .ov-card { grid-template-columns:1fr 60px }
   .ov-card-name { font-size:17px }
   .ov-card:hover { margin:0; padding-left:0; padding-right:0 }
+  .spark-svg { width:56px; height:18px }
+  .spark-trend { font-size:11px }
+  .cd-map { height:160px }
   .cd-header { flex-direction:column; gap:8px }
   .cd-summary { border-left:none; padding-left:0 }
   .data-strip { flex-wrap:wrap }
