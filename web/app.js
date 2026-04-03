@@ -784,11 +784,18 @@ async function openReader(id) {
   const actionHtml = `
     <a class="ra-btn ra-dark" href="${it.url}" target="_blank" rel="noopener">查看原始来源</a>
     ${it.local_file ? `<a class="ra-btn ra-ghost" href="${SRC}${it.local_file}" target="_blank">下载原文</a>` : ''}
+    <button class="ra-btn ra-ghost" onclick="copyArticle()">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:-2px;margin-right:4px"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>复制全文</button>
+    <button class="ra-btn ra-ghost" onclick="downloadPDF()">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:-2px;margin-right:4px"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><polyline points="9 15 12 18 15 15"/></svg>下载 PDF</button>
+    ${it.local_file ? `<button class="ra-btn ra-ghost" onclick="downloadMarkdown()">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:-2px;margin-right:4px"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>下载 Markdown</button>` : ''}
   `;
   document.getElementById('readerActionsTop').innerHTML = actionHtml;
   document.getElementById('readerActionsBot').innerHTML = actionHtml;
 
   // Load content — try .zh.md (Chinese translation) first, fall back to original
+  _currentRawMarkdown = null;
   const body = document.getElementById('readerBody');
   if (cache[id]) {
     body.innerHTML = cache[id];
@@ -807,6 +814,7 @@ async function openReader(id) {
           const zhHtml = cleanArticleHtml(marked.parse(zhRaw));
           body.innerHTML = zhHtml;
           cache[id] = zhHtml;
+          _currentRawMarkdown = zhRaw;
           loadedZh = true;
 
           // Also load original for toggle
@@ -830,6 +838,7 @@ async function openReader(id) {
         const cleaned = cleanArticleHtml(marked.parse(raw));
         body.innerHTML = cleaned;
         cache[id] = cleaned;
+        _currentRawMarkdown = raw;
       } catch { body.innerHTML = `<p>${esc(it.summary)}</p>` }
     }
   } else {
@@ -935,6 +944,104 @@ function closeReader() {
   } else {
     document.getElementById('overview').style.display = '';
   }
+}
+
+/* ═══ Copy / Download ═══ */
+function copyArticle() {
+  const body = document.getElementById('readerBody');
+  const title = document.getElementById('readerTitle').textContent;
+  const text = title + '\n\n' + body.innerText;
+  navigator.clipboard.writeText(text).then(() => {
+    showToast('已复制到剪贴板');
+  }).catch(() => {
+    // Fallback for older browsers
+    const ta = document.createElement('textarea');
+    ta.value = text;
+    ta.style.cssText = 'position:fixed;left:-9999px';
+    document.body.appendChild(ta);
+    ta.select();
+    document.execCommand('copy');
+    document.body.removeChild(ta);
+    showToast('已复制到剪贴板');
+  });
+}
+
+function downloadPDF() {
+  const title = document.getElementById('readerTitle').textContent;
+  const meta = document.getElementById('readerMeta').textContent;
+  const body = document.getElementById('readerBody');
+
+  // Build a clean container for PDF rendering
+  const container = document.createElement('div');
+  container.style.cssText = 'font-family:sans-serif;color:#222;line-height:1.8;padding:20px';
+  container.innerHTML = `
+    <h1 style="font-size:22px;margin-bottom:8px">${esc(title)}</h1>
+    <p style="font-size:11px;color:#999;margin-bottom:24px;padding-bottom:16px;border-bottom:1px solid #eee">${esc(meta)}</p>
+    ${body.innerHTML}
+  `;
+
+  const filename = sanitizeFilename(title) + '.pdf';
+  html2pdf().set({
+    margin: [15, 15, 15, 15],
+    filename: filename,
+    image: { type: 'jpeg', quality: 0.95 },
+    html2canvas: { scale: 2, useCORS: true },
+    jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
+    pagebreak: { mode: ['avoid-all', 'css', 'legacy'] }
+  }).from(container).save().then(() => {
+    showToast('PDF 已下载');
+  });
+}
+
+function downloadMarkdown() {
+  if (!_currentReaderItem) return;
+  const it = _currentReaderItem;
+
+  if (_currentRawMarkdown) {
+    triggerDownload(_currentRawMarkdown, sanitizeFilename(it.title) + '.md', 'text/markdown');
+    showToast('Markdown 已下载');
+    return;
+  }
+
+  // Fallback: fetch the file
+  if (it.local_file) {
+    const zhFile = it.local_file.replace(/\.md$/, '.zh.md');
+    fetch(SRC + zhFile).then(r => r.ok ? r.text() : fetch(SRC + it.local_file).then(r2 => r2.text()))
+      .then(raw => {
+        triggerDownload(raw, sanitizeFilename(it.title) + '.md', 'text/markdown');
+        showToast('Markdown 已下载');
+      });
+  }
+}
+
+function triggerDownload(content, filename, mime) {
+  const blob = new Blob([content], { type: mime + ';charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+function sanitizeFilename(name) {
+  return (name || 'article').replace(/[\\/:*?"<>|]/g, '').replace(/\s+/g, '_').slice(0, 80);
+}
+
+function showToast(msg) {
+  let t = document.getElementById('copyToast');
+  if (!t) {
+    t = document.createElement('div');
+    t.id = 'copyToast';
+    t.className = 'copy-toast';
+    document.body.appendChild(t);
+  }
+  t.textContent = msg;
+  t.classList.add('show');
+  clearTimeout(t._timer);
+  t._timer = setTimeout(() => t.classList.remove('show'), 2000);
 }
 
 /* ═══ Helpers ═══ */
@@ -1211,6 +1318,7 @@ function updateKbFocus(items) {
 /* ═══ Article Translation ═══ */
 let _currentReaderItem = null;
 let _originalBody = null;
+let _currentRawMarkdown = null;
 
 async function translateArticle() {
   if (!_currentReaderItem || !_currentReaderItem.local_file) return;

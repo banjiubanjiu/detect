@@ -837,8 +837,31 @@ body {
 
 .ra-dark { background: var(--ink); color: var(--paper) }
 .ra-dark:hover { background: var(--ink-80) }
-.ra-ghost { background: none; color: var(--ink-40); border: 1px solid var(--ink-15) }
+.ra-ghost { background: none; color: var(--ink-40); border: 1px solid var(--ink-15); display: inline-flex; align-items: center }
 .ra-ghost:hover { border-color: var(--ink-40); color: var(--ink) }
+
+/* Copy toast notification */
+.copy-toast {
+  position: fixed;
+  bottom: 32px;
+  left: 50%;
+  transform: translateX(-50%) translateY(20px);
+  background: var(--ink);
+  color: var(--paper);
+  font-family: var(--sans);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 10px 24px;
+  border-radius: 6px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .25s, transform .25s;
+  z-index: 9999;
+}
+.copy-toast.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
 
 .reader-body {
   font-size: 16.5px;
