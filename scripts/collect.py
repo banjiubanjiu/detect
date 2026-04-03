@@ -1426,7 +1426,7 @@ def collect_conflict(conflict_id, config, seen_urls, date_filter):
         local_file = save_tweet_md(tweet, user, tid, SOURCES_DIR / "x")
         author = tweet.get("author", {})
         items.append({
-            "title": r.get("title", tweet.get("text", "")[:80]),
+            "title": tweet.get("text", "")[:80],
             "summary": tweet.get("text", "")[:200],
             "source": "x",
             "source_label": f"@{author.get('screen_name', user)}",
