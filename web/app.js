@@ -1,5 +1,7 @@
-const DATA = '../data/latest.json';
-const SRC = '../data/';
+// Auto-detect: local dev (../data/) vs GitHub Pages (data/)
+const IS_PAGES = location.hostname.includes('github.io');
+const DATA = IS_PAGES ? 'data/latest.json' : '../data/latest.json';
+const SRC = IS_PAGES ? 'data/' : '../data/';
 const MO = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
 const LMO = ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'];
 const INAMES = { war:'全面战争', conflict:'武装冲突', tension:'紧张对峙' };
