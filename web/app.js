@@ -37,6 +37,24 @@ function credBadge(item) {
 }
 
 let D, conflict = null, tab = 'military', cache = {}, currentView = 'overview', kbIdx = -1, globe = null;
+let timeFilterDays = 30; // 0 = all
+
+/* ═══ Escalation ═══ */
+function escalation(items) {
+  const now = new Date();
+  const recent = items.filter(it => it.date && (now - new Date(it.date)) < 7 * 86400000).length;
+  const prior = items.filter(it => it.date && (now - new Date(it.date)) >= 7 * 86400000 && (now - new Date(it.date)) < 14 * 86400000).length;
+  if (recent > prior * 1.3 && recent - prior >= 2) return { label: '升级', cls: 'esc-up', arrow: '↑' };
+  if (prior > recent * 1.3 && prior - recent >= 2) return { label: '缓和', cls: 'esc-down', arrow: '↓' };
+  return { label: '稳定', cls: 'esc-stable', arrow: '→' };
+}
+
+/* ═══ Time Filter ═══ */
+function filterByTime(items) {
+  if (timeFilterDays === 0) return items;
+  const cutoff = new Date(Date.now() - timeFilterDays * 86400000);
+  return items.filter(it => it.date && new Date(it.date) >= cutoff);
+}
 
 /* ═══ Sparkline ═══ */
 function sparkline(items, intensity, days = 30) {
@@ -233,7 +251,7 @@ function showOverview() {
   document.getElementById('overview').style.display = '';
   document.getElementById('conflictDetail').style.display = 'none';
   document.getElementById('timeline').style.display = 'none';
-  document.getElementById('viewToggle').style.display = '';
+  document.getElementById('toolbar').style.display = '';
   document.getElementById('globeSection').style.display = '';
   document.getElementById('vizRow').style.display = '';
 
@@ -303,10 +321,12 @@ function showOverview() {
       <div class="briefing-body">${esc(D.briefing)}</div>
     </div>` : ''}
     ${sorted.map(([k, c], i) => {
-      const total = Object.values(c.categories).reduce((s, cat) => s + cat.items.length, 0);
-      const allItems = Object.values(c.categories).flatMap(cat => cat.items);
+      const allItemsRaw = Object.values(c.categories).flatMap(cat => cat.items);
+      const allItems = filterByTime(allItemsRaw);
+      const total = allItems.length;
       const latest = allItems.sort((a, b) => new Date(b.date) - new Date(a.date))[0];
       const parties = (c.parties || []).join(' vs ');
+      const escl = escalation(allItemsRaw);
 
       return `
         <div class="ov-card" style="--d:${i * 40}ms" data-k="${k}" data-intensity="${c.intensity || 'conflict'}">
@@ -314,6 +334,7 @@ function showOverview() {
             <div class="ov-card-name">
               ${c.name}
               <span class="ov-intensity ${c.intensity || 'conflict'}">${INAMES[c.intensity] || c.intensity}</span>
+              <span class="ov-escalation ${escl.cls}">${escl.arrow} ${escl.label}</span>
             </div>
             <div class="ov-parties">${parties} · ${c.region} · 自 ${c.since}</div>
             <div class="ov-latest">${latest ? esc(latest.title) : '暂无数据'}</div>
@@ -321,7 +342,7 @@ function showOverview() {
           <div class="ov-card-right">
             <span class="ov-count">${total}</span>
             <span class="ov-count-label">reports</span>
-            ${sparkline(allItems, c.intensity)}
+            ${sparkline(allItemsRaw, c.intensity)}
           </div>
         </div>
       `;
@@ -510,6 +531,7 @@ function showConflict() {
   document.getElementById('timeline').style.display = 'none';
   document.getElementById('globeSection').style.display = 'none';
   document.getElementById('vizRow').style.display = 'none';
+  document.getElementById('toolbar').style.display = 'none';
   document.getElementById('viewToggle').style.display = 'none';
   document.getElementById('conflictDetail').style.display = '';
 
@@ -921,6 +943,49 @@ function wireViewToggle() {
     if (v === 'overview') showOverview();
     else if (v === 'timeline') showTimeline();
   });
+
+  // Time filter
+  document.getElementById('timeFilter').addEventListener('click', e => {
+    const btn = e.target.closest('.tf-btn');
+    if (!btn) return;
+    timeFilterDays = parseInt(btn.dataset.t);
+    document.querySelectorAll('.tf-btn').forEach(b => b.classList.toggle('tf-active', b === btn));
+    if (currentView === 'overview') showOverview();
+    else if (currentView === 'timeline') showTimeline();
+  });
+
+  // Export
+  document.getElementById('exportJson').onclick = exportJson;
+  document.getElementById('exportCsv').onclick = exportCsv;
+}
+
+function exportJson() {
+  const blob = new Blob([JSON.stringify(D, null, 2)], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `conflict-data-${new Date().toISOString().slice(0,10)}.json`;
+  a.click();
+}
+
+function exportCsv() {
+  const rows = [['conflict', 'category', 'date', 'title', 'source', 'source_label', 'url']];
+  for (const [k, c] of Object.entries(D.conflicts)) {
+    for (const [catKey, cat] of Object.entries(c.categories)) {
+      for (const it of filterByTime(cat.items)) {
+        rows.push([
+          c.name, cat.label || catKey, it.date || '',
+          (it.title || '').replace(/"/g, '""'),
+          it.source || '', it.source_label || '', it.url || ''
+        ]);
+      }
+    }
+  }
+  const csv = rows.map(r => r.map(c => `"${c}"`).join(',')).join('\n');
+  const blob = new Blob(['\uFEFF' + csv], { type: 'text/csv;charset=utf-8' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `conflict-data-${new Date().toISOString().slice(0,10)}.csv`;
+  a.click();
 }
 
 /* ═══ Global Timeline ═══ */
@@ -932,7 +997,7 @@ function showTimeline() {
   document.querySelectorAll('.vt-btn').forEach(b => b.classList.toggle('vt-active', b.dataset.v === 'timeline'));
   document.getElementById('overview').style.display = 'none';
   document.getElementById('conflictDetail').style.display = 'none';
-  document.getElementById('viewToggle').style.display = '';
+  document.getElementById('toolbar').style.display = '';
   document.getElementById('timeline').style.display = '';
   document.getElementById('globeSection').style.display = 'none';
   document.getElementById('vizRow').style.display = 'none';

@@ -42,10 +42,22 @@
   <!-- Region-grouped conflict selector -->
   <nav class="region-nav" id="regionNav"></nav>
 
-  <!-- View toggle: overview / timeline -->
-  <div class="view-toggle" id="viewToggle">
-    <span class="vt-btn vt-active" data-v="overview">总览</span>
-    <span class="vt-btn" data-v="timeline">最新动态</span>
+  <!-- View toggle + time filter + export -->
+  <div class="toolbar" id="toolbar">
+    <div class="view-toggle" id="viewToggle">
+      <span class="vt-btn vt-active" data-v="overview">总览</span>
+      <span class="vt-btn" data-v="timeline">最新动态</span>
+    </div>
+    <div class="time-filter" id="timeFilter">
+      <span class="tf-btn" data-t="1">24h</span>
+      <span class="tf-btn" data-t="7">7d</span>
+      <span class="tf-btn tf-active" data-t="30">30d</span>
+      <span class="tf-btn" data-t="0">全部</span>
+    </div>
+    <div class="export-btns">
+      <span class="export-btn" id="exportJson" title="导出 JSON">JSON</span>
+      <span class="export-btn" id="exportCsv" title="导出 CSV">CSV</span>
+    </div>
   </div>
 
   <!-- Globe -->

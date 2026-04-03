@@ -1046,9 +1046,66 @@ body {
 }
 
 /* ═══ View Toggle ═══ */
-.view-toggle {
+/* ═══ Toolbar ═══ */
+.toolbar {
   max-width: var(--pw);
   margin: 20px auto 0;
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+}
+.time-filter {
+  display: flex;
+  gap: 0;
+  margin-left: auto;
+}
+.tf-btn {
+  padding: 4px 10px;
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: var(--ink-25);
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid var(--ink-08);
+  border-right: none;
+  transition: all 0.1s;
+}
+.tf-btn:first-child { border-radius: 3px 0 0 3px }
+.tf-btn:last-child { border-radius: 0 3px 3px 0; border-right: 1px solid var(--ink-08) }
+.tf-btn:hover { color: var(--ink-60); background: var(--paper) }
+.tf-active { color: var(--ink); background: var(--paper); border-color: var(--ink-15) }
+.export-btns { display: flex; gap: 4px }
+.export-btn {
+  padding: 4px 8px;
+  font-family: var(--mono);
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: var(--ink-25);
+  border: 1px solid var(--ink-08);
+  border-radius: 3px;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.1s;
+}
+.export-btn:hover { color: var(--ink); border-color: var(--ink-40) }
+
+/* Escalation badge */
+.ov-escalation {
+  font-family: var(--mono);
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  padding: 1px 6px;
+  border-radius: 2px;
+}
+.ov-escalation.esc-up { color: var(--red); border: 1px solid var(--red) }
+.ov-escalation.esc-down { color: var(--green); border: 1px solid var(--green) }
+.ov-escalation.esc-stable { color: var(--ink-25); border: 1px solid var(--ink-08) }
+
+.view-toggle {
   display: flex;
   gap: 0;
   border-bottom: 2px solid var(--ink);
@@ -1319,6 +1376,8 @@ body {
   .rn-chips { gap:4px }
   .rn-chip { padding:5px 10px; font-size:11px }
   .rn-label { font-size:8px }
-  .view-toggle { margin:12px auto 0 }
+  .toolbar { flex-wrap:wrap; gap:8px }
+  .time-filter { margin-left:0 }
+  .export-btns { margin-left:auto }
   .kbd-hint { display:none }
 }
