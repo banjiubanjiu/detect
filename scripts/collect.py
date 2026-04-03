@@ -522,6 +522,80 @@ def clean_markdown(text):
     return text
 
 
+def is_index_page(url, content=""):
+    """Detect whether a URL/content is an index/listing page rather than an article.
+    Returns (is_index: bool, reason: str)."""
+    score = 0  # positive = index, negative = article
+
+    # --- URL signals ---
+    path = re.sub(r'^https?://[^/]+', '', url)
+
+    # Index URL patterns
+    has_index_keyword = bool(re.search(r'/(?:topic|topics|tag|tags|category|categories|hub|section|archive|latest|where)(?:/|$)', path, re.I))
+    if has_index_keyword:
+        score += 4
+    # Shallow path with no article identifiers
+    segments = [s for s in path.strip('/').split('/') if s]
+    has_date = bool(re.search(r'\d{4}', path))
+    has_id = bool(re.search(r'[a-z0-9]{8,}|b\d{5,}', segments[-1] if segments else ''))  # hash or numeric ID
+    has_long_slug = bool(re.search(r'-[a-z]+-[a-z]+-[a-z]+-[a-z]+-[a-z]+', path))
+    if len(segments) <= 2 and not has_date and not has_id and not has_long_slug:
+        score += 3
+    # /country/ pattern (e.g. reliefweb.int/country/sdn)
+    if re.search(r'/country/', path, re.I) and len(segments) <= 2:
+        score += 2
+
+    # Article URL patterns
+    if has_date:
+        score -= 3  # date in path
+    if re.search(r'/articles?/', path, re.I):
+        score -= 3
+    if has_long_slug:
+        score -= 2
+    if path.endswith('.html') or path.endswith('.htm'):
+        score -= 1
+    if has_id and len(segments) >= 3 and not has_index_keyword:
+        score -= 2  # deep path with ID = likely article (unless already flagged as index)
+
+    # --- Content signals (if available) ---
+    if content and len(content) > 200:
+        lines = [l for l in content.split('\n') if l.strip()]
+        if lines:
+            total_chars = sum(len(l) for l in lines)
+            # Link density
+            link_count = len(re.findall(r'\[.*?\]\(.*?\)', content))
+            link_density = link_count / max(len(lines), 1)
+            if link_density > 1.0:
+                score += 3
+            elif link_density < 0.3:
+                score -= 2
+
+            # Average line length
+            avg_len = total_chars / len(lines)
+            if avg_len < 40:
+                score += 2
+            elif avg_len > 80:
+                score -= 2
+
+            # Heading density (many h2/h3 relative to text)
+            headings = sum(1 for l in lines if re.match(r'^#{2,3}\s', l))
+            if headings > 5 and total_chars < 5000:
+                score += 3
+
+    is_index = score >= 3
+    reason = ""
+    if is_index:
+        reasons = []
+        if re.search(r'/(?:topic|tag|category|hub|section|archive|latest)', path, re.I):
+            reasons.append("index URL pattern")
+        if len(segments) <= 2:
+            reasons.append("shallow path")
+        if content:
+            reasons.append(f"score={score}")
+        reason = ", ".join(reasons) if reasons else f"score={score}"
+    return is_index, reason
+
+
 def quality_check(text, source_type="web"):
     """Post-cleaning quality check. Returns dict with score (0.0-1.0) and verdict."""
     lines = [l for l in text.split('\n') if l.strip()]
@@ -590,12 +664,30 @@ def quality_check(text, source_type="web"):
         except Exception:
             pass  # jusText is optional, don't fail if unavailable
 
+    # Index page detection via content structure
+    headings = sum(1 for l in lines if re.match(r'^#{2,3}\s', l))
+    total_chars = sum(len(l) for l in lines)
+    avg_line_len = total_chars / total_lines
+    # Index page: many headings + high link density, OR dense headings in short text
+    # Index page: many headings + high link density in SHORT text
+    # Exclude long-form content (Wikipedia, detailed reports) which naturally has many headings
+    heading_ratio = headings / max(total_lines, 1)
+    is_index_content = (
+        (link_density > 1.0 and avg_line_len < 50) or
+        (headings > 5 and total_chars < 5000) or
+        (headings > 10 and link_density > 0.2 and heading_ratio > 0.05 and total_chars < 30000)
+    )
+
     if score >= 0.6:
         verdict = "CLEAN"
     elif score >= 0.3:
         verdict = "NOISY"
     else:
         verdict = "JUNK"
+
+    if is_index_content:
+        verdict = "INDEX"
+        score = min(score, 0.2)
 
     return {
         "score": round(score, 2),
@@ -605,6 +697,8 @@ def quality_check(text, source_type="web"):
             "short_ratio": round(short_ratio, 2),
             "link_density": round(link_density, 2),
             "noise_hits": noise_hits,
+            "avg_line_len": round(avg_line_len, 1),
+            "headings": headings,
         }
     }
 
@@ -1256,8 +1350,16 @@ def collect_conflict(conflict_id, config, seen_urls, date_filter):
             results.extend(run_xcrawl_search(f"{q} {date_filter}", limit=5))
         except Exception as e:
             print(f"    [web] search failed: {e}", file=sys.stderr)
-    web_urls = [r["url"] for r in results
-                if not any(s in r["url"] for s in ["x.com", "youtube.com", "reddit.com"])]
+    web_urls = []
+    for r in results:
+        u = r["url"]
+        if any(s in u for s in ["x.com", "youtube.com", "reddit.com"]):
+            continue
+        idx, reason = is_index_page(u)
+        if idx:
+            print(f"    [跳过索引页] {u[:80]} ({reason})")
+            continue
+        web_urls.append(u)
     if web_urls:
         run_xcrawl_scrape(web_urls[:3], SOURCES_DIR / "web")
         for r in results:
