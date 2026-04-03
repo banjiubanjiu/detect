@@ -20,6 +20,7 @@ import sys
 import tempfile
 import time
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta
 from pathlib import Path
 
@@ -365,6 +366,59 @@ def clean_by_source(content, source_type):
         pattern = re.compile('|'.join(reddit_noise), re.MULTILINE | re.IGNORECASE)
         content = pattern.sub('', content)
 
+    elif source_type == "x":
+        # --- X/Twitter page chrome noise ---
+        # Phase 1: Remove known noise sections (everything after these markers is junk)
+        section_markers = [
+            r'^#{1,3}\s*(?:New to X|Trending now)\s*$',
+            r'^Sign up now to get your own personalized timeline',
+        ]
+        for marker in section_markers:
+            m = re.search(marker, content, re.MULTILINE | re.IGNORECASE)
+            if m:
+                content = content[:m.start()]
+
+        # Phase 2: Remove individual noise lines
+        x_noise = [
+            # Auth / CTA
+            r"^(?:Don't miss what's happening|People on X are the first to know).*$",
+            r'^(?:Log in|Sign up|Create account)\s*$',
+            r'^\[(?:Log in|Sign up|Create account)\]\(.*\)\s*$',
+            # Page structure fragments
+            r'^#{1,3}\s*(?:Post|Conversation)\s*$',
+            r'^(?:See new posts|Show more|Show this thread)\s*$',
+            r'^# \[\]\(https://x\.com/?\)\s*$',
+            # Legal footer
+            r'^\[?Terms of Service\]?\(?.*\)?\s*$',
+            r'^\[?Privacy Policy\]?\(?.*\)?\s*$',
+            r'^\[?Cookie (?:Policy|Use).*$',
+            r'^\[?Accessibility\]?\(?.*\)?\s*$',
+            r'^\[?Ads info\]?\(?.*\)?\s*$',
+            r'^©\s*20\d\d X Corp\.?\s*$',
+            # Metrics on own line
+            r'^\d+\s*(?:Views?|Reposts?|Likes?|Bookmarks?|Quotes?)\s*$',
+            r'^\[\d+\s*(?:Views?|Reposts?|Likes?|Bookmarks?|Quotes?)\]\(.*\)\s*$',
+            # Misc chrome
+            r'^By signing up, you agree.*$',
+            r'^\|$',
+            r'^More$',
+            r'^·$',
+            r'^\[$',
+            # Title tag duplication (e.g. '# User on X: "tweet text" / X')
+            r'^#.*on X: ".*" / X\s*$',
+            # Timestamp link (e.g. [7:08 PM · Mar 5, 2026](...))
+            r'^\[[\d:]+\s*[AP]M\s*·.*\]\(.*\)\s*$',
+            # Profile images / card thumbnails
+            r'^\[?\!\[(?:Image \d+|.*(?:profile|avatar|card_img)).*\]\(https://pbs\.twimg\.com/.*\)(?:\]\(.*\))?\s*$',
+            # Jina metadata headers
+            r'^Title:.*/ X\s*$',
+            r'^URL Source:\s*https://x\.com/.*$',
+            r'^Markdown Content:\s*$',
+            r'^Published Time:.*$',
+        ]
+        pattern = re.compile('|'.join(x_noise), re.MULTILINE | re.IGNORECASE)
+        content = pattern.sub('', content)
+
     elif source_type == "web":
         web_noise = [
             r'^#{1,3}\s*(?:Primary Menu|Main menu|Footer|Sidebar|Navigation|Breadcrumb).*$',
@@ -372,6 +426,9 @@ def clean_by_source(content, source_type):
             r'^\*\s*\[(?:Analysis|Programs|Experts|Regions|Topics|Events|Podcasts|Newsletters|All \w+)\]\(.*\)\s*$',
             r'^\*\s*\[(?:Home|About|Contact|Privacy|Terms|Careers|Advertise|Help)\]\(.*\)\s*$',
             r'^(?:open|close)\s*$',
+            # Navigation menu blocks (e.g. menu\n* [item](url)\n* ...)
+            r'^menu\s*\n(?:\*\s*\[.*?\]\(.*?\)\s*\n)*',
+            r'^## Utility\s*\n(?:\*\s*\[.*?\]\(.*?\)\s*\n)*',
         ]
         pattern = re.compile('|'.join(web_noise), re.MULTILINE | re.IGNORECASE)
         content = pattern.sub('', content)
@@ -461,6 +518,157 @@ def clean_markdown(text):
     # Guard against over-cleaning: if we removed more than 90% of content, keep original
     if original_len > 0 and len(text) < original_len * 0.1:
         return original_text
+
+    return text
+
+
+def quality_check(text, source_type="web"):
+    """Post-cleaning quality check. Returns dict with score (0.0-1.0) and verdict."""
+    lines = [l for l in text.split('\n') if l.strip()]
+    if not lines:
+        return {"score": 0.0, "verdict": "JUNK", "reason": "empty"}
+
+    total_lines = len(lines)
+
+    # 1) Short-line ratio: nav junk produces many short lines (<40 chars)
+    short_lines = sum(1 for l in lines if len(l.strip()) < 40)
+    short_ratio = short_lines / total_lines
+
+    # 2) Link density: markdown links per line
+    link_count = len(re.findall(r'\[.*?\]\(.*?\)', text))
+    link_density = link_count / total_lines
+
+    # 3) Known noise keyword hits
+    noise_keywords = [
+        r'(?:Sign up|Log in|Create account)',
+        r'(?:Terms of Service|Privacy Policy|Cookie Policy)',
+        r'(?:Trending now|What\'s happening|Who to follow)',
+        r'(?:Don\'t miss what\'s happening)',
+        r'© 20\d\d X Corp',
+        r'(?:Skip to content|Main menu|Primary Menu)',
+        r'(?:Subscribe to our newsletter)',
+    ]
+    noise_hits = sum(1 for p in noise_keywords if re.search(p, text, re.I))
+
+    # Calculate score
+    score = 1.0
+    if noise_hits >= 5:
+        score -= 0.5
+    elif noise_hits >= 3:
+        score -= 0.3
+    elif noise_hits >= 1:
+        score -= 0.15
+
+    if short_ratio > 0.7:
+        score -= 0.25
+    elif short_ratio > 0.5:
+        score -= 0.1
+
+    if link_density > 1.5:
+        score -= 0.2
+    elif link_density > 0.8:
+        score -= 0.1
+
+    score = max(0.0, min(1.0, score))
+
+    # For web sources: use jusText as second opinion if score is borderline
+    if source_type == "web" and 0.3 <= score <= 0.8:
+        try:
+            import justext
+            # Wrap markdown in minimal HTML for jusText analysis
+            html = f"<html><body>{''.join(f'<p>{l}</p>' for l in lines)}</body></html>"
+            paragraphs = justext.justext(html, justext.get_stoplist("English"))
+            good = sum(1 for p in paragraphs if not p.is_boilerplate)
+            total = len(paragraphs)
+            if total > 0:
+                good_ratio = good / total
+                if good_ratio < 0.3:
+                    score -= 0.15  # Most content is boilerplate
+                elif good_ratio > 0.7:
+                    score += 0.1   # Mostly good content
+                score = max(0.0, min(1.0, score))
+        except Exception:
+            pass  # jusText is optional, don't fail if unavailable
+
+    if score >= 0.6:
+        verdict = "CLEAN"
+    elif score >= 0.3:
+        verdict = "NOISY"
+    else:
+        verdict = "JUNK"
+
+    return {
+        "score": round(score, 2),
+        "verdict": verdict,
+        "details": {
+            "lines": total_lines,
+            "short_ratio": round(short_ratio, 2),
+            "link_density": round(link_density, 2),
+            "noise_hits": noise_hits,
+        }
+    }
+
+
+def _get_openrouter_key():
+    """Get OpenRouter API key from env or config file."""
+    api_key = os.environ.get('OPENROUTER_API_KEY')
+    if not api_key:
+        env_file = Path.home() / ".config" / "last30days" / ".env"
+        if env_file.exists():
+            for line in env_file.read_text().splitlines():
+                if line.startswith('OPENROUTER_API_KEY='):
+                    api_key = line.split('=', 1)[1].strip()
+                    break
+    return api_key
+
+
+def llm_clean_markdown(text):
+    """Use LLM to extract article body from noisy markdown (Jina/xcrawl output)."""
+    if not text or len(text) < 500:
+        return text
+
+    api_key = _get_openrouter_key()
+    if not api_key:
+        return text
+
+    prompt = """You are a web content cleaner. Extract ONLY the article body from the following markdown.
+
+Rules:
+1. REMOVE all navigation menus, category links, sidebar content, footer links, social sharing buttons, ad placeholders, cookie notices, and "recommended articles" sections.
+2. KEEP the article title, author, date, all body paragraphs, subheadings, images with captions, and blockquotes that are part of the article.
+3. KEEP all markdown formatting (headings, bold, links, images) intact.
+4. KEEP the "原始链接" line at the top if present.
+5. PRESERVE the original letter casing exactly — do NOT convert to lowercase.
+6. Your response must begin IMMEDIATELY with the article content. Do NOT include any preamble such as "Here is...", "I'll extract...", or "Sure..." — output the cleaned markdown only, nothing else."""
+
+    try:
+        payload = json.dumps({
+            "model": "deepseek/deepseek-chat-v3-0324",
+            "messages": [
+                {"role": "system", "content": prompt},
+                {"role": "user", "content": text[:30000]}
+            ],
+            "max_tokens": 12000,
+            "temperature": 0.0
+        }).encode('utf-8')
+
+        req = urllib.request.Request(
+            "https://openrouter.ai/api/v1/chat/completions",
+            data=payload,
+            headers={
+                "Authorization": f"Bearer {api_key}",
+                "Content-Type": "application/json",
+                "User-Agent": "ConflictTracker/1.0"
+            }
+        )
+        with urllib.request.urlopen(req, timeout=180) as resp:
+            result = json.loads(resp.read().decode())
+        cleaned = result.get("choices", [{}])[0].get("message", {}).get("content", "")
+
+        if cleaned and len(cleaned) > 200:
+            return cleaned
+    except Exception as e:
+        print(f"    [llm_clean] Error: {e}", file=sys.stderr)
 
     return text
 
@@ -726,8 +934,101 @@ def fetch_reddit_thread(url, out_dir):
         return None
 
 
+def fetch_via_markdownify_wiki(url, out_dir):
+    """Extract Wikipedia article using markdownify (superior to Trafilatura for Wikipedia).
+
+    Handles tables, inline references, headings, and internal links correctly.
+    Only use for wikipedia.org domains.
+    """
+    try:
+        from trafilatura import fetch_url as tf_fetch
+        from lxml import html as lxml_html
+        from lxml import etree
+        from markdownify import markdownify as md
+    except ImportError:
+        return None
+
+    out_dir = Path(out_dir)
+    out_dir.mkdir(parents=True, exist_ok=True)
+    slug = re.sub(r'[^a-zA-Z0-9._-]', '_', get_domain(url) + '_' + url.split('/')[-1])[:80]
+    md_path = out_dir / f"{slug}.md"
+    if md_path.exists() and md_path.stat().st_size > 300:
+        return str(md_path.relative_to(DATA_DIR))
+
+    try:
+        raw_html = tf_fetch(url)
+        if not raw_html:
+            return None
+
+        tree = lxml_html.fromstring(raw_html)
+        content_div = tree.xpath('//div[@id="mw-content-text"]')
+        if not content_div:
+            return None
+
+        # Remove non-content elements
+        for tag in content_div[0].xpath(
+            '//style | //script | //span[@class="mw-editsection"] | '
+            '//div[contains(@class, "navbox")] | '
+            '//div[contains(@class, "catlinks")] | '
+            '//div[contains(@class, "reflist")] | '
+            '//div[contains(@class, "mw-references-wrap")] | '
+            '//table[contains(@class, "ambox")] | '
+            '//table[contains(@class, "ombox")] | '
+            '//div[@id="toc"] | '
+            '//div[contains(@class, "toc")]'
+        ):
+            tag.getparent().remove(tag)
+
+        content_html = etree.tostring(content_div[0], encoding='unicode')
+        content = md(content_html, strip=['sup', 'style', 'script'])
+
+        # Post-cleanup
+        content = re.sub(r'\[edit\]', '', content)
+        content = re.sub(r'\.mw-parser-output[^\n]*\n?', '', content)
+        content = re.sub(r'\n{3,}', '\n\n', content)
+        content = content.strip()
+
+        if not content or len(content) < 200:
+            return None
+
+        with open(md_path, 'w', encoding='utf-8') as f:
+            f.write(f"**原始链接：** {url}\n\n---\n\n{content}")
+        return str(md_path.relative_to(DATA_DIR))
+    except Exception as e:
+        print(f"    [markdownify_wiki] {url[:50]}: {e}", file=sys.stderr)
+        return None
+
+
+def _extract_tables_as_markdown(html_str):
+    """Extract tables from raw HTML and convert to proper Markdown via markdownify.
+
+    Trafilatura produces broken Markdown for complex nested tables (e.g. Wikipedia
+    infobox/wikitable). This function extracts them separately using markdownify.
+    """
+    try:
+        from lxml import html as lxml_html
+        from lxml import etree
+        from markdownify import markdownify as md
+    except ImportError:
+        return []
+
+    tree = lxml_html.fromstring(html_str)
+    tables = tree.xpath('//table[contains(@class, "infobox") or contains(@class, "wikitable")]')
+    result = []
+    for table in tables:
+        table_html = etree.tostring(table, encoding='unicode')
+        table_md = md(table_html, strip=['img', 'sup']).strip()
+        if table_md:
+            result.append(table_md)
+    return result
+
+
 def fetch_via_trafilatura(url, out_dir):
-    """Extract article body using Trafilatura (best quality, primary method for web)."""
+    """Extract article body using Trafilatura (best quality, primary method for web).
+
+    Uses hybrid extraction: Trafilatura for body text (include_tables=False) +
+    markdownify for tables, to avoid broken table conversion on complex pages.
+    """
     try:
         from trafilatura import fetch_url as tf_fetch, extract as tf_extract
     except ImportError:
@@ -744,11 +1045,27 @@ def fetch_via_trafilatura(url, out_dir):
         html = tf_fetch(url)
         if not html:
             return None
-        content = tf_extract(html, output_format='markdown', with_metadata=False, include_images=True)
+
+        # Extract tables separately with markdownify (handles complex tables correctly)
+        table_sections = _extract_tables_as_markdown(html)
+
+        # Extract body without tables to avoid broken table fragments
+        content = tf_extract(html, output_format='markdown', with_metadata=False,
+                             include_images=True, include_tables=False)
         if not content or len(content) < 200:
             return None
+
+        # Combine: header + first table (infobox) + body + remaining tables
+        parts = [f"**原始链接：** {url}\n\n---\n"]
+        if table_sections:
+            parts.append(table_sections[0])
+            parts.append("---\n")
+        parts.append(content)
+        for t in table_sections[1:]:
+            parts.append(t)
+
         with open(md_path, 'w', encoding='utf-8') as f:
-            f.write(f"**原始链接：** {url}\n\n---\n\n{content}")
+            f.write("\n\n".join(parts))
         return str(md_path.relative_to(DATA_DIR))
     except Exception as e:
         print(f"    [trafilatura] {url[:50]}: {e}", file=sys.stderr)
@@ -774,6 +1091,7 @@ def fetch_via_jina(url, out_dir):
         if len(content) < 300:
             return None
         content = clean_markdown(content)
+        content = llm_clean_markdown(content)
         with open(md_path, "w", encoding="utf-8") as f:
             f.write(content)
         time.sleep(0.5)  # rate limit
@@ -802,6 +1120,12 @@ def smart_scrape(url, subdir):
     # 0. Reddit: use JSON API (not HTML scraping)
     if 'reddit.com' in domain:
         return fetch_reddit_thread(url, SOURCES_DIR / "reddit")
+
+    # 0.5. Wikipedia: use markdownify (handles tables, refs, headings correctly)
+    if 'wikipedia.org' in domain:
+        local = fetch_via_markdownify_wiki(url, out_dir)
+        if local:
+            return local
 
     # 1. Try Trafilatura first (best article extraction)
     local = fetch_via_trafilatura(url, out_dir)
@@ -843,6 +1167,8 @@ def json_to_md(json_path):
     url = data.get("url", data.get("metadata", {}).get("sourceURL", ""))
     content = data.get("markdown", data.get("content", ""))
     content = clean_markdown(content) if content else "(内容为空)"
+    if content and content != "(内容为空)":
+        content = llm_clean_markdown(content)
     md_path = str(json_path).replace(".json", ".md")
     with open(md_path, "w") as f:
         f.write(f"# {title}\n\n**原始链接：** {url}\n\n---\n\n")
@@ -872,62 +1198,110 @@ def classify_item(title, summary):
     return "opinion"
 
 
-def collect():
-    """Main collection pipeline."""
-    print(f"=== 数据采集开始 {datetime.now().isoformat()} ===\n")
+def _find_local_file(directory, safe_name, url):
+    """Find a scraped local file matching a URL. Converts JSON to MD if needed.
+    Uses progressively shorter prefixes for matching."""
+    # Convert any JSON files in directory
+    for f in directory.glob("*.json"):
+        json_to_md(f)
 
-    # Ensure directories
-    for d in ["reddit", "x", "web", "youtube"]:
-        (SOURCES_DIR / d).mkdir(parents=True, exist_ok=True)
+    # Try matching with progressively shorter prefixes
+    candidates = [f for f in directory.glob("*.md") if not f.name.endswith(".zh.md")]
+    for prefix_len in [80, 50, 30]:
+        prefix = safe_name[:prefix_len]
+        for f in candidates:
+            if prefix in f.name:
+                return str(f.relative_to(DATA_DIR))
 
-    all_items = []
+    # Last resort: match by domain
+    domain = re.sub(r'^(?:https?://)?(?:www\.)?([^/]+).*', r'\1', url)
+    for f in candidates:
+        if domain.replace(".", "_") in f.name or domain.split(".")[0] in f.name:
+            # Verify it's not already claimed by another item
+            return str(f.relative_to(DATA_DIR))
 
-    # 1. Web search
-    print("[1/4] 网页搜索...")
-    for query in SEARCH_QUERIES[:2]:
-        results = run_xcrawl_search(query, limit=5)
-        web_urls = [r["url"] for r in results
-                    if not any(s in r["url"] for s in ["x.com", "youtube.com", "reddit.com"])]
-        if web_urls:
-            run_xcrawl_scrape(web_urls[:3], SOURCES_DIR / "web")
-            for r in results:
-                if r["url"] in web_urls[:3]:
-                    # Find the scraped file
-                    safe_name = r["url"].replace("https://", "").replace("http://", "").replace("/", "_")[:100]
-                    local_files = list((SOURCES_DIR / "web").glob(f"*{safe_name[:50]}*"))
-                    local_file = None
-                    if local_files:
-                        for lf in local_files:
-                            if lf.suffix == ".json":
-                                json_to_md(lf)
-                            if lf.suffix == ".md":
-                                local_file = str(lf.relative_to(DATA_DIR))
-                    all_items.append({
-                        "title": r.get("title", ""),
-                        "summary": r.get("snippet", ""),
-                        "source": "web",
-                        "source_label": r["url"].split("/")[2],
-                        "date": datetime.now().strftime("%Y-%m-%d"),
-                        "url": r["url"],
-                        "local_file": local_file,
-                        "metrics": {}
-                    })
-    print(f"  找到 {len([i for i in all_items if i['source']=='web'])} 条网页")
+    return None
+
+
+def collect_conflict(conflict_id, config, seen_urls, date_filter):
+    """Collect data for a single conflict. Returns list of new items.
+
+    Dedup strategy: search without filtering, let all results come back.
+    Only dedup at write stage — skip items whose URL is already in seen_urls
+    or whose local file already exists. This avoids the problem where filtering
+    search results causes the engine to return nothing new.
+
+    Args:
+        seen_urls: set of URLs already in latest.json (for write-stage dedup)
+        date_filter: 'after:YYYY-MM-DD' string to append to queries
+    """
+    queries = config["queries"]
+    topic = queries[0] if queries else config["name_en"]
+    items = []
+
+    # Track URLs added THIS run across conflicts to avoid cross-conflict dupes
+    run_seen = set()
+
+    def _should_add(url):
+        """Write-stage dedup: skip if already in history or added this run."""
+        if url in seen_urls or url in run_seen:
+            return False
+        run_seen.add(url)
+        return True
+
+    # 1. Web search — use both queries
+    results = []
+    for q in queries[:2]:
+        try:
+            results.extend(run_xcrawl_search(f"{q} {date_filter}", limit=5))
+        except Exception as e:
+            print(f"    [web] search failed: {e}", file=sys.stderr)
+    web_urls = [r["url"] for r in results
+                if not any(s in r["url"] for s in ["x.com", "youtube.com", "reddit.com"])]
+    if web_urls:
+        run_xcrawl_scrape(web_urls[:3], SOURCES_DIR / "web")
+        for r in results:
+            if r["url"] not in web_urls[:3]:
+                continue
+            if not _should_add(r["url"]):
+                continue
+            safe_name = r["url"].replace("https://", "").replace("http://", "").replace("/", "_")[:100]
+            local_file = _find_local_file(SOURCES_DIR / "web", safe_name, r["url"])
+            # Read content for date extraction if file exists
+            file_content = ""
+            if local_file:
+                fp = DATA_DIR / local_file
+                if fp.exists():
+                    file_content = fp.read_text(encoding='utf-8', errors='ignore')[:2000]
+            items.append({
+                "title": r.get("title", ""),
+                "summary": r.get("snippet", ""),
+                "source": "web",
+                "source_label": r["url"].split("/")[2],
+                "date": extract_publish_date(r["url"], file_content),
+                "url": r["url"],
+                "local_file": local_file,
+                "metrics": {}
+            })
 
     # 2. X/Twitter search
-    print("[2/4] X/Twitter 搜索...")
-    x_results = run_xcrawl_search(TOPIC, site="x.com", limit=10)
-    x_count = 0
+    try:
+        x_results = run_xcrawl_search(f"{topic} {date_filter}", site="x.com", limit=5)
+    except Exception as e:
+        print(f"    [x] search failed: {e}", file=sys.stderr)
+        x_results = []
     for r in x_results:
         user, tid = extract_tweet_id(r["url"])
         if not user or not tid:
+            continue
+        if not _should_add(r["url"]):
             continue
         tweet = fetch_tweet(user, tid)
         if not tweet:
             continue
         local_file = save_tweet_md(tweet, user, tid, SOURCES_DIR / "x")
         author = tweet.get("author", {})
-        all_items.append({
+        items.append({
             "title": r.get("title", tweet.get("text", "")[:80]),
             "summary": tweet.get("text", "")[:200],
             "source": "x",
@@ -940,70 +1314,139 @@ def collect():
                 "retweets": tweet.get("retweets", 0)
             }
         })
-        x_count += 1
-    print(f"  找到 {x_count} 条推文")
 
     # 3. Reddit search
-    print("[3/4] Reddit 搜索...")
-    reddit_results = run_xcrawl_search(TOPIC, site="reddit.com", limit=10)
-    reddit_urls = [r["url"] for r in reddit_results]
+    try:
+        reddit_results = run_xcrawl_search(f"{topic} {date_filter}", site="reddit.com", limit=5)
+    except Exception as e:
+        print(f"    [reddit] search failed: {e}", file=sys.stderr)
+        reddit_results = []
+    new_reddit = [r for r in reddit_results if _should_add(r["url"])]
+    reddit_urls = [r["url"] for r in new_reddit]
     if reddit_urls:
-        run_xcrawl_scrape(reddit_urls[:8], SOURCES_DIR / "reddit")
-    for r in reddit_results[:8]:
-        safe = r["url"].replace("https://", "").replace("/", "_")[:80]
-        local_files = list((SOURCES_DIR / "reddit").glob(f"*"))
-        local_file = None
-        for lf in local_files:
-            if lf.suffix == ".json":
-                json_to_md(lf)
-            if lf.suffix == ".md" and safe[:30] in str(lf):
-                local_file = str(lf.relative_to(DATA_DIR))
-        all_items.append({
+        run_xcrawl_scrape(reddit_urls, SOURCES_DIR / "reddit")
+    for r in new_reddit:
+        safe = r["url"].replace("https://", "").replace("http://", "").replace("/", "_")[:100]
+        local_file = _find_local_file(SOURCES_DIR / "reddit", safe, r["url"])
+        items.append({
             "title": r.get("title", ""),
             "summary": r.get("snippet", ""),
             "source": "reddit",
             "source_label": extract_subreddit(r["url"]),
-            "date": datetime.now().strftime("%Y-%m-%d"),
+            "date": extract_publish_date(r["url"], r.get("snippet", "")),
             "url": r["url"],
             "local_file": local_file,
             "metrics": {}
         })
-    print(f"  找到 {len(reddit_results[:8])} 条帖子")
 
     # 4. YouTube search
-    print("[4/4] YouTube 搜索...")
-    yt_results = run_xcrawl_search(TOPIC + " 2026", site="youtube.com", limit=6)
-    yt_count = 0
+    try:
+        yt_results = run_xcrawl_search(f"{topic} 2026 {date_filter}", site="youtube.com", limit=3)
+    except Exception as e:
+        print(f"    [youtube] search failed: {e}", file=sys.stderr)
+        yt_results = []
     for r in yt_results:
+        if not _should_add(r["url"]):
+            continue
         vid = extract_youtube_id(r["url"])
         if not vid:
             continue
         local_file = fetch_youtube_subtitle(vid, SOURCES_DIR / "youtube")
         if not local_file:
-            continue  # Skip videos without subtitles — no readable content
-        all_items.append({
+            continue
+        items.append({
             "title": r.get("title", ""),
             "summary": r.get("snippet", ""),
             "source": "youtube",
             "source_label": "YouTube",
-            "date": datetime.now().strftime("%Y-%m-%d"),
+            "date": extract_publish_date(r["url"], r.get("snippet", "")),
             "url": r["url"],
             "local_file": local_file,
             "metrics": {}
         })
-        yt_count += 1
-    print(f"  找到 {yt_count} 条视频（仅含有字幕的）")
 
-    # Classify and build categories
-    categories = {
-        "military": {"label": "军事动态", "icon": "⚔️", "items": []},
-        "diplomacy": {"label": "外交谈判", "icon": "🕊️", "items": []},
-        "opinion": {"label": "舆论热点", "icon": "💬", "items": []},
-        "video": {"label": "视频报道", "icon": "📺", "items": []},
-    }
+    return items
 
-    # Clean, translate, classify
-    print("[5/6] 清洗源文件...")
+
+def collect():
+    """Main collection pipeline — iterates over all conflicts."""
+    print(f"=== 数据采集开始 {datetime.now().isoformat()} ===")
+    print(f"    共 {len(CONFLICTS)} 个冲突区\n")
+
+    # Ensure directories
+    for d in ["reddit", "x", "web", "youtube"]:
+        (SOURCES_DIR / d).mkdir(parents=True, exist_ok=True)
+
+    # Time filter: based on last run time, with 1h overlap
+    existing_json = DATA_DIR / "latest.json"
+    last_run = None
+    if existing_json.exists():
+        try:
+            with open(existing_json) as f:
+                last_run = json.load(f).get("updated_at", "")
+        except Exception:
+            pass
+
+    if last_run:
+        try:
+            last_dt = datetime.fromisoformat(last_run.replace("Z", "+00:00"))
+            # Search from 1 day before last run (overlap to catch late-indexed content)
+            filter_dt = last_dt - timedelta(days=1)
+            date_filter = f"after:{filter_dt.strftime('%Y-%m-%d')}"
+            print(f"    增量模式: 搜索 {filter_dt.strftime('%Y-%m-%d')} 之后的内容")
+        except Exception:
+            date_filter = f"after:{(datetime.now() - timedelta(days=2)).strftime('%Y-%m-%d')}"
+    else:
+        # First run: search last 30 days
+        date_filter = f"after:{(datetime.now() - timedelta(days=30)).strftime('%Y-%m-%d')}"
+        print("    首次采集: 搜索最近 30 天")
+
+    # Load existing URLs for write-stage dedup (not search-stage filtering)
+    seen_urls = set()
+    if existing_json.exists():
+        try:
+            with open(existing_json) as f:
+                existing = json.load(f)
+            for conflict_data in existing.get("conflicts", {}).values():
+                for cat in conflict_data.get("categories", {}).values():
+                    for item in cat.get("items", []):
+                        if item.get("url"):
+                            seen_urls.add(item["url"])
+            print(f"    已有 {len(seen_urls)} 条历史 URL")
+        except Exception:
+            pass
+
+    # Phase 1: Collect data per conflict
+    all_items = []  # flat list of all NEW items across conflicts
+    conflict_items = {}  # conflict_id -> list of new items
+
+    # Determine which conflicts to search based on intensity + day of week
+    # war: every day, conflict: every 2 days, tension: every 3 days
+    day_of_year = datetime.now().timetuple().tm_yday
+    intensity_schedule = {"war": 1, "conflict": 2, "tension": 3}
+
+    for i, (cid, config) in enumerate(CONFLICTS.items()):
+        interval = intensity_schedule.get(config.get("intensity", "war"), 1)
+        if day_of_year % interval != 0:
+            print(f"[跳过] {config['name']} (intensity={config.get('intensity')}, 每{interval}天搜一次)")
+            continue
+
+        print(f"[采集] {config['name']} ({config['name_en']})...")
+        items = collect_conflict(cid, config, seen_urls, date_filter)
+        conflict_items[cid] = items
+        all_items.extend(items)
+        src_counts = {}
+        for it in items:
+            src_counts[it["source"]] = src_counts.get(it["source"], 0) + 1
+        print(f"  -> {len(items)} 条新内容 ({', '.join(f'{s}:{n}' for s, n in src_counts.items()) if src_counts else '无新内容'})")
+        # Rate limit between conflicts
+        if i < len(CONFLICTS) - 1:
+            time.sleep(2)
+
+    print(f"\n共采集 {len(all_items)} 条\n")
+
+    # Phase 2: Clean
+    print("[清洗] 清洗源文件...")
     for item in all_items:
         lf = item.get("local_file")
         if lf:
@@ -1011,51 +1454,167 @@ def collect():
             if fp.exists():
                 raw = fp.read_text(encoding='utf-8', errors='ignore')
                 cleaned = clean_by_source(raw, item["source"])
-                if len(cleaned) >= len(raw) * 0.1:  # over-cleaning protection
+                if len(cleaned) >= len(raw) * 0.1:
                     fp.write_text(cleaned, encoding='utf-8')
 
-    print("[6/7] 翻译标题和摘要...")
-    translated_count = 0
+    # Phase 3: Quality check
+    print("[质量] 质量检查...")
+    qa_issues = []
+    for item in all_items:
+        lf = item.get("local_file")
+        if not lf:
+            continue
+        fp = DATA_DIR / lf
+        if not fp.exists():
+            continue
+        content = fp.read_text(encoding='utf-8', errors='ignore')
+        qr = quality_check(content, item["source"])
+        item["quality_score"] = qr["score"]
+        if qr["verdict"] != "CLEAN":
+            qa_issues.append({
+                "file": lf,
+                "verdict": qr["verdict"],
+                "score": qr["score"],
+                "details": qr["details"],
+            })
+    if qa_issues:
+        print(f"  {len(qa_issues)} 个文件存在质量问题:")
+        for issue in qa_issues:
+            d = issue["details"]
+            print(f"    [{issue['verdict']}] {issue['file']} "
+                  f"(score={issue['score']}, noise={d['noise_hits']}, "
+                  f"short_ratio={d['short_ratio']}, link_density={d['link_density']})")
+        qa_report_path = DATA_DIR / "qa_report.json"
+        with open(qa_report_path, "w", encoding="utf-8") as f:
+            json.dump({"timestamp": datetime.now().isoformat(), "issues": qa_issues},
+                      f, ensure_ascii=False, indent=2)
+        print(f"  质量报告: {qa_report_path}")
+    else:
+        print("  所有文件质量正常")
+
+    # Phase 4: Translate metadata
+    print("[翻译] 翻译标题和摘要...")
     for i, item in enumerate(all_items):
         item["id"] = f"{item['source']}_{i}"
-        translate_item(item)
-        if item.get("title_en"):
-            translated_count += 1
-        cat = classify_item(item["title"], item["summary"])
-        if item["source"] == "youtube":
-            cat = "video"
-        categories[cat]["items"].append(item)
+    with ThreadPoolExecutor(max_workers=5) as pool:
+        list(pool.map(translate_item, all_items))
+    translated_count = sum(1 for item in all_items if item.get("title_en"))
     print(f"  翻译了 {translated_count} 条")
 
-    # Translate full articles
-    print("[7/7] 翻译全文...")
+    # Phase 5: Translate full articles
+    print("[翻译] 翻译全文...")
+    translate_paths = []
     for item in all_items:
         lf = item.get("local_file")
         if lf:
             fp = DATA_DIR / lf
             if fp.exists():
-                translate_file(fp)
-    print("  完成")
+                translate_paths.append(fp)
+    if translate_paths:
+        ok, fail = 0, 0
+        with ThreadPoolExecutor(max_workers=5) as pool:
+            futures = {pool.submit(translate_file, fp): fp for fp in translate_paths}
+            for future in as_completed(futures):
+                try:
+                    future.result()
+                    ok += 1
+                except Exception:
+                    fail += 1
+        print(f"  完成 ({ok} 成功, {fail} 失败)")
+    else:
+        print("  无需翻译")
 
-    # Build summary
-    counts = {k: len(v["items"]) for k, v in categories.items()}
-    source_counts = {}
-    for item in all_items:
-        source_counts[item["source"]] = source_counts.get(item["source"], 0) + 1
+    # Phase 6: Merge new items into existing data and build output
+    print("[输出] 合并数据到 latest.json...")
+
+    # Load existing data
+    existing_conflicts = {}
+    if existing_json.exists():
+        try:
+            with open(existing_json) as f:
+                existing_conflicts = json.load(f).get("conflicts", {})
+        except Exception:
+            pass
+
+    conflicts_output = {}
+    total_items = 0
+
+    for cid, config in CONFLICTS.items():
+        categories = {
+            "military": {"label": "军事动态", "icon": "⚔️", "items": []},
+            "diplomacy": {"label": "外交谈判", "icon": "🕊️", "items": []},
+            "opinion": {"label": "舆论热点", "icon": "💬", "items": []},
+            "video": {"label": "视频报道", "icon": "📺", "items": []},
+        }
+
+        # Carry over existing items (drop items older than 30 days)
+        cutoff_date = (datetime.now() - timedelta(days=30)).strftime("%Y-%m-%d")
+        existing_urls_in_conflict = set()
+        expired_count = 0
+        if cid in existing_conflicts:
+            for cat_key, cat_data in existing_conflicts[cid].get("categories", {}).items():
+                if cat_key in categories:
+                    for item in cat_data.get("items", []):
+                        item_date = item.get("date", "")
+                        if item_date and item_date < cutoff_date:
+                            expired_count += 1
+                            continue  # drop old items
+                        categories[cat_key]["items"].append(item)
+                        if item.get("url"):
+                            existing_urls_in_conflict.add(item["url"])
+
+        # Add new items (skip if URL already in this conflict's categories)
+        new_count = 0
+        for item in conflict_items.get(cid, []):
+            if item.get("url") in existing_urls_in_conflict:
+                continue
+            cat = classify_item(item.get("title", ""), item.get("summary", ""))
+            if item["source"] == "youtube":
+                cat = "video"
+            categories[cat]["items"].append(item)
+            new_count += 1
+
+        item_count = sum(len(v["items"]) for v in categories.values())
+        total_items += item_count
+
+        conflicts_output[cid] = {
+            "name": config["name"],
+            "name_en": config["name_en"],
+            "status": config["status"],
+            "since": config["since"],
+            "region": config.get("region", ""),
+            "intensity": config.get("intensity", ""),
+            "parties": config.get("parties", []),
+            "related": config.get("related", []),
+            "summary": existing_conflicts.get(cid, {}).get("summary", ""),
+            "categories": categories,
+        }
+        if new_count or expired_count:
+            parts = []
+            if new_count:
+                parts.append(f"+{new_count} 新")
+            if expired_count:
+                parts.append(f"-{expired_count} 过期")
+            print(f"  {config['name']}: {', '.join(parts)}, 共 {item_count} 条")
 
     output = {
         "updated_at": datetime.now().isoformat() + "Z",
-        "summary": f"本次采集共获取 {len(all_items)} 条信息：军事动态 {counts['military']} 条，外交谈判 {counts['diplomacy']} 条，舆论热点 {counts['opinion']} 条，视频报道 {counts['video']} 条。数据来源覆盖 Reddit、X/Twitter、YouTube 和权威网页。",
-        "categories": categories,
+        "conflicts": conflicts_output,
         "stats": {
-            "total_items": len(all_items),
-            "sources": source_counts,
+            "total_items": total_items,
+            "sources": {},
             "date_range": {
                 "from": (datetime.now() - timedelta(days=30)).strftime("%Y-%m-%d"),
                 "to": datetime.now().strftime("%Y-%m-%d")
             }
         }
     }
+    # Count sources across ALL items (existing + new)
+    for conflict_data in conflicts_output.values():
+        for cat in conflict_data["categories"].values():
+            for item in cat["items"]:
+                src = item.get("source", "unknown")
+                output["stats"]["sources"][src] = output["stats"]["sources"].get(src, 0) + 1
 
     # Save
     output_path = DATA_DIR / "latest.json"
@@ -1068,10 +1627,21 @@ def collect():
     archive_path.mkdir(parents=True, exist_ok=True)
     shutil.copy2(output_path, archive_path / "latest.json")
 
+    # Run summary
+    new_count = len(all_items)
+    skip_count = sum(len(seen_urls) for _ in [1]) - new_count  # approximate
+    summary_line = (f"{datetime.now().strftime('%Y-%m-%d %H:%M')} | "
+                    f"new:{new_count} total:{total_items} "
+                    f"sources:{','.join(f'{k}:{v}' for k,v in output['stats']['sources'].items())}")
     print(f"\n=== 采集完成 ===")
-    print(f"  总条目: {len(all_items)}")
+    print(f"  {summary_line}")
     print(f"  数据文件: {output_path}")
     print(f"  存档: {archive_path}")
+
+    # Append to run log for monitoring
+    run_log = DATA_DIR / "run_log.txt"
+    with open(run_log, "a", encoding="utf-8") as f:
+        f.write(summary_line + "\n")
 
 
 def parse_tweet_date(date_str):
@@ -1081,6 +1651,54 @@ def parse_tweet_date(date_str):
         return dt.strftime("%Y-%m-%d")
     except Exception:
         return datetime.now().strftime("%Y-%m-%d")
+
+
+def extract_publish_date(url, content=""):
+    """Try to extract the real publish date from URL patterns or content.
+    Falls back to today's date if nothing found."""
+    today = datetime.now().strftime("%Y-%m-%d")
+
+    # 1. URL patterns: /2026/03/28/, /2026-03-28, etc.
+    m = re.search(r'/(\d{4})[/-](\d{2})[/-](\d{2})', url)
+    if m:
+        try:
+            dt = datetime(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+            if datetime(2020, 1, 1) <= dt <= datetime.now() + timedelta(days=7):
+                return dt.strftime("%Y-%m-%d")
+        except ValueError:
+            pass
+
+    # 2. Content patterns: "March 31, 2026", "Mar 5, 2026", "2026-03-28"
+    # ISO date
+    m = re.search(r'(\d{4}-\d{2}-\d{2})', content[:2000])
+    if m:
+        try:
+            dt = datetime.strptime(m.group(1), "%Y-%m-%d")
+            if datetime(2020, 1, 1) <= dt <= datetime.now() + timedelta(days=7):
+                return dt.strftime("%Y-%m-%d")
+        except ValueError:
+            pass
+
+    # English date: "March 31, 2026" or "Mar 5, 2026"
+    m = re.search(
+        r'(?:January|February|March|April|May|June|July|August|September|October|November|December|'
+        r'Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\.?\s+(\d{1,2}),?\s+(\d{4})',
+        content[:2000]
+    )
+    if m:
+        try:
+            date_str = m.group(0).replace(".", "").replace(",", "")
+            for fmt in ["%B %d %Y", "%b %d %Y"]:
+                try:
+                    dt = datetime.strptime(date_str, fmt)
+                    if datetime(2020, 1, 1) <= dt <= datetime.now() + timedelta(days=7):
+                        return dt.strftime("%Y-%m-%d")
+                except ValueError:
+                    continue
+        except Exception:
+            pass
+
+    return today
 
 
 def extract_subreddit(url):
