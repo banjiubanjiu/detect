@@ -625,17 +625,6 @@ def quality_check(text, source_type="web"):
                     "details": {"lines": total_lines, "short_ratio": 0, "link_density": 0,
                                 "noise_hits": 0, "avg_line_len": 0, "headings": 0}}
 
-    # 0b) Reject content that's too thin (only metadata, no real body)
-    # Strip metadata lines (headers, links, separators) and check remaining content
-    body_lines = [l for l in lines
-                  if not re.match(r'^(?:#|---|\*\*原始链接|!\[|\[.*\]\()', l.strip())]
-    body_text = ' '.join(l.strip() for l in body_lines)
-    if len(body_text) < 100:
-        return {"score": 0.1, "verdict": "JUNK", "reason": "no substantial body content",
-                "details": {"lines": total_lines, "short_ratio": 0, "link_density": 0,
-                            "noise_hits": 0, "avg_line_len": 0, "headings": 0,
-                            "body_chars": len(body_text)}}
-
     # 1) Short-line ratio: nav junk produces many short lines (<40 chars)
     short_lines = sum(1 for l in lines if len(l.strip()) < 40)
     short_ratio = short_lines / total_lines
