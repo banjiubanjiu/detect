@@ -183,7 +183,7 @@ def translate_item(item):
     if item.get("title_en"):
         return item
 
-    if source in ("x", "reddit"):
+    if source == "x":
         # Tweets/Reddit: generate headline + summary from content (1 API call)
         api_key = _get_openrouter_key()
         if not api_key:
