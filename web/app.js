@@ -294,6 +294,14 @@ function showOverview() {
         <div class="kpi-sub">${sorted[0] ? Object.values(D.conflicts[sorted[0][0]].categories).reduce((s,c)=>s+c.items.length,0) + ' reports' : ''}</div>
       </div>
     </div>
+    ${D.briefing ? `<div class="briefing-card">
+      <div class="briefing-header">
+        <span class="briefing-icon">INTEL</span>
+        <span class="briefing-title">每日态势简报</span>
+        <span class="briefing-date">${D.briefing_date || ''}</span>
+      </div>
+      <div class="briefing-body">${esc(D.briefing)}</div>
+    </div>` : ''}
     ${sorted.map(([k, c], i) => {
       const total = Object.values(c.categories).reduce((s, cat) => s + cat.items.length, 0);
       const allItems = Object.values(c.categories).flatMap(cat => cat.items);
@@ -514,7 +522,9 @@ function showConflict() {
 
   const borderColor = { war:'var(--i-war)', conflict:'var(--i-conflict)', tension:'var(--i-tension)' };
   const summaryEl = document.getElementById('cdSummary');
-  summaryEl.textContent = c.summary;
+  summaryEl.innerHTML = c.briefing
+    ? `<div class="cd-briefing"><span class="briefing-icon">INTEL</span> ${esc(c.briefing)}</div>${c.summary ? `<div class="cd-summary-text">${esc(c.summary)}</div>` : ''}`
+    : esc(c.summary);
   summaryEl.style.borderLeftColor = borderColor[c.intensity] || 'var(--red)';
 
   document.getElementById('cdBack').onclick = showOverview;

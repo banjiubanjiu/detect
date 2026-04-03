@@ -192,6 +192,61 @@ body {
   border-bottom: 2px solid var(--ink);
 }
 
+/* ═══ Briefing ═══ */
+.briefing-card {
+  border: 1px solid var(--ink-08);
+  border-left: 3px solid var(--ink);
+  border-radius: 4px;
+  background: var(--paper);
+  padding: 16px 20px;
+  margin-bottom: 24px;
+}
+.briefing-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.briefing-icon {
+  font-family: var(--mono);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  background: var(--ink);
+  color: var(--cream);
+  padding: 2px 7px;
+  border-radius: 2px;
+}
+.briefing-title {
+  font-family: var(--serif);
+  font-size: 15px;
+  font-weight: 800;
+}
+.briefing-date {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--ink-25);
+  margin-left: auto;
+}
+.briefing-body {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--ink-80);
+}
+.cd-briefing {
+  font-size: 13.5px;
+  line-height: 1.7;
+  color: var(--ink-80);
+  margin-bottom: 8px;
+}
+.cd-briefing .briefing-icon { margin-right: 6px }
+.cd-summary-text {
+  font-size: 12px;
+  color: var(--ink-40);
+  padding-top: 8px;
+  border-top: 1px dashed var(--ink-08);
+}
+
 /* ═══ Viz Row: Hot Reports + Force Graph ═══ */
 .viz-row {
   max-width: var(--pw);

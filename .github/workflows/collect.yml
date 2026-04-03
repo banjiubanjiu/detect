@@ -33,6 +33,11 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: python scripts/rss_feeds.py both
 
+      - name: Generate AI briefing
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: python scripts/briefing.py
+
       - name: Commit & push
         run: |
           git config user.name "github-actions[bot]"

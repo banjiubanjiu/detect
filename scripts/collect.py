@@ -1843,6 +1843,14 @@ def collect():
     except Exception as e:
         print(f"  RSS 输出跳过: {e}")
 
+    # Phase 8: AI briefing
+    print("[简报] 生成 AI 每日简报...")
+    try:
+        from briefing import generate_briefings
+        generate_briefings()
+    except Exception as e:
+        print(f"  简报跳过: {e}")
+
     # Append to run log for monitoring
     run_log = DATA_DIR / "run_log.txt"
     with open(run_log, "a", encoding="utf-8") as f:
