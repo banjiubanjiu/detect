@@ -1421,7 +1421,7 @@ def collect_conflict(conflict_id, config, seen_urls, date_filter):
         if not _should_add(r["url"]):
             continue
         tweet = fetch_tweet(user, tid)
-        if not tweet:
+        if not tweet or not tweet.get("text"):
             continue
         local_file = save_tweet_md(tweet, user, tid, SOURCES_DIR / "x")
         author = tweet.get("author", {})
