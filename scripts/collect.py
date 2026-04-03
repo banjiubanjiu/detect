@@ -1390,12 +1390,13 @@ def collect_conflict(conflict_id, config, seen_urls, date_filter):
                 continue
             safe_name = r["url"].replace("https://", "").replace("http://", "").replace("/", "_")[:100]
             local_file = _find_local_file(SOURCES_DIR / "web", safe_name, r["url"])
-            # Read content for date extraction if file exists
+            if not local_file:
+                continue
+            # Read content for date extraction
             file_content = ""
-            if local_file:
-                fp = DATA_DIR / local_file
-                if fp.exists():
-                    file_content = fp.read_text(encoding='utf-8', errors='ignore')[:2000]
+            fp = DATA_DIR / local_file
+            if fp.exists():
+                file_content = fp.read_text(encoding='utf-8', errors='ignore')[:2000]
             items.append({
                 "title": r.get("title", ""),
                 "summary": r.get("snippet", ""),
@@ -1448,6 +1449,8 @@ def collect_conflict(conflict_id, config, seen_urls, date_filter):
     for r in new_reddit:
         # Use dedicated Reddit fetcher (ScrapeCreators API), not generic xcrawl
         local_file = fetch_reddit_thread(r["url"], SOURCES_DIR / "reddit")
+        if not local_file:
+            continue
         items.append({
             "title": r.get("title", ""),
             "summary": r.get("snippet", ""),
@@ -1580,6 +1583,7 @@ def collect():
     # Phase 3: Quality check
     print("[质量] 质量检查...")
     qa_issues = []
+    clean_items = []
     for item in all_items:
         lf = item.get("local_file")
         if not lf:
@@ -1590,15 +1594,24 @@ def collect():
         content = fp.read_text(encoding='utf-8', errors='ignore')
         qr = quality_check(content, item["source"])
         item["quality_score"] = qr["score"]
-        if qr["verdict"] != "CLEAN":
+        if qr["verdict"] in ("JUNK", "INDEX"):
             qa_issues.append({
                 "file": lf,
                 "verdict": qr["verdict"],
                 "score": qr["score"],
                 "details": qr["details"],
             })
+        else:
+            clean_items.append(item)
+    # Replace all_items with only clean ones
+    rejected = len(all_items) - len(clean_items)
+    all_items = clean_items
+    # Also update conflict_items
+    clean_urls = {item.get("url") for item in clean_items}
+    for cid in conflict_items:
+        conflict_items[cid] = [it for it in conflict_items[cid] if it.get("url") in clean_urls]
     if qa_issues:
-        print(f"  {len(qa_issues)} 个文件存在质量问题:")
+        print(f"  {len(qa_issues)} 个文件被拒绝:")
         for issue in qa_issues:
             d = issue["details"]
             print(f"    [{issue['verdict']}] {issue['file']} "
