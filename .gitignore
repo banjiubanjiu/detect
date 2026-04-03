@@ -29,5 +29,8 @@ Thumbs.db
 # Claude Code
 .claude/
 
-# Data files
-data/
+# Data files (keep latest.json + scrape_methods.json for Pages)
+data/sources/
+data/archive/
+data/qa_report.json
+data/run_log.txt

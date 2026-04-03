@@ -1,0 +1,55 @@
+{
+  "_doc": "域名 → 最佳抓取方法映射表。采集脚本自动读取此文件决定用哪个工具抓取。",
+  "_updated": "2026-04-01",
+  "_methods": {
+    "xcrawl": "xcrawl scrape（默认首选）",
+    "jina": "Jina Reader API: curl https://r.jina.ai/URL",
+    "aljazeera": "直接 curl + HTML <p> 标签解析（Al Jazeera 专用）",
+    "fxtwitter": "fxtwitter API: curl https://api.fxtwitter.com/user/status/id",
+    "ytdlp": "yt-dlp 字幕提取（仅有字幕的视频）",
+    "none": "所有方法均失败，跳过"
+  },
+
+  "domains": {
+    "aljazeera.com":            {"method": "aljazeera", "note": "xcrawl/Jina均失败，用直接curl+HTML解析，58段1716词"},
+    "atlanticcouncil.org":      {"method": "xcrawl", "note": "稳定"},
+    "rferl.org":                {"method": "xcrawl", "note": "稳定"},
+    "russiamatters.org":        {"method": "xcrawl", "note": "稳定"},
+    "wikipedia.org":            {"method": "xcrawl", "note": "稳定"},
+    "bbc.com":                  {"method": "xcrawl", "note": "稳定"},
+    "apnews.com":               {"method": "xcrawl", "note": "稳定"},
+
+    "nytimes.com":              {"method": "jina", "note": "xcrawl付费墙失败，Jina 62K chars"},
+    "cnn.com":                  {"method": "jina", "note": "xcrawl JS渲染失败，Jina 32K chars"},
+    "bloomberg.com":            {"method": "jina", "note": "xcrawl付费墙失败，Jina 15K chars"},
+    "theguardian.com":          {"method": "jina", "note": "xcrawl反爬失败，Jina内容偏短513B需验证"},
+    "understandingwar.org":     {"method": "jina", "note": "ISW战争研究所，Jina 64K chars"},
+    "crisisgroup.org":          {"method": "jina", "note": "国际危机组织，Jina 30K chars"},
+    "chathamhouse.org":         {"method": "jina", "note": "查塔姆研究所，Jina 17K chars"},
+    "brookings.edu":            {"method": "jina", "note": "布鲁金斯学会，Jina 10K chars"},
+    "csis.org":                 {"method": "jina", "note": "CSIS，Jina 32K chars"},
+    "ecfr.eu":                  {"method": "jina", "note": "欧洲外交关系委员会，Jina 68K chars"},
+    "aei.org":                  {"method": "jina", "note": "美国企业研究所，Jina 56K chars"},
+    "globaltaiwan.org":         {"method": "jina", "note": "全球台湾研究中心，Jina 20K chars"},
+    "gmfus.org":                {"method": "jina", "note": "GMF，Jina 7K chars"},
+    "timep.org":                {"method": "jina", "note": "TIMEP，Jina 16K chars"},
+    "snhr.org":                 {"method": "jina", "note": "叙利亚人权网络，Jina 46K chars"},
+    "congress.gov":             {"method": "jina", "note": "美国国会，Jina 228K chars"},
+    "ohchr.org":                {"method": "jina", "note": "联合国人权办，Jina 10K chars"},
+    "ifrc.org":                 {"method": "jina", "note": "国际红十字会，Jina 29K chars"},
+    "rescue.org":               {"method": "jina", "note": "IRC，Jina 17K chars"},
+    "ajc.org":                  {"method": "jina", "note": "AJC，Jina 41K chars"},
+    "globalsecurityreview.com": {"method": "jina", "note": "全球安全评论，Jina 13K chars"},
+
+    "x.com":                    {"method": "fxtwitter", "note": "纯JS SPA，用fxtwitter API"},
+    "twitter.com":              {"method": "fxtwitter", "note": "同x.com"},
+    "youtube.com":              {"method": "ytdlp", "note": "提取字幕，无字幕则跳过"},
+
+    "reuters.com":              {"method": "none", "note": "HTTP 451 所有方法失败"},
+    "usnews.com":               {"method": "none", "note": "HTTP 451 所有方法失败"},
+    "thediplomat.com":          {"method": "none", "note": "HTTP 451 所有方法失败"},
+    "irrawaddy.com":            {"method": "none", "note": "内容太短，无法获取正文"},
+    "wsj.com":                  {"method": "none", "note": "付费墙，所有方法失败"},
+    "ft.com":                   {"method": "none", "note": "付费墙，所有方法失败"}
+  }
+}
