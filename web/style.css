@@ -187,7 +187,7 @@ body {
   height: 420px;
   border-radius: 4px;
   overflow: hidden;
-  background: var(--ink);
+  background: #111110;
   position: relative;
 }
 .globe-wrap canvas { cursor: grab }
