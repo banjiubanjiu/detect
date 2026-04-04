@@ -209,11 +209,11 @@ function initGlobe() {
   function escColor(index) {
     if (index >= 62) {
       const t = Math.min(1, (index - 62) / 38);
-      return `rgb(${180 + 75*t},${70 - 40*t},${50 - 30*t})`;
+      return `rgb(${Math.round(180 + 75*t)},${Math.round(70 - 40*t)},${Math.round(50 - 30*t)})`;
     }
     if (index <= 38) {
       const t = Math.min(1, (38 - index) / 38);
-      return `rgb(${80 - 40*t},${160 + 40*t},${80 + 20*t})`;
+      return `rgb(${Math.round(80 - 40*t)},${Math.round(160 + 40*t)},${Math.round(80 + 20*t)})`;
     }
     return '#d87030';
   }
