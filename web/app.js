@@ -708,20 +708,8 @@ function initDetailMap(key, c) {
       .bindTooltip(rc.name, { className: 'cd-map-tip', direction: 'top', offset: [0, -6] }).addTo(detailMap);
   });
 
-  // Plot GDELT events with geo coordinates
+  // ── Timeline Replay (plots all items on map) ──
   const allItems = Object.values(c.categories).flatMap(cat => cat.items);
-  const geoItems = allItems.filter(it => it.gdelt_meta && it.gdelt_meta.geo_lat && it.gdelt_meta.geo_lon
-    && (it.gdelt_meta.geo_lat !== 0 || it.gdelt_meta.geo_lon !== 0));
-  geoItems.forEach(it => {
-    const gm = it.gdelt_meta;
-    L.circleMarker([gm.geo_lat, gm.geo_lon], {
-      radius: 4, color: '#ff6b6b', fillColor: '#ff6b6b', fillOpacity: 0.6, weight: 0,
-    }).bindTooltip(`${it.title}<br><span style="font-size:10px;opacity:0.7">${it.date} · GS:${it.metrics.goldstein}</span>`, {
-      className: 'cd-map-tip', direction: 'top',
-    }).addTo(detailMap);
-  });
-
-  // ── Timeline Replay ──
   initReplay(allItems, color);
 
   // ── Infrastructure Layers ──
@@ -735,6 +723,24 @@ function initReplay(items, color) {
   if (dated.length < 3) { document.getElementById('replayBar').style.display = 'none'; return; }
   document.getElementById('replayBar').style.display = '';
 
+  // Pre-assign a stable random position to each item (seeded by id/title hash)
+  const center = detailMap.getCenter();
+  dated.forEach(it => {
+    const gm = it.gdelt_meta;
+    if (gm && gm.geo_lat && (gm.geo_lat !== 0 || gm.geo_lon !== 0)) {
+      it._lat = gm.geo_lat;
+      it._lng = gm.geo_lon;
+    } else {
+      // Spread around conflict center with deterministic offset based on item id
+      const h = (it.id || it.title || '').split('').reduce((s, c) => (s * 31 + c.charCodeAt(0)) | 0, 0);
+      const angle = (h & 0xffff) / 0xffff * Math.PI * 2;
+      const radius = 0.5 + (((h >> 16) & 0xff) / 255) * 2.5; // 0.5-3.0 degrees
+      it._lat = center.lat + Math.sin(angle) * radius;
+      it._lng = center.lng + Math.cos(angle) * radius;
+    }
+  });
+
+  const srcColors = { web: '#4a9', reddit: '#d84e1c', x: '#1478c8', youtube: '#cc1818', gdelt: '#ff6b6b' };
   const dates = [...new Set(dated.map(it => it.date))].sort();
   const slider = document.getElementById('replaySlider');
   const dateEl = document.getElementById('replayDate');
@@ -753,12 +759,13 @@ function initReplay(items, color) {
     replayMarkers.clearLayers();
     const visible = dated.filter(it => it.date <= cutoff);
     visible.forEach(it => {
-      const gm = it.gdelt_meta;
-      if (gm && gm.geo_lat && gm.geo_lon && (gm.geo_lat !== 0 || gm.geo_lon !== 0)) {
-        L.circleMarker([gm.geo_lat, gm.geo_lon], {
-          radius: 5, color: '#ff6b6b', fillColor: '#ff6b6b', fillOpacity: 0.7, weight: 0,
-        }).bindTooltip(it.title, { className: 'cd-map-tip' }).addTo(replayMarkers);
-      }
+      const clr = srcColors[it.source] || '#ff6b6b';
+      L.circleMarker([it._lat, it._lng], {
+        radius: it.gdelt_meta ? 5 : 4,
+        color: clr, fillColor: clr, fillOpacity: 0.7, weight: 0,
+      }).bindTooltip(`${it.title || ''}<br><span style="font-size:10px;opacity:0.7">${it.date} · ${srcN(it.source)}</span>`, {
+        className: 'cd-map-tip',
+      }).addTo(replayMarkers);
     });
     dateEl.textContent = cutoff;
     countEl.textContent = `${visible.length} / ${dated.length}`;
