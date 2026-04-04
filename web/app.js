@@ -83,11 +83,30 @@ let timeFilterDays = 30; // 0 = all
 /* ═══ Escalation ═══ */
 function escalation(items) {
   const now = new Date();
-  const recent = items.filter(it => it.date && (now - new Date(it.date)) < 7 * 86400000).length;
-  const prior = items.filter(it => it.date && (now - new Date(it.date)) >= 7 * 86400000 && (now - new Date(it.date)) < 14 * 86400000).length;
-  if (recent > prior * 1.3 && recent - prior >= 2) return { label: '升级', cls: 'esc-up', arrow: '↑' };
-  if (prior > recent * 1.3 && prior - recent >= 2) return { label: '缓和', cls: 'esc-down', arrow: '↓' };
-  return { label: '稳定', cls: 'esc-stable', arrow: '→' };
+  const recent = items.filter(it => it.date && (now - new Date(it.date)) < 7 * 86400000);
+  const prior = items.filter(it => it.date && (now - new Date(it.date)) >= 7 * 86400000 && (now - new Date(it.date)) < 14 * 86400000);
+  const rc = recent.length, pc = prior.length;
+
+  // Frequency score: -1 to +1
+  const freqScore = pc > 0 ? (rc - pc) / Math.max(rc, pc) : (rc > 0 ? 0.5 : 0);
+
+  // Goldstein severity: average of recent GDELT events (scale -10 to +10, lower = worse)
+  const recentGS = recent.filter(it => it.metrics && it.metrics.goldstein).map(it => it.metrics.goldstein);
+  const gsAvg = recentGS.length > 0 ? recentGS.reduce((s, v) => s + v, 0) / recentGS.length : 0;
+  const gsScore = recentGS.length > 0 ? Math.max(-1, Math.min(1, -gsAvg / 10)) : 0;
+
+  // Mention volume: high mentions = more significant
+  const recentMentions = recent.filter(it => it.metrics && it.metrics.mentions).reduce((s, it) => s + it.metrics.mentions, 0);
+  const priorMentions = prior.filter(it => it.metrics && it.metrics.mentions).reduce((s, it) => s + it.metrics.mentions, 0);
+  const mentionScore = priorMentions > 0 ? Math.max(-1, Math.min(1, (recentMentions - priorMentions) / Math.max(recentMentions, priorMentions))) : 0;
+
+  // Composite: weighted average → 0-100 index
+  const raw = freqScore * 0.5 + gsScore * 0.3 + mentionScore * 0.2;
+  const index = Math.round(Math.max(0, Math.min(100, (raw + 1) * 50)));
+
+  if (index >= 62) return { label: '升级', cls: 'esc-up', arrow: '↑', index, raw };
+  if (index <= 38) return { label: '缓和', cls: 'esc-down', arrow: '↓', index, raw };
+  return { label: '稳定', cls: 'esc-stable', arrow: '→', index, raw };
 }
 
 /* ═══ Time Filter ═══ */
@@ -128,10 +147,10 @@ function sparkline(items, intensity, days = 30) {
 const CONFLICT_GEO = {
   'russia-ukraine':  { lat: 48.5, lng: 35.0, zoom: 5 },
   'israel-palestine':{ lat: 31.5, lng: 34.5, zoom: 7 },
-  'iran-war':        { lat: 32.4, lng: 53.7, zoom: 5 },
+  'us-iran':         { lat: 32.4, lng: 53.7, zoom: 5 },
   'sudan':           { lat: 15.5, lng: 32.5, zoom: 5 },
   'myanmar':         { lat: 19.7, lng: 96.0, zoom: 5 },
-  'yemen-houthis':   { lat: 15.3, lng: 44.2, zoom: 6 },
+  'yemen-houthi':    { lat: 15.3, lng: 44.2, zoom: 6 },
   'congo-drc':       { lat: -2.5, lng: 28.8, zoom: 5 },
   'syria':           { lat: 35.0, lng: 38.0, zoom: 6 },
   'taiwan-strait':   { lat: 24.0, lng: 119.0, zoom: 5 },
@@ -186,14 +205,26 @@ function initGlobe() {
   const wrap = document.getElementById('globeWrap');
   if (!wrap || typeof Globe === 'undefined') return;
 
-  const COLORS = { war: '#e74c3c', conflict: '#d87030', tension: '#c89820' };
-  const RINGS  = { war: '#e74c3c', conflict: '#d87030', tension: '#c89820' };
+  // Escalation-driven color: red(升级) → amber(稳定) → green(缓和)
+  function escColor(index) {
+    if (index >= 62) {
+      const t = Math.min(1, (index - 62) / 38);
+      return `rgb(${180 + 75*t},${70 - 40*t},${50 - 30*t})`;
+    }
+    if (index <= 38) {
+      const t = Math.min(1, (38 - index) / 38);
+      return `rgb(${80 - 40*t},${160 + 40*t},${80 + 20*t})`;
+    }
+    return '#d87030';
+  }
 
-  // Build point data from conflicts
+  // Build point data from conflicts with escalation index
   const points = Object.entries(D.conflicts).map(([k, c]) => {
     const geo = CONFLICT_GEO[k];
     if (!geo) return null;
-    const total = Object.values(c.categories).reduce((s, cat) => s + cat.items.length, 0);
+    const allItems = Object.values(c.categories).flatMap(cat => cat.items);
+    const total = allItems.length;
+    const esc = escalation(allItems);
     return {
       key: k,
       lat: geo.lat,
@@ -202,17 +233,19 @@ function initGlobe() {
       name_en: c.name_en,
       intensity: c.intensity || 'conflict',
       total,
-      color: COLORS[c.intensity] || COLORS.conflict,
+      escIndex: esc.index,
+      escLabel: esc.label,
+      color: escColor(esc.index),
     };
   }).filter(Boolean);
 
-  // Rings for active pulsing effect
+  // Rings: speed & size driven by escalation
   const rings = points.map(p => ({
     lat: p.lat, lng: p.lng,
-    maxR: p.intensity === 'war' ? 4 : p.intensity === 'conflict' ? 3 : 2,
-    propagationSpeed: p.intensity === 'war' ? 2 : 1.5,
-    repeatPeriod: p.intensity === 'war' ? 800 : 1200,
-    color: RINGS[p.intensity] || RINGS.conflict,
+    maxR: p.escIndex >= 62 ? 5 : p.escIndex <= 38 ? 2 : 3,
+    propagationSpeed: p.escIndex >= 62 ? 2.5 : 1.2,
+    repeatPeriod: p.escIndex >= 62 ? 600 : 1200,
+    color: p.color,
     key: p.key,
   }));
 
@@ -237,7 +270,7 @@ function initGlobe() {
       <div style="font-family:system-ui;font-size:13px;background:rgba(26,26,24,0.92);color:#f4efe6;padding:8px 12px;border-radius:4px;line-height:1.5;border-left:3px solid ${d.color}">
         <div style="font-weight:700">${d.name}</div>
         <div style="font-size:11px;opacity:0.7">${d.name_en}</div>
-        <div style="font-size:11px;margin-top:3px">${d.total} reports</div>
+        <div style="font-size:11px;margin-top:3px">${d.total} reports · ${d.escLabel} ${d.escIndex}</div>
       </div>
     `)
     // Pulsing rings
@@ -314,6 +347,7 @@ function renderRegionNav() {
 
 /* ═══ Overview ═══ */
 function showOverview() {
+  if (_replayTimer) { clearInterval(_replayTimer); _replayTimer = null; }
   currentView = 'overview';
   conflict = null;
   kbIdx = -1;
@@ -404,7 +438,7 @@ function showOverview() {
             <div class="ov-card-name">
               ${c.name}
               <span class="ov-intensity ${c.intensity || 'conflict'}">${INAMES[c.intensity] || c.intensity}</span>
-              <span class="ov-escalation ${escl.cls}">${escl.arrow} ${escl.label}</span>
+              <span class="ov-escalation ${escl.cls}">${escl.arrow} ${escl.label} <span class="esc-idx">${escl.index}</span></span>
             </div>
             <div class="ov-parties">${parties} · ${c.region} · 自 ${c.since}</div>
             <div class="ov-latest">${latest ? esc(latest.title) : '暂无数据'}</div>
@@ -638,47 +672,179 @@ function showConflict() {
   renderRiver(c);
 }
 
+let _infraData = null;
+let _infraLayers = {};
+let _replayTimer = null;
+
 function initDetailMap(key, c) {
   const el = document.getElementById('cdMap');
   const geo = CONFLICT_GEO[key];
-  if (!geo || typeof L === 'undefined') { el.style.display = 'none'; return; }
+  if (!geo || typeof L === 'undefined') { el.style.display = 'none'; document.getElementById('mapControls').style.display = 'none'; return; }
   el.style.display = '';
+  document.getElementById('mapControls').style.display = '';
 
-  // Destroy previous map instance
+  // Destroy previous
   if (detailMap) { detailMap.remove(); detailMap = null; }
+  if (_replayTimer) { clearInterval(_replayTimer); _replayTimer = null; }
+  _infraLayers = {};
 
   detailMap = L.map(el, { zoomControl: true, scrollWheelZoom: false }).setView([geo.lat, geo.lng], geo.zoom);
   L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-    attribution: '&copy; OSM &amp; CartoDB',
-    maxZoom: 12,
+    attribution: '&copy; OSM &amp; CartoDB', maxZoom: 12,
   }).addTo(detailMap);
 
-  // Conflict zone marker
   const colors = { war: '#e74c3c', conflict: '#d87030', tension: '#c89820' };
   const color = colors[c.intensity] || colors.conflict;
 
-  // Pulsing circle
-  L.circleMarker([geo.lat, geo.lng], {
-    radius: 18, color: color, fillColor: color, fillOpacity: 0.15, weight: 1.5,
-  }).addTo(detailMap);
-  L.circleMarker([geo.lat, geo.lng], {
-    radius: 6, color: color, fillColor: color, fillOpacity: 0.8, weight: 0,
-  }).addTo(detailMap);
+  // Conflict zone marker
+  L.circleMarker([geo.lat, geo.lng], { radius: 18, color, fillColor: color, fillOpacity: 0.15, weight: 1.5 }).addTo(detailMap);
+  L.circleMarker([geo.lat, geo.lng], { radius: 6, color, fillColor: color, fillOpacity: 0.8, weight: 0 }).addTo(detailMap);
 
-  // Related conflicts as smaller markers
-  const related = (c.related || []).filter(k => D.conflicts[k] && CONFLICT_GEO[k]);
-  related.forEach(k => {
-    const rg = CONFLICT_GEO[k];
-    const rc = D.conflicts[k];
+  // Related conflicts
+  (c.related || []).filter(k => D.conflicts[k] && CONFLICT_GEO[k]).forEach(k => {
+    const rg = CONFLICT_GEO[k], rc = D.conflicts[k];
     const rcolor = colors[rc.intensity] || colors.conflict;
-    L.circleMarker([rg.lat, rg.lng], {
-      radius: 5, color: rcolor, fillColor: rcolor, fillOpacity: 0.5, weight: 0,
-    }).bindTooltip(rc.name, { className: 'cd-map-tip', direction: 'top', offset: [0, -6] })
-    .addTo(detailMap);
+    L.circleMarker([rg.lat, rg.lng], { radius: 5, color: rcolor, fillColor: rcolor, fillOpacity: 0.5, weight: 0 })
+      .bindTooltip(rc.name, { className: 'cd-map-tip', direction: 'top', offset: [0, -6] }).addTo(detailMap);
   });
 
-  // Fix tile rendering on hidden->shown container
+  // Plot GDELT events with geo coordinates
+  const allItems = Object.values(c.categories).flatMap(cat => cat.items);
+  const geoItems = allItems.filter(it => it.gdelt_meta && it.gdelt_meta.geo_lat && it.gdelt_meta.geo_lon
+    && (it.gdelt_meta.geo_lat !== 0 || it.gdelt_meta.geo_lon !== 0));
+  geoItems.forEach(it => {
+    const gm = it.gdelt_meta;
+    L.circleMarker([gm.geo_lat, gm.geo_lon], {
+      radius: 4, color: '#ff6b6b', fillColor: '#ff6b6b', fillOpacity: 0.6, weight: 0,
+    }).bindTooltip(`${it.title}<br><span style="font-size:10px;opacity:0.7">${it.date} · GS:${it.metrics.goldstein}</span>`, {
+      className: 'cd-map-tip', direction: 'top',
+    }).addTo(detailMap);
+  });
+
+  // ── Timeline Replay ──
+  initReplay(allItems, color);
+
+  // ── Infrastructure Layers ──
+  initInfraLayers();
+
   setTimeout(() => detailMap.invalidateSize(), 100);
+}
+
+function initReplay(items, color) {
+  const dated = items.filter(it => it.date).sort((a, b) => a.date.localeCompare(b.date));
+  if (dated.length < 3) { document.getElementById('replayBar').style.display = 'none'; return; }
+  document.getElementById('replayBar').style.display = '';
+
+  const dates = [...new Set(dated.map(it => it.date))].sort();
+  const slider = document.getElementById('replaySlider');
+  const dateEl = document.getElementById('replayDate');
+  const countEl = document.getElementById('replayCount');
+  const btn = document.getElementById('replayBtn');
+
+  slider.max = dates.length - 1;
+  slider.value = dates.length - 1;
+  dateEl.textContent = dates[dates.length - 1];
+  countEl.textContent = `${dated.length} 事件`;
+
+  const replayMarkers = L.layerGroup().addTo(detailMap);
+
+  function showUpTo(idx) {
+    const cutoff = dates[idx];
+    replayMarkers.clearLayers();
+    const visible = dated.filter(it => it.date <= cutoff);
+    visible.forEach(it => {
+      const gm = it.gdelt_meta;
+      if (gm && gm.geo_lat && gm.geo_lon && (gm.geo_lat !== 0 || gm.geo_lon !== 0)) {
+        L.circleMarker([gm.geo_lat, gm.geo_lon], {
+          radius: 5, color: '#ff6b6b', fillColor: '#ff6b6b', fillOpacity: 0.7, weight: 0,
+        }).bindTooltip(it.title, { className: 'cd-map-tip' }).addTo(replayMarkers);
+      }
+    });
+    dateEl.textContent = cutoff;
+    countEl.textContent = `${visible.length} / ${dated.length}`;
+  }
+
+  slider.oninput = () => showUpTo(+slider.value);
+
+  let playing = false;
+  btn.onclick = () => {
+    if (playing) {
+      clearInterval(_replayTimer);
+      _replayTimer = null;
+      btn.textContent = '▶ 回放';
+      playing = false;
+      return;
+    }
+    playing = true;
+    btn.textContent = '⏸ 暂停';
+    let idx = 0;
+    slider.value = 0;
+    showUpTo(0);
+    _replayTimer = setInterval(() => {
+      idx++;
+      if (idx >= dates.length) {
+        clearInterval(_replayTimer);
+        _replayTimer = null;
+        btn.textContent = '▶ 回放';
+        playing = false;
+        return;
+      }
+      slider.value = idx;
+      showUpTo(idx);
+    }, 500);
+  };
+}
+
+async function initInfraLayers() {
+  if (!_infraData) {
+    try {
+      const r = await fetch(SRC + 'infrastructure.json');
+      if (r.ok) _infraData = await r.json();
+    } catch {}
+  }
+  if (!_infraData || !detailMap) return;
+
+  const iconOpts = (clr) => ({ radius: 4, color: clr, fillColor: clr, fillOpacity: 0.8, weight: 1 });
+
+  // Military bases layer
+  const basesLayer = L.layerGroup();
+  (_infraData.military_bases || []).forEach(b => {
+    const clr = b.country.includes('US') || b.country.includes('UK') ? '#4a90d9' : b.country.includes('RU') ? '#d94a4a' : '#d9c94a';
+    L.circleMarker([b.lat, b.lng], iconOpts(clr))
+      .bindTooltip(`<b>${b.name}</b><br>${b.country} · ${b.type}`, { className: 'cd-map-tip' })
+      .addTo(basesLayer);
+  });
+  _infraLayers.bases = basesLayer;
+
+  // Nuclear facilities layer
+  const nuclearLayer = L.layerGroup();
+  (_infraData.nuclear_facilities || []).forEach(n => {
+    L.circleMarker([n.lat, n.lng], { radius: 6, color: '#ff0', fillColor: '#ff0', fillOpacity: 0.7, weight: 1.5 })
+      .bindTooltip(`<b>☢ ${n.name}</b><br>${n.country} · ${n.type}${n.status ? ' · ' + n.status : ''}`, { className: 'cd-map-tip' })
+      .addTo(nuclearLayer);
+  });
+  _infraLayers.nuclear = nuclearLayer;
+
+  // Pipelines/cables layer
+  const pipeLayer = L.layerGroup();
+  const lineColors = { gas: '#4a90d9', oil: '#d94a4a', cable: '#8a6aaa', chokepoint: '#e74c3c' };
+  (_infraData.pipelines_cables || []).forEach(p => {
+    const clr = lineColors[p.type] || '#888';
+    L.polyline(p.coords, { color: clr, weight: 2, opacity: 0.6, dashArray: p.type === 'cable' ? '4 4' : null })
+      .bindTooltip(`<b>${p.name}</b><br>${p.type}`, { className: 'cd-map-tip', sticky: true })
+      .addTo(pipeLayer);
+  });
+  _infraLayers.pipelines = pipeLayer;
+
+  // Wire toggles
+  document.getElementById('layerBases').onchange = function() { this.checked ? basesLayer.addTo(detailMap) : detailMap.removeLayer(basesLayer) };
+  document.getElementById('layerNuclear').onchange = function() { this.checked ? nuclearLayer.addTo(detailMap) : detailMap.removeLayer(nuclearLayer) };
+  document.getElementById('layerPipelines').onchange = function() { this.checked ? pipeLayer.addTo(detailMap) : detailMap.removeLayer(pipeLayer) };
+
+  // Reset checkboxes
+  document.getElementById('layerBases').checked = false;
+  document.getElementById('layerNuclear').checked = false;
+  document.getElementById('layerPipelines').checked = false;
 }
 
 function renderDataStrip(c) {

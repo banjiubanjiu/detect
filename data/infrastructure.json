@@ -1,0 +1,50 @@
+{
+  "military_bases": [
+    {"name": "Incirlik AB", "country": "Turkey/US", "lat": 37.0, "lng": 35.4, "type": "air"},
+    {"name": "Al Udeid AB", "country": "Qatar/US", "lat": 25.1, "lng": 51.3, "type": "air"},
+    {"name": "Al Dhafra AB", "country": "UAE/US", "lat": 24.2, "lng": 54.5, "type": "air"},
+    {"name": "Camp Arifjan", "country": "Kuwait/US", "lat": 29.1, "lng": 48.1, "type": "army"},
+    {"name": "NSA Bahrain", "country": "Bahrain/US", "lat": 26.2, "lng": 50.6, "type": "navy"},
+    {"name": "Diego Garcia", "country": "UK/US", "lat": -7.3, "lng": 72.4, "type": "navy"},
+    {"name": "Camp Lemonnier", "country": "Djibouti/US", "lat": 11.5, "lng": 43.1, "type": "multi"},
+    {"name": "Ramstein AB", "country": "Germany/US", "lat": 49.4, "lng": 7.6, "type": "air"},
+    {"name": "Aviano AB", "country": "Italy/US", "lat": 46.0, "lng": 12.6, "type": "air"},
+    {"name": "RAF Akrotiri", "country": "Cyprus/UK", "lat": 34.6, "lng": 32.9, "type": "air"},
+    {"name": "Sevastopol NB", "country": "Crimea/RU", "lat": 44.6, "lng": 33.5, "type": "navy"},
+    {"name": "Khmeimim AB", "country": "Syria/RU", "lat": 35.4, "lng": 35.9, "type": "air"},
+    {"name": "Tartus NB", "country": "Syria/RU", "lat": 34.9, "lng": 35.9, "type": "navy"},
+    {"name": "Bandar Abbas NB", "country": "Iran", "lat": 27.2, "lng": 56.3, "type": "navy"},
+    {"name": "Bushehr AB", "country": "Iran", "lat": 28.9, "lng": 50.8, "type": "air"},
+    {"name": "Isfahan AFB", "country": "Iran", "lat": 32.7, "lng": 51.9, "type": "air"},
+    {"name": "Ain al-Asad AB", "country": "Iraq/US", "lat": 33.8, "lng": 42.4, "type": "air"},
+    {"name": "Nevatim AB", "country": "Israel", "lat": 31.2, "lng": 34.7, "type": "air"},
+    {"name": "Ramat David AB", "country": "Israel", "lat": 32.7, "lng": 35.2, "type": "air"},
+    {"name": "Kadena AB", "country": "Japan/US", "lat": 26.4, "lng": 127.8, "type": "air"},
+    {"name": "Yokosuka NB", "country": "Japan/US", "lat": 35.3, "lng": 139.7, "type": "navy"},
+    {"name": "Zuoying NB", "country": "Taiwan", "lat": 22.7, "lng": 120.3, "type": "navy"},
+    {"name": "Hualien AB", "country": "Taiwan", "lat": 24.0, "lng": 121.6, "type": "air"},
+    {"name": "Port Sudan NB", "country": "Sudan/RU", "lat": 19.6, "lng": 37.2, "type": "navy"}
+  ],
+  "nuclear_facilities": [
+    {"name": "Zaporizhzhia NPP", "country": "Ukraine", "lat": 47.5, "lng": 34.6, "type": "power", "status": "occupied"},
+    {"name": "Natanz", "country": "Iran", "lat": 33.7, "lng": 51.7, "type": "enrichment"},
+    {"name": "Fordow", "country": "Iran", "lat": 34.9, "lng": 51.6, "type": "enrichment"},
+    {"name": "Isfahan UCF", "country": "Iran", "lat": 32.7, "lng": 51.7, "type": "conversion"},
+    {"name": "Bushehr NPP", "country": "Iran", "lat": 28.8, "lng": 50.9, "type": "power"},
+    {"name": "Dimona", "country": "Israel", "lat": 31.0, "lng": 35.1, "type": "research"},
+    {"name": "Yongbyon", "country": "DPRK", "lat": 39.8, "lng": 125.8, "type": "research"},
+    {"name": "Arak IR-40", "country": "Iran", "lat": 34.4, "lng": 49.2, "type": "research"}
+  ],
+  "pipelines_cables": [
+    {"name": "Nord Stream (damaged)", "type": "gas", "coords": [[54.4, 11.0], [54.8, 13.5], [55.3, 15.8], [55.5, 17.8], [60.0, 28.0]]},
+    {"name": "TurkStream", "type": "gas", "coords": [[44.8, 37.0], [43.5, 35.5], [41.5, 32.0], [41.2, 28.8]]},
+    {"name": "BTC Pipeline", "type": "oil", "coords": [[40.5, 50.0], [41.0, 44.0], [39.0, 40.0], [36.8, 36.0]]},
+    {"name": "Strait of Hormuz", "type": "chokepoint", "coords": [[26.5, 56.0], [26.0, 56.5], [25.5, 57.0]]},
+    {"name": "Bab el-Mandeb", "type": "chokepoint", "coords": [[12.5, 43.3], [12.7, 43.5], [13.0, 43.4]]},
+    {"name": "Suez Canal", "type": "chokepoint", "coords": [[29.9, 32.6], [30.5, 32.3], [31.3, 32.3]]},
+    {"name": "Taiwan Strait", "type": "chokepoint", "coords": [[24.0, 118.5], [25.0, 119.5], [25.5, 120.5]]},
+    {"name": "East Med Gas Pipeline", "type": "gas", "coords": [[31.5, 34.0], [33.0, 33.0], [34.5, 33.5], [35.5, 28.0]]},
+    {"name": "FLAG (Fiber-Optic)", "type": "cable", "coords": [[25.0, 55.0], [24.0, 58.0], [22.0, 60.0], [15.0, 42.0], [12.5, 43.5]]},
+    {"name": "Red Sea submarine cables", "type": "cable", "coords": [[30.0, 32.5], [27.0, 34.0], [20.0, 38.5], [15.0, 42.0], [12.5, 43.5]]}
+  ]
+}

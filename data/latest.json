@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04T08:18:48.867633Z",
+  "updated_at": "2026-04-04T00:35:29.079194+00:00",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -38,6 +38,32 @@
               "quality_score": 1.0,
               "title_en": "Ukraine Pushes War Into Russia as Drones Swarm Skies Near Moscow : r/ukraine",
               "id": "reddit_new_24"
+            },
+            {
+              "id": "rss_23a2a2fe8e37",
+              "title": "视频显示俄罗斯无人机击中乌克兰公寓的瞬间",
+              "summary": "俄罗斯对乌克兰发动了大规模的致命空袭，这被称为“复活节升级”。",
+              "source": "web",
+              "source_label": "Al Jazeera",
+              "date": "2026-04-03",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/4/3/video-shows-the-moment-a-russian-drone-hit-an-apartment-in-ukraine?traffic_source=rss",
+              "rss_source": "Al Jazeera",
+              "local_file": "sources/web/aljazeera.com_video-shows-the-moment-a-russian-drone-hit-an-apartment-in-ukraine.md",
+              "title_en": "Video shows the moment a Russian drone hit an apartment in Ukraine",
+              "summary_en": "Russia has unleashed a massive round of deadly air strikes across Ukraine, in a so-called \"Easter escalation.\""
+            },
+            {
+              "id": "rss_74e47e0f9973",
+              "title": "乌克兰减缓敌军推进，解放国土，消耗俄罗斯的战争资金",
+              "summary": "乌克兰受益于蓬勃发展的无人机生产，在战场上取得重大胜利。",
+              "source": "web",
+              "source_label": "Al Jazeera",
+              "date": "2026-04-03",
+              "url": "https://www.aljazeera.com/features/2026/4/3/ukraine-slows-enemy-advances-liberates-land-drains-russias-war-chest?traffic_source=rss",
+              "rss_source": "Al Jazeera",
+              "local_file": "sources/web/aljazeera.com_ukraine-slows-enemy-advances-liberates-land-drains-russias-war-che.md",
+              "title_en": "Ukraine slows enemy advances, liberates land, drains Russia’s war chest",
+              "summary_en": "Ukraine achieves significant victories on the battlefield thanks to burgeoning drone production."
             },
             {
               "id": "rss_2fc1c595ddfa",
@@ -379,6 +405,35 @@
               "id": "x_new_6"
             },
             {
+              "id": "gdelt_1297423026",
+              "title": "俄罗斯对别尔哥罗德生产者实施行政处罚",
+              "title_en": "RUSSIA → PRODUCER : Impose administrative sanctions, not specified below (Belgorod, Belgorodskaya Oblast', Russia)",
+              "summary": "俄罗斯在别尔哥罗德州对生产者采取了未指明的行政制裁措施，冲突烈度为-5，显示俄方在此事件中占据主导地位。",
+              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: RUSSIA / PRODUCER. Location: Belgorod, Belgorodskaya Oblast', Russia. Goldstein Scale: -5.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "hellenicshippingnews.com",
+              "date": "2026-04-02",
+              "url": "https://www.hellenicshippingnews.com/russia-bans-gasoline-exports-to-curb-prices-as-summer-demand-surges/",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1297423026",
+                "event_code": "172",
+                "cameo_desc": "Impose administrative sanctions, not specified below",
+                "actor1": "RUSSIA",
+                "actor2": "PRODUCER",
+                "actor1_country": "RUS",
+                "actor2_country": "nan",
+                "geo_lat": 50.6107,
+                "geo_lon": 36.5802,
+                "geo_name": "Belgorod, Belgorodskaya Oblast', Russia"
+              }
+            },
+            {
               "id": "youtube_easter_ceasefire",
               "title": "乌克兰提议复活节停火",
               "summary": "乌克兰表示愿意在复活节期间停火，条件是俄罗斯停止攻击能源基础设施。",
@@ -439,35 +494,6 @@
               "url": "https://www.rferl.org/a/russia-invasion-ukraine-war-future-2026/33644095.html",
               "local_file": "sources/web/www.rferl.org_a_russia-invasion-ukraine-war-future-2026_33644095.html.md",
               "metrics": {}
-            },
-            {
-              "id": "gdelt_1297423026",
-              "title": "俄罗斯对别尔哥罗德生产者实施行政处罚",
-              "title_en": "RUSSIA → PRODUCER : Impose administrative sanctions, not specified below (Belgorod, Belgorodskaya Oblast', Russia)",
-              "summary": "俄罗斯在别尔哥罗德州对生产者采取了未指明的行政制裁措施，冲突烈度为-5，显示俄方在此事件中占据主导地位。",
-              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: RUSSIA / PRODUCER. Location: Belgorod, Belgorodskaya Oblast', Russia. Goldstein Scale: -5.0. Mentioned in 10 sources.",
-              "source": "gdelt",
-              "source_label": "hellenicshippingnews.com",
-              "date": "2026-04-02",
-              "url": "https://www.hellenicshippingnews.com/russia-bans-gasoline-exports-to-curb-prices-as-summer-demand-surges/",
-              "metrics": {
-                "mentions": 10,
-                "sources": 1,
-                "articles": 10,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1297423026",
-                "event_code": "172",
-                "cameo_desc": "Impose administrative sanctions, not specified below",
-                "actor1": "RUSSIA",
-                "actor2": "PRODUCER",
-                "actor1_country": "RUS",
-                "actor2_country": "nan",
-                "geo_lat": 50.6107,
-                "geo_lon": 36.5802,
-                "geo_name": "Belgorod, Belgorodskaya Oblast', Russia"
-              }
             }
           ]
         },
@@ -759,6 +785,19 @@
           "label": "军事动态",
           "items": [
             {
+              "id": "rss_c651b760019d",
+              "title": "伊朗战争直播：德黑兰击落2架美国战机；以色列轰炸黎巴嫩桥梁",
+              "summary": "德黑兰举行庆祝活动，伊朗军方表示，此次袭击表明其部队仍具有作战能力。",
+              "source": "web",
+              "source_label": "Al Jazeera",
+              "date": "2026-04-04",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/4/4/iran-war-live-tehran-downs-2-us-warplanes-israel-bombs-lebanon-bridges?traffic_source=rss",
+              "rss_source": "Al Jazeera",
+              "local_file": "sources/web/aljazeera.com_iran-war-live-tehran-downs-2-us-warplanes-israel-bombs-lebanon-bri.md",
+              "title_en": "Iran war live: Tehran downs 2 US warplanes; Israel bombs Lebanon bridges",
+              "summary_en": "Celebrations in Tehran as Iran's military says the strikes shows its forces still have fighting capability."
+            },
+            {
               "id": "rss_1dc72786ed82",
               "title": "美国和以色列如何对伊朗的药品和疫苗发动战争",
               "summary": "伊朗巴斯德研究所是该国多个成为袭击目标的医疗机构之一。",
@@ -850,6 +889,157 @@
               "summary_en": "Three weeks into the joint American-Israeli military operation against Iran, a pressing question occupies Washington: What will ultimately follow these strikes? The attacks themselves are already degrading Tehran’s military capacity, but the more crucial focus is the aftermath — specifically, whethe"
             },
             {
+              "id": "gdelt_1297567055",
+              "title": "以军空袭贝鲁特，黎巴嫩局势骤紧",
+              "title_en": "ACTOR → ISRAEL : Use conventional military force, not specified below (Beirut, Beyrouth, Lebanon)",
+              "summary": "以色列军队对贝鲁特发动空袭，具体军事行动不明，冲突烈度达最高级别，黎巴嫩紧张局势升级。",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: ACTOR / ISRAEL. Location: Beirut, Beyrouth, Lebanon. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "source": "gdelt",
+              "source_label": "yalibnan.com",
+              "date": "2026-04-03",
+              "url": "https://yalibnan.com/2026/04/03/live-updates-u-s-fighter-jet-shot-down-by-iran-1-crew-member-rescued-by-us-forces/",
+              "metrics": {
+                "mentions": 8,
+                "sources": 1,
+                "articles": 8,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1297567055",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "ACTOR",
+                "actor2": "ISRAEL",
+                "actor1_country": "nan",
+                "actor2_country": "ISR",
+                "geo_lat": 33.8719,
+                "geo_lon": 35.5097,
+                "geo_name": "Beirut, Beyrouth, Lebanon"
+              }
+            },
+            {
+              "id": "gdelt_1297567092",
+              "title": "阿联酋炮击特拉维夫，以军遭受重创",
+              "title_en": "AUTHORITIES → UNITED ARAB EMIRATES : Fight with artillery and tanks (Tel Aviv, Tel Aviv, Israel)",
+              "summary": "阿联酋军队在以色列特拉维夫对以军发动炮击和坦克袭击，双方发生激烈交火，以军损失惨重，冲突程度剧烈。",
+              "summary_en": "GDELT Event: Fight with artillery and tanks. Actors: AUTHORITIES / UNITED ARAB EMIRATES. Location: Tel Aviv, Tel Aviv, Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "winnipegfreepress.com",
+              "date": "2026-04-03",
+              "url": "https://www.winnipegfreepress.com/breakingnews/2026/04/02/iran-fires-on-targets-across-mideast-while-israel-and-us-hit-tehran-as-war-shows-no-signs-of-slowing",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1297567092",
+                "event_code": "194",
+                "cameo_desc": "Fight with artillery and tanks",
+                "actor1": "AUTHORITIES",
+                "actor2": "UNITED ARAB EMIRATES",
+                "actor1_country": "nan",
+                "actor2_country": "ARE",
+                "geo_lat": 32.0667,
+                "geo_lon": 34.7667,
+                "geo_name": "Tel Aviv, Tel Aviv, Israel"
+              }
+            },
+            {
+              "id": "gdelt_1297567185",
+              "title": "伊朗空袭科威特在以色列境内引发冲突",
+              "title_en": "IRAN → KUWAIT : Employ aerial weapons (Israel)",
+              "summary": "伊朗对科威特发动空袭，袭击发生在以色列境内，造成严重冲突，冲突烈度达到-10，表明事态极其严重。",
+              "summary_en": "GDELT Event: Employ aerial weapons. Actors: IRAN / KUWAIT. Location: Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "orlandosentinel.com",
+              "date": "2026-04-03",
+              "url": "https://www.orlandosentinel.com/2026/04/03/iran-israel-us-war-fifth-week/",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1297567185",
+                "event_code": "195",
+                "cameo_desc": "Employ aerial weapons",
+                "actor1": "IRAN",
+                "actor2": "KUWAIT",
+                "actor1_country": "IRN",
+                "actor2_country": "KWT",
+                "geo_lat": 31.5,
+                "geo_lon": 34.75,
+                "geo_name": "Israel"
+              }
+            },
+            {
+              "id": "rss_69e810b79544",
+              "title": "在以色列袭击下，黎巴嫩的基督徒纪念耶稣受难日",
+              "summary": "在以色列的袭击和疏散命令持续之际，黎巴嫩各地的基督徒庆祝了耶稣受难日，祈祷和平。",
+              "source": "web",
+              "source_label": "Al Jazeera",
+              "date": "2026-04-03",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/4/3/christians-in-lebanon-observe-good-friday-under-israeli-attacks?traffic_source=rss",
+              "rss_source": "Al Jazeera",
+              "local_file": "sources/web/aljazeera.com_christians-in-lebanon-observe-good-friday-under-israeli-attacks_tr.md",
+              "title_en": "Christians in Lebanon observe Good Friday under Israeli attacks",
+              "summary_en": "Christians across Lebanon observed Good Friday, praying for peace as Israeli strikes and evacuation orders continue."
+            },
+            {
+              "id": "rss_f1147638ff99",
+              "title": "伊朗桥梁袭击幸存者回忆美以袭击的恐怖",
+              "summary": "在以色列-美国对伊朗最大公路桥梁的袭击中幸存下来的人们讲述了导弹击中时他们的恐惧。",
+              "source": "web",
+              "source_label": "Al Jazeera",
+              "date": "2026-04-03",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/4/3/survivors-of-iran-bridge-attack-recall-terror-of-us-israeli-strike?traffic_source=rss",
+              "rss_source": "Al Jazeera",
+              "local_file": "sources/web/aljazeera.com_survivors-of-iran-bridge-attack-recall-terror-of-us-israeli-strike.md",
+              "title_en": "Survivors of Iran bridge attack recall terror of US-Israeli strike",
+              "summary_en": "Survivors of an Israeli-US attack on Iran’s biggest road bridge have spoken of their terror as missiles hit it."
+            },
+            {
+              "id": "rss_a7b06aa5d62d",
+              "title": "Omani, French and Japanese vessels transit the Strait of Hormuz",
+              "summary": "法国达飞集团（CMA CGM）的船只成为自美国-以色列对伊朗战争开始以来，第一艘穿越霍尔木兹海峡的法国自有船只。",
+              "source": "web",
+              "source_label": "Al Jazeera",
+              "date": "2026-04-03",
+              "url": "https://www.aljazeera.com/news/2026/4/3/french-owned-container-ship-transits-hormuz-strait-in-first-since-iran-war?traffic_source=rss",
+              "rss_source": "Al Jazeera",
+              "local_file": "sources/web/aljazeera.com_french-owned-container-ship-transits-hormuz-strait-in-first-since-.md",
+              "summary_en": "CMA CGM's vessel becomes the first French-owned ship to traverse Hormuz since the US–Israel war on Iran began."
+            },
+            {
+              "id": "rss_ff820abeffce",
+              "title": "无人机录像显示，以色列一家工厂被伊朗导弹残骸损坏",
+              "summary": "来自以色列的无人机录像显示，佩塔提克瓦一家工厂因被拦截的伊朗导弹碎片而受损。",
+              "source": "web",
+              "source_label": "Al Jazeera",
+              "date": "2026-04-03",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/4/3/drone-footage-shows-a-factory-in-israel-damaged-by-iranian-missile-debris?traffic_source=rss",
+              "rss_source": "Al Jazeera",
+              "local_file": "sources/web/aljazeera.com_drone-footage-shows-a-factory-in-israel-damaged-by-iranian-missile.md",
+              "title_en": "Drone footage shows a factory in Israel damaged by Iranian missile debris",
+              "summary_en": "Drone footage from Israel shows damage to a factory in Petah Tikva from debris from an intercepted Iranian missile."
+            },
+            {
+              "id": "rss_2ab7cd85faef",
+              "title": "伊朗人为了上网纷纷离开祖国",
+              "summary": "随着以色列和美国持续打击伊朗，伊朗人正越过边境前往土耳其，以寻找在伊朗国内被切断的网络连接。",
+              "source": "web",
+              "source_label": "NPR World",
+              "date": "2026-04-03",
+              "url": "https://www.npr.org/2026/04/03/nx-s1-5753859/iranians-are-leaving-the-country-just-to-get-internet",
+              "rss_source": "NPR World",
+              "local_file": "sources/web/npr.org_iranians-are-leaving-the-country-just-to-get-internet.md",
+              "title_en": "Iranians are leaving the country just to get internet",
+              "summary_en": "As the Israel and the U.S. continue striking Iran, Iranians are traveling across the border with Turkey to find an Internet connection with access cut off in Iran"
+            },
+            {
               "id": "rss_ee4401340fc4",
               "title": "马切特为“战争论”撰写的关于海水淡化厂威胁以及海湾地区应对袭击准备的文章",
               "summary": "3月31日，地缘战略倡议（GeoStrategy Initiative）助理主任姜·马切特（Ginger Matchett）在《战争地带》（War on the Rocks）上发表了一篇题为《将水作为人质》（Holding water hostage）的专题文章，探讨了海湾地区海水淡化厂面临的威胁，以及各国应如何为袭击做好准备。她写道：“在侵略者威胁战略目标的方式上，我们正处于一个转折点。”",
@@ -874,6 +1064,64 @@
               "local_file": "sources/web/warontherocks.com_.md",
               "title_en": "The Iran War and the Energy Lesson We Failed to Learn",
               "summary_en": "How many energy crises will it take before we stop betting our economies on a fragile oil market?The U.S. and Israeli war with Iran quickly morphed from a regional conflict into a global energy shock. Oil and gas markets have been volatile since the start of the war, with Brent crude oil prices risi"
+            },
+            {
+              "id": "gdelt_1297422923",
+              "title": "以色列律师冲突升级，以军或采取军事行动",
+              "title_en": "ATTORNEY → ISRAELI : Use conventional military force, not specified below (Israel)",
+              "summary": "以色列律师与以军在以色列境内爆发严重冲突，以军或已采取军事行动干预，冲突烈度达最高级别。",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: ATTORNEY / ISRAELI. Location: Israel. Goldstein Scale: -10.0. Mentioned in 9 sources.",
+              "source": "gdelt",
+              "source_label": "wgauradio.com",
+              "date": "2026-04-02",
+              "url": "https://www.wgauradio.com/news/national/elected-leaders/P6T4HG747YZ25HAUCLS2EZSXCI/",
+              "metrics": {
+                "mentions": 9,
+                "sources": 3,
+                "articles": 9,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1297422923",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "ATTORNEY",
+                "actor2": "ISRAELI",
+                "actor1_country": "nan",
+                "actor2_country": "ISR",
+                "geo_lat": 31.5,
+                "geo_lon": 34.75,
+                "geo_name": "Israel"
+              }
+            },
+            {
+              "id": "gdelt_1297422881",
+              "title": "伊朗军事力量介入加沙冲突，东南亚国家或受影响",
+              "title_en": "IRANIAN → SOUTH EAST ASIA : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
+              "summary": "伊朗军事力量在加沙、以色列地区使用常规军事力量，冲突烈度极高，可能对东南亚地区产生影响，地区局势或将升级。",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: IRANIAN / SOUTH EAST ASIA. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "straitstimes.com",
+              "date": "2026-04-02",
+              "url": "https://www.straitstimes.com/opinion/singapore-must-stay-vigilant-for-spillover-security-risks-from-iran-war",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1297422881",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "IRANIAN",
+                "actor2": "SOUTH EAST ASIA",
+                "actor1_country": "IRN",
+                "actor2_country": "SEA",
+                "geo_lat": 31.4167,
+                "geo_lon": 34.3333,
+                "geo_name": "Gaza, Israel (general), Israel"
+              }
             },
             {
               "id": "rss_4f712b27b537",
@@ -1095,157 +1343,41 @@
               "local_file": "sources/web/warontherocks.com_.md",
               "title_en": "Proxy Pressure on Iran: The Promise and Pitfalls of Arming the Kurds",
               "summary_en": "Early in the ongoing war against Iran, the Trump administration and its ally, Israel, believed they could foment a popular uprising to topple the Iranian regime. Part of that plan involved arming Kurdish fighters to infiltrate Iran from their locations in Iraq.The idea had intuitive logic. Kurdish f"
-            },
-            {
-              "id": "gdelt_1297422923",
-              "title": "以色列律师冲突升级，以军或采取军事行动",
-              "title_en": "ATTORNEY → ISRAELI : Use conventional military force, not specified below (Israel)",
-              "summary": "以色列律师与以军在以色列境内爆发严重冲突，以军或已采取军事行动干预，冲突烈度达最高级别。",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: ATTORNEY / ISRAELI. Location: Israel. Goldstein Scale: -10.0. Mentioned in 9 sources.",
-              "source": "gdelt",
-              "source_label": "wgauradio.com",
-              "date": "2026-04-02",
-              "url": "https://www.wgauradio.com/news/national/elected-leaders/P6T4HG747YZ25HAUCLS2EZSXCI/",
-              "metrics": {
-                "mentions": 9,
-                "sources": 3,
-                "articles": 9,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1297422923",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "ATTORNEY",
-                "actor2": "ISRAELI",
-                "actor1_country": "nan",
-                "actor2_country": "ISR",
-                "geo_lat": 31.5,
-                "geo_lon": 34.75,
-                "geo_name": "Israel"
-              }
-            },
-            {
-              "id": "gdelt_1297567055",
-              "title": "以军空袭贝鲁特，黎巴嫩局势骤紧",
-              "title_en": "ACTOR → ISRAEL : Use conventional military force, not specified below (Beirut, Beyrouth, Lebanon)",
-              "summary": "以色列军队对贝鲁特发动空袭，具体军事行动不明，冲突烈度达最高级别，黎巴嫩紧张局势升级。",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: ACTOR / ISRAEL. Location: Beirut, Beyrouth, Lebanon. Goldstein Scale: -10.0. Mentioned in 8 sources.",
-              "source": "gdelt",
-              "source_label": "yalibnan.com",
-              "date": "2026-04-03",
-              "url": "https://yalibnan.com/2026/04/03/live-updates-u-s-fighter-jet-shot-down-by-iran-1-crew-member-rescued-by-us-forces/",
-              "metrics": {
-                "mentions": 8,
-                "sources": 1,
-                "articles": 8,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1297567055",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "ACTOR",
-                "actor2": "ISRAEL",
-                "actor1_country": "nan",
-                "actor2_country": "ISR",
-                "geo_lat": 33.8719,
-                "geo_lon": 35.5097,
-                "geo_name": "Beirut, Beyrouth, Lebanon"
-              }
-            },
-            {
-              "id": "gdelt_1297422881",
-              "title": "伊朗军事力量介入加沙冲突，东南亚国家或受影响",
-              "title_en": "IRANIAN → SOUTH EAST ASIA : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
-              "summary": "伊朗军事力量在加沙、以色列地区使用常规军事力量，冲突烈度极高，可能对东南亚地区产生影响，地区局势或将升级。",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: IRANIAN / SOUTH EAST ASIA. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.",
-              "source": "gdelt",
-              "source_label": "straitstimes.com",
-              "date": "2026-04-02",
-              "url": "https://www.straitstimes.com/opinion/singapore-must-stay-vigilant-for-spillover-security-risks-from-iran-war",
-              "metrics": {
-                "mentions": 6,
-                "sources": 1,
-                "articles": 6,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1297422881",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "IRANIAN",
-                "actor2": "SOUTH EAST ASIA",
-                "actor1_country": "IRN",
-                "actor2_country": "SEA",
-                "geo_lat": 31.4167,
-                "geo_lon": 34.3333,
-                "geo_name": "Gaza, Israel (general), Israel"
-              }
-            },
-            {
-              "id": "gdelt_1297567092",
-              "title": "阿联酋炮击特拉维夫，以军遭受重创",
-              "title_en": "AUTHORITIES → UNITED ARAB EMIRATES : Fight with artillery and tanks (Tel Aviv, Tel Aviv, Israel)",
-              "summary": "阿联酋军队在以色列特拉维夫对以军发动炮击和坦克袭击，双方发生激烈交火，以军损失惨重，冲突程度剧烈。",
-              "summary_en": "GDELT Event: Fight with artillery and tanks. Actors: AUTHORITIES / UNITED ARAB EMIRATES. Location: Tel Aviv, Tel Aviv, Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "source": "gdelt",
-              "source_label": "winnipegfreepress.com",
-              "date": "2026-04-03",
-              "url": "https://www.winnipegfreepress.com/breakingnews/2026/04/02/iran-fires-on-targets-across-mideast-while-israel-and-us-hit-tehran-as-war-shows-no-signs-of-slowing",
-              "metrics": {
-                "mentions": 2,
-                "sources": 1,
-                "articles": 2,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1297567092",
-                "event_code": "194",
-                "cameo_desc": "Fight with artillery and tanks",
-                "actor1": "AUTHORITIES",
-                "actor2": "UNITED ARAB EMIRATES",
-                "actor1_country": "nan",
-                "actor2_country": "ARE",
-                "geo_lat": 32.0667,
-                "geo_lon": 34.7667,
-                "geo_name": "Tel Aviv, Tel Aviv, Israel"
-              }
-            },
-            {
-              "id": "gdelt_1297567185",
-              "title": "伊朗空袭科威特在以色列境内引发冲突",
-              "title_en": "IRAN → KUWAIT : Employ aerial weapons (Israel)",
-              "summary": "伊朗对科威特发动空袭，袭击发生在以色列境内，造成严重冲突，冲突烈度达到-10，表明事态极其严重。",
-              "summary_en": "GDELT Event: Employ aerial weapons. Actors: IRAN / KUWAIT. Location: Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "source": "gdelt",
-              "source_label": "orlandosentinel.com",
-              "date": "2026-04-03",
-              "url": "https://www.orlandosentinel.com/2026/04/03/iran-israel-us-war-fifth-week/",
-              "metrics": {
-                "mentions": 2,
-                "sources": 1,
-                "articles": 2,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1297567185",
-                "event_code": "195",
-                "cameo_desc": "Employ aerial weapons",
-                "actor1": "IRAN",
-                "actor2": "KUWAIT",
-                "actor1_country": "IRN",
-                "actor2_country": "KWT",
-                "geo_lat": 31.5,
-                "geo_lon": 34.75,
-                "geo_name": "Israel"
-              }
             }
           ]
         },
         "diplomacy": {
           "label": "外交谈判",
           "items": [
+            {
+              "id": "gdelt_1297422890",
+              "title": "以方逮捕美籍人士，或引发外交风波",
+              "title_en": "ISRAEL → UNITED STATES : Arrest, detain, or charge with legal action (Israel)",
+              "summary": "以色列逮捕一名美国公民，并对其提起诉讼，事件发生于以色列境内，预示着以美两国关系可能因此事件而趋于紧张。",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: ISRAEL / UNITED STATES. Location: Israel. Goldstein Scale: -5.0. Mentioned in 1 sources.",
+              "source": "gdelt",
+              "source_label": "clickorlando.com",
+              "date": "2026-04-02",
+              "url": "https://www.clickorlando.com/news/national/2026/04/02/elected-leaders-and-clergy-seek-release-of-wisconsin-mosque-president-detained-by-immigration-agents/",
+              "metrics": {
+                "mentions": 1,
+                "sources": 1,
+                "articles": 1,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1297422890",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "ISRAEL",
+                "actor2": "UNITED STATES",
+                "actor1_country": "ISR",
+                "actor2_country": "USA",
+                "geo_lat": 31.5,
+                "geo_lon": 34.75,
+                "geo_name": "Israel"
+              }
+            },
             {
               "id": "web_81148",
               "title": "2026年世界报告：以色列和巴勒斯坦",
@@ -1310,35 +1442,6 @@
               "metrics": {},
               "title_en": "A Guide to the Gaza Peace Deal",
               "summary_en": "Feb 24, 2026 — The peace plan, which the Trump administration proposed in October 2025, entered a first phase when Israel and Hamas agreed to a ceasefire that ..."
-            },
-            {
-              "id": "gdelt_1297422890",
-              "title": "以方逮捕美籍人士，或引发外交风波",
-              "title_en": "ISRAEL → UNITED STATES : Arrest, detain, or charge with legal action (Israel)",
-              "summary": "以色列逮捕一名美国公民，并对其提起诉讼，事件发生于以色列境内，预示着以美两国关系可能因此事件而趋于紧张。",
-              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: ISRAEL / UNITED STATES. Location: Israel. Goldstein Scale: -5.0. Mentioned in 1 sources.",
-              "source": "gdelt",
-              "source_label": "clickorlando.com",
-              "date": "2026-04-02",
-              "url": "https://www.clickorlando.com/news/national/2026/04/02/elected-leaders-and-clergy-seek-release-of-wisconsin-mosque-president-detained-by-immigration-agents/",
-              "metrics": {
-                "mentions": 1,
-                "sources": 1,
-                "articles": 1,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1297422890",
-                "event_code": "173",
-                "cameo_desc": "Arrest, detain, or charge with legal action",
-                "actor1": "ISRAEL",
-                "actor2": "UNITED STATES",
-                "actor1_country": "ISR",
-                "actor2_country": "USA",
-                "geo_lat": 31.5,
-                "geo_lon": 34.75,
-                "geo_name": "Israel"
-              }
             }
           ]
         },
@@ -1543,6 +1646,18 @@
               "summary_en": "Iran said one of the longest bridges linking Tehran to the city of Karaj was destroyed overnight, while Iranian missiles and drones hit Israel, Saudi Arabia, the United Arab Emirates and Kuwait."
             },
             {
+              "id": "rss_e4fbdd2e3e67",
+              "title": "Palestine 36: A film about a revolt that nearly changed history",
+              "summary": "安娜玛丽·雅西尔导演谈《巴勒斯坦36》如何将当今的危机追溯到英国的殖民统治。",
+              "source": "web",
+              "source_label": "Al Jazeera",
+              "date": "2026-04-03",
+              "url": "https://www.aljazeera.com/video/the-take-2/2026/4/3/aje-onl-tt_pal_jacir_av_v2-030426?traffic_source=rss",
+              "rss_source": "Al Jazeera",
+              "local_file": "sources/web/aljazeera.com_aje-onl-tt_pal_jacir_av_v2-030426_traffic_source_rss.md",
+              "summary_en": "Director Annemarie Jacir on how Palestine 36 traces today’s crisis back to British colonial rule."
+            },
+            {
               "id": "rss_679e2b25bbaa",
               "title": "加沙地带的景象仍然让我难以忘怀：巴勒斯坦救济机构负责人",
               "summary": "问问轻声细语、经验丰富的资深人道主义工作者菲利普·拉扎里尼，在他即将结束其担任联合国近东巴勒斯坦难民救济和工程处（近东救济工程处，UNRWA）主任的第二个任期之际，感受如何，或许有些不公平。",
@@ -1605,6 +1720,19 @@
         "military": {
           "label": "军事动态",
           "items": [
+            {
+              "id": "rss_c651b760019d",
+              "title": "伊朗战争直播：德黑兰击落2架美国战机；以色列轰炸黎巴嫩桥梁",
+              "summary": "德黑兰举行庆祝活动，伊朗军方表示，此次袭击表明其部队仍具有作战能力。",
+              "source": "web",
+              "source_label": "Al Jazeera",
+              "date": "2026-04-04",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/4/4/iran-war-live-tehran-downs-2-us-warplanes-israel-bombs-lebanon-bridges?traffic_source=rss",
+              "rss_source": "Al Jazeera",
+              "local_file": "sources/web/aljazeera.com_iran-war-live-tehran-downs-2-us-warplanes-israel-bombs-lebanon-bri.md",
+              "title_en": "Iran war live: Tehran downs 2 US warplanes; Israel bombs Lebanon bridges",
+              "summary_en": "Celebrations in Tehran as Iran's military says the strikes shows its forces still have fighting capability."
+            },
             {
               "id": "rss_a866deb136bd",
               "title": "尽管伊朗战争持续，美国3月份就业人数意外激增",
@@ -1746,6 +1874,404 @@
               "local_file": "sources/web/warontherocks.com_.md",
               "title_en": "How the War with Iran Ends",
               "summary_en": "Three weeks into the joint American-Israeli military operation against Iran, a pressing question occupies Washington: What will ultimately follow these strikes? The attacks themselves are already degrading Tehran’s military capacity, but the more crucial focus is the aftermath — specifically, whethe"
+            },
+            {
+              "id": "gdelt_1297567340",
+              "title": "伊朗军方在库尔德斯坦地区使用武力，局势紧张",
+              "title_en": "MILITARY → IRAN : Use conventional military force, not specified below (Qeshm, Kordestan, Iran)",
+              "summary": "伊朗军方在库尔德斯坦省格什姆地区采取军事行动，具体行动不明，冲突烈度剧增，地区紧张局势升级。",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: MILITARY / IRAN. Location: Qeshm, Kordestan, Iran. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "signalscv.com",
+              "date": "2026-04-03",
+              "url": "https://signalscv.com/2026/04/us-deployments-fuel-speculation-of-ground-combat-against-iran/",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1297567340",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "MILITARY",
+                "actor2": "IRAN",
+                "actor1_country": "nan",
+                "actor2_country": "IRN",
+                "geo_lat": 35.4421,
+                "geo_lon": 47.3506,
+                "geo_name": "Qeshm, Kordestan, Iran"
+              }
+            },
+            {
+              "id": "gdelt_1297567165",
+              "title": "伊朗据称施加酷刑，美防长或将介入调查",
+              "title_en": "IRAN → SECRETARY OF DEFENSE : Torture (Iran)",
+              "summary": "伊朗境内发生酷刑事件，受害者身份不明。美国国防部长或将对此事展开调查，并可能采取相应行动。事件发生地位于伊朗境内。",
+              "summary_en": "GDELT Event: Torture. Actors: IRAN / SECRETARY OF DEFENSE. Location: Iran. Goldstein Scale: -9.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "yahoo.com",
+              "date": "2026-04-03",
+              "url": "https://www.yahoo.com/news/articles/may-gets-pilots-tortured-killed-201610164.html",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -9.0
+              },
+              "gdelt_meta": {
+                "event_id": "1297567165",
+                "event_code": "1822",
+                "cameo_desc": "Torture",
+                "actor1": "IRAN",
+                "actor2": "SECRETARY OF DEFENSE",
+                "actor1_country": "IRN",
+                "actor2_country": "nan",
+                "geo_lat": 32.0,
+                "geo_lon": 53.0,
+                "geo_name": "Iran"
+              }
+            },
+            {
+              "id": "gdelt_1297567120",
+              "title": "美伊紧张升级：美方在德黑兰采取不明暴力行动",
+              "title_en": "PRESIDENT → UNITED STATES : Use unconventional violence, not specified below (Tehran, Tehran, Iran)",
+              "summary": "据报道，美国总统指示美方人员在伊朗首都德黑兰采取了不明性质的非常规暴力行动，冲突烈度达到-9，显示美伊关系极度紧张。",
+              "summary_en": "GDELT Event: Use unconventional violence, not specified below. Actors: PRESIDENT / UNITED STATES. Location: Tehran, Tehran, Iran. Goldstein Scale: -9.0. Mentioned in 8 sources.",
+              "source": "gdelt",
+              "source_label": "ktsa.com",
+              "date": "2026-04-03",
+              "url": "https://www.ktsa.com/breaking-trump-directs-bold-operation-after-iran-downs-american-f-15-in-hostile-zone/",
+              "metrics": {
+                "mentions": 8,
+                "sources": 1,
+                "articles": 8,
+                "goldstein": -9.0
+              },
+              "gdelt_meta": {
+                "event_id": "1297567120",
+                "event_code": "180",
+                "cameo_desc": "Use unconventional violence, not specified below",
+                "actor1": "PRESIDENT",
+                "actor2": "UNITED STATES",
+                "actor1_country": "nan",
+                "actor2_country": "USA",
+                "geo_lat": 35.75,
+                "geo_lon": 51.5148,
+                "geo_name": "Tehran, Tehran, Iran"
+              }
+            },
+            {
+              "id": "gdelt_1297567191",
+              "title": "美伊紧张升级：伊朗战机突袭科罗拉多，局势骤紧",
+              "title_en": "IRAN → FIGHTER JET : Use conventional military force, not specified below (El Paso County, Colorado, United States)",
+              "summary": "伊朗战机未经授权进入美国科罗拉多州埃尔帕索县领空，对该区域实施了军事打击，冲突烈度极高，美伊关系或面临严峻考验。",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: IRAN / FIGHTER JET. Location: El Paso County, Colorado, United States. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "source": "gdelt",
+              "source_label": "koaa.com",
+              "date": "2026-04-03",
+              "url": "https://www.koaa.com/news/national/iran-war/2-us-aircraft-shot-down-as-war-in-iran-escalates-at-least-1-crew-member-is-missing",
+              "metrics": {
+                "mentions": 8,
+                "sources": 1,
+                "articles": 8,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1297567191",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "IRAN",
+                "actor2": "FIGHTER JET",
+                "actor1_country": "IRN",
+                "actor2_country": "nan",
+                "geo_lat": 38.8333,
+                "geo_lon": -104.517,
+                "geo_name": "El Paso County, Colorado, United States"
+              }
+            },
+            {
+              "id": "gdelt_1297567192",
+              "title": "伊朗与伊拉克空军爆发激战，局势骤然紧张",
+              "title_en": "IRAN → AIR FORCE : Fight with small arms and light weapons (Iraq)",
+              "summary": "伊朗与伊拉克空军在伊拉克境内发生激烈交火，使用了小型武器和轻型武器，冲突程度严重，地区紧张局势升级。",
+              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: IRAN / AIR FORCE. Location: Iraq. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "thenewamerican.com",
+              "date": "2026-04-03",
+              "url": "https://thenewamerican.com/us/politics/foreign-policy/u-s-destroys-irans-biggest-bridge-f-15-shot-down-despite-trumps-no-anti-aircraft-weapons-claim-idf-wont-join-ground-war/",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1297567192",
+                "event_code": "193",
+                "cameo_desc": "Fight with small arms and light weapons",
+                "actor1": "IRAN",
+                "actor2": "AIR FORCE",
+                "actor1_country": "IRN",
+                "actor2_country": "nan",
+                "geo_lat": 33.0,
+                "geo_lon": 44.0,
+                "geo_name": "Iraq"
+              }
+            },
+            {
+              "id": "gdelt_1297567211",
+              "title": "伊朗境内爆发激烈枪战，冲突烈度极高",
+              "title_en": "IRANIAN → nan : Fight with small arms and light weapons (Boyer-Ahmad, Kohgiluyeh va Buyer A?mad, Iran)",
+              "summary": "伊朗科吉卢耶-博韦艾哈迈德地区发生伊朗人参与的激烈枪战，使用了轻武器，冲突程度非常严重。",
+              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: IRANIAN / nan. Location: Boyer-Ahmad, Kohgiluyeh va Buyer A?mad, Iran. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "english.elpais.com",
+              "date": "2026-04-03",
+              "url": "https://english.elpais.com/international/2026-04-03/united-states-rescues-pilot-of-first-plane-shot-down-by-iran-in-war.html",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1297567211",
+                "event_code": "193",
+                "cameo_desc": "Fight with small arms and light weapons",
+                "actor1": "IRANIAN",
+                "actor2": "nan",
+                "actor1_country": "IRN",
+                "actor2_country": "nan",
+                "geo_lat": 30.6833,
+                "geo_lon": 51.4833,
+                "geo_name": "Boyer-Ahmad, Kohgiluyeh va Buyer A?mad, Iran"
+              }
+            },
+            {
+              "id": "gdelt_1297567154",
+              "title": "伊埃关系骤降！伊朗突袭埃及首都美国大学",
+              "title_en": "IRANIAN → EGYPT : Use conventional military force, not specified below (American University, Al Qahirah, Egypt)",
+              "summary": "伊朗对埃及首都开罗美国大学发动军事袭击，具体袭击方式不明，伊埃关系因此急剧恶化。",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: IRANIAN / EGYPT. Location: American University, Al Qahirah, Egypt. Goldstein Scale: -10.0. Mentioned in 5 sources.",
+              "source": "gdelt",
+              "source_label": "europesun.com",
+              "date": "2026-04-03",
+              "url": "http://www.europesun.com/news/278962890/rescue-mission-races-to-find-crew-member-of-us-jet-downed-over-iran",
+              "metrics": {
+                "mentions": 5,
+                "sources": 1,
+                "articles": 5,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1297567154",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "IRANIAN",
+                "actor2": "EGYPT",
+                "actor1_country": "IRN",
+                "actor2_country": "EGY",
+                "geo_lat": 30.0428,
+                "geo_lon": 31.2367,
+                "geo_name": "American University, Al Qahirah, Egypt"
+              }
+            },
+            {
+              "id": "rss_c5082427166c",
+              "title": "伊朗战争将如何改变世界能源政策",
+              "summary": "霍尔木兹海峡关闭引发了燃料短缺和能源成本飙升，但也为能源生产商带来了新的机遇。不同地区如何应对这些 disruption 可能会重塑未来的能源市场和安全格局。文章：伊朗战争将如何改变各地的能源政策",
+              "source": "web",
+              "source_label": "Atlantic Council",
+              "date": "2026-04-03",
+              "url": "https://www.atlanticcouncil.org/blogs/energysource/how-the-iran-war-could-shift-energy-policies-around-the-world/",
+              "rss_source": "Atlantic Council",
+              "local_file": "sources/web/atlanticcouncil.org_.md",
+              "title_en": "How the Iran war could shift energy policies around the world",
+              "summary_en": "The Strait of Hormuz closure has sparked fuel shortages and soaring energy costs, but also new opportunities for energy producers. How different regions respond to these disruptions could reshape the future of energy markets and security. The post How the Iran war could shift energy policies around "
+            },
+            {
+              "id": "rss_ff4b21633aaf",
+              "title": "攻击伊朗的能源和水利基础设施不是一个制胜策略。",
+              "summary": "伊朗政权在进行军事行动时，会运用一种特殊的对称感，这与美国提出的计划背道而驰。“攻击伊朗的能源和水利基础设施并非制胜策略”一文最初发表于大西洋理事会网站。",
+              "source": "web",
+              "source_label": "Atlantic Council",
+              "date": "2026-04-03",
+              "url": "https://www.atlanticcouncil.org/dispatches/attacking-irans-energy-and-water-infrastructure-is-not-a-winning-strategy/",
+              "rss_source": "Atlantic Council",
+              "local_file": "sources/web/atlanticcouncil.org_.md",
+              "title_en": "Attacking Iran’s energy and water infrastructure is not a winning strategy",
+              "summary_en": "The Iranian regime uses a peculiar sense of symmetry in how it conducts military campaigns that cuts against the proposed US plan. The post Attacking Iran’s energy and water infrastructure is not a winning strategy appeared first on Atlantic Council."
+            },
+            {
+              "id": "rss_ea67ae62f328",
+              "title": "伊朗战争会重塑全球能源版图吗？",
+              "summary": "在这一集中，乔希和杰西深入探讨了由伊朗战争和霍尔木兹海峡关闭所造成的供应冲击，从亚洲的能源危机到美国对外部的依赖。大西洋理事会全球能源中心高级主任兰登·德伦茨将加入我们，讨论这场危机的规模和持续时间。",
+              "source": "web",
+              "source_label": "Atlantic Council",
+              "date": "2026-04-03",
+              "url": "https://www.atlanticcouncil.org/commentary/podcast/will-the-iran-war-redraw-the-global-energy-map/",
+              "rss_source": "Atlantic Council",
+              "local_file": "sources/web/atlanticcouncil.org_.md",
+              "title_en": "Will the Iran war redraw the global energy map?",
+              "summary_en": "In this episode, Josh and Jessie get into the supply shock caused by the Iran war and the closure of the Strait of Hormuz, from Asia's energy crunch to US dependencies. Senior Director of the Atlantic Council Global Energy Center, Landon Derentz, joins us to discuss the scale and duration of this en"
+            },
+            {
+              "id": "rss_712e35bb3c2d",
+              "title": "法国拥有的船只通过霍尔木兹海峡",
+              "summary": "这似乎是冲突爆发以来，首艘由欧洲大型公司拥有的船只通过该海峡。",
+              "source": "web",
+              "source_label": "BBC World",
+              "date": "2026-04-03",
+              "url": "https://www.bbc.com/news/articles/cjd8275jrrko?at_medium=RSS&at_campaign=rss",
+              "rss_source": "BBC World",
+              "local_file": "sources/web/bbc.com_cjd8275jrrko_at_medium_RSS_at_campaign_rss.md",
+              "title_en": "French-owned ship passes through Strait of Hormuz",
+              "summary_en": "It appears to be the first ship owned by a major European firm to go through the strait since the conflict began."
+            },
+            {
+              "id": "rss_883b1d10f6b0",
+              "title": "是否会动用武力重新开放霍尔木兹海峡？",
+              "summary": "一些国家威胁将对伊朗封锁水道采取行动。",
+              "source": "web",
+              "source_label": "Al Jazeera",
+              "date": "2026-04-03",
+              "url": "https://www.aljazeera.com/video/inside-story/2026/4/3/will-force-be-used-to-reopen-strait-of-hormuz?traffic_source=rss",
+              "rss_source": "Al Jazeera",
+              "local_file": "sources/web/aljazeera.com_will-force-be-used-to-reopen-strait-of-hormuz_traffic_source_rss.md",
+              "title_en": "Will force be used to reopen Strait of Hormuz?",
+              "summary_en": "Some countries threaten action against Iran's blockade of waterway."
+            },
+            {
+              "id": "rss_f1147638ff99",
+              "title": "伊朗桥梁袭击幸存者回忆美以袭击的恐怖",
+              "summary": "在以色列-美国对伊朗最大公路桥梁的袭击中幸存下来的人们讲述了导弹击中时他们的恐惧。",
+              "source": "web",
+              "source_label": "Al Jazeera",
+              "date": "2026-04-03",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/4/3/survivors-of-iran-bridge-attack-recall-terror-of-us-israeli-strike?traffic_source=rss",
+              "rss_source": "Al Jazeera",
+              "local_file": "sources/web/aljazeera.com_survivors-of-iran-bridge-attack-recall-terror-of-us-israeli-strike.md",
+              "title_en": "Survivors of Iran bridge attack recall terror of US-Israeli strike",
+              "summary_en": "Survivors of an Israeli-US attack on Iran’s biggest road bridge have spoken of their terror as missiles hit it."
+            },
+            {
+              "id": "rss_301190554f66",
+              "title": "世界卫生组织：自3月1日以来，伊朗医疗设施遭受20多次袭击",
+              "summary": "世界卫生组织总干事谭德塞表示，已报告发生“多起袭击”伊朗医疗设施的事件。",
+              "source": "web",
+              "source_label": "Al Jazeera",
+              "date": "2026-04-03",
+              "url": "https://www.aljazeera.com/news/2026/4/3/more-than-20-attacks-on-iranian-healthcare-facilities-since-march-1-who?traffic_source=rss",
+              "rss_source": "Al Jazeera",
+              "local_file": "sources/web/aljazeera.com_more-than-20-attacks-on-iranian-healthcare-facilities-since-march-.md",
+              "title_en": "More than 20 attacks on Iranian healthcare facilities since March 1: WHO",
+              "summary_en": "WHO chief Tedros Adhanom Ghebreyesus says 'multiple attacks' on Iranian healthcare facilities have been reported."
+            },
+            {
+              "id": "rss_6ab5c09da226",
+              "title": "尽管经济存在不确定性且爆发伊朗战争，美国失业率仍然下降",
+              "summary": "白宫表示，三月份的就业报告“远超预期”，医疗保健和建筑行业均实现增长。",
+              "source": "web",
+              "source_label": "Al Jazeera",
+              "date": "2026-04-03",
+              "url": "https://www.aljazeera.com/news/2026/4/3/us-unemployment-rate-drops-despite-economic-uncertainty-and-iran-war?traffic_source=rss",
+              "rss_source": "Al Jazeera",
+              "local_file": "sources/web/aljazeera.com_us-unemployment-rate-drops-despite-economic-uncertainty-and-iran-w.md",
+              "title_en": "US unemployment rate drops despite economic uncertainty and Iran war",
+              "summary_en": "White House says March jobs report 'blew out expectations' with gains made in the healthcare and construction sectors."
+            },
+            {
+              "id": "rss_8bf82c4ea35a",
+              "title": "关于美国战斗机在伊朗被击落，我们已知的信息",
+              "summary": "白宫已确认，唐纳德·特朗普已听取关于一架美国战斗机在伊朗被击落的简报。",
+              "source": "web",
+              "source_label": "Al Jazeera",
+              "date": "2026-04-03",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/4/3/what-we-know-about-the-us-fighter-jet-shot-down-in-iran?traffic_source=rss",
+              "rss_source": "Al Jazeera",
+              "local_file": "sources/web/aljazeera.com_what-we-know-about-the-us-fighter-jet-shot-down-in-iran_traffic_so.md",
+              "title_en": "What we know about the US fighter jet shot down in Iran",
+              "summary_en": "The White House has confirmed Donald Trump has been briefed on the shooting down of a US fighter jet in Iran."
+            },
+            {
+              "id": "rss_a7b06aa5d62d",
+              "title": "阿曼、法国和日本船只通过霍尔木兹海峡",
+              "summary": "法国达飞集团（CMA CGM）的船只成为自美国-以色列对伊朗战争开始以来，第一艘穿越霍尔木兹海峡的法国籍船只。",
+              "source": "web",
+              "source_label": "Al Jazeera",
+              "date": "2026-04-03",
+              "url": "https://www.aljazeera.com/news/2026/4/3/french-owned-container-ship-transits-hormuz-strait-in-first-since-iran-war?traffic_source=rss",
+              "rss_source": "Al Jazeera",
+              "local_file": "sources/web/aljazeera.com_french-owned-container-ship-transits-hormuz-strait-in-first-since-.md",
+              "title_en": "Omani, French and Japanese vessels transit the Strait of Hormuz",
+              "summary_en": "CMA CGM's vessel becomes the first French-owned ship to traverse Hormuz since the US–Israel war on Iran began."
+            },
+            {
+              "id": "rss_ff820abeffce",
+              "title": "无人机录像显示，以色列一家工厂被伊朗导弹残骸损坏",
+              "summary": "来自以色列的无人机拍摄的视频显示，佩塔提克瓦一家工厂因被拦截的伊朗导弹碎片而受损。",
+              "source": "web",
+              "source_label": "Al Jazeera",
+              "date": "2026-04-03",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/4/3/drone-footage-shows-a-factory-in-israel-damaged-by-iranian-missile-debris?traffic_source=rss",
+              "rss_source": "Al Jazeera",
+              "local_file": "sources/web/aljazeera.com_drone-footage-shows-a-factory-in-israel-damaged-by-iranian-missile.md",
+              "title_en": "Drone footage shows a factory in Israel damaged by Iranian missile debris",
+              "summary_en": "Drone footage from Israel shows damage to a factory in Petah Tikva from debris from an intercepted Iranian missile."
+            },
+            {
+              "id": "rss_a9735dd9e2d9",
+              "title": "伊朗称击落两架美军战机，搜寻一名飞行员的工作仍在继续",
+              "summary": "特朗普表示，F-15被击落不会影响谈判，伊朗军方称他们还在霍尔木兹海峡附近击中了一架A-10攻击机。",
+              "source": "web",
+              "source_label": "Al Jazeera",
+              "date": "2026-04-03",
+              "url": "https://www.aljazeera.com/news/2026/4/3/iranian-forces-launch-search-for-pilot-of-downed-us-fighter-jet?traffic_source=rss",
+              "rss_source": "Al Jazeera",
+              "local_file": "sources/web/aljazeera.com_iranian-forces-launch-search-for-pilot-of-downed-us-fighter-jet_tr.md",
+              "title_en": "Iran says it downed two US jets as search for one pilot continues",
+              "summary_en": "Trump says downing of F-15 will not affect talks as Iranian forces say they also struck an A-10 aircraft near Hormuz."
+            },
+            {
+              "id": "rss_dc0503ec1d8b",
+              "title": "特朗普称，若有更多时间，美国可以“夺取”伊朗的石油",
+              "summary": "尽管伊朗对霍尔木兹海峡进行了长达数周的封锁，美国总统声称华盛顿可以“轻易地”重新开放该水道。",
+              "source": "web",
+              "source_label": "Al Jazeera",
+              "date": "2026-04-03",
+              "url": "https://www.aljazeera.com/news/2026/4/3/trump-says-with-more-time-us-can-take-the-oil-in-iran?traffic_source=rss",
+              "rss_source": "Al Jazeera",
+              "local_file": "sources/web/aljazeera.com_trump-says-with-more-time-us-can-take-the-oil-in-iran_traffic_sour.md",
+              "title_en": "Trump says with more time, US can ‘take the oil’ in Iran",
+              "summary_en": "Despite weeks long Iranian blockade on Strait of Hormuz, US president claims Washington can 'easily' reopen waterway."
+            },
+            {
+              "id": "rss_6c4f468d381e",
+              "title": "特朗普对北约的批评引发了关于美国是否以及如何退出北约的问题。",
+              "summary": "特朗普总统抱怨说，一些北约国家不允许他在对伊朗的战争中使用基地。他的批评让许多人怀疑美国是否会试图退出该联盟。",
+              "source": "web",
+              "source_label": "NPR World",
+              "date": "2026-04-03",
+              "url": "https://www.npr.org/2026/04/03/nx-s1-5771619/trumps-criticism-of-nato-raises-questions-of-whether-or-how-the-u-s-could-leave",
+              "rss_source": "NPR World",
+              "local_file": "sources/web/npr.org_trumps-criticism-of-nato-raises-questions-of-whether-or-how-the-u-s-coul.md",
+              "title_en": "Trump's criticism of NATO raises questions of whether — or how — the U.S. could leave",
+              "summary_en": "President Trump has complained that some NATO states aren't letting him use bases in the war against Iran. His criticism has left many wondering if the U.S. may try to withdraw from the alliance."
+            },
+            {
+              "id": "rss_2ab7cd85faef",
+              "title": "伊朗人为了上网而离开自己的国家",
+              "summary": "随着以色列和美国持续打击伊朗，伊朗人正越过边境前往土耳其，以寻找在伊朗境内被切断的网络连接。",
+              "source": "web",
+              "source_label": "NPR World",
+              "date": "2026-04-03",
+              "url": "https://www.npr.org/2026/04/03/nx-s1-5753859/iranians-are-leaving-the-country-just-to-get-internet",
+              "rss_source": "NPR World",
+              "local_file": "sources/web/npr.org_iranians-are-leaving-the-country-just-to-get-internet.md",
+              "title_en": "Iranians are leaving the country just to get internet",
+              "summary_en": "As the Israel and the U.S. continue striking Iran, Iranians are traveling across the border with Turkey to find an Internet connection with access cut off in Iran"
             },
             {
               "id": "rss_6a0d6901c4b4",
@@ -2301,215 +2827,99 @@
               "metrics": {},
               "title_en": "2026 Iran war",
               "summary_en": "38 minutes ago — On 28 February 2026, the United States and Israel started an armed conflict with surprise airstrikes on sites and cities across Iran, assassinating Supreme ..."
-            },
-            {
-              "id": "gdelt_1297567340",
-              "title": "伊朗军方在库尔德斯坦地区使用武力，局势紧张",
-              "title_en": "MILITARY → IRAN : Use conventional military force, not specified below (Qeshm, Kordestan, Iran)",
-              "summary": "伊朗军方在库尔德斯坦省格什姆地区采取军事行动，具体行动不明，冲突烈度剧增，地区紧张局势升级。",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: MILITARY / IRAN. Location: Qeshm, Kordestan, Iran. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "source": "gdelt",
-              "source_label": "signalscv.com",
-              "date": "2026-04-03",
-              "url": "https://signalscv.com/2026/04/us-deployments-fuel-speculation-of-ground-combat-against-iran/",
-              "metrics": {
-                "mentions": 10,
-                "sources": 1,
-                "articles": 10,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1297567340",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "MILITARY",
-                "actor2": "IRAN",
-                "actor1_country": "nan",
-                "actor2_country": "IRN",
-                "geo_lat": 35.4421,
-                "geo_lon": 47.3506,
-                "geo_name": "Qeshm, Kordestan, Iran"
-              }
-            },
-            {
-              "id": "gdelt_1297567165",
-              "title": "伊朗据称施加酷刑，美防长或将介入调查",
-              "title_en": "IRAN → SECRETARY OF DEFENSE : Torture (Iran)",
-              "summary": "伊朗境内发生酷刑事件，受害者身份不明。美国国防部长或将对此事展开调查，并可能采取相应行动。事件发生地位于伊朗境内。",
-              "summary_en": "GDELT Event: Torture. Actors: IRAN / SECRETARY OF DEFENSE. Location: Iran. Goldstein Scale: -9.0. Mentioned in 10 sources.",
-              "source": "gdelt",
-              "source_label": "yahoo.com",
-              "date": "2026-04-03",
-              "url": "https://www.yahoo.com/news/articles/may-gets-pilots-tortured-killed-201610164.html",
-              "metrics": {
-                "mentions": 10,
-                "sources": 1,
-                "articles": 10,
-                "goldstein": -9.0
-              },
-              "gdelt_meta": {
-                "event_id": "1297567165",
-                "event_code": "1822",
-                "cameo_desc": "Torture",
-                "actor1": "IRAN",
-                "actor2": "SECRETARY OF DEFENSE",
-                "actor1_country": "IRN",
-                "actor2_country": "nan",
-                "geo_lat": 32.0,
-                "geo_lon": 53.0,
-                "geo_name": "Iran"
-              }
-            },
-            {
-              "id": "gdelt_1297567120",
-              "title": "美伊紧张升级：美方在德黑兰采取不明暴力行动",
-              "title_en": "PRESIDENT → UNITED STATES : Use unconventional violence, not specified below (Tehran, Tehran, Iran)",
-              "summary": "据报道，美国总统指示美方人员在伊朗首都德黑兰采取了不明性质的非常规暴力行动，冲突烈度达到-9，显示美伊关系极度紧张。",
-              "summary_en": "GDELT Event: Use unconventional violence, not specified below. Actors: PRESIDENT / UNITED STATES. Location: Tehran, Tehran, Iran. Goldstein Scale: -9.0. Mentioned in 8 sources.",
-              "source": "gdelt",
-              "source_label": "ktsa.com",
-              "date": "2026-04-03",
-              "url": "https://www.ktsa.com/breaking-trump-directs-bold-operation-after-iran-downs-american-f-15-in-hostile-zone/",
-              "metrics": {
-                "mentions": 8,
-                "sources": 1,
-                "articles": 8,
-                "goldstein": -9.0
-              },
-              "gdelt_meta": {
-                "event_id": "1297567120",
-                "event_code": "180",
-                "cameo_desc": "Use unconventional violence, not specified below",
-                "actor1": "PRESIDENT",
-                "actor2": "UNITED STATES",
-                "actor1_country": "nan",
-                "actor2_country": "USA",
-                "geo_lat": 35.75,
-                "geo_lon": 51.5148,
-                "geo_name": "Tehran, Tehran, Iran"
-              }
-            },
-            {
-              "id": "gdelt_1297567191",
-              "title": "美伊紧张升级：伊朗战机突袭科罗拉多，局势骤紧",
-              "title_en": "IRAN → FIGHTER JET : Use conventional military force, not specified below (El Paso County, Colorado, United States)",
-              "summary": "伊朗战机未经授权进入美国科罗拉多州埃尔帕索县领空，对该区域实施了军事打击，冲突烈度极高，美伊关系或面临严峻考验。",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: IRAN / FIGHTER JET. Location: El Paso County, Colorado, United States. Goldstein Scale: -10.0. Mentioned in 8 sources.",
-              "source": "gdelt",
-              "source_label": "koaa.com",
-              "date": "2026-04-03",
-              "url": "https://www.koaa.com/news/national/iran-war/2-us-aircraft-shot-down-as-war-in-iran-escalates-at-least-1-crew-member-is-missing",
-              "metrics": {
-                "mentions": 8,
-                "sources": 1,
-                "articles": 8,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1297567191",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "IRAN",
-                "actor2": "FIGHTER JET",
-                "actor1_country": "IRN",
-                "actor2_country": "nan",
-                "geo_lat": 38.8333,
-                "geo_lon": -104.517,
-                "geo_name": "El Paso County, Colorado, United States"
-              }
-            },
-            {
-              "id": "gdelt_1297567192",
-              "title": "伊朗与伊拉克空军爆发激战，局势骤然紧张",
-              "title_en": "IRAN → AIR FORCE : Fight with small arms and light weapons (Iraq)",
-              "summary": "伊朗与伊拉克空军在伊拉克境内发生激烈交火，使用了小型武器和轻型武器，冲突程度严重，地区紧张局势升级。",
-              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: IRAN / AIR FORCE. Location: Iraq. Goldstein Scale: -10.0. Mentioned in 6 sources.",
-              "source": "gdelt",
-              "source_label": "thenewamerican.com",
-              "date": "2026-04-03",
-              "url": "https://thenewamerican.com/us/politics/foreign-policy/u-s-destroys-irans-biggest-bridge-f-15-shot-down-despite-trumps-no-anti-aircraft-weapons-claim-idf-wont-join-ground-war/",
-              "metrics": {
-                "mentions": 6,
-                "sources": 1,
-                "articles": 6,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1297567192",
-                "event_code": "193",
-                "cameo_desc": "Fight with small arms and light weapons",
-                "actor1": "IRAN",
-                "actor2": "AIR FORCE",
-                "actor1_country": "IRN",
-                "actor2_country": "nan",
-                "geo_lat": 33.0,
-                "geo_lon": 44.0,
-                "geo_name": "Iraq"
-              }
-            },
-            {
-              "id": "gdelt_1297567211",
-              "title": "伊朗境内爆发激烈枪战，冲突烈度极高",
-              "title_en": "IRANIAN → nan : Fight with small arms and light weapons (Boyer-Ahmad, Kohgiluyeh va Buyer A?mad, Iran)",
-              "summary": "伊朗科吉卢耶-博韦艾哈迈德地区发生伊朗人参与的激烈枪战，使用了轻武器，冲突程度非常严重。",
-              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: IRANIAN / nan. Location: Boyer-Ahmad, Kohgiluyeh va Buyer A?mad, Iran. Goldstein Scale: -10.0. Mentioned in 6 sources.",
-              "source": "gdelt",
-              "source_label": "english.elpais.com",
-              "date": "2026-04-03",
-              "url": "https://english.elpais.com/international/2026-04-03/united-states-rescues-pilot-of-first-plane-shot-down-by-iran-in-war.html",
-              "metrics": {
-                "mentions": 6,
-                "sources": 1,
-                "articles": 6,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1297567211",
-                "event_code": "193",
-                "cameo_desc": "Fight with small arms and light weapons",
-                "actor1": "IRANIAN",
-                "actor2": "nan",
-                "actor1_country": "IRN",
-                "actor2_country": "nan",
-                "geo_lat": 30.6833,
-                "geo_lon": 51.4833,
-                "geo_name": "Boyer-Ahmad, Kohgiluyeh va Buyer A?mad, Iran"
-              }
-            },
-            {
-              "id": "gdelt_1297567154",
-              "title": "伊埃关系骤降！伊朗突袭埃及首都美国大学",
-              "title_en": "IRANIAN → EGYPT : Use conventional military force, not specified below (American University, Al Qahirah, Egypt)",
-              "summary": "伊朗对埃及首都开罗美国大学发动军事袭击，具体袭击方式不明，伊埃关系因此急剧恶化。",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: IRANIAN / EGYPT. Location: American University, Al Qahirah, Egypt. Goldstein Scale: -10.0. Mentioned in 5 sources.",
-              "source": "gdelt",
-              "source_label": "europesun.com",
-              "date": "2026-04-03",
-              "url": "http://www.europesun.com/news/278962890/rescue-mission-races-to-find-crew-member-of-us-jet-downed-over-iran",
-              "metrics": {
-                "mentions": 5,
-                "sources": 1,
-                "articles": 5,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1297567154",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "IRANIAN",
-                "actor2": "EGYPT",
-                "actor1_country": "IRN",
-                "actor2_country": "EGY",
-                "geo_lat": 30.0428,
-                "geo_lon": 31.2367,
-                "geo_name": "American University, Al Qahirah, Egypt"
-              }
             }
           ]
         },
         "diplomacy": {
           "label": "外交谈判",
           "items": [
+            {
+              "id": "gdelt_1297567212",
+              "title": "伊朗法尔斯省：阿巴斯被捕，或面临法律指控",
+              "title_en": "MOHAMMAD ABBASI → POLICE : Arrest, detain, or charge with legal action (Mohammad Abbasi, Fars, Iran)",
+              "summary": "伊朗法尔斯省，穆罕默德·阿巴斯被警方逮捕，可能面临法律指控。事件冲突烈度较低，预示着事态或将进一步发展。",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: MOHAMMAD ABBASI / POLICE. Location: Mohammad Abbasi, Fars, Iran. Goldstein Scale: -5.0. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "dailymail.co.uk",
+              "date": "2026-04-03",
+              "url": "https://www.dailymail.co.uk/news/article-15705429/Haunting-faces-forgotten-Amid-fears-US-poised-pull-Iran-war-families-condemned-activists-beg-world-not-look-way.html",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1297567212",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "MOHAMMAD ABBASI",
+                "actor2": "POLICE",
+                "actor1_country": "IRN",
+                "actor2_country": "nan",
+                "geo_lat": 27.5753,
+                "geo_lon": 53.3718,
+                "geo_name": "Mohammad Abbasi, Fars, Iran"
+              }
+            },
+            {
+              "id": "gdelt_1297567106",
+              "title": "伊朗首都发生严重冲突，政府摧毁目标",
+              "title_en": "REGIME → IRAN : Destroy property (Tehran, Tehran, Iran)",
+              "summary": "伊朗首都德黑兰发生冲突事件，政府采取行动摧毁不明目标，冲突烈度达到-9.2，显示事件的严重程度。",
+              "summary_en": "GDELT Event: Destroy property. Actors: REGIME / IRAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -9.2. Mentioned in 4 sources.",
+              "source": "gdelt",
+              "source_label": "signalscv.com",
+              "date": "2026-04-03",
+              "url": "https://signalscv.com/2026/04/1-crew-member-rescued-after-us-fighter-jet-downed-over-iran/",
+              "metrics": {
+                "mentions": 4,
+                "sources": 1,
+                "articles": 4,
+                "goldstein": -9.2
+              },
+              "gdelt_meta": {
+                "event_id": "1297567106",
+                "event_code": "1712",
+                "cameo_desc": "Destroy property",
+                "actor1": "REGIME",
+                "actor2": "IRAN",
+                "actor1_country": "nan",
+                "actor2_country": "IRN",
+                "geo_lat": 35.75,
+                "geo_lon": 51.5148,
+                "geo_name": "Tehran, Tehran, Iran"
+              }
+            },
+            {
+              "id": "gdelt_1297422973",
+              "title": "伊朗军方在德黑兰实施行政制裁",
+              "title_en": "MILITARY → IRAN : Impose administrative sanctions, not specified below (Tehran, Tehran, Iran)",
+              "summary": "伊朗军方在德黑兰对不明对象实施了行政制裁，表明伊朗国内可能存在某种需要军事干预的情况，但冲突烈度较低，可能仅限于行政层面。",
+              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: MILITARY / IRAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -5.0. Mentioned in 42 sources.",
+              "source": "gdelt",
+              "source_label": "cravenherald.co.uk",
+              "date": "2026-04-02",
+              "url": "https://www.cravenherald.co.uk/news/national/25993409.trump-mocks-starmer-weak-uk-leads-push-reopen-strait-hormuz/",
+              "metrics": {
+                "mentions": 42,
+                "sources": 21,
+                "articles": 42,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1297422973",
+                "event_code": "172",
+                "cameo_desc": "Impose administrative sanctions, not specified below",
+                "actor1": "MILITARY",
+                "actor2": "IRAN",
+                "actor1_country": "nan",
+                "actor2_country": "IRN",
+                "geo_lat": 35.75,
+                "geo_lon": 51.5148,
+                "geo_name": "Tehran, Tehran, Iran"
+              }
+            },
             {
               "id": "web_64022",
               "title": "美国着眼于迅速结束战争，同时海湾国家再遭袭击",
@@ -2580,93 +2990,6 @@
               },
               "title_en": "Daily Report: The Second Iran War – March 23, 2026 (18:00)",
               "summary_en": "Daily Report | The Second Iran War – March 23, 2026\n\nIsrael continues its strikes against regime infrastructure across Iran. Tehran continues to apply regional pressure through missile and UAV attacks"
-            },
-            {
-              "id": "gdelt_1297422973",
-              "title": "伊朗军方在德黑兰实施行政制裁",
-              "title_en": "MILITARY → IRAN : Impose administrative sanctions, not specified below (Tehran, Tehran, Iran)",
-              "summary": "伊朗军方在德黑兰对不明对象实施了行政制裁，表明伊朗国内可能存在某种需要军事干预的情况，但冲突烈度较低，可能仅限于行政层面。",
-              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: MILITARY / IRAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -5.0. Mentioned in 42 sources.",
-              "source": "gdelt",
-              "source_label": "cravenherald.co.uk",
-              "date": "2026-04-02",
-              "url": "https://www.cravenherald.co.uk/news/national/25993409.trump-mocks-starmer-weak-uk-leads-push-reopen-strait-hormuz/",
-              "metrics": {
-                "mentions": 42,
-                "sources": 21,
-                "articles": 42,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1297422973",
-                "event_code": "172",
-                "cameo_desc": "Impose administrative sanctions, not specified below",
-                "actor1": "MILITARY",
-                "actor2": "IRAN",
-                "actor1_country": "nan",
-                "actor2_country": "IRN",
-                "geo_lat": 35.75,
-                "geo_lon": 51.5148,
-                "geo_name": "Tehran, Tehran, Iran"
-              }
-            },
-            {
-              "id": "gdelt_1297567212",
-              "title": "伊朗法尔斯省：阿巴斯被捕，或面临法律指控",
-              "title_en": "MOHAMMAD ABBASI → POLICE : Arrest, detain, or charge with legal action (Mohammad Abbasi, Fars, Iran)",
-              "summary": "伊朗法尔斯省，穆罕默德·阿巴斯被警方逮捕，可能面临法律指控。事件冲突烈度较低，预示着事态或将进一步发展。",
-              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: MOHAMMAD ABBASI / POLICE. Location: Mohammad Abbasi, Fars, Iran. Goldstein Scale: -5.0. Mentioned in 6 sources.",
-              "source": "gdelt",
-              "source_label": "dailymail.co.uk",
-              "date": "2026-04-03",
-              "url": "https://www.dailymail.co.uk/news/article-15705429/Haunting-faces-forgotten-Amid-fears-US-poised-pull-Iran-war-families-condemned-activists-beg-world-not-look-way.html",
-              "metrics": {
-                "mentions": 6,
-                "sources": 1,
-                "articles": 6,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1297567212",
-                "event_code": "173",
-                "cameo_desc": "Arrest, detain, or charge with legal action",
-                "actor1": "MOHAMMAD ABBASI",
-                "actor2": "POLICE",
-                "actor1_country": "IRN",
-                "actor2_country": "nan",
-                "geo_lat": 27.5753,
-                "geo_lon": 53.3718,
-                "geo_name": "Mohammad Abbasi, Fars, Iran"
-              }
-            },
-            {
-              "id": "gdelt_1297567106",
-              "title": "伊朗首都发生严重冲突，政府摧毁目标",
-              "title_en": "REGIME → IRAN : Destroy property (Tehran, Tehran, Iran)",
-              "summary": "伊朗首都德黑兰发生冲突事件，政府采取行动摧毁不明目标，冲突烈度达到-9.2，显示事件的严重程度。",
-              "summary_en": "GDELT Event: Destroy property. Actors: REGIME / IRAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -9.2. Mentioned in 4 sources.",
-              "source": "gdelt",
-              "source_label": "signalscv.com",
-              "date": "2026-04-03",
-              "url": "https://signalscv.com/2026/04/1-crew-member-rescued-after-us-fighter-jet-downed-over-iran/",
-              "metrics": {
-                "mentions": 4,
-                "sources": 1,
-                "articles": 4,
-                "goldstein": -9.2
-              },
-              "gdelt_meta": {
-                "event_id": "1297567106",
-                "event_code": "1712",
-                "cameo_desc": "Destroy property",
-                "actor1": "REGIME",
-                "actor2": "IRAN",
-                "actor1_country": "nan",
-                "actor2_country": "IRN",
-                "geo_lat": 35.75,
-                "geo_lon": 51.5148,
-                "geo_name": "Tehran, Tehran, Iran"
-              }
             }
           ]
         },
@@ -2973,6 +3296,32 @@
               "summary_en": "Iran said one of the longest bridges linking Tehran to the city of Karaj was destroyed overnight, while Iranian missiles and drones hit Israel, Saudi Arabia, the United Arab Emirates and Kuwait."
             },
             {
+              "id": "rss_b9a68005a62e",
+              "title": "在伊朗上空被击落的F-15E战机中获救的两名美国机组人员之一",
+              "summary": "中东危机——最新动态：官员称，自战争开始以来，美国首次有战斗机被击落，仍有其他遗骸失踪。一架美国F-15E“攻击鹰”战斗机在伊朗上空被击落，一名美国军人获救，目前正在紧急搜寻其两名机组人员，这是自战争开始以来美国首次有战斗机被击落。",
+              "source": "web",
+              "source_label": "The Guardian",
+              "date": "2026-04-03",
+              "url": "https://www.theguardian.com/world/2026/apr/03/us-fighter-jet-confirmed-shot-down-over-iran",
+              "rss_source": "The Guardian",
+              "local_file": "sources/web/theguardian.com_us-fighter-jet-confirmed-shot-down-over-iran.md",
+              "title_en": "One of two US crew members rescued after F-15E jet shot down over Iran",
+              "summary_en": "Officials say other remains missing in first downing of US fighter plane since start of warMiddle East crisis – live updatesOne US service member has been rescued after a US F-15E Strike Eagle fighter was shot down over Iran, prompting a frantic effort to locate its two-strong crew, in the first suc"
+            },
+            {
+              "id": "rss_93ed4e683213",
+              "title": "美国一架喷气式飞机在伊朗坠毁，一名美国官员证实",
+              "summary": "一位美国官员表示，一名机组人员已被救起，美国军方仍在搜寻另一名机组人员。",
+              "source": "web",
+              "source_label": "NPR World",
+              "date": "2026-04-03",
+              "url": "https://www.npr.org/2026/04/03/nx-s1-5773108/american-jet-shot-down-iran",
+              "rss_source": "NPR World",
+              "local_file": "sources/web/npr.org_american-jet-shot-down-iran.md",
+              "title_en": "A U.S. jet goes down over Iran, a U.S. official confirms",
+              "summary_en": "A U.S. official said that one crew member had been rescued and U.S. forces continue to search for the second crew member."
+            },
+            {
               "id": "rss_e2eccc9da834",
               "title": "没有全球危机，就没有国际货币基金组织和世界银行春季会议",
               "summary": "伊朗战争造成的供给侧冲击正在考验国际货币基金组织（IMF）和世界银行，而2026年春季会议即将召开。虽然财政支持正在筹备中，但尚不清楚他们能向成员国提供哪些政策建议来应对这场危机的影响。",
@@ -3132,6 +3481,19 @@
               "local_file": "sources/web/news.un.org_1167230.md",
               "title_en": "‘We watched them die before our eyes’: Sudan health workers helpless amid medical shortages",
               "summary_en": "As violence forces tens of thousands to flee Sudan’s South Kordofan state, doctors in a key maternity hospital are facing impossible choices – with too few supplies, too many patients, and lives slipping away."
+            },
+            {
+              "id": "rss_aadef3766974",
+              "title": "无国界医生组织称，苏丹一家医院遭无人机袭击，造成 10 人死亡",
+              "summary": "无国界医生表示，在白尼罗河州的杰贝莱因医院遭到两次袭击，击中了手术室和妇产科病房。",
+              "source": "web",
+              "source_label": "Al Jazeera",
+              "date": "2026-04-03",
+              "url": "https://www.aljazeera.com/news/2026/4/3/drone-strike-on-sudan-hospital-kills-10-medical-charity-msf-says?traffic_source=rss",
+              "rss_source": "Al Jazeera",
+              "local_file": "sources/web/aljazeera.com_drone-strike-on-sudan-hospital-kills-10-medical-charity-msf-says_t.md",
+              "title_en": "Drone strike on Sudan hospital kills 10, medical charity MSF says",
+              "summary_en": "Two strikes on Al Jabalain Hospital in White Nile State hit an operating theatre and a maternity ward, MSF says."
             },
             {
               "id": "x_2038090066820497413",
@@ -4368,6 +4730,35 @@
               "id": "x_new_8"
             },
             {
+              "id": "gdelt_1297422473",
+              "title": "刚果（金）官员在美遇刺，或引发国际争端",
+              "title_en": "nan → DEMOCRATIC REPUBLIC OF THE CONGO : Assassinate (New York, United States)",
+              "summary": "刚果（金）一名官员在纽约遭到不明袭击，不幸遇刺身亡。事件发生在美国境内，可能加剧刚果（金）与相关国家之间的紧张关系，甚至引发国际争端。",
+              "summary_en": "GDELT Event: Assassinate. Actors: nan / DEMOCRATIC REPUBLIC OF THE CONGO. Location: New York, United States. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "pambazuka.org",
+              "date": "2026-04-02",
+              "url": "http://www.pambazuka.org/index.php/Assassins-Patrice-Lumumba-Trial",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1297422473",
+                "event_code": "186",
+                "cameo_desc": "Assassinate",
+                "actor1": "nan",
+                "actor2": "DEMOCRATIC REPUBLIC OF THE CONGO",
+                "actor1_country": "nan",
+                "actor2_country": "COD",
+                "geo_lat": 42.1497,
+                "geo_lon": -74.9384,
+                "geo_name": "New York, United States"
+              }
+            },
+            {
               "id": "rss_ed9af507b902",
               "title": "刚果（布）已请求国际刑警组织对让-盖伊·布莱斯·马约拉斯发出逮捕令",
               "summary": "刚果（布）足协主席携妻儿潜逃，因广泛腐败指控被缺席判决。刚果（布拉柴维尔）当局已向国际刑警组织申请对该国足协主席让-盖伊·布莱斯·马约拉斯的国际逮捕令。",
@@ -4460,35 +4851,6 @@
               },
               "title_en": "DR Congo AFC-M23 rebels begin implementing Doha ...",
               "summary_en": "VIDEO - DR Congo AFC-M23 rebels begin implementing Doha Agreement with Kinshasa Government that requires exchange and release of prisoners. The rebels have handed over 5,000 FARDC troops to ICRC who w"
-            },
-            {
-              "id": "gdelt_1297422473",
-              "title": "刚果（金）官员在美遇刺，或引发国际争端",
-              "title_en": "nan → DEMOCRATIC REPUBLIC OF THE CONGO : Assassinate (New York, United States)",
-              "summary": "刚果（金）一名官员在纽约遭到不明袭击，不幸遇刺身亡。事件发生在美国境内，可能加剧刚果（金）与相关国家之间的紧张关系，甚至引发国际争端。",
-              "summary_en": "GDELT Event: Assassinate. Actors: nan / DEMOCRATIC REPUBLIC OF THE CONGO. Location: New York, United States. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "source": "gdelt",
-              "source_label": "pambazuka.org",
-              "date": "2026-04-02",
-              "url": "http://www.pambazuka.org/index.php/Assassins-Patrice-Lumumba-Trial",
-              "metrics": {
-                "mentions": 2,
-                "sources": 1,
-                "articles": 2,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1297422473",
-                "event_code": "186",
-                "cameo_desc": "Assassinate",
-                "actor1": "nan",
-                "actor2": "DEMOCRATIC REPUBLIC OF THE CONGO",
-                "actor1_country": "nan",
-                "actor2_country": "COD",
-                "geo_lat": 42.1497,
-                "geo_lon": -74.9384,
-                "geo_name": "New York, United States"
-              }
             }
           ]
         },
@@ -4822,6 +5184,35 @@
           "label": "军事动态",
           "items": [
             {
+              "id": "gdelt_1297423279",
+              "title": "美方人员在叙利亚遭劫持，伊拉克或涉案",
+              "title_en": "AMERICAN → IRAQ : Abduct, hijack, or take hostage (Syria)",
+              "summary": "据报，一名美国公民在叙利亚境内被绑架或劫持为人质，事件可能与伊拉克方面有关联，冲突烈度严重。",
+              "summary_en": "GDELT Event: Abduct, hijack, or take hostage. Actors: AMERICAN / IRAQ. Location: Syria. Goldstein Scale: -9.0. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "abcnews.com",
+              "date": "2026-04-02",
+              "url": "https://abcnews.com/International/american-journalist-abducted-iraq-trained-case-kidnapped-colleague/story?id=131653465",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -9.0
+              },
+              "gdelt_meta": {
+                "event_id": "1297423279",
+                "event_code": "181",
+                "cameo_desc": "Abduct, hijack, or take hostage",
+                "actor1": "AMERICAN",
+                "actor2": "IRAQ",
+                "actor1_country": "USA",
+                "actor2_country": "IRQ",
+                "geo_lat": 35.0,
+                "geo_lon": 38.0,
+                "geo_name": "Syria"
+              }
+            },
+            {
               "id": "web_97051",
               "title": "2026年叙利亚东北部攻势",
               "summary": "2026年1月13日，叙利亚过渡政府在……地区对库尔德人领导的叙利亚民主力量（SDF）发动了攻势。",
@@ -4859,35 +5250,6 @@
               "metrics": {},
               "title_en": "The War with Iran Threatens Syria's Recovery",
               "summary_en": "Mar 12, 2026 — Hours after U.S. and Israeli jets began bombing Iran on February 28, 2026, Syrians heard a loud explosion in Damascus. Given the new Syrian ..."
-            },
-            {
-              "id": "gdelt_1297423279",
-              "title": "美方人员在叙利亚遭劫持，伊拉克或涉案",
-              "title_en": "AMERICAN → IRAQ : Abduct, hijack, or take hostage (Syria)",
-              "summary": "据报，一名美国公民在叙利亚境内被绑架或劫持为人质，事件可能与伊拉克方面有关联，冲突烈度严重。",
-              "summary_en": "GDELT Event: Abduct, hijack, or take hostage. Actors: AMERICAN / IRAQ. Location: Syria. Goldstein Scale: -9.0. Mentioned in 6 sources.",
-              "source": "gdelt",
-              "source_label": "abcnews.com",
-              "date": "2026-04-02",
-              "url": "https://abcnews.com/International/american-journalist-abducted-iraq-trained-case-kidnapped-colleague/story?id=131653465",
-              "metrics": {
-                "mentions": 6,
-                "sources": 1,
-                "articles": 6,
-                "goldstein": -9.0
-              },
-              "gdelt_meta": {
-                "event_id": "1297423279",
-                "event_code": "181",
-                "cameo_desc": "Abduct, hijack, or take hostage",
-                "actor1": "AMERICAN",
-                "actor2": "IRAQ",
-                "actor1_country": "USA",
-                "actor2_country": "IRQ",
-                "geo_lat": 35.0,
-                "geo_lon": 38.0,
-                "geo_name": "Syria"
-              }
             }
           ]
         },
@@ -5199,6 +5561,32 @@
           "label": "军事动态",
           "items": [
             {
+              "id": "rss_c651b760019d",
+              "title": "伊朗战争直播：德黑兰击落2架美国战机；以色列轰炸黎巴嫩桥梁",
+              "summary": "德黑兰举行庆祝活动，伊朗军方表示，此次袭击表明其部队仍具有作战能力。",
+              "source": "web",
+              "source_label": "Al Jazeera",
+              "date": "2026-04-04",
+              "url": "https://www.aljazeera.com/news/liveblog/2026/4/4/iran-war-live-tehran-downs-2-us-warplanes-israel-bombs-lebanon-bridges?traffic_source=rss",
+              "rss_source": "Al Jazeera",
+              "local_file": "sources/web/aljazeera.com_iran-war-live-tehran-downs-2-us-warplanes-israel-bombs-lebanon-bri.md",
+              "title_en": "Iran war live: Tehran downs 2 US warplanes; Israel bombs Lebanon bridges",
+              "summary_en": "Celebrations in Tehran as Iran's military says the strikes shows its forces still have fighting capability."
+            },
+            {
+              "id": "rss_ea9f489808e7",
+              "title": "九人被控涉嫌合谋通过“母船”在澳大利亚水域进口数吨可卡因和冰毒",
+              "summary": "警方称，毒品原本计划从巴斯海峡的一个投放点收集，然后通过卡车运输网络分销到全国各地。当一艘商业拖网渔船在维多利亚州附近沉没，四名船员需要救援时，警方开始怀疑一起涉嫌的毒品走私行动。九名男子是",
+              "source": "web",
+              "source_label": "The Guardian",
+              "date": "2026-04-04",
+              "url": "https://www.theguardian.com/australia-news/2026/apr/04/nine-charged-over-alleged-conspiracy-to-import-tonnes-of-cocaine-and-meth-australia-ntwnfb",
+              "rss_source": "The Guardian",
+              "local_file": "sources/web/theguardian.com_nine-charged-over-alleged-conspiracy-to-import-tonnes-of-cocaine.md",
+              "title_en": "Nine charged over alleged conspiracy to import tonnes of cocaine and meth via ‘mother ship’ in Australian waters",
+              "summary_en": "Police allege drugs were to be collected from a drop-zone in Bass Strait and distributed across the nation using trucking connectionsWhen a commercial trawler sank off Victoria with four crew members needing rescuing, police became suspicious about an alleged drug trafficking operation.Nine men are "
+            },
+            {
               "id": "rss_4700e9c88301",
               "title": "古巴将在美国压力加大之际释放2000多名囚犯",
               "summary": "美国总统特朗普已明确表示，他希望改变古巴的领导层，并对该国实施石油禁运。",
@@ -5340,6 +5728,110 @@
               "local_file": "sources/web/npr.org_strait-of-hormuz-closure-deflates-global-helium-supply.md",
               "title_en": "Strait of Hormuz closure deflates global helium supply",
               "summary_en": "The blockade in the Strait of Hormuz is affecting not only oil, but the global helium supply."
+            },
+            {
+              "id": "rss_c5082427166c",
+              "title": "伊朗战争将如何改变世界能源政策",
+              "summary": "霍尔木兹海峡关闭引发了燃料短缺和能源成本飙升，但也为能源生产商带来了新的机遇。不同地区如何应对这些 disruption 可能会重塑未来的能源市场和安全格局。文章：伊朗战争将如何改变各地的能源政策",
+              "source": "web",
+              "source_label": "Atlantic Council",
+              "date": "2026-04-03",
+              "url": "https://www.atlanticcouncil.org/blogs/energysource/how-the-iran-war-could-shift-energy-policies-around-the-world/",
+              "rss_source": "Atlantic Council",
+              "local_file": "sources/web/atlanticcouncil.org_.md",
+              "title_en": "How the Iran war could shift energy policies around the world",
+              "summary_en": "The Strait of Hormuz closure has sparked fuel shortages and soaring energy costs, but also new opportunities for energy producers. How different regions respond to these disruptions could reshape the future of energy markets and security. The post How the Iran war could shift energy policies around "
+            },
+            {
+              "id": "rss_ff4b21633aaf",
+              "title": "攻击伊朗的能源和水利基础设施不是一个制胜策略。",
+              "summary": "伊朗政权在开展军事行动时，运用一种独特的对称性，这与美国提出的计划背道而驰。最初发表于大西洋理事会的文章《攻击伊朗的能源和水利基础设施并非制胜策略》。",
+              "source": "web",
+              "source_label": "Atlantic Council",
+              "date": "2026-04-03",
+              "url": "https://www.atlanticcouncil.org/dispatches/attacking-irans-energy-and-water-infrastructure-is-not-a-winning-strategy/",
+              "rss_source": "Atlantic Council",
+              "local_file": "sources/web/atlanticcouncil.org_.md",
+              "title_en": "Attacking Iran’s energy and water infrastructure is not a winning strategy",
+              "summary_en": "The Iranian regime uses a peculiar sense of symmetry in how it conducts military campaigns that cuts against the proposed US plan. The post Attacking Iran’s energy and water infrastructure is not a winning strategy appeared first on Atlantic Council."
+            },
+            {
+              "id": "rss_ea67ae62f328",
+              "title": "伊朗战争会重塑全球能源版图吗？",
+              "summary": "在这一集中，乔希和杰西深入探讨了由伊朗战争和霍尔木兹海峡关闭所造成的供应冲击，从亚洲的能源危机到美国对外部的依赖。大西洋理事会全球能源中心高级主任兰登·德伦茨将加入我们，讨论这场危机的规模和持续时间。",
+              "source": "web",
+              "source_label": "Atlantic Council",
+              "date": "2026-04-03",
+              "url": "https://www.atlanticcouncil.org/commentary/podcast/will-the-iran-war-redraw-the-global-energy-map/",
+              "rss_source": "Atlantic Council",
+              "local_file": "sources/web/atlanticcouncil.org_.md",
+              "title_en": "Will the Iran war redraw the global energy map?",
+              "summary_en": "In this episode, Josh and Jessie get into the supply shock caused by the Iran war and the closure of the Strait of Hormuz, from Asia's energy crunch to US dependencies. Senior Director of the Atlantic Council Global Energy Center, Landon Derentz, joins us to discuss the scale and duration of this en"
+            },
+            {
+              "id": "rss_712e35bb3c2d",
+              "title": "法国拥有的船只通过霍尔木兹海峡",
+              "summary": "这似乎是冲突爆发以来，首艘由欧洲大型公司拥有的船只通过该海峡。",
+              "source": "web",
+              "source_label": "BBC World",
+              "date": "2026-04-03",
+              "url": "https://www.bbc.com/news/articles/cjd8275jrrko?at_medium=RSS&at_campaign=rss",
+              "rss_source": "BBC World",
+              "local_file": "sources/web/bbc.com_cjd8275jrrko_at_medium_RSS_at_campaign_rss.md",
+              "title_en": "French-owned ship passes through Strait of Hormuz",
+              "summary_en": "It appears to be the first ship owned by a major European firm to go through the strait since the conflict began."
+            },
+            {
+              "id": "rss_883b1d10f6b0",
+              "title": "是否会动用武力重新开放霍尔木兹海峡？",
+              "summary": "一些国家威胁将对伊朗封锁水道采取行动。",
+              "source": "web",
+              "source_label": "Al Jazeera",
+              "date": "2026-04-03",
+              "url": "https://www.aljazeera.com/video/inside-story/2026/4/3/will-force-be-used-to-reopen-strait-of-hormuz?traffic_source=rss",
+              "rss_source": "Al Jazeera",
+              "local_file": "sources/web/aljazeera.com_will-force-be-used-to-reopen-strait-of-hormuz_traffic_source_rss.md",
+              "title_en": "Will force be used to reopen Strait of Hormuz?",
+              "summary_en": "Some countries threaten action against Iran's blockade of waterway."
+            },
+            {
+              "id": "rss_a7b06aa5d62d",
+              "title": "阿曼、法国和日本船只通过霍尔木兹海峡",
+              "summary": "法国达飞集团（CMA CGM）的船只成为自美国-以色列对伊朗战争开始以来，第一艘穿越霍尔木兹海峡的法国自有船只。",
+              "source": "web",
+              "source_label": "Al Jazeera",
+              "date": "2026-04-03",
+              "url": "https://www.aljazeera.com/news/2026/4/3/french-owned-container-ship-transits-hormuz-strait-in-first-since-iran-war?traffic_source=rss",
+              "rss_source": "Al Jazeera",
+              "local_file": "sources/web/aljazeera.com_french-owned-container-ship-transits-hormuz-strait-in-first-since-.md",
+              "title_en": "Omani, French and Japanese vessels transit the Strait of Hormuz",
+              "summary_en": "CMA CGM's vessel becomes the first French-owned ship to traverse Hormuz since the US–Israel war on Iran began."
+            },
+            {
+              "id": "rss_dc0503ec1d8b",
+              "title": "特朗普称，若有更多时间，美国可以“夺取”伊朗的石油",
+              "summary": "尽管伊朗对霍尔木兹海峡进行了长达数周的封锁，美国总统声称华盛顿可以“轻易地”重新开放该水道。",
+              "source": "web",
+              "source_label": "Al Jazeera",
+              "date": "2026-04-03",
+              "url": "https://www.aljazeera.com/news/2026/4/3/trump-says-with-more-time-us-can-take-the-oil-in-iran?traffic_source=rss",
+              "rss_source": "Al Jazeera",
+              "local_file": "sources/web/aljazeera.com_trump-says-with-more-time-us-can-take-the-oil-in-iran_traffic_sour.md",
+              "title_en": "Trump says with more time, US can ‘take the oil’ in Iran",
+              "summary_en": "Despite weeks long Iranian blockade on Strait of Hormuz, US president claims Washington can 'easily' reopen waterway."
+            },
+            {
+              "id": "rss_6c4f468d381e",
+              "title": "特朗普对北约的批评引发了关于美国是否以及如何退出北约的问题。",
+              "summary": "特朗普总统抱怨说，一些北约国家不允许他在对伊朗的战争中使用基地。他的批评让许多人怀疑美国是否会试图退出该联盟。",
+              "source": "web",
+              "source_label": "NPR World",
+              "date": "2026-04-03",
+              "url": "https://www.npr.org/2026/04/03/nx-s1-5771619/trumps-criticism-of-nato-raises-questions-of-whether-or-how-the-u-s-could-leave",
+              "rss_source": "NPR World",
+              "local_file": "sources/web/npr.org_trumps-criticism-of-nato-raises-questions-of-whether-or-how-the-u-s-coul.md",
+              "title_en": "Trump's criticism of NATO raises questions of whether — or how — the U.S. could leave",
+              "summary_en": "President Trump has complained that some NATO states aren't letting him use bases in the war against Iran. His criticism has left many wondering if the U.S. may try to withdraw from the alliance."
             },
             {
               "id": "rss_6d2e252545a5",
@@ -5963,6 +6455,19 @@
               "local_file": "sources/web/npr.org_iran-hits-gulf-refineries-as-trump-warns-u-s-will-attack-iranian-bridges.md",
               "title_en": "Iran hits Gulf refineries as Trump warns U.S. will attack Iranian bridges, power plants",
               "summary_en": "Iran said one of the longest bridges linking Tehran to the city of Karaj was destroyed overnight, while Iranian missiles and drones hit Israel, Saudi Arabia, the United Arab Emirates and Kuwait."
+            },
+            {
+              "id": "rss_b9a68005a62e",
+              "title": "在伊朗上空被击落的F-15E战机中获救的两名美国机组人员之一",
+              "summary": "中东危机——最新动态：官员称，自战争开始以来，美国首次有战斗机被击落，仍有其他遗骸失踪。一架美国F-15E“攻击鹰”战斗机在伊朗上空被击落，一名美国军人获救，目前正在紧急搜寻其两名机组人员，这是自……以来的首次……",
+              "source": "web",
+              "source_label": "The Guardian",
+              "date": "2026-04-03",
+              "url": "https://www.theguardian.com/world/2026/apr/03/us-fighter-jet-confirmed-shot-down-over-iran",
+              "rss_source": "The Guardian",
+              "local_file": "sources/web/theguardian.com_us-fighter-jet-confirmed-shot-down-over-iran.md",
+              "title_en": "One of two US crew members rescued after F-15E jet shot down over Iran",
+              "summary_en": "Officials say other remains missing in first downing of US fighter plane since start of warMiddle East crisis – live updatesOne US service member has been rescued after a US F-15E Strike Eagle fighter was shot down over Iran, prompting a frantic effort to locate its two-strong crew, in the first suc"
             },
             {
               "id": "rss_5c4f50f45108",

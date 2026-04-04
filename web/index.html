@@ -101,6 +101,20 @@
       <div class="cd-right" id="cdRight"></div>
     </div>
     <div class="cd-map" id="cdMap"></div>
+    <div class="map-controls" id="mapControls" style="display:none">
+      <div class="replay-bar" id="replayBar">
+        <button class="replay-btn" id="replayBtn" title="播放冲突时间线">▶ 回放</button>
+        <input type="range" class="replay-slider" id="replaySlider" min="0" max="100" value="0">
+        <span class="replay-date" id="replayDate"></span>
+        <span class="replay-count" id="replayCount"></span>
+      </div>
+      <div class="layer-toggles" id="layerToggles">
+        <span class="layer-label">图层</span>
+        <label class="layer-toggle"><input type="checkbox" id="layerBases" value="bases"> 军事基地</label>
+        <label class="layer-toggle"><input type="checkbox" id="layerNuclear" value="nuclear"> 核设施</label>
+        <label class="layer-toggle"><input type="checkbox" id="layerPipelines" value="pipelines"> 管道/电缆</label>
+      </div>
+    </div>
     <p class="cd-summary" id="cdSummary"></p>
     <div class="data-strip" id="dataStrip"></div>
     <nav class="cat-tabs" id="catTabs"></nav>
