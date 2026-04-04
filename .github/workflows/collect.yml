@@ -20,7 +20,7 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        run: pip install feedparser trafilatura markdownify justext beautifulsoup4
+        run: pip install feedparser trafilatura markdownify justext beautifulsoup4 gdelt pandas
 
       - name: Install yt-dlp
         run: |
@@ -32,6 +32,9 @@ jobs:
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: python scripts/rss_feeds.py both
+
+      - name: Run GDELT feed
+        run: python scripts/gdelt_feed.py 2
 
       - name: Generate AI briefing
         env:
