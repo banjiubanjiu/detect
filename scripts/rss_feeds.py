@@ -33,94 +33,66 @@ FEED_XML = PROJECT_ROOT / "web" / "feed.xml"
 # 一个源可以覆盖多个冲突，靠标题关键词匹配
 
 RSS_SOURCES = [
-    # ── T1 智库/机构 ──
-    {
-        "url": "https://understandingwar.org/rss.xml",
-        "name": "ISW",
-        "tier": "t1",
-    },
-    {
-        "url": "https://www.crisisgroup.org/feed",
-        "name": "Crisis Group",
-        "tier": "t1",
-    },
-    {
-        "url": "https://www.brookings.edu/topic/defense-security/feed/",
-        "name": "Brookings",
-        "tier": "t1",
-    },
-    {
-        "url": "https://www.csis.org/analysis/feed",
-        "name": "CSIS",
-        "tier": "t1",
-    },
-    {
-        "url": "https://www.cfr.org/rss/publication",
-        "name": "CFR",
-        "tier": "t1",
-    },
-    {
-        "url": "https://www.atlanticcouncil.org/feed/",
-        "name": "Atlantic Council",
-        "tier": "t1",
-    },
-    {
-        "url": "https://www.rand.org/pubs.xml",
-        "name": "RAND",
-        "tier": "t1",
-    },
-    {
-        "url": "https://www.hrw.org/rss/news",
-        "name": "HRW",
-        "tier": "t1",
-    },
-    {
-        "url": "https://reliefweb.int/updates/rss.xml",
-        "name": "ReliefWeb",
-        "tier": "t1",
-    },
-    {
-        "url": "https://news.un.org/feed/subscribe/en/news/topic/peace-and-security/feed/rss.xml",
-        "name": "UN News",
-        "tier": "t1",
-    },
-    # ── T2 主流媒体 ──
-    {
-        "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-        "name": "BBC World",
-        "tier": "t2",
-    },
-    {
-        "url": "https://www.aljazeera.com/xml/rss/all.xml",
-        "name": "Al Jazeera",
-        "tier": "t2",
-    },
-    {
-        "url": "https://www.theguardian.com/world/rss",
-        "name": "The Guardian",
-        "tier": "t2",
-    },
-    {
-        "url": "https://feeds.npr.org/1004/rss.xml",
-        "name": "NPR World",
-        "tier": "t2",
-    },
-    {
-        "url": "https://www.rferl.org/api/rss",
-        "name": "RFE/RL",
-        "tier": "t2",
-    },
-    {
-        "url": "https://warontherocks.com/feed/",
-        "name": "War on the Rocks",
-        "tier": "t2",
-    },
-    {
-        "url": "https://www.eurasiareview.com/feed/",
-        "name": "Eurasia Review",
-        "tier": "t2",
-    },
-    # Reddit 不走 RSS（collect.py 已有专用 Reddit 采集）
+    # ═══ T1 智库/机构 ═══
+    {"url": "https://understandingwar.org/rss.xml", "name": "ISW", "tier": "t1"},
+    {"url": "https://www.crisisgroup.org/feed", "name": "Crisis Group", "tier": "t1"},
+    {"url": "https://www.brookings.edu/topic/defense-security/feed/", "name": "Brookings", "tier": "t1"},
+    {"url": "https://www.csis.org/analysis/feed", "name": "CSIS", "tier": "t1"},
+    {"url": "https://www.cfr.org/rss/publication", "name": "CFR", "tier": "t1"},
+    {"url": "https://www.atlanticcouncil.org/feed/", "name": "Atlantic Council", "tier": "t1"},
+    {"url": "https://www.rand.org/pubs.xml", "name": "RAND", "tier": "t1"},
+    {"url": "https://www.hrw.org/rss/news", "name": "HRW", "tier": "t1"},
+    {"url": "https://reliefweb.int/updates/rss.xml", "name": "ReliefWeb", "tier": "t1"},
+    {"url": "https://news.un.org/feed/subscribe/en/news/topic/peace-and-security/feed/rss.xml", "name": "UN News", "tier": "t1"},
+    # 新增 T1（经测试可用）
+    {"url": "https://www.msf.org/rss/all", "name": "MSF", "tier": "t1"},
+
+    # ═══ T2 西方主流媒体 ═══
+    {"url": "https://feeds.bbci.co.uk/news/world/rss.xml", "name": "BBC World", "tier": "t2"},
+    {"url": "https://www.theguardian.com/world/rss", "name": "The Guardian", "tier": "t2"},
+    {"url": "https://feeds.npr.org/1004/rss.xml", "name": "NPR World", "tier": "t2"},
+    {"url": "https://www.rferl.org/api/rss", "name": "RFE/RL", "tier": "t2"},
+    {"url": "https://warontherocks.com/feed/", "name": "War on the Rocks", "tier": "t2"},
+    {"url": "https://www.eurasiareview.com/feed/", "name": "Eurasia Review", "tier": "t2"},
+    # 新增西方
+    {"url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml", "name": "NYT World", "tier": "t2"},
+    {"url": "https://feeds.washingtonpost.com/rss/world", "name": "Washington Post", "tier": "t2"},
+    {"url": "https://www.france24.com/en/rss", "name": "France 24", "tier": "t2"},
+    {"url": "https://rss.dw.com/xml/rss-en-world", "name": "DW", "tier": "t2"},
+    {"url": "https://www.defenseone.com/rss/all/", "name": "Defense One", "tier": "t2"},
+    {"url": "https://www.foreignpolicy.com/feed/", "name": "Foreign Policy", "tier": "t2"},
+
+    # ═══ T2 阿拉伯/中东视角 ═══
+    {"url": "https://www.aljazeera.com/xml/rss/all.xml", "name": "Al Jazeera", "tier": "t2"},
+    {"url": "https://www.middleeasteye.net/rss", "name": "Middle East Eye", "tier": "t2"},
+    # Al Arabiya, The National UAE — RSS blocked by server
+
+    # ═══ T2 以色列视角 ═══
+    {"url": "https://www.timesofisrael.com/feed/", "name": "Times of Israel", "tier": "t2"},
+    {"url": "https://www.jpost.com/rss/rssfeedsfrontpage.aspx", "name": "Jerusalem Post", "tier": "t2"},
+
+    # ═══ T2 俄方/独立俄媒 ═══
+    {"url": "https://meduza.io/rss/en/all", "name": "Meduza", "tier": "t2"},
+    {"url": "https://www.themoscowtimes.com/rss/news", "name": "Moscow Times", "tier": "t2"},
+
+    # ═══ T2 乌克兰视角 ═══
+    {"url": "https://english.nv.ua/rss/all.xml", "name": "NV Ukraine", "tier": "t2"},
+    {"url": "https://www.ukrinform.net/rss/block-lastnews", "name": "Ukrinform", "tier": "t2"},
+
+    # ═══ T2 亚太区域 ═══
+    {"url": "https://www.irrawaddy.com/feed", "name": "The Irrawaddy", "tier": "t2"},
+    # BenarNews — RSS blocked by server
+    {"url": "https://thediplomat.com/feed/", "name": "The Diplomat", "tier": "t2"},
+    {"url": "https://www.scmp.com/rss/91/feed", "name": "SCMP Asia", "tier": "t2"},
+
+    # ═══ T2 非洲区域 ═══
+    {"url": "https://www.dabangasudan.org/en/all-news/rss", "name": "Dabanga Sudan", "tier": "t2"},
+    # The Africa Report — RSS blocked by server
+
+    # ═══ T2 军事/OSINT 专业 ═══
+    {"url": "https://www.thedrive.com/the-war-zone/feed", "name": "The War Zone", "tier": "t2"},
+    {"url": "https://www.navalnews.com/feed/", "name": "Naval News", "tier": "t2"},
+    {"url": "https://www.defensenews.com/arc/outboundfeeds/rss/", "name": "Defense News", "tier": "t2"},
 ]
 
 # ─── 冲突关键词匹配 ───

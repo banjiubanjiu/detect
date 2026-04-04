@@ -85,7 +85,33 @@
     "theins.ru":              { "name": "The Insider", "tier": "t2", "bias": "russian-independent", "type": "journal" },
 
     "liveuamap.com":          { "name": "Liveuamap", "tier": "t2", "bias": "neutral", "type": "aggregator" },
-    "bellingcat.com":         { "name": "Bellingcat", "tier": "t2", "bias": "western", "type": "osint" }
+    "bellingcat.com":         { "name": "Bellingcat", "tier": "t2", "bias": "western", "type": "osint" },
+
+    "amnesty.org":            { "name": "Amnesty", "tier": "t1", "bias": "neutral", "type": "institution" },
+    "msf.org":                { "name": "MSF", "tier": "t1", "bias": "neutral", "type": "institution" },
+    "sipri.org":              { "name": "SIPRI", "tier": "t1", "bias": "neutral", "type": "think-tank" },
+    "carnegieendowment.org":  { "name": "Carnegie", "tier": "t1", "bias": "western", "type": "think-tank" },
+    "africacenter.org":       { "name": "Africa Center", "tier": "t1", "bias": "western", "type": "think-tank" },
+    "issafrica.org":          { "name": "ISS Africa", "tier": "t1", "bias": "neutral", "type": "think-tank" },
+
+    "defenseone.com":         { "name": "Defense One", "tier": "t2", "bias": "western", "type": "journal" },
+    "defensenews.com":        { "name": "Defense News", "tier": "t2", "bias": "western", "type": "journal" },
+    "thedrive.com":           { "name": "The War Zone", "tier": "t2", "bias": "western", "type": "journal" },
+    "navalnews.com":          { "name": "Naval News", "tier": "t2", "bias": "western", "type": "journal" },
+    "foreignpolicy.com":      { "name": "Foreign Policy", "tier": "t2", "bias": "western", "type": "journal" },
+
+    "alarabiya.net":          { "name": "Al Arabiya", "tier": "t2", "bias": "arab", "type": "broadcast" },
+    "thenationalnews.com":    { "name": "The National", "tier": "t2", "bias": "arab", "type": "newspaper" },
+
+    "themoscowtimes.com":     { "name": "Moscow Times", "tier": "t2", "bias": "russian-independent", "type": "newspaper" },
+    "kyivindependent.com":    { "name": "Kyiv Independent", "tier": "t2", "bias": "ukrainian", "type": "newspaper" },
+    "ukrinform.net":          { "name": "Ukrinform", "tier": "t2", "bias": "ukrainian", "type": "wire" },
+
+    "irrawaddy.com":          { "name": "The Irrawaddy", "tier": "t2", "bias": "neutral", "type": "newspaper" },
+    "benarnews.org":          { "name": "BenarNews", "tier": "t2", "bias": "western", "type": "broadcast" },
+    "thediplomat.com":        { "name": "The Diplomat", "tier": "t2", "bias": "western", "type": "journal" },
+    "dabangasudan.org":       { "name": "Dabanga Sudan", "tier": "t2", "bias": "neutral", "type": "newspaper" },
+    "theafricareport.com":    { "name": "Africa Report", "tier": "t2", "bias": "neutral", "type": "newspaper" }
   },
   "bias_labels": {
     "western":              { "zh": "西方视角", "color": "#4a90d9" },
