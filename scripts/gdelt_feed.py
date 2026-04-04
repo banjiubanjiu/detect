@@ -12,10 +12,15 @@ GDELT CAMEO 编码参考:
 """
 
 import json
+import os
 import re
 import sys
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta
 from pathlib import Path
+
+sys.path.insert(0, os.path.dirname(__file__))
+from collect import translate_text
 
 try:
     import gdelt
@@ -240,6 +245,97 @@ def classify_gdelt_event(event_code):
     return 'military'
 
 
+def _get_api_key():
+    """获取 OpenRouter API key。"""
+    api_key = os.environ.get('OPENROUTER_API_KEY')
+    if not api_key:
+        env_file = Path.home() / ".config" / "last30days" / ".env"
+        if env_file.exists():
+            for line in env_file.read_text().splitlines():
+                if line.startswith('OPENROUTER_API_KEY='):
+                    api_key = line.split('=', 1)[1].strip()
+                    break
+    return api_key
+
+
+def translate_gdelt_item(item):
+    """为 GDELT 事件生成中文新闻标题和摘要。"""
+    import urllib.request
+    import time
+
+    api_key = _get_api_key()
+    if not api_key:
+        return item
+
+    meta = item.get("gdelt_meta", {})
+    actor1 = meta.get("actor1", "")
+    actor2 = meta.get("actor2", "")
+    desc = meta.get("cameo_desc", "")
+    geo = meta.get("geo_name", "")
+    gs = item.get("metrics", {}).get("goldstein", 0)
+
+    prompt = f"""将以�� GDELT 冲突事件数据改写为中文新闻标题和摘要。
+只输出两行，无其他内容：
+第一行：中文新闻标题（15-25字，新闻标题风格，简洁有力）
+第二行：中文摘要（40-80字，说明事件主体、行动、地点）
+
+事件数据：
+- 行为者1: {actor1 or '未知'}
+- 行为者2: {actor2 or '未知'}
+- 事件类型: {desc}
+- 地点: {geo}
+- 冲突烈度: {gs}（-10为最严重）"""
+
+    try:
+        payload = json.dumps({
+            "model": "google/gemini-2.0-flash-001",
+            "messages": [
+                {"role": "system", "content": "你是专业的军事/国际新闻编辑。将结构化事件数据改写为自然的中文新闻标题和摘要。"},
+                {"role": "user", "content": prompt}
+            ],
+            "max_tokens": 300,
+            "temperature": 0.1
+        }).encode('utf-8')
+
+        req = urllib.request.Request(
+            "https://openrouter.ai/api/v1/chat/completions",
+            data=payload,
+            headers={
+                "Authorization": f"Bearer {api_key}",
+                "Content-Type": "application/json",
+                "User-Agent": "ConflictTracker/1.0"
+            }
+        )
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            result = json.loads(resp.read().decode())
+        output = result.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+        lines = [l.strip() for l in output.split('\n') if l.strip()]
+        if len(lines) >= 2:
+            item["title"] = lines[0][:100]
+            item["summary"] = lines[1][:300]
+        elif len(lines) == 1:
+            item["title"] = lines[0][:100]
+        time.sleep(0.3)
+    except Exception as e:
+        print(f"    [translate_gdelt] Error: {e}", file=sys.stderr)
+
+    return item
+
+
+def translate_items(items):
+    """并行翻译 GDELT 事件列表。"""
+    if not items:
+        return
+    print(f"[GDELT] 翻译 {len(items)} 条事件...")
+    ok = 0
+    with ThreadPoolExecutor(max_workers=5) as pool:
+        results = list(pool.map(translate_gdelt_item, items))
+    for item in results:
+        if item.get("title") != item.get("title_en"):
+            ok += 1
+    print(f"[GDELT] 翻译完成: {ok}/{len(items)}")
+
+
 def merge_to_latest(conflict_events, max_per_conflict=10):
     """将 GDELT 事件合并到 latest.json。"""
     if not LATEST_JSON.exists():
@@ -260,7 +356,8 @@ def merge_to_latest(conflict_events, max_per_conflict=10):
                 if gm.get("event_id"):
                     existing_gdelt_ids.add(gm["event_id"])
 
-    added_total = 0
+    # 先收集所有待添加的 item（含去重），再批量翻译，最后写入
+    pending = []  # (cid, cat, item)
     for cid, df in conflict_events.items():
         if cid not in data.get("conflicts", {}):
             continue
@@ -283,13 +380,21 @@ def merge_to_latest(conflict_events, max_per_conflict=10):
             cat = classify_gdelt_event(row.get('EventCode', ''))
 
             if cat in data["conflicts"][cid]["categories"]:
-                data["conflicts"][cid]["categories"][cat]["items"].append(item)
+                pending.append((cid, cat, item))
                 existing_urls.add(url)
                 existing_gdelt_ids.add(eid)
                 added += 1
-                print(f"  + [{cid}/{cat}] {item['title_en'][:70]}")
 
-        added_total += added
+    # 批量翻译
+    if pending:
+        translate_items([item for _, _, item in pending])
+
+    # 写入
+    added_total = 0
+    for cid, cat, item in pending:
+        data["conflicts"][cid]["categories"][cat]["items"].append(item)
+        added_total += 1
+        print(f"  + [{cid}/{cat}] {item['title'][:70]}")
 
     if added_total > 0:
         data["updated_at"] = datetime.now().isoformat() + "Z"
