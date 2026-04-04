@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-03T15:49:50.876412+00:00",
+  "updated_at": "2026-04-04T08:18:48.867633Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -439,6 +439,35 @@
               "url": "https://www.rferl.org/a/russia-invasion-ukraine-war-future-2026/33644095.html",
               "local_file": "sources/web/www.rferl.org_a_russia-invasion-ukraine-war-future-2026_33644095.html.md",
               "metrics": {}
+            },
+            {
+              "id": "gdelt_1297423026",
+              "title": "RUSSIA → PRODUCER : Impose administrative sanctions, not specified below (Belgorod, Belgorodskaya Oblast', Russia)",
+              "title_en": "RUSSIA → PRODUCER : Impose administrative sanctions, not specified below (Belgorod, Belgorodskaya Oblast', Russia)",
+              "summary": "GDELT Event: Impose administrative sanctions, not specified below. Actors: RUSSIA / PRODUCER. Location: Belgorod, Belgorodskaya Oblast', Russia. Goldstein Scale: -5.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: RUSSIA / PRODUCER. Location: Belgorod, Belgorodskaya Oblast', Russia. Goldstein Scale: -5.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "hellenicshippingnews.com",
+              "date": "2026-04-02",
+              "url": "https://www.hellenicshippingnews.com/russia-bans-gasoline-exports-to-curb-prices-as-summer-demand-surges/",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1297423026",
+                "event_code": "172",
+                "cameo_desc": "Impose administrative sanctions, not specified below",
+                "actor1": "RUSSIA",
+                "actor2": "PRODUCER",
+                "actor1_country": "RUS",
+                "actor2_country": "nan",
+                "geo_lat": 50.6107,
+                "geo_lon": 36.5802,
+                "geo_name": "Belgorod, Belgorodskaya Oblast', Russia"
+              }
             }
           ]
         },
@@ -1066,6 +1095,151 @@
               "local_file": "sources/web/warontherocks.com_.md",
               "title_en": "Proxy Pressure on Iran: The Promise and Pitfalls of Arming the Kurds",
               "summary_en": "Early in the ongoing war against Iran, the Trump administration and its ally, Israel, believed they could foment a popular uprising to topple the Iranian regime. Part of that plan involved arming Kurdish fighters to infiltrate Iran from their locations in Iraq.The idea had intuitive logic. Kurdish f"
+            },
+            {
+              "id": "gdelt_1297422923",
+              "title": "ATTORNEY → ISRAELI : Use conventional military force, not specified below (Israel)",
+              "title_en": "ATTORNEY → ISRAELI : Use conventional military force, not specified below (Israel)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: ATTORNEY / ISRAELI. Location: Israel. Goldstein Scale: -10.0. Mentioned in 9 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: ATTORNEY / ISRAELI. Location: Israel. Goldstein Scale: -10.0. Mentioned in 9 sources.",
+              "source": "gdelt",
+              "source_label": "wgauradio.com",
+              "date": "2026-04-02",
+              "url": "https://www.wgauradio.com/news/national/elected-leaders/P6T4HG747YZ25HAUCLS2EZSXCI/",
+              "metrics": {
+                "mentions": 9,
+                "sources": 3,
+                "articles": 9,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1297422923",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "ATTORNEY",
+                "actor2": "ISRAELI",
+                "actor1_country": "nan",
+                "actor2_country": "ISR",
+                "geo_lat": 31.5,
+                "geo_lon": 34.75,
+                "geo_name": "Israel"
+              }
+            },
+            {
+              "id": "gdelt_1297567055",
+              "title": "ACTOR → ISRAEL : Use conventional military force, not specified below (Beirut, Beyrouth, Lebanon)",
+              "title_en": "ACTOR → ISRAEL : Use conventional military force, not specified below (Beirut, Beyrouth, Lebanon)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: ACTOR / ISRAEL. Location: Beirut, Beyrouth, Lebanon. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: ACTOR / ISRAEL. Location: Beirut, Beyrouth, Lebanon. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "source": "gdelt",
+              "source_label": "yalibnan.com",
+              "date": "2026-04-03",
+              "url": "https://yalibnan.com/2026/04/03/live-updates-u-s-fighter-jet-shot-down-by-iran-1-crew-member-rescued-by-us-forces/",
+              "metrics": {
+                "mentions": 8,
+                "sources": 1,
+                "articles": 8,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1297567055",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "ACTOR",
+                "actor2": "ISRAEL",
+                "actor1_country": "nan",
+                "actor2_country": "ISR",
+                "geo_lat": 33.8719,
+                "geo_lon": 35.5097,
+                "geo_name": "Beirut, Beyrouth, Lebanon"
+              }
+            },
+            {
+              "id": "gdelt_1297422881",
+              "title": "IRANIAN → SOUTH EAST ASIA : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
+              "title_en": "IRANIAN → SOUTH EAST ASIA : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: IRANIAN / SOUTH EAST ASIA. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: IRANIAN / SOUTH EAST ASIA. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "straitstimes.com",
+              "date": "2026-04-02",
+              "url": "https://www.straitstimes.com/opinion/singapore-must-stay-vigilant-for-spillover-security-risks-from-iran-war",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1297422881",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "IRANIAN",
+                "actor2": "SOUTH EAST ASIA",
+                "actor1_country": "IRN",
+                "actor2_country": "SEA",
+                "geo_lat": 31.4167,
+                "geo_lon": 34.3333,
+                "geo_name": "Gaza, Israel (general), Israel"
+              }
+            },
+            {
+              "id": "gdelt_1297567092",
+              "title": "AUTHORITIES → UNITED ARAB EMIRATES : Fight with artillery and tanks (Tel Aviv, Tel Aviv, Israel)",
+              "title_en": "AUTHORITIES → UNITED ARAB EMIRATES : Fight with artillery and tanks (Tel Aviv, Tel Aviv, Israel)",
+              "summary": "GDELT Event: Fight with artillery and tanks. Actors: AUTHORITIES / UNITED ARAB EMIRATES. Location: Tel Aviv, Tel Aviv, Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Fight with artillery and tanks. Actors: AUTHORITIES / UNITED ARAB EMIRATES. Location: Tel Aviv, Tel Aviv, Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "winnipegfreepress.com",
+              "date": "2026-04-03",
+              "url": "https://www.winnipegfreepress.com/breakingnews/2026/04/02/iran-fires-on-targets-across-mideast-while-israel-and-us-hit-tehran-as-war-shows-no-signs-of-slowing",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1297567092",
+                "event_code": "194",
+                "cameo_desc": "Fight with artillery and tanks",
+                "actor1": "AUTHORITIES",
+                "actor2": "UNITED ARAB EMIRATES",
+                "actor1_country": "nan",
+                "actor2_country": "ARE",
+                "geo_lat": 32.0667,
+                "geo_lon": 34.7667,
+                "geo_name": "Tel Aviv, Tel Aviv, Israel"
+              }
+            },
+            {
+              "id": "gdelt_1297567185",
+              "title": "IRAN → KUWAIT : Employ aerial weapons (Israel)",
+              "title_en": "IRAN → KUWAIT : Employ aerial weapons (Israel)",
+              "summary": "GDELT Event: Employ aerial weapons. Actors: IRAN / KUWAIT. Location: Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Employ aerial weapons. Actors: IRAN / KUWAIT. Location: Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "orlandosentinel.com",
+              "date": "2026-04-03",
+              "url": "https://www.orlandosentinel.com/2026/04/03/iran-israel-us-war-fifth-week/",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1297567185",
+                "event_code": "195",
+                "cameo_desc": "Employ aerial weapons",
+                "actor1": "IRAN",
+                "actor2": "KUWAIT",
+                "actor1_country": "IRN",
+                "actor2_country": "KWT",
+                "geo_lat": 31.5,
+                "geo_lon": 34.75,
+                "geo_name": "Israel"
+              }
             }
           ]
         },
@@ -1136,6 +1310,35 @@
               "metrics": {},
               "title_en": "A Guide to the Gaza Peace Deal",
               "summary_en": "Feb 24, 2026 — The peace plan, which the Trump administration proposed in October 2025, entered a first phase when Israel and Hamas agreed to a ceasefire that ..."
+            },
+            {
+              "id": "gdelt_1297422890",
+              "title": "ISRAEL → UNITED STATES : Arrest, detain, or charge with legal action (Israel)",
+              "title_en": "ISRAEL → UNITED STATES : Arrest, detain, or charge with legal action (Israel)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: ISRAEL / UNITED STATES. Location: Israel. Goldstein Scale: -5.0. Mentioned in 1 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: ISRAEL / UNITED STATES. Location: Israel. Goldstein Scale: -5.0. Mentioned in 1 sources.",
+              "source": "gdelt",
+              "source_label": "clickorlando.com",
+              "date": "2026-04-02",
+              "url": "https://www.clickorlando.com/news/national/2026/04/02/elected-leaders-and-clergy-seek-release-of-wisconsin-mosque-president-detained-by-immigration-agents/",
+              "metrics": {
+                "mentions": 1,
+                "sources": 1,
+                "articles": 1,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1297422890",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "ISRAEL",
+                "actor2": "UNITED STATES",
+                "actor1_country": "ISR",
+                "actor2_country": "USA",
+                "geo_lat": 31.5,
+                "geo_lon": 34.75,
+                "geo_name": "Israel"
+              }
             }
           ]
         },
@@ -2098,6 +2301,209 @@
               "metrics": {},
               "title_en": "2026 Iran war",
               "summary_en": "38 minutes ago — On 28 February 2026, the United States and Israel started an armed conflict with surprise airstrikes on sites and cities across Iran, assassinating Supreme ..."
+            },
+            {
+              "id": "gdelt_1297567340",
+              "title": "MILITARY → IRAN : Use conventional military force, not specified below (Qeshm, Kordestan, Iran)",
+              "title_en": "MILITARY → IRAN : Use conventional military force, not specified below (Qeshm, Kordestan, Iran)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: MILITARY / IRAN. Location: Qeshm, Kordestan, Iran. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: MILITARY / IRAN. Location: Qeshm, Kordestan, Iran. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "signalscv.com",
+              "date": "2026-04-03",
+              "url": "https://signalscv.com/2026/04/us-deployments-fuel-speculation-of-ground-combat-against-iran/",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1297567340",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "MILITARY",
+                "actor2": "IRAN",
+                "actor1_country": "nan",
+                "actor2_country": "IRN",
+                "geo_lat": 35.4421,
+                "geo_lon": 47.3506,
+                "geo_name": "Qeshm, Kordestan, Iran"
+              }
+            },
+            {
+              "id": "gdelt_1297567165",
+              "title": "IRAN → SECRETARY OF DEFENSE : Torture (Iran)",
+              "title_en": "IRAN → SECRETARY OF DEFENSE : Torture (Iran)",
+              "summary": "GDELT Event: Torture. Actors: IRAN / SECRETARY OF DEFENSE. Location: Iran. Goldstein Scale: -9.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Torture. Actors: IRAN / SECRETARY OF DEFENSE. Location: Iran. Goldstein Scale: -9.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "yahoo.com",
+              "date": "2026-04-03",
+              "url": "https://www.yahoo.com/news/articles/may-gets-pilots-tortured-killed-201610164.html",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -9.0
+              },
+              "gdelt_meta": {
+                "event_id": "1297567165",
+                "event_code": "1822",
+                "cameo_desc": "Torture",
+                "actor1": "IRAN",
+                "actor2": "SECRETARY OF DEFENSE",
+                "actor1_country": "IRN",
+                "actor2_country": "nan",
+                "geo_lat": 32.0,
+                "geo_lon": 53.0,
+                "geo_name": "Iran"
+              }
+            },
+            {
+              "id": "gdelt_1297567120",
+              "title": "PRESIDENT → UNITED STATES : Use unconventional violence, not specified below (Tehran, Tehran, Iran)",
+              "title_en": "PRESIDENT → UNITED STATES : Use unconventional violence, not specified below (Tehran, Tehran, Iran)",
+              "summary": "GDELT Event: Use unconventional violence, not specified below. Actors: PRESIDENT / UNITED STATES. Location: Tehran, Tehran, Iran. Goldstein Scale: -9.0. Mentioned in 8 sources.",
+              "summary_en": "GDELT Event: Use unconventional violence, not specified below. Actors: PRESIDENT / UNITED STATES. Location: Tehran, Tehran, Iran. Goldstein Scale: -9.0. Mentioned in 8 sources.",
+              "source": "gdelt",
+              "source_label": "ktsa.com",
+              "date": "2026-04-03",
+              "url": "https://www.ktsa.com/breaking-trump-directs-bold-operation-after-iran-downs-american-f-15-in-hostile-zone/",
+              "metrics": {
+                "mentions": 8,
+                "sources": 1,
+                "articles": 8,
+                "goldstein": -9.0
+              },
+              "gdelt_meta": {
+                "event_id": "1297567120",
+                "event_code": "180",
+                "cameo_desc": "Use unconventional violence, not specified below",
+                "actor1": "PRESIDENT",
+                "actor2": "UNITED STATES",
+                "actor1_country": "nan",
+                "actor2_country": "USA",
+                "geo_lat": 35.75,
+                "geo_lon": 51.5148,
+                "geo_name": "Tehran, Tehran, Iran"
+              }
+            },
+            {
+              "id": "gdelt_1297567191",
+              "title": "IRAN → FIGHTER JET : Use conventional military force, not specified below (El Paso County, Colorado, United States)",
+              "title_en": "IRAN → FIGHTER JET : Use conventional military force, not specified below (El Paso County, Colorado, United States)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: IRAN / FIGHTER JET. Location: El Paso County, Colorado, United States. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: IRAN / FIGHTER JET. Location: El Paso County, Colorado, United States. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "source": "gdelt",
+              "source_label": "koaa.com",
+              "date": "2026-04-03",
+              "url": "https://www.koaa.com/news/national/iran-war/2-us-aircraft-shot-down-as-war-in-iran-escalates-at-least-1-crew-member-is-missing",
+              "metrics": {
+                "mentions": 8,
+                "sources": 1,
+                "articles": 8,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1297567191",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "IRAN",
+                "actor2": "FIGHTER JET",
+                "actor1_country": "IRN",
+                "actor2_country": "nan",
+                "geo_lat": 38.8333,
+                "geo_lon": -104.517,
+                "geo_name": "El Paso County, Colorado, United States"
+              }
+            },
+            {
+              "id": "gdelt_1297567192",
+              "title": "IRAN → AIR FORCE : Fight with small arms and light weapons (Iraq)",
+              "title_en": "IRAN → AIR FORCE : Fight with small arms and light weapons (Iraq)",
+              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: IRAN / AIR FORCE. Location: Iraq. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: IRAN / AIR FORCE. Location: Iraq. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "thenewamerican.com",
+              "date": "2026-04-03",
+              "url": "https://thenewamerican.com/us/politics/foreign-policy/u-s-destroys-irans-biggest-bridge-f-15-shot-down-despite-trumps-no-anti-aircraft-weapons-claim-idf-wont-join-ground-war/",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1297567192",
+                "event_code": "193",
+                "cameo_desc": "Fight with small arms and light weapons",
+                "actor1": "IRAN",
+                "actor2": "AIR FORCE",
+                "actor1_country": "IRN",
+                "actor2_country": "nan",
+                "geo_lat": 33.0,
+                "geo_lon": 44.0,
+                "geo_name": "Iraq"
+              }
+            },
+            {
+              "id": "gdelt_1297567211",
+              "title": "IRANIAN → nan : Fight with small arms and light weapons (Boyer-Ahmad, Kohgiluyeh va Buyer A?mad, Iran)",
+              "title_en": "IRANIAN → nan : Fight with small arms and light weapons (Boyer-Ahmad, Kohgiluyeh va Buyer A?mad, Iran)",
+              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: IRANIAN / nan. Location: Boyer-Ahmad, Kohgiluyeh va Buyer A?mad, Iran. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: IRANIAN / nan. Location: Boyer-Ahmad, Kohgiluyeh va Buyer A?mad, Iran. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "english.elpais.com",
+              "date": "2026-04-03",
+              "url": "https://english.elpais.com/international/2026-04-03/united-states-rescues-pilot-of-first-plane-shot-down-by-iran-in-war.html",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1297567211",
+                "event_code": "193",
+                "cameo_desc": "Fight with small arms and light weapons",
+                "actor1": "IRANIAN",
+                "actor2": "nan",
+                "actor1_country": "IRN",
+                "actor2_country": "nan",
+                "geo_lat": 30.6833,
+                "geo_lon": 51.4833,
+                "geo_name": "Boyer-Ahmad, Kohgiluyeh va Buyer A?mad, Iran"
+              }
+            },
+            {
+              "id": "gdelt_1297567154",
+              "title": "IRANIAN → EGYPT : Use conventional military force, not specified below (American University, Al Qahirah, Egypt)",
+              "title_en": "IRANIAN → EGYPT : Use conventional military force, not specified below (American University, Al Qahirah, Egypt)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: IRANIAN / EGYPT. Location: American University, Al Qahirah, Egypt. Goldstein Scale: -10.0. Mentioned in 5 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: IRANIAN / EGYPT. Location: American University, Al Qahirah, Egypt. Goldstein Scale: -10.0. Mentioned in 5 sources.",
+              "source": "gdelt",
+              "source_label": "europesun.com",
+              "date": "2026-04-03",
+              "url": "http://www.europesun.com/news/278962890/rescue-mission-races-to-find-crew-member-of-us-jet-downed-over-iran",
+              "metrics": {
+                "mentions": 5,
+                "sources": 1,
+                "articles": 5,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1297567154",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "IRANIAN",
+                "actor2": "EGYPT",
+                "actor1_country": "IRN",
+                "actor2_country": "EGY",
+                "geo_lat": 30.0428,
+                "geo_lon": 31.2367,
+                "geo_name": "American University, Al Qahirah, Egypt"
+              }
             }
           ]
         },
@@ -2174,6 +2580,93 @@
               },
               "title_en": "Daily Report: The Second Iran War – March 23, 2026 (18:00)",
               "summary_en": "Daily Report | The Second Iran War – March 23, 2026\n\nIsrael continues its strikes against regime infrastructure across Iran. Tehran continues to apply regional pressure through missile and UAV attacks"
+            },
+            {
+              "id": "gdelt_1297422973",
+              "title": "MILITARY → IRAN : Impose administrative sanctions, not specified below (Tehran, Tehran, Iran)",
+              "title_en": "MILITARY → IRAN : Impose administrative sanctions, not specified below (Tehran, Tehran, Iran)",
+              "summary": "GDELT Event: Impose administrative sanctions, not specified below. Actors: MILITARY / IRAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -5.0. Mentioned in 42 sources.",
+              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: MILITARY / IRAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -5.0. Mentioned in 42 sources.",
+              "source": "gdelt",
+              "source_label": "cravenherald.co.uk",
+              "date": "2026-04-02",
+              "url": "https://www.cravenherald.co.uk/news/national/25993409.trump-mocks-starmer-weak-uk-leads-push-reopen-strait-hormuz/",
+              "metrics": {
+                "mentions": 42,
+                "sources": 21,
+                "articles": 42,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1297422973",
+                "event_code": "172",
+                "cameo_desc": "Impose administrative sanctions, not specified below",
+                "actor1": "MILITARY",
+                "actor2": "IRAN",
+                "actor1_country": "nan",
+                "actor2_country": "IRN",
+                "geo_lat": 35.75,
+                "geo_lon": 51.5148,
+                "geo_name": "Tehran, Tehran, Iran"
+              }
+            },
+            {
+              "id": "gdelt_1297567212",
+              "title": "MOHAMMAD ABBASI → POLICE : Arrest, detain, or charge with legal action (Mohammad Abbasi, Fars, Iran)",
+              "title_en": "MOHAMMAD ABBASI → POLICE : Arrest, detain, or charge with legal action (Mohammad Abbasi, Fars, Iran)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: MOHAMMAD ABBASI / POLICE. Location: Mohammad Abbasi, Fars, Iran. Goldstein Scale: -5.0. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: MOHAMMAD ABBASI / POLICE. Location: Mohammad Abbasi, Fars, Iran. Goldstein Scale: -5.0. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "dailymail.co.uk",
+              "date": "2026-04-03",
+              "url": "https://www.dailymail.co.uk/news/article-15705429/Haunting-faces-forgotten-Amid-fears-US-poised-pull-Iran-war-families-condemned-activists-beg-world-not-look-way.html",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1297567212",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "MOHAMMAD ABBASI",
+                "actor2": "POLICE",
+                "actor1_country": "IRN",
+                "actor2_country": "nan",
+                "geo_lat": 27.5753,
+                "geo_lon": 53.3718,
+                "geo_name": "Mohammad Abbasi, Fars, Iran"
+              }
+            },
+            {
+              "id": "gdelt_1297567106",
+              "title": "REGIME → IRAN : Destroy property (Tehran, Tehran, Iran)",
+              "title_en": "REGIME → IRAN : Destroy property (Tehran, Tehran, Iran)",
+              "summary": "GDELT Event: Destroy property. Actors: REGIME / IRAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -9.2. Mentioned in 4 sources.",
+              "summary_en": "GDELT Event: Destroy property. Actors: REGIME / IRAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -9.2. Mentioned in 4 sources.",
+              "source": "gdelt",
+              "source_label": "signalscv.com",
+              "date": "2026-04-03",
+              "url": "https://signalscv.com/2026/04/1-crew-member-rescued-after-us-fighter-jet-downed-over-iran/",
+              "metrics": {
+                "mentions": 4,
+                "sources": 1,
+                "articles": 4,
+                "goldstein": -9.2
+              },
+              "gdelt_meta": {
+                "event_id": "1297567106",
+                "event_code": "1712",
+                "cameo_desc": "Destroy property",
+                "actor1": "REGIME",
+                "actor2": "IRAN",
+                "actor1_country": "nan",
+                "actor2_country": "IRN",
+                "geo_lat": 35.75,
+                "geo_lon": 51.5148,
+                "geo_name": "Tehran, Tehran, Iran"
+              }
             }
           ]
         },
@@ -3967,6 +4460,35 @@
               },
               "title_en": "DR Congo AFC-M23 rebels begin implementing Doha ...",
               "summary_en": "VIDEO - DR Congo AFC-M23 rebels begin implementing Doha Agreement with Kinshasa Government that requires exchange and release of prisoners. The rebels have handed over 5,000 FARDC troops to ICRC who w"
+            },
+            {
+              "id": "gdelt_1297422473",
+              "title": "nan → DEMOCRATIC REPUBLIC OF THE CONGO : Assassinate (New York, United States)",
+              "title_en": "nan → DEMOCRATIC REPUBLIC OF THE CONGO : Assassinate (New York, United States)",
+              "summary": "GDELT Event: Assassinate. Actors: nan / DEMOCRATIC REPUBLIC OF THE CONGO. Location: New York, United States. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Assassinate. Actors: nan / DEMOCRATIC REPUBLIC OF THE CONGO. Location: New York, United States. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "pambazuka.org",
+              "date": "2026-04-02",
+              "url": "http://www.pambazuka.org/index.php/Assassins-Patrice-Lumumba-Trial",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1297422473",
+                "event_code": "186",
+                "cameo_desc": "Assassinate",
+                "actor1": "nan",
+                "actor2": "DEMOCRATIC REPUBLIC OF THE CONGO",
+                "actor1_country": "nan",
+                "actor2_country": "COD",
+                "geo_lat": 42.1497,
+                "geo_lon": -74.9384,
+                "geo_name": "New York, United States"
+              }
             }
           ]
         },
@@ -4337,6 +4859,35 @@
               "metrics": {},
               "title_en": "The War with Iran Threatens Syria's Recovery",
               "summary_en": "Mar 12, 2026 — Hours after U.S. and Israeli jets began bombing Iran on February 28, 2026, Syrians heard a loud explosion in Damascus. Given the new Syrian ..."
+            },
+            {
+              "id": "gdelt_1297423279",
+              "title": "AMERICAN → IRAQ : Abduct, hijack, or take hostage (Syria)",
+              "title_en": "AMERICAN → IRAQ : Abduct, hijack, or take hostage (Syria)",
+              "summary": "GDELT Event: Abduct, hijack, or take hostage. Actors: AMERICAN / IRAQ. Location: Syria. Goldstein Scale: -9.0. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Abduct, hijack, or take hostage. Actors: AMERICAN / IRAQ. Location: Syria. Goldstein Scale: -9.0. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "abcnews.com",
+              "date": "2026-04-02",
+              "url": "https://abcnews.com/International/american-journalist-abducted-iraq-trained-case-kidnapped-colleague/story?id=131653465",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -9.0
+              },
+              "gdelt_meta": {
+                "event_id": "1297423279",
+                "event_code": "181",
+                "cameo_desc": "Abduct, hijack, or take hostage",
+                "actor1": "AMERICAN",
+                "actor2": "IRAQ",
+                "actor1_country": "USA",
+                "actor2_country": "IRQ",
+                "geo_lat": 35.0,
+                "geo_lon": 38.0,
+                "geo_name": "Syria"
+              }
             }
           ]
         },
@@ -5504,16 +6055,17 @@
     }
   },
   "stats": {
-    "total_items": 219,
+    "total_items": 401,
     "sources": {
-      "x": 50,
+      "web": 249,
       "reddit": 50,
-      "web": 86,
-      "youtube": 33
+      "x": 50,
+      "youtube": 33,
+      "gdelt": 19
     },
     "date_range": {
-      "from": "2026-03-04",
-      "to": "2026-04-03"
+      "from": "2026-03-05",
+      "to": "2026-04-04"
     }
   },
   "briefing": "**全局态势简报**\n\n全球冲突呈现多线并进、相互影响的复杂态势。俄乌战争持续消耗，牵制西方资源，为其他地区冲突创造空间。美伊对峙与巴以冲突交织，加剧地区紧张，可能促使非国家行为体采取更激进策略。非洲地区的苏丹和刚果(金)内战凸显人道主义危机，资源争夺或成为外部势力介入的潜在动因。台海局势虽未爆发直接冲突，但地缘政治博弈持续升级，古巴释放囚犯可能预示地区力量重组。",

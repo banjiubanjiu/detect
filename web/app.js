@@ -7,33 +7,74 @@ const LMO = ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10�
 const INAMES = { war:'全面战争', conflict:'武装冲突', tension:'紧张对峙' };
 const REGIONS_ORDER = ['欧洲','中东','非洲','亚太'];
 
-// Source credibility tiers
-const CRED = {
-  // T1: Official institutions, major wire services, established think tanks
+// Source credibility — loaded from source_credibility.json, fallback to inline
+let CRED_DB = null;
+const CRED_FALLBACK = {
   't1': new Set(['understandingwar.org','crisisgroup.org','ohchr.org','un.org','congress.gov','cfr.org',
     'brookings.edu','csis.org','rand.org','iiss.org','chathamhouse.org','aei.org','atlanticcouncil.org',
     'hrw.org','icrc.org','ifrc.org','rescue.org','securitycouncilreport.org']),
-  // T2: Major media, regional specialists
   't2': new Set(['nytimes.com','bbc.com','reuters.com','aljazeera.com','cnn.com','bloomberg.com',
     'theguardian.com','apnews.com','rferl.org','npr.org','foreignaffairs.com','warontherocks.com',
     'russiamatters.org','ecfr.eu','globaltaiwan.org','gmfus.org','timep.org','snhr.org',
     'lowyinstitute.org','usni.org','eurasiareview.com']),
-  // T3: Everything else (social media, forums, smaller outlets)
 };
 
+async function loadCredDB() {
+  try {
+    const r = await fetch(SRC + 'source_credibility.json');
+    if (r.ok) CRED_DB = await r.json();
+  } catch {}
+}
+
+function getDomain(item) {
+  if (item.url) {
+    const m = item.url.match(/https?:\/\/(?:www\.)?([^/]+)/);
+    if (m) return m[1];
+  }
+  return (item.source_label || '').replace('www.','');
+}
+
+function credInfo(item) {
+  const d = getDomain(item);
+  if (CRED_DB && CRED_DB.domains) {
+    // Try exact match, then strip subdomains
+    let info = CRED_DB.domains[d];
+    if (!info) {
+      const parts = d.split('.');
+      if (parts.length > 2) info = CRED_DB.domains[parts.slice(-2).join('.')];
+    }
+    if (info) return info;
+  }
+  // Fallback
+  if (item.source === 'gdelt') return { tier: 't2', bias: 'neutral', type: 'data', name: 'GDELT' };
+  if (item.source === 'x') return { tier: 't3', bias: 'neutral', type: 'social' };
+  if (item.source === 'youtube') return { tier: 't3', bias: 'neutral', type: 'social' };
+  if (item.source === 'reddit') return { tier: 't3', bias: 'neutral', type: 'social' };
+  if (CRED_FALLBACK.t1.has(d)) return { tier: 't1' };
+  if (CRED_FALLBACK.t2.has(d)) return { tier: 't2' };
+  return { tier: 't3' };
+}
+
 function credTier(item) {
-  if (item.source === 'x' || item.source === 'youtube') return 't2';
-  if (item.source === 'reddit') return 't3';
-  const d = (item.source_label || '').replace('www.','');
-  if (CRED.t1.has(d)) return 't1';
-  if (CRED.t2.has(d)) return 't2';
-  return 't3';
+  return credInfo(item).tier || 't3';
+}
+
+function biasLabel(item) {
+  const info = credInfo(item);
+  const bias = info.bias;
+  if (!bias || bias === 'neutral') return '';
+  const labels = CRED_DB && CRED_DB.bias_labels || {};
+  const bl = labels[bias];
+  if (!bl) return '';
+  return `<span class="bias-tag bias-${bias}" title="${bl.zh}">${bl.zh}</span>`;
 }
 
 function credBadge(item) {
-  const t = credTier(item);
+  const info = credInfo(item);
+  const t = info.tier || 't3';
   const titles = { t1:'权威机构', t2:'主流媒体', t3:'社区/其他' };
-  return `<span class="cred-tier cred-${t}" title="${titles[t]}">${titles[t]}</span>`;
+  const bias = biasLabel(item);
+  return `<span class="cred-tier cred-${t}" title="${titles[t]}">${titles[t]}</span>${bias}`;
 }
 
 let D, conflict = null, tab = 'military', cache = {}, currentView = 'overview', kbIdx = -1, globe = null;
@@ -100,7 +141,7 @@ let detailMap = null;
 
 async function boot() {
   initTheme();
-  const r = await fetch(DATA);
+  const [r] = await Promise.all([fetch(DATA), loadCredDB()]);
   D = await r.json();
   mastDate();
   renderRegionNav();
@@ -645,8 +686,8 @@ function renderDataStrip(c) {
   const allItems = Object.values(c.categories).flatMap(cat => cat.items);
   const srcCount = {};
   allItems.forEach(it => { srcCount[it.source] = (srcCount[it.source] || 0) + 1 });
-  const srcColors = { reddit:'var(--tag-reddit)', x:'var(--tag-x)', youtube:'var(--tag-yt)', web:'var(--tag-web)' };
-  const srcNames = { reddit:'Reddit', x:'X', youtube:'YouTube', web:'Web' };
+  const srcColors = { reddit:'var(--tag-reddit)', x:'var(--tag-x)', youtube:'var(--tag-yt)', web:'var(--tag-web)', gdelt:'var(--tag-gdelt)' };
+  const srcNames = { reddit:'Reddit', x:'X', youtube:'YouTube', web:'Web', gdelt:'GDELT' };
 
   let html = `
     <div class="ds-cell"><div class="ds-label">Reports</div><div class="ds-val">${allItems.length}</div></div>
@@ -1056,7 +1097,7 @@ function relTime(dateStr) {
   return '';
 }
 
-function srcN(s) { return {reddit:'Reddit',x:'X',youtube:'YouTube',web:'Web'}[s]||s }
+function srcN(s) { return {reddit:'Reddit',x:'X',youtube:'YouTube',web:'Web',gdelt:'GDELT'}[s]||s }
 
 function nums(m) {
   if (!m) return '';
@@ -1066,6 +1107,8 @@ function nums(m) {
   if (m.comments) p.push(fmt(m.comments)+' cmt');
   if (m.retweets) p.push(fmt(m.retweets)+' RT');
   if (m.views) p.push(m.views+' views');
+  if (m.mentions) p.push(fmt(m.mentions)+' mentions');
+  if (m.goldstein) p.push('GS:'+m.goldstein);
   return p.length ? `<span class="s-nums">${p.join(' · ')}</span>` : '';
 }
 
@@ -1104,14 +1147,17 @@ function exportJson() {
 }
 
 function exportCsv() {
-  const rows = [['conflict', 'category', 'date', 'title', 'source', 'source_label', 'url']];
+  const rows = [['conflict', 'category', 'date', 'title', 'source', 'source_label', 'credibility', 'bias', 'url']];
   for (const [k, c] of Object.entries(D.conflicts)) {
     for (const [catKey, cat] of Object.entries(c.categories)) {
       for (const it of filterByTime(cat.items)) {
+        const ci = credInfo(it);
         rows.push([
           c.name, cat.label || catKey, it.date || '',
           (it.title || '').replace(/"/g, '""'),
-          it.source || '', it.source_label || '', it.url || ''
+          it.source || '', it.source_label || '',
+          ci.tier || 't3', ci.bias || '',
+          it.url || ''
         ]);
       }
     }

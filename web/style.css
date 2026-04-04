@@ -29,6 +29,7 @@
   --tag-x:       #1478c8;
   --tag-yt:      #cc1818;
   --tag-web:     #1c8848;
+  --tag-gdelt:   #6a4caa;
 
   --serif: 'Playfair Display', Georgia, serif;
   --sans:  'Source Sans 3', system-ui, sans-serif;
@@ -675,6 +676,7 @@ body {
 .s-src.x { background:var(--tag-x) }
 .s-src.youtube { background:var(--tag-yt) }
 .s-src.web { background:var(--tag-web) }
+.s-src.gdelt { background:var(--tag-gdelt) }
 .s-from { font-size:12.5px; color:var(--ink-40); font-weight:500 }
 .s-nums { font-family:var(--mono); font-size:11px; color:var(--ink-25) }
 .s-time { font-family:var(--mono); font-size:10px; color:var(--ink-25) }
@@ -1304,6 +1306,26 @@ body {
 .cred-t1::before { content: '· ' }
 .cred-t2::before { content: '· ' }
 .cred-t3::before { content: '· ' }
+
+/* ═══ Bias tags ═══ */
+.bias-tag {
+  font-family: var(--mono);
+  font-size: 9px;
+  font-weight: 600;
+  padding: 1px 6px;
+  border-radius: 2px;
+  margin-left: 4px;
+  vertical-align: middle;
+  letter-spacing: 0.3px;
+}
+.bias-western            { background: rgba(74,144,217,0.12); color: #4a90d9 }
+.bias-russian            { background: rgba(217,74,74,0.12); color: #d94a4a }
+.bias-russian-independent { background: rgba(217,138,74,0.12); color: #d98a4a }
+.bias-chinese            { background: rgba(217,68,74,0.12); color: #d9444a }
+.bias-iranian            { background: rgba(138,106,170,0.12); color: #8a6aaa }
+.bias-israeli            { background: rgba(74,138,217,0.12); color: #4a8ad9 }
+.bias-arab               { background: rgba(42,154,90,0.12); color: #2a9a5a }
+.bias-ukrainian          { background: rgba(217,201,74,0.12); color: #b8a820 }
 
 /* ═══ Related conflicts ═══ */
 .related-strip {
