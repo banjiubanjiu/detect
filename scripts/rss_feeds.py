@@ -351,7 +351,7 @@ def fetch_rss():
 
         try:
             feed = feedparser.parse(url)
-            entries = feed.entries[:20]  # Max 20 per source
+            entries = feed.entries[:30]  # Max 30 per source
             print(f"{len(entries)} entries", end="")
         except Exception as e:
             print(f"ERROR: {e}")
