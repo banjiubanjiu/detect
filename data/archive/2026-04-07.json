@@ -34,6 +34,11 @@
         "humanitarian": 32,
         "diplomatic": 11
       },
+      "criticality": {
+        "critical": 3,
+        "notable": 8,
+        "background": 174
+      },
       "escalation": {
         "index": 90,
         "label": "升级",
@@ -64,6 +69,11 @@
         "video": 3,
         "diplomatic": 11,
         "humanitarian": 27
+      },
+      "criticality": {
+        "critical": 6,
+        "notable": 7,
+        "background": 130
       },
       "escalation": {
         "index": 79,
@@ -96,6 +106,11 @@
         "humanitarian": 44,
         "diplomatic": 26
       },
+      "criticality": {
+        "critical": 6,
+        "notable": 9,
+        "background": 272
+      },
       "escalation": {
         "index": 84,
         "label": "升级",
@@ -127,6 +142,11 @@
         "humanitarian": 7,
         "diplomatic": 1
       },
+      "criticality": {
+        "critical": 3,
+        "notable": 8,
+        "background": 37
+      },
       "escalation": {
         "index": 41,
         "label": "稳定",
@@ -156,6 +176,11 @@
         "opinion": 12,
         "video": 4,
         "humanitarian": 2
+      },
+      "criticality": {
+        "critical": 2,
+        "notable": 6,
+        "background": 23
       },
       "escalation": {
         "index": 46,
@@ -188,6 +213,11 @@
         "humanitarian": 2,
         "diplomatic": 1
       },
+      "criticality": {
+        "critical": 3,
+        "notable": 8,
+        "background": 22
+      },
       "escalation": {
         "index": 36,
         "label": "缓和",
@@ -217,6 +247,11 @@
         "opinion": 10,
         "video": 3,
         "humanitarian": 2
+      },
+      "criticality": {
+        "critical": 2,
+        "notable": 6,
+        "background": 22
       },
       "escalation": {
         "index": 46,
@@ -249,6 +284,11 @@
         "humanitarian": 2,
         "diplomatic": 1
       },
+      "criticality": {
+        "critical": 2,
+        "notable": 7,
+        "background": 16
+      },
       "escalation": {
         "index": 43,
         "label": "稳定",
@@ -279,6 +319,11 @@
         "video": 5,
         "humanitarian": 37,
         "diplomatic": 10
+      },
+      "criticality": {
+        "critical": 2,
+        "notable": 13,
+        "background": 157
       },
       "escalation": {
         "index": 69,

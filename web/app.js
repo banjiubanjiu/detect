@@ -77,6 +77,17 @@ function credBadge(item) {
   return `<span class="cred-tier cred-${t}" title="${titles[t]}">${titles[t]}</span>${bias}`;
 }
 
+/* ═══ Criticality (BLUF) ═══ */
+function critBadge(item) {
+  const c = item.criticality;
+  if (c === 'critical') return '<span class="crit-badge critical" title="关键事件 — 必读">关键</span>';
+  if (c === 'notable')  return '<span class="crit-badge notable"  title="重要进展">重要</span>';
+  return '';
+}
+function critWeight(item) {
+  return item.criticality === 'critical' ? 2 : item.criticality === 'notable' ? 1 : 0;
+}
+
 let D, conflict = null, tab = 'military', cache = {}, currentView = 'overview', kbIdx = -1, globe = null;
 let timeFilterDays = 30; // 0 = all
 
@@ -891,8 +902,11 @@ function renderRiver(c) {
   const items = c.categories[tab]?.items || [];
   if (!items.length) { el.innerHTML = '<div class="cv-empty-msg">该分类暂无数据</div>'; return }
 
-  // Sort: recent first, but within 2 days prefer richer content for lead story
+  // Sort: criticality first (critical > notable > background),
+  // then recent first, then richer content for lead story
   const sorted = [...items].sort((a,b) => {
+    const cw = critWeight(b) - critWeight(a);
+    if (cw !== 0) return cw;
     const da = new Date(a.date), db = new Date(b.date);
     if (Math.abs(da - db) < 172800000) {
       const rich = s => (s.source==='web'?2:s.source==='youtube'?1:0) + (s.local_file?1:0);
@@ -908,9 +922,9 @@ function renderRiver(c) {
     const rel = relTime(it.date);
 
     if (i === 0) {
-      return `<div class="story lead" style="--d:0ms" data-id="${it.id}">
+      return `<div class="story lead crit-${it.criticality||'background'}" style="--d:0ms" data-id="${it.id}">
         <div class="s-body">
-          <div class="s-hl">${esc(it.title)}</div>
+          <div class="s-hl">${critBadge(it)}${esc(it.title)}</div>
           ${it.title_en ? `<div class="en-original">${esc(it.title_en)}</div>` : ''}
           <div class="s-meta">
             <span class="s-src ${it.source}">${srcN(it.source)}</span>
@@ -923,10 +937,10 @@ function renderRiver(c) {
       </div>`;
     }
 
-    return `<div class="story" style="--d:${i*35}ms" data-id="${it.id}">
+    return `<div class="story crit-${it.criticality||'background'}" style="--d:${i*35}ms" data-id="${it.id}">
       <div class="s-date"><span class="s-day">${day}</span><span class="s-mon">${mon}</span></div>
       <div class="s-body">
-        <div class="s-hl">${esc(it.title)}</div>
+        <div class="s-hl">${critBadge(it)}${esc(it.title)}</div>
         ${it.title_en ? `<div class="en-original">${esc(it.title_en)}</div>` : ''}
         <div class="s-meta">
           <span class="s-src ${it.source}">${srcN(it.source)}</span>
@@ -1393,12 +1407,14 @@ function renderTimelineItems(el, all, limit) {
     const d = new Date(date);
     const label = isNaN(d) ? date : `${d.getFullYear()}年${LMO[d.getMonth()]}${d.getDate()}日`;
     html += `<div class="tl-day-header">${label}</div>`;
+    // Within the same day, surface critical first, then notable, then time
+    items.sort((a, b) => critWeight(b) - critWeight(a));
     for (const item of items) {
       html += `
-        <div class="tl-item" style="--d:${(i++)*20}ms" data-id="${item.id}" data-ckey="${item._conflict}">
+        <div class="tl-item crit-${item.criticality||'background'}" style="--d:${(i++)*20}ms" data-id="${item.id}" data-ckey="${item._conflict}">
           <span class="tl-conflict-tag ${item._intensity}">${item._conflictName}</span>
           <div class="tl-body">
-            <div class="tl-title">${esc(item.title)}</div>
+            <div class="tl-title">${critBadge(item)}${esc(item.title)}</div>
             <div class="tl-meta">
               <span class="s-src ${item.source}">${srcN(item.source)}</span>
               <span>${esc(item.source_label)}${credBadge(item)}</span>

@@ -1368,6 +1368,48 @@ body {
   color: var(--ink-40);
 }
 
+/* ═══ Criticality (BLUF) badges ═══ */
+.crit-badge {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 2px;
+  margin-right: 6px;
+  vertical-align: middle;
+  letter-spacing: 0.5px;
+  line-height: 1.4;
+}
+.crit-badge.critical {
+  background: #c8352c;
+  color: #fff;
+}
+.crit-badge.notable {
+  background: rgba(200,53,44,0.12);
+  color: #c8352c;
+  border: 1px solid rgba(200,53,44,0.3);
+}
+/* Subtle left border accent on critical/notable cards */
+.story.crit-critical,
+.tl-item.crit-critical { border-left: 3px solid #c8352c; padding-left: 12px; }
+.story.crit-notable,
+.tl-item.crit-notable  { border-left: 3px solid rgba(200,53,44,0.4); padding-left: 12px; }
+/* Lead story keeps existing layout — only add accent */
+.story.lead.crit-critical { border-left: 3px solid #c8352c; padding-left: 12px; }
+.story.lead.crit-notable  { border-left: 3px solid rgba(200,53,44,0.4); padding-left: 12px; }
+/* Dark mode adjustments */
+body.dark .crit-badge.critical { background: #e85850; color: #fff; }
+body.dark .crit-badge.notable {
+  background: rgba(232,88,80,0.15);
+  color: #e85850;
+  border-color: rgba(232,88,80,0.35);
+}
+body.dark .story.crit-critical,
+body.dark .tl-item.crit-critical { border-left-color: #e85850; }
+body.dark .story.crit-notable,
+body.dark .tl-item.crit-notable  { border-left-color: rgba(232,88,80,0.4); }
+
 /* ═══ Source credibility ═══ */
 .cred-tier {
   font-family: var(--sans);

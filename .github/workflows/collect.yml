@@ -36,6 +36,11 @@ jobs:
       - name: Run GDELT feed
         run: python scripts/gdelt_feed.py 2
 
+      - name: Tag criticality (BLUF)
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: python scripts/tag_criticality.py
+
       - name: Generate AI briefing
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}

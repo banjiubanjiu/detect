@@ -170,10 +170,22 @@ def build_snapshot(latest):
     for cid, c in latest.get("conflicts", {}).items():
         all_items = []
         cat_counts = {}
+        # Criticality counts: dedupe by item id (cross-conflict items count once per snapshot)
+        crit_seen = set()
+        crit_counts = {"critical": 0, "notable": 0, "background": 0}
         for catk, cat in c.get("categories", {}).items():
             items = cat.get("items", [])
             cat_counts[catk] = len(items)
             all_items.extend(items)
+            for it in items:
+                iid = it.get("id")
+                if iid and iid in crit_seen:
+                    continue
+                if iid:
+                    crit_seen.add(iid)
+                label = it.get("criticality", "background")
+                if label in crit_counts:
+                    crit_counts[label] += 1
 
         snapshot["conflicts"][cid] = {
             "name": c.get("name"),
@@ -184,6 +196,7 @@ def build_snapshot(latest):
             "since": c.get("since"),
             "total_items": len(all_items),
             "categories": cat_counts,
+            "criticality": crit_counts,
             "escalation": compute_escalation(all_items, now),
             "briefing": c.get("briefing"),
             "briefing_date": c.get("briefing_date"),
