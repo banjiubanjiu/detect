@@ -1312,11 +1312,15 @@ def smart_scrape(url, subdir):
 
     # 4. xcrawl last resort
     run_xcrawl_scrape([url], out_dir)
-    return _find_local_file(url, out_dir)
+    return _find_local_file_by_url(url, out_dir)
 
 
-def _find_local_file(url, out_dir):
-    """Find a matching .md file for a URL in a directory."""
+def _find_local_file_by_url(url, out_dir):
+    """Find a matching .md file for a URL in a directory.
+
+    Used by smart_scrape after xcrawl fallback to locate the just-scraped file.
+    Matches by URL-derived slug with progressively shorter prefixes.
+    """
     if not out_dir.exists():
         return None
     slug = url.replace("https://", "").replace("http://", "").replace("/", "_")
@@ -1367,9 +1371,13 @@ def classify_item(title, summary):
     return "opinion"
 
 
-def _find_local_file(directory, safe_name, url):
+def _find_local_file_by_safe_name(directory, safe_name, url):
     """Find a scraped local file matching a URL. Converts JSON to MD if needed.
-    Uses progressively shorter prefixes for matching."""
+
+    Used by collect_conflict to locate files after xcrawl batch fetch.
+    Uses safe_name-based matching with domain fallback. Also converts any
+    leftover .json files (xcrawl format) to .md before matching.
+    """
     # Convert any JSON files in directory
     for f in directory.glob("*.json"):
         json_to_md(f)
@@ -1443,7 +1451,7 @@ def collect_conflict(conflict_id, config, seen_urls, date_filter):
             if not _should_add(r["url"]):
                 continue
             safe_name = r["url"].replace("https://", "").replace("http://", "").replace("/", "_")[:100]
-            local_file = _find_local_file(SOURCES_DIR / "web", safe_name, r["url"])
+            local_file = _find_local_file_by_safe_name(SOURCES_DIR / "web", safe_name, r["url"])
             if not local_file:
                 continue
             # Read content for date extraction
