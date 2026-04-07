@@ -248,7 +248,10 @@ def fetch_full_articles(items):
 
 
 def translate_rss_items(items):
-    """Translate RSS item titles and summaries to Chinese."""
+    """Translate RSS item titles and summaries to Chinese.
+
+    去重策略: 同一 URL 在多个冲突分类中的副本只翻译一次，然后将结果传播到所有副本。
+    """
     try:
         collect = _import_collect()
         translate_fn = collect.translate_text
@@ -256,16 +259,21 @@ def translate_rss_items(items):
         print("  [翻译] 无法导入翻译模块，跳过")
         return
 
-    to_translate = [(i, cid, cat, it) for i, (cid, cat, it) in enumerate(items)
-                    if it.get("title") and not re.search(r'[\u4e00-\u9fff]', it["title"])]
+    # 按 URL 去重: 每个唯一 URL 只翻译一次
+    unique = {}  # url -> item (representative)
+    for cid, cat, it in items:
+        if not it.get("title") or re.search(r'[\u4e00-\u9fff]', it["title"]):
+            continue
+        url = it.get("url") or it.get("title")  # 兜底用标题做 key
+        if url not in unique:
+            unique[url] = it
 
-    if not to_translate:
+    if not unique:
         return
 
-    print(f"  [翻译] 翻译 {len(to_translate)} 条标题+摘要...", end=" ", flush=True)
+    print(f"  [翻译] 翻译 {len(unique)} 条标题+摘要 (去重后)...", end=" ", flush=True)
 
-    def do_translate(entry):
-        idx, cid, cat, it = entry
+    def do_translate(it):
         try:
             translated = translate_fn(it["title"], max_chars=200)
             if translated and translated != it["title"]:
@@ -279,16 +287,29 @@ def translate_rss_items(items):
                     it["summary"] = translated_s
         except Exception:
             pass
+        return it
 
     with ThreadPoolExecutor(max_workers=5) as pool:
-        list(pool.map(do_translate, to_translate))
+        list(pool.map(do_translate, unique.values()))
 
-    done = sum(1 for _, _, _, it in to_translate if it.get("title_en"))
+    # 传播翻译结果到同 URL 的其他副本
+    for cid, cat, it in items:
+        url = it.get("url") or it.get("title")
+        if url in unique and unique[url] is not it:
+            src = unique[url]
+            for k in ("title", "title_en", "summary", "summary_en"):
+                if k in src:
+                    it[k] = src[k]
+
+    done = sum(1 for it in unique.values() if it.get("title_en"))
     print(f"{done} 完成")
 
 
 def translate_full_articles(items):
-    """Translate full article .md files to Chinese."""
+    """Translate full article .md files to Chinese.
+
+    去重策略: 同一文件路径只翻译一次（使用 set 去重，避免并发写同一文件）。
+    """
     try:
         collect = _import_collect()
         translate_file_fn = collect.translate_file
@@ -296,22 +317,23 @@ def translate_full_articles(items):
         print("  [翻译全文] 无法导入翻译模块，跳过")
         return
 
-    to_translate = []
-    for i, (cid, cat, it) in enumerate(items):
+    # 按 fp 路径去重
+    unique_fps = set()
+    for cid, cat, it in items:
         lf = it.get("local_file")
         if lf:
             fp = DATA_DIR / lf
             zh_path = fp.with_suffix(".zh.md")
             if fp.exists() and not zh_path.exists():
-                to_translate.append(fp)
+                unique_fps.add(fp)
 
-    if not to_translate:
+    if not unique_fps:
         return
 
-    print(f"  [翻译全文] 翻译 {len(to_translate)} 篇文章...", end=" ", flush=True)
+    print(f"  [翻译全文] 翻译 {len(unique_fps)} 篇文章 (去重后)...", end=" ", flush=True)
     ok = 0
     with ThreadPoolExecutor(max_workers=5) as pool:
-        futures = {pool.submit(translate_file_fn, fp): fp for fp in to_translate}
+        futures = {pool.submit(translate_file_fn, fp): fp for fp in unique_fps}
         for future in futures:
             try:
                 future.result()
