@@ -51,7 +51,12 @@ jobs:
             git commit -m "auto: 每日数据更新 $(date -u +%Y-%m-%d)
 
           $CHANGES"
-            git push
+            # Retry up to 3 times: rebase on remote then push
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push && break
+              echo "Push attempt $i failed, retrying..."
+              sleep 5
+            done
           else
             echo "No changes to commit"
           fi
