@@ -96,56 +96,80 @@ RSS_SOURCES = [
 ]
 
 # ─── 冲突关键词匹配 ───
+# Note: 英文关键词用词边界 regex 匹配 (\b...s?\b)，所以必须显式列出形容词/国籍形式
+# (ukrainian/russian/iranian 等) — 裸 "iran" 不会匹配 "iranian"，因为 i 后面是 word char。
+# 中文关键词用子字符串匹配 (中文没有词边界概念)。
 CONFLICT_KEYWORDS = {
     "russia-ukraine": [
-        "ukraine", "russia", "kyiv", "kremlin", "donbas", "crimea", "zelensky",
-        "putin", "kharkiv", "zaporizhzhia", "frontline", "drone strike russia",
+        "ukraine", "ukrainian", "russia", "russian", "kyiv", "kremlin",
+        "donbas", "crimea", "zelensky", "putin", "kharkiv", "zaporizhzhia",
+        "drone strike russia",
         "乌克兰", "俄罗斯", "俄乌",
     ],
     "israel-palestine": [
-        "israel", "palestine", "gaza", "hamas", "netanyahu", "idf", "west bank",
-        "hezbollah", "ceasefire gaza", "hostage",
+        "israel", "israeli", "palestine", "palestinian", "gaza", "hamas",
+        "netanyahu", "idf", "west bank", "hezbollah", "ceasefire gaza", "hostage",
         "以色列", "巴勒斯坦", "加沙", "哈马斯",
     ],
     "us-iran": [
-        "iran", "tehran", "irgc", "us iran", "persian gulf", "strait of hormuz",
-        "nuclear iran", "sanctions iran",
+        "iran", "iranian", "tehran", "irgc", "us iran", "persian gulf",
+        "hormuz", "strait of hormuz", "nuclear iran", "sanctions iran",
         "伊朗", "美伊",
     ],
     "sudan": [
-        "sudan", "khartoum", "rsf", "rapid support", "darfur", "sudanese",
+        "sudan", "sudanese", "khartoum", "rsf", "rapid support", "darfur",
         "苏丹",
     ],
     "myanmar": [
-        "myanmar", "burma", "junta", "rohingya", "nug myanmar", "tatmadaw",
+        "myanmar", "burma", "burmese", "junta", "rohingya", "nug myanmar",
+        "tatmadaw",
         "缅甸",
     ],
     "yemen-houthi": [
-        "yemen", "houthi", "red sea", "aden", "ansar allah",
+        "yemen", "yemeni", "houthi", "red sea", "aden", "ansar allah",
         "也门", "胡塞",
     ],
     "congo-drc": [
-        "congo", "drc", "m23", "goma", "kivu", "monusco",
+        "congo", "congolese", "drc", "m23", "goma", "kivu", "monusco",
         "刚果",
     ],
     "syria": [
-        "syria", "damascus", "kurdish sdf", "isis syria", "idlib", "aleppo",
+        "syria", "syrian", "damascus", "kurdish sdf", "isis syria", "idlib",
+        "aleppo",
         "叙利亚",
     ],
     "taiwan-strait": [
-        "taiwan", "taipei", "china taiwan", "pla", "south china sea", "strait",
+        "taiwan", "taiwanese", "taipei", "china taiwan", "pla",
+        "south china sea", "taiwan strait",
         "台湾", "台海",
     ],
 }
 
 
+def _has_chinese(s):
+    """Check if string contains any CJK character."""
+    return any('\u4e00' <= c <= '\u9fff' for c in s)
+
+
 def match_conflict(title, summary=""):
-    """Match text to conflict(s) by keywords. Returns list of conflict IDs."""
+    """Match text to conflict(s) by keywords. Returns list of conflict IDs.
+
+    Matching rules:
+    - English keywords: word-boundary regex \b...s?\b to avoid substring
+      false positives (e.g., "pla" in "places", "frontline" in "frontlines")
+      with optional plural suffix support.
+    - Chinese keywords: substring match (no word boundaries in CJK).
+    """
     text = f"{title} {summary}".lower()
     matches = []
     for cid, keywords in CONFLICT_KEYWORDS.items():
         for kw in keywords:
-            if kw.lower() in text:
+            kw_lower = kw.lower()
+            if _has_chinese(kw_lower):
+                hit = kw_lower in text
+            else:
+                hit = bool(re.search(r'\b' + re.escape(kw_lower) + r's?\b', text))
+            if hit:
                 matches.append(cid)
                 break
     return matches

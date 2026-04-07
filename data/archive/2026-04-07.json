@@ -2,9 +2,9 @@
   "date": "2026-04-07",
   "snapshot_at": "2026-04-07T09:40:55.389444+00:00",
   "stats": {
-    "total_items": 960,
+    "total_items": 852,
     "sources": {
-      "web": 781,
+      "web": 673,
       "reddit": 50,
       "x": 50,
       "gdelt": 46,
@@ -36,15 +36,15 @@
       },
       "criticality": {
         "critical": 3,
-        "notable": 8,
-        "background": 174
+        "notable": 7,
+        "background": 175
       },
       "escalation": {
         "index": 90,
         "label": "升级",
-        "recent_count": 146,
-        "prior_count": 28,
-        "freq_score": 0.8082,
+        "recent_count": 147,
+        "prior_count": 27,
+        "freq_score": 0.8163,
         "gs_score": 0.85,
         "mention_score": 0.6875,
         "recent_gs_avg": -8.5,
@@ -97,9 +97,9 @@
       "status": "active",
       "region": "中东",
       "since": "2026-03",
-      "total_items": 289,
+      "total_items": 291,
       "categories": {
-        "military": 193,
+        "military": 195,
         "diplomacy": 9,
         "opinion": 13,
         "video": 4,
@@ -108,15 +108,15 @@
       },
       "criticality": {
         "critical": 6,
-        "notable": 9,
-        "background": 272
+        "notable": 10,
+        "background": 273
       },
       "escalation": {
         "index": 84,
         "label": "升级",
-        "recent_count": 235,
+        "recent_count": 237,
         "prior_count": 46,
-        "freq_score": 0.8043,
+        "freq_score": 0.8059,
         "gs_score": 0.912,
         "mention_score": 0.0,
         "recent_gs_avg": -9.12,
@@ -204,26 +204,26 @@
       "status": "active",
       "region": "中东",
       "since": "2014-09",
-      "total_items": 33,
+      "total_items": 29,
       "categories": {
-        "military": 21,
+        "military": 19,
         "diplomacy": 2,
         "opinion": 3,
         "video": 4,
-        "humanitarian": 2,
-        "diplomatic": 1
+        "humanitarian": 1,
+        "diplomatic": 0
       },
       "criticality": {
         "critical": 3,
         "notable": 8,
-        "background": 22
+        "background": 18
       },
       "escalation": {
-        "index": 36,
+        "index": 32,
         "label": "缓和",
-        "recent_count": 10,
+        "recent_count": 6,
         "prior_count": 22,
-        "freq_score": -0.5455,
+        "freq_score": -0.7273,
         "gs_score": 0.0,
         "mention_score": 0.0,
         "recent_gs_avg": null,
@@ -311,26 +311,26 @@
       "status": "active",
       "region": "亚太",
       "since": "2022-08",
-      "total_items": 172,
+      "total_items": 66,
       "categories": {
-        "military": 109,
+        "military": 40,
         "diplomacy": 2,
-        "opinion": 9,
+        "opinion": 8,
         "video": 5,
-        "humanitarian": 37,
-        "diplomatic": 10
+        "humanitarian": 11,
+        "diplomatic": 0
       },
       "criticality": {
-        "critical": 2,
-        "notable": 13,
-        "background": 157
+        "critical": 0,
+        "notable": 2,
+        "background": 64
       },
       "escalation": {
-        "index": 69,
-        "label": "升级",
-        "recent_count": 131,
-        "prior_count": 34,
-        "freq_score": 0.7405,
+        "index": 59,
+        "label": "稳定",
+        "recent_count": 37,
+        "prior_count": 23,
+        "freq_score": 0.3784,
         "gs_score": 0.0,
         "mention_score": 0.0,
         "recent_gs_avg": null,
