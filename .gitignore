@@ -31,6 +31,6 @@ Thumbs.db
 
 # Data files (keep latest.json + scrape_methods.json for Pages)
 data/sources/
-data/archive/
+# data/archive/ — 启用：snapshot.py 写入摘要级 JSON（~15KB/天），用于时序分析
 data/qa_report.json
 data/run_log.txt

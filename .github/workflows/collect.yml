@@ -41,6 +41,9 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: python scripts/briefing.py
 
+      - name: Snapshot to archive (time-series)
+        run: python scripts/snapshot.py
+
       - name: Commit & push
         run: |
           git config user.name "github-actions[bot]"
