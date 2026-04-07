@@ -437,10 +437,10 @@ def fetch_rss():
     if new_items:
         # 1. Fetch full article content
         fetch_full_articles(new_items)
-        # 2. Translate titles + summaries
+        # 2. Translate titles + summaries (fast, ~1-3 sec each)
         translate_rss_items(new_items)
-        # 3. Translate full articles
-        translate_full_articles(new_items)
+        # 注: 全文翻译已迁移到 translate.yml workflow，独立运行避免阻塞采集
+        # 旧代码: translate_full_articles(new_items)
 
     return new_items
 

@@ -1,17 +1,26 @@
-name: Auto Collect
+name: Auto Translate
 
 on:
   schedule:
-    - cron: '0 6 * * *'   # 每天 UTC 6:00 (北京 14:00)
+    - cron: '30 */4 * * *'  # 每 4 小时一次 (00:30, 04:30, 08:30, 12:30, 16:30, 20:30 UTC)
   workflow_dispatch:        # 手动触发
+    inputs:
+      limit:
+        description: '本次翻译篇数 (默认 30, 0=不限)'
+        required: false
+        default: '30'
 
 permissions:
   contents: write
 
+concurrency:
+  group: translate
+  cancel-in-progress: false
+
 jobs:
-  collect:
+  translate:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
 
@@ -19,27 +28,10 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install dependencies
-        run: pip install feedparser trafilatura markdownify justext beautifulsoup4 gdelt pandas
-
-      - name: Install yt-dlp
-        run: |
-          mkdir -p ~/bin
-          curl -sL https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o ~/bin/yt-dlp
-          chmod +x ~/bin/yt-dlp
-
-      - name: Run RSS feeds
+      - name: Run translate batch
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-        run: python scripts/rss_feeds.py both
-
-      - name: Run GDELT feed
-        run: python scripts/gdelt_feed.py 2
-
-      - name: Generate AI briefing
-        env:
-          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-        run: python scripts/briefing.py
+        run: python scripts/translate_pending.py ${{ github.event.inputs.limit || '30' }}
 
       - name: Commit & push
         run: |
@@ -48,10 +40,9 @@ jobs:
           git add -A
           CHANGES=$(git diff --cached --stat)
           if [ -n "$CHANGES" ]; then
-            git commit -m "auto: 每日数据更新 $(date -u +%Y-%m-%d)
+            git commit -m "auto: 翻译批次 $(date -u +%Y-%m-%d-%H%M)
 
           $CHANGES"
-            # Retry up to 3 times: rebase on remote then push
             pushed=0
             for i in 1 2 3; do
               if git pull --rebase origin main && git push; then
@@ -66,5 +57,5 @@ jobs:
               exit 1
             fi
           else
-            echo "No changes to commit"
+            echo "No new translations to commit"
           fi
