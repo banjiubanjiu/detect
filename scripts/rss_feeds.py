@@ -196,30 +196,54 @@ def _import_collect():
 
 
 def fetch_full_articles(items):
-    """Fetch full article content for RSS items using smart_scrape."""
+    """Fetch full article content for RSS items using smart_scrape (parallel)."""
     try:
         collect = _import_collect()
     except Exception as e:
         print(f"  [抓取] 无法导入 collect 模块: {e}")
         return
 
-    to_fetch = [(i, cid, cat, it) for i, (cid, cat, it) in enumerate(items)
-                if it.get("url") and not it.get("local_file")]
+    # Deduplicate by URL — same article matched to multiple conflicts shares one fetch
+    seen_urls = {}
+    to_fetch = []
+    for i, (cid, cat, it) in enumerate(items):
+        url = it.get("url")
+        if not url or it.get("local_file"):
+            continue
+        if url in seen_urls:
+            continue
+        seen_urls[url] = it
+        to_fetch.append((url, it))
 
     if not to_fetch:
         return
 
-    print(f"  [抓取] 抓取 {len(to_fetch)} 篇全文...", end=" ", flush=True)
-    fetched = 0
-    for idx, cid, cat, it in to_fetch:
-        url = it["url"]
+    print(f"  [抓取] 并行抓取 {len(to_fetch)} 篇全文...", end=" ", flush=True)
+
+    def do_fetch(entry):
+        url, item = entry
         try:
             local = collect.smart_scrape(url, "web")
             if local:
-                it["local_file"] = local
-                fetched += 1
+                item["local_file"] = local
+                return True
         except Exception:
             pass
+        return False
+
+    fetched = 0
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        results = list(pool.map(do_fetch, to_fetch))
+        fetched = sum(1 for r in results if r)
+
+    # Propagate local_file to other items sharing the same URL
+    for cid, cat, it in items:
+        url = it.get("url")
+        if url and url in seen_urls and not it.get("local_file"):
+            shared = seen_urls[url]
+            if shared.get("local_file"):
+                it["local_file"] = shared["local_file"]
+
     print(f"{fetched} 成功")
 
 
@@ -327,7 +351,7 @@ def fetch_rss():
 
         try:
             feed = feedparser.parse(url)
-            entries = feed.entries[:30]  # Max 30 per source
+            entries = feed.entries[:20]  # Max 20 per source
             print(f"{len(entries)} entries", end="")
         except Exception as e:
             print(f"ERROR: {e}")
