@@ -18,6 +18,12 @@
   - mention score  (20%): 近 7 天 vs 7-14 天的 GDELT 提及量对比
   - 加权和归一到 0-100
 
+与前端的设计差异（已知，不是 bug）：
+  - 参考时刻：Python 用 latest.updated_at（确定性）；JS 用 new Date()（浏览器实时）
+  - 日期解析：Python 把 item.date "YYYY-MM-DD" 解析为 UTC 0:00；JS new Date() 用浏览器本地时区
+  → 边界日期的条目（恰好 7 天前的）可能落入不同 bin，导致指数差 ±1-3 分。
+    Python 版本可重现，JS 版本依赖用户浏览器时区/时刻。
+
 幂等：同一天重跑会覆盖。
 """
 
@@ -53,7 +59,7 @@ def parse_iso(s):
         if dt.tzinfo is None:
             dt = dt.replace(tzinfo=timezone.utc)
         return dt
-    except (ValueError, TypeError):
+    except (ValueError, TypeError, AttributeError):
         return None
 
 
@@ -88,10 +94,11 @@ def compute_escalation(items, now):
         freq_score = 0.5 if rc > 0 else 0.0
 
     # Goldstein severity (lower = worse, scale -10 to +10)
+    # Note: matches JS truthy filter — goldstein=0 is excluded (rare, neutral events)
     recent_gs = [
         it["metrics"]["goldstein"]
         for it in recent
-        if it.get("metrics", {}).get("goldstein") is not None
+        if it.get("metrics", {}).get("goldstein")
     ]
     if recent_gs:
         gs_avg = sum(recent_gs) / len(recent_gs)
@@ -118,8 +125,10 @@ def compute_escalation(items, now):
         mention_score = 0.0
 
     # Composite: weighted sum → 0-100 index
+    # Note: int(x + 0.5) matches JS Math.round() (half-away-from-zero for positives)
+    # rather than Python's round() (banker's rounding). (raw+1)*50 is always >= 0.
     raw = freq_score * 0.5 + gs_score * 0.3 + mention_score * 0.2
-    index = round(max(0.0, min(100.0, (raw + 1.0) * 50.0)))
+    index = int(max(0.0, min(100.0, (raw + 1.0) * 50.0)) + 0.5)
 
     if index >= 62:
         label = "升级"
