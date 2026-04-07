@@ -25,8 +25,8 @@ from collect import translate_file
 PROJECT_ROOT = Path(__file__).parent.parent
 SOURCES_DIR = PROJECT_ROOT / "data" / "sources"
 
-DEFAULT_LIMIT = 30
-WORKERS = 5
+DEFAULT_LIMIT = 60
+WORKERS = 10  # 实测 10 并发吞吐 74 req/min，比 5 并发的 28 req/min 提升 2.7x，且无 throttle
 MIN_FILE_SIZE = 200  # 跳过过小的文件
 
 

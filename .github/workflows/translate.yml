@@ -6,9 +6,9 @@ on:
   workflow_dispatch:        # 手动触发
     inputs:
       limit:
-        description: '本次翻译篇数 (默认 30, 0=不限)'
+        description: '本次翻译篇数 (默认 60, 0=不限)'
         required: false
-        default: '30'
+        default: '60'
 
 permissions:
   contents: write
@@ -31,7 +31,7 @@ jobs:
       - name: Run translate batch
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-        run: python scripts/translate_pending.py ${{ github.event.inputs.limit || '30' }}
+        run: python scripts/translate_pending.py ${{ github.event.inputs.limit || '60' }}
 
       - name: Commit & push
         run: |
