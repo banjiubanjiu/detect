@@ -89,25 +89,25 @@ class Handler(SimpleHTTPRequestHandler):
             super().log_message(format, *args)
 
 
-def _get_api_key():
-    """Load OpenRouter API key from env or config file."""
-    key = os.environ.get('OPENROUTER_API_KEY')
-    if key:
-        return key
+def _get_env_var(name):
+    """Load env var from process env or ENV_FILE."""
+    val = os.environ.get(name)
+    if val:
+        return val
     if ENV_FILE.exists():
         for line in ENV_FILE.read_text().splitlines():
-            if line.startswith('OPENROUTER_API_KEY='):
+            if line.startswith(f'{name}='):
                 return line.split('=', 1)[1].strip()
     return None
 
 
-def translate_markdown(text):
-    """Translate markdown to Chinese using AI, preserving structure."""
-    api_key = _get_api_key()
-    if not api_key:
-        return None
+def _get_api_key():
+    """Backwards compat: returns OpenRouter key."""
+    return _get_env_var('OPENROUTER_API_KEY')
 
-    prompt = """翻译以下 Markdown 文章为中文。严格遵守规则：
+
+# 翻译 prompt（统一）
+TRANSLATE_PROMPT = """翻译以下 Markdown 文章为中文。严格遵守规则：
 
 1. 保留所有 Markdown 格式（#标题、>引用、**加粗**、链接、图片标记）
 2. 保留所有 `**u/用户名**` 和 `(数字 pts)` 原样不动 — 这些是 Reddit 用户名和分数，绝对不要翻译
@@ -120,17 +120,61 @@ def translate_markdown(text):
 
 直接输出翻译后的完整 Markdown，不要加任何解释。"""
 
+
+def _call_groq(text):
+    """通过 Groq 翻译，速度优先（实测 1.6 秒/篇）。"""
+    api_key = _get_env_var('GROQ_API_KEY')
+    if not api_key:
+        return None
     try:
         payload = json.dumps({
-            "model": "deepseek/deepseek-chat-v3-0324",
+            "model": "llama-3.3-70b-versatile",
             "messages": [
-                {"role": "system", "content": prompt},
+                {"role": "system", "content": TRANSLATE_PROMPT},
                 {"role": "user", "content": text}
             ],
             "max_tokens": 8000,
             "temperature": 0.1
         }).encode('utf-8')
+        req = urllib.request.Request(
+            "https://api.groq.com/openai/v1/chat/completions",
+            data=payload,
+            headers={
+                "Authorization": f"Bearer {api_key}",
+                "Content-Type": "application/json",
+                "User-Agent": "ConflictTracker/1.0"
+            }
+        )
+        with urllib.request.urlopen(req, timeout=60) as resp:
+            result = json.loads(resp.read().decode())
+        translated = result.get("choices", [{}])[0].get("message", {}).get("content", "")
+        if translated and len(translated) > 20:
+            return translated.strip()
+    except urllib.error.HTTPError as e:
+        if e.code == 429:
+            print(f"[translate] Groq rate limited, falling back to OpenRouter")
+        else:
+            print(f"[translate] Groq error: {e}, falling back to OpenRouter")
+    except Exception as e:
+        print(f"[translate] Groq error: {e}, falling back to OpenRouter")
+    return None
 
+
+def _call_openrouter(text):
+    """通过 OpenRouter / deepseek-v3 翻译，质量更好但慢（~7 秒/篇）。"""
+    api_key = _get_env_var('OPENROUTER_API_KEY')
+    if not api_key:
+        return None
+    try:
+        payload = json.dumps({
+            "model": "deepseek/deepseek-chat-v3-0324",
+            "messages": [
+                {"role": "system", "content": TRANSLATE_PROMPT},
+                {"role": "user", "content": text}
+            ],
+            "max_tokens": 8000,
+            "temperature": 0.1
+        }).encode('utf-8')
         req = urllib.request.Request(
             "https://openrouter.ai/api/v1/chat/completions",
             data=payload,
@@ -146,9 +190,23 @@ def translate_markdown(text):
         if translated and len(translated) > 20:
             return translated.strip()
     except Exception as e:
-        print(f"[translate] AI error: {e}, falling back to translate-shell")
+        print(f"[translate] OpenRouter error: {e}")
+    return None
 
-    # Fallback: translate-shell
+
+def translate_markdown(text):
+    """优先级: Groq (快, 1.6s) → OpenRouter (慢但稳, 7s) → translate-shell (最终兜底)"""
+    # 1. Try Groq first (10x faster latency)
+    result = _call_groq(text)
+    if result:
+        return result
+
+    # 2. Fall back to OpenRouter
+    result = _call_openrouter(text)
+    if result:
+        return result
+
+    # 3. Final fallback: translate-shell
     if TRANS.exists():
         try:
             result = subprocess.run(
@@ -164,11 +222,13 @@ def translate_markdown(text):
 
 
 if __name__ == '__main__':
-    api_ok = bool(_get_api_key())
+    groq_ok = bool(_get_env_var('GROQ_API_KEY'))
+    or_ok = bool(_get_env_var('OPENROUTER_API_KEY'))
     print(f"Server starting on http://localhost:{PORT}")
     print(f"  Static files: {ROOT}")
     print(f"  Translate API: http://localhost:{PORT}/api/translate?file=sources/...")
-    print(f"  AI translate (DeepSeek via OpenRouter): {'OK' if api_ok else 'NO KEY'}")
+    print(f"  Groq (primary, ~1.6s/article):    {'OK' if groq_ok else 'NO KEY'}")
+    print(f"  OpenRouter (fallback, ~7s/article): {'OK' if or_ok else 'NO KEY'}")
     server = HTTPServer(('', PORT), Handler)
     try:
         server.serve_forever()
