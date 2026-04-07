@@ -140,7 +140,7 @@ CONFLICT_KEYWORDS = {
     ],
     "taiwan-strait": [
         "taiwan", "taiwanese", "taipei", "china taiwan", "pla",
-        "south china sea", "taiwan strait",
+        "south china sea", "taiwan strait", "beijing", "xi jinping",
         "台湾", "台海",
     ],
 }
