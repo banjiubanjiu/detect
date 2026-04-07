@@ -15,6 +15,8 @@ import os
 import re
 import sys
 import hashlib
+import time
+import urllib.request
 import feedparser
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
@@ -173,6 +175,172 @@ def match_conflict(title, summary=""):
                 matches.append(cid)
                 break
     return matches
+
+
+
+# ─── LLM 分类 + 翻译（一次调用完成 5 件事）───
+# 替代 match_conflict (关键词) + guess_category (关键词) + translate_text × 2
+# 设计：strict JSON output, 3 次重试，失败则返回 None (调用者跳过该条)
+# 无 fallback 到关键词匹配 — 要么正确入库，要么不入库
+# See also: scripts/tag_criticality.py for GDELT-style post-hoc tagging
+
+_ANALYZE_SYSTEM_PROMPT = """你是一位资深军事与国际关系分析师，为"战况追踪"情报平台做新闻分类与翻译。
+
+追踪的 9 个冲突 (conflict_id: 含义):
+- russia-ukraine: 俄乌战争 (含欧洲涉俄议题、北欧反俄、匈俄关系、JD 万斯涉俄言论、俄罗斯国内政治)
+- israel-palestine: 巴以冲突 (含加沙、哈马斯、真主党、黎巴嫩受以色列打击、约旦河西岸)
+- us-iran: 美伊对峙 (含伊朗核、霍尔木兹海峡、IRGC、伊朗代理人、对伊制裁、以色列-伊朗直接冲突)
+- sudan: 苏丹内战 (含达尔富尔、RSF、人道危机)
+- myanmar: 缅甸内战 (含军政府、抵抗力量、罗兴亚)
+- yemen-houthi: 也门/胡塞武装 (含红海航运、胡塞袭击商船/以色列)
+- congo-drc: 刚果(金)冲突 (含 M23、基伍、戈马)
+- syria: 叙利亚局势 (含库尔德 SDF、ISIS 残余、阿勒颇、伊德利卜)
+- taiwan-strait: 台海局势 (含中国军事动态、解放军、南海、习近平对台政策)
+
+4 个类别 (category):
+- military: 军事动态 (战斗、空袭、无人机袭击、伤亡、武器部署、前线推进)
+- diplomacy: 外交谈判 (停火、制裁、谈判、联合国决议、领导人会晤、外交访问)
+- humanitarian: 人道危机 (难民、平民伤亡、援助、流离失所、饥荒)
+- opinion: 舆论分析 (评论、分析文章、专家预测、历史回顾、战略评估)
+
+严格输出以下 JSON，不要任何其他文字，不要 markdown 代码块：
+{"title_zh": "...", "summary_zh": "...", "conflicts": [...], "category": "..."}
+
+字段要求:
+- title_zh: 中文新闻标题，20字以内，新闻标题风格
+- summary_zh: 中文摘要，50-120字，不要编造未提及的信息
+- conflicts: 0-3 个最相关冲突的 ID 数组。严格相关才归入，不相关返回空数组 []
+- category: military / diplomacy / humanitarian / opinion 之一
+
+判断原则:
+- 娱乐、体育、普通社会新闻、美国国内政治、无关地区新闻 → conflicts 返回 []
+- 跨冲突事件（如"俄罗斯给伊朗提供以色列能源目标清单"）→ 归入所有相关冲突
+- "中国五年发展规划"、"中国数字货币"等纯中国经济议题 → 不归入 taiwan-strait（除非涉军事/台海）
+- 注意：criticality (关键性分级) 不在此任务范围，由下游 tag_criticality.py 处理"""
+
+
+def _llm_analyze_call(title_en, summary_en, api_key, timeout=60):
+    """Single LLM call. Returns parsed dict or None on any failure."""
+    user_prompt = f"英文标题: {title_en}\n英文摘要: {summary_en or '(无摘要)'}"
+
+    payload = json.dumps({
+        "model": "google/gemini-2.0-flash-001",
+        "messages": [
+            {"role": "system", "content": _ANALYZE_SYSTEM_PROMPT},
+            {"role": "user", "content": user_prompt},
+        ],
+        "max_tokens": 500,
+        "temperature": 0.2,
+        "response_format": {"type": "json_object"},  # force JSON mode
+    }).encode("utf-8")
+
+    req = urllib.request.Request(
+        "https://openrouter.ai/api/v1/chat/completions",
+        data=payload,
+        headers={
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json",
+            "User-Agent": "ConflictTracker/1.0",
+        },
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            result = json.loads(resp.read().decode())
+        content = result["choices"][0]["message"]["content"].strip()
+    except Exception as e:
+        raise RuntimeError(f"LLM HTTP error: {e}")
+
+    # Parse JSON. Strip code fences if present (defensive even with JSON mode)
+    if content.startswith("```"):
+        lines = content.split("\n")
+        if len(lines) >= 3:
+            content = "\n".join(lines[1:-1])
+    try:
+        data = json.loads(content)
+    except json.JSONDecodeError:
+        # Try regex extraction as last resort
+        m = re.search(r'\{.*\}', content, re.DOTALL)
+        if not m:
+            raise RuntimeError(f"not a JSON: {content[:100]}")
+        data = json.loads(m.group(0))
+
+    return data
+
+
+VALID_CONFLICTS = {
+    "russia-ukraine", "israel-palestine", "us-iran", "sudan", "myanmar",
+    "yemen-houthi", "congo-drc", "syria", "taiwan-strait",
+}
+# Note: category uses "diplomacy" (not "diplomatic") to match existing data schema.
+# LLM output "diplomatic" is accepted and normalized.
+VALID_CATEGORIES = {"military", "diplomacy", "humanitarian", "opinion"}
+_CATEGORY_ALIASES = {"diplomatic": "diplomacy"}  # normalize LLM variants
+
+
+def _validate_analysis(data):
+    """Validate LLM output shape. Returns sanitized dict or None if unrecoverable."""
+    if not isinstance(data, dict):
+        return None
+    title_zh = data.get("title_zh", "").strip() if isinstance(data.get("title_zh"), str) else ""
+    summary_zh = data.get("summary_zh", "").strip() if isinstance(data.get("summary_zh"), str) else ""
+    conflicts_raw = data.get("conflicts", [])
+    if not isinstance(conflicts_raw, list):
+        conflicts_raw = []
+    conflicts = [c for c in conflicts_raw if c in VALID_CONFLICTS]
+    category = data.get("category", "")
+    category = _CATEGORY_ALIASES.get(category, category)  # normalize diplomatic→diplomacy
+    if category not in VALID_CATEGORIES:
+        category = "military"  # structural default, never hits for empty-conflicts items
+    # title_zh is critical — without it the item is useless
+    if not title_zh:
+        return None
+    return {
+        "title_zh": title_zh,
+        "summary_zh": summary_zh,
+        "conflicts": conflicts,
+        "category": category,
+    }
+
+
+def analyze_and_translate(title_en, summary_en, api_key=None, retries=3):
+    """
+    一次 LLM 调用完成翻译 + 冲突分类 + category 分类 + criticality 分级.
+
+    Returns:
+        dict {title_zh, summary_zh, conflicts[], category, criticality} on success
+        None on failure after all retries (caller should skip the item)
+
+    No fallback to keyword matching — correctness over coverage.
+    """
+    if not title_en:
+        return None
+    if api_key is None:
+        api_key = os.environ.get("OPENROUTER_API_KEY")
+        if not api_key:
+            env_file = Path.home() / ".config" / "last30days" / ".env"
+            if env_file.exists():
+                for line in env_file.read_text().splitlines():
+                    if line.startswith("OPENROUTER_API_KEY="):
+                        api_key = line.split("=", 1)[1].strip()
+                        break
+        if not api_key:
+            print("  [analyze] 无 OPENROUTER_API_KEY", file=sys.stderr)
+            return None
+
+    last_err = None
+    for attempt in range(retries + 1):
+        try:
+            raw = _llm_analyze_call(title_en, summary_en, api_key)
+            validated = _validate_analysis(raw)
+            if validated is not None:
+                return validated
+            last_err = "validation failed"
+        except Exception as e:
+            last_err = str(e)
+        if attempt < retries:
+            time.sleep(2 ** attempt)  # 1s, 2s, 4s
+    print(f"  [analyze failed] {title_en[:60]}: {last_err}", file=sys.stderr)
+    return None
 
 
 def make_id(url):
@@ -372,7 +540,17 @@ def translate_full_articles(items):
 # ═══════════════════════════════════════
 
 def fetch_rss():
-    """Fetch all RSS sources, match to conflicts, return new items."""
+    """Fetch all RSS sources → LLM 分类 + 翻译 → return new items.
+
+    新流程 (取代 match_conflict 关键词 + guess_category 关键词 + translate_text × 2):
+      1. 扫所有 RSS 源，按 ID/URL 去重后收集 candidate 英文条目
+      2. 并行调 analyze_and_translate (LLM): 一次调用同时做翻译 + 分类 + 分级
+      3. LLM 返回 conflicts=[] 的 → 丢弃 (LLM 判定与任何追踪冲突无关)
+      4. LLM 失败 (3 次重试后) → 跳过该条 (不入库，等下次采集重试)
+      5. 构造 (cid, cat, item) 元组，并为每个相关 cid 复制一份
+
+    无 fallback 到关键词匹配 — 要么正确入库，要么不入库。
+    """
     # Load existing IDs to avoid duplicates
     existing_ids = set()
     existing_urls = set()
@@ -385,86 +563,123 @@ def fetch_rss():
                     existing_ids.add(it.get("id", ""))
                     existing_urls.add(it.get("url", ""))
 
-    new_items = []  # (conflict_id, category, item_dict)
+    # Phase 1: collect candidate entries (英文原文，未分类)
+    candidates = []  # list of dict: {id, title_en, summary_en, date, url, source_label}
     total_fetched = 0
-    total_matched = 0
 
     for src in RSS_SOURCES:
         url = src["url"]
         name = src["name"]
-        tier = src["tier"]
         print(f"  [{name}] fetching...", end=" ", flush=True)
 
         try:
             feed = feedparser.parse(url)
-            entries = feed.entries[:30]  # Max 30 per source
-            print(f"{len(entries)} entries", end="")
+            entries = feed.entries[:30]
+            print(f"{len(entries)} entries")
         except Exception as e:
             print(f"ERROR: {e}")
             continue
 
-        matched = 0
         for entry in entries:
             entry_url = entry.get("link", "")
             entry_id = make_id(entry_url)
 
-            # Skip duplicates
             if entry_id in existing_ids or entry_url in existing_urls:
                 continue
 
-            title = clean_html_text(entry.get("title", ""))
-            summary = clean_html_text(entry.get("summary", ""))
+            title_en = clean_html_text(entry.get("title", ""))
+            summary_en = clean_html_text(entry.get("summary", ""))
 
-            # Drop summaries that are garbage
-            if summary and (len(summary) < 15 or summary.startswith("Click to expand")):
-                summary = ""
+            if summary_en and (len(summary_en) < 15 or summary_en.startswith("Click to expand")):
+                summary_en = ""
+            summary_en = summary_en[:300]
 
-            summary = summary[:300]
-
-            if not title:
+            if not title_en:
                 continue
 
-            # Match to conflicts
-            conflicts = match_conflict(title, summary)
-            if not conflicts:
-                continue
-
-            date = parse_date(entry)
-
-            # Guess category from keywords
-            cat = guess_category(title, summary)
-
-            item = {
+            candidates.append({
                 "id": entry_id,
-                "title": title,
-                "summary": summary if summary else title,
-                "source": "web",
-                "source_label": name,
-                "date": date,
+                "title_en": title_en,
+                "summary_en": summary_en,
+                "date": parse_date(entry),
                 "url": entry_url,
-                "rss_source": name,
-            }
-
-            for cid in conflicts:
-                new_items.append((cid, cat, item.copy()))
-                matched += 1
-
+                "source_label": name,
+            })
             existing_ids.add(entry_id)
             existing_urls.add(entry_url)
-
         total_fetched += len(entries)
-        total_matched += matched
-        print(f", {matched} matched")
 
-    print(f"\n  Total: {total_fetched} fetched, {total_matched} matched to conflicts")
+    print(f"\n  Phase 1: {total_fetched} fetched, {len(candidates)} new candidates")
+
+    if not candidates:
+        return []
+
+    # Phase 2: LLM 批量分析 (translate + classify + criticality)
+    print(f"\n  Phase 2: analyzing {len(candidates)} candidates via LLM...")
+    api_key = os.environ.get("OPENROUTER_API_KEY")
+    if not api_key:
+        env_file = Path.home() / ".config" / "last30days" / ".env"
+        if env_file.exists():
+            for line in env_file.read_text().splitlines():
+                if line.startswith("OPENROUTER_API_KEY="):
+                    api_key = line.split("=", 1)[1].strip()
+                    break
+    if not api_key:
+        print("  [错误] 无 OPENROUTER_API_KEY，无法分类，终止采集")
+        return []
+
+    analyzed = {}  # id → analysis dict (None if failed)
+    completed = 0
+
+    def do_analyze(cand):
+        result = analyze_and_translate(cand["title_en"], cand["summary_en"], api_key=api_key)
+        return cand["id"], result
+
+    with ThreadPoolExecutor(max_workers=10) as pool:
+        futures = [pool.submit(do_analyze, c) for c in candidates]
+        for fut in futures:
+            try:
+                iid, result = fut.result()
+                analyzed[iid] = result
+                completed += 1
+                if completed % 50 == 0:
+                    print(f"    progress: {completed}/{len(candidates)}")
+            except Exception as e:
+                print(f"    [analyze error] {e}", file=sys.stderr)
+
+    failed = sum(1 for v in analyzed.values() if v is None)
+    no_conflict = sum(1 for v in analyzed.values() if v and not v["conflicts"])
+    valid = sum(1 for v in analyzed.values() if v and v["conflicts"])
+    print(f"  Phase 2 done: {valid} valid, {no_conflict} no-conflict (discarded), {failed} failed (will retry next run)")
+
+    # Phase 3: construct (cid, cat, item) tuples for merge
+    new_items = []
+    for cand in candidates:
+        result = analyzed.get(cand["id"])
+        if not result or not result["conflicts"]:
+            continue  # skipped or discarded
+
+        item = {
+            "id": cand["id"],
+            "title": result["title_zh"],
+            "title_en": cand["title_en"],
+            "summary": result["summary_zh"] or cand["title_en"],
+            "summary_en": cand["summary_en"],
+            "source": "web",
+            "source_label": cand["source_label"],
+            "date": cand["date"],
+            "url": cand["url"],
+            "rss_source": cand["source_label"],
+            # criticality intentionally omitted — set by tag_criticality.py downstream
+        }
+        for cid in result["conflicts"]:
+            new_items.append((cid, result["category"], item.copy()))
+
+    print(f"  Phase 3: {len(new_items)} (cid, cat, item) tuples for merge\n")
 
     if new_items:
-        # 1. Fetch full article content
+        # Fetch full article content (translation happens in separate translate.yml workflow)
         fetch_full_articles(new_items)
-        # 2. Translate titles + summaries (fast, ~1-3 sec each)
-        translate_rss_items(new_items)
-        # 注: 全文翻译已迁移到 translate.yml workflow，独立运行避免阻塞采集
-        # 旧代码: translate_full_articles(new_items)
 
     return new_items
 
