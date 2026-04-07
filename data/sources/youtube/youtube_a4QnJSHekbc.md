@@ -1,0 +1,8 @@
+# YouTube Video a4QnJSHekbc
+
+**视频链接：** https://www.youtube.com/watch?v=a4QnJSHekbc
+**字数：** 236 词
+
+---
+
+a pledge from Syria's president to try to keep the country's neutral position and avoid the widening conflict. &gt;&gt; I believe that the path Syria is currently taking is the right one and we are trying to distance Syria as much as possible from any conflict that would reopen these wounds and pains and to preserve this path toward development and reconstruction. Former militant Ahmad al-Shar seized power in December 2024, overthrowing former leader Bashar al-Assad, who was supported by Iran. Now in President Al-Shar says his government is on good terms with all the regional countries while declaring full solidarity with the Arab states. But Israel could be trying to draw Damascus into the conflict after it targeted Syrian army camps in the south over concerns about attacks on the Drews population. The IDF will not tolerate harm towards the Drews population in Syria and will continue to operate to defend them. &gt;&gt; The region has already suffered damage from an Iranian ballistic missile strike on February 28th. And now the Israeli defense minister is warning the Syrian government against exploiting the conflict to target the Drews community. They live in the southern region of Syria, northern Israel, Lebanon, and the Golden Heights, which Israel occupies. Israel sees itself as the protector of the Drews in Syria, who regularly clash with Sunni Bedwin tribes and Syrian government forces loyal to President Al- Shar. &gt;&gt; [snorts]

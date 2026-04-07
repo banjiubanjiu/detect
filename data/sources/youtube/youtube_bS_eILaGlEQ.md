@@ -1,0 +1,9 @@
+# YouTube Video bS_eILaGlEQ
+
+**视频链接：** https://www.youtube.com/watch?v=bS_eILaGlEQ
+**字幕语言：** English (auto-generated)
+**字数：** 229 词
+
+---
+
+Mhm. Russia claims a sweeping battlefield surge, launching attacks from Sunumi to Donetsk. The defense ministry says its forces struck multiple Ukrainian brigades across Karkov, Donetsk, and beyond, killing over 185 troops in one sector alone while destroying vehicles, electronic warfare systems, and key depots. The numbers are staggering. Moscow reports up to 180 troops lost in Zapad operations. 75 in Yujnaya strikes and more than 350 in center assaults. All within a single day. Dozens of armored vehicles, artillery guns, and over 40 motor vehicles were also wiped out across fronts. Russian forces say they are pushing deeper with the Vostto group alone claiming up to 260 Ukrainian troop losses while Deneeppa operations added another 60 casualties. Multiple brigades, assault regiments, and national guard units were targeted as Moscow tightens pressure across key regions. This is now a war of Mustab. Russia claims strikes on 159 locations, hitting missile workshops, energy infrastructure, and drone hubs. Air defenses reportedly intercepted 12 guided bombs, three high Mars rockets, two Neptune missiles, and 693 drones. A massive aerial confrontation. From land to sea, the Voy is expanding. Russia says it destroyed four naval drones and a Neptune missile in the Black Sea. Since the war began, Moscow claims Ukraine has lost 671 aircraft, 284 helicopters, over 132,000 drones, and 28,000 armored vehicles. Figures that signal a brutal, grinding conflict, though unverified.

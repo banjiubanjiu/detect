@@ -1,0 +1,8 @@
+# YouTube Video kX5UNRDkpD8
+
+**视频链接：** https://www.youtube.com/watch?v=kX5UNRDkpD8
+**字数：** 275 词
+
+---
+
+The USIsrael war on Iran has expanded across the Arabian Peninsula after Houthi militants in Yemen entered the conflict. The Iranian-backed militia group fired its first missiles into Israel, sparking fears of a dangerous new escalation. Correspondent Allison Horn has the latest from Jerusalem. This is the first time the Houthies have attacked in this war, now officially joining the conflict and opening up a third front against America and Israel. While the Houthies have only fired missiles into Israel, they have an even more potent weapon in their arsenal, the ability to destabilize shipping routes in the Red Sea. The group says it's ready to attack maritime vessels transiting one of the busiest shipping lanes in the world, the Babel Mandab Straight off the coast of Yemen. That would cause even more economic and trade turmoil with the ongoing closure in the straight of Hormuz. And it's a battlefield plan the Houthis have refined over the last few years during the Gaza war. The group says its attacks will continue in some form until the Iran war ends. Our operations with God's help will continue until the declared objectives are achieved as stated in the previous statement of the Yemeni armed forces and until the aggression against all resistance fronts ceases. The Houthies are also in a better geographical location than Iran to launch attacks into Gulf states that house US military bases or installations. If the group does decide to take that path and launch attacks into those Gulf states, it would be considered a dangerous escalation that could force the Gulf nations to retaliate and fight back, engulfing the wider Middle East.

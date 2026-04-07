@@ -1,0 +1,30 @@
+# How can insurgent coalitions sustain a long-term campaign against a conventionally superior force without suffering decisive attrition? : r/WarCollege
+
+**原始链接：** https://www.reddit.com/r/WarCollege/comments/1rbn1so/how_can_insurgent_coalitions_sustain_a_longterm/
+
+---
+
+#  How can insurgent coalitions sustain a long-term campaign against a conventionally superior force without suffering decisive attrition? 
+This is a question i really wanted to ask for a long time 
+Since the 2021 coup, Myanmar has experienced a excruciating civil war between the Tatmadaw and a coalition of resistance forces, including long-established Ethnic Armed Organizations (EAOs) and newer People’s Defense Forces (PDFs). 
+As of 2026, i have seen Tatmadaw appears to retain control over major urban centers and key infrastructure, while resistance groups hold significant rural and border regions. Despite manpower shortages, morale issues, and the introduction of conscription, the Tatmadaw still maintains conventional advantages: a functional air force, armor (MBTs and AFVs), artillery, and centralized command structures. 
+By contrast, anti-junta forces operate as a decentralized coalition with varying levels of training, equipment, and coordination. While they benefit from broad territorial reach and local support in some regions, they face constraints in logistics, heavy weapons, and air defense. 
+_**Extra notes:**_ the rebel forces are one of the most unpredictable forces in this civil war, as shown in **operation 1027** which was one of the hardest blows the junta had received in the civil war. Infighting exists but is overpowered by a shared desire to fight and topple the junta, so infighting is often short and acute. 
+**China:** the playmaker of the civil war, having both ties to the rebel forces and the junta. Seen in Lashio where they ''punished'' the Rebel forces, coercing them to cede Lashio back to the Junta forces, But also where they supported border EAOs to prevent spill-over and international crime. They are the main reason why the civil war is now a brutal war of attrition. 
+Due to the nature of the civil war, its only fair to assume its going to be a very unpleasant war of severe attrition. Here's my question. **How can a coalition of rebels and EAOs fight a long-term guerilla campaign against a economically and militarily superior force with interference and playmaking from a major power, while not suffering from a decisive attrition.** Or simply, 
+_**How can insurgent coalitions sustain a long-term campaign against a conventionally superior force without suffering decisive attrition?**_
+
+[ ![u/Powerful-Mix-8592 avatar](https://www.redditstatic.com/avatars/defaults/v2/avatar_default_0.png) ](https://www.reddit.com/user/Powerful-Mix-8592/)
+[ Powerful-Mix-8592 ](https://www.reddit.com/user/Powerful-Mix-8592/)
+• [ 1mo ago ](https://www.reddit.com/r/WarCollege/comments/1rbn1so/comment/o6t5zt5/)
+Sun Tzu said, "So in war, the way is to avoid what is strong and to strike at what is weak." 
+Now, people say that the Art of War is just common sense, but you will be surprised at the lack of common sense many military leaders/guerilla leader make. Find the enemy soft spots, avoid his strong point, and strike the soft spot hard. 
+The best way to avoid decisive attrition is to never let attrition get that bad in the first place i.e never let yourself be caught in a battle where a large chunk of your force can be caught and destroyed, leading to not only a loss of combat prowess but a loss of legitimacy that cause people to think again before joining your cause. 
+It is a simple lesson, and yet many guerilla movements made that mistake: the nascent Chinese Red Army tried to make a stand at the Jiangxi soviet, allowing the KMT's encirclement campaign to succeed in wiping them out. Mao learned that lesson and never attempted a major pitch battle, opting instead to run, hide, wage guerilla war, and only strike when he knew for sure his enemy was truly weak (like the Hundred Regiments Offensive). Similarly, Giáp made the mistake of trying to challenge the French by attacking the Red River delta and getting his troop bloodied and later Lê Duẩn made the mistake of ordering the Việt Cộng to rise up and challenge the US in major pitch battle during Tết Offensive leading to severe loss. 
+
+[ ![u/Prince_of_Kyrgyzstan avatar](https://www.redditstatic.com/avatars/defaults/v2/avatar_default_2.png) ](https://www.reddit.com/user/Prince_of_Kyrgyzstan/)
+[ Prince_of_Kyrgyzstan ](https://www.reddit.com/user/Prince_of_Kyrgyzstan/)
+• [ 1mo ago ](https://www.reddit.com/r/WarCollege/comments/1rbn1so/comment/o6tjzuc/)
+> As of 2026, i have seen Tatmadaw appears to retain control over major urban centers and key infrastructure, while resistance groups hold significant rural and border regions. 
+I think you answered your own question. Based on what you wrote tells me that you have been watching the conflict and then you should know that last year, breaking the one year rule here, there was relatively heavy fighting in central Myanmar where these anti-junta groups tried to push into more urbanised areas. This made sense from momentum perspective with all the successes they had in 2024. But now that they were pushing into places where the Junta has more assets, the fighting didn't go into their favour. If you followed the events and watched the mapmakers update their maps, you could see some rollback on the anti-junta territory after the Junta forces did their counterattacks. 
+So when previously they managed to strike and destroy/force surrender of isolated garrisons and take control of town and cities in what could be considered countryside, the moment they moved out of the protection of their own core territories and the more guerilla friendly terrain, they were in the open so to speak. If the anti-junta forces can remove the artillery and air advantage the Junta has, they can succeed, but if they don't, then things will get more dicey. Recent developments makes Myanmar very interesting place to watch, but that is not within this subreddit.

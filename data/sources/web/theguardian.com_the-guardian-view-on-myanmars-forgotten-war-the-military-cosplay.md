@@ -1,0 +1,19 @@
+**原始链接：** https://www.theguardian.com/commentisfree/2026/mar/29/the-guardian-view-on-myanmars-forgotten-war-the-military-cosplay-democracy-but-people-demand-the-real-thing
+
+---
+
+China promoted elections in Myanmar, while those fighting for democracy boycotted them. That tells you everything about the shift to a supposedly civilian administration in the coming days, five years after the military seized power in a coup. It appears likely that Min Aung Hlaing will swap his leadership of the army for the presidency. Whatever the details, the junta will still be running the show, and bombing civilians – just while cosplaying as democrats.
+
+Myanmar’s suffering has been overshadowed by higher-profile wars. But the conflict-monitoring organisation Acled estimates that about 93,000 people have been killed since 2021, while the UN says that 3.6 million are displaced. The junta does not control much of the country, limiting where polls could be held. The opposition refused to take part, and others were excluded from voting because they are denied citizenship. Little wonder the main military-backed party declared a landslide victory – despite having won just 6% of the vote in a 2020 election.
+
+That political rejection, coupled with the war, has convinced the military that conceding to hybrid rule, as it did when it allowed Aung San Suu Kyi’s party to win and share power in the first place, was a grave mistake. At the same time, the horrors inflicted by the regime – including bombing prisoners of war, torturing opponents, using child soldiers and detaining toddlers – have reinforced the determination of resistance forces.
+
+Some significant military victories have raised fears that the tide is turning in the junta’s favour, though in other areas it is losing territory. It has been aided by fractures within opposition forces, always an unlikely and fraught combination of fighters aligned with the exiled National Unity Government, ethnic armed groups and other resistance organisations. Beijing was displeased by Myanmar’s coup, which fuelled instability, scam centres and economic disruption on its borders. But it has increasingly weighed in on the junta’s side. The United Wa State Army cut off essential support to other armed groups under pressure from Beijing last year, and many blame China for the Myanmar National Democratic Alliance Army turning upon an ally. Russian expertise from the Ukraine war also appears to be key to the junta’s intensified drone attacks.
+
+Regional governments may want to believe that the generals can restore stability. But the junta cannot rescue Myanmar from a disaster it has created over decades. Without sustained pressure, warn observers, the military is increasingly emboldened in its war crimes. Cases are rightly proceeding in the international criminal court and international court of justice over the persecution of the Rohingya minority, but this war too must be addressed. Sanctions are having some effect but must be continually tightened. The UK, which once led the way, has fallen behind. Students from Myanmar are also among those to whom it is shamefully denying study visas. And aid – delivered through civil society – should be increased, not cut.
+
+While the generals imitate democracy in an attempt to ease international pressure, opposition-run local administrations are consulting on new constitutions, asking people how natural resources should be used and discussing what services should be provided – an unprecedented step in Myanmar. Civilians are exhausted by war, but they have not given up on democracy. The outside world must not ignore their struggle, or accept sham polls as a convenient excuse to ease up the pressure.
+
+## Comments (…)
+
+Sign in or create your Guardian account to join the discussion

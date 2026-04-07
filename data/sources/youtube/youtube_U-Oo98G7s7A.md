@@ -1,0 +1,9 @@
+# Ukraine proposes Easter ceasefire with Russia
+
+**视频链接：** https://www.youtube.com/watch?v=U-Oo98G7s7A
+**字幕语言：** English (auto-generated)
+**字数：** 298 词
+
+---
+
+Amid a global energy crisis, Ukraine is offering Russia a very simple proposal. Its president Vladimir Zalinski has said that the country will cease all of its attacks on Russia's energy and oil infrastructure if the Kremlin agrees to do the same. Mr. Zilinski has described this as an Easter time ceasefire. That will free up oil supply at a time where billions of lers of oil are effectively stuck in the straight of Hormuz, which of course is driving the price right up. Now, Moscow is notoriously obtuse when it comes to accepting the parameters of a ceasefire. In fact, it's obtuse when it comes to just talking about them with Ukraine or any intermediary. But money could be the incentive here. Ukraine has been hitting Russia's infrastructure pretty hard. In fact, there are some reports that suggest Keev has managed to halt about 40% of Russia's oil export capacity. On the other side of the ledger, a sustained period of Russian attacks on Ukrainian energy infrastructure has left Keev scrambling. But Vladimir Zilinski has been in the Middle East over the last few days and says he's been able to finalize a fuel security agreement with multiple Gulf nations. We're still waiting on the final detail of that, but broadly speaking, the war in Iran or Israel and US's war with Iran is favoring or benefiting Russia. And that's because Ukraine relies heavily on Patriot missile defense systems for its broader air defense and the US is using up the supply of those in the Middle East. Russia has localized almost all of its weapons manufacturing. And I've spoken to security analysts who say that the longer the war in the Middle East goes, the longer it allows Russia to grind it out on the battlefield.

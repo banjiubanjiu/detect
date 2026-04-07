@@ -1,0 +1,44 @@
+# [MEGATHREAD] Israel-Palestine Conflict Week of 16 March 2026 : r/UnitedNations
+
+**原始链接：** https://www.reddit.com/r/UnitedNations/comments/1rv8ssk/megathread_israelpalestine_conflict_week_of_16/
+
+---
+
+# [MEGATHREAD] Israel-Palestine Conflict Week of 16 March 2026 
+
+This megathread is dedicated to the sharing of information and views about such an enduring conflict and its repercussions. It is intended to centralize all conversations relating to the conflict in Israel, Palestine, Hamas, hostages, the humanitarian situation in Gaza, the occupied West Bank, the United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), the October 7th attacks, ceasefire, and any other topics related to the conflict in the territory of Palestine. 
+
+A new mega thread will be posted each week. All posts related to the above topics outside of the Megathread will be redirected. 
+
+Israel carrying out ‘mass expulsion of Palestinians’ in West Bank, UN warns  
+<https://www.aljazeera.com/news/2026/3/17/israel-carrying-out-mass-expulsion-of-palestinians-in-west-bank-un-warns>
+
+An article appeared in the 3/16 issue of the Boston Globe, entitled “Israeli Group Behind Palestinian Flights.” It described how Ad Kan has been deporting Palestinians by flying them to South Africa. It quotes the South African Foreign Minister, who called the flights “a clear agenda to cleanse out the Palestinians from Gaza and the West Bank.” I’d say the Israelis have copied the despicable American practice of kidnapping people quickly and illegally, to countries far from home. 
+
+How Six Days in 1967 Shaped the Modern Middle East | Council on Foreign Relations  
+<https://www.cfr.org/articles/how-six-days-1967-shaped-modern-middle-east>  
+
+After the saber-rattling Egyptian President Gamal Abdel Nasser expelled UN peacekeepers from the Sinai Peninsula on May 18, 1967, and mobilized the Egyptian military, Israel attacked. Swiftly defeating the Egyptian, Jordanian, and Syrian militaries, it captured the Sinai Peninsula, Gaza Strip, East Jerusalem, West Bank, and Golan Heights, and tripled the territory under its control. The victory gave the small country the “strategic depth” that some of its founders believed was needed to protect it from attack; Israel is less than ten miles wide at the narrowest stretch between the Mediterranean and the Green Line, the partition that marks Israel’s internationally recognized eastern border. It also brought large Arab populations under the Israeli military’s control.  
+
+The Arabs’ defeat battered the prestige of Nasser’s pan-Arabism and left the Palestinians to press for a state on their own. Meanwhile, Jewish settlements have proliferated in the West Bank, while Palestinians there have lived under continued Israeli military rule, at times mediated by the Palestinian Authority, an interim body for self-rule.  
+
+ISRAELI FORCE LED TO ARAB ACCOMMODATION  
+
+Israel’s overwhelming victory in the 1967 war caused the defeated Arab states to face and eventually accept the reality that they would never liberate all of Palestine. They could achieve no more than Israel’s withdrawal from the territories it conquered during those six days in June.  
+
+Signs of Arab accommodation came quickly. At the first Arab League summit after the war, in Khartoum in September 1967, the Arab states famously declared the principles of “no peace with Israel, no recognition of Israel, no negotiations with it.” What received far less notice was the preceding sentence. It affirmed not just that the Arab states sought Israel’s withdrawal only from the “lands which have been occupied since the aggression of June 5,” but also that they sought to achieve it nonviolently, through “political efforts at the international and diplomatic level.” Following the summit, Israel’s director of military intelligence, Major General Aharon Yariv, informed the Knesset that the Arabs had decided to seek a political solution.  
+
+But Israel was not eager to give up the lands it conquered in 1967, so it rushed to denounce the Khartoum Resolution as a display of intransigence, dubbing it the “three noes.” In fact it was a significant, capitulatory step toward formally accepting Israel within its pre-1967 boundaries.  
+
+Background on the Israeli-Palestinian Conflict  
+<https://www.cfr.org/global-conflict-tracker/conflict/israeli-palestinian-conflict>  
+
+The movement for a Jewish state gained traction in the nineteenth century, as Jews increasingly migrated to Ottoman Palestine to escape antisemitism in Europe and return to a land intimately linked to Jewish religion, culture, and history. That trend developed new urgency in the 1930s due to Nazi persecution and after the Holocaust during World War II, in which Nazi Germany killed six million Jews. In 1947, the United Nations adopted Resolution 181, known as the Partition Plan, which sought to divide what had become British-controlled Palestine into Arab and Jewish states, with areas of religious significance in Jerusalem remaining under international control. The Jewish Agency accepted Resolution 181, but the Arab League and Palestinian leaders rejected it. Leaders of the Jewish community in Palestine declared the State of Israel’s independence on May 14, 1948. A day later, Israel was attacked by five Arab states, sparking the first Arab-Israeli War. The war ended in 1949 with Israel’s victory and 750,000 Palestinians displaced, in what is referred to as the Nakba, meaning “the catastrophe” in Arabic. Egypt maintained control of the Gaza Strip, Jordan took over the West Bank and East Jerusalem, and roughly 750,000 Jews from across the region were forced out of their own countries and moved to Israel.  
+
+Over the following years, tensions rose in the region, particularly between Israel and Egypt, Jordan, and Syria. In the years following the 1956 Suez Crisis and Britain, France, and Israel’s joint invasion of the Sinai Peninsula, Egypt, Jordan, and Syria signed mutual defense pacts in anticipation of a possible mobilization of Israeli troops. After Egyptian President Abdel Gamal Nasser ordered the withdrawal of UN peacekeepers from the Sinai Peninsula, closed the Strait of Tiran to Israeli shipping, and threatened war, Israel preemptively attacked Egyptian and Syrian air forces, starting the Six Day War in June 1967. Israel gained territorial control over the Sinai Peninsula and the Gaza Strip from Egypt, the West Bank and East Jerusalem from Jordan, and the Golan Heights from Syria. Later that year, the UN Security Council passed Resolution 242, calling for the withdrawal of Israeli forces from territories occupied during the war and affirming the sovereignty, territorial integrity, and political independence of every state in the region, referring primarily to Egypt, Jordan, and Syria. Although the resolution was never fully implemented, the land-for-peace principle became the basis for later efforts to resolve the Arab-Israeli conflict.  
+
+Six years later, in what is referred to as the Yom Kippur War or the October War, Egypt and Syria launched a surprise two-front attack on Israel to regain their lost territory. The conflict did not result in significant gains for Egypt, Israel, or Syria. Still, Egyptian President Anwar al-Sadat declared the war a victory, as it enabled Egypt and Syria to negotiate over previously lost territory. In 1979, following a series of ceasefires and peace negotiations, representatives from Egypt and Israel signed the U.S.-brokered Camp David Accords, which culminated in a peace treaty that ended the thirty-year conflict between the two countries.  
+
+Although the peace treaty between Egypt and Israel was intended to initiate negotiations over Palestinian autonomy in the West Bank and Gaza Strip, the question of Palestinian self-determination and self-governance remained unresolved. In 1987, tens of thousands of Palestinians living in the West Bank and Gaza Strip rose up against the Israeli government in what is now commonly called the first intifada or “uprising.” The 1993 Oslo I Accords established the Palestinian Authority (PA), setting up a framework for the Palestinians to govern themselves in the West Bank and Gaza, and also enabled mutual recognition between the Palestine Liberation Organization and the Israeli government. In 1995, the Oslo II Accords expanded on the first agreement, adding provisions that mandated the complete withdrawal of Israel from six cities and four hundred fifty towns in the West Bank.  
+
+Continued here: <https://www.cfr.org/global-conflict-tracker/conflict/israeli-palestinian-conflict>

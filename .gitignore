@@ -29,8 +29,8 @@ Thumbs.db
 # Claude Code
 .claude/
 
-# Data files (keep latest.json + scrape_methods.json for Pages)
-data/sources/
-# data/archive/ — 启用：snapshot.py 写入摘要级 JSON（~15KB/天），用于时序分析
+# Data files
+# data/sources/ — 启用: .md/.zh.md 原文需要上传到 Pages 才能显示"查看原文"
+# data/archive/ — 启用: snapshot.py 写入摘要级 JSON (~15KB/天)，用于时序分析
 data/qa_report.json
 data/run_log.txt

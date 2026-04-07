@@ -1,0 +1,26 @@
+**原始链接：** https://www.theguardian.com/world/2026/apr/07/ukraine-russia-war-briefing-zelenskyy-orthodox-easter-truce-offer
+
+---
+
+
+-
+Ukraine’s president has renewed his offer to Russia of
+
+**a mutual ceasefire****on strikes against energy infrastructure**. “If Russia is ready to stop strikes on our energy infrastructure, we will respond in kind,” he said. “This proposal has been conveyed to the Russian side through the Americans.” Volodymyr Zelenskyy offered last week to observe a ceasefire for Easter, which Orthodox adherents mark on Sunday (13 April) in Russia and Ukraine. -
+In his remarks on Monday, after an
+
+**overnight attack on the Black Sea port of Odesa killed three people and injured at least 16**, Zelenskyy said Russia appeared unwilling to agree to the ceasefire. “We have repeatedly proposed to Russia a ceasefire at least for Easter,” he said. “But for them, all times are the same. Nothing is sacred.” -
+Ukrainian drones attacked the Caspian Pipeline Consortium’s
+
+**oil shipping terminal in southern Russia**early on Monday, damaging a mooring point and setting four oil tanks on fire, the Russian defence ministry claimed. The Ukrainian army said it had**attacked a different terminal**in the port of Novorossiysk – without mentioning the CPC, which did not immediately comment. The CPC pipeline handles about 1% of the world’s oil supplies, as well as about 80% of Kazakhstan’s oil exports.
+
+-
+A
+
+**reservist in the Australian army has been charged**after allegedly working as a drone operator for Ukraine. The 25-year-old man from Felixstow, in the South Australian city of Adelaide, was charged by the Australian Federal Police with working for a foreign military without authorisation, the AAP news agency reported. It is the first time someone has been charged with the offence, with the man facing up to two decades in jail if found guilty. Australian laws limit the work defence personnel can perform with a**foreign military, government or company without authorisation**. The man allegedly travelled to Ukraine in May 2025 and returned to Australia in January 2026. -
+A Russian ship carrying wheat believed to have sunk in the Sea of Azov after a drone attack has been
+
+**found and towed to shore**, Russia’s state news agency Tass said on Monday. The death toll has risen to three, it added. Crew abandoned the ship last Friday and made it to shore on Monday, according to Russian reports. -
+Russia jailed on Monday a former governor of the
+
+**Kursk border region, where Ukraine’s army broke through in 2024**, for 14 years over alleged kickbacks for government contracts related to the construction of fortifications. Since August 2024, the Kremlin has gone after top regional and military officials for failing to stop the incursion – a massive embarrassment for Vladimir Putin. Alexei Smirnov, the former Kursk governor, was “sentenced to 14 years in prison and a fine of 400 million rubles [£3.8m/US$5m]”, a court statement said. Another former Kursk governor, Roman Starovoyt, who led the region until just before the Ukrainian breakthrough,**died last year by alleged suicide**– a fate that regularly befalls officials who run foul of the Russian president.

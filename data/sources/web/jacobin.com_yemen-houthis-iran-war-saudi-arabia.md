@@ -1,0 +1,47 @@
+**原始链接：** https://jacobin.com/2026/03/yemen-houthis-iran-war-saudi-arabia
+
+---
+
+# Why Yemen’s Houthis Opened a New Front in the Iran War
+
+Pushed by Tehran and domestic pressure, Yemen’s Houthis attacked Israel and joined the regional conflict. But they remain wary of reigniting their costly war with Saudi Arabia.
+
+In his inaugural speech on March 12, Iran’s new supreme leader, Mojtaba Khamenei, announced that “new fronts” would be opened in Tehran’s war against the United States and Israel. Khamenei singled out Yemen’s “brave and faithful” Houthi movement, which forms part of a now-reduced resistance coalition of Iraqi and Lebanese militia fighting to “shorten the path to eliminating the Zionist sedition.”
+
+On March 26, the Houthis entered the war, launching two ballistic missile attacks over 2,000 kilometers into Israel. The date was selected to fall on the eleventh anniversary of the start of Saudi Arabia’s unsuccessful seven-year-long bombing campaign, launched in 2015, to roll back the Houthi takeover of the capital city Sanaa and much of northern Yemen, territory on which two-thirds of the population live.
+
+In a speech on “the National Day of Steadfastness,” the movement’s leader, Abdul-Malik al-Houthi, made a distinction between the Houthi intervention and the Arab nations in “servitude to the tyranny” of “Zionist Jews and their Western Zionist supporters.”
+
+“Most regrettably,” al-Houthi said, “some regimes in this region have become entangled in serving them. They have opened their lands and deployed their wealth, media, and political positions in support of the aggression against the Islamic Republic of Iran.”
+
+The following day, the Houthi armed forces outlined their rationale and red lines. Yahya Saree, their spokesman, foregrounded that their fight was against the “Zionist scheme” and to enforce the Gaza ceasefire, rather than based on its alliance with Iran. Crucially, he said that the Houthis would not attack Muslim countries unless they joined a coalition with the United States and Israel.
+
+The Houthis emerged in the 1990s from Yemen’s Shia Zaydi population, a large religious minority whose heartland is the northern city of Saada. It was formed to combat corruption that they said had impoverished their territories and attacked the central government led by military ruler Ali Abdullah Saleh and his patron, Saudi Arabia.
+
+Saleh famously ruled by “dancing on the heads of snakes,” funneling oil revenues and Saudi cash through loyal tribal networks to prevent state fragmentation. The Houthis existed in a state of managed low-level warfare until in 2014, when following the Arab Spring’s failure, they marched into Sanaa. This triggered a war with Saudi Arabia and its junior coalition partner, the United Arab Emirates, which all but tore the social fabric of Yemen apart.
+
+Saudi Arabia instituted a highly destructive blockade of the country and backed a paper government, which lived much of its life in exile inside the kingdom. The Houthis killed Saleh in 2017 and the state fragmented. Yemen suffered a catastrophic humanitarian disaster due to a lack of food and medicine and Saudi bombing campaigns, sustained by the United States and the UK, killing tens of thousands, including civilians. Tehran helped the Houthis to develop a ballistic missile program — a cruder version of their own — which it used to target Saudi oil infrastructure, helping to establish the deterrence necessary to bring an end to the war.
+
+Following the 2022 ceasefire, the Houthis entrenched their power, which extends from the northwest down through the port of Hudaydah and into parts of the Taiz governorate. The powerful Islamist militia survives through a war economy characterized in part by oil racketeering, tolls, and khat cultivation. The Houthis bombed the ports that its enemy, the Saudi-backed internationally recognized government, used to export oil worth approximately $1-2 billion per year. Yemen now exports almost no oil, a significant problem for a country that statisticians regularly place in the bottom ten of the world’s poorest nations.
+
+After the October 7, 2023, attacks and the subsequent Israeli genocide in Gaza, the Houthis launched attacks on Israel and on Israeli shipping in the Red Sea, resulting in Israeli and US attacks, under both Joe Biden’s and Donald Trump’s administrations. These attacks culminated in a massive US air and naval assault in the spring of 2025 against Houthi-controlled infrastructure, including Ras Isa Port, missile launch sites, and also a prison in Saada, which allegedly killed and injured hundreds. Trump declared victory and a ceasefire was established with the Houthis, who continued to attack Israel and commercial shipping for several months.
+
+Iran’s relationship with the Houthis is characterized by broad strategic alignment combined with frequent disagreement on tactics and which interests to prioritize. Yemen’s Zaydis are Fiver Shias, who disagree with Twelver Iranian Shias on the succession of the fifth imam. Iranian Shias recognize Zayd’s older half-brother al-Baqir as the legitimate successor of the Prophet Mohammed. The Houthis are as concerned with shoring up their domestic position as they are with fighting the United States and Israel, who pose an immediate existential threat to Iran.
+
+Over the monthlong US-Israeli assault against Iran, the Houthis have been under extraordinary pressure to enter the war. Iran supported the Houthis in their long war against Saudi Arabia (from 2015 to 2022) and continues to exert significant institutional pressure on the group.
+
+“But the pressure is not just from Iran,” says Farea al-Muslimi, a research fellow at Chatham House. “It also comes from their own constituencies and even their enemies who accuse them of being unserious and unable to play a regional role.” The Palestinian cause is fundamental to the Houthi self-identity and ideological reproduction.
+
+“[The Houthis] decided this was the time when they ought to get involved,” Helen Lackner, a scholar of Yemeni tribal politics, told *Jacobin*. “It’s very difficult for them not to get involved . . . because of their propaganda and of course because of the Israeli involvement. If it was just the Americans, then they could maybe sit on the sidelines. Being anti-Israel is really a very fundamental position.”
+
+The Houthis’ decision to open a new front is a calculated balancing act. On the one hand, they can’t avoid entering a war that they are both ideologically invested in and is going poorly for their enemies. “They also know for sure that they are next after Iran and Israel will go after them very brutally,” explains al-Muslimi. “So, they tried to, as you say in Arabic, have them for lunch before they have you for dinner.”
+
+On the other hand, the Houthis are attempting to exercise caution so as to not derail the “roadmap” process with Saudi Arabia, which would establish a modus vivendi with its giant northern neighbor. Under the roadmap, Riyadh could finance public spending in Houthi territory, particularly state salaries, and rebuild civilian infrastructure, much of which the Royal Saudi Air Force destroyed in the war.
+
+Since 2022, Yemen’s civil war has been all but frozen. The rivalry between Saudi Arabia and the UAE within Yemen was decided in January in favor of Riyadh, when it ousted the overstretched UAE-backed separatist Southern Transitional Council in the south. Saudi Arabia now enjoys a near monopoly of influence over the new official government of Yemen (ministers were even sworn in this year in Riyadh) as well as the militias that support it, such as the Southern Giants Brigades.
+
+Riyadh seeks to develop the Yemeni state around favored Sunni partners but is also in long-standing talks with the Houthis to neutralize them as a threat. “The Houthis would be very happy if the war finished tomorrow,” explains Luca Nevola, a senior analyst for Yemen and the Gulf at the Armed Conflict Location and Event Data Project, who spent several years living in Houthi territory. “This is especially true as the negotiations with Saudi Arabia are a lifeline for their movement.” Nevola says that Israel was very effective in weakening the Houthis in 2025 with decapitation strikes after the Houthis had attacked Israel for its genocide in Gaza.
+
+The Houthis now face a security dilemma: join the war and risk losing their potential Saudi patrons or stay out and lose credibility at home and in Tehran. By targeting only Israel, the Houthis are trying to avoid both horns of the dilemma. “There is a lot of illusion in their idea of balancing. I think this will spill over,” says al-Muslimi. “They are thinking, ‘We can make a calculated move, thirty days into the war, get in and get out with low cost.’ They think they can show up to the party last but enjoy happy hour and then go home not hungover.”
+
+A war as unpredictable and open-ended as the one now being waged by Trump and Israel’s Benjamin Netanyahu creates a hazard of mission creep for all belligerents. Other than the United States, all actors in this war see it as existential. If Israel escalates, as it almost certainly will, the Houthis are at risk of being sucked into an all-or-nothing logic of a war for survival.
