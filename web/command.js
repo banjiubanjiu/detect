@@ -819,7 +819,56 @@ function wireKeyboard() {
    启动
 ───────────────────────────────────────────── */
 
+/* ─────────────────────────────────────────────
+   虚拟值班员 — 数字人主播 (Wan2.2-S2V)
+───────────────────────────────────────────── */
+async function loadAnchorBriefing() {
+  try {
+    const r = await fetch('avatar/config.json', { cache: 'no-store' });
+    if (!r.ok) return;
+    const cfg = await r.json();
+    const videos = (cfg && cfg.videos) || [];
+    const playable = videos.filter(v => v && v.video);
+    if (playable.length === 0) return;
+
+    // 命令中心固定取最新一条 (而不是 index.html 那种随机)
+    const pick = playable[0];
+
+    const wrap = document.getElementById('ccAnchor');
+    const video = document.getElementById('ccaVideo');
+    const src = document.getElementById('ccaVideoSrc');
+    const headline = document.getElementById('ccaHeadline');
+    const dateEl = document.getElementById('ccaDate');
+    const sound = document.getElementById('ccaSound');
+    if (!wrap || !video || !src) return;
+
+    src.src = pick.video;
+    video.load();
+    video.play().catch(() => {});  // autoplay muted 一般允许
+
+    if (headline) headline.textContent = pick.headline || '';
+    if (dateEl) dateEl.textContent = (pick.date || '').replace(/-/g, '.');
+
+    if (sound) {
+      sound.addEventListener('click', () => {
+        video.muted = !video.muted;
+        sound.textContent = video.muted ? 'MUTE' : 'LIVE';
+        sound.classList.toggle('live', !video.muted);
+        if (!video.muted) {
+          video.currentTime = 0;
+          video.play().catch(() => {});
+        }
+      });
+    }
+
+    wrap.style.display = '';
+  } catch (e) {
+    console.warn('[anchor] 加载失败:', e);
+  }
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   loadAll();
   wireKeyboard();
+  loadAnchorBriefing();
 });

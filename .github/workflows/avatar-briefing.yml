@@ -1,0 +1,90 @@
+name: Generate Avatar Briefing
+
+# AI 数字人简报 (Wan2.2-S2V)
+#
+# 触发方式:
+#   1. 自动: 每周一 UTC 6:00 (北京 14:00) 跑一次, slug=weekly, 用 LLM 从最新 briefing 生成
+#   2. 手动: gh workflow run "Generate Avatar Briefing" [-f text="..."] [-f slug=...] [-f resolution=720P]
+#
+# 成本:
+#   - 每次 480P 13-18 秒 ≈ 6.5-9 元
+#   - 免费额度 100 秒 (一次性) ≈ 够首 5-7 次
+#   - 每周一次 = 每月 4 次, 第一个月免费, 之后约 30 元/月
+#
+# 前端读取:
+#   web/avatar/config.json (videos 数组, index.html 随机选, command.html 取最新)
+
+on:
+  workflow_dispatch:
+    inputs:
+      text:
+        description: '播报词 (≤70 中文字)。留空则从 latest.json 用 LLM 自动生成'
+        type: string
+        required: false
+      slug:
+        description: 'config.json 里的槽位标识 (默认 weekly)'
+        type: string
+        default: 'weekly'
+      resolution:
+        description: '分辨率'
+        type: choice
+        options: ['480P', '720P']
+        default: '480P'
+      force:
+        description: '当日同 slug 已存在时强制重跑'
+        type: boolean
+        default: false
+  schedule:
+    - cron: '0 6 * * 1'   # 每周一 UTC 6:00 = 北京周一 14:00
+
+permissions:
+  contents: write
+
+jobs:
+  avatar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install edge-tts
+        run: pip install edge-tts
+
+      - name: Generate avatar briefing
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
+          AVATAR_RESOLUTION: ${{ inputs.resolution || '480P' }}
+        run: |
+          ARGS=()
+          if [ -n "${{ inputs.text }}" ]; then
+            ARGS+=(--text "${{ inputs.text }}")
+          fi
+          ARGS+=(--slug "${{ inputs.slug || 'weekly' }}")
+          if [ "${{ inputs.force }}" = "true" ]; then
+            ARGS+=(--force)
+          fi
+          python scripts/generate_avatar_briefing.py "${ARGS[@]}"
+
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add web/avatar/
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "avatar: 数字人简报 $(date -u +%Y-%m-%d) (slug=${{ inputs.slug || 'weekly' }})"
+          for i in 1 2 3; do
+            if git pull --rebase origin main && git push; then
+              exit 0
+            fi
+            echo "Push retry $i..."
+            sleep 5
+          done
+          exit 1

@@ -49,6 +49,34 @@
     <div class="nt-track" id="newsTickerTrack"></div>
   </div>
 
+  <!-- AI Avatar Briefing: 数字人今日头条 (Wan2.2-S2V) -->
+  <section class="avatar-briefing" id="avatarBriefing" style="display:none">
+    <div class="ab-inner">
+      <div class="ab-video-wrap">
+        <video class="ab-video" id="abVideo" muted playsinline preload="metadata" loop>
+          <source id="abVideoSrc" type="video/mp4">
+        </video>
+        <button class="ab-play" id="abPlay" type="button" aria-label="播放">▶</button>
+        <span class="ab-watermark">AI · WAN-S2V</span>
+      </div>
+      <div class="ab-text">
+        <div class="ab-label">
+          <span class="ab-label-dot"></span>
+          <span class="ab-label-text">今日 AI 主播简报</span>
+          <span class="ab-date" id="abDate"></span>
+        </div>
+        <p class="ab-headline" id="abHeadline"></p>
+        <div class="ab-meta">
+          <span class="ab-meta-item" id="abMetaVoice">edge-tts · zh-CN</span>
+          <span class="ab-meta-sep">·</span>
+          <span class="ab-meta-item" id="abMetaModel">wan2.2-s2v</span>
+          <span class="ab-meta-sep">·</span>
+          <a class="ab-meta-link" href="avatar/README.md" target="_blank" rel="noopener">关于</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Search -->
   <div class="search-bar" id="searchBar">
     <input class="search-input" id="searchInput" type="text" placeholder="搜索所有冲突的报道..." />

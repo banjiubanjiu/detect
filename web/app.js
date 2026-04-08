@@ -346,6 +346,77 @@ async function boot() {
   showOverview();
   initGlobe();
   wireReader();
+  loadAvatarBriefing();  // 数字人主播 (静默失败,不阻塞)
+}
+
+/* ═══ AI Avatar Briefing — 加载 web/avatar/config.json 并渲染数字人头条
+   随机从 videos[] 选一条展示, 保证刷新偶尔看到不同播报
+*/
+async function loadAvatarBriefing() {
+  try {
+    const r = await fetch('avatar/config.json', { cache: 'no-store' });
+    if (!r.ok) return;
+    const cfg = await r.json();
+    const videos = (cfg && cfg.videos) || [];
+    const playable = videos.filter(v => v && v.video);
+    if (playable.length === 0) return;
+
+    // 随机挑一条 (相同日期内的不同 slug 都有机会被选到)
+    const pick = playable[Math.floor(Math.random() * playable.length)];
+
+    const wrap = document.getElementById('avatarBriefing');
+    const video = document.getElementById('abVideo');
+    const src = document.getElementById('abVideoSrc');
+    const headline = document.getElementById('abHeadline');
+    const dateEl = document.getElementById('abDate');
+    const playBtn = document.getElementById('abPlay');
+    if (!wrap || !video || !src) return;
+
+    src.src = pick.video;
+    video.load();
+    if (headline) headline.textContent = pick.headline || '';
+    if (dateEl) {
+      const d = pick.date || '';
+      const m2 = d.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+      if (m2) {
+        const mo = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'][parseInt(m2[2])-1];
+        dateEl.textContent = `${mo} ${parseInt(m2[3])}, ${m2[1]}`;
+      } else {
+        dateEl.textContent = d;
+      }
+    }
+
+    // 点击 → 取消静音 + 从头播放;再次点击暂停
+    let unmuted = false;
+    if (playBtn) {
+      playBtn.addEventListener('click', () => {
+        if (!unmuted) {
+          video.muted = false;
+          video.currentTime = 0;
+          unmuted = true;
+        }
+        if (video.paused) {
+          video.play().catch(() => {});
+          playBtn.style.opacity = '0';
+          playBtn.style.pointerEvents = 'none';
+        } else {
+          video.pause();
+          playBtn.style.opacity = '';
+          playBtn.style.pointerEvents = '';
+        }
+      });
+    }
+    video.addEventListener('ended', () => {
+      if (playBtn) {
+        playBtn.style.opacity = '';
+        playBtn.style.pointerEvents = '';
+      }
+    });
+
+    wrap.style.display = '';
+  } catch (e) {
+    console.warn('[avatar] 加载失败:', e);
+  }
 }
 
 /* ═══ Alert mode (组合 A6)

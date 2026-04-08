@@ -61,6 +61,25 @@
       <span class="ao-dot"></span>
       <span class="ao-text" id="arcCount">—</span>
     </div>
+
+    <!-- 虚拟值班员: 数字人主播 (Wan2.2-S2V), idle 循环静音播放 -->
+    <div class="cc-anchor" id="ccAnchor" style="display:none">
+      <video class="cca-video" id="ccaVideo" muted playsinline loop autoplay preload="auto">
+        <source id="ccaVideoSrc" type="video/mp4">
+      </video>
+      <div class="cca-meta">
+        <div class="cca-label">
+          <span class="cca-dot"></span>
+          <span class="cca-label-text">BRIEFING ANCHOR</span>
+        </div>
+        <p class="cca-headline" id="ccaHeadline"></p>
+        <div class="cca-foot">
+          <span class="cca-date" id="ccaDate">—</span>
+          <span class="cca-sound" id="ccaSound" title="点击切换静音">MUTE</span>
+        </div>
+      </div>
+    </div>
+
     <div class="globe-overlay-br" id="globeCtrls">
       <button class="gc-btn gc-active" data-act="rotate" title="自转">◉ ROTATE</button>
       <button class="gc-btn" data-act="pause" title="暂停">⏸ PAUSE</button>
