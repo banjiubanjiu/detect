@@ -9,21 +9,24 @@
 Part of the [Iran–Israel conflict](https://en.wikipedia.org/wiki/Iran%E2%80%93Israel_conflict "Iran–Israel conflict"), [Middle Eastern crisis](https://en.wikipedia.org/wiki/Middle_Eastern_crisis_\(2023%E2%80%93present\) "Middle Eastern crisis \(2023–present\)"), and [American expansionism under Donald Trump](https://en.wikipedia.org/wiki/American_expansionism_under_Donald_Trump "American expansionism under Donald Trump")
 
 ![Map](https://maps.wikimedia.org/img/osm-intl,4,30,47,300x300.png?lang=en&domain=en.wikipedia.org&title=2026_Iran_war&revid=1346495231&groups=_4040b9d1659f88290d32d5285ea5b96bd2334990&parser=legacy)[Wikimedia](https://foundation.wikimedia.org/wiki/Maps_Terms_of_Use) | © [OpenStreetMap](https://www.openstreetmap.org/copyright)
-
 Locations struck by: 
-  * [![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Maki7-cross-white.svg/20px-Maki7-cross-white.svg.png)](https://en.wikipedia.org/wiki/File:Maki7-cross-white.svg) United States and Israel
-  * [![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Maki7-circle-stroked-white.svg/20px-Maki7-circle-stroked-white.svg.png)](https://en.wikipedia.org/wiki/File:Maki7-circle-stroked-white.svg) Iran, [Hezbollah](https://en.wikipedia.org/wiki/Hezbollah "Hezbollah"), [Houthis](https://en.wikipedia.org/wiki/Houthis "Houthis"), and [PMF](https://en.wikipedia.org/wiki/Popular_Mobilization_Forces "Popular Mobilization Forces")
+  *  [![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Maki7-cross-white.svg/20px-Maki7-cross-white.svg.png)](https://en.wikipedia.org/wiki/File:Maki7-cross-white.svg)  United States and Israel
+  *  [![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Maki7-circle-stroked-white.svg/20px-Maki7-circle-stroked-white.svg.png)](https://en.wikipedia.org/wiki/File:Maki7-circle-stroked-white.svg)  Iran, [Hezbollah](https://en.wikipedia.org/wiki/Hezbollah "Hezbollah"), [Houthis](https://en.wikipedia.org/wiki/Houthis "Houthis"), and [PMF](https://en.wikipedia.org/wiki/Popular_Mobilization_Forces "Popular Mobilization Forces")
+  *     * [v](https://en.wikipedia.org/wiki/Template:2026_Iran_war_map "Template:2026 Iran war map")
+    * [t](https://en.wikipedia.org/wiki/Template_talk:2026_Iran_war_map "Template talk:2026 Iran war map")
+    * [e](https://en.wikipedia.org/wiki/Special:EditPage/Template:2026_Iran_war_map "Special:EditPage/Template:2026 Iran war map")
 
-| Date | 28 February 2026 (2026-02-28) – present  
-(1 month and 4 days) |
-|------|------------------------------------------|
-| Location | 
+| Date| 28 February 2026 (2026-02-28) – present  
+(1 month and 4 days)  
+---|---  
+Location| 
   * West Asia[f]
   * Indian Ocean[g]
 
-|
-| Status | 
+  
+Status| 
   * [Ongoing](https://en.wikipedia.org/wiki/List_of_ongoing_armed_conflicts "List of ongoing armed conflicts")
+
   * Assassination of [top Iranian officials](https://en.wikipedia.org/wiki/List_of_Iranian_officials_killed_during_the_2026_Iran_war "List of Iranian officials killed during the 2026 Iran war") in [US–Israeli strikes](https://en.wikipedia.org/wiki/List_of_attacks_during_the_2026_Iran_war#Operations_Roaring_Lion_and_Epic_Fury "List of attacks during the 2026 Iran war"), including [Ali Khamenei](https://en.wikipedia.org/wiki/Assassination_of_Ali_Khamenei "Assassination of Ali Khamenei") and [Ali Larijani](https://en.wikipedia.org/wiki/Assassination_of_Ali_Larijani "Assassination of Ali Larijani")
   * [Iranian retaliation](https://en.wikipedia.org/wiki/List_of_attacks_during_the_2026_Iran_war#Iranian_response "List of attacks during the 2026 Iran war") by striking [Israel](https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_Israel "2026 Iranian strikes on Israel") and regional US allies
   * Establishment of [Iranian control](https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis "2026 Strait of Hormuz crisis") over the [Strait of Hormuz](https://en.wikipedia.org/wiki/Strait_of_Hormuz "Strait of Hormuz") and [toll](https://en.wikipedia.org/wiki/Toll_\(fee\) "Toll \(fee\)") collection in [Chinese yuan](https://en.wikipedia.org/wiki/Renminbi "Renminbi") for [oil](https://en.wikipedia.org/wiki/Crude_oil "Crude oil") sold through the strait[9][10]
@@ -32,8 +35,8 @@ Locations struck by:
   * [Escalation](https://en.wikipedia.org/wiki/2026_Lebanon_war "2026 Lebanon war") of the [Israel–Hezbollah conflict](https://en.wikipedia.org/wiki/Hezbollah%E2%80%93Israel_conflict_\(2023%E2%80%93present\) "Hezbollah–Israel conflict \(2023–present\)")
   * [Global economic disruption](https://en.wikipedia.org/wiki/Economic_impact_of_the_2026_Iran_war "Economic impact of the 2026 Iran war")
 
-|
-| Belligerents | 
+  
+Belligerents  
   * ![](https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/40px-Flag_of_the_United_States.svg.png) [United States](https://en.wikipedia.org/wiki/United_States "United States")
   * ![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/40px-Flag_of_Israel.svg.png) [Israel](https://en.wikipedia.org/wiki/Israel "Israel")
 

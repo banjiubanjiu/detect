@@ -4,239 +4,74 @@
 
 ---
 
-Here is the cleaned markdown with the article body only:
-
-```markdown
-[Global Conflict Tracker](https://www.cfr.org/global-conflict-tracker)
-## Main navigation
-  * [Methodology](https://www.cfr.org/global-conflict-tracker/methodology)
-  * [Center for Preventive Action](https://www.cfr.org/programs/center-preventive-action)
-
-[Global Conflict Tracker](https://www.cfr.org/global-conflict-tracker)
-## Main navigation
-  * [Methodology](https://www.cfr.org/global-conflict-tracker/methodology)
-  * [Center for Preventive Action](https://www.cfr.org/programs/center-preventive-action)
-
-[](https://www.cfr.org/)
-[
-Back to Map
-](https://www.cfr.org/global-conflict-tracker)
 # Civil War in Myanmar
  _By the_
 [ Center for Preventive Action
 ](https://www.cfr.org/programs/center-preventive-action)
 Updated January 29, 2026
-![icon_expand](https://www.cfr.org/global-conflict-tracker/images/icons/expand.svg)
 
 ![Myanmar soldiers from the 77th light infantry division walk along a street](https://assets.cfr.org/images/t_gct_w1200/v1755541299/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_02/Civil-War-in-Myanmar-Myanmar_02.jpg?_i=AA)
 Myanmar soldiers from the 77th light infantry division walk along a street during a protest against the military coup in Yangon, Myanmar, on February 28, 2021
 Stringer/Reuters
+
 ![A protester makes a three-finger salute in front of a row of riot police, who are holding roses given to them by protesters](https://assets.cfr.org/images/t_gct_w1200/v1755541311/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_11_5/Civil-War-in-Myanmar-Myanmar_11_5.jpg?_i=AA)
 A protester makes a three-finger salute in front of a row of riot police, who are holding roses given to them by protesters, on February 6, 2021, in Yangon, Myanmar.
+Stringer/Getty Images
+
+![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541293/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_01_2/Civil-War-in-Myanmar-Myanmar_01_2.jpg?_i=AA)
+Demonstrators protest against the military coup in Yangon, Myanmar, on February 17, 2021.
 Stringer/Reuters
-![Guerrilla fighters after being protesters are seen on the front line](https://assets.cfr.org/images/t_gct_w1200/v1755541317/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_11_5/Civil-War-in-Myanmar-Myanmar_11_5.jpg?_i=AA)
-Guerrilla fighters after being protesters are seen on the front line in Kawkareik, Myanmar, on December 31, 2021.
+
+![Guerrilla fighters after being protesters are seen on the front line](https://assets.cfr.org/images/t_gct_w1200/v1755541317/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_07_2/Civil-War-in-Myanmar-Myanmar_07_2.jpg?_i=AA)
+Members of the People's Defence Forces (PDF) who became guerrilla fighters after being protesters are seen on the front line in Kawkareik, Myanmar, on December 31, 2021.
 Stringer/Reuters
+
 ![Myanmar's junta chief Senior General Min Aung Hlaing](https://assets.cfr.org/images/t_gct_w1200/v1755541321/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_03_1/Civil-War-in-Myanmar-Myanmar_03_1.jpg?_i=AA)
 Myanmar's junta chief Senior General Min Aung Hlaing, who ousted the elected government in a coup on February 1, presides an army parade on Armed Forces Day in Naypyitaw, Myanmar, March 27, 2021.
 Stringer/Reuters
+
 ![Demonstrators hold placards with the image of Aung San Suu Kyi](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
 Demonstrators hold placards with the image of Aung San Suu Kyi during a protest against the military coup in Yangon, Myanmar, on February 15, 2021.
 Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541299/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_02/Civil-War-in-Myanmar-Myanmar_02.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 17, 2021.
-Stringer/Reuters
-![Guerrilla fighters after being protesters are seen on the front line](https://assets.cfr.org/images/t_gct_w1200/v1755541311/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_11_5/Civil-War-in-Myanmar-Myanmar_11_5.jpg?_i=AA)
-Guerrilla fighters after being protesters are seen on the front line in Kawkareik, Myanmar, on December 31, 2021.
-Stringer/Reuters
-![Myanmar soldiers from the 77th light infantry division walk along a street](https://assets.cfr.org/images/t_gct_w1200/v1755541299/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_02/Civil-War-in-Myanmar-Myanmar_02.jpg?_i=AA)
-Myanmar soldiers from the 77th light infantry division walk along a street during a protest against the military coup in Yangon, Myanmar, on February 28, 2021
-Stringer/Reuters
-![A protester makes a three-finger salute in front of a row of riot police, who are holding roses given to them by protesters](https://assets.cfr.org/images/t_gct_w1200/v1755541311/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_11_5/Civil-War-in-Myanmar-Myanmar_11_5.jpg?_i=AA)
-A protester makes a three-finger salute in front of a row of riot police, who are holding roses given to them by protesters, on February 6, 2021, in Yangon, Myanmar.
-Stringer/Reuters
-![Demonstrators hold placards with the image of Aung San Suu Kyi](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators hold placards with the image of Aung San Suu Kyi during a protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15, 2021.
-Stringer/Reuters
-![Demonstrators protest against the military coup](https://assets.cfr.org/images/t_gct_w1200/v1755541305/globalconflicttracker/Civil-War-in-Myanmar-Myanmar_04_1/Civil-War-in-Myanmar-Myanmar_04_1.jpg?_i=AA)
-Demonstrators protest against the military coup in Yangon, Myanmar, on February 15,
+
+Four years after the junta’s 2021 coup, Myanmar’s military government controls only 21 percent of the country’s territory, while rebel forces and ethnic armies hold 42 percent, according to a [2024 investigation](https://www.bbc.com/news/articles/c390ndrny17o) by the BBC. The People’s Defense Force (PDF) and its allies continue gaining key territory, pushing the military on the defensive in the [Bamar heartland](https://asiatimes.com/2025/02/myanmars-fluid-war-edging-toward-an-endgame/) and advancing towards Mandalay. The military junta especially struggles to fight ethnic armed organizations across the country, which have made most of the territorial gains so far. The United Nations has [reported](https://news.un.org/en/audio/2024/09/1154446) that the conflict has displaced over three million civilians and resulted in more than seventy-five thousand total deaths.
+
+## Background
+Since gaining independence from British rule in 1948, Myanmar (formerly known as Burma) has struggled to govern its multiethnic society effectively. Following a coup in 1962, Myanmar’s military junta has primarily [held control](https://www.amnesty.org/en/latest/press-release/2017/06/myanmar-ethnic-minorities-face-violations-in-northern-conflict/) of the country, engaging in conflicts with ethnic minority groups fighting for greater autonomy.
+
+These ongoing tensions have their roots in the country’s [complex ethnic makeup](https://rpl.hds.harvard.edu/religion-context/case-studies/violence-peace/conflict-myanmar) and the legacy of British colonial rule, which exacerbated divisions among different communities. The conflicts have resulted in widespread human rights abuses, displacement of civilians, and [persistent instability](https://www.aljazeera.com/news/2024/10/4/like-we-are-trapped-minorities-suffer-amid-conflict-in-myanmars-rakhine) across many regions of Myanmar.
+
+In 1990, Myanmar held its first general election since the 1962 military coup. The National League for Democracy (NLD), led by Aung San Suu Kyi, won by a [landslide](http://archive.ipu.org/parline-e/reports/arc/2388_90.htm). Suu Kyi, the daughter of the nationalist leader who fought for Burma’s independence and the most prominent democratic activist, was placed under house arrest by the junta before the vote. After the election, the junta [refused to recognize](https://www.reuters.com/article/world/myanmar-junta-annuls-election-held-20-years-ago-idUSTRE62A15L/) the results. 
+
+The NLD’s success in the 1990 election made the junta realize its [limited support](https://www.hrw.org/news/2010/05/26/burma-20-years-after-1990-elections-democracy-still-denied) among the populace. To maintain its grip on power, the junta embarked on a decades-long process to enshrine military rule through what it called “disciplined democracy” or a “[roadmap to democracy](https://kyotoreview.org/issue-40/dismantling-myanmars-election-integrity/),” which included drafting a new constitution in 2008. The constitution reserved significant power for the military, including control over [important ministries](https://foreignpolicy.com/2015/11/15/burmas-militarized-ministries/) and 25 percent of parliamentary seats, effectively granting it veto power over amendments. This approach allowed for limited reforms but ensured the military’s continued influence. 
+
+Under the junta’s roadmap, the government held general elections in November 2010. In the leadup to the vote, the junta passed [new election laws](https://chrome-extension:/efaidnbmnnnibpcajpcglclefindmkaj/https:/www.hrw.org/sites/default/files/related_material/burma_0_0.pdf) that prohibited anyone serving a prison sentence or married to a foreign national from running for president—a clear attempt to block Suu Kyi from the ballot, who was still under house arrest and married to a British citizen. The NLD decided to [boycott the elections](https://chrome-extension/efaidnbmnnnibpcajpcglclefindmkaj/https:/www.hrw.org/sites/default/files/related_material/burma_0_0.pdf), and the military-backed Union Solidarity and Development Party (USDP) won. 
+
+In 2015, the NLD returned to participate in general elections, with Suu Kyi unofficially leading the party. The NLD [won](https://www.bbc.com/news/world-asia-33547036) Myanmar’s first competitive national election in over twenty-five years. Due to the revised election laws, Suu Kyi could not officially become president but became de facto leader as State Counsellor. The NLD entered a [power-sharing arrangement](https://foreignpolicy.com/2015/11/15/burmas-militarized-ministries/) with the military according to the 2008 constitution, leading a civilian parliament while the military continued to control crucial executive ministries and oversee security policy.
+
+Despite her reputation as a [democratic icon](https://www.theguardian.com/world/2018/nov/23/aung-san-suu-kyi-fall-from-grace-myanmar), Suu Kyi lost international support as her NLD government defended the military’s ethnic cleansing against Myanmar’s Rohingya people, a Muslim ethnic minority group of one million. The Rohingya live in western Myanmar’s Rakhine state, which borders present-day Bangladesh. The Rohingya have long faced persecution from the ethnic Bamar majority, who often call them “Bengali” to discredit their right to live in Myanmar. Myanmar’s government asserts that the Rohingya did not settle in historic Burma before British rule began in 1823. This criterion determined which groups are considered “indigenous ethnic” within the [1982 Citizenship Law](https://rccchicago.org/history-of-the-rohingya/). Thus, Rohingya are not considered citizens by Myanmar’s government, making them the [largest stateless population](https://newlinesinstitute.org/state-resilience-fragility/statelessness-the-root-cause-of-the-rohingya-crisis-needs-to-be-addressed/) in the world. 
+
+Tensions between Buddhist and Muslim communities in Myanmar’s Rakhine State escalated dramatically after a series of Rohingya militant attacks in [October 2016](https://www.nytimes.com/2016/10/13/world/asia/sectarian-violence-myanmar-rakhine.html?_r=0) and [August 2017](https://www.theguardian.com/world/2017/aug/25/rohingya-militants-blamed-as-attack-on-myanmar-border-kills-12). These [attacks](https://attacks) on military and police outposts, led by the Arakan Rohingya Salvation Army, killed twelve Burmese security forces personnel in total. In both years, the military responded with [brutal crackdowns](https://www.theguardian.com/world/2017/feb/09/more-than-1000-rohingya-feared-killed-in-myanmar-crackdown-say-un-officials) on Rohingya villages, causing [at least 6,700 deaths](https://www.theguardian.com/world/2017/dec/14/6700-rohingya-muslims-killed-in-attacks-in-myanmar-says-medecins-sans-frontieres) between August and September 2017 and forcing over 700,000  people to [flee](https://bangladesh.iom.int/sites/default/files/documents/07-02-19/IOM%20Rohingya%20Crisis%20Response%20-%20External%20Sitrep%20-%20January%202019.pdf) across the border to Bangladesh. Widespread [reports indicate](https://www.amnesty.org/en/latest/news/2017/10/myanmar-new-evidence-of-systematic-campaign-to-terrorize-and-drive-rohingya-out/) indiscriminate killings and burning of Rohingya villages, with the UN Human Rights Commissioner [calling](https://news.un.org/en/story/2017/09/564622-un-human-rights-chief-points-textbook-example-ethnic-cleansing-myanmar#.WfJRrltSy70) the situation in Rakhine State “a textbook example of ethnic cleansing.” Since 2017, living conditions for the more than one million Rohingya across the border in Cox’s Bazar, Bangladesh, have continued to deteriorate.  
+
+In November 2020, the NLD won the general election again by a large margin. The military contested the results [as fraudulent](https://www.bbc.com/news/55918746), sensing the continued democratic success of the NLD posed a long-term threat to its rule. In early February 2021, Myanmar’s military [carried out a coup](https://www.nytimes.com/article/myanmar-news-protests-coup.html), detaining senior leadership of the democratically-elected government, [including ](https://www.bbc.com/news/world-asia-55882489)de facto head of state Suu Kyi, and forcing other members of parliament into hiding. After seizing power, General Min Aung Hlaing, the leader of the military junta, instituted a year-long state of emergency.
+
+[Protests](https://www.nytimes.com/article/myanmar-news-protests-coup.html) immediately broke out in the capital, Naypyidaw, demanding the restoration of civilian rule and democratic governance. In response, security forces employed lethal force, killing [more than six hundred people](https://www.nytimes.com/article/myanmar-news-protests-coup.html). The military junta also instituted curfews and other limitations on gatherings to curb the demonstrations. Doubling down, the military launched violent campaigns across the country, [targeting resistance villages](https://www.washingtonpost.com/world/interactive/2021/myanmar-military-burn-villages-tatmadaw/), and [silencing and torturing dissenters](https://www.state.gov/reports/2021-country-reports-on-human-rights-practices/burma/), displacing thousands in the process. 
+
+As international condemnation amplified, an opposition force of ousted officials, oppressed ethnic groups, and pro-democracy protestors [united to form](https://time.com/7160736/myanmar-coup-civil-war-conflict-timeline-endgame-explainer/) the National Unity Government (NUG) in April 2021. The NUG publicly states its goal of governing Myanmar as a “[federal democratic union](https://nugmyanmar.org/announcement/joint-statement/joint-declaration/).” Shortly after, the new coalition [formed](https://thediplomat.com/2021/05/can-myanmars-new-peoples-defense-force-succeed/) the People’s Defense Force (PDF)—an armed wing to fight the junta and its allied forces. 
+
+As the junta repressed protests, popular support for the democratic resistance movement grew: in 2022, the PDF claimed 65,000 fighters, which rose to [85,000 soldiers](https://www.usip.org/publications/2022/11/understanding-peoples-defense-forces-myanmar) in 2024. Rebel ethnic groups across the country’s states have played a critical role in strengthening the PDF’s efforts, with a common goal of pushing military forces back from local villages. Several of the [twenty-five active ethnic](https://www.geopoliticalmonitor.com/backgrounder-ethnic-armies-in-the-myanmar-civil-war/) armies coordinate with the pro-democracy forces, including the Kachin Independence Army (KIA), Shan State Army, and Karen National Liberation Army (KNLA).
+
+In late October 2023, a coalition of three ethnic armed groups in Shan State launched a coordinated offensive—named Operation 1027, for the date the offensive commenced—against the junta. Known as the Three Brotherhood Alliance, this [coalition consists](https://www.aljazeera.com/news/2024/1/16/what-is-myanmars-three-brotherhood-alliance-thats-resisting-the-military) of the Arakan Army (AA), the Myanmar National Democratic Alliance Army (MNDAA), and the Ta’ang National Liberation Army (TNLA). Initially formed in 2019, the group’s 2023 coordinated offensive posed the strongest challenge to military rule since the February 2021 coup. Insurgents [used drones](https://www.aljazeera.com/news/2023/11/16/myanmar-military-admits-facing-heavy-assaults-from-anti-coup-forces) to bomb military and police outposts in eastern Kayah State, bordering Thailand; western Rakhine State, bordering India; and northern Shan State, bordering China. By the end of 2023, the offensive captured over [180 military outposts](https://www.nbcnews.com/news/world/myanmar-military-losing-ground-coordinated-attacks-rcna127547) in Shan State.
+
+The military continues to leverage its technological advantages, many of which are granted by foreign suppliers like Russia and China, to fight armed opposition groups. However, [waning morale](https://www.nytimes.com/2021/11/21/world/asia/myanmar-defectors-coup.html) has hindered military cohesion. Military forces have dwindled from the start of the civil war, with only [approximately 130,000 soldiers](https://www.usip.org/publications/2024/04/nine-things-know-about-myanmars-conflict-three-years) remaining from a collective of 300,000 in 2021. 
+
+## Recent Developments
+While the military still possesses technological superiority, its forces have not been effective in countering rebel offensives. It has [lost critical infrastructure](https://time.com/7160736/myanmar-coup-civil-war-conflict-timeline-endgame-explainer/) and townships, and the country is experiencing significant [economic pressures](https://www.voanews.com/a/myanmar-s-economy-to-shrink-as-floods-compound-crisis-says-world-bank/7897046.html) and high rates of [food insecurity](https://www.wfp.org/news/myanmar-brink-conflict-fuels-hunger). The military resorted to [forced conscription](https://www.usip.org/publications/2024/02/myanmars-fateful-conscription-law) in February 2024 to address its manpower shortage. Since then, the military has conscripted about [thirty thousand people](https://aseanmp.org/publications/post/aphr-denounces-myanmars-forced-conscription-of-youth-calls-for-urgent-international-action/), prompting an exodus of young people fleeing Myanmar’s cities. 
+
+In August 2024, the Three Brotherhood Alliance [seized](https://www.nytimes.com/2024/08/05/world/asia/myanmar-rebels-lashio.html?searchResultPosition=1) the Northeastern Regional Military Command (RMC) in Lashio—a key military headquarters and economic access point to China. Lashio remains under MNDAA control, though [fears persist](https://www.theguardian.com/global-development/2025/jan/31/myanmar-military-coup-anniversary) in the city over the MNDAA’s imposition of martial law and rumors of forced conscription. 
+
+In December 2024, fighting in the city of Maungdaw in Rakhine State [ended with victory](https://www.bbc.com/news/articles/ckg324den6po) for the Arakan Army, an ethnic Buddhist militant group. With the Arakan Army taking control of villages and townships in the state, local minority groups, such as the Rohingya, fear continued ethnic persecution. 
+
+Throughout the conflict, both domestic and international support for the NUG has risen. A [2024 survey](https://www.usip.org/publications/2024/02/myanmar-new-data-show-wide-support-unity-government) revealed that around 93 percent of respondents in Myanmar have a favorable opinion of the NUG. In January 2025, the junta [announced plans](https://www.reuters.com/world/asia-pacific/risk-violence-escalates-myanmars-civil-war-junta-flags-elections-2025-01-30/) for general elections by the end of the year or early 2026 to consolidate political control. Observers fear elections could lead to more violence. The junta also [extended its state of emergency](https://apnews.com/article/myanmar-military-emergency-rule-extension-election-92431d1c27994afe5d19b774d038fd26) by six months.
+
+China has steadily increased its involvement in the conflict, seeking an end to the fighting to preserve the military junta and ensure stability. Beijing has brokered [several ceasefires](https://apnews.com/article/myanmar-ceasefire-china-84fe105c209be4fc482a04628733e4c5), with mixed results and [temporary truces](https://www.aljazeera.com/news/2023/12/20/tentative-truce-shows-extent-and-limit-of-chinas-influence-in-myanmar). China’s [economic interests](https://www.stimson.org/2024/china-in-myanmar-how-the-game-changing-neighbor-would-continue-to-maintain-its-influence/) in Myanmar include critical minerals, oil and gas, and BRI infrastructure projects. Myanmar also [provides deep-sea port access](https://www.lowyinstitute.org/the-interpreter/why-myanmar-s-new-deep-sea-port-such-hot-property) and a key alternative to the Strait of Malacca trade route. Though China continues to provide military support to the junta, it also [maintains relations ](https://www.lowyinstitute.org/the-interpreter/china-puts-squeeze-myanmar-s-tatmadaw)with the NLD.

@@ -8,11 +8,14 @@
 By [Nandita Bose](https://www.reuters.com/authors/nandita-bose/), [Steven Scheer](https://www.reuters.com/authors/steven-scheer/) and [Yomna Ehab](https://www.reuters.com/authors/yomna-ehab/)
 March 31, 20267:31 PM EDTUpdated 1 min ago
 
-  * Trump says US will be leaving Iran 'very soon', plans national address
-  * Kuwait, Bahrain hit by more Iran attacks, tanker struck off Qatar
-  * Rubio says direct talks with Tehran possible; to 'reexamine' NATO ties
-  * Asian stocks rebound on hope for end to war; Brent futures extend gains
-  * Iran reports strikes across capital, passenger port terminal hit
+* Summary
+* Companies
+
+* Trump says US will be leaving Iran 'very soon', plans national address
+* Kuwait, Bahrain hit by more Iran attacks, tanker struck off Qatar
+* Rubio says direct talks with Tehran possible; to 'reexamine' NATO ties
+* Asian stocks rebound on hope for end to war; Brent futures extend gains
+* Iran reports strikes across capital, passenger port terminal hit
 
 WASHINGTON/JERUSALEM/CAIRO, April 1 (Reuters) - U.S. President Donald Trump and his Secretary of State Marco Rubio ​said the end of the [war on Iran](https://www.reuters.com/world/iran/) could be near, with Washington signaling potential for both direct talks with Tehran's leadership and a winding down of the conflict even without a deal.
 The remarks underscored Washington's shifting ‌and at times contradictory statements about when and how a war that has killed thousands, spread across the region and caused unprecedented energy disruption might end.
@@ -37,6 +40,7 @@ Shahid Haghani Port, Iran's largest passenger terminal, was hit by an overnight 
 Gulf countries, some home to U.S. bases, have been repeatedly fired on by Tehran during the conflict, with concerns mounting about Iran's closure of the Strait of Hormuz and ability to use the vital waterway, a conduit for a fifth of global oil and liquefied natural gas, as a bargaining chip.
 
 Oil rose more than 1% on Wednesday, with Brent futures [extending gains](https://www.reuters.com/business/energy/front-month-brent-oil-futures-extend-gains-after-record-monthly-rise-march-2026-04-01/) after March's record monthly ​rise despite Trump's talk of a war exit, while stocks and bonds [rallied](https://www.reuters.com/world/china/global-markets-wrapup-1-2026-04-01/) at the start of the Asian session on hopes of a de-escalation.
+
 MSCI's broadest index of Asia-Pacific shares outside Japan [(.MIAPJ0000PUS), opens new tab](https://www.reuters.com/markets/quote/.MIAPJ0000PUS) was up 2.7% , breaking a four-day losing streak after stocks on Wall Street ​soared on Tuesday as traders bet on the [potential off-ramp](https://www.reuters.com/business/wall-st-futures-rise-iran-war-de-escalation-hopes-indexes-set-monthly-drops-2026-03-31/).
 
 ## U.S. MESSAGING IS NOT NEGOTIATIONS, IRAN SAYS
@@ -52,12 +56,14 @@ While the United States has said talks with Iran were ongoing and expressed opti
 The messages include threats or exchanged views delivered through "friends", he added.
 
 U.S. Defense Secretary Pete Hegseth said on Tuesday other countries needed to "be prepared to stand up" and help [reopen](https://www.reuters.com/world/middle-east/hegseth-says-he-visited-us-troops-middle-east-2026-03-31/) the Strait of Hormuz, echoing criticism from Trump, who has singled out NATO members Britain and France.
+
 Secretary of State Rubio told Fox News NATO was a "one-way street" and Europe was eager for the U.S. to defend it but would not provide the help Washington had sought.
 "After this conflict is concluded, we are going to have to reexamine that ​relationship," Rubio said.
 
 The United Arab Emirates is preparing to help the ​U.S. and allies open the Strait by force, the Wall ⁠Street Journal reported late on Tuesday. The UAE is seeking a U.N. Security Council resolution for the action and suggested the U.S. occupy strategic islands, according to the report.
 
 Iran's Revolutionary Guards on Tuesday hit back with a new threat against U.S. companies in the region starting from 8 p.m. Tehran time (1630 GMT) on Wednesday, listing 18 businesses including Microsoft [(MSFT.O), opens new tab](https://www.reuters.com/markets/companies/MSFT.O), Google [(GOOGL.O), opens new tab](https://www.reuters.com/markets/companies/GOOGL.O), Apple [(AAPL.O), opens new tab](https://www.reuters.com/markets/companies/AAPL.O), Intel [(INTC.O), opens new tab](https://www.reuters.com/markets/companies/INTC.O), IBM [(IBM.N), opens new tab](https://www.reuters.com/markets/companies/IBM.N), Tesla [(TSLA.O), opens new tab](https://www.reuters.com/markets/companies/TSLA.O) and Boeing [(BA.N), opens new tab](https://www.reuters.com/markets/companies/BA.N).
+
 Asked if ​he was concerned about threats, Trump said no.
 
 ![Shows fuel price increase](https://www.reuters.com/graphics/USA-ECONOMY/GASOLINE-DIESEL/zjpqmjxbkpx/chart.png)

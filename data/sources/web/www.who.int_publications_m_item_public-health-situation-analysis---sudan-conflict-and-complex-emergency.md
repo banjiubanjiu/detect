@@ -4,13 +4,11 @@
 
 ---
 
-* [ ![World Health Organization](https://www.who.int/images/default-source/fallback/header-logos/h-logo-blue1820eae93c154e37b2588ab90fdbc17e.svg?sfvrsn=aaed4f35_20) ](https://www.who.int/) [Global](https://www.who.int/)
-  * Regions
-![World Health Organization](https://www.who.int/images/default-source/fallback/header-logos/h-logo-blue1820eae93c154e37b2588ab90fdbc17e.svg?sfvrsn=aaed4f35_20) WHO Regional websites
-__
-    * [ Africa ](https://www.afro.who.int/)
-    * [ Americas ](https://www.paho.org/en)
-    * [ South-East Asia ](https://www.who.int/southeastasia)
-    * [ Europe ](https://www.who.int/europe/)
-    * [ Eastern Mediterranean ](http://www.emro.who.int/index.html)
-    * [ Western Pacific ](https://www.who.int/westernpacific/)
+There appears to be no actual article content in the provided markdown - only navigation menus and structural elements from the WHO website. The content consists entirely of:
+
+1. Repeated WHO header/navigation elements
+2. Menu structures
+3. Link lists
+4. Organizational sections
+
+Since there is no article body, title, author, date, or substantive content to extract, I cannot provide cleaned article content. The input appears to be website navigation markup rather than an article.

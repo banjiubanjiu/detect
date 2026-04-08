@@ -6,14 +6,13 @@
 
 # Timeline of the Israeli–Palestinian conflict in 2026
 
-For events concerning the [Gaza war](https://en.wikipedia.org/wiki/Gaza_war "Gaza war"), see [Timeline of the Gaza war](https://en.wikipedia.org/wiki/Timeline_of_the_Gaza_war "Timeline of the Gaza war").
+For events concerning the [Gaza war](https://en.wikipedia.org/wiki/Gaza_war "Gaza war"), see [Timeline of the Gaza war](https://en.wikipedia.org/wiki/Timeline_of_the_Gaza_w "Timeline of the Gaza war").
 [Timeline of the Israeli–Palestinian conflict](https://en.wikipedia.org/wiki/Timeline_of_the_Israeli%E2%80%93Palestinian_conflict "Timeline of the Israeli–Palestinian conflict"):  
 ---  
   * [2024](https://en.wikipedia.org/wiki/Timeline_of_the_Israeli%E2%80%93Palestinian_conflict_in_2024 "Timeline of the Israeli–Palestinian conflict in 2024")
   * [2025](https://en.wikipedia.org/wiki/Timeline_of_the_Israeli%E2%80%93Palestinian_conflict_in_2025 "Timeline of the Israeli–Palestinian conflict in 2025")
   * **2026**
 
-  
 The following is a list of events during the [Israeli–Palestinian conflict](https://en.wikipedia.org/wiki/Israeli%E2%80%93Palestinian_conflict "Israeli–Palestinian conflict") in 2026, including the events of the [Gaza war](https://en.wikipedia.org/wiki/Gaza_war "Gaza war"). 
 
 ## January

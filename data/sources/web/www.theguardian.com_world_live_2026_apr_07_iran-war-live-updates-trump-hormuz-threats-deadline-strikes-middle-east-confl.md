@@ -12,8 +12,9 @@ Tue 7 Apr 2026 05.00 EDTFirst published on Mon 6 Apr 2026 23.05 EDT
 
 ![Man walks in Tehran among buildings destroyed by US-Israeli led attacks](https://i.guim.co.uk/img/media/91689b55661317adc2f4f5e700794ab80a339c41/0_0_6720_4480/master/6720.jpg?width=465&dpr=1&s=none&crop=none)
 A man walks in Tehran among buildings destroyed in a joint US-Israel attack. Iran, which has effectively closed the strait of Hormuz, has been under daily attack since 28 February. Photograph: Majid Saeedi/Getty Images
-View image in fullscreen
-A man walks in Tehran among buildings destroyed in a joint US-Israel attack. Iran, which has effectively closed the strait of Hormuz, has been under daily attack since 28 February. Photograph: Majid Saeedi/Getty Images
+
+[Vivian Ho](https://www.theguardian.com/profile/vivian-ho) (now) and [Adam Fulton](https://www.theguardian.com/profile/adam-fulton) (earlier)
+Tue 7 Apr 2026 05.00 EDTFirst published on Mon 6 Apr 2026 23.05 EDT
 
 [11m ago05.00 EDT](https://www.theguardian.com/?page=with%3Ablock-69d4c5808f0841dd8787e938#block-69d4c5808f0841dd8787e938)
  **Israel and the US struck 17 civilian targets on Tuesday morning, the Iranian Red Crescent said,** in attacks that the humanitarian NGO have decried as war crimes.
@@ -54,7 +55,7 @@ Here’s a recap of the latest news from the [US-Israel war on Iran](https://www
   * **The Israeli military warned the people of Iran via X on Tuesday morning not to use trains and be near railway lines** “from this moment until 21:00 Iran time”, saying that doing so “endangers your life”.
   * **The UN security council is expected to vote on Tuesday on a resolution to protect commercial shipping in the strait of Hormuz but in significantly watered-down form** after veto-wielding China opposed authorising force, Reuters cited diplomats as saying.
 
-![A woman holds Iran’s national flag while standing near a billboard with a sentence reading ‘The Strait of Hormuz remains closed’ at the Enqelab Square in Tehran on Sunday](https://i.guim.co.uk/img/media/d8054bd3ba2366ebdea2a83c23b0d513959152f2/462_0_4596_3679/master/4596.jpg?width=465&dpr=1&s=none&crop=none)View image in fullscreen
+![A woman holds Iran’s national flag while standing near a billboard with a sentence reading ‘The Strait of Hormuz remains closed’ at the Enqelab Square in Tehran on Sunday](https://i.guim.co.uk/img/media/d8054bd3ba2366ebdea2a83c23b0d513959152f2/462_0_4596_3679/master/4596.jpg?width=465&dpr=1&s=none&crop=none)
 A woman holds Iran’s national flag while standing near a billboard with a sentence reading ‘The Strait of Hormuz remains closed’ at the Enqelab Square in Tehran on Sunday.  Photograph: AFP/Getty Images
   * **The Israeli military said early on Tuesday it had completed an “air strike wave” aimed at damaging Iranian regime infrastructure** in Tehran and other areas across Iran. It said soon after that missiles were launched at [Israel](https://www.theguardian.com/world/israel) from Iran and defensive systems operated to incept them.
   * **Oil prices rose on Tuesday** while equities were mixed as investors assessed **** Trump’s latest deadline over the Hormuz strait. The head of the IMF said the war would lead to “higher inflation and slower global growth”
@@ -68,19 +69,19 @@ A woman holds Iran’s national flag while standing near a billboard with a sent
 Updated at 02.02 EDT
 [3h ago01.57 EDT](https://www.theguardian.com/?page=with%3Ablock-69d481518f086bcf9a2a1a67#block-69d481518f086bcf9a2a1a67)
 Here are some of the latest images coming in from the Middle East as the war continues in week six.
-![Municipal workers clean the street at a building that was hit by an Iranian projectile attack in Ramat Gan, central Israel](https://i.guim.co.uk/img/media/966495e7f80303acb1682088ebb60e0a8a2c697e/854_0_6827_5464/master/6827.jpg?width=465&dpr=1&s=none&crop=none)View image in fullscreen
+![Municipal workers clean the street at a building that was hit by an Iranian projectile attack in Ramat Gan, central Israel](https://i.guim.co.uk/img/media/966495e7f80303acb1682088ebb60e0a8a2c697e/854_0_6827_5464/master/6827.jpg?width=465&dpr=1&s=none&crop=none)
 Municipal workers clean the street at a building that was hit by an Iranian projectile attack in Ramat Gan, central Israel.  Photograph: Ilia Yefimovich/AFP/Getty Images
-![Supporters of the Iran-backed Houthi movement brandish their weapons as they rally in solidarity with Iran and Lebanon in Sana’a, Yemen.](https://i.guim.co.uk/img/media/6d2695f1d2aa7e7322ce7f7e8fad133995d8f8ac/174_0_4170_3336/master/4170.jpg?width=465&dpr=1&s=none&crop=none)View image in fullscreen
+![Supporters of the Iran-backed Houthi movement brandish their weapons as they rally in solidarity with Iran and Lebanon in Sana’a, Yemen.](https://i.guim.co.uk/img/media/6d2695f1d2aa7e7322ce7f7e8fad133995d8f8ac/174_0_4170_3336/master/4170.jpg?width=465&dpr=1&s=none&crop=none)
 Supporters of the Iran-backed Houthi movement brandish their weapons as they rally in solidarity with Iran and Lebanon in Sana’a, Yemen. Photograph: Mohammed Huwais/AFP/Getty Images
-![A grab from video released by Iran’s state broadcaster \(Irib\) show what it says are drones launched at US targets at Saudi Arabia’s Al-Kharj base and Kuwait’s Al-Adiri base](https://i.guim.co.uk/img/media/b225f75916fb9e2888ee276cad73f84fe302cf6c/914_562_2212_1770/master/2212.jpg?width=465&dpr=1&s=none&crop=none)View image in fullscreen
+![A grab from video released by Iran’s state broadcaster \(Irib\) show what it says are drones launched at US targets at Saudi Arabia’s Al-Kharj base and Kuwait’s Al-Adiri base](https://i.guim.co.uk/img/media/b225f75916fb9e2888ee276cad73f84fe302cf6c/914_562_2212_1770/master/2212.jpg?width=465&dpr=1&s=none&crop=none)
 A grab from video released by Iran’s state broadcaster (Irib) show what it says are drones launched at US targets at Saudi Arabia’s Al-Kharj base and Kuwait’s Al-Adiri base.  Photograph: Irib news agency/AFP/Getty Images
-![Israelis take cover around a bomb shelter in a public park as sirens sound during Iranian missile attacks in Hod Hasharon, central Israel](https://i.guim.co.uk/img/media/702fe13b5d71df6d98cadee7c09a57ba130c961c/1791_0_8438_6752/master/8438.jpg?width=465&dpr=1&s=none&crop=none)View image in fullscreen
+![Israelis take cover around a bomb shelter in a public park as sirens sound during Iranian missile attacks in Hod Hasharon, central Israel](https://i.guim.co.uk/img/media/702fe13b5d71df6d98cadee7c09a57ba130c961c/1791_0_8438_6752/master/8438.jpg?width=465&dpr=1&s=none&crop=none)
 Israelis take cover around a bomb shelter in a public park as sirens sound during Iranian missile attacks in Hod Hasharon, central Israel. Photograph: David Silverman/Getty Images
-![A woman walks among buildings destroyed in an Israeli-US strike in Tehran, Iran](https://i.guim.co.uk/img/media/902f644d7d7dd891668706a06a335b1c32259797/505_0_5600_4480/master/5600.jpg?width=465&dpr=1&s=none&crop=none)View image in fullscreen
+![A woman walks among buildings destroyed in an Israeli-US strike in Tehran, Iran](https://i.guim.co.uk/img/media/902f644d7d7dd891668706a06a335b1c32259797/505_0_5600_4480/master/5600.jpg?width=465&dpr=1&s=none&crop=none)
 A woman walks among buildings destroyed in an Israeli-US strike in Tehran, Iran.  Photograph: Majid Saeedi/Getty Images
-![Injured Palestinians are brought to Aqsa Martyrs’ hospital after an Israeli attack in the Maghazi refugee camp area in central Gaza](https://i.guim.co.uk/img/media/aded971564d627d253b135cf9e798abb2c9881cf/480_0_4800_3840/master/4800.jpg?width=465&dpr=1&s=none&crop=none)View image in fullscreen
+![Injured Palestinians are brought to Aqsa Martyrs’ hospital after an Israeli attack in the Maghazi refugee camp area in central Gaza](https://i.guim.co.uk/img/media/aded971564d627d253b135cf9e798abb2c9881cf/480_0_4800_3840/master/4800.jpg?width=465&dpr=1&s=none&crop=none)
 Injured Palestinians are brought to Aqsa Martyrs’ hospital after an Israeli attack in the Maghazi refugee camp area in central Gaza. Photograph: Anadolu/Getty Images
-![Displaced people sit outside their tents at an unofficial camp erected along Beirut’s seafront area](https://i.guim.co.uk/img/media/adf4d9400b9772a7fabd4e6fe316a3e60ba09752/577_0_5000_4000/master/5000.jpg?width=465&dpr=1&s=none&crop=none)View image in fullscreen
+![Displaced people sit outside their tents at an unofficial camp erected along Beirut’s seafront area](https://i.guim.co.uk/img/media/adf4d9400b9772a7fabd4e6fe316a3e60ba09752/577_0_5000_4000/master/5000.jpg?width=465&dpr=1&s=none&crop=none)
 Displaced people sit outside their tents at an unofficial camp erected along Beirut’s seafront area. Photograph: AFP/Getty Images
 [4h ago01.31 EDT](https://www.theguardian.com/?page=with%3Ablock-69d495848f080da25b48c45f#block-69d495848f080da25b48c45f)
 ## Israel threatens entire Iran train network
@@ -99,6 +100,4 @@ The economic planning department said on Tuesday that a surge in transport price
 Updated at 01.16 EDT
 [4h ago00.56 EDT](https://www.theguardian.com/?page=with%3Ablock-69d48d798f086bcf9a2a1a94#block-69d48d798f086bcf9a2a1a94)
 Australian prime minister **Anthony Albanese says he will fly to Singapore** this week to help secure petroleum imports as oil prices surge during the Middle East war.
-Australia relies on imports for an estimated 90% of its refined petroleum products and Singapore is its largest single supplier.
-Albanese said on Tuesday he would visit Singapore from Thursday to Saturday to discuss trade in “essential supplies” such as diesel and liquefied natural gas with prime minister **Lawrence Wong**.
-> double quotation markTogether, we share concern over
+Australia relies on imports for an estimated 90% of its refined petroleum products and Singapore is its largest single supplier
