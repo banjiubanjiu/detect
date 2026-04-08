@@ -48,6 +48,56 @@
     </div>
   </header>
 
+  <!-- A · Meta banner: 数据血统 + 方法论入口 -->
+  <div class="an-meta-banner" id="metaBanner">
+    <span class="amb-icon">📅</span>
+    <span class="amb-text" id="metaText">Loading data lineage…</span>
+    <span class="amb-method-link" id="methodLink">methodology ↗</span>
+    <div class="amb-popover" id="methodPopover">
+      <div class="amb-pop-head">
+        <h3>Methodology · 方法论</h3>
+        <span class="amb-pop-close" id="methodClose">×</span>
+      </div>
+      <div class="amb-pop-body">
+        <dl class="amb-glossary">
+          <dt>Escalation Index <span class="amb-formula">freq×0.5 + goldstein×0.3 + mentions×0.2</span></dt>
+          <dd>0-100 综合评分。比对近 7d 与前 7d 的事件量、平均 Goldstein 分数、外部提及次数。≥62 升级 / ≤38 缓和 / 中间稳定。</dd>
+
+          <dt>Goldstein Scale <span class="amb-formula">range -10 ~ +10</span></dt>
+          <dd>GDELT 用的事件烈度刻度。-10 = 最严重武装冲突,+10 = 最积极合作。我们仅采集 ≤ -5 的负面事件。</dd>
+
+          <dt>Cluster (多源印证) <span class="amb-formula">title Jaccard ≥ 0.5</span></dt>
+          <dd>同一冲突 ±2 天窗口内,标题 token 相似度达到阈值的事件被聚为一个 cluster。≥2 个独立源的 cluster 视作"印证"。GDELT 不参与(机器抽取不算独立源)。</dd>
+
+          <dt>Cross-bias (跨视角) <span class="amb-formula">cluster_bias_count ≥ 2</span></dt>
+          <dd>一个 cluster 的成员来自 ≥2 种媒体偏见标签 (如 ukrainian + russian-independent),视作"跨视角印证",可信度更高。</dd>
+
+          <dt>Criticality 分级 <span class="amb-formula">LLM 标注 (BLUF)</span></dt>
+          <dd>每条事件由 LLM 评为 critical / notable / background 三级。Critical = 必须知道,Notable = 值得关注,Background = 上下文。</dd>
+
+          <dt>SURGE 异常 <span class="amb-formula">7d > 1.5 × 前 7d 且 ≥ 10 条</span></dt>
+          <dd>某冲突近 7 天事件量超过前 7 天 50%,且绝对值达到 10 条以上,触发 SURGE 红标。无基线时要求 ≥ 15 条。</dd>
+
+          <dt>Bias Labels <span class="amb-formula">manually curated</span></dt>
+          <dd>每个媒体源(域名)预先标注: western / arab / russian-state / russian-indep / ukrainian / chinese / iranian / israeli / neutral。维护在 <code>data/source_credibility.json</code>。</dd>
+
+          <dt>Tier (可信度等级) <span class="amb-formula">T1 / T2 / T3</span></dt>
+          <dd>T1 = 学术/IGO/智库 (UN, ISW, CFR, HRW),T2 = 一线主流媒体 (NYT, BBC, Reuters, Al Jazeera),T3 = 区域/独立 (Meduza, Ukrinform)。</dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+
+  <!-- C · BLUF Critical Events 顶部要点条 -->
+  <section class="an-bluf" id="blufStrip">
+    <div class="an-bluf-head">
+      <span class="abh-icon">🔥</span>
+      <span class="abh-title">CRITICAL · BLUF</span>
+      <span class="abh-sub">窗口内最重要的 5 件事 · click 打开原文</span>
+    </div>
+    <div class="an-bluf-cards" id="blufCards"></div>
+  </section>
+
   <!-- ② 主 streamgraph 区 (全宽) -->
   <section class="an-main">
     <div class="an-panel-head">
@@ -100,6 +150,58 @@
       </div>
     </div>
   </section>
+
+  <!-- B · Source Lineage + D · Cluster Detail 双栏 -->
+  <section class="an-row-three">
+    <div class="an-panel an-source-panel">
+      <div class="an-panel-head">
+        <div class="ap-head-left">
+          <h2 class="an-title">Source Lineage · 信源透明度</h2>
+          <span class="an-sub">数据来自这些媒体源 · bias 标签来自 source_credibility.json (curated) · 颜色按偏见</span>
+        </div>
+      </div>
+      <div class="an-source-grid">
+        <div class="asg-by-source">
+          <div class="asg-section-title">BY SOURCE TYPE</div>
+          <div class="asg-bars" id="sourceBars"></div>
+        </div>
+        <div class="asg-domains">
+          <div class="asg-section-title">TOP DOMAINS</div>
+          <div class="asg-domain-list" id="domainList"></div>
+        </div>
+      </div>
+      <div class="an-bias-dist" id="biasDist"></div>
+    </div>
+
+    <div class="an-panel an-cluster-panel">
+      <div class="an-panel-head">
+        <div class="ap-head-left">
+          <h2 class="an-title">印证簇 · Corroborated Stories</h2>
+          <span class="an-sub" id="clusterSub">cluster_size × bias_count 排序 · 跨偏见标 ★</span>
+        </div>
+      </div>
+      <div class="an-cluster-list" id="clusterList"></div>
+    </div>
+  </section>
+
+  <!-- A · Methodology footer -->
+  <footer class="an-footer">
+    <div class="anf-row">
+      <span class="anf-key">DATA</span>
+      <span class="anf-val" id="footerData">GDELT 2.0 · RSS · X · Reddit · YouTube · web scrape · daily 08:30 UTC</span>
+    </div>
+    <div class="anf-row">
+      <span class="anf-key">METHOD</span>
+      <span class="anf-val">escalation = freq×0.5 + goldstein×0.3 + mentions×0.2 · cluster = title Jaccard ≥ 0.5 · bias labels manually curated</span>
+    </div>
+    <div class="anf-row">
+      <span class="anf-key">SOURCE</span>
+      <span class="anf-val">
+        <a href="https://github.com/banjiubanjiu/detect" target="_blank">github.com/banjiubanjiu/detect</a>
+        · CC-BY · pipeline_health.json updated <span id="footerLastBuild">—</span>
+      </span>
+    </div>
+  </footer>
 
   <script src="analytics.js"></script>
 </body>

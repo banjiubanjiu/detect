@@ -33,6 +33,8 @@ const CONFLICT_PALETTE = {
 
 /* 全局 */
 let D = null;
+let HEALTH = null;            // pipeline_health.json
+let CRED = null;              // source_credibility.json
 let allItems = [];
 let _filterDays = 30;          // 时间窗口 (0 = all)
 let _hiddenConflicts = new Set(); // legend 隐藏的冲突
@@ -80,13 +82,20 @@ function filterByTime(items) {
 ───────────────────────────────────────────── */
 
 async function loadAll() {
-  try {
-    const r = await fetch(SRC + 'latest.json');
-    D = await r.json();
-  } catch (e) {
-    document.body.innerHTML = `<div style="padding:40px;color:#e84838;font-family:monospace">加载 latest.json 失败: ${e}</div>`;
+  // 并行加载 latest + pipeline_health + source_credibility
+  const [latest, health, cred] = await Promise.allSettled([
+    fetch(SRC + 'latest.json').then(r => r.json()),
+    fetch(SRC + 'pipeline_health.json').then(r => r.ok ? r.json() : null).catch(() => null),
+    fetch(SRC + 'source_credibility.json').then(r => r.ok ? r.json() : null).catch(() => null),
+  ]);
+
+  if (latest.status !== 'fulfilled') {
+    document.body.innerHTML = `<div style="padding:40px;color:#e84838;font-family:monospace">加载 latest.json 失败: ${latest.reason}</div>`;
     return;
   }
+  D = latest.value;
+  HEALTH = health.status === 'fulfilled' ? health.value : null;
+  CRED = cred.status === 'fulfilled' ? cred.value : null;
 
   allItems = [];
   for (const [cid, c] of Object.entries(D.conflicts)) {
@@ -105,10 +114,16 @@ async function loadAll() {
 function renderAll() {
   renderTopStats();
   renderTimeFilter();
+  renderMetaBanner();    // A
+  renderBlufStrip();     // C
   renderLegend();
   renderStreamgraph();
   renderWatchlist();
   renderGoldsteinFloor();
+  renderSourceLineage(); // B
+  renderClusterDetail(); // D
+  renderFooter();        // A footer
+  wireMethodPopover();   // A popover
 }
 
 /* ─────────────────────────────────────────────
@@ -139,6 +154,8 @@ function renderTimeFilter() {
       _filterDays = t;
       document.querySelectorAll('.tf-btn').forEach(b => b.classList.toggle('tf-active', b.dataset.t === btn.dataset.t));
       renderTopStats();
+      renderMetaBanner();
+      renderBlufStrip();
       renderStreamgraph();
       renderWatchlist();
       renderGoldsteinFloor();
@@ -607,6 +624,347 @@ function renderGoldsteinFloor() {
       : `${label}: (no GDELT data)`;
     return `<div class="gs-bar gs-sev-${sev}" style="height:${h}px" title="${tip}"></div>`;
   }).join('');
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   A · Meta banner + Methodology popover + Footer
+═══════════════════════════════════════════════════════════════ */
+
+function humanAgo(isoStr) {
+  if (!isoStr) return '—';
+  const diffMs = Date.now() - new Date(isoStr).getTime();
+  if (isNaN(diffMs)) return '—';
+  const h = Math.floor(diffMs / 3600000);
+  const m = Math.floor((diffMs % 3600000) / 60000);
+  if (h < 1) return `${m}m ago`;
+  if (h < 24) return `${h}h ago`;
+  return `${Math.floor(h / 24)}d ago`;
+}
+
+function renderMetaBanner() {
+  const el = document.getElementById('metaText');
+  if (!el) return;
+  const updated = D.updated_at;
+  const updatedDate = updated ? new Date(updated) : null;
+  const utcStr = updatedDate
+    ? `${updatedDate.getUTCFullYear()}-${String(updatedDate.getUTCMonth()+1).padStart(2,'0')}-${String(updatedDate.getUTCDate()).padStart(2,'0')} ${String(updatedDate.getUTCHours()).padStart(2,'0')}:${String(updatedDate.getUTCMinutes()).padStart(2,'0')} UTC`
+    : '—';
+  const ago = humanAgo(updated);
+  el.innerHTML = `Data as of <strong>${utcStr}</strong> · 更新 <strong>${ago}</strong> · ${allItems.length} events · 9 conflicts tracked · cluster sim ≥ 0.5 · escalation = freq×0.5 + GS×0.3 + mentions×0.2`;
+}
+
+function wireMethodPopover() {
+  const link = document.getElementById('methodLink');
+  const pop = document.getElementById('methodPopover');
+  const close = document.getElementById('methodClose');
+  if (!link || !pop) return;
+  link.addEventListener('click', (e) => {
+    e.stopPropagation();
+    pop.classList.toggle('amb-open');
+  });
+  if (close) close.addEventListener('click', () => pop.classList.remove('amb-open'));
+  document.addEventListener('click', (e) => {
+    if (!pop.contains(e.target) && e.target !== link) {
+      pop.classList.remove('amb-open');
+    }
+  });
+}
+
+function renderFooter() {
+  const el = document.getElementById('footerLastBuild');
+  if (!el) return;
+  const ts = HEALTH?.generated_at;
+  el.textContent = ts ? humanAgo(ts) : '—';
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   C · BLUF Critical Events 顶部要点条
+═══════════════════════════════════════════════════════════════ */
+
+function renderBlufStrip() {
+  const el = document.getElementById('blufCards');
+  if (!el) return;
+
+  const days = _filterDays > 0 ? _filterDays : 14;
+  const cutoff = Date.now() - days * 86400000;
+
+  // 找窗口内 critical 事件,按 effectiveScore 降序取 5 条
+  const candidates = allItems
+    .filter(it => it.criticality === 'critical' && it._date_ts >= cutoff)
+    .map(it => {
+      const clusterScore = (it.cluster_size || 0) * ((it.cluster_bias_count || 0) + 1);
+      const recencyScore = Math.max(0, 14 - (Date.now() - it._date_ts) / 86400000);
+      const score = clusterScore * 2 + recencyScore;
+      return { ...it, _score: score };
+    })
+    .sort((a, b) => b._score - a._score)
+    .slice(0, 5);
+
+  if (!candidates.length) {
+    el.innerHTML = `<div style="grid-column:1/-1;padding:20px;color:var(--fg-dim2);font-family:var(--mono);font-size:11px;text-align:center">该时间窗口内没有 critical 事件</div>`;
+    return;
+  }
+
+  el.innerHTML = candidates.map(it => {
+    const meta = CONFLICTS_META[it._conflict] || { code: '?' };
+    const date = it.date || '';
+    const dateShort = date.slice(5);
+
+    // 信号 chips (BLUF 永远显示 CRITICAL 作底,加成可选叠加)
+    const signals = [`<span class="bc-sig bcs-surge">CRITICAL</span>`];
+    if (it.cluster_size && it.cluster_size >= 2) {
+      signals.push(`<span class="bc-sig bcs-cluster">${it.cluster_size}源</span>`);
+    }
+    if (it.cluster_bias_count && it.cluster_bias_count >= 2) {
+      signals.push(`<span class="bc-sig bcs-cross">跨${it.cluster_bias_count}视角</span>`);
+    }
+    const gs = it.metrics?.goldstein;
+    if (gs != null && gs <= -8) {
+      signals.push(`<span class="bc-sig bcs-gs">GS ${gs.toFixed(1)}</span>`);
+    }
+    // 来源标签作为附加信号
+    if (it.source_label) {
+      signals.push(`<span class="bc-sig" style="background:var(--bg-raise);color:var(--fg-dim);border:1px solid var(--line-hi)">${escHtml(it.source_label.slice(0, 14))}</span>`);
+    }
+
+    return `
+      <div class="bluf-card" data-url="${escHtml(it.url || '#')}">
+        <div class="bc-meta">
+          <span class="bc-date">${dateShort}</span>
+          <span class="bc-conflict">${meta.code}</span>
+        </div>
+        <div class="bc-title">${escHtml(it.title || '(无标题)')}</div>
+        <div class="bc-signals">${signals.join('')}</div>
+      </div>
+    `;
+  }).join('');
+
+  el.querySelectorAll('.bluf-card').forEach(card => {
+    card.addEventListener('click', () => {
+      const url = card.dataset.url;
+      if (url && url !== '#') window.open(url, '_blank', 'noopener');
+    });
+  });
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   B · Source Lineage 信源透明度
+═══════════════════════════════════════════════════════════════ */
+
+/**
+ * 从 source_credibility.json 解析某域名的 bias / tier
+ * 平台聚合源 (reddit/x/youtube/twitter) → fallback 到 neutral, 与 Python 端逻辑一致
+ */
+const PLATFORM_DOMAINS = new Set(['reddit.com', 'x.com', 'twitter.com', 'youtube.com', 'youtu.be']);
+
+function lookupBias(domain) {
+  if (PLATFORM_DOMAINS.has(domain)) return { bias: 'neutral', tier: '—' };
+  if (!CRED) return { bias: 'unknown', tier: '—' };
+  const domains = CRED.domains || {};
+  if (domains[domain]) {
+    return { bias: domains[domain].bias || 'unknown', tier: domains[domain].tier || '—' };
+  }
+  const parts = domain.split('.');
+  if (parts.length > 2) {
+    const parent = parts.slice(-2).join('.');
+    if (domains[parent]) {
+      return { bias: domains[parent].bias || 'unknown', tier: domains[parent].tier || '—' };
+    }
+  }
+  return { bias: 'unknown', tier: '—' };
+}
+
+const BIAS_LABELS = {
+  'western':         'WEST',
+  'arab':            'ARAB',
+  'russian-state':   'RU-ST',
+  'russian-independent': 'RU-IND',
+  'ukrainian':       'UKR',
+  'iranian':         'IRN',
+  'israeli':         'ISR',
+  'chinese':         'CHN',
+  'neutral':         'NEUTRAL',
+  'unknown':         '—',
+};
+const BIAS_COLORS = {
+  'western':         '#4a9eff',
+  'arab':            '#d97c26',
+  'russian-state':   '#e84838',
+  'russian-independent': '#c792e7',
+  'ukrainian':       '#ffd550',
+  'iranian':         '#3fb570',
+  'israeli':         '#88c0ff',
+  'chinese':         '#ff6e60',
+  'neutral':         '#a8a8a8',
+  'unknown':         '#3a3e44',
+};
+
+function renderSourceLineage() {
+  // ① By source bars
+  const barsEl = document.getElementById('sourceBars');
+  if (barsEl) {
+    const bySource = HEALTH?.by_source || {
+      // fallback: 从 allItems 现算
+      web: allItems.filter(it => it.source === 'web').length,
+      x: allItems.filter(it => it.source === 'x').length,
+      reddit: allItems.filter(it => it.source === 'reddit').length,
+      gdelt: allItems.filter(it => it.source === 'gdelt').length,
+      youtube: allItems.filter(it => it.source === 'youtube').length,
+    };
+    const sourceColors = {
+      web: '#4a9eff', x: '#88c0ff', reddit: '#d97c26',
+      youtube: '#e84838', gdelt: '#c792e7',
+    };
+    const max = Math.max(...Object.values(bySource), 1);
+    const sorted = Object.entries(bySource).sort((a, b) => b[1] - a[1]);
+    barsEl.innerHTML = sorted.map(([src, count]) => {
+      const pct = (count / max) * 100;
+      const color = sourceColors[src] || '#888';
+      return `
+        <div class="asgb-item">
+          <span class="asgb-label">${src}</span>
+          <div class="asgb-bar-wrap"><div class="asgb-bar" style="width:${pct}%;background:${color}"></div></div>
+          <span class="asgb-count">${count}</span>
+        </div>
+      `;
+    }).join('');
+  }
+
+  // ② Top domains
+  const listEl = document.getElementById('domainList');
+  if (listEl) {
+    const top = HEALTH?.top_domains || {};
+    // 按 count 降序
+    const entries = Object.entries(top)
+      .map(([domain, info]) => ({
+        domain,
+        count: info.count || 0,
+        last_date: info.last_date || '—',
+        ...lookupBias(domain),
+      }))
+      .sort((a, b) => b.count - a.count)
+      .slice(0, 14);
+    listEl.innerHTML = entries.map((d, i) => {
+      const biasLabel = BIAS_LABELS[d.bias] || d.bias || '—';
+      return `
+        <div class="asgd-item">
+          <span class="asgd-rank">${i + 1}</span>
+          <span class="asgd-name" title="${d.domain}">${d.domain}</span>
+          <span class="asgd-count">${d.count}</span>
+          <span class="asgd-bias bias-${d.bias}">${biasLabel}</span>
+          <span class="asgd-date">${d.last_date.slice(5) || '—'}</span>
+        </div>
+      `;
+    }).join('');
+  }
+
+  // ③ Bias distribution 横条
+  const distEl = document.getElementById('biasDist');
+  if (distEl) {
+    const top = HEALTH?.top_domains || {};
+    const biasTotals = {};
+    for (const [domain, info] of Object.entries(top)) {
+      const { bias } = lookupBias(domain);
+      biasTotals[bias] = (biasTotals[bias] || 0) + (info.count || 0);
+    }
+    const grandTotal = Object.values(biasTotals).reduce((s, v) => s + v, 0);
+    const sortedBias = Object.entries(biasTotals).sort((a, b) => b[1] - a[1]);
+    distEl.innerHTML = sortedBias.map(([bias, n]) => {
+      const pct = (n / grandTotal) * 100;
+      const label = BIAS_LABELS[bias] || bias;
+      const color = BIAS_COLORS[bias] || '#888';
+      return `<div class="abd-segment" style="width:${pct}%;background:${color}" title="${label}: ${n} 条 (${pct.toFixed(1)}%)">${pct >= 6 ? label : ''}</div>`;
+    }).join('');
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   D · Cluster Detail 印证簇详细
+═══════════════════════════════════════════════════════════════ */
+
+function renderClusterDetail() {
+  const el = document.getElementById('clusterList');
+  const subEl = document.getElementById('clusterSub');
+  if (!el) return;
+
+  // 按 cluster_id 聚合所有成员 (去重: 每个 item 可能在多个 category 出现)
+  const clusters = {};
+  const seenIds = new Set();
+  for (const it of allItems) {
+    if (!it.cluster_id || !it.cluster_size || it.cluster_size < 2) continue;
+    const itemKey = `${it.id}`;
+    if (seenIds.has(itemKey)) continue;
+    seenIds.add(itemKey);
+    if (!clusters[it.cluster_id]) {
+      clusters[it.cluster_id] = {
+        cluster_id: it.cluster_id,
+        cluster_size: it.cluster_size,
+        cluster_bias_count: it.cluster_bias_count || 0,
+        members: [],
+        conflict: it._conflict,
+      };
+    }
+    clusters[it.cluster_id].members.push(it);
+  }
+
+  // 按 (size × (bias_count + 1)) 降序
+  const sorted = Object.values(clusters).sort((a, b) => {
+    const sa = a.cluster_size * (a.cluster_bias_count + 1);
+    const sb = b.cluster_size * (b.cluster_bias_count + 1);
+    if (sb !== sa) return sb - sa;
+    // 平手时按最新成员的日期
+    const da = Math.max(...a.members.map(m => m._date_ts || 0));
+    const db = Math.max(...b.members.map(m => m._date_ts || 0));
+    return db - da;
+  });
+
+  if (subEl) {
+    subEl.textContent = `cluster_size × bias_count 排序 · ${sorted.length} 个簇 · 跨偏见 ★`;
+  }
+
+  if (!sorted.length) {
+    el.innerHTML = `<div style="padding:20px;color:var(--fg-dim2);font-family:var(--mono);font-size:11px;text-align:center">暂无 cluster (cluster_corroboration.py 未运行?)</div>`;
+    return;
+  }
+
+  el.innerHTML = sorted.slice(0, 8).map(c => {
+    const crossBias = c.cluster_bias_count >= 2;
+    const conflictMeta = CONFLICTS_META[c.conflict] || { code: '?' };
+    // 选第一条最新的作为代表标题
+    const sortedMembers = [...c.members].sort((a, b) => (b._date_ts || 0) - (a._date_ts || 0));
+    const headline = sortedMembers[0].title || sortedMembers[0].title_en || '(无标题)';
+
+    const memberRows = sortedMembers.map(m => {
+      const label = m.source_label || m.source || '';
+      const title = m.title_en || m.title || '';
+      return `
+        <div class="cc-member" data-url="${escHtml(m.url || '#')}">
+          <span class="cc-mem-source">${escHtml(label.slice(0, 16))}</span>
+          <span class="cc-mem-title" title="${escHtml(title)}">${escHtml(title)}</span>
+        </div>
+      `;
+    }).join('');
+
+    return `
+      <div class="cluster-card ${crossBias ? 'cc-cross' : ''}">
+        <div class="cc-head">
+          <span class="cc-size">${c.cluster_size}源</span>
+          ${crossBias ? `<span class="cc-cross-tag">★ 跨${c.cluster_bias_count}视角</span>` : ''}
+          <span class="cc-conflict">${conflictMeta.code}</span>
+        </div>
+        <div class="cc-headline">${escHtml(headline)}</div>
+        <div class="cc-members">${memberRows}</div>
+      </div>
+    `;
+  }).join('');
+
+  // 点击成员行打开原文
+  el.querySelectorAll('.cc-member').forEach(row => {
+    row.addEventListener('click', () => {
+      const url = row.dataset.url;
+      if (url && url !== '#') window.open(url, '_blank', 'noopener');
+    });
+  });
 }
 
 /* ─────────────────────────────────────────────
