@@ -130,12 +130,70 @@ async function loadAll() {
 function renderAll() {
   startClock();
   renderTopBar();
+  renderNewsTicker();
   renderConflictRail();
   renderInfraStats();
   initGlobe();
   renderFeed();
   renderGoldsteinFloor();
   renderPipelineDots();
+  checkAlertMode();
+}
+
+/* 组合 A6: Alert mode 边框脉冲 */
+function checkAlertMode() {
+  const key = 'detect_last_visit';
+  const lastVisit = parseInt(localStorage.getItem(key) || '0');
+  localStorage.setItem(key, String(Date.now()));
+  if (!lastVisit) return;
+  const hasNew = allItems.some(it =>
+    it.criticality === 'critical' && it._date_ts && it._date_ts >= lastVisit
+  );
+  if (!hasNew) return;
+  setTimeout(() => {
+    const el = document.createElement('div');
+    el.className = 'alert-mode-overlay';
+    document.body.appendChild(el);
+    setTimeout(() => el.remove(), 2000);
+  }, 2000);
+}
+
+/* 组合 A4: News Ticker */
+function renderNewsTicker() {
+  const wrap = document.getElementById('ccTicker');
+  const track = document.getElementById('ccTickerTrack');
+  if (!wrap || !track) return;
+  const cutoff = Date.now() - 14 * 86400000;
+  const critical = allItems.filter(it => {
+    if (it.criticality !== 'critical' || !it._date_ts) return false;
+    return it._date_ts >= cutoff;
+  }).sort((a, b) => b._date_ts - a._date_ts).slice(0, 15);
+
+  if (!critical.length) {
+    wrap.style.display = 'none';
+    document.body.classList.add('no-ticker');
+    return;
+  }
+  const itemHtml = it => {
+    const meta = CONFLICTS_META[it._conflict] || { code: '?' };
+    return `
+      <span class="cct-item" data-url="${esc(it.url || '#')}">
+        <span class="ccti-date">${it.date || ''}</span>
+        <span class="ccti-conflict">${meta.code}</span>
+        ${esc(it.title || '')}
+      </span>
+    `;
+  };
+  const once = critical.map(itemHtml).join('');
+  track.innerHTML = `<div class="cct-scroll">${once}${once}</div>`;
+  wrap.style.display = '';
+
+  track.querySelectorAll('.cct-item').forEach(el => {
+    el.addEventListener('click', () => {
+      const url = el.dataset.url;
+      if (url && url !== '#') window.open(url, '_blank', 'noopener');
+    });
+  });
 }
 
 /* ─────────────────────────────────────────────
@@ -700,7 +758,68 @@ function renderPipelineDots() {
 }
 
 /* ─────────────────────────────────────────────
+   键盘快捷键 (组合 A5)
+   1-9: 选冲突 (按左栏显示顺序)
+   space: 切换 globe 自转
+   esc: 清除过滤
+   r: 重置视角
+   / : focus 无 (为将来留)
+───────────────────────────────────────────── */
+function wireKeyboard() {
+  document.addEventListener('keydown', (e) => {
+    // 避免在 input/textarea 里触发
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+    if (e.metaKey || e.ctrlKey || e.altKey) return;
+
+    const k = e.key;
+    if (k >= '1' && k <= '9') {
+      const idx = parseInt(k) - 1;
+      const rows = document.querySelectorAll('.conflict-row');
+      if (idx < rows.length) {
+        rows[idx].click();
+        e.preventDefault();
+      }
+      return;
+    }
+    if (k === ' ' || k === 'Spacebar') {
+      if (globe && globe.controls) {
+        const ctrl = globe.controls();
+        ctrl.autoRotate = !ctrl.autoRotate;
+        document.querySelectorAll('.gc-btn').forEach(b => b.classList.remove('gc-active'));
+        document.querySelector(`[data-act="${ctrl.autoRotate ? 'rotate' : 'pause'}"]`)
+          ?.classList.add('gc-active');
+      }
+      e.preventDefault();
+      return;
+    }
+    if (k === 'Escape') {
+      // 清除 feed 过滤
+      _feedFilterSticky = false;
+      setFeedFilter(null, false);
+      document.querySelectorAll('.conflict-row').forEach(r => {
+        r.classList.remove('cr-active', 'cr-hover');
+      });
+      e.preventDefault();
+      return;
+    }
+    if (k === 'r' || k === 'R') {
+      if (globe) {
+        globe.controls().autoRotate = false;
+        globe.pointOfView({ lat: 30, lng: 40, altitude: 2.2 }, 1000);
+        document.querySelectorAll('.gc-btn').forEach(b => b.classList.remove('gc-active'));
+        document.querySelector('[data-act="pause"]')?.classList.add('gc-active');
+      }
+      e.preventDefault();
+      return;
+    }
+  });
+}
+
+/* ─────────────────────────────────────────────
    启动
 ───────────────────────────────────────────── */
 
-document.addEventListener('DOMContentLoaded', loadAll);
+document.addEventListener('DOMContentLoaded', () => {
+  loadAll();
+  wireKeyboard();
+});

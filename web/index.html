@@ -42,6 +42,12 @@
     <div class="mast-rule-bot"></div>
   </header>
 
+  <!-- News Ticker: critical 事件横向滚动条 (组合 A4) -->
+  <div class="news-ticker" id="newsTicker" style="display:none">
+    <span class="nt-label">● CRITICAL</span>
+    <div class="nt-track" id="newsTickerTrack"></div>
+  </div>
+
   <!-- Search -->
   <div class="search-bar" id="searchBar">
     <input class="search-input" id="searchInput" type="text" placeholder="搜索所有冲突的报道..." />
@@ -142,6 +148,7 @@
       </div>
       <h1 class="reader-title" id="readerTitle"></h1>
       <div class="reader-meta" id="readerMeta"></div>
+      <div class="reader-corrob" id="readerCorrob" style="display:none"></div>
       <div class="reader-actions reader-actions-top" id="readerActionsTop"></div>
       <div class="translate-bar" id="translateBar" style="display:none">
         <button class="translate-btn" id="translateBtn" onclick="translateArticle()">翻译全文</button>

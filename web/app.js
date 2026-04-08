@@ -242,6 +242,30 @@ function escalation(items) {
   return { label: '稳定', cls: 'esc-stable', arrow: '→', index, raw };
 }
 
+/* ═══ SURGE 异常检测 (v2/A 组合) ═══
+   某冲突近 7d 事件量 > 1.5 * 前 7d 且 >= 10, 或无基线时 >= 15
+   返回 { cur, prior, delta } 或 null
+*/
+function detectSurge(items) {
+  const now = Date.now();
+  const d7 = 7 * 86400000;
+  let cur = 0, prior = 0;
+  for (const it of items) {
+    if (!it.date) continue;
+    const ts = new Date(it.date).getTime();
+    if (isNaN(ts)) continue;
+    const age = now - ts;
+    if (age < 0) continue;
+    if (age < d7) cur++;
+    else if (age < 2 * d7) prior++;
+  }
+  if (cur < 10) return null;
+  if (prior > 0 && cur < prior * 1.5) return null;
+  if (prior === 0 && cur < 15) return null;
+  const delta = prior > 0 ? Math.round((cur - prior) / prior * 100) : 999;
+  return { cur, prior, delta };
+}
+
 /* ═══ Time Filter ═══ */
 function filterByTime(items) {
   if (timeFilterDays === 0) return items;
@@ -300,9 +324,95 @@ async function boot() {
   wireViewToggle();
   wireSearch();
   wireKeyboard();
+  renderNewsTicker();
+  checkAlertMode();
   showOverview();
   initGlobe();
   wireReader();
+}
+
+/* ═══ Alert mode (组合 A6)
+   用 localStorage.lastVisit 判断是否有"上次访问以来"的新 critical
+   事件,有 → 触发一次 1.8s 全屏红边光环
+*/
+function checkAlertMode() {
+  const key = 'detect_last_visit';
+  const lastVisit = parseInt(localStorage.getItem(key) || '0');
+  localStorage.setItem(key, String(Date.now()));
+  if (!lastVisit) return; // 第一次访问不触发
+  // 找出 lastVisit 之后出现的 critical 事件 (按 date)
+  const cutoffMs = lastVisit;
+  let hasNew = false;
+  outer: for (const c of Object.values(D.conflicts)) {
+    for (const cat of Object.values(c.categories || {})) {
+      for (const it of cat.items || []) {
+        if (it.criticality !== 'critical' || !it.date) continue;
+        const ts = new Date(it.date).getTime();
+        if (!isNaN(ts) && ts >= cutoffMs) { hasNew = true; break outer; }
+      }
+    }
+  }
+  if (!hasNew) return;
+  // 2 秒后触发一次,给用户一点时间先看清页面
+  setTimeout(() => {
+    const el = document.createElement('div');
+    el.className = 'alert-mode-overlay';
+    document.body.appendChild(el);
+    setTimeout(() => el.remove(), 2000);
+  }, 2000);
+}
+
+/* ═══ News Ticker (组合 A4) ═══
+   读最近 14 天 criticality==='critical' 事件,横向滚动显示
+*/
+function renderNewsTicker() {
+  const wrap = document.getElementById('newsTicker');
+  const track = document.getElementById('newsTickerTrack');
+  if (!wrap || !track) return;
+  const cutoff = Date.now() - 14 * 86400000;
+  const critical = [];
+  for (const [cid, c] of Object.entries(D.conflicts)) {
+    for (const cat of Object.values(c.categories || {})) {
+      for (const it of cat.items || []) {
+        if (it.criticality !== 'critical' || !it.date) continue;
+        const ts = new Date(it.date).getTime();
+        if (isNaN(ts) || ts < cutoff) continue;
+        critical.push({ ...it, _cid: cid });
+      }
+    }
+  }
+  if (!critical.length) { wrap.style.display = 'none'; return; }
+  critical.sort((a, b) => new Date(b.date) - new Date(a.date));
+  const top = critical.slice(0, 15);
+
+  const codeOf = {
+    'russia-ukraine':'RUA','israel-palestine':'ISR','us-iran':'IRN','sudan':'SDN',
+    'myanmar':'MMR','yemen-houthi':'YEM','congo-drc':'COD','syria':'SYR','taiwan-strait':'TWN'
+  };
+  const itemHtml = it => `
+    <span class="nt-item" data-id="${it.id}">
+      <span class="nti-date">${it.date || ''}</span>
+      <span class="nti-conflict">${codeOf[it._cid] || '?'}</span>
+      ${esc(it.title || '')}
+    </span>
+  `;
+  // 复制一份实现无缝循环: translateX(-50%) 正好移到第二份开头
+  const once = top.map(itemHtml).join('');
+  track.innerHTML = `<div class="nt-scroll">${once}${once}</div>`;
+  wrap.style.display = '';
+
+  // 点击 → 打开 reader
+  track.querySelectorAll('.nt-item').forEach(el => {
+    el.addEventListener('click', () => {
+      const id = el.dataset.id;
+      const it = top.find(x => x.id === id);
+      if (it) {
+        conflict = it._cid;
+        document.querySelectorAll('.rn-chip').forEach(x => x.classList.toggle('on', x.dataset.k === conflict));
+        openReader(id);
+      }
+    });
+  });
 }
 
 /* ═══ Theme ═══ */
@@ -564,6 +674,10 @@ function showOverview() {
       const latest = allItems.sort((a, b) => new Date(b.date) - new Date(a.date))[0];
       const parties = (c.parties || []).join(' vs ');
       const escl = escalation(allItemsRaw);
+      const surge = detectSurge(allItemsRaw);
+      const surgeBadge = surge
+        ? `<span class="ov-surge" title="近 7 天 ${surge.cur} 条 / 前 7 天 ${surge.prior} 条 · +${surge.delta}%">⚠ SURGE</span>`
+        : '';
 
       return `
         <div class="ov-card" style="--d:${i * 40}ms" data-k="${k}" data-intensity="${c.intensity || 'conflict'}">
@@ -572,6 +686,7 @@ function showOverview() {
               ${c.name}
               <span class="ov-intensity ${c.intensity || 'conflict'}">${INAMES[c.intensity] || c.intensity}</span>
               <span class="ov-escalation ${escl.cls}">${escl.arrow} ${escl.label} <span class="esc-idx">${escl.index}</span></span>
+              ${surgeBadge}
             </div>
             <div class="ov-parties">${parties} · ${c.region} · 自 ${c.since}</div>
             <div class="ov-latest">${latest ? esc(latest.title) : '暂无数据'}</div>
@@ -1217,6 +1332,69 @@ function wireReader() {
   document.addEventListener('keydown', e => { if (e.key === 'Escape') closeReader() });
 }
 
+/**
+ * Reader 头部的"同事件其他源"面板 (组合 A3)
+ * 如果当前 item 属于一个 cluster,显示同簇其他源的可点击链接
+ */
+function renderReaderCorrob(currentItem) {
+  const el = document.getElementById('readerCorrob');
+  if (!el) return;
+  if (!currentItem.cluster_id || !currentItem.cluster_size || currentItem.cluster_size < 2) {
+    el.style.display = 'none';
+    el.innerHTML = '';
+    return;
+  }
+
+  // 在所有冲突里找同簇成员
+  const members = [];
+  for (const c of Object.values(D.conflicts)) {
+    for (const cat of Object.values(c.categories || {})) {
+      for (const it of cat.items || []) {
+        if (it.cluster_id === currentItem.cluster_id && it.id !== currentItem.id) {
+          // 避免同一个 item 在多个 category 里重复
+          if (!members.find(m => m.id === it.id)) members.push(it);
+        }
+      }
+    }
+  }
+  if (!members.length) {
+    el.style.display = 'none';
+    return;
+  }
+
+  const biasCount = currentItem.cluster_bias_count || 0;
+  const headline = biasCount >= 2
+    ? `${currentItem.cluster_size} 个独立源印证 · 跨 ${biasCount} 种媒体视角`
+    : `${currentItem.cluster_size} 个独立源印证`;
+
+  el.innerHTML = `
+    <div class="rc-head">
+      <span class="rc-icon">★</span>
+      <span class="rc-title">${headline}</span>
+      <span class="rc-hint">同事件其他来源报道</span>
+    </div>
+    <div class="rc-list">
+      ${members.map(m => `
+        <div class="rc-item" data-id="${m.id}">
+          <span class="rc-src ${m.source}">${srcN(m.source)}</span>
+          <span class="rc-label">${esc(m.source_label || '')}</span>
+          <span class="rc-date">${m.date || ''}</span>
+          <span class="rc-sep">·</span>
+          <span class="rc-title-text">${esc(m.title || '')}</span>
+        </div>
+      `).join('')}
+    </div>
+  `;
+  el.style.display = '';
+
+  // 点击簇成员 → 切换 reader 到那个 item
+  el.querySelectorAll('.rc-item').forEach(row => {
+    row.addEventListener('click', () => {
+      openReader(row.dataset.id);
+    });
+  });
+}
+
 async function openReader(id) {
   const c = D.conflicts[conflict];
   let it = null;
@@ -1256,6 +1434,9 @@ async function openReader(id) {
   if (m.retweets) metaParts.push(`${fmt(m.retweets)} RT`);
   if (m.comments) metaParts.push(`${fmt(m.comments)} 评论`);
   document.getElementById('readerMeta').innerHTML = metaParts.join(' &middot; ');
+
+  // 同一簇其他源链接 (组合 A3)
+  renderReaderCorrob(it);
 
   const actionHtml = `
     <a class="ra-btn ra-dark" href="${it.url}" target="_blank" rel="noopener">查看原始来源</a>

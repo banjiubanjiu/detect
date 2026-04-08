@@ -100,6 +100,94 @@ body {
 }
 .rss-link:hover { background: var(--orange); color: #fff }
 
+/* ═══ Alert mode 边框脉冲 (组合 A6) ═══
+   新 critical 事件触发 -> 整页边框红色光环扩散 1.5s */
+.alert-mode-overlay {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  border: 0 solid transparent;
+  animation: alertBorderPulse 1.8s ease-out 1;
+}
+@keyframes alertBorderPulse {
+  0%   { box-shadow: inset 0 0 0 0 rgba(232, 72, 56, 0); }
+  15%  { box-shadow: inset 0 0 60px 8px rgba(232, 72, 56, 0.55); }
+  100% { box-shadow: inset 0 0 0 0 rgba(232, 72, 56, 0); }
+}
+
+/* ═══ News Ticker: critical 事件横向滚动条 (组合 A4) ═══ */
+.news-ticker {
+  max-width: var(--pw);
+  margin: 0 auto 8px;
+  display: flex;
+  align-items: center;
+  gap: 0;
+  background: var(--ink);
+  color: var(--cream);
+  border-radius: 2px;
+  overflow: hidden;
+  height: 26px;
+}
+.nt-label {
+  flex-shrink: 0;
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  padding: 0 10px;
+  background: var(--red);
+  color: #fff;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  animation: ntLabelPulse 1.6s ease-in-out infinite;
+}
+@keyframes ntLabelPulse { 0%,100%{opacity:1} 50%{opacity:.55} }
+.nt-track {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+  white-space: nowrap;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.nt-scroll {
+  display: inline-flex;
+  animation: ntScroll 80s linear infinite;
+  will-change: transform;
+}
+.nt-scroll:hover { animation-play-state: paused }
+.nt-item {
+  font-family: var(--sans);
+  font-size: 12px;
+  padding: 0 18px;
+  color: var(--cream);
+  cursor: pointer;
+  border-right: 1px solid rgba(255,255,255,0.15);
+}
+.nt-item:hover { color: #fff; text-decoration: underline }
+.nt-item .nti-date {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: rgba(255,255,255,0.55);
+  margin-right: 6px;
+}
+.nt-item .nti-conflict {
+  font-family: var(--mono);
+  font-size: 9px;
+  font-weight: 700;
+  padding: 1px 5px;
+  margin-right: 8px;
+  background: rgba(255,255,255,0.15);
+  border-radius: 2px;
+}
+@keyframes ntScroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
 /* ═══ Watch mode switcher — 切换到战情指挥中心 ═══ */
 .watch-link {
   font-family: var(--mono);
@@ -1580,6 +1668,31 @@ body {
 .ov-escalation.esc-stable { color: var(--ink-25); border: 1px solid var(--ink-08) }
 .esc-idx { font-weight: 700; margin-left: 2px }
 
+/* SURGE 异常徽章 (组合 A) */
+.ov-surge {
+  font-family: var(--mono);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  padding: 1px 6px;
+  border-radius: 2px;
+  color: #fff;
+  background: var(--red);
+  margin-left: 4px;
+  animation: ovSurgePulse 2s ease-in-out infinite;
+}
+@keyframes ovSurgePulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(184,40,24,0.55); }
+  50%      { box-shadow: 0 0 0 4px rgba(184,40,24,0);   }
+}
+[data-theme="dark"] .ov-surge {
+  background: var(--red);
+}
+[data-theme="dark"] @keyframes ovSurgePulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(232,72,56,0.55); }
+  50%      { box-shadow: 0 0 0 4px rgba(232,72,56,0);   }
+}
+
 .view-toggle {
   display: flex;
   gap: 0;
@@ -1753,6 +1866,72 @@ body {
 .cred-t1::before { content: '· ' }
 .cred-t2::before { content: '· ' }
 .cred-t3::before { content: '· ' }
+
+/* ═══ Reader 同事件其他源面板 (组合 A3) ═══ */
+.reader-corrob {
+  margin: 14px 0 8px;
+  padding: 12px 14px;
+  background: rgba(80,140,160,0.06);
+  border: 1px solid rgba(80,140,160,0.28);
+  border-left: 3px solid #50708a;
+  border-radius: 2px;
+}
+.rc-head {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 8px;
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 700;
+  color: #2d5070;
+  letter-spacing: 0.5px;
+}
+.rc-icon { color: #50708a; font-size: 13px }
+.rc-title { text-transform: uppercase }
+.rc-hint {
+  font-weight: 400;
+  color: var(--ink-40);
+  letter-spacing: 0;
+  font-size: 10px;
+}
+.rc-list { display: flex; flex-direction: column; gap: 6px }
+.rc-item {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  font-size: 12px;
+  padding: 4px 6px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background 0.1s;
+}
+.rc-item:hover { background: rgba(80,140,160,0.12) }
+.rc-src {
+  font-family: var(--mono);
+  font-size: 9px;
+  font-weight: 700;
+  padding: 1px 5px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  flex-shrink: 0;
+}
+.rc-src.web { background: var(--tag-web); color: #fff }
+.rc-src.reddit { background: var(--tag-reddit); color: #fff }
+.rc-src.x { background: var(--tag-x); color: #fff }
+.rc-src.youtube { background: var(--tag-yt); color: #fff }
+.rc-label { color: var(--ink-60); font-weight: 600; font-size: 11px; flex-shrink: 0 }
+.rc-date { font-family: var(--mono); font-size: 10px; color: var(--ink-40); flex-shrink: 0 }
+.rc-sep { color: var(--ink-25); flex-shrink: 0 }
+.rc-title-text { color: var(--ink); line-height: 1.4; min-width: 0 }
+[data-theme="dark"] .reader-corrob {
+  background: rgba(120,180,200,0.06);
+  border-color: rgba(120,180,200,0.32);
+  border-left-color: #88aac0;
+}
+[data-theme="dark"] .rc-head { color: #b0d0e0 }
+[data-theme="dark"] .rc-icon { color: #88aac0 }
+[data-theme="dark"] .rc-item:hover { background: rgba(120,180,200,0.12) }
 
 /* ═══ Cross-source corroboration ═══ */
 .corrob-badge {
