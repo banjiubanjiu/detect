@@ -377,6 +377,7 @@ def parse_args():
     p.add_argument("--text", help="直接指定播报词 (≤70 字)。不传则从 latest.json + LLM 自动生成")
     p.add_argument("--slug", default="main", help="视频槽位标识 (默认 main)。同 date+slug 会覆盖")
     p.add_argument("--image", help="主播图 — 本地路径或 http/https/oss URL。不传则用 web/avatar/anchor.jpg")
+    p.add_argument("--voice", help="edge-tts 语音名,覆盖 AVATAR_VOICE 环境变量 (默认 zh-CN-XiaoxiaoNeural)")
     p.add_argument("--resolution", default=None, choices=["480P", "720P"])
     p.add_argument("--dry-run", action="store_true", help="只生成音频,不调 Wan-S2V (0 成本测试)")
     p.add_argument("--force", action="store_true", help="即使该 slot 当日已有视频也重跑")
@@ -432,7 +433,7 @@ def main():
     # ─── TTS ───
     AUDIO_DIR.mkdir(parents=True, exist_ok=True)
     VIDEO_DIR.mkdir(parents=True, exist_ok=True)
-    voice = os.environ.get("AVATAR_VOICE", DEFAULT_VOICE)
+    voice = args.voice or os.environ.get("AVATAR_VOICE", DEFAULT_VOICE)
     audio_path = AUDIO_DIR / f"{date_str}-{args.slug}.mp3"
     print(f"  [tts] {voice} → {audio_path.name}", flush=True)
     synthesize_tts(headline, audio_path, voice=voice)

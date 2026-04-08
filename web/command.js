@@ -828,36 +828,58 @@ async function loadAnchorBriefing() {
     if (!r.ok) return;
     const cfg = await r.json();
     const videos = (cfg && cfg.videos) || [];
-    const playable = videos.filter(v => v && v.video);
-    if (playable.length === 0) return;
 
-    // 命令中心固定取最新一条 (而不是 index.html 那种随机)
-    const pick = playable[0];
+    // 命令中心固定取 slug=02 (与 index.html 的 slug=01 区分)
+    let pick = videos.find(v => v && v.slug === '02' && v.video);
+    if (!pick) pick = videos.find(v => v && v.video);  // fallback
+    if (!pick) return;
 
     const wrap = document.getElementById('ccAnchor');
     const video = document.getElementById('ccaVideo');
     const src = document.getElementById('ccaVideoSrc');
     const headline = document.getElementById('ccaHeadline');
     const dateEl = document.getElementById('ccaDate');
-    const sound = document.getElementById('ccaSound');
+    const playBtn = document.getElementById('ccaPlay');
+    const closeBtn = document.getElementById('ccaClose');
     if (!wrap || !video || !src) return;
 
     src.src = pick.video;
     video.load();
-    video.play().catch(() => {});  // autoplay muted 一般允许
 
     if (headline) headline.textContent = pick.headline || '';
     if (dateEl) dateEl.textContent = (pick.date || '').replace(/-/g, '.');
 
-    if (sound) {
-      sound.addEventListener('click', () => {
-        video.muted = !video.muted;
-        sound.textContent = video.muted ? 'MUTE' : 'LIVE';
-        sound.classList.toggle('live', !video.muted);
-        if (!video.muted) {
+    // 播放/暂停
+    let unmuted = false;
+    if (playBtn) {
+      playBtn.addEventListener('click', () => {
+        if (!unmuted) {
+          video.muted = false;
           video.currentTime = 0;
-          video.play().catch(() => {});
+          unmuted = true;
         }
+        if (video.paused) {
+          video.play().catch(() => {});
+          playBtn.textContent = '▌▌';
+          playBtn.classList.add('cca-playing');
+        } else {
+          video.pause();
+          playBtn.textContent = '▶';
+          playBtn.classList.remove('cca-playing');
+        }
+      });
+    }
+    video.addEventListener('ended', () => {
+      if (playBtn) {
+        playBtn.textContent = '▶';
+        playBtn.classList.remove('cca-playing');
+      }
+    });
+
+    if (closeBtn) {
+      closeBtn.addEventListener('click', () => {
+        wrap.style.display = 'none';
+        if (!video.paused) video.pause();
       });
     }
 

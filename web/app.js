@@ -349,8 +349,14 @@ async function boot() {
   loadAvatarBriefing();  // 数字人主播 (静默失败,不阻塞)
 }
 
-/* ═══ AI Avatar Briefing — 加载 web/avatar/config.json 并渲染数字人头条
-   随机从 videos[] 选一条展示, 保证刷新偶尔看到不同播报
+/* ═══ AI Anchor FAB — 数字人主播浮窗
+   - 默认折叠为右下角头像泡泡
+   - 点头像 → 展开卡片
+   - 点 ▶ → 解除静音从头播放
+   - 播放中点 ▮ → 暂停 (再点继续)
+   - 视频结束 → 按钮变回 ▶
+   - 点 － → 折叠回头像
+   - 点 × → 关闭, localStorage 记录, 7 天内不再显示 (除非新视频)
 */
 async function loadAvatarBriefing() {
   try {
@@ -358,18 +364,29 @@ async function loadAvatarBriefing() {
     if (!r.ok) return;
     const cfg = await r.json();
     const videos = (cfg && cfg.videos) || [];
-    const playable = videos.filter(v => v && v.video);
-    if (playable.length === 0) return;
 
-    // 随机挑一条 (相同日期内的不同 slug 都有机会被选到)
-    const pick = playable[Math.floor(Math.random() * playable.length)];
+    // 首页固定取 slug=01 (与 command.html 的 slug=02 区分)
+    let pick = videos.find(v => v && v.slug === '01' && v.video);
+    if (!pick) pick = videos.find(v => v && v.video);  // fallback
+    if (!pick) return;
 
-    const wrap = document.getElementById('avatarBriefing');
-    const video = document.getElementById('abVideo');
-    const src = document.getElementById('abVideoSrc');
-    const headline = document.getElementById('abHeadline');
-    const dateEl = document.getElementById('abDate');
-    const playBtn = document.getElementById('abPlay');
+    // 关闭记忆: 7 天内同 video 不再显示
+    const dismissKey = 'aaf_dismissed_video';
+    const dismissedAt = parseInt(localStorage.getItem(dismissKey + '_ts') || '0');
+    const dismissedSrc = localStorage.getItem(dismissKey);
+    const sevenDays = 7 * 86400 * 1000;
+    if (dismissedSrc === pick.video && Date.now() - dismissedAt < sevenDays) return;
+
+    const wrap = document.getElementById('aiAnchorFab');
+    const bubble = document.getElementById('aafBubble');
+    const card = document.getElementById('aafCard');
+    const video = document.getElementById('aafVideo');
+    const src = document.getElementById('aafVideoSrc');
+    const headline = document.getElementById('aafHeadline');
+    const dateEl = document.getElementById('aafDate');
+    const playBtn = document.getElementById('aafPlay');
+    const minBtn = document.getElementById('aafMin');
+    const closeBtn = document.getElementById('aafClose');
     if (!wrap || !video || !src) return;
 
     src.src = pick.video;
@@ -386,31 +403,44 @@ async function loadAvatarBriefing() {
       }
     }
 
-    // 点击 → 取消静音 + 从头播放;再次点击暂停
+    // 折叠/展开
+    const expand = () => wrap.classList.remove('aaf-collapsed');
+    const collapse = () => {
+      wrap.classList.add('aaf-collapsed');
+      if (!video.paused) { video.pause(); }
+      playBtn.textContent = '▶';
+      playBtn.classList.remove('aaf-playing');
+    };
+    bubble.addEventListener('click', expand);
+    minBtn.addEventListener('click', collapse);
+    closeBtn.addEventListener('click', () => {
+      localStorage.setItem(dismissKey, pick.video);
+      localStorage.setItem(dismissKey + '_ts', String(Date.now()));
+      wrap.style.display = 'none';
+      if (!video.paused) video.pause();
+    });
+
+    // 播放/暂停
     let unmuted = false;
-    if (playBtn) {
-      playBtn.addEventListener('click', () => {
-        if (!unmuted) {
-          video.muted = false;
-          video.currentTime = 0;
-          unmuted = true;
-        }
-        if (video.paused) {
-          video.play().catch(() => {});
-          playBtn.style.opacity = '0';
-          playBtn.style.pointerEvents = 'none';
-        } else {
-          video.pause();
-          playBtn.style.opacity = '';
-          playBtn.style.pointerEvents = '';
-        }
-      });
-    }
-    video.addEventListener('ended', () => {
-      if (playBtn) {
-        playBtn.style.opacity = '';
-        playBtn.style.pointerEvents = '';
+    playBtn.addEventListener('click', () => {
+      if (!unmuted) {
+        video.muted = false;
+        video.currentTime = 0;
+        unmuted = true;
       }
+      if (video.paused) {
+        video.play().catch(() => {});
+        playBtn.textContent = '▌▌';
+        playBtn.classList.add('aaf-playing');
+      } else {
+        video.pause();
+        playBtn.textContent = '▶';
+        playBtn.classList.remove('aaf-playing');
+      }
+    });
+    video.addEventListener('ended', () => {
+      playBtn.textContent = '▶';
+      playBtn.classList.remove('aaf-playing');
     });
 
     wrap.style.display = '';

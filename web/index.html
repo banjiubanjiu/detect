@@ -49,34 +49,6 @@
     <div class="nt-track" id="newsTickerTrack"></div>
   </div>
 
-  <!-- AI Avatar Briefing: 数字人今日头条 (Wan2.2-S2V) -->
-  <section class="avatar-briefing" id="avatarBriefing" style="display:none">
-    <div class="ab-inner">
-      <div class="ab-video-wrap">
-        <video class="ab-video" id="abVideo" muted playsinline preload="metadata" loop>
-          <source id="abVideoSrc" type="video/mp4">
-        </video>
-        <button class="ab-play" id="abPlay" type="button" aria-label="播放">▶</button>
-        <span class="ab-watermark">AI · WAN-S2V</span>
-      </div>
-      <div class="ab-text">
-        <div class="ab-label">
-          <span class="ab-label-dot"></span>
-          <span class="ab-label-text">今日 AI 主播简报</span>
-          <span class="ab-date" id="abDate"></span>
-        </div>
-        <p class="ab-headline" id="abHeadline"></p>
-        <div class="ab-meta">
-          <span class="ab-meta-item" id="abMetaVoice">edge-tts · zh-CN</span>
-          <span class="ab-meta-sep">·</span>
-          <span class="ab-meta-item" id="abMetaModel">wan2.2-s2v</span>
-          <span class="ab-meta-sep">·</span>
-          <a class="ab-meta-link" href="avatar/README.md" target="_blank" rel="noopener">关于</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- Search -->
   <div class="search-bar" id="searchBar">
     <input class="search-input" id="searchInput" type="text" placeholder="搜索所有冲突的报道..." />
@@ -215,6 +187,39 @@
       <div class="health-modal-body" id="healthModalBody"></div>
     </div>
   </div>
+
+  <!-- AI 虚拟主播浮窗 (Wan2.2-S2V) — 右下角, 默认折叠为头像泡泡, 点击展开播放 -->
+  <aside class="ai-anchor-fab aaf-collapsed" id="aiAnchorFab" style="display:none">
+    <button class="aaf-bubble" id="aafBubble" type="button" title="今日 AI 简报">
+      <img class="aaf-bubble-img" id="aafBubbleImg" src="avatar/anchor_female.jpg" alt="">
+      <span class="aaf-bubble-pulse"></span>
+      <span class="aaf-bubble-label">AI 简报</span>
+    </button>
+    <div class="aaf-card" id="aafCard">
+      <div class="aaf-head">
+        <span class="aaf-head-label">
+          <span class="aaf-head-dot"></span>
+          <span>AI 虚拟主播</span>
+        </span>
+        <button class="aaf-head-min" id="aafMin" type="button" title="收起">－</button>
+        <button class="aaf-head-close" id="aafClose" type="button" title="关闭">×</button>
+      </div>
+      <div class="aaf-video-wrap">
+        <video class="aaf-video" id="aafVideo" muted playsinline preload="metadata" poster="avatar/anchor_female.jpg">
+          <source id="aafVideoSrc" type="video/mp4">
+        </video>
+        <button class="aaf-play" id="aafPlay" type="button" aria-label="播放">▶</button>
+      </div>
+      <div class="aaf-text">
+        <p class="aaf-headline" id="aafHeadline"></p>
+        <div class="aaf-meta">
+          <span class="aaf-date" id="aafDate"></span>
+          <span class="aaf-sep">·</span>
+          <span>Wan2.2-S2V · edge-tts</span>
+        </div>
+      </div>
+    </div>
+  </aside>
 
   <script src="app.js"></script>
 </body>
