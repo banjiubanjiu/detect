@@ -808,6 +808,10 @@ function showConflict() {
 let _infraData = null;
 let _infraLayers = {};
 let _replayTimer = null;
+let _frontlineLayer = null;
+let _heatLayer = null;
+let _replayMarkers = null;   // 当前 replay 的 marker 容器 (cluster 或 layerGroup)
+let _replayUseCluster = true; // 用户偏好:是否启用聚类
 
 function initDetailMap(key, c) {
   const el = document.getElementById('cdMap');
@@ -841,9 +845,15 @@ function initDetailMap(key, c) {
       .bindTooltip(rc.name, { className: 'cd-map-tip', direction: 'top', offset: [0, -6] }).addTo(detailMap);
   });
 
+  // ── Frontline layer (仅俄乌,DeepStateMap 占领区) ──
+  initFrontlineLayer(key);
+
   // ── Timeline Replay (plots all items on map) ──
   const allItems = Object.values(c.categories).flatMap(cat => cat.items);
   initReplay(allItems, color);
+
+  // ── Heat layer (只用真坐标,不误导) ──
+  initHeatLayer(allItems);
 
   // ── Infrastructure Layers ──
   initInfraLayers();
@@ -885,11 +895,22 @@ function initReplay(items, color) {
   dateEl.textContent = dates[dates.length - 1];
   countEl.textContent = `${dated.length} 事件`;
 
-  const replayMarkers = L.layerGroup().addTo(detailMap);
+  // 根据 cluster 开关选择容器;默认启用聚类
+  const clusterToggle = document.getElementById('layerCluster');
+  _replayUseCluster = clusterToggle ? clusterToggle.checked : true;
+  const makeGroup = () => (_replayUseCluster && typeof L.markerClusterGroup === 'function')
+    ? L.markerClusterGroup({
+        showCoverageOnHover: false,
+        spiderfyOnMaxZoom: true,
+        maxClusterRadius: 45,
+        disableClusteringAtZoom: 10,
+      })
+    : L.layerGroup();
+  _replayMarkers = makeGroup().addTo(detailMap);
 
   function showUpTo(idx) {
     const cutoff = dates[idx];
-    replayMarkers.clearLayers();
+    _replayMarkers.clearLayers();
     const visible = dated.filter(it => it.date <= cutoff);
     visible.forEach(it => {
       const clr = srcColors[it.source] || '#ff6b6b';
@@ -898,10 +919,20 @@ function initReplay(items, color) {
         color: clr, fillColor: clr, fillOpacity: 0.7, weight: 0,
       }).bindTooltip(`${it.title || ''}<br><span style="font-size:10px;opacity:0.7">${it.date} · ${srcN(it.source)}</span>`, {
         className: 'cd-map-tip',
-      }).addTo(replayMarkers);
+      }).addTo(_replayMarkers);
     });
     dateEl.textContent = cutoff;
     countEl.textContent = `${visible.length} / ${dated.length}`;
+  }
+
+  // Cluster 开关: 切换时重建容器并重新渲染当前 slider 位置
+  if (clusterToggle) {
+    clusterToggle.onchange = function() {
+      _replayUseCluster = this.checked;
+      if (_replayMarkers) detailMap.removeLayer(_replayMarkers);
+      _replayMarkers = makeGroup().addTo(detailMap);
+      showUpTo(+slider.value);
+    };
   }
 
   slider.oninput = () => showUpTo(+slider.value);
@@ -932,6 +963,99 @@ function initReplay(items, color) {
       slider.value = idx;
       showUpTo(idx);
     }, 500);
+  };
+}
+
+async function initFrontlineLayer(conflictKey) {
+  // 只对俄乌战争启用;其他冲突将来可以扩展其他数据源
+  const wrap = document.getElementById('layerFrontlineWrap');
+  const cb = document.getElementById('layerFrontline');
+  if (conflictKey !== 'russia-ukraine') {
+    if (wrap) wrap.style.display = 'none';
+    return;
+  }
+
+  let geojson;
+  try {
+    const r = await fetch(SRC + 'frontline_ua.geojson');
+    if (!r.ok) throw new Error('frontline_ua.geojson not found');
+    geojson = await r.json();
+  } catch (e) {
+    if (wrap) wrap.style.display = 'none';
+    return;
+  }
+
+  if (wrap) wrap.style.display = '';
+  if (_frontlineLayer) {
+    detailMap.removeLayer(_frontlineLayer);
+    _frontlineLayer = null;
+  }
+
+  _frontlineLayer = L.geoJSON(geojson, {
+    style: {
+      color: '#e74c3c',
+      weight: 1.2,
+      opacity: 0.85,
+      fillColor: '#c1272d',
+      fillOpacity: 0.22,
+    },
+  });
+
+  const meta = geojson._meta || {};
+  const tipHtml = `<b>俄占区 · DeepStateMap</b><br>`
+    + `<span style="font-size:10px;opacity:0.7">${meta.file || ''}</span>`;
+  _frontlineLayer.bindTooltip(tipHtml, { className: 'cd-map-tip', sticky: true });
+
+  if (cb && cb.checked) _frontlineLayer.addTo(detailMap);
+  if (cb) {
+    cb.onchange = function() {
+      if (!_frontlineLayer) return;
+      this.checked ? _frontlineLayer.addTo(detailMap) : detailMap.removeLayer(_frontlineLayer);
+    };
+  }
+}
+
+function initHeatLayer(items) {
+  const cb = document.getElementById('layerHeat');
+  if (!cb || typeof L.heatLayer !== 'function') return;
+
+  // 只使用真实坐标 (GDELT 提供的 geo_lat/lon),避免把随机散布的点画成热力
+  const realPoints = [];
+  items.forEach(it => {
+    const gm = it.gdelt_meta;
+    if (gm && gm.geo_lat && gm.geo_lon && (gm.geo_lat !== 0 || gm.geo_lon !== 0)) {
+      // intensity: critical 1.0, notable 0.6, 其他 0.4
+      const w = it.criticality === 'critical' ? 1.0 : it.criticality === 'notable' ? 0.6 : 0.4;
+      realPoints.push([gm.geo_lat, gm.geo_lon, w]);
+    }
+  });
+
+  if (_heatLayer) {
+    detailMap.removeLayer(_heatLayer);
+    _heatLayer = null;
+  }
+
+  if (!realPoints.length) {
+    // 没真坐标就隐藏 checkbox (避免用户打开看不到东西)
+    const label = cb.closest('.layer-toggle');
+    if (label) label.style.display = 'none';
+    return;
+  }
+  const label = cb.closest('.layer-toggle');
+  if (label) label.style.display = '';
+
+  _heatLayer = L.heatLayer(realPoints, {
+    radius: 28,
+    blur: 22,
+    maxZoom: 10,
+    minOpacity: 0.35,
+    gradient: { 0.2: '#3b5', 0.4: '#fc3', 0.7: '#f83', 1.0: '#e22' },
+  });
+
+  cb.checked = false;
+  cb.onchange = function() {
+    if (!_heatLayer) return;
+    this.checked ? _heatLayer.addTo(detailMap) : detailMap.removeLayer(_heatLayer);
   };
 }
 

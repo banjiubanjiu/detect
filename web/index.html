@@ -14,6 +14,11 @@
   <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9/dist/leaflet.css"/>
   <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9/dist/leaflet.js"></script>
+  <!-- Leaflet 插件: 热力图 + 聚类 -->
+  <script src="https://cdn.jsdelivr.net/npm/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/html2pdf.js@0.10.2/dist/html2pdf.bundle.min.js"></script>
 </head>
 <body>
@@ -111,6 +116,10 @@
       </div>
       <div class="layer-toggles" id="layerToggles">
         <span class="layer-label">图层</span>
+        <label class="layer-toggle" id="layerFrontlineWrap" style="display:none"><input type="checkbox" id="layerFrontline" value="frontline" checked> 前线</label>
+        <label class="layer-toggle"><input type="checkbox" id="layerHeat" value="heat"> 热力</label>
+        <label class="layer-toggle"><input type="checkbox" id="layerCluster" value="cluster" checked> 聚类</label>
+        <span class="layer-sep"></span>
         <label class="layer-toggle"><input type="checkbox" id="layerBases" value="bases"> 军事基地</label>
         <label class="layer-toggle"><input type="checkbox" id="layerNuclear" value="nuclear"> 核设施</label>
         <label class="layer-toggle"><input type="checkbox" id="layerPipelines" value="pipelines"> 管道/电缆</label>

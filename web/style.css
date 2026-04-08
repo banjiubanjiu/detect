@@ -830,6 +830,36 @@ body {
 .layer-toggle input { accent-color: var(--red) }
 .layer-toggle:hover { color: var(--ink) }
 
+.layer-sep {
+  display: inline-block;
+  width: 1px;
+  height: 14px;
+  background: var(--ink-15);
+  margin: 0 2px;
+}
+
+/* ═══ Marker cluster override — 暗色情报地图风 ═══ */
+.marker-cluster-small,
+.marker-cluster-medium,
+.marker-cluster-large {
+  background-color: rgba(231, 76, 60, 0.18) !important;
+  border: 1px solid rgba(231, 76, 60, 0.55) !important;
+}
+.marker-cluster-small div,
+.marker-cluster-medium div,
+.marker-cluster-large div {
+  background-color: rgba(231, 76, 60, 0.5) !important;
+  color: #fff !important;
+  font-family: var(--mono);
+  font-weight: 700;
+  font-size: 11px;
+  border: none !important;
+}
+.marker-cluster {
+  background-clip: padding-box;
+}
+.marker-cluster span { line-height: 28px }
+
 .cd-back {
   padding: 16px 0 0;
   font-size: 13px;
