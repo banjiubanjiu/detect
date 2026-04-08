@@ -1264,10 +1264,13 @@ function renderRiver(c) {
   if (!items.length) { el.innerHTML = '<div class="cv-empty-msg">该分类暂无数据</div>'; return }
 
   // Sort: criticality first (critical > notable > background),
+  // then cluster_size desc (组合 A 修: 同 criticality 层内, 多源印证浮到前面),
   // then recent first, then richer content for lead story
   const sorted = [...items].sort((a,b) => {
     const cw = critWeight(b) - critWeight(a);
     if (cw !== 0) return cw;
+    const cs = (b.cluster_size || 0) - (a.cluster_size || 0);
+    if (cs !== 0) return cs;
     const da = new Date(a.date), db = new Date(b.date);
     if (Math.abs(da - db) < 172800000) {
       const rich = s => (s.source==='web'?2:s.source==='youtube'?1:0) + (s.local_file?1:0);
@@ -2155,8 +2158,12 @@ function renderTimelineItems(el, all, limit) {
     const d = new Date(date);
     const label = isNaN(d) ? date : `${d.getFullYear()}年${LMO[d.getMonth()]}${d.getDate()}日`;
     html += `<div class="tl-day-header">${label}</div>`;
-    // Within the same day, surface critical first, then notable, then time
-    items.sort((a, b) => critWeight(b) - critWeight(a));
+    // Within the same day, surface critical first, then multi-source (cluster)
+    items.sort((a, b) => {
+      const cw = critWeight(b) - critWeight(a);
+      if (cw !== 0) return cw;
+      return (b.cluster_size || 0) - (a.cluster_size || 0);
+    });
     for (const item of items) {
       html += `
         <div class="tl-item crit-${item.criticality||'background'}" style="--d:${(i++)*20}ms" data-id="${item.id}" data-ckey="${item._conflict}">
