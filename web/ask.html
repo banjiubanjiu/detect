@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>智能问答 — 战况追踪</title>
+  <title>情报问答 · INTELLIGENCE DESK — 战况追踪</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600&family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -17,285 +17,423 @@
   <script src="https://cdn.jsdelivr.net/npm/highlight.js@11.10.0/lib/languages/json.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/highlight.js@11.10.0/lib/languages/python.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/highlight.js@11.10.0/lib/languages/javascript.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/highlight.js@11.10.0/lib/languages/typescript.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/highlight.js@11.10.0/lib/languages/bash.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/highlight.js@11.10.0/lib/languages/markdown.min.js"></script>
-  <script>
-    if (window.hljs) {
-      hljs.registerLanguage('json', window.hljsJson || hljs.getLanguage('json'));
-    }
-  </script>
   <style>
-    /* ═══ 全屏 flex 布局 (只在 ask 页生效) ═══ */
+    /* ════════════════════════════════════════════════════════════════
+       Intelligence Desk · Case Briefing System
+       Reference: ISW Daily Briefing / Bellingcat OSINT / Stratfor
+       Aesthetic: dossier + monospace technical labels + serif briefs
+       ════════════════════════════════════════════════════════════════ */
+
     html, body { height: 100%; }
     body.ask-page {
       display: flex;
       flex-direction: column;
       min-height: 100vh;
+      background: var(--cream);
     }
     body.ask-page > .masthead { flex-shrink: 0; }
-    body.ask-page > .ask-app {
+
+    /* ─── Status Strip · 顶部情报站状态条 ─────────────────────── */
+    .desk-strip {
+      flex-shrink: 0;
+      background: var(--ink);
+      color: var(--paper);
+      border-top: 1px solid var(--ink);
+      border-bottom: 1px solid var(--ink-90);
+    }
+    .desk-strip-inner {
+      max-width: 1320px;
+      margin: 0 auto;
+      padding: 12px 28px;
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: 1px;
+    }
+    .ds-title {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-shrink: 0;
+    }
+    .ds-mark {
+      color: var(--red);
+      font-size: 14px;
+      line-height: 1;
+    }
+    .ds-name {
+      font-weight: 700;
+      letter-spacing: 2px;
+      color: var(--paper);
+    }
+    .ds-sub {
+      color: var(--ink-40);
+      letter-spacing: 1.5px;
+      padding-left: 6px;
+      border-left: 1px solid var(--ink-60);
+      margin-left: 6px;
+    }
+    .ds-stats {
       flex: 1;
       display: flex;
-      flex-direction: column;
-      min-height: 0;          /* 关键:让内部 stream 可滚动 */
-      max-width: 920px;
+      gap: 24px;
+      justify-content: center;
+    }
+    .ds-stat {
+      display: inline-flex;
+      align-items: baseline;
+      gap: 6px;
+      color: var(--ink-40);
+      letter-spacing: 1.5px;
+    }
+    .ds-stat b {
+      color: var(--paper);
+      font-weight: 600;
+      font-size: 13px;
+      letter-spacing: 0;
+    }
+    .ds-stat.is-crit b { color: var(--red); }
+    .ds-time {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      flex-shrink: 0;
+    }
+    .ds-live {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--ink-40);
+      letter-spacing: 1.5px;
+    }
+    .ds-pulse {
+      display: inline-block;
+      width: 7px;
+      height: 7px;
+      background: var(--green);
+      border-radius: 50%;
+      animation: pulse 2s ease-in-out infinite;
+    }
+    @keyframes pulse { 50% { opacity: 0.35; } }
+    .ds-date { color: var(--ink-25); }
+
+    /* ─── Two-column workspace ────────────────────────────────── */
+    .desk-app {
+      flex: 1;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 320px;
+      gap: 36px;
+      max-width: 1320px;
       width: 100%;
       margin: 0 auto;
-      padding: 0 24px;
+      padding: 28px 28px 200px;  /* 留出底部 filebar 空间 */
     }
 
-    /* ═══ 对话流 (滚动区) ═══ */
-    .ask-stream {
-      flex: 1;
-      overflow-y: auto;
-      padding: 36px 0 24px;
-      scroll-behavior: smooth;
-    }
+    /* ─── Main: case stream ─────────────────────────────────── */
+    .case-main { min-width: 0; }
 
-    /* ═══ 空状态 ═══ */
-    .ask-empty {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-height: 60vh;
-      text-align: center;
-      gap: 24px;
-    }
-    .ask-empty .ae-mark {
-      font-family: var(--mono);
-      font-size: 11px;
-      letter-spacing: 2px;
-      color: var(--ink-40);
-      text-transform: uppercase;
-    }
-    .ask-empty .ae-title {
-      font-family: var(--serif);
-      font-size: clamp(36px, 6vw, 56px);
-      font-weight: 800;
-      letter-spacing: -1px;
-      line-height: 1.05;
-      color: var(--ink);
-    }
-    .ask-empty .ae-sub {
-      font-family: var(--serif);
-      font-style: italic;
-      font-size: 17px;
-      color: var(--ink-60);
-      max-width: 540px;
-      line-height: 1.5;
-    }
-    .ask-empty .ae-cards {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 12px;
+    /* Empty state — case file 占位 */
+    .case-empty {
+      border-top: 3px double var(--ink);
+      border-bottom: 3px double var(--ink);
+      padding: 56px 32px;
       margin-top: 8px;
-      width: 100%;
-      max-width: 720px;
     }
-    .ae-card {
+    .ce-frame { max-width: 480px; }
+    .ce-mark {
       font-family: var(--mono);
       font-size: 12px;
-      text-align: left;
-      padding: 14px 16px;
-      background: var(--paper);
-      border: 1px solid var(--ink-15);
-      cursor: pointer;
-      color: var(--ink);
-      transition: all .15s;
-      line-height: 1.45;
-    }
-    .ae-card:hover {
-      border-color: var(--ink);
-      transform: translateY(-1px);
-    }
-    .ae-card .ae-c-tag {
-      display: block;
-      font-size: 9px;
-      letter-spacing: 1.5px;
+      font-weight: 600;
+      letter-spacing: 2px;
       color: var(--red);
-      text-transform: uppercase;
-      margin-bottom: 6px;
+      margin-bottom: 18px;
+    }
+    .ce-mark::before {
+      content: '▌';
+      margin-right: 8px;
+    }
+    .ce-text {
+      font-family: var(--serif);
+      font-size: 22px;
+      line-height: 1.45;
+      color: var(--ink);
+      margin-bottom: 14px;
+      font-weight: 500;
+    }
+    .ce-hint {
+      font-family: var(--sans);
+      font-size: 14px;
+      line-height: 1.55;
+      color: var(--ink-60);
     }
 
-    /* ═══ Turn (一轮对话) ═══ */
-    .ask-turn {
-      padding: 28px 0;
-      border-top: 1px solid var(--ink-15);
-      animation: turnIn .25s ease-out;
+    /* Case file — 一个案件简报 */
+    .case-card {
+      border-top: 3px double var(--ink);
+      padding: 22px 4px 24px;
+      margin-top: 4px;
+      animation: caseIn .3s ease-out;
     }
-    .ask-turn:first-child { border-top: none; padding-top: 8px; }
-    @keyframes turnIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+    .case-card:last-child { border-bottom: 1px solid var(--ink-15); padding-bottom: 32px; }
+    @keyframes caseIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
 
-    /* 用户消息:右对齐窄卡片 */
-    .ask-user {
+    .case-head {
       display: flex;
-      justify-content: flex-end;
+      align-items: baseline;
+      gap: 14px;
       margin-bottom: 22px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--ink-15);
     }
-    .ask-user .au-bubble {
-      max-width: 75%;
+    .case-num {
+      font-family: var(--mono);
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--red);
+      letter-spacing: 1px;
+    }
+    .case-meta {
+      font-family: var(--mono);
+      font-size: 10px;
+      color: var(--ink-40);
+      letter-spacing: 1.5px;
+      flex: 1;
+    }
+    .case-status {
+      font-family: var(--mono);
+      font-size: 10px;
+      color: var(--ink-40);
+      letter-spacing: 1.5px;
+    }
+    .case-status.is-active { color: var(--green); }
+    .case-status.is-active::before { content: '● '; }
+
+    /* Section markers (REQUEST / TRACE / BRIEF) */
+    .case-section { margin-bottom: 22px; }
+    .case-section:last-child { margin-bottom: 0; }
+    .cs-label {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      font-family: var(--mono);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      color: var(--ink);
+      margin-bottom: 12px;
+      line-height: 1;
+    }
+    .cs-label::before {
+      content: '▌';
+      color: var(--red);
+      font-size: 14px;
+    }
+    .cs-label .cs-info {
+      font-weight: 400;
+      letter-spacing: 1px;
+      color: var(--ink-40);
+      font-size: 10px;
+    }
+
+    /* REQUEST section: 用户问题 (引用样式) */
+    .cs-request {
       font-family: var(--serif);
       font-size: 19px;
-      font-weight: 600;
-      line-height: 1.4;
+      font-style: italic;
+      line-height: 1.5;
       color: var(--ink);
-      background: var(--warm);
-      border: 1px solid var(--ink-15);
-      padding: 14px 18px;
-      white-space: pre-wrap;
+      padding: 4px 0 0 22px;
+      border-left: 2px solid var(--ink-15);
+      margin-left: 4px;
     }
 
-    /* 工具调用折叠区 */
-    details.ask-tools {
-      margin-bottom: 18px;
-      border-left: 2px solid var(--ink-15);
-      padding-left: 16px;
+    /* TRACE section: 工具调用 (默认折叠) */
+    details.cs-trace {
+      padding-left: 22px;
+      margin-left: 4px;
     }
-    details.ask-tools > summary {
-      font-family: var(--mono);
-      font-size: 11px;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      color: var(--ink-40);
+    details.cs-trace > summary {
+      list-style: none;
       cursor: pointer;
       user-select: none;
-      list-style: none;
-      padding: 2px 0;
-    }
-    details.ask-tools > summary::-webkit-details-marker { display: none; }
-    details.ask-tools > summary::before {
-      content: '▸';
-      display: inline-block;
-      margin-right: 6px;
-      transition: transform .15s;
-    }
-    details.ask-tools[open] > summary::before { transform: rotate(90deg); }
-    details.ask-tools > summary:hover { color: var(--ink); }
-    details.ask-tools .ask-tools-body {
-      margin-top: 10px;
-      padding-top: 6px;
-    }
-    .ask-step {
       font-family: var(--mono);
       font-size: 11px;
-      margin-bottom: 12px;
+      color: var(--ink-60);
+      padding: 4px 0;
+      transition: color .15s;
     }
-    .ask-step .step-head {
+    details.cs-trace > summary::-webkit-details-marker { display: none; }
+    details.cs-trace > summary::before {
+      content: '▸';
+      display: inline-block;
+      margin-right: 8px;
       color: var(--ink-40);
-      font-size: 10px;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      margin-bottom: 3px;
+      transition: transform .15s;
     }
-    .ask-step .step-name { color: var(--ink); font-weight: 600; }
-    .ask-step .step-args { color: var(--ink-60); margin-top: 2px; word-break: break-all; }
-    .ask-step .step-result { color: var(--ink-80); margin-top: 4px; }
-    .ask-step .step-result ul {
-      margin: 4px 0 0 14px;
+    details.cs-trace[open] > summary::before { transform: rotate(90deg); }
+    details.cs-trace > summary:hover { color: var(--ink); }
+    details.cs-trace .trace-body {
+      margin-top: 12px;
+      padding: 12px 14px;
+      background: var(--ink-04);
+      border: 1px solid var(--ink-08);
+      font-family: var(--mono);
+      font-size: 11px;
+    }
+    .trace-step {
+      margin-bottom: 12px;
+      padding-bottom: 12px;
+      border-bottom: 1px dashed var(--ink-15);
+    }
+    .trace-step:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+    .trace-step .ts-num {
+      color: var(--red);
+      font-weight: 700;
+      letter-spacing: 1px;
+      font-size: 10px;
+    }
+    .trace-step .ts-tool {
+      color: var(--ink);
+      font-weight: 700;
+      margin-left: 8px;
+    }
+    .trace-step .ts-time {
+      color: var(--ink-40);
+      margin-left: 8px;
+      font-size: 10px;
+    }
+    .trace-step .ts-args {
+      color: var(--ink-60);
+      margin-top: 4px;
+      word-break: break-all;
+      padding-left: 0;
+    }
+    .trace-step .ts-result {
+      color: var(--ink-80);
+      margin-top: 6px;
+    }
+    .trace-step .ts-result ul {
+      list-style: none;
+      margin: 4px 0 0 0;
+      padding: 0;
       color: var(--ink-60);
       font-size: 10px;
-      list-style: '· ';
     }
-    .ask-step.is-error .step-name { color: var(--red); }
+    .trace-step .ts-result li::before {
+      content: '› ';
+      color: var(--ink-40);
+    }
+    .trace-step.is-error .ts-tool { color: var(--red); }
 
-    /* 助手答案 */
-    .ask-assistant {
+    /* BRIEF section: 答案正文 */
+    .cs-brief {
+      padding-left: 22px;
+      margin-left: 4px;
+    }
+    .cs-brief .brief-rule {
+      width: 48px;
+      height: 0;
+      border-top: 2px solid var(--ink);
+      margin-bottom: 14px;
+    }
+    .brief-body {
       font-family: var(--serif);
       font-size: 17px;
-      line-height: 1.65;
+      line-height: 1.7;
       color: var(--ink);
     }
-    .ask-assistant > *:first-child { margin-top: 0; }
-    .ask-assistant > *:last-child { margin-bottom: 0; }
-    .ask-assistant p { margin: 0 0 12px; }
-    .ask-assistant strong { font-weight: 700; color: var(--ink); }
-    .ask-assistant em { font-style: italic; }
-    .ask-assistant h1, .ask-assistant h2, .ask-assistant h3 {
+    .brief-body > *:first-child { margin-top: 0; }
+    .brief-body > *:last-child { margin-bottom: 0; }
+    .brief-body p { margin: 0 0 14px; }
+    .brief-body strong { font-weight: 700; color: var(--ink); }
+    .brief-body em { font-style: italic; }
+    .brief-body h1, .brief-body h2, .brief-body h3 {
       font-family: var(--serif);
       font-weight: 700;
-      margin: 18px 0 10px;
+      margin: 22px 0 10px;
       line-height: 1.25;
     }
-    .ask-assistant h1 { font-size: 26px; }
-    .ask-assistant h2 { font-size: 22px; }
-    .ask-assistant h3 { font-size: 19px; }
-    .ask-assistant ul, .ask-assistant ol {
-      margin: 8px 0 14px 24px;
-      padding: 0;
+    .brief-body h1 { font-size: 24px; }
+    .brief-body h2 { font-size: 20px; }
+    .brief-body h3 { font-size: 17px; }
+    .brief-body ul, .brief-body ol {
+      margin: 8px 0 14px;
+      padding-left: 0;
+      list-style: none;
     }
-    .ask-assistant li { margin-bottom: 6px; }
-    .ask-assistant blockquote {
+    .brief-body ul li, .brief-body ol li {
+      position: relative;
+      padding-left: 22px;
+      margin-bottom: 8px;
+    }
+    .brief-body ul li::before {
+      content: '▸';
+      position: absolute;
+      left: 4px;
+      color: var(--red);
+      font-size: 12px;
+      top: 2px;
+    }
+    .brief-body ol { counter-reset: brief; }
+    .brief-body ol li {
+      counter-increment: brief;
+    }
+    .brief-body ol li::before {
+      content: counter(brief, decimal-leading-zero) '.';
+      position: absolute;
+      left: 0;
+      color: var(--red);
+      font-family: var(--mono);
+      font-size: 11px;
+      font-weight: 700;
+      top: 4px;
+    }
+    .brief-body blockquote {
       border-left: 3px solid var(--ink-25);
       padding: 4px 0 4px 16px;
       margin: 12px 0;
       color: var(--ink-60);
       font-style: italic;
     }
-    .ask-assistant a {
+    .brief-body a {
       color: var(--blue);
       text-decoration: none;
       border-bottom: 1px solid var(--blue);
     }
-    .ask-assistant code {
+    .brief-body code {
       font-family: var(--mono);
       font-size: 0.86em;
       background: var(--ink-04);
       padding: 1px 6px;
-      border-radius: 2px;
+      border-radius: 0;
+      border: 1px solid var(--ink-08);
     }
-    .ask-assistant pre {
+    .brief-body pre {
       position: relative;
       background: var(--ink-04);
       border: 1px solid var(--ink-08);
       padding: 14px 16px;
-      margin: 12px 0;
+      margin: 14px 0;
       overflow-x: auto;
       font-family: var(--mono);
       font-size: 13px;
       line-height: 1.5;
     }
-    .ask-assistant pre code {
+    .brief-body pre code {
       background: transparent;
       padding: 0;
-      font-size: inherit;
+      border: none;
     }
-    .ask-assistant table {
-      border-collapse: collapse;
-      width: 100%;
-      margin: 12px 0;
-      font-family: var(--sans);
-      font-size: 14px;
-    }
-    .ask-assistant th, .ask-assistant td {
-      border: 1px solid var(--ink-15);
-      padding: 8px 12px;
-      text-align: left;
-    }
-    .ask-assistant th { background: var(--ink-04); font-weight: 600; }
-
-    /* 流式光标 */
-    .ask-assistant.is-streaming::after {
-      content: '▍';
-      display: inline-block;
-      color: var(--red);
-      margin-left: 2px;
-      animation: blink 1s steps(1) infinite;
-      font-family: var(--mono);
-      font-weight: 400;
-    }
-    @keyframes blink { 50% { opacity: 0; } }
-
-    /* 代码块 复制按钮 */
-    .ask-assistant pre .copy-code {
+    .brief-body pre .copy-code {
       position: absolute;
       top: 8px;
       right: 8px;
       font-family: var(--mono);
       font-size: 10px;
       letter-spacing: 1px;
-      text-transform: uppercase;
       padding: 4px 8px;
       background: var(--paper);
       color: var(--ink-60);
@@ -304,29 +442,59 @@
       opacity: 0;
       transition: all .15s;
     }
-    .ask-assistant pre:hover .copy-code { opacity: 1; }
-    .ask-assistant pre .copy-code:hover { color: var(--ink); border-color: var(--ink); }
-    .ask-assistant pre .copy-code.is-done { color: var(--green); border-color: var(--green); }
+    .brief-body pre:hover .copy-code { opacity: 1; }
+    .brief-body pre .copy-code:hover { color: var(--ink); border-color: var(--ink); }
+    .brief-body pre .copy-code.is-done { color: var(--green); border-color: var(--green); }
+    .brief-body table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 14px 0;
+      font-family: var(--sans);
+      font-size: 14px;
+    }
+    .brief-body th, .brief-body td {
+      border: 1px solid var(--ink-15);
+      padding: 8px 12px;
+      text-align: left;
+    }
+    .brief-body th { background: var(--ink-04); font-weight: 600; }
 
-    /* 答案 action bar */
-    .ask-actions {
+    /* 流式光标 */
+    .brief-body.is-streaming::after {
+      content: '▍';
+      display: inline-block;
+      color: var(--red);
+      margin-left: 1px;
+      animation: blink 1s steps(1) infinite;
+      font-family: var(--mono);
+    }
+    @keyframes blink { 50% { opacity: 0; } }
+
+    /* Case footer · action bar */
+    .case-foot {
       display: flex;
       align-items: center;
-      gap: 6px;
-      margin-top: 18px;
-      padding-top: 12px;
+      gap: 8px;
+      margin-top: 22px;
+      padding-top: 14px;
       border-top: 1px dotted var(--ink-15);
       font-family: var(--mono);
       font-size: 10px;
-      color: var(--ink-40);
       letter-spacing: 1px;
-      text-transform: uppercase;
+      color: var(--ink-40);
     }
-    .ask-actions button {
+    .case-foot .cf-conf {
+      color: var(--green);
+      font-weight: 600;
+      padding: 3px 7px;
+      border: 1px solid var(--green);
+    }
+    .case-foot .cf-meta { color: var(--ink-40); }
+    .case-foot .cf-spacer { flex: 1; }
+    .case-foot button {
       font-family: var(--mono);
       font-size: 10px;
-      letter-spacing: 1px;
-      text-transform: uppercase;
+      letter-spacing: 1.5px;
       color: var(--ink-60);
       background: transparent;
       border: 1px solid var(--ink-15);
@@ -334,32 +502,197 @@
       cursor: pointer;
       transition: all .15s;
     }
-    .ask-actions button:hover { color: var(--ink); border-color: var(--ink); }
-    .ask-actions button:disabled { opacity: 0.4; cursor: not-allowed; }
-    .ask-actions button.is-done { color: var(--green); border-color: var(--green); }
-    .ask-actions .spacer { flex: 1; }
-    .ask-actions .meta { color: var(--ink-40); }
+    .case-foot button:hover { color: var(--ink); border-color: var(--ink); }
+    .case-foot button.is-done { color: var(--green); border-color: var(--green); }
 
-    /* ═══ 底部 sticky 输入栏 ═══ */
-    .ask-dock {
-      flex-shrink: 0;
+    /* ─── Side: ACTIVE WATCH ─────────────────────────────────── */
+    .watch-side {
       position: sticky;
-      bottom: 0;
-      background: linear-gradient(to bottom, transparent, var(--cream) 18%, var(--cream));
-      padding: 18px 0 22px;
-      z-index: 10;
+      top: 24px;
+      align-self: flex-start;
+      max-height: calc(100vh - 200px);
+      overflow-y: auto;
+      padding-right: 4px;
     }
-    .ask-dock-inner {
+    .watch-side::-webkit-scrollbar { width: 4px; }
+    .watch-side::-webkit-scrollbar-thumb { background: var(--ink-15); }
+
+    .watch-section {
+      margin-bottom: 26px;
+    }
+    .watch-head {
+      font-family: var(--mono);
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      color: var(--ink);
+      margin-bottom: 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--ink);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .watch-head::before {
+      content: '▌';
+      color: var(--red);
+      font-size: 12px;
+    }
+
+    /* Watch chips: 4 个数据指标 */
+    .watch-chips {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6px;
+    }
+    .wc {
+      background: var(--paper);
+      border: 1px solid var(--ink-15);
+      padding: 12px 12px 10px;
+    }
+    .wc-num {
+      font-family: var(--mono);
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--blue);
+      letter-spacing: -0.5px;
+      line-height: 1;
+    }
+    .wc.is-crit .wc-num { color: var(--red); }
+    .wc-lab {
+      font-family: var(--mono);
+      font-size: 9px;
+      color: var(--ink-40);
+      letter-spacing: 1.5px;
+      margin-top: 6px;
+    }
+
+    /* Suggested queries: 真实 critical 事件 */
+    .watch-suggestions { display: flex; flex-direction: column; gap: 0; }
+    .ws-item {
+      padding: 11px 12px;
+      border-bottom: 1px solid var(--ink-08);
+      cursor: pointer;
+      transition: background .15s;
+    }
+    .ws-item:hover { background: var(--paper); }
+    .ws-item:last-child { border-bottom: none; }
+    .ws-item-title {
+      font-family: var(--serif);
+      font-size: 13px;
+      line-height: 1.35;
+      color: var(--ink);
+      font-weight: 500;
+      margin-bottom: 5px;
+    }
+    .ws-item-meta {
+      font-family: var(--mono);
+      font-size: 9px;
+      letter-spacing: 1px;
+      color: var(--ink-40);
+    }
+    .ws-item-meta .ws-conflict { color: var(--red); font-weight: 600; }
+    .ws-item-meta .ws-sep { color: var(--ink-15); margin: 0 4px; }
+    .ws-loading {
+      font-family: var(--mono);
+      font-size: 10px;
+      color: var(--ink-40);
+      letter-spacing: 1px;
+      padding: 8px 0;
+    }
+
+    /* Session info */
+    .watch-session { font-family: var(--mono); font-size: 11px; }
+    .watch-session .ws-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 5px 0;
+      border-bottom: 1px dotted var(--ink-08);
+    }
+    .watch-session .ws-row:last-child { border-bottom: none; }
+    .watch-session .ws-key { color: var(--ink-40); letter-spacing: 1px; }
+    .watch-session .ws-val { color: var(--ink); font-weight: 600; }
+    .watch-session .ws-val.is-active { color: var(--green); }
+    .ws-new-btn {
+      margin-top: 10px;
+      width: 100%;
+      font-family: var(--mono);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      padding: 9px 10px;
+      background: transparent;
+      color: var(--ink-60);
+      border: 1px solid var(--ink-25);
+      cursor: pointer;
+      transition: all .15s;
+    }
+    .ws-new-btn:hover:not(:disabled) { color: var(--paper); background: var(--ink); border-color: var(--ink); }
+    .ws-new-btn:disabled { opacity: 0.35; cursor: not-allowed; }
+
+    /* Keyboard shortcuts */
+    .watch-keys { font-family: var(--mono); font-size: 11px; color: var(--ink-60); }
+    .watch-keys .wk-row {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 0;
+    }
+    .watch-keys kbd {
+      display: inline-block;
+      min-width: 22px;
+      padding: 2px 5px;
+      font-family: var(--mono);
+      font-size: 10px;
+      font-weight: 600;
+      text-align: center;
+      background: var(--paper);
+      border: 1px solid var(--ink-15);
+      color: var(--ink);
+    }
+
+    /* ─── Bottom: file new request bar ────────────────────── */
+    .filebar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: var(--cream);
+      border-top: 2px solid var(--ink);
+      z-index: 50;
+    }
+    .filebar-inner {
+      max-width: 1320px;
+      margin: 0 auto;
+      padding: 14px 28px 18px;
+    }
+    .filebar-prefix {
+      font-family: var(--mono);
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      color: var(--red);
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .filebar-prefix .fp-status {
+      color: var(--ink-40);
+      font-weight: 400;
+      letter-spacing: 1px;
+    }
+    .filebar-form {
       display: flex;
       gap: 10px;
       align-items: flex-end;
       background: var(--paper);
-      border: 1px solid var(--ink-25);
+      border: 1px solid var(--ink);
       padding: 12px 14px;
       transition: border-color .15s;
     }
-    .ask-dock-inner:focus-within { border-color: var(--ink); }
-    .ask-input {
+    .filebar-form:focus-within { border-color: var(--red); }
+    .filebar-input {
       flex: 1;
       font-family: var(--serif);
       font-size: 17px;
@@ -373,82 +706,66 @@
       max-height: 200px;
       padding: 0;
     }
-    .ask-input::placeholder { color: var(--ink-40); font-style: italic; }
-    .ask-send-btn, .ask-stop-btn {
+    .filebar-input::placeholder { color: var(--ink-40); font-style: italic; }
+    .filebar-send, .filebar-stop {
       font-family: var(--mono);
       font-size: 11px;
-      font-weight: 600;
-      letter-spacing: 1.5px;
-      text-transform: uppercase;
-      padding: 8px 18px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      padding: 9px 22px;
       cursor: pointer;
-      transition: opacity .15s;
       flex-shrink: 0;
       align-self: flex-end;
+      transition: all .15s;
     }
-    .ask-send-btn {
+    .filebar-send {
       background: var(--ink);
       color: var(--paper);
       border: 1px solid var(--ink);
     }
-    .ask-send-btn:hover { opacity: 0.85; }
-    .ask-send-btn:disabled { opacity: 0.4; cursor: not-allowed; }
-    .ask-stop-btn {
+    .filebar-send:hover { background: var(--red); border-color: var(--red); }
+    .filebar-send:disabled { opacity: 0.4; cursor: not-allowed; }
+    .filebar-stop {
+      display: none;
       background: transparent;
       color: var(--red);
       border: 1px solid var(--red);
-      display: none;
     }
-    .ask-stop-btn:hover { background: var(--red); color: var(--paper); }
-
-    .ask-dock-meta {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 12px;
-      margin-top: 8px;
+    .filebar-stop:hover { background: var(--red); color: var(--paper); }
+    .filebar-error {
       font-family: var(--mono);
-      font-size: 10px;
-      color: var(--ink-40);
-      letter-spacing: 1px;
-      text-transform: uppercase;
-    }
-    .ask-dock-meta .hint { opacity: 0.7; }
-    .ask-dock-meta .ctx-badge { color: var(--green); }
-    .ask-dock-meta .ctx-badge.is-hidden { display: none; }
-    .ask-dock-meta .clear-btn {
-      font-family: var(--mono);
-      font-size: 10px;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      color: var(--ink-40);
-      background: transparent;
-      border: 1px solid var(--ink-15);
-      padding: 4px 9px;
-      cursor: pointer;
-      transition: all .15s;
-    }
-    .ask-dock-meta .clear-btn:hover { color: var(--red); border-color: var(--red); }
-    .ask-dock-meta .clear-btn:disabled { opacity: 0.3; cursor: not-allowed; }
-
-    /* 错误条 */
-    .ask-error {
-      font-family: var(--mono);
-      font-size: 12px;
+      font-size: 11px;
       color: var(--red);
-      padding: 10px 14px;
+      padding: 8px 12px;
       border: 1px solid var(--red);
       background: var(--paper);
-      margin-bottom: 12px;
+      margin-bottom: 10px;
     }
 
-    /* 移动端适配 */
+    /* ─── 移动端适配 ──────────────────────────────────────── */
+    @media (max-width: 1080px) {
+      .desk-app {
+        grid-template-columns: 1fr;
+        gap: 24px;
+        padding: 24px 20px 220px;
+      }
+      .watch-side {
+        position: static;
+        max-height: none;
+        order: -1;
+      }
+      .watch-chips { grid-template-columns: repeat(4, 1fr); }
+    }
     @media (max-width: 720px) {
-      body.ask-page > .ask-app { padding: 0 16px; }
-      .ask-empty { min-height: 50vh; }
-      .ask-empty .ae-cards { grid-template-columns: 1fr; }
-      .ask-user .au-bubble { max-width: 90%; font-size: 17px; }
-      .ask-assistant { font-size: 16px; }
+      .desk-strip-inner { padding: 10px 16px; gap: 12px; flex-wrap: wrap; }
+      .ds-stats { gap: 14px; flex-wrap: wrap; justify-content: flex-start; }
+      .ds-time { order: -1; margin-left: auto; }
+      .desk-app { padding: 20px 16px 220px; }
+      .watch-chips { grid-template-columns: 1fr 1fr; }
+      .filebar-inner { padding: 12px 16px 16px; }
+      .case-card { padding-right: 0; padding-left: 0; }
+      .cs-request, details.cs-trace, .cs-brief { padding-left: 14px; }
+      .brief-body { font-size: 16px; }
     }
   </style>
 </head>
@@ -472,68 +789,151 @@
     <div class="mast-rule-bot"></div>
   </header>
 
-  <main class="ask-app">
-    <!-- 滚动区:空状态 + 对话流 -->
-    <div class="ask-stream" id="askStream">
-      <div class="ask-empty" id="askEmpty">
-        <div class="ae-mark">ASK THE DATABASE · GEMINI 2.5 FLASH · AGENTIC</div>
-        <h2 class="ae-title">智能问答</h2>
-        <p class="ae-sub">询问 9 个全球冲突的最近 30 天动态。模型自己决定查哪些索引、读哪些原文,然后用中文综合作答。</p>
-        <div class="ae-cards">
-          <div class="ae-card" data-q="俄乌最近 critical 级别的军事事件挑 5 条按时间倒序，要日期和来源。">
-            <span class="ae-c-tag">俄乌战争</span>最近 5 条 critical 军事事件
+  <!-- ─── Status Strip ─────────────────────────────────────── -->
+  <div class="desk-strip">
+    <div class="desk-strip-inner">
+      <div class="ds-title">
+        <span class="ds-mark">▌</span>
+        <span class="ds-name">INTELLIGENCE DESK</span>
+        <span class="ds-sub">CASE BRIEFING SYSTEM</span>
+      </div>
+      <div class="ds-stats">
+        <span class="ds-stat"><b id="dsConflicts">—</b>CONFLICTS</span>
+        <span class="ds-stat"><b id="dsSources">—</b>SOURCES</span>
+        <span class="ds-stat is-crit"><b id="dsCritical">—</b>CRITICAL</span>
+        <span class="ds-stat"><b id="dsRecent">—</b>IN 24H</span>
+      </div>
+      <div class="ds-time">
+        <span class="ds-live"><span class="ds-pulse"></span>LIVE</span>
+        <span class="ds-date" id="dsDate">—</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─── Two-column workspace ─────────────────────────────── -->
+  <main class="desk-app">
+
+    <!-- Main: case stream -->
+    <section class="case-main">
+      <!-- Empty state -->
+      <div class="case-empty" id="caseEmpty">
+        <div class="ce-frame">
+          <div class="ce-mark">AWAITING REQUEST</div>
+          <p class="ce-text">系统待命。在底部 <em>FILE NEW REQUEST</em> 提交一项情报查询,或从右侧 <em>SUGGESTED QUERIES</em> 选取真实事件作为切入点。</p>
+          <p class="ce-hint">检索引擎将自主调用 4 个工具(冲突清单 / 分类索引 / 关键词搜索 / 原文读取),综合 9 个全球冲突的最近 30 天事件作答。每次查询消耗约 2000–8000 token,典型成本 ¥0.001–0.01。</p>
+        </div>
+      </div>
+
+      <div id="caseList"></div>
+    </section>
+
+    <!-- Side: ACTIVE WATCH -->
+    <aside class="watch-side">
+
+      <div class="watch-section">
+        <div class="watch-head">ACTIVE WATCH</div>
+        <div class="watch-chips">
+          <div class="wc">
+            <div class="wc-num" id="wcConflicts">—</div>
+            <div class="wc-lab">CONFLICTS</div>
           </div>
-          <div class="ae-card" data-q="目前哪些冲突在外交谈判方面有进展？各举 1-2 条。">
-            <span class="ae-c-tag">外交</span>各冲突的谈判进展
+          <div class="wc">
+            <div class="wc-num" id="wcSources">—</div>
+            <div class="wc-lab">SOURCES</div>
           </div>
-          <div class="ae-card" data-q="苏丹和刚果金的人道危机最近发生了什么？">
-            <span class="ae-c-tag">非洲</span>苏丹 / 刚果金人道危机
+          <div class="wc is-crit">
+            <div class="wc-num" id="wcCritical">—</div>
+            <div class="wc-lab">CRITICAL</div>
           </div>
-          <div class="ae-card" data-q="哪些冲突最近提到了无人机？">
-            <span class="ae-c-tag">关键词</span>跨冲突搜索:无人机
-          </div>
-          <div class="ae-card" data-q="台海局势的舆论分析最近有哪些观点？">
-            <span class="ae-c-tag">台海</span>舆论观点综述
-          </div>
-          <div class="ae-card" data-q="比较俄乌战场和巴以冲突的人道危机现状，给一个简短对比。">
-            <span class="ae-c-tag">对比</span>俄乌 vs 巴以人道危机
+          <div class="wc">
+            <div class="wc-num" id="wcRecent">—</div>
+            <div class="wc-lab">24 HRS</div>
           </div>
         </div>
       </div>
 
-      <div id="askTurns"></div>
-    </div>
-
-    <!-- 底部 sticky 输入栏 -->
-    <div class="ask-dock">
-      <div id="askError" class="ask-error" style="display:none"></div>
-      <form id="askForm">
-        <div class="ask-dock-inner">
-          <textarea
-            class="ask-input"
-            id="askInput"
-            rows="1"
-            placeholder="问点什么…  Enter 发送 · Shift+Enter 换行 · ⌘K 聚焦"
-            autocomplete="off"
-            autofocus
-          ></textarea>
-          <button class="ask-send-btn" id="askSendBtn" type="submit">问</button>
-          <button class="ask-stop-btn" id="askStopBtn" type="button">停止</button>
+      <div class="watch-section">
+        <div class="watch-head">SUGGESTED QUERIES</div>
+        <div class="watch-suggestions" id="watchSuggestions">
+          <div class="ws-loading">加载中...</div>
         </div>
-      </form>
-      <div class="ask-dock-meta">
-        <span class="hint">Powered by Gemini 2.5 Flash · OpenRouter · Agentic Retrieval (无 RAG)</span>
-        <span>
-          <span class="ctx-badge is-hidden" id="askCtxBadge">● 上下文 <span id="askCtxTurns">0</span> 轮</span>
-          <button class="clear-btn" id="askClearBtn" type="button" disabled>新对话</button>
-        </span>
       </div>
-    </div>
+
+      <div class="watch-section">
+        <div class="watch-head">SESSION</div>
+        <div class="watch-session">
+          <div class="ws-row">
+            <span class="ws-key">CASES OPEN</span>
+            <span class="ws-val" id="wsOpen">0</span>
+          </div>
+          <div class="ws-row">
+            <span class="ws-key">CONTEXT</span>
+            <span class="ws-val" id="wsContext">0 ROUNDS</span>
+          </div>
+          <div class="ws-row">
+            <span class="ws-key">TOKENS USED</span>
+            <span class="ws-val" id="wsTokens">0</span>
+          </div>
+          <div class="ws-row">
+            <span class="ws-key">MODEL</span>
+            <span class="ws-val">GEMINI 2.5F</span>
+          </div>
+        </div>
+        <button class="ws-new-btn" id="watchNewBtn" disabled>NEW DOSSIER</button>
+      </div>
+
+      <div class="watch-section">
+        <div class="watch-head">KEYBOARD</div>
+        <div class="watch-keys">
+          <div class="wk-row"><kbd>⏎</kbd><span style="color:var(--ink-40);margin-left:4px">提交查询</span></div>
+          <div class="wk-row"><kbd>⇧</kbd>+<kbd>⏎</kbd><span style="color:var(--ink-40);margin-left:4px">换行</span></div>
+          <div class="wk-row"><kbd>⌘</kbd>+<kbd>K</kbd><span style="color:var(--ink-40);margin-left:4px">聚焦输入</span></div>
+          <div class="wk-row"><kbd>⎋</kbd><span style="color:var(--ink-40);margin-left:4px">中断生成</span></div>
+        </div>
+      </div>
+
+    </aside>
   </main>
 
+  <!-- ─── Filebar (bottom fixed) ─────────────────────────── -->
+  <div class="filebar">
+    <div class="filebar-inner">
+      <div class="filebar-prefix">
+        <span>▸ FILE NEW REQUEST</span>
+        <span class="fp-status" id="fpStatus">系统待命 · 接受查询</span>
+      </div>
+      <div id="filebarError" class="filebar-error" style="display:none"></div>
+      <form class="filebar-form" id="askForm">
+        <textarea
+          class="filebar-input"
+          id="askInput"
+          rows="1"
+          placeholder="提交一项情报查询… 例如:俄乌最近 critical 军事事件 / 跨冲突搜索 无人机 / 中东人道危机概览"
+          autocomplete="off"
+          autofocus
+        ></textarea>
+        <button class="filebar-send" id="askSendBtn" type="submit">QUERY</button>
+        <button class="filebar-stop" id="askStopBtn" type="button">中断</button>
+      </form>
+    </div>
+  </div>
+
   <script>
-    // 日期 + 暗色模式 (复用首页逻辑) + 切换 hljs 主题
+    // 日期 + 暗色模式 + hljs 主题切换
+    function fmtDateMono(d) {
+      const yr = d.getFullYear();
+      const mo = String(d.getMonth()+1).padStart(2,'0');
+      const dy = String(d.getDate()).padStart(2,'0');
+      const hh = String(d.getHours()).padStart(2,'0');
+      const mm = String(d.getMinutes()).padStart(2,'0');
+      return `${yr}-${mo}-${dy} ${hh}:${mm}`;
+    }
     document.getElementById('mastDate').textContent = new Date().toLocaleDateString('zh-CN', { year:'numeric', month:'long', day:'numeric', weekday:'long' });
+    document.getElementById('dsDate').textContent = fmtDateMono(new Date());
+    setInterval(() => {
+      document.getElementById('dsDate').textContent = fmtDateMono(new Date());
+    }, 60000);
+
     const themeToggle = document.getElementById('themeToggle');
     const hljsLight = document.getElementById('hljsLight');
     const hljsDark  = document.getElementById('hljsDark');
@@ -555,7 +955,6 @@
       applyTheme(next);
     });
 
-    // marked 配置:开启 GFM、换行、表格
     if (window.marked) {
       marked.setOptions({ gfm: true, breaks: true });
     }

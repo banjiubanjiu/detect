@@ -1,77 +1,182 @@
 // ============================================================
-// Ask page · Agentic Retrieval client (B 档专业化)
+// Intelligence Desk · Case Briefing System
 //
-// 5 大升级:
-//   1. Token-by-token 流式输出 (text_delta 增量渲染)
-//   2. 底部 sticky dock + textarea 自动展开
-//   3. 代码块语法高亮 (highlight.js) + 复制按钮
-//   4. 折叠 tool steps (默认折叠,只显示 Used N tools)
-//   5. Action bar: Copy / Regenerate / 元信息
+// 设计语言:情报问答 (不是聊天)
+//   - 每次问答 = 一个 CASE FILE
+//   - REQUEST / TRACE / BRIEF 三段式
+//   - 侧栏 ACTIVE WATCH 真实数据 + SUGGESTED QUERIES
 //
-// 还做了:DOMPurify XSS 防护、智能 auto-scroll、Markdown 完整渲染。
+// 核心功能保留:
+//   - Token 流式 (text_delta)
+//   - Tool calling 多轮
+//   - 多轮对话历史
+//   - DOMPurify XSS / hljs 高亮 / Markdown 完整渲染
+//   - 智能 auto-scroll
 // ============================================================
 
 (() => {
-  // ========== DOM ==========
+  // ════════════ DOM ════════════
   const form     = document.getElementById('askForm');
   const input    = document.getElementById('askInput');
   const sendBtn  = document.getElementById('askSendBtn');
   const stopBtn  = document.getElementById('askStopBtn');
-  const clearBtn = document.getElementById('askClearBtn');
-  const stream   = document.getElementById('askStream');
-  const empty    = document.getElementById('askEmpty');
-  const turnsEl  = document.getElementById('askTurns');
-  const errEl    = document.getElementById('askError');
-  const ctxBadge = document.getElementById('askCtxBadge');
-  const ctxTurns = document.getElementById('askCtxTurns');
+  const clearBtn = document.getElementById('watchNewBtn');
+  const errEl    = document.getElementById('filebarError');
+  const fpStatus = document.getElementById('fpStatus');
 
-  // ========== 状态 ==========
-  // history: 对话历史 [{role, content}, ...] (发给后端)
-  // turns:   UI 上的 turn 元数据 [{question, answer, root, ...}]
-  // inflight: 当前 AbortController
-  // currentTurn: 正在生成的 turn 引用
-  // atBottom: 用户是否在底部 (智能 auto-scroll)
+  const empty   = document.getElementById('caseEmpty');
+  const caseList = document.getElementById('caseList');
+
+  // Status strip + watch chips (两套同源)
+  const dsConflicts = document.getElementById('dsConflicts');
+  const dsSources   = document.getElementById('dsSources');
+  const dsCritical  = document.getElementById('dsCritical');
+  const dsRecent    = document.getElementById('dsRecent');
+  const wcConflicts = document.getElementById('wcConflicts');
+  const wcSources   = document.getElementById('wcSources');
+  const wcCritical  = document.getElementById('wcCritical');
+  const wcRecent    = document.getElementById('wcRecent');
+
+  // Watch session
+  const wsOpen    = document.getElementById('wsOpen');
+  const wsContext = document.getElementById('wsContext');
+  const wsTokens  = document.getElementById('wsTokens');
+  const watchSuggestions = document.getElementById('watchSuggestions');
+
+  // ════════════ State ════════════
   const state = {
-    history: [],
-    turns: [],
+    history: [],         // [{role, content}, ...] 发给后端
+    cases: [],           // [{root, ...}, ...] UI 案件
     inflight: null,
-    currentTurn: null,
+    currentCase: null,
     atBottom: true,
+    caseCounter: 0,      // 递增 CASE 编号
+    totalTokens: 0,
   };
 
-  // ========== 工具:Markdown 渲染 (sanitize + highlight) ==========
+  // ════════════ ACTIVE WATCH 数据加载 ════════════
+  loadActiveWatch();
+
+  async function loadActiveWatch() {
+    try {
+      const res = await fetch('/data/latest.json');
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      renderActiveWatch(data);
+    } catch (e) {
+      console.error('Failed to load latest.json:', e);
+      watchSuggestions.innerHTML = '<div class="ws-loading">数据加载失败</div>';
+    }
+  }
+
+  function renderActiveWatch(data) {
+    const conflicts = data.conflicts || {};
+    const conflictKeys = Object.keys(conflicts);
+
+    // 1. 4 个数据指标
+    const total = data.stats?.total_items || 0;
+    let critical = 0;
+    let recent24h = 0;
+    const now = new Date();
+    const yesterday = new Date(now.getTime() - 24*60*60*1000);
+    const yesterdayStr = yesterday.toISOString().slice(0, 10);
+    const todayStr = now.toISOString().slice(0, 10);
+
+    // 收集所有 critical 事件
+    const allCrit = [];
+    for (const [cid, c] of Object.entries(conflicts)) {
+      for (const [catid, cat] of Object.entries(c.categories || {})) {
+        for (const item of (cat.items || [])) {
+          if (item.criticality === 'critical') {
+            critical++;
+            allCrit.push({
+              ...item,
+              conflict_id: cid,
+              conflict_name: c.name,
+              category: catid,
+              category_label: cat.label,
+            });
+          }
+          // 24h 内的事件
+          if (item.date && (item.date === todayStr || item.date === yesterdayStr)) {
+            recent24h++;
+          }
+        }
+      }
+    }
+
+    // 写入 status strip 和 watch chips (两边同步)
+    const setNum = (els, val) => els.forEach(el => el.textContent = val);
+    setNum([dsConflicts, wcConflicts], conflictKeys.length);
+    setNum([dsSources, wcSources], total.toLocaleString('en-US'));
+    setNum([dsCritical, wcCritical], critical);
+    setNum([dsRecent, wcRecent], recent24h);
+
+    // 2. SUGGESTED QUERIES — 取最新 5 条 critical 事件
+    allCrit.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+    const top = allCrit.slice(0, 6);
+    if (top.length === 0) {
+      watchSuggestions.innerHTML = '<div class="ws-loading">暂无 critical 事件</div>';
+      return;
+    }
+    watchSuggestions.innerHTML = '';
+    top.forEach(item => {
+      const div = document.createElement('div');
+      div.className = 'ws-item';
+      const title = item.title || item.title_en || '(无标题)';
+      const safeTitle = escapeHtml(title);
+      const conflictName = escapeHtml(item.conflict_name || item.conflict_id);
+      const catLabel = escapeHtml(item.category_label || item.category);
+      const date = escapeHtml(item.date || '');
+      const sourceLabel = escapeHtml(item.source_label || item.source || '');
+      div.innerHTML = `
+        <div class="ws-item-title">${safeTitle}</div>
+        <div class="ws-item-meta">
+          <span class="ws-conflict">${conflictName}</span>
+          <span class="ws-sep">·</span>${catLabel}
+          <span class="ws-sep">·</span>${date}
+          <span class="ws-sep">·</span>${sourceLabel}
+        </div>
+      `;
+      div.addEventListener('click', () => {
+        const q = `详细说明"${title}"的来龙去脉、各方反应和最新进展。`;
+        input.value = q;
+        autoResize();
+        input.focus();
+        input.scrollIntoView({ behavior: 'smooth', block: 'end' });
+      });
+      watchSuggestions.appendChild(div);
+    });
+  }
+
+  // ════════════ Markdown / sanitize / highlight ════════════
   function renderMarkdown(md) {
     if (!md) return '';
     const html = window.marked ? marked.parse(md) : escapeHtml(md);
-    // DOMPurify 净化 (允许常用 markdown 标签)
     return window.DOMPurify
-      ? DOMPurify.sanitize(html, {
-          ADD_ATTR: ['target'],  // 链接 target=_blank 允许
-        })
+      ? DOMPurify.sanitize(html, { ADD_ATTR: ['target'] })
       : html;
   }
 
   function highlightAll(rootEl) {
     if (!window.hljs) return;
     rootEl.querySelectorAll('pre code').forEach(block => {
-      // 没设置 language- 类的就 auto detect
       try { hljs.highlightElement(block); } catch {}
     });
-    // 给每个 pre 加复制按钮
     rootEl.querySelectorAll('pre').forEach(pre => {
       if (pre.querySelector('.copy-code')) return;
       const btn = document.createElement('button');
       btn.className = 'copy-code';
       btn.type = 'button';
-      btn.textContent = 'Copy';
+      btn.textContent = 'COPY';
       btn.addEventListener('click', async (e) => {
         e.stopPropagation();
         const code = pre.querySelector('code')?.innerText || pre.innerText;
         const ok = await copyToClipboard(code);
-        btn.textContent = ok ? 'Copied' : 'Failed';
+        btn.textContent = ok ? 'COPIED' : 'FAILED';
         if (ok) btn.classList.add('is-done');
         setTimeout(() => {
-          btn.textContent = 'Copy';
+          btn.textContent = 'COPY';
           btn.classList.remove('is-done');
         }, 1500);
       });
@@ -88,7 +193,6 @@
       .replaceAll("'", '&#39;');
   }
 
-  // 复制文本到剪贴板,带 fallback (clipboard API 在某些上下文受限)
   async function copyToClipboard(text) {
     if (navigator.clipboard && window.isSecureContext) {
       try {
@@ -96,44 +200,37 @@
         return true;
       } catch {}
     }
-    // Fallback: textarea + execCommand
     try {
       const ta = document.createElement('textarea');
       ta.value = text;
       ta.setAttribute('readonly', '');
       ta.style.position = 'fixed';
       ta.style.top = '-9999px';
-      ta.style.left = '-9999px';
       document.body.appendChild(ta);
       ta.select();
       ta.setSelectionRange(0, text.length);
       const ok = document.execCommand('copy');
       document.body.removeChild(ta);
       return ok;
-    } catch {
-      return false;
-    }
+    } catch { return false; }
   }
 
-  // ========== 智能 auto-scroll ==========
-  // 用户向上滚 → 暂停 auto-scroll;用户滚回底部 → 恢复
-  stream.addEventListener('scroll', () => {
-    const distFromBottom = stream.scrollHeight - stream.scrollTop - stream.clientHeight;
-    state.atBottom = distFromBottom < 80;
+  // ════════════ Smart auto-scroll ════════════
+  window.addEventListener('scroll', () => {
+    const distFromBottom = document.documentElement.scrollHeight - window.scrollY - window.innerHeight;
+    state.atBottom = distFromBottom < 200;
   });
   function scrollToBottom(force = false) {
     if (!force && !state.atBottom) return;
-    stream.scrollTop = stream.scrollHeight;
+    window.scrollTo({ top: document.documentElement.scrollHeight, behavior: 'smooth' });
   }
 
-  // ========== textarea 自动展开 ==========
+  // ════════════ Textarea ════════════
   function autoResize() {
     input.style.height = 'auto';
     input.style.height = Math.min(input.scrollHeight, 200) + 'px';
   }
   input.addEventListener('input', autoResize);
-
-  // Enter 发送 / Shift+Enter 换行
   input.addEventListener('keydown', (e) => {
     if (e.key === 'Enter' && !e.shiftKey && !e.isComposing) {
       e.preventDefault();
@@ -141,38 +238,32 @@
     }
   });
 
-  // ========== 推荐卡片点击 ==========
-  document.querySelectorAll('.ae-card').forEach(el => {
-    el.addEventListener('click', () => {
-      input.value = el.dataset.q || el.textContent.trim();
-      autoResize();
-      input.focus();
-      form.requestSubmit();
-    });
-  });
-
-  // ========== 清空对话 ==========
+  // ════════════ Clear (NEW DOSSIER) ════════════
   clearBtn.addEventListener('click', () => {
     if (state.inflight) state.inflight.abort();
     state.history = [];
-    state.turns = [];
-    state.currentTurn = null;
+    state.cases = [];
+    state.currentCase = null;
     state.inflight = null;
-    turnsEl.innerHTML = '';
+    state.caseCounter = 0;
+    state.totalTokens = 0;
+    caseList.innerHTML = '';
     empty.style.display = '';
     errEl.style.display = 'none';
-    updateContextBadge();
+    updateSession();
     clearBtn.disabled = true;
+    fpStatus.textContent = '系统待命 · 接受查询';
     input.focus();
     state.atBottom = true;
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   });
 
-  // ========== Stop 按钮 ==========
+  // Stop
   stopBtn.addEventListener('click', () => {
     if (state.inflight) state.inflight.abort();
   });
 
-  // ========== Submit ==========
+  // Submit
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
     const q = input.value.trim();
@@ -180,39 +271,36 @@
     await runQuery(q);
   });
 
+  // ════════════ Run query (主循环) ════════════
   async function runQuery(question, { regenerate = false, removeAfter = null } = {}) {
-    // regenerate: 重发上一个 user 消息,先把上一对从 history/UI 删掉
     if (regenerate && removeAfter !== null) {
-      // 删除 removeAfter 之后的所有 turns 和 history
-      state.turns.splice(removeAfter);
-      // history 是 user/assistant 成对的,user index = removeAfter*2
+      state.cases.splice(removeAfter);
       state.history = state.history.slice(0, removeAfter * 2);
-      // DOM:删除 removeAfter 之后所有 turn 节点
-      while (turnsEl.children.length > removeAfter) {
-        turnsEl.removeChild(turnsEl.lastChild);
+      while (caseList.children.length > removeAfter) {
+        caseList.removeChild(caseList.lastChild);
       }
     }
 
     state.inflight = new AbortController();
     errEl.style.display = 'none';
-
-    // 隐藏空状态
     empty.style.display = 'none';
 
-    // 创建新 turn
-    const turn = createTurn(question);
-    turnsEl.appendChild(turn.root);
-    state.turns.push(turn);
-    state.currentTurn = turn;
+    state.caseCounter += 1;
+    const caseObj = createCase(state.caseCounter, question);
+    caseList.appendChild(caseObj.root);
+    state.cases.push(caseObj);
+    state.currentCase = caseObj;
 
-    // 锁住 UI
     input.value = '';
     autoResize();
     sendBtn.style.display = 'none';
     stopBtn.style.display = '';
     clearBtn.disabled = true;
+    fpStatus.textContent = `正在处理 CASE #${String(state.caseCounter).padStart(3, '0')} · 检索中`;
     state.atBottom = true;
-    scrollToBottom(true);
+    requestAnimationFrame(() => {
+      caseObj.root.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
 
     const t0 = performance.now();
     let answerMd = '';
@@ -220,15 +308,14 @@
     let stepsCount = 0;
     let ok = false;
 
-    // RAF 节流的 markdown 重渲染
     let pendingRender = false;
     function scheduleRender() {
       if (pendingRender) return;
       pendingRender = true;
       requestAnimationFrame(() => {
         pendingRender = false;
-        turn.assistantEl.innerHTML = renderMarkdown(answerMd);
-        highlightAll(turn.assistantEl);
+        caseObj.briefBody.innerHTML = renderMarkdown(answerMd);
+        highlightAll(caseObj.briefBody);
         scrollToBottom();
       });
     }
@@ -246,11 +333,8 @@
         throw new Error(`HTTP ${res.status}: ${text || res.statusText}`);
       }
 
-      // 让 assistant 区进入流式状态 (光标动画)
-      turn.assistantEl.classList.add('is-streaming');
-      turn.assistantEl.style.display = '';
+      caseObj.briefBody.classList.add('is-streaming');
 
-      // 解析 SSE
       const reader = res.body.getReader();
       const decoder = new TextDecoder('utf-8');
       let buf = '';
@@ -262,7 +346,7 @@
         while ((idx = buf.indexOf('\n\n')) >= 0) {
           const frame = buf.slice(0, idx);
           buf = buf.slice(idx + 2);
-          const got = handleFrame(frame, turn, {
+          const got = handleFrame(frame, caseObj, {
             onTextDelta(t) {
               answerMd += t;
               scheduleRender();
@@ -276,101 +360,149 @@
       ok = true;
     } catch (err) {
       if (err.name === 'AbortError') {
-        // 中断:展示部分内容,不入历史
-        turn.assistantEl.classList.remove('is-streaming');
+        caseObj.briefBody.classList.remove('is-streaming');
         if (!answerMd) {
-          turn.assistantEl.innerHTML = '<p style="color: var(--ink-40); font-style: italic;">(已停止)</p>';
+          caseObj.briefBody.innerHTML = '<p style="color: var(--ink-40); font-style: italic;">— CASE ABORTED · 操作员中断 —</p>';
         }
+        caseObj.statusEl.textContent = 'ABORTED';
+        caseObj.statusEl.classList.remove('is-active');
       } else {
         showError(err.message || String(err));
-        turn.assistantEl.classList.remove('is-streaming');
+        caseObj.briefBody.classList.remove('is-streaming');
+        caseObj.statusEl.textContent = 'ERROR';
+        caseObj.statusEl.classList.remove('is-active');
       }
     } finally {
-      turn.assistantEl.classList.remove('is-streaming');
+      caseObj.briefBody.classList.remove('is-streaming');
       sendBtn.style.display = '';
       stopBtn.style.display = 'none';
-      clearBtn.disabled = state.turns.length === 0;
+      clearBtn.disabled = state.cases.length === 0;
       state.inflight = null;
-      state.currentTurn = null;
+      state.currentCase = null;
       input.focus();
 
-      // 完成才入历史 + 显示 action bar
       if (ok && answerMd) {
-        // 最后再渲一次保证完整
-        turn.assistantEl.innerHTML = renderMarkdown(answerMd);
-        highlightAll(turn.assistantEl);
+        caseObj.briefBody.innerHTML = renderMarkdown(answerMd);
+        highlightAll(caseObj.briefBody);
 
         state.history.push({ role: 'user', content: question });
         state.history.push({ role: 'assistant', content: answerMd });
         if (state.history.length > 20) state.history = state.history.slice(-20);
-        updateContextBadge();
 
-        // 渲染 action bar
-        turn.answerMd = answerMd;
+        if (usage) {
+          state.totalTokens += usage.total_tokens || 0;
+        }
         const elapsed = ((performance.now() - t0) / 1000).toFixed(2);
-        renderActions(turn, { elapsed, steps: stepsCount, usage });
+        caseObj.answerMd = answerMd;
+        caseObj.statusEl.textContent = 'CLOSED';
+        caseObj.statusEl.classList.remove('is-active');
+
+        // 处理 trace section 的最终态:实际工具调用数 vs loop 轮数
+        finalizeTrace(caseObj);
+
+        renderCaseFoot(caseObj, { elapsed, usage });
+        updateSession();
+        fpStatus.textContent = `就绪 · 上一查询 ${caseObj.toolsCount} 次检索 · ${elapsed}s · ${(usage?.total_tokens || 0).toLocaleString('en-US')} token`;
         scrollToBottom();
+      } else if (!ok) {
+        fpStatus.textContent = '系统待命 · 上一查询已中断';
       }
     }
   }
 
-  function updateContextBadge() {
+  function updateSession() {
+    wsOpen.textContent = state.cases.length;
     const turns = Math.floor(state.history.length / 2);
-    if (turns > 0) {
-      ctxBadge.classList.remove('is-hidden');
-      ctxTurns.textContent = String(turns);
-    } else {
-      ctxBadge.classList.add('is-hidden');
-    }
+    wsContext.textContent = `${turns} ROUND${turns === 1 ? '' : 'S'}`;
+    if (turns > 0) wsContext.classList.add('is-active');
+    else wsContext.classList.remove('is-active');
+    wsTokens.textContent = state.totalTokens.toLocaleString('en-US');
   }
 
-  // ========== Turn 节点工厂 ==========
-  function createTurn(question) {
-    const root = document.createElement('div');
-    root.className = 'ask-turn';
+  // ════════════ Case File 工厂 ════════════
+  function createCase(n, question) {
+    const root = document.createElement('article');
+    root.className = 'case-card';
 
-    // 用户消息 (右对齐窄卡片)
-    const userWrap = document.createElement('div');
-    userWrap.className = 'ask-user';
-    const bubble = document.createElement('div');
-    bubble.className = 'au-bubble';
-    bubble.textContent = question;
-    userWrap.appendChild(bubble);
+    const numStr = `CASE #${String(n).padStart(3, '0')}`;
+    const now = new Date();
+    const filed = `FILED ${String(now.getHours()).padStart(2,'0')}:${String(now.getMinutes()).padStart(2,'0')}:${String(now.getSeconds()).padStart(2,'0')} · ANALYST`;
 
-    // 折叠 tools 区
-    const toolsDetails = document.createElement('details');
-    toolsDetails.className = 'ask-tools';
+    // Head
+    const head = document.createElement('div');
+    head.className = 'case-head';
+    head.innerHTML = `
+      <span class="case-num">${numStr}</span>
+      <span class="case-meta">${filed}</span>
+      <span class="case-status is-active">ACTIVE</span>
+    `;
+    const statusEl = head.querySelector('.case-status');
+
+    // REQUEST section
+    const reqSec = document.createElement('div');
+    reqSec.className = 'case-section';
+    reqSec.innerHTML = `<div class="cs-label">REQUEST</div>`;
+    const reqBody = document.createElement('div');
+    reqBody.className = 'cs-request';
+    reqBody.textContent = '"' + question + '"';
+    reqSec.appendChild(reqBody);
+
+    // TRACE section (默认折叠)
+    const traceSec = document.createElement('div');
+    traceSec.className = 'case-section';
+    const traceLabel = document.createElement('div');
+    traceLabel.className = 'cs-label';
+    traceLabel.innerHTML = `<span>TRACE</span><span class="cs-info" id="trace-info-${n}">检索中…</span>`;
+    traceSec.appendChild(traceLabel);
+
+    const details = document.createElement('details');
+    details.className = 'cs-trace';
     const summary = document.createElement('summary');
-    summary.innerHTML = '<span class="summary-text">思考中…</span>';
-    const toolsBody = document.createElement('div');
-    toolsBody.className = 'ask-tools-body';
-    toolsDetails.appendChild(summary);
-    toolsDetails.appendChild(toolsBody);
+    summary.textContent = '展开检索过程';
+    const traceBody = document.createElement('div');
+    traceBody.className = 'trace-body';
+    details.appendChild(summary);
+    details.appendChild(traceBody);
+    traceSec.appendChild(details);
 
-    // 助手答案
-    const assistantEl = document.createElement('div');
-    assistantEl.className = 'ask-assistant';
+    // BRIEF section
+    const briefSec = document.createElement('div');
+    briefSec.className = 'case-section';
+    briefSec.innerHTML = `<div class="cs-label">BRIEF</div>`;
+    const briefWrap = document.createElement('div');
+    briefWrap.className = 'cs-brief';
+    const briefRule = document.createElement('div');
+    briefRule.className = 'brief-rule';
+    const briefBody = document.createElement('div');
+    briefBody.className = 'brief-body';
+    briefWrap.appendChild(briefRule);
+    briefWrap.appendChild(briefBody);
+    briefSec.appendChild(briefWrap);
 
-    root.appendChild(userWrap);
-    root.appendChild(toolsDetails);
-    root.appendChild(assistantEl);
+    root.appendChild(head);
+    root.appendChild(reqSec);
+    root.appendChild(traceSec);
+    root.appendChild(briefSec);
 
     return {
       root,
-      bubble,
-      toolsDetails,
-      toolsSummary: summary,
-      toolsBody,
-      assistantEl,
+      n,
       question,
+      head,
+      statusEl,
+      traceLabel,
+      traceInfo: traceLabel.querySelector('.cs-info'),
+      traceDetails: details,
+      traceBody,
+      briefBody,
       answerMd: '',
       toolsCount: 0,
       stepDurations: [],
     };
   }
 
-  // ========== SSE 帧处理 ==========
-  function handleFrame(frame, turn, { onTextDelta }) {
+  // ════════════ SSE 帧处理 ════════════
+  function handleFrame(frame, caseObj, { onTextDelta }) {
     let event = 'message';
     let dataStr = '';
     for (const line of frame.split('\n')) {
@@ -386,15 +518,15 @@
         return null;
 
       case 'tool_call': {
-        turn.toolsCount += 1;
-        turn.stepDurations.push(data.model_ms || 0);
-        appendToolStep(turn, data);
-        updateToolsSummary(turn);
+        caseObj.toolsCount += 1;
+        caseObj.stepDurations.push(data.model_ms || 0);
+        appendTraceStep(caseObj, data);
+        updateTraceInfo(caseObj);
         return null;
       }
 
       case 'tool_result':
-        attachToolResult(turn, data.step, data.summary);
+        attachTraceResult(caseObj, data.step, data.summary);
         return null;
 
       case 'text_delta':
@@ -414,23 +546,26 @@
     return null;
   }
 
-  function appendToolStep(turn, data) {
+  function appendTraceStep(caseObj, data) {
     const div = document.createElement('div');
-    div.className = 'ask-step';
+    div.className = 'trace-step';
     div.dataset.step = data.step || '';
     const args = formatArgs(data.args);
     div.innerHTML = `
-      <div class="step-head">▸ STEP ${data.step} · ${data.model_ms}ms</div>
-      <div class="step-name">${escapeHtml(data.name)}</div>
-      <div class="step-args">${escapeHtml(args)}</div>
-      <div class="step-result"></div>
+      <div>
+        <span class="ts-num">OP ${String(data.step).padStart(2, '0')}</span>
+        <span class="ts-tool">${escapeHtml(data.name)}()</span>
+        <span class="ts-time">${data.model_ms}ms</span>
+      </div>
+      <div class="ts-args">${escapeHtml(args)}</div>
+      <div class="ts-result"></div>
     `;
-    turn.toolsBody.appendChild(div);
+    caseObj.traceBody.appendChild(div);
     scrollToBottom();
   }
 
-  function attachToolResult(turn, step, summary) {
-    const target = turn.toolsBody.querySelector(`.ask-step[data-step="${step}"] .step-result`);
+  function attachTraceResult(caseObj, step, summary) {
+    const target = caseObj.traceBody.querySelector(`.trace-step[data-step="${step}"] .ts-result`);
     if (!target || !summary) return;
     if (summary.error) {
       target.parentElement.classList.add('is-error');
@@ -438,7 +573,7 @@
       return;
     }
     let html = '';
-    if (summary.text) html += `<div>${escapeHtml(summary.text)}</div>`;
+    if (summary.text) html += `<div>→ ${escapeHtml(summary.text)}</div>`;
     if (Array.isArray(summary.preview) && summary.preview.length) {
       html += '<ul>';
       for (const t of summary.preview) html += `<li>${escapeHtml(t || '')}</li>`;
@@ -447,59 +582,89 @@
     target.innerHTML = html;
   }
 
-  function updateToolsSummary(turn) {
-    const totalMs = turn.stepDurations.reduce((a, b) => a + b, 0);
+  function updateTraceInfo(caseObj) {
+    const totalMs = caseObj.stepDurations.reduce((a, b) => a + b, 0);
     const sec = (totalMs / 1000).toFixed(1);
-    turn.toolsSummary.querySelector('.summary-text').textContent =
-      `Used ${turn.toolsCount} tool${turn.toolsCount > 1 ? 's' : ''} · ${sec}s · click 展开`;
+    caseObj.traceInfo.textContent = `${caseObj.toolsCount} 次检索 · ${sec}s`;
   }
 
-  // ========== Action bar (Copy / Regenerate) ==========
-  function renderActions(turn, { elapsed, steps, usage }) {
-    if (turn.actionsEl) turn.actionsEl.remove();
-    const bar = document.createElement('div');
-    bar.className = 'ask-actions';
+  // 答案完成后调用:根据 toolsCount 决定 trace section 的展示
+  function finalizeTrace(caseObj) {
+    if (caseObj.toolsCount === 0) {
+      // 模型没调工具,直接基于上下文答复
+      caseObj.traceInfo.textContent = '无检索 · 直接答复';
+      caseObj.traceDetails.style.display = 'none';
+    } else {
+      updateTraceInfo(caseObj);
+    }
+  }
+
+  // ════════════ Case foot (action bar) ════════════
+  function renderCaseFoot(caseObj, { elapsed, usage }) {
+    if (caseObj.footEl) caseObj.footEl.remove();
+    const foot = document.createElement('div');
+    foot.className = 'case-foot';
+
+    // 信心等级:根据是否有检索 + token 数粗略评估
+    const conf = document.createElement('span');
+    conf.className = 'cf-conf';
+    conf.textContent = caseObj.toolsCount > 0 ? 'A1 CONFIDENCE' : 'B2 CONFIDENCE';
+
+    const meta = document.createElement('span');
+    meta.className = 'cf-meta';
+    const usageStr = usage
+      ? ` · ${(usage.total_tokens || 0).toLocaleString('en-US')} token`
+      : '';
+    const tcStr = caseObj.toolsCount > 0
+      ? `${caseObj.toolsCount} 次检索`
+      : '无检索';
+    meta.textContent = ` ${tcStr} · ${elapsed}s${usageStr}`;
+
+    const spacer = document.createElement('span');
+    spacer.className = 'cf-spacer';
+
+    const followBtn = document.createElement('button');
+    followBtn.type = 'button';
+    followBtn.textContent = '⊕ 追问';
+    followBtn.addEventListener('click', () => {
+      input.value = '';
+      autoResize();
+      input.focus();
+      input.scrollIntoView({ behavior: 'smooth', block: 'end' });
+    });
 
     const copyBtn = document.createElement('button');
     copyBtn.type = 'button';
-    copyBtn.textContent = 'Copy';
+    copyBtn.textContent = '⎘ 复制简报';
     copyBtn.addEventListener('click', async () => {
-      const ok = await copyToClipboard(turn.answerMd);
-      copyBtn.textContent = ok ? 'Copied' : 'Failed';
+      const ok = await copyToClipboard(caseObj.answerMd);
+      copyBtn.textContent = ok ? '✓ 已复制' : '✗ 失败';
       if (ok) copyBtn.classList.add('is-done');
       setTimeout(() => {
-        copyBtn.textContent = 'Copy';
+        copyBtn.textContent = '⎘ 复制简报';
         copyBtn.classList.remove('is-done');
       }, 1500);
     });
 
     const regenBtn = document.createElement('button');
     regenBtn.type = 'button';
-    regenBtn.textContent = 'Regenerate';
+    regenBtn.textContent = '↻ 重新检索';
     regenBtn.addEventListener('click', () => {
       if (state.inflight) return;
-      const idx = state.turns.indexOf(turn);
+      const idx = state.cases.indexOf(caseObj);
       if (idx < 0) return;
-      runQuery(turn.question, { regenerate: true, removeAfter: idx });
+      runQuery(caseObj.question, { regenerate: true, removeAfter: idx });
     });
 
-    const spacer = document.createElement('span');
-    spacer.className = 'spacer';
+    foot.appendChild(conf);
+    foot.appendChild(meta);
+    foot.appendChild(spacer);
+    foot.appendChild(followBtn);
+    foot.appendChild(copyBtn);
+    foot.appendChild(regenBtn);
 
-    const meta = document.createElement('span');
-    meta.className = 'meta';
-    const usageStr = usage
-      ? ` · ${usage.total_tokens || (usage.prompt_tokens + usage.completion_tokens)} tok`
-      : '';
-    meta.textContent = `${steps} STEPS · ${elapsed}S${usageStr}`;
-
-    bar.appendChild(copyBtn);
-    bar.appendChild(regenBtn);
-    bar.appendChild(spacer);
-    bar.appendChild(meta);
-
-    turn.root.appendChild(bar);
-    turn.actionsEl = bar;
+    caseObj.root.appendChild(foot);
+    caseObj.footEl = foot;
   }
 
   function showError(msg) {
@@ -514,7 +679,7 @@
     return keys.map(k => `${k}=${JSON.stringify(args[k])}`).join('  ');
   }
 
-  // ========== 全局快捷键 ==========
+  // ════════════ 全局快捷键 ════════════
   document.addEventListener('keydown', (e) => {
     if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
       e.preventDefault();
