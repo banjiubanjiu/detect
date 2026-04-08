@@ -107,26 +107,31 @@ class Handler(SimpleHTTPRequestHandler):
 
         emit("start", {"model": ASK_MODEL})
 
-        # 4. Tool calling 循环
+        # 4. Tool calling 循环 (流式)
         try:
+            total_usage = {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0}
             for step in range(ASK_MAX_STEPS):
                 t0 = time.time()
-                resp = call_openrouter_chat(messages, tools=ASK_TOOLS)
+                step_no = step + 1
+
+                # 文本增量回调:把 OpenRouter 的 token 实时转发给前端
+                def on_text_delta(text, _step=step_no):
+                    emit("text_delta", {"step": _step, "text": text})
+
+                msg, usage = call_openrouter_chat_stream(messages, ASK_TOOLS, on_text_delta)
                 elapsed = round(time.time() - t0, 2)
 
-                choice = (resp.get("choices") or [{}])[0]
-                msg = choice.get("message") or {}
+                if usage:
+                    total_usage["prompt_tokens"] += usage.get("prompt_tokens", 0) or 0
+                    total_usage["completion_tokens"] += usage.get("completion_tokens", 0) or 0
+                    total_usage["total_tokens"] += usage.get("total_tokens", 0) or 0
+
                 tool_calls = msg.get("tool_calls") or []
                 content = msg.get("content") or ""
 
                 # 4a. 模型决定调工具
                 if tool_calls:
-                    # 把 assistant 的工具调用消息原样加入历史
-                    messages.append({
-                        "role": "assistant",
-                        "content": content,
-                        "tool_calls": tool_calls,
-                    })
+                    messages.append(msg)  # 直接 append 流式累积出的 assistant 消息
                     for tc in tool_calls:
                         fn = (tc.get("function") or {}).get("name")
                         raw_args = (tc.get("function") or {}).get("arguments") or "{}"
@@ -135,13 +140,12 @@ class Handler(SimpleHTTPRequestHandler):
                         except Exception:
                             args = {}
                         emit("tool_call", {
-                            "step": step + 1,
+                            "step": step_no,
                             "name": fn,
                             "args": args,
                             "model_ms": int(elapsed * 1000),
                         })
 
-                        # 派发工具
                         impl = ASK_TOOL_DISPATCH.get(fn)
                         if not impl:
                             result = {"error": f"未知工具: {fn}"}
@@ -151,7 +155,6 @@ class Handler(SimpleHTTPRequestHandler):
                             except Exception as e:
                                 result = {"error": f"工具异常: {e}"}
 
-                        # 把结果加入历史 + 推送到前端(精简版)
                         messages.append({
                             "role": "tool",
                             "tool_call_id": tc.get("id"),
@@ -159,20 +162,23 @@ class Handler(SimpleHTTPRequestHandler):
                             "content": json.dumps(result, ensure_ascii=False),
                         })
                         emit("tool_result", {
-                            "step": step + 1,
+                            "step": step_no,
                             "name": fn,
                             "summary": _summarize_tool_result(fn, result),
                         })
-                    continue  # 进入下一轮
+                    continue  # 下一轮
 
-                # 4b. 模型给出最终答案
-                emit("answer", {"text": content, "model_ms": int(elapsed * 1000)})
-                emit("done", {"steps": step + 1})
+                # 4b. 最终答案 (text_delta 已经流式发完了,这里只发收尾事件)
+                emit("answer_done", {
+                    "step": step_no,
+                    "model_ms": int(elapsed * 1000),
+                    "full_text": content,  # 完整 markdown,前端可用于复制
+                })
+                emit("done", {"steps": step_no, "usage": total_usage})
                 return
 
-            # 超过 MAX_STEPS
             emit("error", {"message": f"工具调用超过 {ASK_MAX_STEPS} 轮上限,可能陷入循环"})
-            emit("done", {"steps": ASK_MAX_STEPS})
+            emit("done", {"steps": ASK_MAX_STEPS, "usage": total_usage})
         except urllib.error.HTTPError as e:
             try:
                 body = e.read().decode('utf-8', errors='replace')
@@ -605,8 +611,14 @@ ASK_SYSTEM_PROMPT = """你是冲突监测助手。用户的数据库覆盖 9 个
 效率原则:能用索引(get_category/search_keyword)解决的不要 read_source;能 1-2 步解决的不要 5 步。"""
 
 
-def call_openrouter_chat(messages, tools=None):
-    """调用 OpenRouter chat completions(非流式),返回 dict。"""
+def call_openrouter_chat_stream(messages, tools, on_text_delta):
+    """流式调 OpenRouter chat completions。
+
+    on_text_delta(text) 在每个文本增量到达时被调用 (用于推送给前端)。
+    返回 (assistant_message_dict, usage_dict_or_none)。
+    assistant_message 含 role/content/tool_calls (兼容 OpenAI 格式),
+    可直接 append 到 messages。
+    """
     api_key = _get_env_var('OPENROUTER_API_KEY')
     if not api_key:
         raise RuntimeError("OPENROUTER_API_KEY 未配置")
@@ -614,6 +626,8 @@ def call_openrouter_chat(messages, tools=None):
         "model": ASK_MODEL,
         "messages": messages,
         "temperature": 0.3,
+        "stream": True,
+        "usage": {"include": True},  # OpenRouter:在流末尾返回 usage
     }
     if tools:
         body["tools"] = tools
@@ -625,13 +639,80 @@ def call_openrouter_chat(messages, tools=None):
         headers={
             "Authorization": f"Bearer {api_key}",
             "Content-Type": "application/json",
+            "Accept": "text/event-stream",
             "User-Agent": "ConflictTracker-Ask/1.0",
             "HTTP-Referer": "http://localhost:8080",
             "X-Title": "Conflict Tracker Ask",
         },
     )
-    with urllib.request.urlopen(req, timeout=120) as resp:
-        return json.loads(resp.read().decode())
+
+    accumulated_content = ""
+    # tool_calls 是分片到达的,按 index 累积:
+    #   { 0: {id, type, function: {name, arguments(str)}}, ... }
+    accumulated_tools = {}
+    usage = None
+
+    with urllib.request.urlopen(req, timeout=180) as resp:
+        # OpenRouter 的 SSE 是按行分隔的 `data: {...}\n`
+        for raw in resp:
+            line = raw.decode('utf-8', errors='replace').rstrip('\r\n')
+            if not line:
+                continue
+            # OpenRouter 偶尔会发 ': OPENROUTER PROCESSING' 注释行,跳过
+            if line.startswith(':'):
+                continue
+            if not line.startswith('data:'):
+                continue
+            data_str = line[5:].lstrip()
+            if data_str == '[DONE]':
+                break
+            try:
+                chunk = json.loads(data_str)
+            except Exception:
+                continue
+
+            # 末尾 usage chunk
+            if chunk.get('usage'):
+                usage = chunk['usage']
+
+            choices = chunk.get('choices') or []
+            if not choices:
+                continue
+            delta = (choices[0] or {}).get('delta') or {}
+
+            # 文本增量
+            text = delta.get('content')
+            if text:
+                accumulated_content += text
+                try:
+                    on_text_delta(text)
+                except Exception:
+                    pass
+
+            # 工具调用增量
+            for tc in (delta.get('tool_calls') or []):
+                idx = tc.get('index', 0)
+                slot = accumulated_tools.setdefault(idx, {
+                    "id": "",
+                    "type": "function",
+                    "function": {"name": "", "arguments": ""},
+                })
+                if tc.get('id'):
+                    slot['id'] = tc['id']
+                if tc.get('type'):
+                    slot['type'] = tc['type']
+                fn = tc.get('function') or {}
+                if fn.get('name'):
+                    slot['function']['name'] = fn['name']
+                if fn.get('arguments') is not None:
+                    slot['function']['arguments'] += fn['arguments']
+
+    # 组装成 OpenAI 兼容的 assistant message
+    msg = {"role": "assistant", "content": accumulated_content}
+    if accumulated_tools:
+        # 按 index 排序后输出
+        msg["tool_calls"] = [accumulated_tools[k] for k in sorted(accumulated_tools.keys())]
+    return msg, usage
 
 
 def translate_markdown(text):
