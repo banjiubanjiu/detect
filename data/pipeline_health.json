@@ -1,0 +1,191 @@
+{
+  "generated_at": "2026-04-07T22:32:04+00:00",
+  "latest_updated_at": "2026-04-07T09:40:55.389444+00:00",
+  "total_unique_items": 688,
+  "by_source": {
+    "web": 519,
+    "reddit": 50,
+    "x": 50,
+    "gdelt": 36,
+    "youtube": 33
+  },
+  "top_domains": {
+    "reddit.com": {
+      "count": 50,
+      "last_date": "2026-04-03",
+      "orphans": 0
+    },
+    "x.com": {
+      "count": 50,
+      "last_date": "2026-04-03",
+      "orphans": 0
+    },
+    "aljazeera.com": {
+      "count": 45,
+      "last_date": "2026-04-07",
+      "orphans": 0
+    },
+    "youtube.com": {
+      "count": 33,
+      "last_date": "2026-03-31",
+      "orphans": 0
+    },
+    "ukrinform.net": {
+      "count": 28,
+      "last_date": "2026-04-07",
+      "orphans": 0
+    },
+    "atlanticcouncil.org": {
+      "count": 28,
+      "last_date": "2026-04-06",
+      "orphans": 0
+    },
+    "meduza.io": {
+      "count": 26,
+      "last_date": "2026-04-07",
+      "orphans": 0
+    },
+    "english.nv.ua": {
+      "count": 23,
+      "last_date": "2026-04-07",
+      "orphans": 0
+    },
+    "warontherocks.com": {
+      "count": 23,
+      "last_date": "2026-04-07",
+      "orphans": 0
+    },
+    "news.un.org": {
+      "count": 23,
+      "last_date": "2026-04-06",
+      "orphans": 0
+    },
+    "jpost.com": {
+      "count": 23,
+      "last_date": "2026-04-07",
+      "orphans": 0
+    },
+    "themoscowtimes.com": {
+      "count": 20,
+      "last_date": "2026-04-06",
+      "orphans": 0
+    },
+    "theguardian.com": {
+      "count": 20,
+      "last_date": "2026-04-07",
+      "orphans": 0
+    },
+    "nytimes.com": {
+      "count": 17,
+      "last_date": "2026-04-07",
+      "orphans": 0
+    },
+    "foreignpolicy.com": {
+      "count": 17,
+      "last_date": "2026-04-07",
+      "orphans": 0
+    },
+    "middleeasteye.net": {
+      "count": 17,
+      "last_date": "2026-04-07",
+      "orphans": 0
+    },
+    "twz.com": {
+      "count": 16,
+      "last_date": "2026-04-07",
+      "orphans": 0
+    },
+    "bbc.com": {
+      "count": 16,
+      "last_date": "2026-04-07",
+      "orphans": 0
+    },
+    "npr.org": {
+      "count": 16,
+      "last_date": "2026-04-06",
+      "orphans": 0
+    },
+    "defensenews.com": {
+      "count": 13,
+      "last_date": "2026-04-06",
+      "orphans": 0
+    }
+  },
+  "date_histogram": [
+    {
+      "date": "2026-03-25",
+      "count": 38
+    },
+    {
+      "date": "2026-03-26",
+      "count": 6
+    },
+    {
+      "date": "2026-03-27",
+      "count": 6
+    },
+    {
+      "date": "2026-03-28",
+      "count": 104
+    },
+    {
+      "date": "2026-03-29",
+      "count": 6
+    },
+    {
+      "date": "2026-03-30",
+      "count": 23
+    },
+    {
+      "date": "2026-03-31",
+      "count": 25
+    },
+    {
+      "date": "2026-04-01",
+      "count": 17
+    },
+    {
+      "date": "2026-04-02",
+      "count": 46
+    },
+    {
+      "date": "2026-04-03",
+      "count": 87
+    },
+    {
+      "date": "2026-04-04",
+      "count": 10
+    },
+    {
+      "date": "2026-04-05",
+      "count": 30
+    },
+    {
+      "date": "2026-04-06",
+      "count": 137
+    },
+    {
+      "date": "2026-04-07",
+      "count": 100
+    }
+  ],
+  "llm_coverage": {
+    "total": 688,
+    "criticality_coverage": 1.0,
+    "title_en_coverage": 0.9695,
+    "summary_en_coverage": 0.9651,
+    "clustered": 34,
+    "cross_bias_items": 11,
+    "missing_criticality": 0,
+    "missing_title_en": 21,
+    "missing_summary_en": 24
+  },
+  "orphans": {
+    "checked": 623,
+    "orphan_count": 0,
+    "orphan_rate": 0.0,
+    "samples": []
+  },
+  "issues": [],
+  "status": "ok"
+}
