@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>智能问答 — 战况追踪</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600&family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <style>
+    /* ═══ Ask page · 复用全局变量,只加局部布局 ═══ */
+    .ask-wrap {
+      max-width: var(--pw);
+      margin: 36px auto 80px;
+      padding: 0 16px;
+    }
+    .ask-head {
+      border-top: 3px double var(--ink);
+      border-bottom: 1px solid var(--ink-15);
+      padding: 18px 0 14px;
+      margin-bottom: 24px;
+    }
+    .ask-head h2 {
+      font-family: var(--serif);
+      font-size: clamp(26px, 4vw, 36px);
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      line-height: 1.1;
+    }
+    .ask-head .ask-sub {
+      font-family: var(--mono);
+      font-size: 11px;
+      color: var(--ink-40);
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      margin-top: 8px;
+    }
+
+    /* 输入区 */
+    .ask-form {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+    .ask-input {
+      flex: 1;
+      font-family: var(--serif);
+      font-size: 18px;
+      padding: 14px 16px;
+      background: var(--paper);
+      border: 1px solid var(--ink-25);
+      border-radius: 0;
+      color: var(--ink);
+      outline: none;
+      transition: border-color .15s;
+    }
+    .ask-input:focus { border-color: var(--ink); }
+    .ask-btn {
+      font-family: var(--mono);
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      padding: 0 22px;
+      background: var(--ink);
+      color: var(--paper);
+      border: 1px solid var(--ink);
+      cursor: pointer;
+      transition: opacity .15s;
+    }
+    .ask-btn:hover { opacity: 0.85; }
+    .ask-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+    /* 示例问题 */
+    .ask-examples {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 14px;
+      font-family: var(--mono);
+      font-size: 11px;
+      color: var(--ink-60);
+      margin-bottom: 36px;
+    }
+    .ask-examples b {
+      color: var(--ink-40);
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+    .ask-ex {
+      cursor: pointer;
+      border-bottom: 1px dotted var(--ink-25);
+      padding-bottom: 1px;
+    }
+    .ask-ex:hover { color: var(--red); border-color: var(--red); }
+
+    /* 步骤区 */
+    .ask-steps {
+      border-left: 2px solid var(--ink-15);
+      padding-left: 18px;
+      margin-bottom: 28px;
+    }
+    .ask-step {
+      font-family: var(--mono);
+      font-size: 12px;
+      margin-bottom: 14px;
+      animation: fadeIn .25s ease-out;
+    }
+    @keyframes fadeIn { from { opacity: 0; transform: translateX(-4px); } to { opacity: 1; transform: none; } }
+    .ask-step .step-head {
+      color: var(--ink-40);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-size: 10px;
+      margin-bottom: 4px;
+    }
+    .ask-step .step-name {
+      color: var(--ink);
+      font-weight: 600;
+    }
+    .ask-step .step-args {
+      color: var(--ink-60);
+      font-size: 11px;
+      margin-top: 2px;
+      word-break: break-all;
+    }
+    .ask-step .step-result {
+      color: var(--ink-80);
+      margin-top: 4px;
+    }
+    .ask-step .step-result ul {
+      margin: 4px 0 0 16px;
+      color: var(--ink-60);
+      font-size: 11px;
+      list-style: '· ';
+    }
+    .ask-step.is-error .step-name { color: var(--red); }
+
+    /* 答案区 */
+    .ask-answer {
+      border-top: 1px solid var(--ink-15);
+      border-bottom: 1px solid var(--ink-15);
+      padding: 24px 0;
+      font-family: var(--serif);
+      font-size: 17px;
+      line-height: 1.65;
+      color: var(--ink);
+    }
+    .ask-answer-label {
+      font-family: var(--mono);
+      font-size: 10px;
+      color: var(--ink-40);
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+    .ask-answer p { margin-bottom: 12px; }
+    .ask-answer ul, .ask-answer ol { margin: 8px 0 12px 24px; }
+    .ask-answer li { margin-bottom: 6px; }
+    .ask-answer strong { font-weight: 700; color: var(--ink); }
+    .ask-answer code {
+      font-family: var(--mono);
+      font-size: 0.88em;
+      background: var(--ink-04);
+      padding: 1px 6px;
+      border-radius: 2px;
+    }
+    .ask-answer a { color: var(--blue); text-decoration: none; border-bottom: 1px solid var(--blue); }
+
+    /* 状态条 */
+    .ask-meta {
+      font-family: var(--mono);
+      font-size: 10px;
+      color: var(--ink-40);
+      margin-top: 12px;
+      display: flex;
+      justify-content: space-between;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+    .ask-loading {
+      font-family: var(--mono);
+      font-size: 11px;
+      color: var(--ink-40);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+    .ask-loading::after {
+      content: '...';
+      display: inline-block;
+      animation: dots 1.2s infinite;
+    }
+    @keyframes dots { 0%,20% {opacity:.2} 50% {opacity:1} 80%,100% {opacity:.2} }
+
+    .ask-error {
+      font-family: var(--mono);
+      font-size: 12px;
+      color: var(--red);
+      padding: 12px 14px;
+      border: 1px solid var(--red);
+      background: var(--paper);
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="masthead">
+    <div class="mast-rule-top"></div>
+    <div class="mast-inner">
+      <div class="mast-left">
+        <h1 class="mast-title">战况追踪</h1>
+        <p class="mast-sub">Global Conflict Monitor</p>
+      </div>
+      <div class="mast-right">
+        <a class="watch-link" href="index.html" title="返回首页"><span class="wl-dot"></span>HOME</a>
+        <a class="analytics-link" href="analytics.html" title="分析工作台"><span class="al-dot"></span>ANALYTICS</a>
+        <a class="rss-link" href="feed.xml" title="RSS 订阅" target="_blank">RSS</a>
+        <span class="theme-toggle" id="themeToggle" title="切换暗色模式">DARK</span>
+        <time class="mast-date" id="mastDate"></time>
+      </div>
+    </div>
+    <div class="mast-rule-bot"></div>
+  </header>
+
+  <main class="ask-wrap">
+    <div class="ask-head">
+      <h2>智能问答</h2>
+      <div class="ask-sub">Ask the Database · Powered by Gemini 2.5 Flash · Agentic Retrieval</div>
+    </div>
+
+    <form class="ask-form" id="askForm">
+      <input
+        class="ask-input"
+        id="askInput"
+        type="text"
+        placeholder="问点什么…例如:俄乌最近 critical 事件 / 中东冲突的人道危机概览"
+        autocomplete="off"
+        autofocus
+      >
+      <button class="ask-btn" id="askBtn" type="submit">问</button>
+    </form>
+
+    <div class="ask-examples">
+      <b>试试:</b>
+      <span class="ask-ex" data-q="俄乌最近 critical 级别的军事事件挑 5 条按时间倒序，要日期和来源。">俄乌 critical 军事事件</span>
+      <span class="ask-ex" data-q="目前哪些冲突在外交谈判方面有进展？各举 1-2 条。">外交进展概览</span>
+      <span class="ask-ex" data-q="苏丹和刚果金的人道危机最近发生了什么？">非洲人道危机</span>
+      <span class="ask-ex" data-q="哪些冲突最近提到了无人机？">跨冲突搜索:无人机</span>
+      <span class="ask-ex" data-q="台海局势的舆论分析最近有哪些观点？">台海舆论</span>
+    </div>
+
+    <div id="askError" class="ask-error" style="display:none"></div>
+
+    <div id="askSteps" class="ask-steps" style="display:none"></div>
+
+    <div id="askLoading" class="ask-loading" style="display:none">思考中</div>
+
+    <article id="askAnswer" class="ask-answer" style="display:none">
+      <div class="ask-answer-label">ANSWER</div>
+      <div id="askAnswerBody"></div>
+      <div class="ask-meta">
+        <span id="askMetaSteps"></span>
+        <span id="askMetaTime"></span>
+      </div>
+    </article>
+  </main>
+
+  <script>
+    // 日期 + 暗色模式 (复用首页逻辑)
+    document.getElementById('mastDate').textContent = new Date().toLocaleDateString('zh-CN', { year:'numeric', month:'long', day:'numeric', weekday:'long' });
+    const themeToggle = document.getElementById('themeToggle');
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    if (savedTheme === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    themeToggle.addEventListener('click', () => {
+      const cur = document.documentElement.getAttribute('data-theme');
+      if (cur === 'dark') {
+        document.documentElement.removeAttribute('data-theme');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    });
+  </script>
+  <script src="ask.js"></script>
+</body>
+</html>
