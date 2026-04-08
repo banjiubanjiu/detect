@@ -1,0 +1,337 @@
+{
+  "date": "2026-04-08",
+  "snapshot_at": "2026-04-08T07:30:17.830910+00:00",
+  "stats": {
+    "total_items": 1126,
+    "sources": {
+      "web": 905,
+      "gdelt": 58,
+      "reddit": 57,
+      "x": 62,
+      "youtube": 44
+    },
+    "date_range": {
+      "from": "2026-03-09",
+      "to": "2026-04-08"
+    }
+  },
+  "global_briefing": "**全局态势简报**\n\n俄乌战争持续消耗西方资源，并加剧美伊对峙，伊朗通过向俄罗斯提供军事支持，间接参与俄乌冲突，并可能从中获取技术反哺自身。巴以冲突分散国际注意力，并可能刺激地区不稳定因素，例如也门胡塞武装的动向。非洲地区的苏丹和刚果（金）冲突持续，加剧人道主义危机，并可能与抗菌素耐药性等全球性问题形成恶性循环。印尼发现中国水下无人机，台海局势依旧紧张，地缘政治竞争持续加剧。",
+  "briefing_date": "2026-04-08",
+  "conflicts": {
+    "russia-ukraine": {
+      "name": "俄乌战争",
+      "name_en": "Russia-Ukraine",
+      "intensity": "war",
+      "status": "active",
+      "region": "欧洲",
+      "since": "2022-02-24",
+      "total_items": 266,
+      "categories": {
+        "military": 147,
+        "diplomacy": 44,
+        "opinion": 58,
+        "video": 3,
+        "humanitarian": 14
+      },
+      "criticality": {
+        "critical": 3,
+        "notable": 11,
+        "background": 252
+      },
+      "escalation": {
+        "index": 93,
+        "label": "升级",
+        "recent_count": 224,
+        "prior_count": 30,
+        "freq_score": 0.8661,
+        "gs_score": 0.8875,
+        "mention_score": 0.7561,
+        "recent_gs_avg": -8.88,
+        "recent_mentions": 41,
+        "prior_mentions": 10
+      },
+      "briefing": "**俄乌战争态势简报（2026-04-08）**\n\n俄军持续对乌克兰全境进行无人机袭击，重点打击敖德萨港口、哈尔科夫和苏梅等地区的民用及基础设施目标。乌克兰宣称击落大量俄军无人机，并指责俄罗斯利用卫星技术协助伊朗发动袭击。克里米亚费奥多西亚油库遇袭起火，可能影响俄军后勤补给。前线冲突激烈，一日内发生170次交火，表明双方在地面战中仍处于僵持状态。",
+      "briefing_date": "2026-04-08"
+    },
+    "israel-palestine": {
+      "name": "巴以冲突",
+      "name_en": "Israel-Palestine",
+      "intensity": "war",
+      "status": "active",
+      "region": "中东",
+      "since": "2023-10-07",
+      "total_items": 214,
+      "categories": {
+        "military": 99,
+        "diplomacy": 35,
+        "opinion": 40,
+        "video": 7,
+        "humanitarian": 33
+      },
+      "criticality": {
+        "critical": 5,
+        "notable": 12,
+        "background": 197
+      },
+      "escalation": {
+        "index": 79,
+        "label": "升级",
+        "recent_count": 142,
+        "prior_count": 51,
+        "freq_score": 0.6408,
+        "gs_score": 0.85,
+        "mention_score": 0.0,
+        "recent_gs_avg": -8.5,
+        "recent_mentions": 124,
+        "prior_mentions": 0
+      },
+      "briefing": "**巴以冲突简报（2026-04-08）**\n\n尽管美伊达成停火协议，但以色列明确表示该协议不适用于黎巴嫩，并持续对黎巴嫩南部进行军事打击和炮击，同时警告当地居民撤离。以黎边境冲突升级风险显著增加，可能超出美伊停火协议的范围。伊朗提出与美以结束战争的十点计划，但以色列的强硬立场表明短期内达成全面和平协议的可能性较低。",
+      "briefing_date": "2026-04-08"
+    },
+    "us-iran": {
+      "name": "美伊对峙",
+      "name_en": "US-Iran",
+      "intensity": "war",
+      "status": "active",
+      "region": "中东",
+      "since": "2026-03",
+      "total_items": 437,
+      "categories": {
+        "military": 140,
+        "diplomacy": 142,
+        "opinion": 126,
+        "video": 11,
+        "humanitarian": 18
+      },
+      "criticality": {
+        "critical": 7,
+        "notable": 21,
+        "background": 409
+      },
+      "escalation": {
+        "index": 84,
+        "label": "升级",
+        "recent_count": 355,
+        "prior_count": 68,
+        "freq_score": 0.8085,
+        "gs_score": 0.9268,
+        "mention_score": 0.0,
+        "recent_gs_avg": -9.27,
+        "recent_mentions": 180,
+        "prior_mentions": 0
+      },
+      "briefing": "**美伊对峙：**\n\n在美国和伊朗在巴基斯坦斡旋下达成有条件停火协议后，油价应声下跌，但澳大利亚警告停火协议难以有效降低油价。以色列方面声明停火协议不包括黎巴嫩，以军继续炮击黎巴嫩南部。乌克兰指责俄罗斯卫星协助伊朗袭击，显示地区冲突的外溢效应。停火协议的达成，以及特朗普放弃“摧毁伊朗文明”的威胁，可能预示着局势降级，但协议的脆弱性以及地区其他冲突方的行动，仍需密切关注。",
+      "briefing_date": "2026-04-08"
+    },
+    "sudan": {
+      "name": "苏丹内战",
+      "name_en": "Sudan Civil War",
+      "intensity": "war",
+      "status": "active",
+      "region": "非洲",
+      "since": "2023-04-15",
+      "total_items": 50,
+      "categories": {
+        "military": 11,
+        "diplomacy": 1,
+        "opinion": 8,
+        "video": 3,
+        "humanitarian": 27
+      },
+      "criticality": {
+        "critical": 3,
+        "notable": 8,
+        "background": 39
+      },
+      "escalation": {
+        "index": 49,
+        "label": "稳定",
+        "recent_count": 18,
+        "prior_count": 19,
+        "freq_score": -0.0526,
+        "gs_score": 0.0,
+        "mention_score": 0.0,
+        "recent_gs_avg": null,
+        "recent_mentions": 0,
+        "prior_mentions": 0
+      },
+      "briefing": "**苏丹内战态势简报**\n\n苏丹冲突持续，人道主义危机进一步恶化。无人机袭击医院导致医务人员伤亡，医疗物资短缺加剧，表明冲突对医疗系统的破坏性影响。阿联酋禁运加剧了苏丹的经济困境，可能进一步削弱冲突各方的资源，延长战事。爆炸性武器污染增加以及针对妇女的暴力行为，预示着冲突长期影响深远，需要国际社会加大对苏丹人道主义援助和冲突后重建的投入。",
+      "briefing_date": "2026-04-08"
+    },
+    "myanmar": {
+      "name": "缅甸内战",
+      "name_en": "Myanmar Civil War",
+      "intensity": "war",
+      "status": "active",
+      "region": "亚太",
+      "since": "2021-02-01",
+      "total_items": 32,
+      "categories": {
+        "military": 15,
+        "diplomacy": 0,
+        "opinion": 10,
+        "video": 4,
+        "humanitarian": 3
+      },
+      "criticality": {
+        "critical": 3,
+        "notable": 7,
+        "background": 22
+      },
+      "escalation": {
+        "index": 51,
+        "label": "稳定",
+        "recent_count": 7,
+        "prior_count": 14,
+        "freq_score": -0.5,
+        "gs_score": 0.9,
+        "mention_score": 0.0,
+        "recent_gs_avg": -9.0,
+        "recent_mentions": 4,
+        "prior_mentions": 0
+      },
+      "briefing": "缅甸内战态势简报：\n\n敏昂莱通过军方主导的议会选举成为总统，巩固了其权力，但此举进一步加剧了国内冲突烈度。人权组织已对其提起种族灭绝诉讼，国际社会压力持续增加。国内多线作战持续，平民武装力量开始采取非常规战术。粮食危机风险正在逼近，印缅边境地区局势复杂，需密切关注对印度东北部的影响。",
+      "briefing_date": "2026-04-08"
+    },
+    "yemen-houthi": {
+      "name": "也门/胡塞武装",
+      "name_en": "Yemen / Houthi",
+      "intensity": "conflict",
+      "status": "active",
+      "region": "中东",
+      "since": "2014-09",
+      "total_items": 31,
+      "categories": {
+        "military": 18,
+        "diplomacy": 3,
+        "opinion": 4,
+        "video": 4,
+        "humanitarian": 2
+      },
+      "criticality": {
+        "critical": 3,
+        "notable": 8,
+        "background": 20
+      },
+      "escalation": {
+        "index": 33,
+        "label": "缓和",
+        "recent_count": 6,
+        "prior_count": 18,
+        "freq_score": -0.6667,
+        "gs_score": 0.0,
+        "mention_score": 0.0,
+        "recent_gs_avg": null,
+        "recent_mentions": 0,
+        "prior_mentions": 0
+      },
+      "briefing": "也门胡塞武装已正式加入伊朗主导的针对以色列的袭击行动，尽管其参与程度可能受到自身实力和意愿的限制。胡塞武装的介入加剧了红海地区的紧张局势，引发了对曼德海峡可能被封锁的担忧，促使国际社会加强在该地区的军事部署。海湾国家在此问题上的团结面临瓦解风险，地区冲突可能进一步扩大。联合国正在积极呼吁中东各方寻求和平解决方案。",
+      "briefing_date": "2026-04-08"
+    },
+    "congo-drc": {
+      "name": "刚果(金)冲突",
+      "name_en": "Congo DRC / M23",
+      "intensity": "war",
+      "status": "active",
+      "region": "非洲",
+      "since": "2022-03",
+      "total_items": 28,
+      "categories": {
+        "military": 19,
+        "diplomacy": 0,
+        "opinion": 4,
+        "video": 3,
+        "humanitarian": 2
+      },
+      "criticality": {
+        "critical": 2,
+        "notable": 6,
+        "background": 20
+      },
+      "escalation": {
+        "index": 47,
+        "label": "稳定",
+        "recent_count": 4,
+        "prior_count": 14,
+        "freq_score": -0.7143,
+        "gs_score": 1.0,
+        "mention_score": 0.0,
+        "recent_gs_avg": -10.0,
+        "recent_mentions": 2,
+        "prior_mentions": 0
+      },
+      "briefing": "刚果（金）冲突：\n\n近期刚果（金）局势持续紧张，暴力活动加剧，联合国特派团面临承诺兑现的压力。无人机袭击导致法国人道主义工作者死亡，可能进一步复杂化国际关系。刚果（金）官员在美国遇刺事件或引发国际争端，需要密切关注后续调查结果。同时，刚果（金）被美国列为第三国遣返目的地，可能增加其国内人道主义压力。",
+      "briefing_date": "2026-04-08"
+    },
+    "syria": {
+      "name": "叙利亚局势",
+      "name_en": "Syria",
+      "intensity": "conflict",
+      "status": "active",
+      "region": "中东",
+      "since": "2011-03",
+      "total_items": 28,
+      "categories": {
+        "military": 7,
+        "diplomacy": 5,
+        "opinion": 9,
+        "video": 4,
+        "humanitarian": 3
+      },
+      "criticality": {
+        "critical": 2,
+        "notable": 7,
+        "background": 19
+      },
+      "escalation": {
+        "index": 49,
+        "label": "稳定",
+        "recent_count": 6,
+        "prior_count": 15,
+        "freq_score": -0.6,
+        "gs_score": 0.9,
+        "mention_score": 0.0,
+        "recent_gs_avg": -9.0,
+        "recent_mentions": 6,
+        "prior_mentions": 0
+      },
+      "briefing": "**叙利亚局势简报：**\n\n叙利亚境内局势复杂且持续动荡。乌克兰与叙利亚反对派的合作浮出水面，或旨在削弱俄罗斯在该地区的影响力。与此同时，美国人员在叙利亚被劫持事件以及数十万难民涌入，加剧了人道主义危机。伊朗与叙利亚之间的关系以及潜在的战争威胁，进一步阻碍了叙利亚的复苏进程，停火前景依然不明朗。",
+      "briefing_date": "2026-04-08"
+    },
+    "taiwan-strait": {
+      "name": "台海局势",
+      "name_en": "Taiwan Strait",
+      "intensity": "tension",
+      "status": "active",
+      "region": "亚太",
+      "since": "2022-08",
+      "total_items": 40,
+      "categories": {
+        "military": 6,
+        "diplomacy": 8,
+        "opinion": 20,
+        "video": 5,
+        "humanitarian": 1
+      },
+      "criticality": {
+        "critical": 2,
+        "notable": 8,
+        "background": 30
+      },
+      "escalation": {
+        "index": 56,
+        "label": "稳定",
+        "recent_count": 17,
+        "prior_count": 13,
+        "freq_score": 0.2353,
+        "gs_score": 0.0,
+        "mention_score": 0.0,
+        "recent_gs_avg": null,
+        "recent_mentions": 0,
+        "prior_mentions": 0
+      },
+      "briefing": "**台海局势简报 (2026-04-08)**\n\n台湾在野党领导人郑丽文访陆，展开“和平之旅”并预计与习近平会面，显示北京试图通过政治途径影响台湾。印尼发现中国水下无人机，表明中国在南海地区的军事部署活动持续。与此同时，菲律宾内部就与中国达成石油协议存在争议，反映出南海资源争端的复杂性。",
+      "briefing_date": "2026-04-08"
+    }
+  }
+}
