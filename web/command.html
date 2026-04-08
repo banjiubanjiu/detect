@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STRATCOM WATCH — 战情指挥中心</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="command.css">
+  <script src="https://cdn.jsdelivr.net/npm/globe.gl@2"></script>
+</head>
+<body>
+
+  <!-- ① 顶栏 -->
+  <header class="cc-topbar" id="topbar">
+    <div class="tb-left">
+      <span class="tb-title">STRATCOM WATCH</span>
+      <span class="tb-live" id="tbLive">● OFFLINE</span>
+    </div>
+    <div class="tb-center">
+      <span class="tb-clock" id="tbClock">--:--:-- UTC</span>
+    </div>
+    <div class="tb-right">
+      <span class="tb-events">
+        <span class="tb-num" id="tbEvents">—</span>
+        <span class="tb-unit">events / 30d</span>
+      </span>
+      <span class="tb-updated" id="tbUpdated">last update: —</span>
+      <a class="tb-back" href="./">← archive</a>
+    </div>
+  </header>
+
+  <!-- ② 左栏: 冲突升级条 + infra 统计 -->
+  <aside class="cc-left" id="leftRail">
+    <div class="rail-head">CONFLICTS</div>
+    <div class="rail-body" id="conflictRail"></div>
+    <div class="rail-head">INFRASTRUCTURE</div>
+    <div class="rail-infra" id="infraStats">
+      <div class="infra-row"><span class="ir-k">BASES</span><span class="ir-v" id="irBases">—</span></div>
+      <div class="infra-row"><span class="ir-k">NUKE PLT</span><span class="ir-v" id="irNuke">—</span></div>
+      <div class="infra-row"><span class="ir-k">CHOKE</span><span class="ir-v" id="irChoke">—</span></div>
+    </div>
+  </aside>
+
+  <!-- ③ 中间: 3D Globe + 弧线 -->
+  <main class="cc-center" id="centerStage">
+    <div class="globe-wrap" id="globeWrap"></div>
+    <div class="globe-overlay-tl" id="arcStatus">
+      <span class="ao-dot"></span>
+      <span class="ao-text" id="arcCount">—</span>
+    </div>
+    <div class="globe-overlay-br" id="globeCtrls">
+      <button class="gc-btn gc-active" data-act="rotate" title="自转">◉ ROTATE</button>
+      <button class="gc-btn" data-act="pause" title="暂停">⏸ PAUSE</button>
+      <button class="gc-btn" data-act="reset" title="重置视角">⊙ RESET</button>
+    </div>
+  </main>
+
+  <!-- ④ 右栏: Live feed -->
+  <aside class="cc-right" id="rightRail">
+    <div class="rail-head">
+      <span>LIVE FEED</span>
+      <span class="rh-sub" id="feedSub">—</span>
+    </div>
+    <div class="feed-body" id="feedBody"></div>
+    <div class="feed-foot">
+      <span class="ff-hint">hover 暂停 · 点击打开</span>
+    </div>
+  </aside>
+
+  <!-- ⑤ 底栏: Goldstein 30d -->
+  <footer class="cc-bottom" id="bottomBar">
+    <div class="bb-left">
+      <span class="bb-label">30-DAY GOLDSTEIN FLOOR</span>
+      <span class="bb-hint">per-day min · darker = worse</span>
+    </div>
+    <div class="bb-chart" id="goldsteinChart"></div>
+    <div class="bb-right" id="pipelineDots">
+      <span class="pd-label">PIPELINE</span>
+      <span class="pd-dot pd-ok" data-src="web" title="web"></span>
+      <span class="pd-dot pd-ok" data-src="reddit" title="reddit"></span>
+      <span class="pd-dot pd-ok" data-src="x" title="x"></span>
+      <span class="pd-dot pd-ok" data-src="youtube" title="youtube"></span>
+      <span class="pd-dot pd-ok" data-src="gdelt" title="gdelt"></span>
+    </div>
+  </footer>
+
+  <script src="command.js"></script>
+</body>
+</html>

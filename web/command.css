@@ -1,0 +1,362 @@
+/* ═══════════════════════════════════════════════════════════════
+   STRATCOM WATCH — Command Center stylesheet
+   独立于 style.css,不复用 index.html 的档案风变量
+   ═══════════════════════════════════════════════════════════════ */
+
+:root {
+  --bg:       #0a0b0d;
+  --bg-panel: #0f1114;
+  --bg-raise: #13161a;
+  --line:     #1c2026;
+  --line-hi:  #2a2f36;
+
+  --fg:       #e8e9eb;
+  --fg-dim:   #9aa0a8;
+  --fg-dim2:  #60666e;
+  --fg-faint: #3a3e44;
+
+  --red:      #e74c3c;
+  --red-dim:  #8a2820;
+  --amber:    #d9a636;
+  --green:    #3fb570;
+  --blue:     #4a9eff;
+
+  --mono:     'IBM Plex Mono', ui-monospace, monospace;
+  --sans:     'Source Sans 3', system-ui, sans-serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body {
+  width: 100vw; height: 100vh; overflow: hidden;
+  background: var(--bg); color: var(--fg);
+  font-family: var(--sans);
+  font-size: 13px;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ═══ Grid ═══
+   顶栏 42px · 中间行自适应 · 底栏 84px
+   左栏 260px · 中间自适应 · 右栏 340px */
+body {
+  display: grid;
+  grid-template-columns: 260px 1fr 340px;
+  grid-template-rows: 42px 1fr 84px;
+  grid-template-areas:
+    "topbar  topbar  topbar"
+    "left    center  right"
+    "bottom  bottom  bottom";
+}
+
+/* ═══ ① 顶栏 ═══ */
+.cc-topbar {
+  grid-area: topbar;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 16px;
+  background: var(--bg-panel);
+  border-bottom: 1px solid var(--line);
+  font-family: var(--mono);
+  font-size: 11px;
+}
+.tb-left, .tb-right { display: flex; align-items: center; gap: 14px; }
+.tb-title {
+  font-weight: 700; letter-spacing: 2px; color: var(--fg);
+  font-size: 12px;
+}
+.tb-live {
+  font-weight: 600; color: var(--red); letter-spacing: 1px;
+  animation: liveBlink 2s ease-in-out infinite;
+}
+.tb-live.live-ok      { color: var(--green); }
+.tb-live.live-degraded{ color: var(--amber); }
+.tb-live.live-critical{ color: var(--red); }
+@keyframes liveBlink { 0%,100%{opacity:1} 50%{opacity:.55} }
+
+.tb-center { flex: 0 0 auto; }
+.tb-clock {
+  font-weight: 600; color: var(--fg);
+  letter-spacing: 1.5px;
+  font-variant-numeric: tabular-nums;
+}
+
+.tb-events { display: flex; align-items: baseline; gap: 5px; }
+.tb-num { color: var(--fg); font-weight: 700; font-size: 14px; }
+.tb-unit { color: var(--fg-dim2); }
+.tb-updated { color: var(--fg-dim2); }
+.tb-back {
+  color: var(--fg-dim); text-decoration: none;
+  padding: 4px 8px; border: 1px solid var(--line-hi); border-radius: 3px;
+  transition: color .15s, border-color .15s;
+}
+.tb-back:hover { color: var(--fg); border-color: var(--fg-dim2); }
+
+/* ═══ ② 左栏 ═══ */
+.cc-left {
+  grid-area: left;
+  background: var(--bg-panel);
+  border-right: 1px solid var(--line);
+  overflow-y: auto;
+  padding: 14px 0 14px 0;
+}
+.rail-head {
+  font-family: var(--mono); font-size: 10px; font-weight: 700;
+  letter-spacing: 1.5px; color: var(--fg-dim2);
+  padding: 0 14px 8px 14px;
+  display: flex; justify-content: space-between; align-items: baseline;
+}
+.rail-head:not(:first-child) {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+}
+.rh-sub { font-weight: 400; color: var(--fg-faint); font-size: 9px; }
+
+.rail-body { display: flex; flex-direction: column; gap: 2px; padding: 0 10px; }
+
+/* 冲突条 */
+.conflict-row {
+  display: grid;
+  grid-template-columns: 36px 1fr 18px;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 6px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: var(--mono); font-size: 10px;
+  transition: background .15s;
+}
+.conflict-row:hover { background: var(--bg-raise); }
+.cr-code {
+  font-weight: 700; letter-spacing: 0.5px; color: var(--fg);
+}
+.cr-bar-wrap {
+  position: relative; height: 6px;
+  background: var(--line); border-radius: 1px;
+  overflow: hidden;
+}
+.cr-bar {
+  position: absolute; top: 0; left: 0; height: 100%;
+  border-radius: 1px;
+  transition: width .6s ease-out;
+}
+.cr-bar.esc-up    { background: var(--red); }
+.cr-bar.esc-stable{ background: var(--amber); }
+.cr-bar.esc-down  { background: var(--green); }
+.cr-arrow {
+  font-weight: 700; text-align: right;
+  font-size: 11px;
+}
+.cr-arrow.esc-up    { color: var(--red); }
+.cr-arrow.esc-stable{ color: var(--amber); }
+.cr-arrow.esc-down  { color: var(--green); }
+
+.cr-name {
+  grid-column: 1 / -1;
+  font-family: var(--sans);
+  font-size: 11px;
+  color: var(--fg-dim);
+  margin-top: 2px;
+  margin-left: 44px;
+}
+
+/* infra 统计 */
+.rail-infra { padding: 0 16px; display: flex; flex-direction: column; gap: 4px; }
+.infra-row {
+  display: flex; justify-content: space-between; align-items: baseline;
+  font-family: var(--mono); font-size: 10px;
+  padding: 3px 0;
+}
+.ir-k { color: var(--fg-dim2); letter-spacing: 1px; }
+.ir-v { color: var(--fg); font-weight: 700; font-size: 13px; }
+
+/* ═══ ③ 中间 globe ═══ */
+.cc-center {
+  grid-area: center;
+  position: relative;
+  background: radial-gradient(ellipse at center, #0d1016 0%, var(--bg) 80%);
+  overflow: hidden;
+  min-width: 0;   /* prevent grid 1fr 被 canvas 顶大 */
+  min-height: 0;
+}
+.globe-wrap {
+  position: absolute; inset: 0;
+  display: flex; align-items: center; justify-content: center;
+  overflow: hidden;
+}
+.globe-wrap canvas { display: block; }
+
+/* left/right rail 也加 min-height:0 防止内容把行撑大 */
+.cc-left, .cc-right { min-width: 0; min-height: 0; }
+
+/* overlay: 左上角 arc 状态 */
+.globe-overlay-tl {
+  position: absolute; top: 14px; left: 14px;
+  display: flex; align-items: center; gap: 8px;
+  font-family: var(--mono); font-size: 10px; color: var(--fg-dim);
+  pointer-events: none;
+}
+.ao-dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--red); box-shadow: 0 0 8px var(--red);
+  animation: aoDot 1.4s ease-in-out infinite;
+}
+@keyframes aoDot { 0%,100%{opacity:.4} 50%{opacity:1} }
+.ao-text { letter-spacing: 1px; }
+
+/* overlay: 右下角 globe 控制 */
+.globe-overlay-br {
+  position: absolute; bottom: 14px; right: 14px;
+  display: flex; gap: 6px;
+}
+.gc-btn {
+  font-family: var(--mono); font-size: 9px; font-weight: 600;
+  letter-spacing: 1px; color: var(--fg-dim);
+  background: rgba(15,17,20,0.75);
+  border: 1px solid var(--line-hi);
+  padding: 5px 9px;
+  border-radius: 2px;
+  cursor: pointer;
+  backdrop-filter: blur(6px);
+  transition: all .15s;
+}
+.gc-btn:hover { color: var(--fg); border-color: var(--fg-dim2); }
+.gc-btn.gc-active { color: var(--red); border-color: var(--red-dim); }
+
+/* ═══ ④ 右栏: live feed ═══ */
+.cc-right {
+  grid-area: right;
+  background: var(--bg-panel);
+  border-left: 1px solid var(--line);
+  display: flex; flex-direction: column;
+}
+.cc-right .rail-head {
+  padding-top: 14px;
+  padding-right: 14px;
+}
+.feed-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 4px 12px 4px 14px;
+  scroll-behavior: smooth;
+}
+.feed-body::-webkit-scrollbar { width: 5px; }
+.feed-body::-webkit-scrollbar-thumb { background: var(--line-hi); border-radius: 2px; }
+
+.feed-row {
+  padding: 7px 0;
+  border-bottom: 1px solid var(--line);
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: 46px 1fr;
+  gap: 8px;
+  font-size: 11.5px;
+  line-height: 1.4;
+  animation: feedFadeIn .4s ease-out;
+}
+@keyframes feedFadeIn { from { opacity: 0; transform: translateY(-4px) } to { opacity: 1; transform: none } }
+.feed-row:last-child { border-bottom: none; }
+.feed-row:hover { background: var(--bg-raise); }
+
+.fr-time {
+  font-family: var(--mono);
+  font-size: 9px;
+  color: var(--fg-dim2);
+  padding-top: 2px;
+}
+.fr-body { min-width: 0; }
+.fr-tag {
+  display: inline-block;
+  font-family: var(--mono); font-size: 9px; font-weight: 700;
+  letter-spacing: 0.5px;
+  padding: 1px 4px; margin-right: 5px;
+  border-radius: 2px;
+  background: var(--line-hi);
+  color: var(--fg-dim);
+  text-transform: uppercase;
+}
+.fr-tag.crit { background: var(--red-dim); color: #fff8f6; }
+.fr-tag.note { background: #5a4018; color: #ffeab0; }
+.fr-title {
+  color: var(--fg);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.feed-foot {
+  padding: 8px 14px;
+  border-top: 1px solid var(--line);
+  font-family: var(--mono); font-size: 9px;
+  color: var(--fg-faint);
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+/* ═══ ⑤ 底栏 Goldstein sparkline ═══ */
+.cc-bottom {
+  grid-area: bottom;
+  background: var(--bg-panel);
+  border-top: 1px solid var(--line);
+  display: grid;
+  grid-template-columns: 220px 1fr 220px;
+  align-items: center;
+  padding: 0 16px;
+  gap: 16px;
+}
+.bb-left { display: flex; flex-direction: column; gap: 2px; }
+.bb-label {
+  font-family: var(--mono); font-size: 10px; font-weight: 700;
+  letter-spacing: 1.5px; color: var(--fg-dim);
+}
+.bb-hint {
+  font-family: var(--mono); font-size: 9px;
+  color: var(--fg-faint); letter-spacing: 0.5px;
+}
+
+.bb-chart {
+  display: flex; align-items: flex-end;
+  gap: 2px;
+  height: 48px;
+  padding: 4px 0;
+}
+.bb-bar {
+  flex: 1 0 auto;
+  min-width: 6px;
+  background: var(--fg-faint);
+  border-radius: 1px 1px 0 0;
+  position: relative;
+  transition: background .4s;
+}
+.bb-bar.bb-sev-0 { background: var(--fg-faint); }
+.bb-bar.bb-sev-1 { background: #5a4018; }
+.bb-bar.bb-sev-2 { background: #a85f1a; }
+.bb-bar.bb-sev-3 { background: var(--red-dim); }
+.bb-bar.bb-sev-4 { background: var(--red); }
+.bb-bar:hover { filter: brightness(1.3); }
+
+.bb-right {
+  display: flex; align-items: center; gap: 6px;
+  justify-content: flex-end;
+}
+.pd-label {
+  font-family: var(--mono); font-size: 9px; font-weight: 600;
+  letter-spacing: 1px; color: var(--fg-dim2);
+  margin-right: 4px;
+}
+.pd-dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--fg-faint);
+  position: relative;
+  cursor: help;
+}
+.pd-dot.pd-ok { background: var(--green); box-shadow: 0 0 6px rgba(63,181,112,0.6); }
+.pd-dot.pd-warn { background: var(--amber); box-shadow: 0 0 6px rgba(217,166,54,0.6); }
+.pd-dot.pd-err { background: var(--red); box-shadow: 0 0 6px rgba(231,76,60,0.6); }
+
+/* ═══ 自适应: 窄屏降级 ═══ */
+@media (max-width: 1280px) {
+  body { grid-template-columns: 220px 1fr 300px; }
+}
+@media (max-width: 1024px) {
+  body { grid-template-columns: 200px 1fr 260px; }
+}
