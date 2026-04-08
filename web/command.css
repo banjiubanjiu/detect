@@ -225,6 +225,15 @@ body.no-ticker {
   border-color: var(--fg-dim);
   background: var(--bg-raise);
 }
+.tb-switch-analytics {
+  color: var(--blue);
+  border-color: var(--blue);
+}
+.tb-switch-analytics:hover {
+  color: #fff;
+  border-color: var(--blue);
+  background: var(--blue);
+}
 
 /* ═══ ② 左栏 ═══ */
 .cc-left {

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>战况追踪 · ANALYTICS — 分析工作台</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=IBM+Plex+Mono:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="analytics.css">
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+</head>
+<body>
+
+  <!-- ① 顶栏 -->
+  <header class="an-topbar">
+    <div class="an-left">
+      <span class="an-brand">战况追踪</span>
+      <span class="an-mode">
+        <span class="an-mode-dot"></span>
+        ANALYTICS
+      </span>
+    </div>
+    <div class="an-center">
+      <div class="an-time-filter" id="timeFilter">
+        <span class="tf-btn" data-t="1">24H</span>
+        <span class="tf-btn" data-t="7">7D</span>
+        <span class="tf-btn tf-active" data-t="30">30D</span>
+        <span class="tf-btn" data-t="90">90D</span>
+        <span class="tf-btn" data-t="0">ALL</span>
+      </div>
+    </div>
+    <div class="an-right">
+      <span class="an-stat">
+        <span class="as-num" id="statTotal">—</span>
+        <span class="as-unit">events</span>
+      </span>
+      <span class="an-stat">
+        <span class="as-num" id="statConflicts">9</span>
+        <span class="as-unit">conflicts</span>
+      </span>
+      <span class="an-stat">
+        <span class="as-num" id="statClusters">—</span>
+        <span class="as-unit">clusters</span>
+      </span>
+      <a class="an-switch" href="./" title="档案阅读模式">← ARCHIVE</a>
+      <a class="an-switch" href="command.html" title="战情监控模式">WATCH ↗</a>
+    </div>
+  </header>
+
+  <!-- ② 主 streamgraph 区 (全宽) -->
+  <section class="an-main">
+    <div class="an-panel-head">
+      <div class="ap-head-left">
+        <h2 class="an-title">事件流 Streamgraph</h2>
+        <span class="an-sub" id="streamSub">每日 9 冲突事件分布 · hover 查看任一天 · click 流打开详情</span>
+      </div>
+      <div class="an-legend" id="streamLegend"></div>
+    </div>
+    <div class="an-stream-wrap" id="streamWrap">
+      <div class="an-stream-tooltip" id="streamTooltip" style="display:none"></div>
+    </div>
+  </section>
+
+  <!-- ③ Watchlist + Goldstein 两栏 -->
+  <section class="an-row-two">
+    <div class="an-panel an-watchlist-panel">
+      <div class="an-panel-head">
+        <div class="ap-head-left">
+          <h2 class="an-title">9 冲突 Watchlist</h2>
+          <span class="an-sub">按 escalation 降序 · 悬停同步高亮 streamgraph · 双击跳档案</span>
+        </div>
+      </div>
+      <div class="an-watchlist-head">
+        <span class="awh-code">CODE</span>
+        <span class="awh-name">CONFLICT</span>
+        <span class="awh-num">TOTAL</span>
+        <span class="awh-num">7D Δ</span>
+        <span class="awh-spark">30D TREND</span>
+        <span class="awh-num">PEAK</span>
+        <span class="awh-num">GS MIN</span>
+        <span class="awh-num">CLUSTERS</span>
+      </div>
+      <div class="an-watchlist" id="watchlist"></div>
+    </div>
+
+    <div class="an-panel an-goldstein-panel">
+      <div class="an-panel-head">
+        <div class="ap-head-left">
+          <h2 class="an-title">Goldstein Floor</h2>
+          <span class="an-sub">30 天每日最严重事件的 Goldstein 分数 (-10 最差)</span>
+        </div>
+      </div>
+      <div class="an-goldstein" id="goldsteinChart"></div>
+      <div class="an-gs-legend">
+        <span class="gsl-item"><span class="gsl-swatch gsl-sev-4"></span>≤-9 严重</span>
+        <span class="gsl-item"><span class="gsl-swatch gsl-sev-3"></span>≤-7 重</span>
+        <span class="gsl-item"><span class="gsl-swatch gsl-sev-2"></span>≤-5 中</span>
+        <span class="gsl-item"><span class="gsl-swatch gsl-sev-1"></span>≤-3 轻</span>
+      </div>
+    </div>
+  </section>
+
+  <script src="analytics.js"></script>
+</body>
+</html>
