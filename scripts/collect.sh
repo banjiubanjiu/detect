@@ -9,6 +9,9 @@ export PATH="$HOME/bin:$HOME/.nvm/versions/node/v22.21.1/bin:$PATH"
 echo "$(date): Starting collection..."
 python3 -u scripts/collect.py
 
+# 多源交叉验证聚类 (为 latest.json 每条 item 注入 cluster_id/size/bias_count)
+python3 -u scripts/cluster_corroboration.py || echo "  cluster_corroboration 跳过"
+
 # Pull DeepStateMap Ukraine frontline (独立步骤,失败不影响主流程)
 python3 -u scripts/deepstate_pull.py || echo "  deepstate_pull 跳过"
 

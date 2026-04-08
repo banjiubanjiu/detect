@@ -359,7 +359,10 @@
               "local_file": "sources/web/meduza.io_murmansk-governor-confirms-russian-general-killed-in-an-26-crash-in-cr.md",
               "title_en": "Murmansk governor confirms Russian general killed in An-26 crash in Crimea",
               "summary_en": "Murmansk Governor Andrei Chibis has confirmed that Lieutenant General Alexander Otroshchenko was among those killed when an An-26 military transport plane crashed in Russian-occupied Crimea on March 31. There were no survivors.",
-              "criticality": "notable"
+              "criticality": "notable",
+              "cluster_id": "cl_5ad5a8",
+              "cluster_size": 2,
+              "cluster_bias_count": 1
             },
             {
               "id": "rss_3f55ce8f653f",
@@ -429,7 +432,10 @@
               "local_file": "sources/web/themoscowtimes.com_murmansk-governor-confirms-russian-navy-generals-death-in-cri.md",
               "title_en": "Murmansk Governor Confirms Russian Navy General’s Death in Crimea Plane Crash",
               "summary_en": "All 29 people on board an Antonov An-26 military transport plane were killed when it crashed into a cliff near the port city of Sevastopol on March 31.",
-              "criticality": "background"
+              "criticality": "background",
+              "cluster_id": "cl_5ad5a8",
+              "cluster_size": 2,
+              "cluster_bias_count": 1
             },
             {
               "id": "rss_56251e2e58a9",
@@ -1505,7 +1511,10 @@
               "local_file": "sources/web/ukrinform.net_4109808-zelensky-ukraine-proposes-energy-truce-to-russia.html.md",
               "title_en": "Zelensky: Ukraine proposes energy truce to Russia",
               "summary_en": "If Russia is willing to stop its attacks on Ukraine’s energy sector, Ukraine is ready to respond in kind. A proposal to that effect has been conveyed to the aggressor country via the Americans.",
-              "criticality": "background"
+              "criticality": "background",
+              "cluster_id": "cl_97c8ba",
+              "cluster_size": 2,
+              "cluster_bias_count": 2
             },
             {
               "id": "rss_6103d6650f64",
@@ -1618,7 +1627,10 @@
               "local_file": "sources/web/meduza.io_zelensky-says-ukraine-proposed-energy-truce-to-russia-through-u-s-inte.md",
               "title_en": "Zelensky says Ukraine proposed energy truce to Russia through U.S. intermediaries",
               "summary_en": "Ukrainian President Volodymyr Zelensky said Kyiv had passed a proposal to Moscow through American intermediaries for both sides to halt strikes on each other’s energy infrastructure.",
-              "criticality": "background"
+              "criticality": "background",
+              "cluster_id": "cl_97c8ba",
+              "cluster_size": 2,
+              "cluster_bias_count": 2
             },
             {
               "id": "rss_9141759d810a",
@@ -3324,7 +3336,10 @@
               "metrics": {},
               "title_en": "[MEGATHREAD] Israel-Palestine Conflict Week of 09 ...",
               "summary_en": "Egypt maintained control of the Gaza Strip, Jordan took over the West Bank and East Jerusalem, and roughly 750,000 Jews from across the region ...",
-              "criticality": "background"
+              "criticality": "background",
+              "cluster_id": "cl_2324f1",
+              "cluster_size": 2,
+              "cluster_bias_count": 1
             },
             {
               "id": "gdelt_1297900967",
@@ -3398,7 +3413,10 @@
               "metrics": {},
               "title_en": "[MEGATHREAD] Israel-Palestine Conflict Week of 16 ...",
               "summary_en": "Israel gained territorial control over the Sinai Peninsula and the Gaza Strip from Egypt, the West Bank and East Jerusalem from Jordan, and the ...",
-              "criticality": "background"
+              "criticality": "background",
+              "cluster_id": "cl_2324f1",
+              "cluster_size": 2,
+              "cluster_bias_count": 1
             },
             {
               "id": "reddit_2508",
@@ -3903,7 +3921,10 @@
               "metrics": {},
               "title_en": "Iran war has a new front in Yemen. Here's how it could ...",
               "summary_en": "3 days ago — After a month of threats, Yemen's Iran-backed Houthi rebels finally entered the Middle East conflict on Saturday, firing two missiles ...",
-              "criticality": "background"
+              "criticality": "background",
+              "cluster_id": "cl_16bc81",
+              "cluster_size": 2,
+              "cluster_bias_count": 1
             },
             {
               "id": "web_76507",
@@ -3917,7 +3938,10 @@
               "metrics": {},
               "title_en": "Why Yemen's Houthis Opened a New Front in the Iran War",
               "summary_en": "16 hours ago — On March 26, the Houthis entered the war, launching two ballistic missile attacks over 2,000 kilometers into Israel. The date was selected to ...",
-              "criticality": "background"
+              "criticality": "background",
+              "cluster_id": "cl_16bc81",
+              "cluster_size": 2,
+              "cluster_bias_count": 1
             },
             {
               "id": "web_21539",
@@ -4671,7 +4695,10 @@
               "metrics": {},
               "title_en": "Yemen's Houthis enter the Iran War with attack on Israel",
               "summary_en": "The Iranian-backed Houthis have claimed responsibility for an attack on Israel. The missile was launched from Yemen and was intercepted.",
-              "criticality": "critical"
+              "criticality": "critical",
+              "cluster_id": "cl_604a3e",
+              "cluster_size": 2,
+              "cluster_bias_count": 1
             },
             {
               "id": "yt_89788",
@@ -4685,7 +4712,10 @@
               "metrics": {},
               "title_en": "Iran War escalates as Yemen's Houthis attack Israel and ...",
               "summary_en": "Iranian-backed Houthi rebels in Yemen have launched a wave of missiles and drone strikes against Israel. The group said in a statement that ...",
-              "criticality": "background"
+              "criticality": "background",
+              "cluster_id": "cl_604a3e",
+              "cluster_size": 2,
+              "cluster_bias_count": 1
             },
             {
               "id": "yt_8599",
@@ -5811,7 +5841,10 @@
               "local_file": "sources/web/npr.org_us-airman-rescued-after-his-fighter-jet-was-shot-down-in-iran.md",
               "title_en": "US airman rescued after his fighter jet was shot down in Iran",
               "summary_en": "NPR's Tom Bowman reports on the race to rescue a U.S. airman after his fighter jet was shot down.",
-              "criticality": "background"
+              "criticality": "background",
+              "cluster_id": "cl_84587b",
+              "cluster_size": 4,
+              "cluster_bias_count": 2
             },
             {
               "id": "rss_be367fe5b480",
@@ -6083,7 +6116,10 @@
               "local_file": "sources/web/aljazeera.com_what-we-know-about-the-us-fighter-jet-shot-down-in-iran_traffic_so.md",
               "title_en": "What we know about the US fighter jet shot down in Iran",
               "summary_en": "The White House has confirmed Donald Trump has been briefed on the shooting down of a US fighter jet in Iran.",
-              "criticality": "background"
+              "criticality": "background",
+              "cluster_id": "cl_84587b",
+              "cluster_size": 4,
+              "cluster_bias_count": 2
             },
             {
               "id": "rss_c4e2cb162f1f",
@@ -6097,7 +6133,10 @@
               "local_file": "sources/web/defensenews.com_.md",
               "title_en": "US F-15E fighter jet shot down over Iran",
               "summary_en": "A search and rescue operation is underway for survivors.",
-              "criticality": "background"
+              "criticality": "background",
+              "cluster_id": "cl_84587b",
+              "cluster_size": 4,
+              "cluster_bias_count": 2
             },
             {
               "id": "rss_e86366dea799",
@@ -6769,7 +6808,10 @@
               "local_file": "sources/web/theguardian.com_us-fighter-jet-confirmed-shot-down-over-iran.md",
               "title_en": "One of two US crew members rescued after F-15E jet shot down over Iran",
               "summary_en": "Officials say other remains missing in first downing of US fighter plane since start of warMiddle East crisis – live updatesOne US service member has been rescued after a US F-15E Strike Eagle fighter was shot down over Iran, prompting a frantic effort to locate its two-strong crew, in the first suc",
-              "criticality": "background"
+              "criticality": "background",
+              "cluster_id": "cl_84587b",
+              "cluster_size": 4,
+              "cluster_bias_count": 2
             },
             {
               "id": "rss_4adfecdb9e8f",
@@ -6825,7 +6867,10 @@
               "metrics": {},
               "title_en": "Iran war has a new front in Yemen. Here's how it could ...",
               "summary_en": "3 days ago — After a month of threats, Yemen's Iran-backed Houthi rebels finally entered the Middle East conflict on Saturday, firing two missiles ...",
-              "criticality": "background"
+              "criticality": "background",
+              "cluster_id": "cl_16bc81",
+              "cluster_size": 2,
+              "cluster_bias_count": 1
             },
             {
               "id": "web_76507",
@@ -6839,7 +6884,10 @@
               "metrics": {},
               "title_en": "Why Yemen's Houthis Opened a New Front in the Iran War",
               "summary_en": "16 hours ago — On March 26, the Houthis entered the war, launching two ballistic missile attacks over 2,000 kilometers into Israel. The date was selected to ...",
-              "criticality": "background"
+              "criticality": "background",
+              "cluster_id": "cl_16bc81",
+              "cluster_size": 2,
+              "cluster_bias_count": 1
             },
             {
               "id": "x_2037633776977633721",
@@ -9014,7 +9062,10 @@
               "metrics": {},
               "title_en": "Yemen's Houthis enter the Iran War with attack on Israel",
               "summary_en": "The Iranian-backed Houthis have claimed responsibility for an attack on Israel. The missile was launched from Yemen and was intercepted.",
-              "criticality": "critical"
+              "criticality": "critical",
+              "cluster_id": "cl_604a3e",
+              "cluster_size": 2,
+              "cluster_bias_count": 1
             },
             {
               "id": "yt_50362",
@@ -9042,7 +9093,10 @@
               "metrics": {},
               "title_en": "Iran War escalates as Yemen's Houthis attack Israel and ...",
               "summary_en": "Iranian-backed Houthi rebels in Yemen have launched a wave of missiles and drone strikes against Israel. The group said in a statement that ...",
-              "criticality": "background"
+              "criticality": "background",
+              "cluster_id": "cl_604a3e",
+              "cluster_size": 2,
+              "cluster_bias_count": 1
             },
             {
               "id": "yt_70461",
@@ -9907,7 +9961,10 @@
               "local_file": "sources/web/dabangasudan.org_sudan-professors-strike-enters-third-day-as-more-arrests-report.md",
               "title_en": "Sudan professors’ strike enters third day as more arrests reported",
               "summary_en": "Sudanese university professors continued a nationwide open-ended strike for a third consecutive day yesterday, with... The post Sudan professors’ strike enters third day as more arrests reported appeared first on Dabanga Radio TV Online.",
-              "criticality": "background"
+              "criticality": "background",
+              "cluster_id": "cl_257e5f",
+              "cluster_size": 2,
+              "cluster_bias_count": 1
             },
             {
               "id": "rss_5a31ef5a1bc3",
@@ -9949,7 +10006,10 @@
               "local_file": "sources/web/dabangasudan.org_second-day-of-sudan-professors-strike-amid-arrests-and-crackdow.md",
               "title_en": "Second day of Sudan professors’ strike amid ‘arrests and crackdowns’",
               "summary_en": "Sudanese university professors continued an open-ended nationwide strike for a second day yesterday, with organisers... The post Second day of Sudan professors’ strike amid ‘arrests and crackdowns’ appeared first on Dabanga Radio TV Online.",
-              "criticality": "background"
+              "criticality": "background",
+              "cluster_id": "cl_257e5f",
+              "cluster_size": 2,
+              "cluster_bias_count": 1
             },
             {
               "id": "web_38894",
@@ -10295,7 +10355,10 @@
               "metrics": {},
               "title_en": "Burma Coup Resistance Notes March 21, 2026",
               "summary_en": "This is a subreddit dedicated to footage and photos related to the civil war in Myanmar. 12K Weekly visitors 488 Weekly contributions.",
-              "criticality": "background"
+              "criticality": "background",
+              "cluster_id": "cl_c6599b",
+              "cluster_size": 5,
+              "cluster_bias_count": 1
             },
             {
               "id": "reddit_82738",
@@ -10309,7 +10372,10 @@
               "metrics": {},
               "title_en": "Burma Coup Resistance Notes March 28, 2026",
               "summary_en": "\"The Arakan Army opened fire from close range on the navy yard just to the north of Sittwe town on March 23, killing between 30 and 40 of ...",
-              "criticality": "notable"
+              "criticality": "notable",
+              "cluster_id": "cl_c6599b",
+              "cluster_size": 5,
+              "cluster_bias_count": 1
             },
             {
               "id": "reddit_76865",
@@ -10323,7 +10389,10 @@
               "metrics": {},
               "title_en": "Burma Coup Resistance Notes March 7, 2026",
               "summary_en": "The junta stopped operations at the factory in mid-February due to the AA threat and has focused on defense and possible relocation. The ...",
-              "criticality": "background"
+              "criticality": "background",
+              "cluster_id": "cl_c6599b",
+              "cluster_size": 5,
+              "cluster_bias_count": 1
             },
             {
               "id": "reddit_91965",
@@ -10337,7 +10406,10 @@
               "metrics": {},
               "title_en": "Burma Coup Resistance Notes March 7, 2026 : r/myanmar",
               "summary_en": "The war in Iran will only momentarily interfere with the conflict in Myanmar as if you haven't read the news the only country they aren't ...",
-              "criticality": "background"
+              "criticality": "background",
+              "cluster_id": "cl_c6599b",
+              "cluster_size": 5,
+              "cluster_bias_count": 1
             },
             {
               "id": "x_2010033955349618733",
@@ -10451,7 +10523,10 @@
               },
               "title_en": "Who is fighting in Myanmar's multi-front civil war?",
               "summary_en": "For those less familiar with #Myanmar, here’s an explainer on who’s fighting, why & what may come next. \n\nThanks to analysts involved and @AJEnglish for keeping eyes on an overlooked war now getting p",
-              "criticality": "notable"
+              "criticality": "notable",
+              "cluster_id": "cl_e24416",
+              "cluster_size": 2,
+              "cluster_bias_count": 1
             },
             {
               "id": "reddit_56809",
@@ -10465,7 +10540,10 @@
               "metrics": {},
               "title_en": "Burma Coup Resistance Notes February 21, 2026",
               "summary_en": "Would resistances won the war if all anti junta forces and factions united or unifyed? r/Myanmarcombatfootage. • 2mo ...",
-              "criticality": "background"
+              "criticality": "background",
+              "cluster_id": "cl_c6599b",
+              "cluster_size": 5,
+              "cluster_bias_count": 1
             },
             {
               "id": "web_32477",
@@ -10557,7 +10635,10 @@
               "metrics": {},
               "title_en": "Myanmar's Unwinnable Civil War.",
               "summary_en": "Why Myanmar's civil war may be unwinnable. Discover the brutal stalemate, evolving tactics, foreign pressure, and the uncertain future ...",
-              "criticality": "background"
+              "criticality": "background",
+              "cluster_id": "cl_e24416",
+              "cluster_size": 2,
+              "cluster_bias_count": 1
             },
             {
               "id": "yt_666",
@@ -10734,7 +10815,10 @@
               "metrics": {},
               "title_en": "Iran war has a new front in Yemen. Here's how it could ...",
               "summary_en": "3 days ago — After a month of threats, Yemen's Iran-backed Houthi rebels finally entered the Middle East conflict on Saturday, firing two missiles ...",
-              "criticality": "background"
+              "criticality": "background",
+              "cluster_id": "cl_16bc81",
+              "cluster_size": 2,
+              "cluster_bias_count": 1
             },
             {
               "id": "web_76507",
@@ -10748,7 +10832,10 @@
               "metrics": {},
               "title_en": "Why Yemen's Houthis Opened a New Front in the Iran War",
               "summary_en": "16 hours ago — On March 26, the Houthis entered the war, launching two ballistic missile attacks over 2,000 kilometers into Israel. The date was selected to ...",
-              "criticality": "background"
+              "criticality": "background",
+              "cluster_id": "cl_16bc81",
+              "cluster_size": 2,
+              "cluster_bias_count": 1
             },
             {
               "id": "web_21539",
@@ -11015,7 +11102,10 @@
               "metrics": {},
               "title_en": "Yemen's Houthis enter the Iran War with attack on Israel",
               "summary_en": "The Iranian-backed Houthis have claimed responsibility for an attack on Israel. The missile was launched from Yemen and was intercepted.",
-              "criticality": "critical"
+              "criticality": "critical",
+              "cluster_id": "cl_604a3e",
+              "cluster_size": 2,
+              "cluster_bias_count": 1
             },
             {
               "id": "yt_50362",
@@ -11057,7 +11147,10 @@
               "metrics": {},
               "title_en": "Iran War escalates as Yemen's Houthis attack Israel and ...",
               "summary_en": "Iranian-backed Houthi rebels in Yemen have launched a wave of missiles and drone strikes against Israel. The group said in a statement that ...",
-              "criticality": "background"
+              "criticality": "background",
+              "cluster_id": "cl_604a3e",
+              "cluster_size": 2,
+              "cluster_bias_count": 1
             }
           ]
         },
@@ -11141,7 +11234,10 @@
               "metrics": {},
               "title_en": "DR Congo: violence intensifies as UN mission pledges ...",
               "summary_en": "6 days ago — The deputy chief's briefing came as clashes between rebel militia groups, AFC and M23, and forces supporting the Government in Kinshasa ...",
-              "criticality": "background"
+              "criticality": "background",
+              "cluster_id": "cl_4e904d",
+              "cluster_size": 2,
+              "cluster_bias_count": 1
             },
             {
               "id": "web_19838",
@@ -11155,7 +11251,10 @@
               "metrics": {},
               "title_en": "The war raging in the Democratic Republic of Congo",
               "summary_en": "Feb 26, 2026 — In the eastern Democratic Republic of Congo, government forces and local militia groups are fighting M23 rebels backed by neighboring Rwanda.",
-              "criticality": "background"
+              "criticality": "background",
+              "cluster_id": "cl_3ecad7",
+              "cluster_size": 5,
+              "cluster_bias_count": 2
             },
             {
               "id": "rss_18183c6afbf5",
@@ -11169,7 +11268,10 @@
               "local_file": "sources/web/news.un.org_1167204.md",
               "title_en": "DR Congo: violence intensifies as UN mission pledges continued support",
               "summary_en": "The security and political situation in the Democratic Republic of the Congo (DRC) remains “extremely tense”, a senior UN official told the Security Council on Thursday.",
-              "criticality": "notable"
+              "criticality": "notable",
+              "cluster_id": "cl_4e904d",
+              "cluster_size": 2,
+              "cluster_bias_count": 1
             },
             {
               "id": "x_2030593027350167712",
@@ -11200,7 +11302,10 @@
               "metrics": {},
               "title_en": "Democratic Republic of the Congo, March 2026 Monthly ...",
               "summary_en": "Mar 2, 2026 — On 2 February, the Congolese government and the M23 signed in Doha a terms of reference for implementing the ceasefire. MONUSCO was also ...",
-              "criticality": "background"
+              "criticality": "background",
+              "cluster_id": "cl_3ecad7",
+              "cluster_size": 5,
+              "cluster_bias_count": 2
             },
             {
               "id": "reddit_32748",
@@ -11262,7 +11367,10 @@
               "metrics": {},
               "title_en": "Democratic Republic of the Congo: Briefing and ...",
               "summary_en": "6 days ago — ... (M23) rebel group in November 2025 and the Washington Accords agreed by the DRC and Rwanda in December 2025. Van de Perre may highlight ...",
-              "criticality": "background"
+              "criticality": "background",
+              "cluster_id": "cl_3ecad7",
+              "cluster_size": 5,
+              "cluster_bias_count": 2
             },
             {
               "id": "web_39457",
@@ -11276,7 +11384,10 @@
               "metrics": {},
               "title_en": "Conflict in the Democratic Republic of Congo",
               "summary_en": "Feb 18, 2026 — Currently, DRC is embroiled in an ongoing political confrontation with Rwanda. In 2022, M23 rebels resurfaced after five years of inactivity and ...",
-              "criticality": "background"
+              "criticality": "background",
+              "cluster_id": "cl_3ecad7",
+              "cluster_size": 5,
+              "cluster_bias_count": 2
             },
             {
               "id": "web_77600",
@@ -11290,7 +11401,10 @@
               "metrics": {},
               "title_en": "World Report 2026: Democratic Republic of Congo",
               "summary_en": "On January 27, the M23 captured Goma, the capital of North Kivu, and largest city in eastern Congo, which normally has over one million residents and then ...",
-              "criticality": "background"
+              "criticality": "background",
+              "cluster_id": "cl_3ecad7",
+              "cluster_size": 5,
+              "cluster_bias_count": 2
             },
             {
               "id": "web_58617",
@@ -11304,7 +11418,10 @@
               "metrics": {},
               "title_en": "Congo War Security Review, March 9, 2026",
               "summary_en": "Mar 9, 2026 — M23 clashed with pro-Congolese government Wazalendo fighters north of Goma ... M23-controlled Goma to Kinshasa in late April and May 2025.[14].",
-              "criticality": "background"
+              "criticality": "background",
+              "cluster_id": "cl_3eb3d2",
+              "cluster_size": 2,
+              "cluster_bias_count": 0
             },
             {
               "id": "web_42276",
@@ -11430,7 +11547,10 @@
               "metrics": {},
               "title_en": "Congo War Security Review, March 30, 2026",
               "summary_en": "An in-depth review of activity related to the war in the eastern DRC between M23 and its Rwandan backers and pro-Congolese government forces every Monday, ...",
-              "criticality": "background"
+              "criticality": "background",
+              "cluster_id": "cl_3eb3d2",
+              "cluster_size": 2,
+              "cluster_bias_count": 0
             },
             {
               "id": "reddit_92776",
@@ -12268,7 +12388,10 @@
               "metrics": {},
               "title_en": "China & Taiwan Update, March 27, 2026",
               "summary_en": "5 days ago — ODNI Annual Threat Assessment: The ODNI's 2026 annual threat assessment stated that the PRC likely will not invade Taiwan in 2027, but will ...",
-              "criticality": "background"
+              "criticality": "background",
+              "cluster_id": "cl_7033fc",
+              "cluster_size": 2,
+              "cluster_bias_count": 1
             },
             {
               "id": "web_36241",
@@ -12282,7 +12405,10 @@
               "metrics": {},
               "title_en": "China & Taiwan Update, March 27, 2026",
               "summary_en": "5 days ago — The ODNI released its 2026 Annual Threat Assessment report on March 18 and assessed that the PRC likely will not invade Taiwan in 2027.",
-              "criticality": "background"
+              "criticality": "background",
+              "cluster_id": "cl_7033fc",
+              "cluster_size": 2,
+              "cluster_bias_count": 1
             },
             {
               "id": "web_46014",
