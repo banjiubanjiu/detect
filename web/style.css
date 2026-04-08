@@ -609,6 +609,122 @@ body {
   padding: 16px;
   min-height: 360px;
 }
+
+/* ═══ 方向 C: 时间维度 row — Streamgraph + Sparkline Wall ═══ */
+.viz-row-time {
+  grid-template-columns: 2fr 1fr;
+  padding-bottom: 40px;
+}
+.viz-stream-panel, .viz-sparkwall-panel {
+  min-height: 260px;
+}
+.stream-wrap {
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+.stream-wrap svg { display: block }
+.stream-layer {
+  transition: opacity 0.15s;
+  cursor: pointer;
+}
+.stream-tooltip {
+  position: absolute;
+  pointer-events: none;
+  background: var(--ink);
+  color: var(--cream);
+  padding: 6px 10px;
+  border-radius: 3px;
+  font-size: 11px;
+  font-family: var(--sans);
+  line-height: 1.4;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+  z-index: 10;
+  max-width: 240px;
+}
+.stream-tooltip .st-date {
+  font-family: var(--mono);
+  color: var(--ink-25);
+  font-size: 10px;
+}
+.stream-tooltip .st-count {
+  font-family: var(--mono);
+  font-weight: 700;
+}
+
+/* Sparkline Wall 3x3 grid */
+.sparkwall {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+.spark-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 8px 6px;
+  border: 1px solid var(--ink-08);
+  border-radius: 3px;
+  background: var(--cream);
+  cursor: pointer;
+  transition: all 0.15s;
+  min-width: 0;
+}
+.spark-cell:hover,
+.spark-cell.sc-hl {
+  border-color: var(--ink-40);
+  background: var(--warm);
+}
+.sc-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-family: var(--mono);
+  font-size: 10px;
+}
+.sc-code {
+  font-weight: 700;
+  color: var(--ink);
+  letter-spacing: 0.5px;
+}
+.sc-esc {
+  font-weight: 600;
+  font-size: 9px;
+}
+.sc-esc.esc-up { color: var(--red) }
+.sc-esc.esc-down { color: var(--green) }
+.sc-esc.esc-stable { color: var(--ink-25) }
+.sc-spark {
+  width: 100%;
+  height: 26px;
+  display: block;
+}
+.sc-name {
+  font-family: var(--sans);
+  font-size: 10px;
+  color: var(--ink-40);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+[data-theme="dark"] .spark-cell {
+  background: var(--paper);
+  border-color: var(--ink-15);
+}
+[data-theme="dark"] .spark-cell:hover,
+[data-theme="dark"] .spark-cell.sc-hl {
+  background: var(--warm);
+  border-color: var(--ink-40);
+}
+[data-theme="dark"] .stream-tooltip {
+  background: var(--ink-90);
+  color: var(--ink);
+}
+
+@media (max-width: 900px) {
+  .viz-row-time { grid-template-columns: 1fr }
+  .sparkwall { grid-template-columns: repeat(3, 1fr) }
+}
 .viz-heading {
   font-family: var(--serif);
   font-size: 15px;

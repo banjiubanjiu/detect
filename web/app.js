@@ -196,6 +196,23 @@ function critWeight(item) {
   return item.criticality === 'critical' ? 2 : item.criticality === 'notable' ? 1 : 0;
 }
 
+/**
+ * effectiveWeight 综合 criticality 和 corroboration
+ * cluster_bias_count >= 2 (跨媒体偏见印证) → +2.0, 等同于升级到 critical 层
+ * cluster_size >= 4 (多源大簇) → +1.5
+ * cluster_size >= 2 → +0.5
+ * 这让 "3 源跨视角 background" 和 "critical 单源" 排序时大致等位
+ */
+function effectiveWeight(item) {
+  let w = critWeight(item) * 2; // 0/2/4 基础
+  const size = item.cluster_size || 0;
+  const bias = item.cluster_bias_count || 0;
+  if (bias >= 2) w += 4;         // 跨偏见印证 → 等同 critical 加成
+  else if (size >= 4) w += 3;    // 4+ 源大簇
+  else if (size >= 2) w += 1;    // 任意 cluster
+  return w;
+}
+
 /* ═══ Cross-source corroboration ═══ */
 function corrobBadge(item) {
   const size = item.cluster_size;
@@ -712,6 +729,8 @@ function showOverview() {
 
   renderHotReports();
   renderForceGraph();
+  renderStreamgraph();
+  renderSparkWall();
 }
 
 /* ═══ Hot Reports ═══ */
@@ -873,6 +892,227 @@ function renderForceGraph() {
     link.attr('x1', d => d.source.x).attr('y1', d => d.source.y)
         .attr('x2', d => d.target.x).attr('y2', d => d.target.y);
     node.attr('transform', d => `translate(${d.x},${d.y})`);
+  });
+}
+
+/* ═══ 30 天事件流 Streamgraph (方向 C) ═══
+   d3.stack() offset silhouette, 9 冲突堆叠
+   hover 流 → tooltip 显示冲突名 + 当日计数
+   click 流 → 打开冲突详情
+*/
+function renderStreamgraph() {
+  const el = document.getElementById('streamWrap');
+  if (!el || typeof d3 === 'undefined') return;
+
+  const days = 30;
+  const now = new Date();
+  const conflictIds = Object.keys(D.conflicts);
+
+  // 按天 bucket
+  const buckets = [];
+  for (let i = 0; i < days; i++) {
+    const dt = new Date(now - (days - 1 - i) * 86400000);
+    const b = { date: dt, dayIdx: i };
+    for (const cid of conflictIds) b[cid] = 0;
+    buckets.push(b);
+  }
+  for (const cid of conflictIds) {
+    const items = Object.values(D.conflicts[cid].categories).flatMap(cat => cat.items);
+    for (const it of items) {
+      if (!it.date) continue;
+      const ts = new Date(it.date).getTime();
+      if (isNaN(ts)) continue;
+      const diff = Math.floor((now - ts) / 86400000);
+      if (diff >= 0 && diff < days) {
+        buckets[days - 1 - diff][cid]++;
+      }
+    }
+  }
+
+  // 颜色: 按 intensity 分族 + 同族内用不同明度区分
+  const palette = {
+    war:      ['#b82818', '#e84838', '#d83428'],
+    conflict: ['#c86020', '#e88040', '#d87030'],
+    tension:  ['#b89818', '#d8a830', '#c8a028'],
+  };
+  const grouped = { war: [], conflict: [], tension: [] };
+  for (const cid of conflictIds) {
+    const intensity = D.conflicts[cid].intensity || 'conflict';
+    grouped[intensity].push(cid);
+  }
+  const colorMap = {};
+  for (const [intensity, cids] of Object.entries(grouped)) {
+    cids.forEach((cid, i) => {
+      colorMap[cid] = palette[intensity][i % palette[intensity].length];
+    });
+  }
+
+  // d3 stack
+  const stack = d3.stack()
+    .keys(conflictIds)
+    .offset(d3.stackOffsetSilhouette)
+    .order(d3.stackOrderInsideOut);
+  const series = stack(buckets);
+
+  // 布局
+  el.innerHTML = '';
+  const width = el.clientWidth || 600;
+  const height = 180;
+  const margin = { top: 8, right: 12, bottom: 24, left: 12 };
+  const innerW = width - margin.left - margin.right;
+  const innerH = height - margin.top - margin.bottom;
+
+  const x = d3.scaleLinear().domain([0, days - 1]).range([0, innerW]);
+  const yMin = d3.min(series, layer => d3.min(layer, d => d[0]));
+  const yMax = d3.max(series, layer => d3.max(layer, d => d[1]));
+  const y = d3.scaleLinear().domain([yMin, yMax]).range([innerH, 0]);
+
+  const area = d3.area()
+    .x((_, i) => x(i))
+    .y0(d => y(d[0]))
+    .y1(d => y(d[1]))
+    .curve(d3.curveBasis);
+
+  const svg = d3.select(el).append('svg')
+    .attr('width', width).attr('height', height)
+    .style('cursor', 'pointer');
+  const g = svg.append('g').attr('transform', `translate(${margin.left},${margin.top})`);
+
+  const tooltip = document.getElementById('streamTooltip');
+
+  const paths = g.selectAll('path.stream-layer')
+    .data(series)
+    .join('path')
+    .attr('class', 'stream-layer')
+    .attr('d', area)
+    .attr('fill', d => colorMap[d.key])
+    .attr('stroke', 'none')
+    .attr('opacity', 0.78)
+    .attr('data-cid', d => d.key);
+
+  paths
+    .on('mouseenter', function(e, d) {
+      d3.select(this).attr('opacity', 1);
+      // 同时在 sparkwall 里高亮对应项
+      document.querySelectorAll(`.spark-cell[data-cid="${d.key}"]`).forEach(c => c.classList.add('sc-hl'));
+    })
+    .on('mouseleave', function(e, d) {
+      d3.select(this).attr('opacity', 0.78);
+      if (tooltip) tooltip.style.display = 'none';
+      document.querySelectorAll('.spark-cell.sc-hl').forEach(c => c.classList.remove('sc-hl'));
+    })
+    .on('mousemove', function(e, d) {
+      if (!tooltip) return;
+      const [mx] = d3.pointer(e, svg.node());
+      const dayIdx = Math.max(0, Math.min(days - 1, Math.round(x.invert(mx - margin.left))));
+      const b = buckets[dayIdx];
+      const count = b[d.key];
+      const name = D.conflicts[d.key]?.name || d.key;
+      const dateStr = `${b.date.getMonth()+1}/${b.date.getDate()}`;
+      tooltip.innerHTML = `<b>${esc(name)}</b><br><span class="st-date">${dateStr}</span> · <span class="st-count">${count} 条</span>`;
+      tooltip.style.display = '';
+      tooltip.style.left = (e.pageX - el.getBoundingClientRect().left + 12) + 'px';
+      tooltip.style.top = (e.pageY - el.getBoundingClientRect().top - 10) + 'px';
+    })
+    .on('click', function(e, d) {
+      conflict = d.key;
+      tab = 'military';
+      document.querySelectorAll('.rn-chip').forEach(x => x.classList.toggle('on', x.dataset.k === d.key));
+      showConflict();
+    });
+
+  // X 轴日期标签
+  const xAxisG = g.append('g').attr('transform', `translate(0,${innerH + 4})`);
+  const ticks = [0, Math.floor(days / 4), Math.floor(days / 2), Math.floor(3 * days / 4), days - 1];
+  xAxisG.selectAll('text')
+    .data(ticks)
+    .join('text')
+    .attr('x', i => x(i))
+    .attr('y', 12)
+    .attr('text-anchor', 'middle')
+    .attr('font-family', 'var(--mono)')
+    .attr('font-size', 9)
+    .attr('fill', 'var(--ink-40)')
+    .text(i => {
+      const b = buckets[i];
+      return `${b.date.getMonth()+1}/${b.date.getDate()}`;
+    });
+}
+
+/* ═══ 9 冲突 Sparkline Wall (方向 C) ═══
+   3x3 网格, 每格一个冲突的 mini sparkline + escalation 标签
+*/
+function renderSparkWall() {
+  const el = document.getElementById('sparkWall');
+  if (!el) return;
+  const entries = Object.entries(D.conflicts).map(([cid, c]) => {
+    const items = Object.values(c.categories).flatMap(cat => cat.items);
+    const esc_ = escalation(items);
+    // 30 天桶
+    const days = 30;
+    const now = new Date();
+    const buckets = new Array(days).fill(0);
+    for (const it of items) {
+      if (!it.date) continue;
+      const ts = new Date(it.date).getTime();
+      if (isNaN(ts)) continue;
+      const diff = Math.floor((now - ts) / 86400000);
+      if (diff >= 0 && diff < days) buckets[days - 1 - diff]++;
+    }
+    return { cid, c, esc: esc_, buckets, total: items.length };
+  });
+  // 按 escalation 降序
+  entries.sort((a, b) => b.esc.index - a.esc.index);
+
+  const codeOf = {
+    'russia-ukraine':'RUA','israel-palestine':'ISR','us-iran':'IRN','sudan':'SDN',
+    'myanmar':'MMR','yemen-houthi':'YEM','congo-drc':'COD','syria':'SYR','taiwan-strait':'TWN'
+  };
+
+  el.innerHTML = entries.map(e => {
+    const max = Math.max(...e.buckets, 1);
+    const w = 90, h = 26;
+    const barW = w / e.buckets.length;
+    const bars = e.buckets.map((v, i) => {
+      if (v === 0) return '';
+      const bh = (v / max) * (h - 2);
+      return `<rect x="${i * barW}" y="${h - bh}" width="${barW - 0.5}" height="${bh}"/>`;
+    }).join('');
+    const color = e.c.intensity === 'war' ? 'var(--i-war)'
+                : e.c.intensity === 'conflict' ? 'var(--i-conflict)'
+                : 'var(--i-tension)';
+    return `
+      <div class="spark-cell" data-cid="${e.cid}" title="${esc(e.c.name)} · ${e.total} 条 · ${e.esc.label}">
+        <div class="sc-head">
+          <span class="sc-code">${codeOf[e.cid] || '?'}</span>
+          <span class="sc-esc ${e.esc.cls}">${e.esc.arrow}${e.esc.index}</span>
+        </div>
+        <svg class="sc-spark" viewBox="0 0 ${w} ${h}" fill="${color}" opacity="0.7">${bars}</svg>
+        <div class="sc-name">${esc(e.c.name)}</div>
+      </div>
+    `;
+  }).join('');
+
+  // click / hover 联动
+  el.querySelectorAll('.spark-cell').forEach(cell => {
+    cell.addEventListener('click', () => {
+      conflict = cell.dataset.cid;
+      tab = 'military';
+      document.querySelectorAll('.rn-chip').forEach(x => x.classList.toggle('on', x.dataset.k === cell.dataset.cid));
+      showConflict();
+    });
+    cell.addEventListener('mouseenter', () => {
+      // 高亮 streamgraph 对应 layer
+      document.querySelectorAll(`.stream-layer[data-cid="${cell.dataset.cid}"]`).forEach(p => {
+        p.setAttribute('opacity', '1');
+      });
+      document.querySelectorAll('.stream-layer').forEach(p => {
+        if (p.getAttribute('data-cid') !== cell.dataset.cid) p.setAttribute('opacity', '0.3');
+      });
+    });
+    cell.addEventListener('mouseleave', () => {
+      document.querySelectorAll('.stream-layer').forEach(p => p.setAttribute('opacity', '0.78'));
+    });
   });
 }
 
@@ -1263,14 +1503,14 @@ function renderRiver(c) {
   const items = c.categories[tab]?.items || [];
   if (!items.length) { el.innerHTML = '<div class="cv-empty-msg">该分类暂无数据</div>'; return }
 
-  // Sort: criticality first (critical > notable > background),
-  // then cluster_size desc (组合 A 修: 同 criticality 层内, 多源印证浮到前面),
-  // then recent first, then richer content for lead story
+  // Sort: effectiveWeight (criticality + corroboration) 降序
+  //  - critical 单源 = 4, notable 单源 = 2, background 单源 = 0
+  //  - 跨偏见 cluster (>=2 bias) 加 4  →  background+crossbias = 4 (=critical)
+  //  - 4+ 源簇加 3, 2-3 源簇加 1
+  // 然后按 date, 再用 richness 对同日事件加权
   const sorted = [...items].sort((a,b) => {
-    const cw = critWeight(b) - critWeight(a);
-    if (cw !== 0) return cw;
-    const cs = (b.cluster_size || 0) - (a.cluster_size || 0);
-    if (cs !== 0) return cs;
+    const ew = effectiveWeight(b) - effectiveWeight(a);
+    if (ew !== 0) return ew;
     const da = new Date(a.date), db = new Date(b.date);
     if (Math.abs(da - db) < 172800000) {
       const rich = s => (s.source==='web'?2:s.source==='youtube'?1:0) + (s.local_file?1:0);
@@ -2158,12 +2398,8 @@ function renderTimelineItems(el, all, limit) {
     const d = new Date(date);
     const label = isNaN(d) ? date : `${d.getFullYear()}年${LMO[d.getMonth()]}${d.getDate()}日`;
     html += `<div class="tl-day-header">${label}</div>`;
-    // Within the same day, surface critical first, then multi-source (cluster)
-    items.sort((a, b) => {
-      const cw = critWeight(b) - critWeight(a);
-      if (cw !== 0) return cw;
-      return (b.cluster_size || 0) - (a.cluster_size || 0);
-    });
+    // Within the same day, use effective weight (criticality + corroboration)
+    items.sort((a, b) => effectiveWeight(b) - effectiveWeight(a));
     for (const item of items) {
       html += `
         <div class="tl-item crit-${item.criticality||'background'}" style="--d:${(i++)*20}ms" data-id="${item.id}" data-ckey="${item._conflict}">
