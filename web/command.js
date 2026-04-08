@@ -46,6 +46,16 @@ let globe = null;
 let _arcIndex = 0;
 let _arcTimer = null;
 
+/* v2: 交互 / 过滤 / 弧线队列 状态 */
+let _feedFilter = null;      // cid | null — 当前 feed 过滤的冲突
+let _feedFilterSticky = false; // 是否粘滞 (click) vs 临时 (hover)
+let _arcQueue = [];          // 全部有效弧,按 date 倒序
+let _arcVisible = [];        // 当前在地球上的弧 (有 _addedAt 时间戳)
+let _arcQueueIdx = 0;        // 循环指针
+let _arcQueueTimer = null;
+const ARC_LIFETIME_MS = 6500;
+const ARC_SPAWN_MS = 2200;
+
 /* ─────────────────────────────────────────────
    工具函数
 ───────────────────────────────────────────── */
@@ -168,39 +178,99 @@ function renderTopBar() {
    ② 左栏
 ───────────────────────────────────────────── */
 
+/**
+ * 检测某冲突是否处于 SURGE 状态(v2 B1):
+ *   近 7d 事件量 > 1.5 * 前 7d 事件量 且 近 7d >= 10
+ */
+function detectSurge(items) {
+  const now = Date.now();
+  const d7 = 7 * 86400000;
+  let cur = 0, prior = 0;
+  for (const it of items) {
+    if (!it._date_ts) continue;
+    const age = now - it._date_ts;
+    if (age < 0) continue;
+    if (age < d7) cur++;
+    else if (age < 2 * d7) prior++;
+  }
+  if (cur < 10) return null;
+  if (prior > 0 && cur < prior * 1.5) return null;
+  if (prior === 0 && cur < 15) return null; // 无基线时要求更高
+  const delta = prior > 0 ? Math.round((cur - prior) / prior * 100) : 999;
+  return { cur, prior, delta };
+}
+
 function renderConflictRail() {
   const el = document.getElementById('conflictRail');
   const rows = Object.entries(D.conflicts).map(([cid, c]) => {
     const items = Object.values(c.categories || {}).flatMap(cat => cat.items || []);
     const esc_ = escalation(items);
+    const surge = detectSurge(items);
     const meta = CONFLICTS_META[cid] || { code: cid.slice(0,3).toUpperCase(), name: cid };
-    return { cid, meta, esc: esc_, items, name: c.name || meta.name };
+    return { cid, meta, esc: esc_, surge, items, name: c.name || meta.name };
   });
   // 按 escalation index 降序
   rows.sort((a, b) => b.esc.index - a.esc.index);
 
-  el.innerHTML = rows.map(r => `
-    <div class="conflict-row" data-cid="${r.cid}" title="点击在 archive 打开">
-      <span class="cr-code">${r.meta.code}</span>
-      <div class="cr-bar-wrap"><div class="cr-bar ${r.esc.cls}" style="width:${r.esc.index}%"></div></div>
-      <span class="cr-arrow ${r.esc.cls}">${r.esc.arrow}</span>
-      <span class="cr-name">${esc(r.name)}</span>
-    </div>
-  `).join('');
+  el.innerHTML = rows.map(r => {
+    const surgeHtml = r.surge
+      ? `<span class="cr-surge" title="近 7 天 ${r.surge.cur} 条 / 前 7 天 ${r.surge.prior} 条 · +${r.surge.delta}%">⚠ SURGE</span>`
+      : '';
+    return `
+      <div class="conflict-row" data-cid="${r.cid}" title="hover 过滤 feed · click 粘滞 · dblclick 打开 archive">
+        <span class="cr-code">${r.meta.code}</span>
+        <div class="cr-bar-wrap"><div class="cr-bar ${r.esc.cls}" style="width:${r.esc.index}%"></div></div>
+        <span class="cr-arrow ${r.esc.cls}">${r.esc.arrow}</span>
+        <span class="cr-name">${esc(r.name)}${surgeHtml}</span>
+      </div>
+    `;
+  }).join('');
 
-  // 点击 → 跳转到 archive
+  // 交互绑定 (v2 A1)
   el.querySelectorAll('.conflict-row').forEach(row => {
-    row.addEventListener('click', () => {
-      const cid = row.dataset.cid;
-      location.href = `./#${cid}`;
-    });
-    // hover → globe 飞过去
+    const cid = row.dataset.cid;
+    const geo = CONFLICTS_META[cid];
+
+    // hover → 临时过滤 feed + globe 飞过去
     row.addEventListener('mouseenter', () => {
-      const cid = row.dataset.cid;
-      const geo = CONFLICTS_META[cid];
+      if (_feedFilterSticky) return; // 已粘滞,不响应 hover
+      setFeedFilter(cid, false);
+      row.classList.add('cr-hover');
       if (geo && globe) {
         globe.pointOfView({ lat: geo.lat, lng: geo.lng, altitude: 1.5 }, 900);
       }
+    });
+    row.addEventListener('mouseleave', () => {
+      if (_feedFilterSticky) return;
+      row.classList.remove('cr-hover');
+      setFeedFilter(null, false);
+    });
+
+    // click → 粘滞过滤 (toggle)
+    row.addEventListener('click', (ev) => {
+      ev.preventDefault();
+      const isActive = _feedFilter === cid && _feedFilterSticky;
+      if (isActive) {
+        // 取消粘滞
+        _feedFilterSticky = false;
+        setFeedFilter(null, false);
+        row.classList.remove('cr-active');
+      } else {
+        // 清除其他 active
+        el.querySelectorAll('.conflict-row.cr-active').forEach(r => r.classList.remove('cr-active'));
+        _feedFilterSticky = true;
+        setFeedFilter(cid, true);
+        row.classList.add('cr-active');
+        if (geo && globe) {
+          globe.pointOfView({ lat: geo.lat, lng: geo.lng, altitude: 1.5 }, 900);
+        }
+      }
+    });
+
+    // dblclick → 跳 archive
+    row.addEventListener('dblclick', (ev) => {
+      ev.preventDefault();
+      location.href = `./#${cid}`;
     });
   });
 }
@@ -267,24 +337,39 @@ function initGlobe() {
     .pointRadius(d => 0.5 + d.size * 0.4)
     .pointLabel(d => `<div style="font-family:monospace;font-size:11px;background:rgba(10,11,13,0.85);padding:6px 10px;border:1px solid #2a2f36;color:#e8e9eb">${d.label}</div>`);
 
-  // 弧线层: 从 GDELT actor pair → country centroid
-  const gdeltArcs = buildGDELTArcs();
-  document.getElementById('arcCount').textContent = `${gdeltArcs.length} arcs loaded`;
+  // 弧线层 (v2 C1: 时间队列化)
+  // 不再一次性 arcsData 全部,而是按时间倒序排队,每 ARC_SPAWN_MS 弹一条
+  _arcQueue = buildGDELTArcs();
+  document.getElementById('arcCount').textContent = `${_arcQueue.length} arcs in queue`;
 
   globe
-    .arcsData(gdeltArcs)
+    .arcsData([])
     .arcStartLat(d => d.srcLat)
     .arcStartLng(d => d.srcLng)
     .arcEndLat(d => d.dstLat)
     .arcEndLng(d => d.dstLng)
     .arcColor(d => d.color)
-    .arcStroke(0.4)
+    .arcStroke(0.5)
     .arcAltitude(0.3)
-    .arcDashLength(0.4)
-    .arcDashGap(0.15)
-    .arcDashInitialGap(() => Math.random())
-    .arcDashAnimateTime(2500)
+    .arcDashLength(0.55)
+    .arcDashGap(0.1)
+    .arcDashInitialGap(0.5)
+    .arcDashAnimateTime(3000)
     .arcLabel(d => `<div style="font-family:monospace;font-size:10px;background:rgba(10,11,13,0.85);padding:4px 8px;border:1px solid #2a2f36;color:#e8e9eb">${d.src} → ${d.dst}<br><span style="opacity:.6">${esc(d.title || '')}</span></div>`);
+
+  if (_arcQueue.length > 0) startArcQueue();
+
+  // v2 B2: critical 事件 → ringsData 持续脉冲
+  const criticalRings = buildCriticalRings();
+  document.getElementById('arcCount').textContent += ` · ${criticalRings.length} critical pulse`;
+  globe
+    .ringsData(criticalRings)
+    .ringLat(d => d.lat)
+    .ringLng(d => d.lng)
+    .ringColor(() => (t => `rgba(232, 72, 56, ${1 - t})`))
+    .ringMaxRadius(4)
+    .ringPropagationSpeed(1.8)
+    .ringRepeatPeriod(2200);
 
   // 初始视角: 对准俄乌中东视场
   globe.pointOfView({ lat: 30, lng: 40, altitude: 2.2 }, 0);
@@ -331,16 +416,14 @@ function buildGDELTArcs() {
     const m = it.gdelt_meta;
     const a1 = (m.actor1_country || '').trim().toUpperCase();
     const a2 = (m.actor2_country || '').trim().toUpperCase();
-    // 过滤: nan / 空 / self-loop
     if (!a1 || !a2 || a1 === 'NAN' || a2 === 'NAN' || a1 === a2) continue;
     const src = COUNTRY_CENTROIDS[a1];
     const dst = COUNTRY_CENTROIDS[a2];
     if (!src || !dst) continue;
     const gs = m.goldstein_scale || it.metrics?.goldstein || 0;
-    // 颜色: goldstein < -7 深红, -5~-7 橙, >= -5 黄
-    const color = gs < -7 ? ['rgba(231,76,60,0.15)', 'rgba(231,76,60,0.95)']
-                : gs < -5 ? ['rgba(232,128,64,0.15)', 'rgba(232,128,64,0.95)']
-                          : ['rgba(217,166,54,0.15)', 'rgba(217,166,54,0.95)'];
+    const color = gs < -7 ? ['rgba(232,72,56,0.15)', 'rgba(232,72,56,0.98)']
+                : gs < -5 ? ['rgba(232,128,64,0.15)', 'rgba(232,128,64,0.98)']
+                          : ['rgba(217,166,54,0.15)', 'rgba(217,166,54,0.98)'];
     arcs.push({
       srcLat: src[0], srcLng: src[1],
       dstLat: dst[0], dstLng: dst[1],
@@ -348,9 +431,71 @@ function buildGDELTArcs() {
       color,
       title: it.title || '',
       gs,
+      _date_ts: it._date_ts || 0,
     });
   }
+  // 按时间倒序 — 最新事件先出队
+  arcs.sort((a, b) => b._date_ts - a._date_ts);
   return arcs;
+}
+
+/**
+ * v2 C1: 弧线时间队列
+ * 每 ARC_SPAWN_MS 弹一条新弧,每条生命 ARC_LIFETIME_MS 后自动消失
+ * 全部弧播完后从头循环
+ */
+function startArcQueue() {
+  if (_arcQueueTimer) clearInterval(_arcQueueTimer);
+
+  const tick = () => {
+    const now = Date.now();
+    // 过期剔除
+    _arcVisible = _arcVisible.filter(a => (now - a._addedAt) < ARC_LIFETIME_MS);
+    // 新增一条
+    if (_arcQueue.length > 0) {
+      const next = { ..._arcQueue[_arcQueueIdx % _arcQueueIdx_len()], _addedAt: now };
+      _arcVisible.push(next);
+      _arcQueueIdx++;
+    }
+    if (globe) globe.arcsData([..._arcVisible]);
+  };
+  // 立即弹第一条,不用等 interval
+  tick();
+  _arcQueueTimer = setInterval(tick, ARC_SPAWN_MS);
+}
+function _arcQueueIdx_len() { return _arcQueue.length || 1; }
+
+/**
+ * v2 B2: 从 criticality==='critical' 事件构建 ringsData
+ * 优先用 gdelt_meta 真坐标, 否则用冲突中心 (带微小偏移防重叠)
+ */
+function buildCriticalRings() {
+  const rings = [];
+  const now = Date.now();
+  const cutoff = 14 * 86400000; // 14 天内
+  // 按冲突中心偏移计数,避免多条 critical 叠在同一像素
+  const offsetByConflict = {};
+  for (const it of allItems) {
+    if (it.criticality !== 'critical') continue;
+    if (!it._date_ts || (now - it._date_ts) > cutoff) continue;
+
+    let lat, lng;
+    const gm = it.gdelt_meta;
+    if (gm && gm.geo_lat && (gm.geo_lat !== 0 || gm.geo_lon !== 0)) {
+      lat = gm.geo_lat;
+      lng = gm.geo_lon;
+    } else {
+      const meta = CONFLICTS_META[it._conflict];
+      if (!meta) continue;
+      const n = offsetByConflict[it._conflict] = (offsetByConflict[it._conflict] || 0) + 1;
+      const angle = (n * 2.4) % (Math.PI * 2); // 黄金角散开
+      const r = 1.2 + (n % 4) * 0.4;
+      lat = meta.lat + Math.sin(angle) * r;
+      lng = meta.lng + Math.cos(angle) * r;
+    }
+    rings.push({ lat, lng });
+  }
+  return rings;
 }
 
 /* ─────────────────────────────────────────────
@@ -360,40 +505,126 @@ function buildGDELTArcs() {
 let _feedTimer = null;
 let _feedPaused = false;
 
-function renderFeed() {
+/**
+ * 计算当前可见 feed 项 (v2 版: 分两段)
+ *   段 A: 顶部"印证簇"区 — 按 cluster_size * (bias_count+1) 降序取最强 6 条
+ *          (去重:一个 cluster_id 只取一条代表)
+ *          加 _pinned=true 标记用于渲染分隔
+ *   段 B: 时间倒序 80 条 (排除已在段 A 的 item)
+ * 总容量 ~86 条
+ */
+function computeFeedItems() {
+  let pool = allItems.filter(it => it.date);
+  if (_feedFilter) pool = pool.filter(it => it._conflict === _feedFilter);
+
+  // 段 A: 最强 cluster 代表 (每 cluster_id 只取 1 条, 最新的那条)
+  const byCluster = {};
+  for (const it of pool) {
+    if (!it.cluster_id || !it.cluster_size || it.cluster_size < 2) continue;
+    const prev = byCluster[it.cluster_id];
+    if (!prev || (it._date_ts > prev._date_ts)) {
+      byCluster[it.cluster_id] = it;
+    }
+  }
+  const pinned = Object.values(byCluster)
+    .sort((a, b) => {
+      const sa = (a.cluster_size || 0) * ((a.cluster_bias_count || 0) + 1);
+      const sb = (b.cluster_size || 0) * ((b.cluster_bias_count || 0) + 1);
+      if (sb !== sa) return sb - sa;
+      return b._date_ts - a._date_ts;
+    })
+    .slice(0, 6)
+    .map(it => ({ ...it, _pinned: true }));
+
+  const pinnedIds = new Set(pinned.map(it => it.id));
+
+  // 段 B: 时间倒序 80 条,排除已钉住的
+  const chrono = pool
+    .filter(it => !pinnedIds.has(it.id))
+    .sort((a, b) => b._date_ts - a._date_ts)
+    .slice(0, 80);
+
+  return [...pinned, ...chrono];
+}
+
+/**
+ * 构建 feed 行 HTML (v2 B3: 含 N 源印证 + 跨偏见 徽章)
+ */
+function feedRowHtml(it) {
+  const cid = it._conflict;
+  const meta = CONFLICTS_META[cid] || { code: '?' };
+  const crit = it.criticality === 'critical' ? 'crit' : it.criticality === 'notable' ? 'note' : '';
+
+  let badges = '';
+  if (it.cluster_size && it.cluster_size >= 2) {
+    badges += `<span class="fr-cluster" title="这条事件被 ${it.cluster_size} 个独立源印证">${it.cluster_size}源</span>`;
+  }
+  if (it.cluster_bias_count && it.cluster_bias_count >= 2) {
+    badges += `<span class="fr-crossbias" title="跨 ${it.cluster_bias_count} 种媒体偏见印证,高可信度">跨${it.cluster_bias_count}偏见</span>`;
+  }
+
+  const pinnedCls = it._pinned ? ' feed-row-pinned' : '';
+  return `
+    <div class="feed-row${pinnedCls}" data-url="${esc(it.url || '#')}" data-cid="${cid}">
+      <div class="fr-time">${it.date || ''}</div>
+      <div class="fr-body">
+        <span class="fr-tag ${crit}">${meta.code}</span>
+        ${badges}
+        <span class="fr-title">${esc(it.title || '(无标题)')}</span>
+      </div>
+    </div>
+  `;
+}
+
+/**
+ * 重新渲染 feed 行 (不重新绑定 scroll/hover 监听)
+ * v2: 分 pinned (印证簇) 和 chrono (时间倒序) 两段, 中间加分隔
+ */
+function rerenderFeedRows() {
   const el = document.getElementById('feedBody');
   const sub = document.getElementById('feedSub');
+  const items = computeFeedItems();
+  const pinnedCount = items.filter(it => it._pinned).length;
+  const chronoCount = items.length - pinnedCount;
 
-  // 按时间倒序, 取最新 50 条
-  const recent = [...allItems]
-    .filter(it => it.date)
-    .sort((a, b) => b._date_ts - a._date_ts)
-    .slice(0, 50);
+  const filterLabel = _feedFilter
+    ? `${(CONFLICTS_META[_feedFilter]||{}).code || '?'} · ${chronoCount}${pinnedCount ? ` + ${pinnedCount}印证` : ''}`
+    : `${pinnedCount ? `${pinnedCount}印证 · ` : ''}${chronoCount} recent`;
+  sub.textContent = filterLabel;
 
-  sub.textContent = `${recent.length} recent`;
+  let html = '';
+  let sepPainted = false;
+  items.forEach(it => {
+    if (!it._pinned && !sepPainted && pinnedCount > 0) {
+      html += `<div class="feed-sep"><span>时间倒序</span></div>`;
+      sepPainted = true;
+    } else if (!html && it._pinned) {
+      html += `<div class="feed-sep feed-sep-pin"><span>★ 多源印证 · 高可信度</span></div>`;
+    }
+    html += feedRowHtml(it);
+  });
+  el.innerHTML = html || '<div class="fr-empty">no events</div>';
 
-  el.innerHTML = recent.map(it => {
-    const cid = it._conflict;
-    const meta = CONFLICTS_META[cid] || { code: '?' };
-    const crit = it.criticality === 'critical' ? 'crit' : it.criticality === 'notable' ? 'note' : '';
-    return `
-      <div class="feed-row" data-url="${esc(it.url || '#')}">
-        <div class="fr-time">${it.date || ''}</div>
-        <div class="fr-body">
-          <span class="fr-tag ${crit}">${meta.code}</span>
-          <span class="fr-title">${esc(it.title || '(无标题)')}</span>
-        </div>
-      </div>
-    `;
-  }).join('');
-
-  // 点击 → 打开原文
   el.querySelectorAll('.feed-row').forEach(row => {
     row.addEventListener('click', () => {
       const url = row.dataset.url;
       if (url && url !== '#') window.open(url, '_blank', 'noopener');
     });
   });
+  el.scrollTop = 0;
+}
+
+/**
+ * v2 A1: 设置 feed 过滤器,触发重渲染
+ */
+function setFeedFilter(cid, sticky) {
+  _feedFilter = cid;
+  rerenderFeedRows();
+}
+
+function renderFeed() {
+  const el = document.getElementById('feedBody');
+  rerenderFeedRows();
 
   // Hover 暂停滚动
   el.addEventListener('mouseenter', () => { _feedPaused = true; });
