@@ -533,10 +533,11 @@ function renderNewsTicker() {
   });
 }
 
-/* ═══ Theme ═══ */
+/* ═══ Theme ═══ (默认 dark, 用户可切换到 light) */
 function initTheme() {
   const saved = localStorage.getItem('theme');
-  if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+  // 默认 dark; 仅当用户明确选了 light 才用 light
+  if (saved !== 'light') {
     document.documentElement.setAttribute('data-theme', 'dark');
   }
   updateThemeBtn();

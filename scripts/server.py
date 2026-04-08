@@ -749,7 +749,7 @@ if __name__ == '__main__':
     print(f"  Static files: {ROOT}")
     print(f"  Translate API: http://localhost:{PORT}/api/translate?file=sources/...")
     print(f"  Ask API:       http://localhost:{PORT}/api/ask  (POST, SSE)")
-    print(f"  Ask page:      http://localhost:{PORT}/web/ask.html")
+    print(f"  Ask drawer:    集成在 index/analytics/command 三页 (⌘K 召唤)")
     print(f"  Groq (primary, ~1.6s/article):    {'OK' if groq_ok else 'NO KEY'}")
     print(f"  OpenRouter (translate + ask):     {'OK' if or_ok else 'NO KEY (ask 不可用)'}")
     print(f"  Ask model: {ASK_MODEL}")

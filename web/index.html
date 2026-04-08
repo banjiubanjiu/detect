@@ -31,9 +31,9 @@
         <p class="mast-sub">Global Conflict Monitor</p>
       </div>
       <div class="mast-right">
-        <a class="watch-link" href="command.html" title="战情指挥中心 · 实时监控模式"><span class="wl-dot"></span>WATCH</a>
-        <a class="analytics-link" href="analytics.html" title="分析工作台 · 时间维度分析"><span class="al-dot"></span>ANALYTICS</a>
-        <a class="analytics-link" href="ask.html" title="智能问答 · AI 检索"><span class="al-dot"></span>ASK</a>
+        <a class="watch-link" href="command.html" title="战情指挥中心 · 实时监控"><span class="wl-dot"></span>WAR ROOM</a>
+        <a class="analytics-link" href="analytics.html" title="深度分析工作台"><span class="al-dot"></span>ANALYSIS</a>
+        <a class="analytics-link" href="javascript:void(0)" onclick="window.openAskDrawer && window.openAskDrawer()" title="情报问答 · ⌘K 召唤"><span class="al-dot"></span>ASK</a>
         <span class="health-badge" id="healthBadge" title="管道健康" onclick="showHealthModal()" style="display:none"></span>
         <a class="rss-link" href="feed.xml" title="RSS 订阅" target="_blank">RSS</a>
         <span class="theme-toggle" id="themeToggle" title="切换暗色模式">DARK</span>
@@ -223,5 +223,6 @@
   </aside>
 
   <script src="app.js"></script>
+  <script src="ask-drawer.js"></script>
 </body>
 </html>
