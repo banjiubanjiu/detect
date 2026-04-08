@@ -26,6 +26,114 @@ async function loadCredDB() {
   } catch {}
 }
 
+/* ═══ Pipeline health ═══ */
+let HEALTH = null;
+async function loadHealth() {
+  try {
+    const r = await fetch(SRC + 'pipeline_health.json');
+    if (r.ok) {
+      HEALTH = await r.json();
+      renderHealthBadge();
+    }
+  } catch {}
+}
+
+function renderHealthBadge() {
+  const el = document.getElementById('healthBadge');
+  if (!el || !HEALTH) return;
+  const status = HEALTH.status || 'ok';
+  const issueCount = (HEALTH.issues || []).length;
+  const label = {
+    ok: '● OK',
+    degraded: `● ${issueCount}`,
+    critical: `● ×${issueCount}`,
+  }[status] || '●';
+  const titleText = {
+    ok: '管道健康',
+    degraded: `${issueCount} 项异常（点击查看）`,
+    critical: `${issueCount} 项严重异常（点击查看）`,
+  }[status] || '';
+  el.textContent = label;
+  el.title = titleText;
+  el.className = `health-badge health-${status}`;
+  el.style.display = '';
+}
+
+function showHealthModal() {
+  if (!HEALTH) return;
+  const body = document.getElementById('healthModalBody');
+  const llm = HEALTH.llm_coverage || {};
+  const histo = HEALTH.date_histogram || [];
+  const orphans = HEALTH.orphans || {};
+  const issues = HEALTH.issues || [];
+
+  // Build histogram — max count → bar width
+  const maxCount = Math.max(1, ...histo.map(h => h.count));
+  const histoHtml = histo.map(h => {
+    const pct = (h.count / maxCount) * 100;
+    const isToday = h === histo[histo.length - 1];
+    return `<div class="h-histo-row ${isToday ? 'h-histo-today' : ''}">
+      <span class="h-histo-date">${h.date.slice(5)}</span>
+      <div class="h-histo-bar-wrap"><div class="h-histo-bar" style="width:${pct}%"></div></div>
+      <span class="h-histo-count">${h.count}</span>
+    </div>`;
+  }).join('');
+
+  // Issues
+  const issuesHtml = issues.length
+    ? issues.map(i => `<div class="h-issue h-sev-${i.severity}">
+        <span class="h-issue-code">${i.code}</span>
+        <span class="h-issue-msg">${esc(i.message)}</span>
+      </div>`).join('')
+    : '<div class="h-no-issues">无异常 ✓</div>';
+
+  // Source breakdown
+  const sources = Object.entries(HEALTH.by_source || {});
+  const srcHtml = sources.map(([s, c]) => `<span class="h-src-chip"><b>${c}</b> ${s}</span>`).join('');
+
+  body.innerHTML = `
+    <div class="h-section">
+      <div class="h-status h-${HEALTH.status}">状态: ${HEALTH.status.toUpperCase()}</div>
+      <div class="h-generated">生成于 ${HEALTH.generated_at || '?'}</div>
+    </div>
+
+    <div class="h-section">
+      <div class="h-label">源分布（共 ${HEALTH.total_unique_items} 条）</div>
+      <div class="h-src-row">${srcHtml}</div>
+    </div>
+
+    <div class="h-section">
+      <div class="h-label">LLM 覆盖率</div>
+      <div class="h-grid">
+        <div><span class="h-k">BLUF criticality</span><span class="h-v">${(llm.criticality_coverage*100).toFixed(1)}%</span></div>
+        <div><span class="h-k">title_en</span><span class="h-v">${(llm.title_en_coverage*100).toFixed(1)}% <em>(缺 ${llm.missing_title_en})</em></span></div>
+        <div><span class="h-k">summary_en</span><span class="h-v">${(llm.summary_en_coverage*100).toFixed(1)}% <em>(缺 ${llm.missing_summary_en})</em></span></div>
+        <div><span class="h-k">clustered</span><span class="h-v">${llm.clustered} <em>(跨视角 ${llm.cross_bias_items})</em></span></div>
+      </div>
+    </div>
+
+    <div class="h-section">
+      <div class="h-label">最近 ${histo.length} 天日分布</div>
+      <div class="h-histo">${histoHtml}</div>
+    </div>
+
+    <div class="h-section">
+      <div class="h-label">Orphan 扫描</div>
+      <div class="h-orphan">${orphans.orphan_count || 0} / ${orphans.checked || 0} (${((orphans.orphan_rate||0)*100).toFixed(1)}%)</div>
+    </div>
+
+    <div class="h-section">
+      <div class="h-label">异常</div>
+      <div class="h-issues">${issuesHtml}</div>
+    </div>
+  `;
+  document.getElementById('healthModal').style.display = 'flex';
+}
+
+function closeHealthModal() {
+  document.getElementById('healthModal').style.display = 'none';
+}
+
 function getDomain(item) {
   if (item.url) {
     const m = item.url.match(/https?:\/\/(?:www\.)?([^/]+)/);
@@ -86,6 +194,20 @@ function critBadge(item) {
 }
 function critWeight(item) {
   return item.criticality === 'critical' ? 2 : item.criticality === 'notable' ? 1 : 0;
+}
+
+/* ═══ Cross-source corroboration ═══ */
+function corrobBadge(item) {
+  const size = item.cluster_size;
+  if (!size || size < 2) return '';
+  const biasCount = item.cluster_bias_count || 0;
+  const crossBias = biasCount >= 2;
+  const hl = (size >= 4 || crossBias) ? ' corrob-hl' : '';
+  const label = crossBias ? `${size} 源·跨视角` : `${size} 源`;
+  const title = crossBias
+    ? `${size} 个独立来源印证（跨 ${biasCount} 种视角）`
+    : `${size} 个独立来源印证`;
+  return `<span class="corrob-badge${hl}" title="${title}">${label}</span>`;
 }
 
 let D, conflict = null, tab = 'military', cache = {}, currentView = 'overview', kbIdx = -1, globe = null;
@@ -171,7 +293,7 @@ let detailMap = null;
 
 async function boot() {
   initTheme();
-  const [r] = await Promise.all([fetch(DATA), loadCredDB()]);
+  const [r] = await Promise.all([fetch(DATA), loadCredDB(), loadHealth()]);
   D = await r.json();
   mastDate();
   renderRegionNav();
@@ -928,7 +1050,7 @@ function renderRiver(c) {
           ${it.title_en ? `<div class="en-original">${esc(it.title_en)}</div>` : ''}
           <div class="s-meta">
             <span class="s-src ${it.source}">${srcN(it.source)}</span>
-            <span class="s-from">${esc(it.source_label)}${credBadge(it)}</span>
+            <span class="s-from">${esc(it.source_label)}${credBadge(it)}${corrobBadge(it)}</span>
             ${nums(it.metrics)}
             <span class="s-time">${rel}</span>
           </div>
@@ -944,7 +1066,7 @@ function renderRiver(c) {
         ${it.title_en ? `<div class="en-original">${esc(it.title_en)}</div>` : ''}
         <div class="s-meta">
           <span class="s-src ${it.source}">${srcN(it.source)}</span>
-          <span class="s-from">${esc(it.source_label)}${credBadge(it)}</span>
+          <span class="s-from">${esc(it.source_label)}${credBadge(it)}${corrobBadge(it)}</span>
           ${nums(it.metrics)}
           <span class="s-time">${rel}</span>
         </div>
@@ -1002,6 +1124,8 @@ async function openReader(id) {
     `<span>${esc(it.source_label)}</span>`,
     `<span>${it.date}</span>`,
   ];
+  const cb = corrobBadge(it);
+  if (cb) metaParts.push(cb);
   const m = it.metrics || {};
   if (m.likes) metaParts.push(`${fmt(m.likes)} likes`);
   if (m.score) metaParts.push(`${fmt(m.score)} pts`);
@@ -1012,6 +1136,8 @@ async function openReader(id) {
   const actionHtml = `
     <a class="ra-btn ra-dark" href="${it.url}" target="_blank" rel="noopener">查看原始来源</a>
     ${it.local_file ? `<a class="ra-btn ra-ghost" href="${SRC}${it.local_file}" target="_blank">下载原文</a>` : ''}
+    <button class="ra-btn ra-ghost tts-btn" onclick="toggleTTS()">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:-2px;margin-right:4px"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 010 7.07"/><path d="M19.07 4.93a10 10 0 010 14.14"/></svg><span class="tts-label">朗读</span></button>
     <button class="ra-btn ra-ghost" onclick="copyArticle()">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:-2px;margin-right:4px"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>复制全文</button>
     <button class="ra-btn ra-ghost" onclick="downloadPDF()">
@@ -1021,6 +1147,9 @@ async function openReader(id) {
   `;
   document.getElementById('readerActionsTop').innerHTML = actionHtml;
   document.getElementById('readerActionsBot').innerHTML = actionHtml;
+
+  // Stop any playing TTS when opening a new article
+  stopTTS();
 
   // Load content — try .zh.md (Chinese translation) first, fall back to original
   _currentRawMarkdown = null;
@@ -1154,6 +1283,7 @@ async function openReader(id) {
 }
 
 function closeReader() {
+  stopTTS();
   document.getElementById('reader').style.display = 'none';
   document.getElementById('readerProgress').style.display = 'none';
   if (window._readerScrollHandler) {
@@ -1172,6 +1302,319 @@ function closeReader() {
   } else {
     document.getElementById('overview').style.display = '';
   }
+}
+
+/* ═══ Text-to-Speech (双模型分流：CosyVoice + qwen-tts) ═══ */
+// 按语言自动选声：中文 chunk → tts_voice_zh，英文 chunk → tts_voice_en
+// State: { chunks: [], index: int, audio: HTMLAudioElement|null, playing: bool, paused: bool, loadingBlobUrl: str|null }
+let _tts = null;
+const TTS_CHUNK_MAX = 1500;         // chars per chunk (backend cap is 2000, leave headroom)
+
+// Chinese voices — CosyVoice (broadcaster-grade) + qwen-tts (lighter personas)
+const TTS_VOICES_ZH = [
+  { id: 'longnan_v2',  label: 'longnan_v2 龙楠',    desc: '睿智青年男·有声书（默认）' },
+  { id: 'longshuo_v2', label: 'longshuo_v2 龙硕',   desc: '博学多才男·新闻播报 ⭐' },
+  { id: 'longshu_v2',  label: 'longshu_v2 龙书',    desc: '沉稳青年·播音员人设 ⭐' },
+  { id: 'longsanshu',  label: 'longsanshu 龙三叔',  desc: '沉稳内敛·有声书精修' },
+  { id: 'longyichen',  label: 'longyichen 龙逸尘',  desc: '洒脱活力·有声书' },
+  { id: 'longanlang',  label: 'longanlang 龙安朗',  desc: '清新干净·语音助手' },
+  { id: 'longanyun',   label: 'longanyun 龙安云',   desc: '温暖体贴·语音助手' },
+  { id: 'Ethan',       label: 'Ethan 晨煦',         desc: 'qwen-tts 北方口音' },
+  { id: 'Moon',        label: 'Moon 月白',          desc: 'qwen-tts 率性帅气' },
+  { id: 'Kai',         label: 'Kai 凯',             desc: 'qwen-tts 沉稳舒缓' },
+];
+
+// English voices
+const TTS_VOICES_EN = [
+  { id: 'loongdavid_v2', label: 'loongdavid_v2', desc: 'American English male（默认）' },
+];
+
+function getTTSVoiceZh() { return localStorage.getItem('tts_voice_zh') || 'longnan_v2'; }
+function getTTSVoiceEn() { return localStorage.getItem('tts_voice_en') || 'loongdavid_v2'; }
+function setTTSVoiceZh(v) { localStorage.setItem('tts_voice_zh', v); }
+function setTTSVoiceEn(v) { localStorage.setItem('tts_voice_en', v); }
+
+// Detect dominant language of a chunk. Returns 'zh' or 'en'.
+function detectTTSLang(text) {
+  if (!text) return 'zh';
+  const zhCount = (text.match(/[\u4e00-\u9fff]/g) || []).length;
+  const latCount = (text.match(/[a-zA-Z]/g) || []).length;
+  // Chinese chars weight higher because each CJK char carries more information than a Latin letter
+  return (zhCount * 3 >= latCount) ? 'zh' : 'en';
+}
+
+function voiceForChunk(text) {
+  return detectTTSLang(text) === 'zh' ? getTTSVoiceZh() : getTTSVoiceEn();
+}
+
+function extractReaderText() {
+  const body = document.getElementById('readerBody');
+  if (!body) return '';
+  const clone = body.cloneNode(true);
+
+  // 1. Drop the read-time indicator (first child inserted at render time)
+  const first = clone.firstElementChild;
+  if (first && first.style && first.style.fontFamily && first.style.fontFamily.includes('mono')) {
+    clone.removeChild(first);
+  }
+
+  // 2. Drop code blocks, tables, images — don't TTS well
+  clone.querySelectorAll('pre, code, table, img, figure').forEach(el => el.remove());
+
+  // 3. Drop the duplicated h1 (we prepend title separately below)
+  clone.querySelectorAll('h1').forEach(el => el.remove());
+
+  // 4. Strip metadata header: any <p> containing "原始链接" + trailing <hr>
+  //    Markdown file structure is consistent:
+  //      [optional h1 title]
+  //      [optional reddit metadata line]
+  //      **原始链接：** <URL>
+  //      ---
+  //      <actual content>
+  clone.querySelectorAll('p').forEach(p => {
+    const t = p.textContent || '';
+    if (t.includes('原始链接') || t.includes('Original link')) {
+      let next = p.nextElementSibling;
+      while (next && next.tagName === 'HR') {
+        const after = next.nextElementSibling;
+        next.remove();
+        next = after;
+      }
+      p.remove();
+    }
+  });
+
+  // 5. Strip reddit-style metadata lines: "r/xxx | N pts | N comments | u/user | date"
+  clone.querySelectorAll('p').forEach(p => {
+    const t = p.textContent || '';
+    if (/\d+\s*pts\s*\|\s*\d+\s*comments/.test(t) || /u\/[\w-]+\s*\|\s*\d{4}-\d{2}-\d{2}/.test(t)) {
+      p.remove();
+    }
+  });
+
+  // 6. If the first remaining element is a lone <hr>, drop it (header leftover)
+  while (clone.firstElementChild && clone.firstElementChild.tagName === 'HR') {
+    clone.firstElementChild.remove();
+  }
+
+  const bodyText = clone.textContent.replace(/\s+/g, ' ').trim();
+
+  // 7. Prepend the clean title (from state) so TTS always starts with the headline
+  const titleText = (_currentReaderItem && _currentReaderItem.title) || '';
+  if (titleText && bodyText) {
+    // Use 。 separator so the TTS pauses between title and body
+    return titleText + '。' + bodyText;
+  }
+  return titleText || bodyText;
+}
+
+function splitTTSChunks(text, maxChars) {
+  // Split on sentence terminators (CJK + Latin), keep delimiter with preceding sentence
+  const parts = text.split(/(?<=[。！？!?])\s*|(?<=[.?!])\s+/).filter(s => s && s.trim());
+  const out = [];
+  let cur = '';
+  for (const p of parts) {
+    if (cur.length + p.length > maxChars && cur.length > 0) {
+      out.push(cur);
+      cur = p;
+    } else {
+      cur += (cur ? ' ' : '') + p;
+    }
+  }
+  if (cur) out.push(cur);
+  // Hard-split any chunk still over the cap (very long sentence without punctuation)
+  const final = [];
+  for (const c of out) {
+    if (c.length <= maxChars) {
+      final.push(c);
+    } else {
+      for (let i = 0; i < c.length; i += maxChars) {
+        final.push(c.slice(i, i + maxChars));
+      }
+    }
+  }
+  return final;
+}
+
+function updateTTSButtons(label, state) {
+  // state: 'idle' | 'loading' | 'playing' | 'paused'
+  document.querySelectorAll('.tts-btn').forEach(btn => {
+    const labelEl = btn.querySelector('.tts-label');
+    if (labelEl) labelEl.textContent = label;
+    btn.classList.remove('tts-loading', 'tts-playing-state', 'tts-paused-state');
+    if (state === 'loading')  btn.classList.add('tts-loading');
+    if (state === 'playing')  btn.classList.add('tts-playing-state');
+    if (state === 'paused')   btn.classList.add('tts-paused-state');
+  });
+}
+
+async function toggleTTS() {
+  if (!_tts) {
+    return startTTS();
+  }
+  if (_tts.paused) {
+    // Resume
+    _tts.paused = false;
+    if (_tts.audio) {
+      _tts.audio.play();
+      updateTTSButtons(`⏸ ${_tts.index + 1}/${_tts.chunks.length}`, 'playing');
+    }
+    return;
+  }
+  // Pause
+  _tts.paused = true;
+  if (_tts.audio) {
+    _tts.audio.pause();
+    updateTTSButtons(`▶ ${_tts.index + 1}/${_tts.chunks.length}`, 'paused');
+  }
+}
+
+async function startTTS() {
+  const text = extractReaderText();
+  if (!text) return;
+  const chunks = splitTTSChunks(text, TTS_CHUNK_MAX);
+  if (chunks.length === 0) return;
+
+  _tts = { chunks, index: 0, audio: null, playing: true, paused: false };
+  updateTTSButtons('加载中…', 'loading');
+  await playChunk();
+}
+
+async function playChunk() {
+  if (!_tts || _tts.paused) return;
+  const { chunks, index } = _tts;
+  if (index >= chunks.length) {
+    stopTTS();
+    return;
+  }
+
+  updateTTSButtons(`加载 ${index + 1}/${chunks.length}`, 'loading');
+
+  let sessionId = null;
+  try {
+    // Step 1: create session on backend (fast — just stores text+voice)
+    const chunkText = chunks[index];
+    const voice = voiceForChunk(chunkText);
+    const prep = await fetch('/api/tts/prepare', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ text: chunkText, voice }),
+    });
+    if (!prep.ok) {
+      const err = await prep.json().catch(() => ({ error: `HTTP ${prep.status}` }));
+      throw new Error(err.error || `HTTP ${prep.status}`);
+    }
+    sessionId = (await prep.json()).id;
+  } catch (e) {
+    console.error('[tts] prepare failed:', e);
+    updateTTSButtons('失败', 'idle');
+    setTimeout(() => { if (!_tts || !_tts.playing) updateTTSButtons('朗读', 'idle'); }, 2000);
+    stopTTS();
+    return;
+  }
+
+  // Session may have been cancelled while preparing
+  if (!_tts || !_tts.playing) return;
+
+  // Step 2: native <audio> element streams MP3 progressively from the GET URL.
+  // Browser begins playback as soon as enough frames buffer (~1.5-2s for CosyVoice).
+  const audio = new Audio(`/api/tts/play?id=${encodeURIComponent(sessionId)}`);
+  _tts.audio = audio;
+
+  audio.onplaying = () => {
+    if (_tts && _tts.playing) updateTTSButtons(`⏸ ${index + 1}/${chunks.length}`, 'playing');
+  };
+  audio.onended = () => {
+    if (!_tts || !_tts.playing) return;
+    _tts.index += 1;
+    _tts.audio = null;
+    playChunk();
+  };
+  audio.onerror = () => {
+    console.error('[tts] audio element error', audio.error);
+    updateTTSButtons('失败', 'idle');
+    setTimeout(() => { if (!_tts || !_tts.playing) updateTTSButtons('朗读', 'idle'); }, 2000);
+    stopTTS();
+  };
+
+  try {
+    await audio.play();
+  } catch (e) {
+    console.error('[tts] play() rejected:', e);
+    stopTTS();
+  }
+}
+
+function stopTTS() {
+  if (_tts) {
+    if (_tts.audio) {
+      _tts.audio.pause();
+      _tts.audio.src = '';  // abort streaming fetch
+      _tts.audio = null;
+    }
+    _tts.playing = false;
+    _tts = null;
+  }
+  updateTTSButtons('朗读', 'idle');
+}
+
+/* Voice picker — two sections, anchored next to gear button */
+function toggleTTSVoicePicker(ev) {
+  if (ev) { ev.stopPropagation(); ev.preventDefault(); }
+  let menu = document.getElementById('ttsVoiceMenu');
+  if (menu) {
+    menu.remove();
+    document.removeEventListener('click', closeTTSVoicePickerOnOutside, true);
+    return;
+  }
+  const activeZh = getTTSVoiceZh();
+  const activeEn = getTTSVoiceEn();
+  const renderItem = (v, active, lang) => `
+    <div class="tts-voice-item ${v.id === active ? 'tts-voice-active' : ''}" data-voice="${v.id}" data-lang="${lang}">
+      <div class="tts-voice-label">${v.label}</div>
+      <div class="tts-voice-desc">${v.desc}</div>
+    </div>
+  `;
+
+  menu = document.createElement('div');
+  menu.id = 'ttsVoiceMenu';
+  menu.className = 'tts-voice-menu';
+  menu.innerHTML = `
+    <div class="tts-voice-head">中文朗读声音</div>
+    ${TTS_VOICES_ZH.map(v => renderItem(v, activeZh, 'zh')).join('')}
+    <div class="tts-voice-head" style="margin-top:6px">English 声音</div>
+    ${TTS_VOICES_EN.map(v => renderItem(v, activeEn, 'en')).join('')}
+    <div class="tts-voice-foot">根据正文语言自动切换。重新点"朗读"生效</div>
+  `;
+  const gear = document.querySelector('.tts-voice-gear');
+  if (gear) {
+    const rect = gear.getBoundingClientRect();
+    menu.style.position = 'fixed';
+    menu.style.top = (rect.bottom + 4) + 'px';
+    menu.style.left = Math.max(8, rect.right - 300) + 'px';
+  }
+  document.body.appendChild(menu);
+  menu.querySelectorAll('.tts-voice-item').forEach(item => {
+    item.onclick = () => {
+      const voice = item.dataset.voice;
+      const lang = item.dataset.lang;
+      if (lang === 'zh') setTTSVoiceZh(voice);
+      else setTTSVoiceEn(voice);
+      if (_tts) stopTTS();
+      menu.remove();
+      document.removeEventListener('click', closeTTSVoicePickerOnOutside, true);
+    };
+  });
+  setTimeout(() => document.addEventListener('click', closeTTSVoicePickerOnOutside, true), 0);
+}
+
+function closeTTSVoicePickerOnOutside(e) {
+  const menu = document.getElementById('ttsVoiceMenu');
+  if (!menu) return;
+  if (menu.contains(e.target)) return;
+  if (e.target.closest('.tts-voice-gear')) return;
+  menu.remove();
+  document.removeEventListener('click', closeTTSVoicePickerOnOutside, true);
 }
 
 /* ═══ Copy / Download ═══ */
@@ -1417,7 +1860,7 @@ function renderTimelineItems(el, all, limit) {
             <div class="tl-title">${critBadge(item)}${esc(item.title)}</div>
             <div class="tl-meta">
               <span class="s-src ${item.source}">${srcN(item.source)}</span>
-              <span>${esc(item.source_label)}${credBadge(item)}</span>
+              <span>${esc(item.source_label)}${credBadge(item)}${corrobBadge(item)}</span>
               ${nums(item.metrics)}
             </div>
           </div>
@@ -1496,7 +1939,7 @@ function doSearch(q) {
         <div class="tl-title">${esc(item.title)}</div>
         <div class="tl-meta">
           <span class="s-src ${item.source}">${srcN(item.source)}</span>
-          <span>${esc(item.source_label)}${credBadge(item)}</span>
+          <span>${esc(item.source_label)}${credBadge(item)}${corrobBadge(item)}</span>
           ${nums(item.metrics)}
         </div>
       </div>

@@ -26,6 +26,7 @@
         <p class="mast-sub">Global Conflict Monitor</p>
       </div>
       <div class="mast-right">
+        <span class="health-badge" id="healthBadge" title="管道健康" onclick="showHealthModal()" style="display:none"></span>
         <a class="rss-link" href="feed.xml" title="RSS 订阅" target="_blank">RSS</a>
         <span class="theme-toggle" id="themeToggle" title="切换暗色模式">DARK</span>
         <span class="lang-toggle" id="langToggle" onclick="toggleLang()">EN/中</span>
@@ -144,6 +145,18 @@
   <div class="kbd-hint" id="kbdHint">
     <kbd>J</kbd><kbd>K</kbd> 导航 &nbsp; <kbd>Enter</kbd> 打开 &nbsp; <kbd>Esc</kbd> 返回 &nbsp; <kbd>/</kbd> 搜索
   </div>
+
+  <!-- Health modal — populated by app.js when healthBadge clicked -->
+  <div class="health-modal-overlay" id="healthModal" style="display:none" onclick="if(event.target===this)closeHealthModal()">
+    <div class="health-modal">
+      <div class="health-modal-head">
+        <h2>管道健康</h2>
+        <button class="health-modal-close" onclick="closeHealthModal()">×</button>
+      </div>
+      <div class="health-modal-body" id="healthModalBody"></div>
+    </div>
+  </div>
+
   <script src="app.js"></script>
 </body>
 </html>
