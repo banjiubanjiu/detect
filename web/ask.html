@@ -203,6 +203,78 @@
       background: var(--paper);
       margin-bottom: 20px;
     }
+
+    /* ═══ 多轮对话流 ═══ */
+    .ask-conversation { display: flex; flex-direction: column; gap: 0; }
+    .ask-turn {
+      padding: 28px 0 8px;
+      border-top: 1px solid var(--ink-15);
+    }
+    .ask-turn:first-child { border-top: none; padding-top: 0; }
+    .ask-turn .ask-question {
+      font-family: var(--serif);
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 1.35;
+      color: var(--ink);
+      margin-bottom: 18px;
+      display: flex;
+      gap: 14px;
+      align-items: baseline;
+    }
+    .ask-turn .ask-question::before {
+      content: 'Q.';
+      font-family: var(--mono);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      color: var(--red);
+      flex-shrink: 0;
+      transform: translateY(-2px);
+    }
+    .ask-turn .ask-steps { margin-bottom: 18px; }
+    .ask-turn .ask-answer {
+      border-top: none;
+      border-bottom: none;
+      padding: 0;
+      padding-top: 4px;
+    }
+    .ask-turn.is-pending { opacity: 0.99; }
+
+    /* 清空按钮 */
+    .ask-clear-btn {
+      font-family: var(--mono);
+      font-size: 10px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--ink-40);
+      background: transparent;
+      border: 1px solid var(--ink-15);
+      padding: 5px 10px;
+      cursor: pointer;
+      margin-left: auto;
+      transition: all .15s;
+    }
+    .ask-clear-btn:hover { color: var(--red); border-color: var(--red); }
+    .ask-clear-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+    .ask-examples-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 36px;
+    }
+    .ask-examples-row .ask-examples { margin-bottom: 0; flex: 1; }
+
+    /* 历史指示 */
+    .ask-context-badge {
+      font-family: var(--mono);
+      font-size: 10px;
+      color: var(--ink-40);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    .ask-context-badge .dot { color: var(--green); }
   </style>
 </head>
 <body>
@@ -243,29 +315,25 @@
       <button class="ask-btn" id="askBtn" type="submit">问</button>
     </form>
 
-    <div class="ask-examples">
-      <b>试试:</b>
-      <span class="ask-ex" data-q="俄乌最近 critical 级别的军事事件挑 5 条按时间倒序，要日期和来源。">俄乌 critical 军事事件</span>
-      <span class="ask-ex" data-q="目前哪些冲突在外交谈判方面有进展？各举 1-2 条。">外交进展概览</span>
-      <span class="ask-ex" data-q="苏丹和刚果金的人道危机最近发生了什么？">非洲人道危机</span>
-      <span class="ask-ex" data-q="哪些冲突最近提到了无人机？">跨冲突搜索:无人机</span>
-      <span class="ask-ex" data-q="台海局势的舆论分析最近有哪些观点？">台海舆论</span>
+    <div class="ask-examples-row">
+      <div class="ask-examples">
+        <b>试试:</b>
+        <span class="ask-ex" data-q="俄乌最近 critical 级别的军事事件挑 5 条按时间倒序，要日期和来源。">俄乌 critical 军事事件</span>
+        <span class="ask-ex" data-q="目前哪些冲突在外交谈判方面有进展？各举 1-2 条。">外交进展概览</span>
+        <span class="ask-ex" data-q="苏丹和刚果金的人道危机最近发生了什么？">非洲人道危机</span>
+        <span class="ask-ex" data-q="哪些冲突最近提到了无人机？">跨冲突搜索:无人机</span>
+        <span class="ask-ex" data-q="台海局势的舆论分析最近有哪些观点？">台海舆论</span>
+      </div>
+      <button class="ask-clear-btn" id="askClearBtn" type="button" disabled>新对话</button>
+    </div>
+
+    <div id="askContextBadge" class="ask-context-badge" style="display:none">
+      <span class="dot">●</span> 多轮对话已开启 · 模型记得前 <span id="askCtxTurns">0</span> 轮上下文
     </div>
 
     <div id="askError" class="ask-error" style="display:none"></div>
 
-    <div id="askSteps" class="ask-steps" style="display:none"></div>
-
-    <div id="askLoading" class="ask-loading" style="display:none">思考中</div>
-
-    <article id="askAnswer" class="ask-answer" style="display:none">
-      <div class="ask-answer-label">ANSWER</div>
-      <div id="askAnswerBody"></div>
-      <div class="ask-meta">
-        <span id="askMetaSteps"></span>
-        <span id="askMetaTime"></span>
-      </div>
-    </article>
+    <div id="askConversation" class="ask-conversation"></div>
   </main>
 
   <script>
