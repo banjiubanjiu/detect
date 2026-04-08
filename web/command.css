@@ -15,12 +15,14 @@
   --fg-dim2:  #60666e;
   --fg-faint: #3a3e44;
 
-  --red:      #e74c3c;
+  /* 统一到 index.html 暗模式的 red, 方便两页在暗色下视觉连续 */
+  --red:      #e84838;
   --red-dim:  #8a2820;
   --amber:    #d9a636;
   --green:    #3fb570;
   --blue:     #4a9eff;
 
+  --serif:    'Playfair Display', Georgia, serif;
   --mono:     'IBM Plex Mono', ui-monospace, monospace;
   --sans:     'Source Sans 3', system-ui, sans-serif;
 }
@@ -58,18 +60,52 @@ body {
   font-size: 11px;
 }
 .tb-left, .tb-right { display: flex; align-items: center; gap: 14px; }
-.tb-title {
-  font-weight: 700; letter-spacing: 2px; color: var(--fg);
-  font-size: 12px;
+
+/* 品牌: 战况追踪 — 和 index.html masthead 共享 Playfair */
+.tb-brand {
+  font-family: var(--serif);
+  font-weight: 900;
+  font-size: 22px;
+  letter-spacing: -0.5px;
+  line-height: 1;
+  color: var(--fg);
+  padding-bottom: 2px;
 }
+
+/* 模式标签: LIVE WATCH — 贴在品牌后面的小字,用脉冲红点 */
+.tb-mode {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: var(--red);
+  padding: 2px 7px;
+  border: 1px solid var(--red);
+  border-radius: 2px;
+}
+.tb-mode-dot {
+  display: inline-block;
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--red);
+  box-shadow: 0 0 6px var(--red);
+  animation: tbPulse 1.6s ease-in-out infinite;
+}
+@keyframes tbPulse {
+  0%, 100% { opacity: 1;   transform: scale(1); }
+  50%      { opacity: 0.35; transform: scale(0.8); }
+}
+
+/* 健康灯 - 挪到右侧, 只用状态颜色 */
 .tb-live {
-  font-weight: 600; color: var(--red); letter-spacing: 1px;
-  animation: liveBlink 2s ease-in-out infinite;
+  font-weight: 600; color: var(--fg-dim2); letter-spacing: 1px;
 }
 .tb-live.live-ok      { color: var(--green); }
 .tb-live.live-degraded{ color: var(--amber); }
 .tb-live.live-critical{ color: var(--red); }
-@keyframes liveBlink { 0%,100%{opacity:1} 50%{opacity:.55} }
 
 .tb-center { flex: 0 0 auto; }
 .tb-clock {
@@ -82,12 +118,25 @@ body {
 .tb-num { color: var(--fg); font-weight: 700; font-size: 14px; }
 .tb-unit { color: var(--fg-dim2); }
 .tb-updated { color: var(--fg-dim2); }
-.tb-back {
-  color: var(--fg-dim); text-decoration: none;
-  padding: 4px 8px; border: 1px solid var(--line-hi); border-radius: 3px;
-  transition: color .15s, border-color .15s;
+
+/* 模式切换: ARCHIVE ↗ — 和 index.html 的 .watch-link 视觉对称 */
+.tb-switch {
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  color: var(--fg-dim);
+  border: 1px solid var(--line-hi);
+  padding: 4px 9px;
+  border-radius: 2px;
+  text-decoration: none;
+  transition: all .15s;
 }
-.tb-back:hover { color: var(--fg); border-color: var(--fg-dim2); }
+.tb-switch:hover {
+  color: var(--fg);
+  border-color: var(--fg-dim);
+  background: var(--bg-raise);
+}
 
 /* ═══ ② 左栏 ═══ */
 .cc-left {

@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>STRATCOM WATCH — 战情指挥中心</title>
+  <title>战况追踪 · LIVE WATCH — 战情指挥中心</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=IBM+Plex+Mono:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="command.css">
   <script src="https://cdn.jsdelivr.net/npm/globe.gl@2"></script>
 </head>
@@ -15,8 +15,11 @@
   <!-- ① 顶栏 -->
   <header class="cc-topbar" id="topbar">
     <div class="tb-left">
-      <span class="tb-title">STRATCOM WATCH</span>
-      <span class="tb-live" id="tbLive">● OFFLINE</span>
+      <span class="tb-brand">战况追踪</span>
+      <span class="tb-mode">
+        <span class="tb-mode-dot"></span>
+        LIVE WATCH
+      </span>
     </div>
     <div class="tb-center">
       <span class="tb-clock" id="tbClock">--:--:-- UTC</span>
@@ -27,7 +30,8 @@
         <span class="tb-unit">events / 30d</span>
       </span>
       <span class="tb-updated" id="tbUpdated">last update: —</span>
-      <a class="tb-back" href="./">← archive</a>
+      <span class="tb-live" id="tbLive">● —</span>
+      <a class="tb-switch" href="./" title="回到档案阅读模式">ARCHIVE ↗</a>
     </div>
   </header>
 

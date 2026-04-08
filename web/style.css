@@ -99,6 +99,44 @@ body {
   transition: background 0.1s;
 }
 .rss-link:hover { background: var(--orange); color: #fff }
+
+/* ═══ Watch mode switcher — 切换到战情指挥中心 ═══ */
+.watch-link {
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  color: var(--red);
+  border: 1px solid var(--red);
+  padding: 2px 8px 2px 6px;
+  border-radius: 2px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  transition: all 0.15s;
+}
+.wl-dot {
+  display: inline-block;
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--red);
+  box-shadow: 0 0 6px var(--red);
+  animation: wlPulse 1.6s ease-in-out infinite;
+}
+@keyframes wlPulse {
+  0%, 100% { opacity: 1;   transform: scale(1);    }
+  50%      { opacity: 0.35; transform: scale(0.8); }
+}
+.watch-link:hover {
+  background: var(--red);
+  color: #fff;
+}
+.watch-link:hover .wl-dot {
+  background: #fff;
+  box-shadow: 0 0 8px #fff;
+}
+
 .theme-toggle {
   font-family: var(--mono);
   font-size: 10px;
