@@ -185,12 +185,13 @@ function showWarningsModal() {
     let deltaTxt = '';
     if (key === 'escalation_trend') {
       if (m.delta != null) deltaTxt = ` ${m.delta > 0 ? '+' : ''}${m.delta}`;
-    } else if (m.delta_pct != null) {
+    } else if (m.delta_pct != null && m.baseline > 0) {
+      // baseline=0 时 delta_pct 也是 0, 显示 "+0%" 会误导
       deltaTxt = ` ${m.delta_pct > 0 ? '+' : ''}${m.delta_pct}%`;
     }
     const baseTxt = (key === 'escalation_trend')
       ? (m.yesterday != null ? `昨日 ${m.yesterday}` : 'n/a')
-      : (m.baseline != null ? `7日均 ${m.baseline}` : 'n/a');
+      : (m.baseline > 0 ? `7日均 ${m.baseline}` : 'n/a');
     const todayTxt = m.today != null ? m.today : '–';
     return `<div class="iw-metric iw-${flag}">
       <div class="iw-metric-label">${icon} ${esc(m.label || key)}</div>
@@ -942,6 +943,12 @@ function renderHotReports() {
   // 热门榜 = 社交互动池 + 多源印证池, 分别排序后合并, 避免互动量压倒情报学信号
   // 前 7 槽给社交互动 top (传统 "hot")
   // 后 3 槽给多源印证簇 top, 按 size*(bias+1) 排序, 同 cluster 去重
+  //
+  // 跨冲突 item 归属策略 (review #11): 同一 item id 可能在多个 conflict 下
+  // (例如 "巴以-美伊"), 这里用 seenId 去重, 归属到 Object.entries 首次遇到
+  // 的那个 conflict — 即 latest.json 里冲突字典序靠前的那个. 点击跳转会去
+  // 首次归属的 conflict. 这是 deterministic 但 arbitrary 的选择, 真正的 UX
+  // 修复需要在 item 层记录所有归属 conflicts, 留给后续 UX 迭代.
   const engagementPool = [];
   const clusterPool = [];
   const seenCluster = new Set();

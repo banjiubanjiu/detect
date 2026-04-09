@@ -50,7 +50,9 @@ BASELINE_DAYS = 7            # 基线用最近几天均值（排除今日）
 MIN_BASELINE_SAMPLES = 3     # 少于此数就不算异常（用 insufficient）
 ELEVATED_RATIO = 2.0         # 今日 >= 基线 × 此值 → elevated
 DEPRESSED_RATIO = 0.5        # 今日 <= 基线 × 此值 → depressed
-MIN_BASELINE_FOR_FLAG = 1.0  # 基线太小（<1 条/天）不报 flag，避免 0→1 这种噪音
+MIN_BASELINE_FOR_FLAG = 1.0  # 基线 < 此值算"稀有事件流", 不用 ratio 判断
+RARE_EVENT_FLOOR = 3         # 稀有事件流下, 今日 >= 此值仍然触发 elevated
+                             # (避免 baseline=0.3 / today=10 这种明显 spike 被吞掉)
 
 
 def parse_date(s):
@@ -113,10 +115,17 @@ def compute_daily_critical(items, today, days=HISTO_DAYS):
 
 
 def classify(today_value, baseline, min_baseline=MIN_BASELINE_FOR_FLAG):
-    """Return flag string based on today vs baseline ratio."""
+    """Return flag string based on today vs baseline.
+
+    Rare-event handling: when baseline < 1.0/day the ratio test is too noisy
+    (0 → 1 looks like +inf%), so we switch to an absolute floor — today must
+    reach RARE_EVENT_FLOOR for elevated. This lets genuine spikes (e.g.
+    Myanmar silent for weeks → 10 events in a day) still bubble up while
+    suppressing single-item noise.
+    """
     if baseline < min_baseline:
-        return "normal"  # baseline too small to make noise meaningful
-    if baseline == 0:
+        if today_value >= RARE_EVENT_FLOOR:
+            return "elevated"
         return "normal"
     ratio = today_value / baseline
     if ratio >= ELEVATED_RATIO:

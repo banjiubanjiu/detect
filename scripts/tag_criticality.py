@@ -132,9 +132,16 @@ def build_prompt(conflict_name, items):
 
 
 def parse_llm_response(text):
-    """Extract critical/notable ID lists from LLM response. Returns (critical, notable) tuple of sets."""
+    """Extract critical/notable ID lists from LLM response.
+
+    Returns (critical, notable) as lists preserving LLM's original order —
+    this is important for budget allocation determinism: when the global
+    critical/notable budget gets exhausted mid-allocation, which items win
+    the slot depends on iteration order, so we keep LLM's priority order.
+    Sets would give non-deterministic results across runs.
+    """
     if not text:
-        return set(), set()
+        return [], []
     # Strip markdown code fences if present
     text = text.strip()
     if text.startswith("```"):
@@ -145,23 +152,38 @@ def parse_llm_response(text):
     try:
         data = json.loads(text)
     except json.JSONDecodeError:
-        # Try to find JSON object in text
+        # Fallback: find outermost JSON object in text. Greedy \{.*\} works
+        # because the system prompt demands "只输出 JSON" — if LLM ever
+        # returns multiple JSON blocks this would concatenate them. Trade-off
+        # accepted; see review #8.
         import re
         m = re.search(r'\{.*\}', text, re.DOTALL)
         if not m:
-            return set(), set()
+            return [], []
         try:
             data = json.loads(m.group(0))
         except json.JSONDecodeError:
-            return set(), set()
+            return [], []
 
-    critical = set(data.get("critical", []) or [])
-    notable = set(data.get("notable", []) or [])
-    # Enforce limits (LLM may overshoot)
-    critical = set(list(critical)[:CRITICAL_LIMIT])
-    # notable doesn't include critical
-    notable = (notable - critical)
-    notable = set(list(notable)[:NOTABLE_LIMIT])
+    critical_raw = data.get("critical", []) or []
+    notable_raw = data.get("notable", []) or []
+
+    # Preserve order, dedupe, and ensure notable doesn't overlap critical
+    seen = set()
+    critical = []
+    for iid in critical_raw:
+        if iid and iid not in seen:
+            seen.add(iid)
+            critical.append(iid)
+        if len(critical) >= CRITICAL_LIMIT:
+            break
+    notable = []
+    for iid in notable_raw:
+        if iid and iid not in seen:
+            seen.add(iid)
+            notable.append(iid)
+        if len(notable) >= NOTABLE_LIMIT:
+            break
     return critical, notable
 
 
