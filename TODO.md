@@ -503,3 +503,21 @@ shutil.copy2(output_path, archive_path / "latest.json")
 - confidence 根据实际工具调用数 + 答案长度 + 是否命中原文给更精细的评级
 - 这些都是锦上添花,非必要
 
+### T21. `health_report.scan_orphans` 对 empty string local_file 不敏感 【低】
+**问题：** `scan_orphans` 里 `if not lf: continue` 把空字符串当"无 local_file"
+跳过, 所以 `--fix` 永远不会清理它们. 这是历史数据债: 早期版本的 orphan clear
+把值设为 `""` 而不是 `pop()` key, 留下 8 条 item 的 `local_file=""`.
+
+**发现于 2026-04-09 #9 Schema 验证** — `scripts/validate_latest.py` 对这些
+报 warning ("empty string (orphan clear leftover)"), 暴露出 health_report
+的清理路径有漏洞.
+
+**修复：**
+- `scan_orphans` 把 `lf == ""` 也算作"需要清理"(和 missing file 并列)
+- 或者独立加一个 `scan_empty_local_files` 步骤, 在 `--fix` 时一并 pop
+- 预期效果: 下次 CI 跑完 `health_report.py --fix` 后, 这 8 条遗留清零,
+  validator 的 8 个 warning 变成 0
+
+**工作量：** ~15 行代码. 低紧迫性 (前端已 fallback, 不影响用户). 建议在下次
+碰 health_report.py 时顺手修.
+

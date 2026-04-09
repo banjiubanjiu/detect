@@ -75,6 +75,13 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python scripts/notify.py
 
+      # Schema 验证 (#9) — 放在 commit 之前, 捕获 latest.json/indicators.json/
+      # pipeline_health.json 的结构破坏. 初期 --warn 模式: 只打 warning 不阻塞
+      # commit, 避免新 validator 上线当天把 cron 吓死; 观察稳定后升级为 strict.
+      - name: Validate data contracts (warn mode)
+        continue-on-error: true
+        run: python scripts/validate_latest.py --warn
+
       - name: Commit & push
         run: |
           git config user.name "github-actions[bot]"
