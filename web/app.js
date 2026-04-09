@@ -444,6 +444,9 @@ async function boot() {
   showOverview();
   initGlobe();
   wireReader();
+  wireShareButtons();
+  handlePermalink();
+  window.addEventListener('hashchange', handlePermalink);
   loadAvatarBriefing();  // 数字人主播 (静默失败,不阻塞)
 }
 
@@ -1801,6 +1804,7 @@ function renderRiver(c) {
             <span class="s-from">${esc(it.source_label)}${credBadge(it)}${corrobBadge(it)}</span>
             ${nums(it.metrics)}
             <span class="s-time">${rel}</span>
+            <button class="s-share" title="复制永久链接" data-share-id="${it.id}">🔗</button>
           </div>
           <div class="s-dek">${esc(it.summary)}</div>
         </div>
@@ -1817,6 +1821,7 @@ function renderRiver(c) {
           <span class="s-from">${esc(it.source_label)}${credBadge(it)}${corrobBadge(it)}</span>
           ${nums(it.metrics)}
           <span class="s-time">${rel}</span>
+          <button class="s-share" title="复制永久链接" data-share-id="${it.id}">🔗</button>
         </div>
         <div class="s-dek">${esc(it.summary)}</div>
       </div>
@@ -1857,6 +1862,87 @@ function renderRiver(c) {
       toggleBtn.querySelector('span:first-child').textContent = open ? '收起背景动态' : '展开背景动态';
     });
   }
+}
+
+/* ═══ Permalink (#12) ═══ */
+
+/** Find an item by id across all conflicts/categories. Returns {conflict, category, item} or null. */
+function findItemById(id) {
+  for (const [cid, c] of Object.entries(D.conflicts)) {
+    for (const [catk, cat] of Object.entries(c.categories)) {
+      for (const it of cat.items) {
+        if (it.id === id) return { conflict: cid, category: catk, item: it };
+      }
+    }
+  }
+  return null;
+}
+
+/** Navigate to a specific item: switch conflict + tab, scroll, highlight. */
+function navigateToItem(id) {
+  const found = findItemById(id);
+  if (!found) return false;
+
+  // T11: use primary_conflict when available
+  conflict = found.item.primary_conflict && D.conflicts[found.item.primary_conflict]
+    ? found.item.primary_conflict : found.conflict;
+  tab = found.category;
+
+  document.querySelectorAll('.rn-chip').forEach(x =>
+    x.classList.toggle('on', x.dataset.k === conflict)
+  );
+  showConflict();
+
+  // Wait for DOM render, then expand BLUF below-fold if needed + scroll + highlight
+  requestAnimationFrame(() => {
+    let target = document.querySelector(`[data-id="${CSS.escape(id)}"]`);
+    // If target not found, it's in the folded BLUF section — expand
+    if (!target) {
+      const belowEl = document.getElementById('blufBelow');
+      if (belowEl && !belowEl.classList.contains('bluf-open')) {
+        belowEl.classList.add('bluf-open');
+        const toggleSpan = document.querySelector('[data-bluf-toggle] span:first-child');
+        if (toggleSpan) toggleSpan.textContent = '收起背景动态';
+      }
+    }
+    setTimeout(() => {
+      target = document.querySelector(`[data-id="${CSS.escape(id)}"]`);
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        target.classList.add('permalink-hl');
+        setTimeout(() => target.classList.remove('permalink-hl'), 3000);
+      }
+    }, 120);
+  });
+  return true;
+}
+
+/** Handle hash: #item/ITEM_ID */
+function handlePermalink() {
+  const h = location.hash;
+  if (!h.startsWith('#item/')) return;
+  const id = decodeURIComponent(h.slice(6));
+  if (id && D) navigateToItem(id);
+}
+
+/** Share button click handler (delegated). */
+function wireShareButtons() {
+  document.addEventListener('click', e => {
+    const btn = e.target.closest('.s-share');
+    if (!btn) return;
+    e.stopPropagation(); // don't trigger reader open
+    e.preventDefault();
+    const id = btn.dataset.shareId;
+    const url = `${location.origin}${location.pathname}#item/${encodeURIComponent(id)}`;
+    navigator.clipboard.writeText(url).then(() => {
+      btn.textContent = '✓';
+      btn.classList.add('s-share-ok');
+      setTimeout(() => { btn.textContent = '🔗'; btn.classList.remove('s-share-ok'); }, 1500);
+    }).catch(() => {
+      // Fallback: prompt
+      prompt('复制此链接:', url);
+    });
+  });
 }
 
 /* ═══ Reader (full-page article view) ═══ */
