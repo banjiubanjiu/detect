@@ -42,6 +42,10 @@ jobs:
         continue-on-error: true
         run: python scripts/cluster_corroboration.py
 
+      - name: Admiralty Code rating (A-F / 1-6)
+        continue-on-error: true
+        run: python scripts/admiralty_code.py
+
       - name: Tag criticality (BLUF)
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}

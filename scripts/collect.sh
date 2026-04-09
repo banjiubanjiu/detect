@@ -12,6 +12,9 @@ python3 -u scripts/collect.py
 # 多源交叉验证聚类 (为 latest.json 每条 item 注入 cluster_id/size/bias_count)
 python3 -u scripts/cluster_corroboration.py || echo "  cluster_corroboration 跳过"
 
+# NATO Admiralty Code (#2: A-F 来源可靠 × 1-6 内容准确, 基于 tier + cluster)
+python3 -u scripts/admiralty_code.py || echo "  admiralty_code 跳过"
+
 # Pull DeepStateMap Ukraine frontline (独立步骤,失败不影响主流程)
 python3 -u scripts/deepstate_pull.py || echo "  deepstate_pull 跳过"
 

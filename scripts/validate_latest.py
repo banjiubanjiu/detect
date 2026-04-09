@@ -40,6 +40,8 @@ VALID_CONFLICT_IDS = {
     "russia-ukraine", "israel-palestine", "us-iran", "sudan", "myanmar",
     "yemen-houthi", "congo-drc", "syria", "taiwan-strait",
 }
+VALID_ADMIRALTY_SOURCE = {"A", "B", "C", "D", "E", "F"}
+VALID_ADMIRALTY_INFO = {1, 2, 3, 4, 5, 6}
 VALID_IW_FLAGS = {"elevated", "depressed", "rising", "falling", "normal", "insufficient"}
 VALID_HEALTH_STATUS = {"ok", "degraded", "critical"}
 VALID_ISSUE_SEVERITY = {"info", "warn", "critical"}
@@ -196,6 +198,17 @@ def validate_item(issues, path, it):
     if "primary_conflict" in it:
         if check_str(issues, f"{path}.primary_conflict", it["primary_conflict"]):
             check_enum(issues, f"{path}.primary_conflict", it["primary_conflict"], VALID_CONFLICT_IDS)
+
+    # #2: Admiralty Code
+    if "admiralty_code" in it:
+        ac = it["admiralty_code"]
+        if check_str(issues, f"{path}.admiralty_code", ac):
+            if len(ac) != 2 or ac[0] not in VALID_ADMIRALTY_SOURCE or not ac[1].isdigit() or int(ac[1]) not in VALID_ADMIRALTY_INFO:
+                issues.err(f"{path}.admiralty_code", f"invalid code {ac!r} (expected A1-F6)")
+    if "admiralty_source" in it:
+        check_enum(issues, f"{path}.admiralty_source", it["admiralty_source"], VALID_ADMIRALTY_SOURCE)
+    if "admiralty_info" in it:
+        check_int(issues, f"{path}.admiralty_info", it["admiralty_info"], minimum=1, maximum=6)
 
     # cluster fields (all optional, but typed when present)
     if "cluster_id" in it and it["cluster_id"] is not None:

@@ -2457,6 +2457,19 @@ body {
 .cred-t2::before { content: '· ' }
 .cred-t3::before { content: '· ' }
 
+/* ═══ Admiralty Code (#2) ═══ */
+.admiralty-badge {
+  font-family: var(--mono); font-size: 10px; font-weight: 600;
+  padding: 1px 4px; border-radius: 3px; margin-left: 4px;
+  vertical-align: middle; letter-spacing: 0.5px;
+}
+.admiralty-badge::before { content: none }
+.adm-a { background: rgba(80,180,80,0.15); color: #5a5 }
+.adm-b { background: rgba(80,140,200,0.15); color: #68a }
+.adm-c { background: rgba(140,140,80,0.15); color: #997 }
+.adm-d { background: rgba(200,140,80,0.15); color: #b84 }
+.adm-f { background: rgba(120,120,120,0.1); color: var(--ink-25) }
+
 /* ═══ Reader 同事件其他源面板 (组合 A3) ═══ */
 .reader-corrob {
   margin: 14px 0 8px;

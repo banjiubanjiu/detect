@@ -280,6 +280,19 @@ function credBadge(item) {
   const t = info.tier || 't3';
   const titles = { t1:'权威机构', t2:'主流媒体', t3:'社区/其他' };
   const bias = biasLabel(item);
+  // #2 Admiralty Code: show "A1"/"B3" badge when admiralty_code is available
+  const ac = item.admiralty_code;
+  if (ac) {
+    const acTitles = {
+      A:'完全可靠', B:'通常可靠', C:'相当可靠', D:'不常可靠', F:'无法判断'
+    };
+    const infoTitles = {
+      1:'多源确认', 2:'很可能', 3:'可能', 4:'存疑', 5:'不太可能', 6:'无法判断'
+    };
+    const sl = ac[0], il = parseInt(ac[1]);
+    const tip = `Admiralty Code ${ac} — 来源: ${acTitles[sl]||sl} · 内容: ${infoTitles[il]||il}`;
+    return `<span class="admiralty-badge adm-${sl.toLowerCase()}" title="${tip}">${ac}</span>${bias}`;
+  }
   return `<span class="cred-tier cred-${t}" title="${titles[t]}">${titles[t]}</span>${bias}`;
 }
 
