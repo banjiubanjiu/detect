@@ -61,7 +61,11 @@ jobs:
         continue-on-error: true
         run: python scripts/health_report.py --fix
 
-      # snapshot 放在最后: 归档经过 cluster + criticality + briefing + orphan-fix
+      # T5: 清理 >30 天的 item, 防止 latest.json 无限膨胀
+      - name: Prune old items (>30d retention)
+        run: python scripts/prune_old.py
+
+      # snapshot 放在最后: 归档经过 cluster + criticality + briefing + orphan-fix + prune
       # 的完整状态, 而不是中间态
       - name: Snapshot to archive (time-series)
         run: python scripts/snapshot.py

@@ -18,7 +18,10 @@ python3 -u scripts/deepstate_pull.py || echo "  deepstate_pull 跳过"
 # I&W 预警指标 (#3: event_frequency / critical_count / escalation_trend 异常检测)
 python3 -u scripts/indicators.py || echo "  indicators 跳过"
 
-# 管道健康报告 + orphan 自动修复 (T4/T9: 清除悬空 local_file, 刷新 pipeline_health.json)
+# 管道健康报告 + orphan 自动修复 (T4/T9/T21: 清除悬空+空 local_file, 刷新 pipeline_health.json)
 python3 -u scripts/health_report.py --fix || echo "  health_report 跳过"
+
+# T5: 条目老化 (清理 >30 天 item, 防 latest.json 无限膨胀)
+python3 -u scripts/prune_old.py || echo "  prune_old 跳过"
 
 echo "$(date): Done."

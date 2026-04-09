@@ -149,9 +149,21 @@ def scan_orphans(items):
     checked = 0
     for it in items.values():
         lf = it.get('local_file')
-        if not lf:
+        if lf is None or 'local_file' not in it:
             continue
         checked += 1
+        # T21: empty string = historical orphan-clear leftover where an older
+        # version of --fix set lf="" instead of pop(). Treat as orphan so
+        # --fix clears the key entirely.
+        if lf == "" or not lf:
+            orphans.append({
+                'id': it.get('id'),
+                'title': (it.get('title_en') or it.get('title') or '')[:80],
+                'source_label': it.get('source_label'),
+                'local_file': '(empty)',
+            })
+            orphan_ids.add(it.get('id'))
+            continue
         full = DATA_DIR / lf
         if not full.exists():
             orphans.append({
