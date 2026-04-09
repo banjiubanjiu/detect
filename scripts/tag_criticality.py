@@ -35,10 +35,11 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).parent.parent
 LATEST_JSON = PROJECT_ROOT / "data" / "latest.json"
 
-CRITICAL_LIMIT = 3      # 每冲突最多 critical 条数
-NOTABLE_LIMIT = 10      # 每冲突最多 notable 条数
-TOP_N_PER_CONFLICT = 50 # 每冲突喂给 LLM 最近 N 条
-MIN_BATCH_TO_TAG = 5    # 未标条目少于此数则跳过整个冲突
+CRITICAL_LIMIT = 3         # 每冲突最多 critical 条数
+NOTABLE_LIMIT = 10         # 每冲突最多 notable 条数
+TOP_N_PER_CONFLICT = 50    # 每批喂给 LLM 最近 N 条 (同时也是单次批次大小)
+MAX_BATCHES_PER_CONFLICT = 6  # 每个冲突最多循环 N 批, 避免爆炸 (6*50=300 条/天/冲突, 够用)
+MIN_BATCH_TO_TAG = 5       # 未标条目少于此数则跳过整个冲突
 VALID_LABELS = {"critical", "notable", "background"}
 
 
@@ -164,8 +165,12 @@ def parse_llm_response(text):
     return critical, notable
 
 
-def collect_items_for_conflict(conflict_data):
-    """Get up to TOP_N items for a conflict, deduplicated by id, sorted by date desc."""
+def collect_untagged_items(conflict_data):
+    """Get ALL untagged items for a conflict, deduplicated by id, sorted by date desc.
+
+    Changed from "top 50 all items" to "all untagged items" to fix coverage bug where
+    burst days (>50 new items in one conflict) left the tail un-tagged forever.
+    """
     seen_ids = set()
     items = []
     for catk, cat in conflict_data.get("categories", {}).items():
@@ -174,11 +179,11 @@ def collect_items_for_conflict(conflict_data):
             if not iid or iid in seen_ids:
                 continue
             seen_ids.add(iid)
-            # Stash category for prompt context
+            if "criticality" in it:
+                continue  # only untagged
             items.append({**it, "_category": catk})
-    # Sort by date desc, fallback empty string sorts last
     items.sort(key=lambda x: x.get("date") or "", reverse=True)
-    return items[:TOP_N_PER_CONFLICT]
+    return items
 
 
 def apply_tags(latest, id_to_label):
@@ -201,46 +206,71 @@ def apply_tags(latest, id_to_label):
 
 
 def tag_conflict(cid, conflict_data):
-    """Tag one conflict. Returns (id_to_label dict, stats tuple)."""
-    items = collect_items_for_conflict(conflict_data)
-    if not items:
-        return {}, (0, 0, 0, "no items")
+    """Tag one conflict using batched LLM calls. Returns (id_to_label dict, stats tuple).
 
-    # Skip if already mostly tagged
-    untagged = [it for it in items if "criticality" not in it]
+    Batching rationale: a single conflict may have 100+ new items on a burst day
+    (us-iran 160 seen on 2026-04-08). Splitting into batches of TOP_N_PER_CONFLICT
+    avoids both truncation and over-long prompts. Per-conflict critical/notable
+    budgets are GLOBAL across batches — we don't want 3 batches × 3 criticals each.
+    """
+    untagged = collect_untagged_items(conflict_data)
     if len(untagged) < MIN_BATCH_TO_TAG:
         return {}, (0, 0, 0, f"only {len(untagged)} untagged, skip")
 
     name = conflict_data.get("name", cid)
-    prompt = build_prompt(name, items)
-
-    response = llm_call(SYSTEM_PROMPT, prompt)
-    if not response:
-        return {}, (0, 0, 0, "LLM failed")
-
-    critical, notable = parse_llm_response(response)
-    if not critical and not notable:
-        return {}, (0, 0, 0, "parse failed")
-
-    # Build id → label map. critical wins over notable. Others in this batch → background.
     id_to_label = {}
-    item_ids_in_batch = {it["id"] for it in items}
-    for iid in critical:
-        if iid in item_ids_in_batch:
-            id_to_label[iid] = "critical"
-    for iid in notable:
-        if iid in item_ids_in_batch:
-            id_to_label[iid] = "notable"
-    for iid in item_ids_in_batch:
-        if iid not in id_to_label:
-            id_to_label[iid] = "background"
+    crit_budget = CRITICAL_LIMIT
+    note_budget = NOTABLE_LIMIT
+    batch_count = 0
+    err_msg = None
 
-    return id_to_label, (
-        sum(1 for v in id_to_label.values() if v == "critical"),
-        sum(1 for v in id_to_label.values() if v == "notable"),
-        sum(1 for v in id_to_label.values() if v == "background"),
-        "ok",
-    )
+    for batch_i in range(MAX_BATCHES_PER_CONFLICT):
+        start = batch_i * TOP_N_PER_CONFLICT
+        end = start + TOP_N_PER_CONFLICT
+        batch = untagged[start:end]
+        if not batch:
+            break
+        if len(batch) < MIN_BATCH_TO_TAG and batch_i > 0:
+            # Tail too small to send — mark remainder as background and stop
+            for it in batch:
+                id_to_label[it["id"]] = "background"
+            break
+
+        batch_count += 1
+        prompt = build_prompt(name, batch)
+        response = llm_call(SYSTEM_PROMPT, prompt)
+        if not response:
+            err_msg = f"LLM failed on batch {batch_i + 1}"
+            break
+
+        critical, notable = parse_llm_response(response)
+        batch_ids = {it["id"] for it in batch}
+
+        # Spend budget in batch priority order (crit first)
+        for iid in critical:
+            if iid in batch_ids and crit_budget > 0 and iid not in id_to_label:
+                id_to_label[iid] = "critical"
+                crit_budget -= 1
+        for iid in notable:
+            if iid in batch_ids and note_budget > 0 and iid not in id_to_label:
+                id_to_label[iid] = "notable"
+                note_budget -= 1
+        # Everything else in this batch → background
+        for iid in batch_ids:
+            if iid not in id_to_label:
+                id_to_label[iid] = "background"
+
+        if batch_i + 1 < MAX_BATCHES_PER_CONFLICT and end < len(untagged):
+            time.sleep(0.3)  # gentle between batches
+
+    if not id_to_label and err_msg:
+        return {}, (0, 0, 0, err_msg)
+
+    total_crit = sum(1 for v in id_to_label.values() if v == "critical")
+    total_note = sum(1 for v in id_to_label.values() if v == "notable")
+    total_bg = sum(1 for v in id_to_label.values() if v == "background")
+    status = f"ok ({batch_count} batch{'es' if batch_count != 1 else ''})"
+    return id_to_label, (total_crit, total_note, total_bg, status)
 
 
 def main():

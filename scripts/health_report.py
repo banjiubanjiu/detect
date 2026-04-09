@@ -137,8 +137,12 @@ def analyze_llm_coverage(items):
 
 
 def scan_orphans(items):
-    """Check local_file fields point to existing files under data/."""
+    """Check local_file fields point to existing files under data/.
+
+    Also collects the set of orphan ids so --fix can clear them from latest.json.
+    """
     orphans = []
+    orphan_ids = set()
     checked = 0
     for it in items.values():
         lf = it.get('local_file')
@@ -153,12 +157,30 @@ def scan_orphans(items):
                 'source_label': it.get('source_label'),
                 'local_file': lf,
             })
+            orphan_ids.add(it.get('id'))
     return {
         'checked': checked,
         'orphan_count': len(orphans),
         'orphan_rate': round(len(orphans) / checked, 4) if checked else 0.0,
         'samples': orphans[:5],  # first 5 for display
+        '_orphan_ids': orphan_ids,  # internal, stripped before write
     }
+
+
+def fix_orphans_in_latest(latest, orphan_ids):
+    """T4 自动修复: 把 orphan item 的 local_file 字段从 latest.json 清除。
+    同一 id 可能在多个 category 副本出现, 全部清理。幂等。
+    返回清除的副本数 (每个 id 可能 >1)。"""
+    if not orphan_ids:
+        return 0
+    cleared = 0
+    for c in latest.get('conflicts', {}).values():
+        for cat in c.get('categories', {}).values():
+            for it in cat.get('items', []):
+                if it.get('id') in orphan_ids and 'local_file' in it:
+                    it.pop('local_file', None)
+                    cleared += 1
+    return cleared
 
 
 def detect_issues(report, latest):
@@ -264,6 +286,15 @@ def build_report(latest):
     return report
 
 
+def sanitize_report(report):
+    """Strip internal-only keys (prefixed with _) before JSON serialization."""
+    orphans = report.get('orphans', {})
+    if '_orphan_ids' in orphans:
+        orphans = {k: v for k, v in orphans.items() if not k.startswith('_')}
+        report['orphans'] = orphans
+    return report
+
+
 def print_summary(report):
     status = report['status']
     icon = {'ok': '✓', 'degraded': '⚠', 'critical': '✗'}[status]
@@ -302,11 +333,27 @@ def main():
         print(f"ERROR: {LATEST_JSON} not found", file=sys.stderr)
         sys.exit(1)
 
+    fix_mode = '--fix' in sys.argv
+
     with open(LATEST_JSON, encoding='utf-8') as f:
         latest = json.load(f)
 
     report = build_report(latest)
+
+    # T4 自动修复: 发现 orphan 就清掉 latest.json 的 local_file 字段, 再重跑一次扫描
+    if fix_mode:
+        orphan_ids = report['orphans'].get('_orphan_ids', set())
+        if orphan_ids:
+            cleared = fix_orphans_in_latest(latest, orphan_ids)
+            print(f"\n[--fix] 清除 {len(orphan_ids)} 个 id 的 local_file 字段 ({cleared} 个 item 副本)")
+            with open(LATEST_JSON, 'w', encoding='utf-8') as f:
+                json.dump(latest, f, ensure_ascii=False, indent=2)
+            print(f"[--fix] 回写 {LATEST_JSON.relative_to(PROJECT_ROOT)}")
+            # Rebuild report so orphan_count 归零, issues 状态刷新
+            report = build_report(latest)
+
     print_summary(report)
+    report = sanitize_report(report)
 
     # Write current
     with open(HEALTH_JSON, 'w', encoding='utf-8') as f:

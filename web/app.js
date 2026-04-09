@@ -134,6 +134,103 @@ function closeHealthModal() {
   document.getElementById('healthModal').style.display = 'none';
 }
 
+/* ═══ I&W Warnings (#3 早期预警) ═══ */
+let WARNINGS = null;
+async function loadWarnings() {
+  try {
+    const r = await fetch(SRC + 'indicators.json');
+    if (r.ok) {
+      WARNINGS = await r.json();
+      renderWarningsBadge();
+    }
+  } catch {}
+}
+
+function renderWarningsBadge() {
+  const el = document.getElementById('warningsBadge');
+  if (!el || !WARNINGS) return;
+  const n = WARNINGS.total_warnings || 0;
+  if (n === 0) {
+    el.textContent = '⚠ 0';
+    el.className = 'warnings-badge warnings-quiet';
+    el.title = '全球冲突无异常';
+  } else {
+    el.textContent = `⚠ ${n}`;
+    el.className = 'warnings-badge';
+    el.title = `${n} 项预警 · ${WARNINGS.flagged_conflicts} 个冲突异常（点击查看）`;
+  }
+  el.style.display = '';
+}
+
+function showWarningsModal() {
+  if (!WARNINGS) return;
+  const body = document.getElementById('warningsModalBody');
+
+  const flagIcon = {
+    elevated: '↑', depressed: '↓',
+    rising: '↑', falling: '↓',
+    normal: '·', insufficient: '?'
+  };
+  const flagLabel = {
+    elevated: 'elevated', depressed: 'depressed',
+    rising: 'rising',   falling: 'falling',
+    normal: 'normal',   insufficient: 'n/a'
+  };
+
+  const renderMetric = (key, m) => {
+    const flag = m.flag || 'normal';
+    const icon = flagIcon[flag] || '·';
+    const deltaCls = (flag === 'elevated' || flag === 'rising') ? 'up'
+                   : (flag === 'depressed' || flag === 'falling') ? 'down' : '';
+    let deltaTxt = '';
+    if (key === 'escalation_trend') {
+      if (m.delta != null) deltaTxt = ` ${m.delta > 0 ? '+' : ''}${m.delta}`;
+    } else if (m.delta_pct != null) {
+      deltaTxt = ` ${m.delta_pct > 0 ? '+' : ''}${m.delta_pct}%`;
+    }
+    const baseTxt = (key === 'escalation_trend')
+      ? (m.yesterday != null ? `昨日 ${m.yesterday}` : 'n/a')
+      : (m.baseline != null ? `7日均 ${m.baseline}` : 'n/a');
+    const todayTxt = m.today != null ? m.today : '–';
+    return `<div class="iw-metric iw-${flag}">
+      <div class="iw-metric-label">${icon} ${esc(m.label || key)}</div>
+      <div class="iw-metric-value">${todayTxt}<span class="iw-metric-delta ${deltaCls}">${deltaTxt}</span></div>
+      <div class="iw-metric-base">${baseTxt}</div>
+    </div>`;
+  };
+
+  // Sort conflicts: warned first (by warning count desc), then quiet
+  const entries = Object.entries(WARNINGS.conflicts || {});
+  entries.sort((a, b) => (b[1].warnings.length || 0) - (a[1].warnings.length || 0));
+
+  const conflictsHtml = entries.map(([cid, c]) => {
+    const warnCount = c.warnings.length || 0;
+    const tagCls = warnCount > 0 ? 'iw-conflict-tag has-warn' : 'iw-conflict-tag';
+    const tagTxt = warnCount > 0 ? `${warnCount} 预警` : '正常';
+    const metricsHtml = ['event_frequency', 'critical_count', 'escalation_trend']
+      .map(k => renderMetric(k, c.metrics[k])).join('');
+    return `<div class="iw-conflict">
+      <div class="iw-conflict-head">
+        <span class="iw-conflict-name">${esc(c.name)}</span>
+        <span class="${tagCls}">${tagTxt}</span>
+      </div>
+      <div class="iw-metrics">${metricsHtml}</div>
+    </div>`;
+  }).join('');
+
+  const subtitle = `基准日 ${WARNINGS.reference_date} · 总计 ${WARNINGS.total_warnings} 预警 · ${WARNINGS.flagged_conflicts}/${entries.length} 冲突异常`;
+
+  body.innerHTML = `
+    <div class="iw-subtitle">${subtitle}</div>
+    ${entries.length === 0 ? '<div class="iw-quiet-msg">无数据</div>' : conflictsHtml}
+  `;
+  document.getElementById('warningsModal').style.display = 'flex';
+}
+
+function closeWarningsModal() {
+  document.getElementById('warningsModal').style.display = 'none';
+}
+
 function getDomain(item) {
   if (item.url) {
     const m = item.url.match(/https?:\/\/(?:www\.)?([^/]+)/);
@@ -334,7 +431,7 @@ let detailMap = null;
 
 async function boot() {
   initTheme();
-  const [r] = await Promise.all([fetch(DATA), loadCredDB(), loadHealth()]);
+  const [r] = await Promise.all([fetch(DATA), loadCredDB(), loadHealth(), loadWarnings()]);
   D = await r.json();
   mastDate();
   renderRegionNav();
@@ -422,7 +519,7 @@ async function loadAvatarBriefing() {
 
     // 播放/暂停
     let unmuted = false;
-    playBtn.addEventListener('click', () => {
+    const togglePlay = () => {
       if (!unmuted) {
         video.muted = false;
         video.currentTime = 0;
@@ -430,14 +527,16 @@ async function loadAvatarBriefing() {
       }
       if (video.paused) {
         video.play().catch(() => {});
-        playBtn.textContent = '▌▌';
+        playBtn.textContent = '⏸';
         playBtn.classList.add('aaf-playing');
       } else {
         video.pause();
         playBtn.textContent = '▶';
         playBtn.classList.remove('aaf-playing');
       }
-    });
+    };
+    playBtn.addEventListener('click', (e) => { e.stopPropagation(); togglePlay(); });
+    video.addEventListener('click', togglePlay);
     video.addEventListener('ended', () => {
       playBtn.textContent = '▶';
       playBtn.classList.remove('aaf-playing');
@@ -840,31 +939,78 @@ function renderHotReports() {
   const el = document.getElementById('hotList');
   if (!el) return;
 
-  const scored = [];
+  // 热门榜 = 社交互动池 + 多源印证池, 分别排序后合并, 避免互动量压倒情报学信号
+  // 前 7 槽给社交互动 top (传统 "hot")
+  // 后 3 槽给多源印证簇 top, 按 size*(bias+1) 排序, 同 cluster 去重
+  const engagementPool = [];
+  const clusterPool = [];
+  const seenCluster = new Set();
+  const seenId = new Set();
   for (const [k, c] of Object.entries(D.conflicts)) {
     for (const cat of Object.values(c.categories)) {
       for (const it of cat.items) {
+        if (seenId.has(it.id)) continue;
+        seenId.add(it.id);
         const m = it.metrics || {};
-        const s = (m.likes||0) + (m.retweets||0)*2 + (m.score||0) + (m.comments||0);
-        if (s > 0) scored.push({ ...it, _score: s, _conflict: k, _cname: c.name });
+        const engagement = (m.likes||0) + (m.retweets||0)*2 + (m.score||0) + (m.comments||0);
+        const size = it.cluster_size || 0;
+        if (engagement > 0) {
+          engagementPool.push({ ...it, _score: engagement, _conflict: k, _cname: c.name });
+        }
+        if (size >= 2 && it.cluster_id && !seenCluster.has(it.cluster_id)) {
+          seenCluster.add(it.cluster_id);
+          const clusterScore = size * ((it.cluster_bias_count || 0) + 1);
+          clusterPool.push({ ...it, _score: clusterScore * 100, _conflict: k, _cname: c.name });
+        }
       }
     }
   }
-  scored.sort((a, b) => b._score - a._score);
-  const top = scored.slice(0, 10);
+  engagementPool.sort((a, b) => b._score - a._score);
+  clusterPool.sort((a, b) => b._score - a._score);
+
+  const top = [];
+  const taken = new Set();
+  for (const it of engagementPool.slice(0, 7)) {
+    top.push(it);
+    taken.add(it.id);
+  }
+  for (const it of clusterPool) {
+    if (top.length >= 10) break;
+    if (taken.has(it.id)) continue;
+    top.push(it);
+    taken.add(it.id);
+  }
+  // 兜底: 如果 cluster pool 不够 3 条, 用 engagement 的 8-10 名填满
+  for (const it of engagementPool.slice(7)) {
+    if (top.length >= 10) break;
+    if (taken.has(it.id)) continue;
+    top.push(it);
+    taken.add(it.id);
+  }
 
   const srcIcon = { x:'𝕏', reddit:'⬡', youtube:'▶', web:'◉' };
 
-  el.innerHTML = top.map((it, i) => `
+  el.innerHTML = top.map((it, i) => {
+    const size = it.cluster_size || 0;
+    const bias = it.cluster_bias_count || 0;
+    let badges = '';
+    if (size >= 2) {
+      badges += `<span class="hot-cluster" title="这条事件被 ${size} 个独立源印证">${size}源</span>`;
+    }
+    if (bias >= 2) {
+      badges += `<span class="hot-crossbias" title="跨 ${bias} 种媒体偏见印证,高可信度">跨${bias}偏见</span>`;
+    }
+    return `
     <div class="hot-item" data-k="${it._conflict}" data-id="${it.id}">
       <span class="hot-rank ${i < 3 ? 'top3' : ''}">${i + 1}</span>
       <div class="hot-body">
         <div class="hot-title">${esc(it.title)}</div>
-        <div class="hot-meta">${srcIcon[it.source]||'◉'} ${it._cname} · ${it.date || ''}</div>
+        <div class="hot-meta">${srcIcon[it.source]||'◉'} ${it._cname} · ${it.date || ''}${badges}</div>
       </div>
       <span class="hot-score">${formatScore(it._score)}</span>
     </div>
-  `).join('');
+  `;
+  }).join('');
 
   el.querySelectorAll('.hot-item').forEach(item => {
     item.onclick = () => {
@@ -1621,14 +1767,26 @@ function renderRiver(c) {
     }
     return db - da;
   });
-  el.innerHTML = sorted.map((it, i) => {
+
+  // BLUF 分层: effectiveWeight >= 2 默认可见, < 2 折叠在 "展开背景动态"
+  // above 包括 critical (w=4)、notable (w=2)、background+crossbias (w=4)、background+4源 (w=3)
+  // below 是弱 background (无 cluster 或 2-3 源小簇)
+  const above = [];
+  const below = [];
+  for (const it of sorted) {
+    if (effectiveWeight(it) >= 2) above.push(it);
+    else below.push(it);
+  }
+
+  const renderStory = (it, i, isLead) => {
     const d = new Date(it.date);
     const day = isNaN(d) ? '--' : d.getDate();
     const mon = isNaN(d) ? '---' : MO[d.getMonth()];
     const rel = relTime(it.date);
+    const cls = `crit-${it.criticality||'background'}`;
 
-    if (i === 0) {
-      return `<div class="story lead crit-${it.criticality||'background'}" style="--d:0ms" data-id="${it.id}">
+    if (isLead) {
+      return `<div class="story lead ${cls}" style="--d:0ms" data-id="${it.id}">
         <div class="s-body">
           <div class="s-hl">${critBadge(it)}${esc(it.title)}</div>
           ${it.title_en ? `<div class="en-original">${esc(it.title_en)}</div>` : ''}
@@ -1643,7 +1801,7 @@ function renderRiver(c) {
       </div>`;
     }
 
-    return `<div class="story crit-${it.criticality||'background'}" style="--d:${i*35}ms" data-id="${it.id}">
+    return `<div class="story ${cls}" style="--d:${i*35}ms" data-id="${it.id}">
       <div class="s-date"><span class="s-day">${day}</span><span class="s-mon">${mon}</span></div>
       <div class="s-body">
         <div class="s-hl">${critBadge(it)}${esc(it.title)}</div>
@@ -1657,7 +1815,42 @@ function renderRiver(c) {
         <div class="s-dek">${esc(it.summary)}</div>
       </div>
     </div>`;
-  }).join('');
+  };
+
+  // 如果 above 为空 (该分类全是弱背景), 降级为不折叠, 避免空页
+  if (above.length === 0) {
+    el.innerHTML = sorted.map((it, i) => renderStory(it, i, i === 0)).join('');
+    return;
+  }
+
+  const aboveHtml = above.map((it, i) => renderStory(it, i, i === 0)).join('');
+  const belowCount = below.length;
+  let html = aboveHtml;
+  if (belowCount > 0) {
+    const belowHtml = below.map((it, i) => renderStory(it, i, false)).join('');
+    html += `
+      <div class="bluf-divider">
+        <button class="bluf-toggle" type="button" data-bluf-toggle>
+          <span>展开背景动态</span>
+          <span class="bluf-toggle-count">${belowCount}</span>
+        </button>
+        <span class="bluf-divider-rule"></span>
+        <span class="bluf-divider-label">BLUF · below the fold</span>
+      </div>
+      <div class="bluf-below" id="blufBelow">${belowHtml}</div>
+    `;
+  }
+  el.innerHTML = html;
+
+  // 折叠/展开交互
+  const toggleBtn = el.querySelector('[data-bluf-toggle]');
+  const belowEl = el.querySelector('#blufBelow');
+  if (toggleBtn && belowEl) {
+    toggleBtn.addEventListener('click', () => {
+      const open = belowEl.classList.toggle('bluf-open');
+      toggleBtn.querySelector('span:first-child').textContent = open ? '收起背景动态' : '展开背景动态';
+    });
+  }
 }
 
 /* ═══ Reader (full-page article view) ═══ */

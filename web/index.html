@@ -35,6 +35,7 @@
         <a class="analytics-link" href="analytics.html" title="深度分析工作台"><span class="al-dot"></span>ANALYSIS</a>
         <a class="analytics-link" href="javascript:void(0)" onclick="window.openAskDrawer && window.openAskDrawer()" title="情报问答 · ⌘K 召唤"><span class="al-dot"></span>ASK</a>
         <span class="health-badge" id="healthBadge" title="管道健康" onclick="showHealthModal()" style="display:none"></span>
+        <span class="warnings-badge" id="warningsBadge" title="冲突预警" onclick="showWarningsModal()" style="display:none"></span>
         <a class="rss-link" href="feed.xml" title="RSS 订阅" target="_blank">RSS</a>
         <span class="theme-toggle" id="themeToggle" title="切换暗色模式">DARK</span>
         <span class="lang-toggle" id="langToggle" onclick="toggleLang()">EN/中</span>
@@ -186,6 +187,17 @@
         <button class="health-modal-close" onclick="closeHealthModal()">×</button>
       </div>
       <div class="health-modal-body" id="healthModalBody"></div>
+    </div>
+  </div>
+
+  <!-- Warnings modal — populated by app.js when warningsBadge clicked -->
+  <div class="health-modal-overlay" id="warningsModal" style="display:none" onclick="if(event.target===this)closeWarningsModal()">
+    <div class="health-modal">
+      <div class="health-modal-head">
+        <h2>冲突预警 · I&amp;W</h2>
+        <button class="health-modal-close" onclick="closeWarningsModal()">×</button>
+      </div>
+      <div class="health-modal-body" id="warningsModalBody"></div>
     </div>
   </div>
 

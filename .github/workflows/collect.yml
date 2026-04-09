@@ -46,8 +46,17 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: python scripts/briefing.py
 
+      - name: Multi-source corroboration clustering
+        run: python scripts/cluster_corroboration.py
+
       - name: Snapshot to archive (time-series)
         run: python scripts/snapshot.py
+
+      - name: I&W indicators (event frequency / critical / escalation anomalies)
+        run: python scripts/indicators.py
+
+      - name: Pipeline health report (+ orphan auto-fix)
+        run: python scripts/health_report.py --fix
 
       - name: Commit & push
         run: |
