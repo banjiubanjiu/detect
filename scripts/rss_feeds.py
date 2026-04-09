@@ -97,89 +97,11 @@ RSS_SOURCES = [
     {"url": "https://www.defensenews.com/arc/outboundfeeds/rss/", "name": "Defense News", "tier": "t2"},
 ]
 
-# ─── 冲突关键词匹配 ───
-# Note: 英文关键词用词边界 regex 匹配 (\b...s?\b)，所以必须显式列出形容词/国籍形式
-# (ukrainian/russian/iranian 等) — 裸 "iran" 不会匹配 "iranian"，因为 i 后面是 word char。
-# 中文关键词用子字符串匹配 (中文没有词边界概念)。
-CONFLICT_KEYWORDS = {
-    "russia-ukraine": [
-        "ukraine", "ukrainian", "russia", "russian", "kyiv", "kremlin",
-        "donbas", "crimea", "zelensky", "putin", "kharkiv", "zaporizhzhia",
-        "drone strike russia",
-        "乌克兰", "俄罗斯", "俄乌",
-    ],
-    "israel-palestine": [
-        "israel", "israeli", "palestine", "palestinian", "gaza", "hamas",
-        "netanyahu", "idf", "west bank", "hezbollah", "ceasefire gaza", "hostage",
-        "以色列", "巴勒斯坦", "加沙", "哈马斯",
-    ],
-    "us-iran": [
-        "iran", "iranian", "tehran", "irgc", "us iran", "persian gulf",
-        "hormuz", "strait of hormuz", "nuclear iran", "sanctions iran",
-        "伊朗", "美伊",
-    ],
-    "sudan": [
-        "sudan", "sudanese", "khartoum", "rsf", "rapid support", "darfur",
-        "苏丹",
-    ],
-    "myanmar": [
-        "myanmar", "burma", "burmese", "junta", "rohingya", "nug myanmar",
-        "tatmadaw",
-        "缅甸",
-    ],
-    "yemen-houthi": [
-        "yemen", "yemeni", "houthi", "red sea", "aden", "ansar allah",
-        "也门", "胡塞",
-    ],
-    "congo-drc": [
-        "congo", "congolese", "drc", "m23", "goma", "kivu", "monusco",
-        "刚果",
-    ],
-    "syria": [
-        "syria", "syrian", "damascus", "kurdish sdf", "isis syria", "idlib",
-        "aleppo",
-        "叙利亚",
-    ],
-    "taiwan-strait": [
-        "taiwan", "taiwanese", "taipei", "china taiwan", "pla",
-        "south china sea", "taiwan strait", "beijing", "xi jinping",
-        "台湾", "台海",
-    ],
-}
-
-
-def _has_chinese(s):
-    """Check if string contains any CJK character."""
-    return any('\u4e00' <= c <= '\u9fff' for c in s)
-
-
-def match_conflict(title, summary=""):
-    """Match text to conflict(s) by keywords. Returns list of conflict IDs.
-
-    Matching rules:
-    - English keywords: word-boundary regex \b...s?\b to avoid substring
-      false positives (e.g., "pla" in "places", "frontline" in "frontlines")
-      with optional plural suffix support.
-    - Chinese keywords: substring match (no word boundaries in CJK).
-    """
-    text = f"{title} {summary}".lower()
-    matches = []
-    for cid, keywords in CONFLICT_KEYWORDS.items():
-        for kw in keywords:
-            kw_lower = kw.lower()
-            if _has_chinese(kw_lower):
-                hit = kw_lower in text
-            else:
-                hit = bool(re.search(r'\b' + re.escape(kw_lower) + r's?\b', text))
-            if hit:
-                matches.append(cid)
-                break
-    return matches
-
-
-
 # ─── LLM 分类 + 翻译（一次调用完成 5 件事）───
-# 替代 match_conflict (关键词) + guess_category (关键词) + translate_text × 2
+# T7 cleanup (2026-04-09): removed dead code — CONFLICT_KEYWORDS, _has_chinese,
+# match_conflict, guess_category. These were the old keyword-based pipeline,
+# fully replaced by LLM analyze_and_translate since commit 35f78bd.
+# See git history for rollback reference.
 # 设计：strict JSON output, 3 次重试，失败则返回 None (调用者跳过该条)
 # 无 fallback 到关键词匹配 — 要么正确入库，要么不入库
 # See also: scripts/tag_criticality.py for GDELT-style post-hoc tagging
@@ -439,62 +361,10 @@ def fetch_full_articles(items):
     print(f"{fetched} 成功")
 
 
-def translate_rss_items(items):
-    """Translate RSS item titles and summaries to Chinese.
 
-    去重策略: 同一 URL 在多个冲突分类中的副本只翻译一次，然后将结果传播到所有副本。
-    """
-    try:
-        collect = _import_collect()
-        translate_fn = collect.translate_text
-    except Exception:
-        print("  [翻译] 无法导入翻译模块，跳过")
-        return
-
-    # 按 URL 去重: 每个唯一 URL 只翻译一次
-    unique = {}  # url -> item (representative)
-    for cid, cat, it in items:
-        if not it.get("title") or re.search(r'[\u4e00-\u9fff]', it["title"]):
-            continue
-        url = it.get("url") or it.get("title")  # 兜底用标题做 key
-        if url not in unique:
-            unique[url] = it
-
-    if not unique:
-        return
-
-    print(f"  [翻译] 翻译 {len(unique)} 条标题+摘要 (去重后)...", end=" ", flush=True)
-
-    def do_translate(it):
-        try:
-            translated = translate_fn(it["title"], max_chars=200)
-            if translated and translated != it["title"]:
-                it["title_en"] = it["title"]
-                it["title"] = translated
-            summary = it.get("summary", "")
-            if summary and not re.search(r'[\u4e00-\u9fff]', summary):
-                translated_s = translate_fn(summary, max_chars=500)
-                if translated_s and translated_s != summary:
-                    it["summary_en"] = summary
-                    it["summary"] = translated_s
-        except Exception:
-            pass
-        return it
-
-    with ThreadPoolExecutor(max_workers=5) as pool:
-        list(pool.map(do_translate, unique.values()))
-
-    # 传播翻译结果到同 URL 的其他副本
-    for cid, cat, it in items:
-        url = it.get("url") or it.get("title")
-        if url in unique and unique[url] is not it:
-            src = unique[url]
-            for k in ("title", "title_en", "summary", "summary_en"):
-                if k in src:
-                    it[k] = src[k]
-
-    done = sum(1 for it in unique.values() if it.get("title_en"))
-    print(f"{done} 完成")
+# T8 cleanup (2026-04-09): removed translate_rss_items — translation is now
+# handled by analyze_and_translate (one LLM call does classify + translate).
+# See git history for rollback reference.
 
 
 def translate_full_articles(items):
@@ -542,7 +412,7 @@ def translate_full_articles(items):
 def fetch_rss():
     """Fetch all RSS sources → LLM 分类 + 翻译 → return new items.
 
-    新流程 (取代 match_conflict 关键词 + guess_category 关键词 + translate_text × 2):
+    新流程 (LLM 一次调用完成分类 + 翻译,取代旧关键词匹配 + translate_text):
       1. 扫所有 RSS 源，按 ID/URL 去重后收集 candidate 英文条目
       2. 并行调 analyze_and_translate (LLM): 一次调用同时做翻译 + 分类 + 分级
       3. LLM 返回 conflicts=[] 的 → 丢弃 (LLM 判定与任何追踪冲突无关)
@@ -685,31 +555,6 @@ def fetch_rss():
         fetch_full_articles(new_items)
 
     return new_items
-
-
-def guess_category(title, summary=""):
-    """Guess category from text content."""
-    text = f"{title} {summary}".lower()
-
-    diplomatic_kw = ["ceasefire", "negotiate", "diplomat", "sanction", "treaty",
-                      "peace talk", "un security", "foreign minister", "summit",
-                      "停火", "谈判", "外交", "制裁"]
-    humanitarian_kw = ["humanitarian", "refugee", "civilian", "aid", "displaced",
-                       "famine", "crisis", "unhcr", "red cross", "casualt",
-                       "人道", "难民", "平民", "援助"]
-    opinion_kw = ["analysis", "opinion", "commentary", "expert", "perspective",
-                  "assessment", "forecast", "outlook", "评论", "分析"]
-
-    for kw in diplomatic_kw:
-        if kw in text:
-            return "diplomatic"
-    for kw in humanitarian_kw:
-        if kw in text:
-            return "humanitarian"
-    for kw in opinion_kw:
-        if kw in text:
-            return "opinion"
-    return "military"
 
 
 def merge_rss_items(new_items):

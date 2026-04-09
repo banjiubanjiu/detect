@@ -90,6 +90,18 @@ jobs:
         continue-on-error: true
         run: python scripts/validate_latest.py --warn
 
+      # T10: repo 体积监控 — 超过 200MB 时 warning (当前 ~15MB)
+      - name: Report repo size
+        continue-on-error: true
+        run: |
+          echo "=== repo size ==="
+          du -sh data/ data/sources/ data/archive/ 2>/dev/null || true
+          TOTAL_KB=$(du -sk data/ 2>/dev/null | cut -f1)
+          echo "total data: ${TOTAL_KB}KB"
+          if [ "${TOTAL_KB:-0}" -gt 204800 ]; then
+            echo "::warning::data/ exceeds 200MB (${TOTAL_KB}KB) — consider pruning data/sources/"
+          fi
+
       - name: Commit & push
         run: |
           git config user.name "github-actions[bot]"

@@ -1826,11 +1826,10 @@ def collect():
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
-    # Archive
-    archive_date = datetime.now().strftime("%Y-%m-%d")
-    archive_path = ARCHIVE_DIR / archive_date
-    archive_path.mkdir(parents=True, exist_ok=True)
-    shutil.copy2(output_path, archive_path / "latest.json")
+    # Archive: handled by snapshot.py (CI pipeline), not here.
+    # Previously collect.py copied latest.json into archive/YYYY-MM-DD/,
+    # but CI runs rss_feeds.py + gdelt_feed.py (not collect.py), so this
+    # code was dead. Removed in T6 cleanup (2026-04-09).
 
     # Run summary
     new_count = len(all_items)
@@ -1841,7 +1840,6 @@ def collect():
     print(f"\n=== 采集完成 ===")
     print(f"  {summary_line}")
     print(f"  数据文件: {output_path}")
-    print(f"  存档: {archive_path}")
 
     # Phase 7: Generate RSS feed
     print("[RSS] 生成 feed.xml...")
