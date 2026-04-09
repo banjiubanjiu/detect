@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-09T02:32:27+00:00",
+  "generated_at": "2026-04-09T03:22:45+00:00",
   "reference_date": "2026-04-08",
   "conflicts": {
     "russia-ukraine": {
@@ -139,9 +139,9 @@
           ]
         },
         "escalation_trend": {
-          "today": 89,
-          "yesterday": 93,
-          "delta": -4,
+          "today": 93,
+          "yesterday": 90,
+          "delta": 3,
           "flag": "normal",
           "label": "升级指数"
         }
@@ -287,16 +287,15 @@
           ]
         },
         "escalation_trend": {
-          "today": 91,
-          "yesterday": 79,
-          "delta": 12,
-          "flag": "rising",
+          "today": 79,
+          "yesterday": 72,
+          "delta": 7,
+          "flag": "normal",
           "label": "升级指数"
         }
       },
       "warnings": [
-        "event_frequency",
-        "escalation_trend"
+        "event_frequency"
       ]
     },
     "us-iran": {
@@ -436,9 +435,9 @@
           ]
         },
         "escalation_trend": {
-          "today": 91,
-          "yesterday": 84,
-          "delta": 7,
+          "today": 84,
+          "yesterday": 82,
+          "delta": 2,
           "flag": "normal",
           "label": "升级指数"
         }
@@ -584,16 +583,14 @@
           ]
         },
         "escalation_trend": {
-          "today": 61,
-          "yesterday": 49,
-          "delta": 12,
-          "flag": "rising",
+          "today": 49,
+          "yesterday": 41,
+          "delta": 8,
+          "flag": "normal",
           "label": "升级指数"
         }
       },
-      "warnings": [
-        "escalation_trend"
-      ]
+      "warnings": []
     },
     "myanmar": {
       "name": "缅甸内战",
@@ -732,16 +729,15 @@
           ]
         },
         "escalation_trend": {
-          "today": 73,
-          "yesterday": 51,
-          "delta": 22,
-          "flag": "rising",
+          "today": 51,
+          "yesterday": 46,
+          "delta": 5,
+          "flag": "normal",
           "label": "升级指数"
         }
       },
       "warnings": [
-        "event_frequency",
-        "escalation_trend"
+        "event_frequency"
       ]
     },
     "yemen-houthi": {
@@ -881,16 +877,14 @@
           ]
         },
         "escalation_trend": {
-          "today": 44,
-          "yesterday": 33,
-          "delta": 11,
-          "flag": "rising",
+          "today": 33,
+          "yesterday": 30,
+          "delta": 3,
+          "flag": "normal",
           "label": "升级指数"
         }
       },
-      "warnings": [
-        "escalation_trend"
-      ]
+      "warnings": []
     },
     "congo-drc": {
       "name": "刚果(金)冲突",
@@ -1029,16 +1023,14 @@
           ]
         },
         "escalation_trend": {
-          "today": 26,
-          "yesterday": 47,
-          "delta": -21,
-          "flag": "falling",
+          "today": 47,
+          "yesterday": 44,
+          "delta": 3,
+          "flag": "normal",
           "label": "升级指数"
         }
       },
-      "warnings": [
-        "escalation_trend"
-      ]
+      "warnings": []
     },
     "syria": {
       "name": "叙利亚局势",
@@ -1177,9 +1169,9 @@
           ]
         },
         "escalation_trend": {
-          "today": 42,
-          "yesterday": 49,
-          "delta": -7,
+          "today": 49,
+          "yesterday": 43,
+          "delta": 6,
           "flag": "normal",
           "label": "升级指数"
         }
@@ -1323,20 +1315,21 @@
           ]
         },
         "escalation_trend": {
-          "today": 62,
-          "yesterday": 56,
-          "delta": 6,
-          "flag": "normal",
+          "today": 56,
+          "yesterday": 38,
+          "delta": 18,
+          "flag": "rising",
           "label": "升级指数"
         }
       },
       "warnings": [
-        "event_frequency"
+        "event_frequency",
+        "escalation_trend"
       ]
     }
   },
-  "total_warnings": 10,
-  "flagged_conflicts": 8,
+  "total_warnings": 6,
+  "flagged_conflicts": 5,
   "thresholds": {
     "elevated_ratio": 2.0,
     "depressed_ratio": 0.5,

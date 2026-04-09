@@ -187,7 +187,18 @@ def collect_untagged_items(conflict_data):
 
 
 def apply_tags(latest, id_to_label):
-    """Write criticality back to all item copies sharing the same ID."""
+    """Write criticality back to all item copies sharing the same ID.
+
+    Only writes items that are explicitly in id_to_label. Items NOT in
+    id_to_label are left untagged so the next run can retry them — this is
+    important for LLM-failure recovery: when a batch fails mid-conflict we
+    must NOT silently demote the tail to background, otherwise the filter in
+    collect_untagged_items will skip them forever.
+
+    The "default to background" policy is implemented upstream in tag_conflict
+    itself (skip path + in-batch background assignment), which is the correct
+    place to distinguish "intentionally skipped" from "LLM failed".
+    """
     updated = 0
     for c in latest.get("conflicts", {}).values():
         for cat in c.get("categories", {}).values():
@@ -198,10 +209,6 @@ def apply_tags(latest, id_to_label):
                     if it.get("criticality") != new_label:
                         it["criticality"] = new_label
                         updated += 1
-                elif "criticality" not in it:
-                    # Default any untagged item to background
-                    it["criticality"] = "background"
-                    updated += 1
     return updated
 
 
@@ -215,7 +222,11 @@ def tag_conflict(cid, conflict_data):
     """
     untagged = collect_untagged_items(conflict_data)
     if len(untagged) < MIN_BATCH_TO_TAG:
-        return {}, (0, 0, 0, f"only {len(untagged)} untagged, skip")
+        # Too few new items to send to LLM — tag them all as background.
+        # This is a deliberate skip (not a failure), so we DO set the label
+        # so they don't accumulate forever waiting to cross the threshold.
+        id_to_label = {it["id"]: "background" for it in untagged}
+        return id_to_label, (0, 0, len(untagged), f"only {len(untagged)} untagged, tagged bg")
 
     name = conflict_data.get("name", cid)
     id_to_label = {}

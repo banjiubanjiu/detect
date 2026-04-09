@@ -161,30 +161,36 @@ def build_metric(histo, label):
     }
 
 
-def load_recent_archive(days=2):
-    """Load up to `days` most recent archive files. Returns list (oldest→newest)."""
-    if not ARCHIVE_DIR.exists():
-        return []
-    files = sorted(ARCHIVE_DIR.glob("*.json"))
-    out = []
-    for f in files[-days:]:
-        try:
-            with open(f, encoding="utf-8") as fp:
-                out.append(json.load(fp))
-        except (json.JSONDecodeError, OSError):
-            continue
-    return out
+def load_archive_by_date(d):
+    """Load archive file matching the given date (YYYY-MM-DD.json).
 
-
-def build_escalation_metric(cid, archives):
-    """Compare today's escalation index (from most recent archive) to yesterday's.
-
-    Needs 2 archive files. With only 1, returns insufficient.
+    Returns parsed dict or None if missing/corrupt. We look up by exact date
+    rather than "the most recent 2 files" because escalation_trend must
+    align with reference_date: if event_frequency's "today" means yesterday
+    (to avoid partial-day artifact), escalation's "today" must also mean
+    yesterday — otherwise the metrics modal mixes two different days.
     """
-    if len(archives) < 2:
+    if not ARCHIVE_DIR.exists():
+        return None
+    f = ARCHIVE_DIR / f"{d.isoformat()}.json"
+    if not f.exists():
+        return None
+    try:
+        with open(f, encoding="utf-8") as fp:
+            return json.load(fp)
+    except (json.JSONDecodeError, OSError):
+        return None
+
+
+def build_escalation_metric(cid, today_snap, yday_snap):
+    """Compare reference-date escalation index to the day before.
+
+    Both snapshots should be date-aligned with the rest of the report
+    (today_snap = reference_date, yday_snap = reference_date - 1 day).
+    Missing or invalid snapshot → insufficient.
+    """
+    if today_snap is None or yday_snap is None:
         return {"today": None, "yesterday": None, "delta": None, "flag": "insufficient", "label": "升级指数"}
-    today_snap = archives[-1]
-    yday_snap = archives[-2]
     today_esc = today_snap.get("conflicts", {}).get(cid, {}).get("escalation", {}).get("index")
     yday_esc = yday_snap.get("conflicts", {}).get(cid, {}).get("escalation", {}).get("index")
     if today_esc is None or yday_esc is None:
@@ -206,7 +212,7 @@ def build_escalation_metric(cid, archives):
     }
 
 
-def build_conflict_indicators(cid, conflict, today, archives):
+def build_conflict_indicators(cid, conflict, today, today_snap, yday_snap):
     items = dedupe_items(conflict)
     event_histo = compute_daily_histogram(items, today)
     crit_histo = compute_daily_critical(items, today)
@@ -214,7 +220,7 @@ def build_conflict_indicators(cid, conflict, today, archives):
     metrics = {
         "event_frequency": build_metric(event_histo, "事件频率"),
         "critical_count": build_metric(crit_histo, "关键事件"),
-        "escalation_trend": build_escalation_metric(cid, archives),
+        "escalation_trend": build_escalation_metric(cid, today_snap, yday_snap),
     }
 
     # Collect warning labels (anything not normal/insufficient)
@@ -251,11 +257,15 @@ def build_report(latest):
         ref_dt = datetime.now(timezone.utc)
     today = ref_dt.date() - timedelta(days=1)  # always yesterday
 
-    archives = load_recent_archive(days=2)
+    # Load archive snapshots aligned to reference date — NOT "most recent 2
+    # files on disk", which would be [real_today, real_yesterday] and break
+    # alignment with event_frequency/critical_count (both keyed on `today`).
+    today_snap = load_archive_by_date(today)
+    yday_snap = load_archive_by_date(today - timedelta(days=1))
 
     conflicts = {}
     for cid, c in latest.get("conflicts", {}).items():
-        conflicts[cid] = build_conflict_indicators(cid, c, today, archives)
+        conflicts[cid] = build_conflict_indicators(cid, c, today, today_snap, yday_snap)
 
     total_warnings = sum(len(c["warnings"]) for c in conflicts.values())
     flagged_conflicts = sum(1 for c in conflicts.values() if c["warnings"])
