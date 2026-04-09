@@ -66,6 +66,15 @@ jobs:
       - name: Snapshot to archive (time-series)
         run: python scripts/snapshot.py
 
+      # Telegram 日报推送 — 读 indicators.json + latest.json, 按 reference_date
+      # dedup (每天一次), quiet day 自动跳过. 缺 secret 时 graceful skip.
+      - name: Notify Telegram daily digest
+        continue-on-error: true
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scripts/notify.py
+
       - name: Commit & push
         run: |
           git config user.name "github-actions[bot]"
