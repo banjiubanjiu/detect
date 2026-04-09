@@ -31,6 +31,8 @@ Thumbs.db
 
 # Data files
 # data/sources/ — 启用: .md/.zh.md 原文需要上传到 Pages 才能显示"查看原文"
-# data/archive/ — 启用: snapshot.py 写入摘要级 JSON (~15KB/天)，用于时序分析
+# data/archive/*.json — 启用: snapshot.py 写入摘要级 JSON (~15KB/天)，用于时序分析
+# data/archive/*/ — 忽略: collect.py 本地归档目录 (1.6MB/天 latest.json 完整拷贝)
+data/archive/*/
 data/qa_report.json
 data/run_log.txt
