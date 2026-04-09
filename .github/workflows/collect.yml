@@ -36,6 +36,12 @@ jobs:
       - name: Run GDELT feed
         run: python scripts/gdelt_feed.py 2
 
+      # cluster_corroboration 前移到 tag_criticality 之前, 让下游分析能
+      # 利用 cluster_size/bias_count 信号; 失败不阻塞主流程 (前端已 fallback)
+      - name: Multi-source corroboration clustering
+        continue-on-error: true
+        run: python scripts/cluster_corroboration.py
+
       - name: Tag criticality (BLUF)
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
@@ -46,17 +52,19 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: python scripts/briefing.py
 
-      - name: Multi-source corroboration clustering
-        run: python scripts/cluster_corroboration.py
-
-      - name: Snapshot to archive (time-series)
-        run: python scripts/snapshot.py
-
+      # 分析性步骤: 失败不应吃掉上游的 RSS/GDELT/briefing 数据
       - name: I&W indicators (event frequency / critical / escalation anomalies)
+        continue-on-error: true
         run: python scripts/indicators.py
 
       - name: Pipeline health report (+ orphan auto-fix)
+        continue-on-error: true
         run: python scripts/health_report.py --fix
+
+      # snapshot 放在最后: 归档经过 cluster + criticality + briefing + orphan-fix
+      # 的完整状态, 而不是中间态
+      - name: Snapshot to archive (time-series)
+        run: python scripts/snapshot.py
 
       - name: Commit & push
         run: |
