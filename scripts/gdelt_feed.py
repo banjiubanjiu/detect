@@ -208,6 +208,7 @@ def event_to_item(row, conflict_id):
         "source_label": domain or "GDELT",
         "date": date,
         "url": url,
+        "primary_conflict": conflict_id,
         "metrics": {
             "mentions": mentions,
             "sources": num_sources,

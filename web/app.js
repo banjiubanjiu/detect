@@ -943,12 +943,6 @@ function renderHotReports() {
   // 热门榜 = 社交互动池 + 多源印证池, 分别排序后合并, 避免互动量压倒情报学信号
   // 前 7 槽给社交互动 top (传统 "hot")
   // 后 3 槽给多源印证簇 top, 按 size*(bias+1) 排序, 同 cluster 去重
-  //
-  // 跨冲突 item 归属策略 (review #11): 同一 item id 可能在多个 conflict 下
-  // (例如 "巴以-美伊"), 这里用 seenId 去重, 归属到 Object.entries 首次遇到
-  // 的那个 conflict — 即 latest.json 里冲突字典序靠前的那个. 点击跳转会去
-  // 首次归属的 conflict. 这是 deterministic 但 arbitrary 的选择, 真正的 UX
-  // 修复需要在 item 层记录所有归属 conflicts, 留给后续 UX 迭代.
   const engagementPool = [];
   const clusterPool = [];
   const seenCluster = new Set();
@@ -958,16 +952,21 @@ function renderHotReports() {
       for (const it of cat.items) {
         if (seenId.has(it.id)) continue;
         seenId.add(it.id);
+        // T11: 用 primary_conflict 做归属 (LLM 判定的最相关冲突).
+        // 新 item 都带 primary_conflict; 老 item 没有, fallback 到
+        // 遍历时首次遇到的 conflict key (= first-seen, deterministic).
+        const pk = it.primary_conflict && D.conflicts[it.primary_conflict] ? it.primary_conflict : k;
+        const pc = D.conflicts[pk];
         const m = it.metrics || {};
         const engagement = (m.likes||0) + (m.retweets||0)*2 + (m.score||0) + (m.comments||0);
         const size = it.cluster_size || 0;
         if (engagement > 0) {
-          engagementPool.push({ ...it, _score: engagement, _conflict: k, _cname: c.name });
+          engagementPool.push({ ...it, _score: engagement, _conflict: pk, _cname: pc.name });
         }
         if (size >= 2 && it.cluster_id && !seenCluster.has(it.cluster_id)) {
           seenCluster.add(it.cluster_id);
           const clusterScore = size * ((it.cluster_bias_count || 0) + 1);
-          clusterPool.push({ ...it, _score: clusterScore * 100, _conflict: k, _cname: c.name });
+          clusterPool.push({ ...it, _score: clusterScore * 100, _conflict: pk, _cname: pc.name });
         }
       }
     }

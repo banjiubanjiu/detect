@@ -36,6 +36,10 @@ DATA_DIR = PROJECT_ROOT / "data"
 
 VALID_SOURCES = {"rss", "reddit", "x", "youtube", "web", "gdelt"}
 VALID_CRITICALITY = {"critical", "notable", "background"}
+VALID_CONFLICT_IDS = {
+    "russia-ukraine", "israel-palestine", "us-iran", "sudan", "myanmar",
+    "yemen-houthi", "congo-drc", "syria", "taiwan-strait",
+}
 VALID_IW_FLAGS = {"elevated", "depressed", "rising", "falling", "normal", "insufficient"}
 VALID_HEALTH_STATUS = {"ok", "degraded", "critical"}
 VALID_ISSUE_SEVERITY = {"info", "warn", "critical"}
@@ -187,6 +191,11 @@ def validate_item(issues, path, it):
 
     if "criticality" in it:
         check_enum(issues, f"{path}.criticality", it["criticality"], VALID_CRITICALITY)
+
+    # T11: primary_conflict — LLM-determined most relevant conflict
+    if "primary_conflict" in it:
+        if check_str(issues, f"{path}.primary_conflict", it["primary_conflict"]):
+            check_enum(issues, f"{path}.primary_conflict", it["primary_conflict"], VALID_CONFLICT_IDS)
 
     # cluster fields (all optional, but typed when present)
     if "cluster_id" in it and it["cluster_id"] is not None:

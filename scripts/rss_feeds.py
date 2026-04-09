@@ -671,6 +671,9 @@ def fetch_rss():
             "url": cand["url"],
             "rss_source": cand["source_label"],
             # criticality intentionally omitted — set by tag_criticality.py downstream
+            # primary_conflict = first (most relevant) conflict returned by LLM.
+            # The prompt says "0-3 most relevant", so [0] is the primary.
+            "primary_conflict": result["conflicts"][0],
         }
         for cid in result["conflicts"]:
             new_items.append((cid, result["category"], item.copy()))
