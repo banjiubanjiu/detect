@@ -4,6 +4,24 @@
 
 ---
 
+[Security Council Report](https://www.securitycouncilreport.org/)
+Subscribe to receive our publications
+[](https://twitter.com/SCRtweets) Follow us on Twitter
+  * [Monthly  
+ForecastMonthly preview of issues in the Council](https://www.securitycouncilreport.org/monthly_forecast/2026-03)
+  * [Country and  
+Regional IssuesPublications on country-specific and regional issues in the Council](https://www.securitycouncilreport.org/country-regional-issues)
+  * [Thematic and  
+General IssuesCouncil thematic and structural issues and peace making, keeping and building](https://www.securitycouncilreport.org/thematic-general-issues)
+  * [About the UN  
+Security CouncilBackground information on the Council, its subsidiary bodies and activities](https://www.securitycouncilreport.org/about-the-un-security-council)
+  * [About SCR](https://www.securitycouncilreport.org/about-security-council-report) [What's In Blue](https://www.securitycouncilreport.org/whatsinblue) [Past Publications](https://www.securitycouncilreport.org/past-publications) [Press Release](https://www.securitycouncilreport.org/atf/cf/{65BFCF9B-6D27-4E9C-8CD3-CF6E4FF96FF9}/Shamala-Kandiah-Thompson-Executive-Director.pdf)
+  * [Home](https://www.securitycouncilreport.org) [Contact](https://www.securitycouncilreport.org/contact) [Resources](https://www.securitycouncilreport.org/resources) 
+
+Posted Wed 25 Mar 2026
+  * [Print](https://www.securitycouncilreport.org/whatsinblue/2026/03/democratic-republic-of-the-congo-briefing-and-consultations-20.php?print=true)
+  * 
+
 # Democratic Republic of the Congo: Briefing and Consultations
 Tomorrow morning (26 March), the Security Council will convene for an open briefing, followed by closed consultations, on the situation in [the Democratic Republic of the Congo (DRC)](https://www.securitycouncilreport.org/democratic-republic-of-the-congo/), including the work of the UN Organization Stabilization Mission in the Democratic Republic of the Congo (MONUSCO). On 5 March, the Secretary-General [appointed](https://www.un.org/sg/en/content/sg/personnel-appointments/2026-03-05/mr-james-swan-of-the-united-states-of-america-special-representative-for-the-united-nations-stabilization-mission-the-democratic-republic-of-the-congo-) James Swan of the US as his Special Representative in the DRC and Head of MONUSCO, replacing Bintou Keita, who completed her mandate on 30 November 2025 after serving in the position for four years. Deputy Special Representative of the Secretary-General for Protection and Operations in MONUSCO Vivian van de Perre, the mission’s Officer-in-Charge, is expected to brief. US Senior Advisor for Arab and African Affairs Massad Boulos will chair the meeting. Rwanda is expected to participate in the meeting under rule 37 of the Council’s provisional rules of procedure.
 Ahead of the meeting, the Security Council may adopt a presidential statement on the situation in the DRC, which was proposed by France (the penholder on the file). At the time of writing, the draft text was under silence procedure until tomorrow morning.
@@ -15,3 +33,76 @@ During the same meeting, Council members apparently agreed to work on a product 
 At tomorrow’s meeting, Boulos may describe his work to promote the Washington process. He might highlight the meeting that he hosted on 17-18 March in Washington, D.C. to facilitate discussion between representatives of the DRC and Rwanda on the implementation of the Washington Accords. According to an 18 March [joint statement](https://www.state.gov/releases/office-of-the-spokesperson/2026/03/joint-statement-by-the-governments-of-the-united-states-of-america-the-democratic-republic-of-the-congo-and-the-republic-of-rwanda-on-advancing-the-washington-accords/), the two sides agreed to a series of coordinated steps to de-escalate tensions and advance progress on the ground, including the lifting of defensive measures by Rwanda in defined areas in DRC territory and time-bound and intensified efforts by the DRC to neutralise the  _Forces Démocratiques de Libération du Rwanda_ (FDLR), an ethnic Hutu armed group active in eastern DRC that was implicated in the 1994 genocide against the Tutsi in Rwanda.
 Another potential focus of tomorrow’s meeting is the operational challenges that MONUSCO continues to face in carrying out its mandated tasks. Van de Perre may describe the access and movement restrictions that the mission continues to encounter in M23-controlled areas of North Kivu, including the continued suspension of banking and airport operations in Goma. She may, however, note some recent improvements, including the release of all fuel trucks previously blocked from entering Goma and the restoration of water and electricity to MONUSCO facilities, as indicated in the Secretary-General’s report. She might also highlight the easing of restrictions on the rotation and repatriation of MONUSCO contingents, which was a major issue last year.
 Van de Perre may also elaborate on the implementation of contingency measures in response to the UN liquidity crisis. The Secretary-General’s report notes the repatriation of 1,550 military contingent personnel, 125 military experts, 180 formed police unit personnel, and 125 individual police officers, as well as the elimination of 694 civilian posts as part of broader downsizing measures. These reductions represent a 23.4 percent decrease in uniformed personnel, a 29 percent decrease in civilian staffing, and a 27 percent reduction in operational funding. Van de Perre may describe the impact of these measures, particularly in terms of heightened operational risks and the mission’s reduced capacity to implement its mandate.
+Tags: [Democratic Republic of the Congo](https://www.securitycouncilreport.org/whatsinblue/democratic-republic-of-the-congo), [Insights on Africa](https://www.securitycouncilreport.org/whatsinblue/insights-on-africa)
+
+  * [Print](https://www.securitycouncilreport.org/whatsinblue/2026/03/democratic-republic-of-the-congo-briefing-and-consultations-20.php?print=true)
+  * 
+
+  * 
+
+[![](https://www.securitycouncilreport.org/wp-content/themes/scr2018/_resources/img/global/wib-illo-1.png)](https://www.securitycouncilreport.org/whatsinblue/)
+  * [Insights by  
+Category](https://www.securitycouncilreport.org/whats-in-blue-country-theme)
+    * [Africa](https://www.securitycouncilreport.org/whatsinblue/insights-on-africa)
+    * [Americas](https://www.securitycouncilreport.org/whatsinblue/insights-on-americas)
+    * [Arms Control and Disarmament](https://www.securitycouncilreport.org/whatsinblue/insights-on-arms-control-and-disarmament)
+    * [Asia](https://www.securitycouncilreport.org/whatsinblue/insights-on-asia)
+    * [Children and Armed Conflict](https://www.securitycouncilreport.org/whatsinblue/insights-on-children-and-armed-conflict)
+    * [Counter-Terrorism](https://www.securitycouncilreport.org/whatsinblue/insights-on-counter-terrorism)
+    * [Europe](https://www.securitycouncilreport.org/whatsinblue/insights-on-europe)
+    * [Justice and Criminal Accountability](https://www.securitycouncilreport.org/whatsinblue/insights-on-justice-and-criminal-accountability)
+    * [Middle East](https://www.securitycouncilreport.org/whatsinblue/insights-on-the-middle-east)
+    * [Peacebuilding](https://www.securitycouncilreport.org/whatsinblue/insights-on-peacebuilding)
+    * [Peacekeeping](https://www.securitycouncilreport.org/whatsinblue/insights-on-peacekeeping)
+    * [Peacemaking](https://www.securitycouncilreport.org/whatsinblue/insights-on-peacemaking)
+    * [Protection of Civilians](https://www.securitycouncilreport.org/whatsinblue/insights-on-protection-of-civilians)
+    * [UN Institutional Issues](https://www.securitycouncilreport.org/whatsinblue/insights-on-un-institutional-issues)
+    * [Women, Peace and Security](https://www.securitycouncilreport.org/whatsinblue/insights-on-women-peace-and-security)
+  * [Archives by  
+Date](https://www.securitycouncilreport.org/whats-in-blue-archive)
+    * [March 2026](https://www.securitycouncilreport.org/whatsinblue/2026/03)
+    * [February 2026](https://www.securitycouncilreport.org/whatsinblue/2026/02)
+    * [January 2026](https://www.securitycouncilreport.org/whatsinblue/2026/01)
+    * [December 2025](https://www.securitycouncilreport.org/whatsinblue/2025/12)
+    * [November 2025](https://www.securitycouncilreport.org/whatsinblue/2025/11)
+    * [October 2025](https://www.securitycouncilreport.org/whatsinblue/2025/10)
+    * [September 2025](https://www.securitycouncilreport.org/whatsinblue/2025/09)
+    * [August 2025](https://www.securitycouncilreport.org/whatsinblue/2025/08)
+    * [July 2025](https://www.securitycouncilreport.org/whatsinblue/2025/07)
+    * [June 2025](https://www.securitycouncilreport.org/whatsinblue/2025/06)
+    * [May 2025](https://www.securitycouncilreport.org/whatsinblue/2025/05)
+    * [April 2025](https://www.securitycouncilreport.org/whatsinblue/2025/04)
+    * [March 2025](https://www.securitycouncilreport.org/whatsinblue/2025/03)
+    * [February 2025](https://www.securitycouncilreport.org/whatsinblue/2025/02)
+    * [View All Months](https://www.securitycouncilreport.org/whats-in-blue-archive)
+
+####  About What's In Blue 
+When the Security Council approaches the final stage of negotiating a draft resolution, the text is printed in blue. [**What's In Blue**](https://www.securitycouncilreport.org/whatsinblue) is a series of insights on evolving Security Council actions designed to help interested UN readers keep up with what might soon be "in blue".
+  *     * [Monthly Forecast](https://www.securitycouncilreport.org/monthly_forecast/2026-03)
+    * [Country and Regional Issues](https://www.securitycouncilreport.org/country-regional-issues)
+    * [Thematic and General Issues](https://www.securitycouncilreport.org/thematic-general-issues)
+    * [UN Documents](https://www.securitycouncilreport.org/un-documents-all)
+    * [About the UN Security Council](https://www.securitycouncilreport.org/about-the-un-security-council)
+  *     * [Council Work Programme for Mar](https://www.securitycouncilreport.org/programme-of-work/2026/03/)
+    * [Subscribe to Security Council Report](https://www.securitycouncilreport.org/subscribe)
+  *     * [About Security Council Report](https://www.securitycouncilreport.org/about-security-council-report)
+    * [Past Publications](https://www.securitycouncilreport.org/past-publications)
+    * [Home](https://www.securitycouncilreport.org)
+    * [Contact](https://www.securitycouncilreport.org/contact)
+    * [Resources](https://www.securitycouncilreport.org/resources)
+  *     * [Legal](https://www.securitycouncilreport.org/legal)
+    * [Permissions](https://www.securitycouncilreport.org/permissions)
+    * [PDF Reader Download](http://get.adobe.com/reader/)
+    * [UN Documents PDFs](https://www.securitycouncilreport.org/un-documents-all-pdfs)
+    * [Sitemap](https://www.securitycouncilreport.org/scr-sitemap)
+  * ##### [SCR: Independent. Impartial. Informative](https://www.securitycouncilreport.org/donate?mtm_campaign=donate-landing&mtm_source=scr-web&mtm_medium=donate-home-button)
+**Security Council Report**  
+125 Park Ave, 25th floor  
+New York, NY 10017 
+Telephone 212-759-9429  
+Email [contact@securitycouncilreport.org](mailto:contact@securitycouncilreport.org)
+Design: [Point Five, NY](http://point5.com)  
+Web development: Michael Murphy 
+Follow us:   [![twitter](https://www.securitycouncilreport.org/wp-content/themes/scr2018/_resources/img/global/icon_twitter.gif)](https://twitter.com/SCRtweets)   [![rss](https://www.securitycouncilreport.org/wp-content/themes/scr2018/_resources/img/global/icon_rss.gif)](https://www.securitycouncilreport.org/index.xml)
+
+Copyright

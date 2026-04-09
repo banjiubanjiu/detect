@@ -20,7 +20,6 @@ of greed and famine and fear?"
 
 \#poetry for #Gaza 🇵🇸-🇮🇪  Ní saoirse go saoirse na bPalaistíne!  
 
-
 ## 热门评论
 
 > **u/AutoModerator** (1 pts)
@@ -45,4 +44,4 @@ of greed and famine and fear?"
 > 
 > 
 > *I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/Palestine) if you have any questions or concerns.*
-> 
+>

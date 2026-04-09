@@ -4,6 +4,63 @@
 
 ---
 
+[BBC Homepage](https://www.bbc.com)
+  * 
+  * [Accessibility Help](https://www.bbc.co.uk/accessibility/)
+
+  * [
+
+  * [Home](https://www.bbc.com)
+  * [News](https://www.bbc.com/news)
+  * [Sport](https://www.bbc.com/sport)
+  * [Business](https://www.bbc.com/business)
+  * [Technology](https://www.bbc.com/technology)
+  * [Health](https://www.bbc.com/health)
+  * [Culture](https://www.bbc.com/culture)
+  * [Arts](https://www.bbc.com/arts)
+  * [Travel](https://www.bbc.com/travel)
+  * [Earth](https://www.bbc.com/future-planet)
+  * [Audio](https://www.bbc.com/audio)
+  * [Video](https://www.bbc.com/video)
+  * [Live](https://www.bbc.com/live)
+
+More menu
+More menu
+[Search BBC](https://www.bbc.com/search?d=NEWS_GNL)
+  * [Home](https://www.bbc.com)
+  * [News](https://www.bbc.com/news)
+  * [Sport](https://www.bbc.com/sport)
+  * [Business](https://www.bbc.com/business)
+  * [Technology](https://www.bbc.com/technology)
+  * [Health](https://www.bbc.com/health)
+  * [Culture](https://www.bbc.com/culture)
+  * [Arts](https://www.bbc.com/arts)
+  * [Travel](https://www.bbc.com/travel)
+  * [Earth](https://www.bbc.com/future-planet)
+  * [Audio](https://www.bbc.com/audio)
+  * [Video](https://www.bbc.com/video)
+  * [Live](https://www.bbc.com/live)
+
+[BBC News](https://www.bbc.com/news)
+Menu
+  * [Home](https://www.bbc.com/news)
+  * [Climate](https://www.bbc.com/news/topics/cmj34zmwm1zt)
+  * [World](https://www.bbc.com/news/world)
+  * [US & Canada](https://www.bbc.com/news/world/us_and_canada)
+  * [UK](https://www.bbc.com/news/uk)
+  * [Business](https://www.bbc.com/news/business)
+  * [Tech](https://www.bbc.com/news/technology)
+  * [Science](https://www.bbc.com/news/science_and_environment)
+  * [Entertainment & Arts](https://www.bbc.com/news/entertainment_and_arts)
+  * [Health](https://www.bbc.com/news/health)
+
+More
+  * [In Pictures](https://www.bbc.com/news/in_pictures)
+  * [BBC Verify](https://www.bbc.com/news/bbcverify)
+  * [Newsbeat](https://www.bbc.com/news/newsbeat)
+
+Live. 34,104 viewing34104 viewing
+Live pageUpdated 25 minutes ago
 # Trump says US will 'leave' Iran within weeks as Tehran says it has 'necessary will' to end war 
 ![US President Donald J Trump gives remarks during an executive order signing event in the Oval Office of the White House in Washington, DC, USA, 31 March 2026.](https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/6cfc/live/485e83d0-2d85-11f1-b297-95b0a0a8331e.jpg)
 ## Summary
@@ -13,6 +70,24 @@
   * Meanwhile, China and Pakistan draw up a five-point plan to end the war, which includes an immediate ceasefire and the reopening of the Strait of Hormuz - [why is China getting involved?](https://www.bbc.co.uk/news/live/c36r5p1l7w3t?post=asset%3A1d4ff5be-6dd8-42de-b1a2-6ce451b850e2#post)
   * Strikes [between Israel and Iran](https://www.bbc.co.uk/news/live/c36r5p1l7w3t?post=asset%3Ad1d6ff76-ec53-489f-abc6-a5b4acf2040d#post) continue - and Iran is also [attacking its Gulf neighbours](https://www.bbc.co.uk/news/live/c36r5p1l7w3t?post=asset%3Ad2ea41b6-68c3-4325-982a-51f151a02c7e#post): a drone strike sparks a fire at Kuwait's international airport; a tanker is hit off the coast of Qatar; and Saudi Arabia and Bahrain also report attacks
   * Thousands of people have been killed in the war, the vast majority in Iran and Lebanon
+
+Scroll to previous itemScroll to next item, 3 of 16
+  * 0:32Trump: US to be done with Iran war in 'two weeks, maybe three' 00:00:32, play videoTrump: US to be done with Iran war in 'two weeks, maybe three'![Donald Trump expresses himself using his hands as he speaks to press while in the Oval Office.](https://ichef.bbci.co.uk/ace/standard/400/cpsprodpb/1d9e/live/ecf288a0-2d4f-11f1-934f-036468834728.jpg)
+  * 0:05Moment missile hits building in Beirut. 00:00:05, play videoMoment missile hits building in Beirut![A missile circled in red above a building in Beirut](https://ichef.bbci.co.uk/ace/standard/400/cpsprodpb/9968/live/35f3f5a0-2d20-11f1-934f-036468834728.jpg)
+  * 1:13BBC Verify looks into strikes in Isfahan. 00:01:13, play videoBBC Verify looks into strikes in Isfahan![Verify presenter looks into the camera at the BBC office](https://ichef.bbci.co.uk/ace/standard/400/cpsprodpb/d1cb/live/72b50cd0-2d44-11f1-b297-95b0a0a8331e.jpg)
+  * 0:40Cars engulfed in flames after Iranian missile debris hit central Israel. 00:00:40, play videoCars engulfed in flames after Iranian missile debris hit central Israel![Burning cars on a street](https://ichef.bbci.co.uk/ace/standard/400/cpsprodpb/56d7/live/00dd5b00-2d01-11f1-a79a-77e93010d956.jpg)
+  * 0:44Hegseth: ‘Big, bad Royal Navy’ should be prepared to step up. 00:00:44, play videoHegseth: ‘Big, bad Royal Navy’ should be prepared to step up![Pete Hegseth in a blue suit and purple patterned tie](https://ichef.bbci.co.uk/ace/standard/400/cpsprodpb/82bf/live/b897a840-2d01-11f1-a79a-77e93010d956.jpg)
+  * 0:31Footage shows large explosions in Iran's Isfahan. 00:00:31, play videoFootage shows large explosions in Iran's Isfahan![Explosions in Isfahan](https://ichef.bbci.co.uk/ace/standard/400/cpsprodpb/3ed9/live/dfcee8e0-2d0d-11f1-a79a-77e93010d956.jpg)
+  * 0:46What we know about the oil tanker hit off Dubai. 00:00:46, play videoWhat we know about the oil tanker hit off Dubai![A composite image of a damage tanker and Lorna Gordon](https://ichef.bbci.co.uk/ace/standard/400/cpsprodpb/a596/live/00877f60-2cec-11f1-b297-95b0a0a8331e.jpg)
+  * 0:08Iranian rocket attack targets military base near Baghdad airport. 00:00:08, play videoIranian rocket attack targets military base near Baghdad airport![An explosion in the distance, with a plane in the foreground. It is night time. ](https://ichef.bbci.co.uk/ace/standard/400/cpsprodpb/fe62/live/30f82cb0-2ccb-11f1-934f-036468834728.jpg)
+  * 1:11White House on Trump threat to bomb Iran's civilian infrastructure. 00:01:11, play videoWhite House on Trump threat to bomb Iran's civilian infrastructure![Karoline Leavitt stands behind a podium wearing a bright green jacket as she speaks to press. ](https://ichef.bbci.co.uk/ace/standard/400/cpsprodpb/22d2/live/6ea48c80-2c66-11f1-b297-95b0a0a8331e.jpg)
+  * 1:25The risks of sending US troops to Iran's Kharg Island. 00:01:25, play videoThe risks of sending US troops to Iran's Kharg Island![Inwood in the BBC newsroom speaking to the camera](https://ichef.bbci.co.uk/ace/standard/400/cpsprodpb/4162/live/194e0ed0-2c5e-11f1-934f-036468834728.jpg)
+  * 0:18Cars destroyed and craters in the street after strike on Tehran. 00:00:18, play videoCars destroyed and craters in the street after strike on Tehran![A damaged car being winched](https://ichef.bbci.co.uk/ace/standard/400/cpsprodpb/643d/live/82a11980-2c14-11f1-b297-95b0a0a8331e.jpg)
+  * 0:52Why Trump wants to take Iran's Kharg Island. 00:00:52, play videoWhy Trump wants to take Iran's Kharg Island![Mikey Kay and a map of Kharg Island](https://ichef.bbci.co.uk/ace/standard/400/cpsprodpb/9f98/live/c4ddbd20-2c2e-11f1-a79a-77e93010d956.jpg)
+  * 0:27Trump says 'we've had regime change' in Iran. 00:00:27, play videoTrump says 'we've had regime change' in Iran![Donald Trump mid-sentence while wearing a suit and pink tie](https://ichef.bbci.co.uk/ace/standard/400/cpsprodpb/d636/live/74acb1e0-2bf6-11f1-a79a-77e93010d956.jpg)
+  * 0:24Smoke billows over industrial site in southern Israel. 00:00:24, play videoSmoke billows over industrial site in southern Israel![Smoke billows above an industrial site in southern Israel](https://ichef.bbci.co.uk/ace/standard/400/cpsprodpb/7087/live/b987d4f0-2b9e-11f1-a79a-77e93010d956.jpg)
+  * 0:40Footage shows inside Tehran TV office damaged by strike. 00:00:40, play videoFootage shows inside Tehran TV office damaged by strike![Interior of building damaged by air strike](https://ichef.bbci.co.uk/ace/standard/400/cpsprodpb/64b3/live/36e43b40-2b6e-11f1-934f-036468834728.jpg)
+  * 0:51Might Houthis cause more Mideast shipping upheaval? 00:00:51, play videoMight Houthis cause more Mideast shipping upheaval?![James Waterhouse wearing a shirt and a jacket](https://ichef.bbci.co.uk/ace/standard/400/cpsprodpb/ad33/live/1f252350-2a94-11f1-a79a-77e93010d956.jpg)
 
 ## Live Reporting
 Edited by Angus Thompson, with reporting from BBC Persian and teams across the Middle East
@@ -24,7 +99,11 @@ published at 02:36
 A man has died after debris from an intercepted drone fell at a farm in Al Rifa, in the Emirate of Fujairah in the UEA, local authorities say.
 The man was a Bangladeshi national, the Fujairah Media Office says in a statement shared on social media.
 The UAE has intercepted 1977 drones and 433 ballistic missiles since the start of the war, the country's ministry of defence said yesterday.
-
+Share
+close panel
+Share page
+Copy link
+[About sharing](https://www.bbc.co.uk/usingthebbc/terms/can-i-share-things-from-the-bbc)
   2. ### Israel carries out new strikes over Tehran as Iran launches multiple missiles in returnpublished at 07:24 BST
 07:24 BST
 published at 02:24
@@ -35,7 +114,11 @@ Smoke rises over buildings in Tehran, where Israel carried out strikes overnight
 A little earlier, the Israel Defense Forces (IDF) said it had carried out a wide-scale wave of overnight strikes on Iran's capital, Tehran.
 The IDF says it has been targeting infrastructure site linked to the Iranian regime.
 In the last hour and a half, Tehran has responded with three separate missile launches on Israel.
-
+Share
+close panel
+Share page
+Copy link
+[About sharing](https://www.bbc.co.uk/usingthebbc/terms/can-i-share-things-from-the-bbc)
   3. ### One of two projectiles that hit tanker off Qatar 'remains unexploded in vessel's engine room'published at 07:07 BST
 07:07 BST
 published at 02:07
@@ -43,7 +126,11 @@ published at 02:07
 The UK Maritime Trade Operations (UKMTO) Centre has provided an update on the [tanker struck off the coast of Qatar](https://www.bbc.com/news/live/c36r5p1l7w3t?post=asset%3A70de383b-1af5-410a-8459-406e4ac27877#post) earlier.
 UKMTO says the vessel was struck by "two projectiles". One caused a fire which has now been extinguished while the other "remains unexploded within the vessel's engine room".
 The centre says it is currently unable to confirm the origin of the projectiles and an investigation is underway.
-
+Share
+close panel
+Share page
+Copy link
+[About sharing](https://www.bbc.co.uk/usingthebbc/terms/can-i-share-things-from-the-bbc)
   4. ### Three injured in latest Iranian strikes on Israelpublished at 06:48 BST
 06:48 BST
 published at 01:48
@@ -54,7 +141,11 @@ Strikes have been reported in Tel Aviv and surrounding areas
 Israel emergency services, Magen David Adom, says its teams have been deployed to multiple areas after reports of fresh Iranian missiles strikes.
 The Israel Defense Forces (IDF) said a little before 06:00 BST (08:00 local time) it had detected a new wave of projectiles fired from Iran.
 MDA says it has provided treatment to an 11-year-old girl in a "serious condition" and two others in Bnei Brak, east of Tel Aviv.
-
+Share
+close panel
+Share page
+Copy link
+[About sharing](https://www.bbc.co.uk/usingthebbc/terms/can-i-share-things-from-the-bbc)
   5. ### UK chancellor says energy bill support would be based on household incomepublished at 06:31 BST
 06:31 BST
 published at 01:31
@@ -68,7 +159,11 @@ Rachel Reeves said it was "too early" to say exactly who would get help but hint
 In a new interview with BBC Breakfast, she said: "I want to learn the lessons of the past because when Russia invaded Ukraine, the richest, the best-off third of households got more than a third of the support. That makes no sense at all."
 When asked if support could go beyond people who receive benefits, Reeves said: "We're looking at ways in which we can support people based on their household income."
 [Read the full story here](https://www.bbc.co.uk/news/articles/cgk0d76yg8po)
-
+Share
+close panel
+Share page
+Copy link
+[About sharing](https://www.bbc.co.uk/usingthebbc/terms/can-i-share-things-from-the-bbc)
   6. ### Keir Starmer to give update this morning on latest situation in Middle Eastpublished at 06:23 BST
 06:23 BST
 published at 01:23
@@ -78,7 +173,11 @@ We're expecting to hear from Prime Minister Keir Starmer later this morning. He'
 The ongoing war in Iran has fuelled concerns that energy bills may rise further and Starmer has previously pledged to "protect the British people at home and abroad".
 The update follows the announcement that extra British troops and UK defence systems will be deployed to the Middle East for defensive action against Iranian attacks.
 The prime minister said earlier this week that the UK is "not going to get dragged into this war" but would continue to defend its interests and allies in the region.
-
+Share
+close panel
+Share page
+Copy link
+[About sharing](https://www.bbc.co.uk/usingthebbc/terms/can-i-share-things-from-the-bbc)
   7. ### Where did we see strikes overnight?published at 05:56 BST
 05:56 BST
 published at 00:56
@@ -90,7 +189,11 @@ Israel says it attacked a factory which it says was involved in the production o
 The Gulf continues to be targeted too – fuel depots at Kuwait’s International Airport were hit by drones - causing a huge fire. 
 Saudi Arabia said it had intercepted two drones, Bahrain was also attacked and a tanker off the coast of Qatar was hit by a missile. 
 Gulf leaders aren’t saying much right now – their main focus is on defending their territory – but countries in the region have made it clear they want an end to the war and an end to the uncertainty that comes with this conflict.
-
+Share
+close panel
+Share page
+Copy link
+[About sharing](https://www.bbc.co.uk/usingthebbc/terms/can-i-share-things-from-the-bbc)
   8. ### 'The Strait of Hormuz will certainly reopen but not for you' - Iran MP to Trumppublished at 05:44 BST
 05:44 BST
 published at 00:44
@@ -102,7 +205,11 @@ Azizi has said the "47 years of hospitality are over forever", referring to the 
 Azizi added: "Trump has finally achieved his dream of 'regime change'—but in the region's maritime regime!"
 Iran's National Security Committee has approved a plan to toll vessels crossing through the Strait of Hormuz, the semi-official Fars News Agency reported on Monday.
 ![An annotated map of the Strait of Hormuz that shows shipping lanes and maritime borders.](https://ichef.bbci.co.uk/ace/standard/640/cpsprodpb/vivo/live/images/2026/4/1/d594d7cc-5c43-4969-aea6-f01294397d95.png.webp)
-
+Share
+close panel
+Share page
+Copy link
+[About sharing](https://www.bbc.co.uk/usingthebbc/terms/can-i-share-things-from-the-bbc)
   9. ### Israel aims to keep security control over a swathe of southern Lebanon after war endspublished at 05:10 BST
 05:10 BST
 published at 00:10
@@ -111,7 +218,11 @@ Israel's Minister of Defence has said a buffer zone will be set up inside southe
 Israel Katz said the area to be occupied would go up to the Litani River - about 30km from the border with Israel. The plan has drawn criticism from the UN, European nations and Canada - who called it "a violation of territorial sovereignty".
 Katz said more than 600,000 displaced Lebanese residents would be "completely prohibited" from returning to that area until the safety of residents of northern Israel was guaranteed. He added that all the houses in Lebanese villages near the Israeli border would be demolished, "according to the model of Rafah and Beit Hanoun in Gaza".
  _The BBC's Hugo Bachega in Beirut told the_[Global News Podcast, external](https://youtu.be/fS5Jd2od3dM?si=e6zjWl5YsDjKVsCX) _what that could mean for Lebanon._
-
+Share
+close panel
+Share page
+Copy link
+[About sharing](https://www.bbc.co.uk/usingthebbc/terms/can-i-share-things-from-the-bbc)
   10. ### Brent crude makes highest monthly gain since 1990 Gulf warpublished at 04:37 BST
 04:37 BST
 published at 23:37 31 March
@@ -128,7 +239,11 @@ Meanwhile, Asian stock markets jumped this morning after President Donald Trump 
 Japan's Nikkei 225 index gained by 4%, while the Kospi in South Korea rose by more than 6%.
 [Read more here.](https://www.bbc.com/news/articles/c2489v97842o)
 ![A driver refuels a vehicle with unleaded petrol at a gas station in New York](https://ichef.bbci.co.uk/ace/standard/640/cpsprodpb/vivo/live/images/2026/4/1/6d6aa8a3-6a7e-49a7-aed6-882feb330d8f.jpg.webp)Image source, Getty Images
-
+Share
+close panel
+Share page
+Copy link
+[About sharing](https://www.bbc.co.uk/usingthebbc/terms/can-i-share-things-from-the-bbc)
   11. ### Tanker hit by projectile off coast of Qatar, UK maritime agency sayspublished at 04:08 BST
 04:08 BST
 published at 23:08 31 March
@@ -138,7 +253,11 @@ The agency says the vessel was struck "on the port side causing damage to hull a
 It adds that authorities are investigating the incident and there is "no environmental impact" from the incident.
 The attack comes a day after a tanker transporting two million barrels of oil from Kuwait and Saudi Arabia was hit by an Iranian drone strike while it was docked off the coast of Dubai.
 A fire broke out and was later extinguished, with all crew members safe and uninjured, according to local authorities.
-
+Share
+close panel
+Share page
+Copy link
+[About sharing](https://www.bbc.co.uk/usingthebbc/terms/can-i-share-things-from-the-bbc)
   12. ### China steps up efforts to push for ceasefirepublished at 03:48 BST
 03:48 BST
 published at 22:48 31 March
@@ -154,7 +273,11 @@ The war in Iran jeopardises something President Xi covets - stability. Beijing n
 Now, a month into the conflict, with petrol prices continuing to climb, the Chinese government is stepping up efforts to push for a ceasefire. 
 The Chinese government has tried the role of peacemaker in the Middle East before, with limited success. In 2023 it brokered a deal between Saudi Arabia and Iran which did result in a resumption of diplomatic ties. A year later it hosted leaders from 14 Palestinian factions which resulted in a national unity government.
 There are few signs anyone is responding to the plan for now, but pushing forward this initiative allows President Xi to play the role of neutral broker and peacemaker - and once again stand in contrast to the leader of the other major superpower.
-
+Share
+close panel
+Share page
+Copy link
+[About sharing](https://www.bbc.co.uk/usingthebbc/terms/can-i-share-things-from-the-bbc)
   13. ### Rubio: 'We can see the finish line'published at 03:22 BST
 03:22 BST
 published at 22:22 31 March
@@ -165,7 +288,11 @@ US Secretary of State Marco Rubio says the US is exchanging messages with Iran a
 But, he adds, President Trump is not going to allow "fake negotiations to be used as a delay tactic, to buy more time".
 While he says he doesn't want to put a timeline on it, "we can see the finish line", Rubio tells Hannity during the interview.
 The secretary also criticises Nato, saying the US may have to re-examine whether or not the alliance "that has served this country well for a while is still serving that purpose".
-
+Share
+close panel
+Share page
+Copy link
+[About sharing](https://www.bbc.co.uk/usingthebbc/terms/can-i-share-things-from-the-bbc)
   14. ### What we learned from Trump's latest Oval Office remarkspublished at 03:01 BST
 03:01 BST
 published at 22:01 31 March
@@ -182,7 +309,11 @@ Here is a round up of what he said:
     * He adds that the war could end without a deal brokered between both sides 
     * On the war's impact on rising fuel prices, the president says they will come down as soon as the US ends its military actions 
 ![US President Donald J Trump gives remarks from the Oval Office.](https://ichef.bbci.co.uk/ace/standard/640/cpsprodpb/vivo/live/images/2026/4/1/a1610c92-65ec-4719-873f-a3ebb6686382.jpg.webp)Image source, EPA
-
+Share
+close panel
+Share page
+Copy link
+[About sharing](https://www.bbc.co.uk/usingthebbc/terms/can-i-share-things-from-the-bbc)
   15. ### Beirut rocked by 'heavy' strikespublished at 02:43 BST
 02:43 BST
 published at 21:43 31 March
@@ -194,7 +325,11 @@ A car travelling south of Beirut was hit by multiple missiles launched by an Isr
 Earlier on Tuesday, Lebanon's Ministry of Health said at least seven people had been killed by Israeli strikes in the country's south, including a paramedic.
 The strikes are the latest in an escalating Israeli offensive in Lebanon which has killed at least 1,200 people and displaced 1.2 million others.
 ![Emergency personnel operate around a burned car following a targeted Israeli strike, amid escalating hostilities between Israel and Hezbollah, as the U.S.-Israel conflict with Iran continues, in Khaldeh, Lebanon, March 31, 2026.](https://ichef.bbci.co.uk/ace/standard/640/cpsprodpb/vivo/live/images/2026/4/1/eda564ef-1bed-4bd0-bfc7-a5d61ae414ba.jpg.webp)Image source, Reuters
-
+Share
+close panel
+Share page
+Copy link
+[About sharing](https://www.bbc.co.uk/usingthebbc/terms/can-i-share-things-from-the-bbc)
   16. ### Trump to give 'important update on Iran' on Wednesday nightpublished at 02:26 BST
 02:26 BST
 published at 21:26 31 March
@@ -203,10 +338,105 @@ As we reported earlier, President Donald Trump is set to "provide an important u
 The address to the nation will be at 21:00 ET (02:00 BST, 01:00 GMT).
 Leavitt did not give any further information.
 ![White House Press Secretary Karoline Leavitt holds a press briefing in the James S. Brady Press Briefing Room at the White House in Washington, D.C., U.S., March 30, 2026.](https://ichef.bbci.co.uk/ace/standard/640/cpsprodpb/vivo/live/images/2026/4/1/0f74c2c5-28dd-4197-aa13-7977c3f9c962.jpg.webp)Image source, Reuters
-
+Share
+close panel
+Share page
+Copy link
+[About sharing](https://www.bbc.co.uk/usingthebbc/terms/can-i-share-things-from-the-bbc)
   17. ### Iran factory destroyed in earlier strikes used for chemical weapons, not medicine, Israel sayspublished at 02:08 BST
 02:08 BST
 published at 21:08 31 March
 21:08 31 March
 The Israeli military has provided a statement relating to earlier strikes on a medicines manufacturer in Iran.
-Earlier, a factory owned by the Tofigh Daru Research and Engi
+Earlier, a factory owned by the Tofigh Daru Research and Engineering Company was destroyed in an air strike, prompting Iranian Foreign Minister Abbas Araghchi to accuse Israel of "openly and unashamedly bombing pharmaceutical companies".
+The Israel Defense Forces (IDF) says the manufacturer supplied fentanyl to the organisation behind Iran's nuclear weapons programme – SPND (Organization of Defensive Innovation and Research).
+The IDF says the factory "presented itself as a civilian company" while it would "conduct research and development of chemical warfare agents".
+Iran and Israel's statements have not been verified by independent sources.
+Share
+close panel
+Share page
+Copy link
+[About sharing](https://www.bbc.co.uk/usingthebbc/terms/can-i-share-things-from-the-bbc)
+  18. ### Iran has 'necessary will' to end conflict, says Iranian presidentpublished at 01:46 BST
+01:46 BST
+published at 20:46 31 March
+20:46 31 March
+![](https://ichef.bbci.co.uk/ace/standard/128/cpsprodpb//vivo/live/images/2024/11/4/2fffcade-d43e-41f6-9f03-ffecef89b49a.jpg.webp) **John Sudworth**  
+Senior News Correspondent
+Iran has the "necessary will" to end the war with the United States and Israel as long as certain conditions are met, the country's president Masoud Pezeshkian said on Tuesday. 
+The comments, which boosted markets in the US, were made in a phone call between Pezeshkian and the President of European Council, and originally reported by Iranian state media. 
+Though the markets may have seen a glimmer of hope in the comments, especially as they came from a man long seen by many in the west as a moderate, the post of President is a subordinate one in a system long run by hardline clerics.
+The claim there is a "will" to end the war anyway also came with heavy caveats - namely that guarantees are put in place that there will not be a return to conflict. 
+On the face of it, that doesn’t appear to change much, as calls for non-aggression guarantees had already been included in Iran's reported response last week to America’s 15-point peace plan. 
+And the powerful Islamic Revolutionary Guard Corps are certainly not offering olive branches, with new threats to widen the retaliation to include US tech companies.
+Share
+close panel
+Share page
+Copy link
+[About sharing](https://www.bbc.co.uk/usingthebbc/terms/can-i-share-things-from-the-bbc)
+  19. ### Iran war could be costing the US up to two billion dollars per day, experts saypublished at 01:44 BST
+01:44 BST
+published at 20:44 31 March
+20:44 31 March
+![](https://ichef.bbci.co.uk/ace/standard/128/cpsprodpb//vivo/live/images/2025/4/22/a4796371-6167-40e3-834e-8ac341bfc5d6.jpg.webp) **Sakshi Venkatraman**  
+US reporter
+The war in Iran could be costing the US as much as $2bn (£1.5bn) per day, experts who tracks the economic toll of global conflicts tell the BBC.
+Stephanie Savell, director of Brown University's Cost of War project, says between weapons and military spending, damage to US assets, and other line items, the war has already cost Americans tens of billions of dollars.
+"Every day that the war is ongoing is adding a huge amount to the public debt," Savell tells me.
+The Pentagon earlier this month told Congress that the first six days of the war had cost $11.3bn, US media reports. Savell believes that number is higher in reality.
+Harvard University defence budgets expert Linda Blimes says the war is likely already costing around $2bn per day.
+That level of cost is always passed down to the average American, Savell says, noting the war has already caused an "upheaval" to gas prices. There are also possible impacts when it comes to inflation, business uncertainty and insurance costs in the long run.
+The White House also said earlier this month that it is seeking $200bn (£150bn) more for the war in Iran, which Savell said is a massive number.
+"It really does cement that the war is ongoing," she said.
+Share
+close panel
+Share page
+Copy link
+[About sharing](https://www.bbc.co.uk/usingthebbc/terms/can-i-share-things-from-the-bbc)
+  20. ### Latest on the Middle East conflictpublished at 01:43 BST
+01:43 BST
+published at 20:43 31 March
+20:43 31 March
+We heard from Donald Trump earlier at the White House Oval Office, where he vowed the US will leave Iran in "two or three weeks".
+His media office has previewed a televised presidential address where Trump will "provide an important update on Iran" tomorrow at 21:00 ET (02:00 BST).
+Here is what else has been happening recently as the BBC's live coverage continues:
+    * Trump says the **US now dominates Iranian skies** , has destroyed its navy and its leaders are "begging to make a deal". Iranian President Masoud Pezeshkian says Iran has the "necessary will" to put an end to the war if certain requirements are met 
+    * Iran says it will re-open the **Strait of Hormuz** "for those who comply with the new laws of Iran", as oil and natural gas shipments are effectively cut off under Iran's blockade 
+    * Trump criticised US allies, telling them to **"go get your own oil"** from the Strait of Hormuz, saying countries like France can "fend for themselves" 
+    * **Israel struck a factory in Iran** saying it was part of a production line manufacturing chemical weapons, which Iran says was a medicines factory 
+    * In Iraq, **US freelance journalist Shelly Kittleson** has been kidnapped in the capital Baghdad and is suspected to have been abducted by a member of an Iranian-backed militia 
+    * Meanwhile, **strikes hit Lebanon's capital Beirut** , where at least seven people were killed across the city and Jnah, a neighbourhood in the southern outskirts, Lebanon's Health Ministry said 
+    * The Israel Defense Forces (IDF) says it "struck" a **Hezbollah commander** and another senior figure in Beirut during the overnight strikes 
+    * A roadside blast **killed two UN peacekeepers** near Bani Haiyyan, southern Lebanon, for which the IDF has denied responsibility 
+Share
+close panel
+Share page
+Copy link
+[About sharing](https://www.bbc.co.uk/usingthebbc/terms/can-i-share-things-from-the-bbc)
+
+  * [Home](https://www.bbc.com)
+  * [News](https://www.bbc.com/news)
+  * [Sport](https://www.bbc.com/sport)
+  * [Business](https://www.bbc.com/business)
+  * [Technology](https://www.bbc.com/technology)
+  * [Health](https://www.bbc.com/health)
+  * [Culture](https://www.bbc.com/culture)
+  * [Arts](https://www.bbc.com/arts)
+  * [Travel](https://www.bbc.com/travel)
+  * [Earth](https://www.bbc.com/future-planet)
+  * [Audio](https://www.bbc.com/audio)
+  * [Video](https://www.bbc.com/video)
+  * [Live](https://www.bbc.com/live)
+
+  * [Terms of Use](https://www.bbc.com/pages/terms-of-use)
+  * [About the BBC](https://www.bbc.co.uk/aboutthebbc)
+  * [Privacy Policy](https://www.bbc.com/pages/privacy-policy)
+  * [Cookies](https://www.bbc.com/usingthebbc/cookies)
+  * [Accessibility Help](https://www.bbc.co.uk/accessibility)
+  * [Parental Guidance](https://www.bbc.co.uk/iplayer/guidance)
+  * [Contact the BBC](https://www.bbc.co.uk/contact)
+  * [BBC emails for you](https://www.bbc.co.uk/bbcnewsletter)
+  * [Advertise with us](https://www.bbc.com/advertisingcontact/)
+  * Do not share or sell my info
+
+Copyright

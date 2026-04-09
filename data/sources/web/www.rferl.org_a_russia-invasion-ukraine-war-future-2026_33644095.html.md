@@ -4,6 +4,78 @@
 
 ---
 
+![analytics](https://ssc.rferl.org/b/ss/bbgprod,bbgentityrferl/1/G.4--NS/812790170?pageName=rfe%3aeng%3aw%3afeature%20story%3awill%20russia%27s%20war%20against%20ukraine%20end%20in%202026%3f%20&c6=will%20russia%27s%20war%20against%20ukraine%20end%20in%202026%3f%20&v36=8.46.0.0.380&v6=D=c6&g=https%3a%2f%2fwww.rferl.org%2fa%2frussia-invasion-ukraine-war-future-2026%2f33644095.html&c1=D=g&v1=D=g&events=event1,event52&c16=rferl%20english&v16=D=c16&c5=ukraine&v5=D=c5&ch=ukraine&c15=english&v15=D=c15&c4=article&v4=D=c4&c14=33644095&v14=D=c14&v20=no&c17=web&v17=D=c17&mcorgid=518abc7455e462b97f000101%40adobeorg&server=www.rferl.org&pageType=D=c4&ns=bbg&v29=D=server&v25=rfe&v30=420&v105=D=User-Agent )
+## Accessibility links
+  * 
+  * Skip to main Navigation
+  * Skip to Search
+
+## 
+Next
+Close Previous Next
+![please wait](https://www.rferl.org/Content/responsive/img/player-spinner.png)
+![]()
+This image contains sensitive content which some people may find offensive or disturbing. Click to reveal 
+### Print Options:
+  * Images
+  * Multimedia
+
+  * Embedded Content
+  * Comments
+
+Cancel Print
+Link has been copied to clipboard
+MORE
+  * [To Readers In Russia](https://www.rferl.org/a/32843501.html "To Readers In Russia")
+  * Russia 
+[Russia](https://www.rferl.org/Russia "Russia") [Tatar-Bashkir](https://www.rferl.org/TatarstanBashkortostan "Tatar-Bashkir") [North Caucasus](https://www.rferl.org/NorthCaucasus "North Caucasus")
+  * [Iran](https://www.rferl.org/Farda-English "Iran")
+  * Central Asia 
+[Kazakhstan](https://www.rferl.org/Kazakhstan "Kazakhstan") [Kyrgyzstan](https://www.rferl.org/Kyrgyzstan "Kyrgyzstan") [Tajikistan](https://www.rferl.org/Tajikistan "Tajikistan") [Turkmenistan](https://www.rferl.org/Turkmenistan "Turkmenistan") [Uzbekistan](https://www.rferl.org/Uzbekistan "Uzbekistan")
+  * South Asia 
+[Afghanistan](https://www.rferl.org/Azadi-English "Afghanistan") [Pakistan](https://www.rferl.org/Radio-Mashaal "Pakistan")
+  * Caucasus 
+[Armenia](https://www.rferl.org/Armenia "Armenia") [Azerbaijan](https://www.rferl.org/Azerbaijan "Azerbaijan") [Georgia](https://www.rferl.org/Georgia "Georgia")
+  * Central/SE Europe 
+[Bosnia](https://www.rferl.org/BosniaHerzegovina "Bosnia") [Bulgaria](https://www.rferl.org/Bulgaria "Bulgaria") [Kosovo](https://www.rferl.org/Kosovo "Kosovo") [Moldova](https://www.rferl.org/Moldova "Moldova") [Montenegro](https://www.rferl.org/Montenegro "Montenegro") [North Macedonia](https://www.rferl.org/p/6360.html "North Macedonia") [Romania](https://www.rferl.org/Romania "Romania") [Serbia](https://www.rferl.org/Serbia "Serbia")
+  * East Europe 
+[Belarus](https://www.rferl.org/Belarus "Belarus") [Ukraine](https://www.rferl.org/Ukraine "Ukraine")
+  * [Visuals](https://www.rferl.org/Multimedia "Visuals")
+  * Investigations 
+[RFE/RL Investigates](https://www.rferl.org/Investigations "RFE/RL Investigates") [Schemes](https://www.rferl.org/Schemes "Schemes") [Systema](https://www.rferl.org/author/systema/yjvkqo "Systema")
+  * Newsletters 
+[Wider Europe by Rikard Jozwiak](https://www.rferl.org/Wider-Europe "Wider Europe by Rikard Jozwiak") [The Farda Briefing](https://www.rferl.org/Farda-Briefing "The Farda Briefing") [China In Eurasia by Reid Standish](https://www.rferl.org/China-In-Eurasia "China In Eurasia by Reid Standish")
+  * Podcasts 
+[Majlis](https://www.rferl.org/majlis-talking-asia-podcast "Majlis")
+  * [Current Time](https://www.currenttime.tv/ "Current Time")
+  * 
+  * [Bypass Blocking](https://www.rferl.org/a/russia-censorship-vpn-reporting/31737775.html "Bypass Blocking")
+  * [About RFE/RL](https://about.rferl.org/ "About RFE/RL")
+  * [Contact Us](https://about.rferl.org/contact-us/ "Contact Us")
+
+[Subscribe](https://www.rferl.org/newsletters)
+##### Follow Us
+[ ](https://www.youtube.com/user/rferlonline "Follow us on YouTube") [ ](https://www.reddit.com/user/RFERL_ReadsReddit/ "Follow us on Reddit") [ ](https://www.instagram.com/rfe.rl/ "Follow us on Instagram") [ ](https://news.google.com/publications/CAAqIggKIhxDQklTRHdnTWFnc0tDWEptWlhKc0xtOXlaeWdBUAE?ceid=US:en&oc=3 "Follow us on Google News") [ ](https://x.com/RFERL "Follow us on Twitter") [ ](https://facebook.com/rferl "Follow us on Facebook") [ ](https://www.linkedin.com/company/radio-free-europeradio-liberty/ "Follow us on LinkedIn") [ ](https://www.whatsapp.com/channel/0029VazjbRpAzNbo38m3ik2P "Follow on WhatsApp") [ ](https://www.whatsapp.com/channel/0029VazjbRpAzNbo38m3ik2P "Follow on WhatsApp")
+[ All RFE/RL sites ](https://www.rferl.org/navigation/allsites)
+Search
+[ ![site logo](https://www.rferl.org/Content/responsive/RFE/en-US/img/logo-compact.svg?cb=380) ![site logo](https://www.rferl.org/Content/responsive/RFE/en-US/img/logo.svg?cb=380) ](https://www.rferl.org/)
+[ All RFE/RL websites ](https://www.rferl.org/navigation/allsites "All RFE/RL websites") [ Follow RFE/RL on Google ](https://www.google.com/preferences/source?q=rferl.org "Follow RFE/RL on Google") [ ](https://www.rferl.org/s "Search")
+Search
+![site logo](https://www.rferl.org/Content/responsive/RFE/en-US/img/logo-print.gif?cb=380) ![site logo](https://www.rferl.org/Content/responsive/RFE/en-US/img/logo-print_color.png?cb=380)
+[ ](https://www.rferl.org)
+Will Russia's War Against Ukraine End In 2026? 
+Share 
+###### Share
+  * [ Copy link ]()
+  * [ Facebook ](https://facebook.com/sharer.php?u=https%3a%2f%2fwww.rferl.org%2fa%2frussia-invasion-ukraine-war-future-2026%2f33644095.html "Facebook")
+  * [ X (Twitter) ](https://twitter.com/share?url=https%3a%2f%2fwww.rferl.org%2fa%2frussia-invasion-ukraine-war-future-2026%2f33644095.html&text=Will+Russia%27s+War+Against+Ukraine+End+In+2026%3f+ "X \(Twitter\)")
+  * [ LinkedIn ](https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.rferl.org%2fa%2frussia-invasion-ukraine-war-future-2026%2f33644095.html&title=Will Russia's War Against Ukraine End In 2026?  "LinkedIn")
+  * [ Email ](mailto:?body=https%3a%2f%2fwww.rferl.org%2fa%2frussia-invasion-ukraine-war-future-2026%2f33644095.html&subject=Will Russia's War Against Ukraine End In 2026?  "Email")
+
+Previous Next
+Breaking News
+
+[Ukraine](https://www.rferl.org/z/670)
 #  Will Russia's War Against Ukraine End In 2026? 
   * By [Steve Gutterman](https://www.rferl.org/author/steve-gutterman/ug_yqi "Steve Gutterman")
 
@@ -12,7 +84,15 @@ Listen
 10 min
 This audio is automated
 [Learn more](https://www.rferl.org/learn-more-automated-narrator)
+Share 
+###### Share
+  * [ Copy link ]()
+  * [ Facebook ](https://facebook.com/sharer.php?u=https%3a%2f%2fwww.rferl.org%2fa%2frussia-invasion-ukraine-war-future-2026%2f33644095.html "Facebook")
+  * [ X (Twitter) ](https://twitter.com/share?url=https%3a%2f%2fwww.rferl.org%2fa%2frussia-invasion-ukraine-war-future-2026%2f33644095.html&text=Will+Russia%27s+War+Against+Ukraine+End+In+2026%3f+ "X \(Twitter\)")
+  * [ LinkedIn ](https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.rferl.org%2fa%2frussia-invasion-ukraine-war-future-2026%2f33644095.html&title=Will Russia's War Against Ukraine End In 2026?  "LinkedIn")
+  * [ Email ](mailto:?body=https%3a%2f%2fwww.rferl.org%2fa%2frussia-invasion-ukraine-war-future-2026%2f33644095.html&subject=Will Russia's War Against Ukraine End In 2026?  "Email")
 
+Print
 ![Police officers inspect a damaged apartment building following a Russian attack on Kyiv on January 9.](https://gdb.rferl.org/6d16ec46-4138-43e3-897a-35704cd770d5_cx0_cy2_cw0_w250_r1_s.jpg)
 Police officers inspect a damaged apartment building following a Russian attack on Kyiv on January 9.
 ## Summary
@@ -88,3 +168,65 @@ Damaged buildings in the largely destroyed Donetsk region city of Vuhledar on Ja
 But "even if the active phase of the war is paused, like other frozen conflicts it can't be settled by negotiation because both parties think their most fundamental interests are at stake," she said.
 "For Ukraine…Russia's occupation and its imperialist desire to control Ukraine -- to force it back into a colonial relationship that erases Ukrainian independence and national identity -- is an existential threat," Deyermond said. "On the Russian side, Putin's presidency is now so tied to the war and to the project to subjugate Ukraine that no de-occupation or withdrawal of demands about the future character and direction of Ukraine seems possible until Russia has a new president."
 However, she added, "there doesn't seem to be much chance of a change in the Kremlin in 2026, so I expect that in late December 2026 we'll be asking ourselves if the war is likely to end in 2027."
+[ ](https://www.rferl.org)
+Will Russia's War Against Ukraine End In 2026? 
+Share 
+###### Share
+  * [ Copy link ]()
+  * [ Facebook ](https://facebook.com/sharer.php?u=https%3a%2f%2fwww.rferl.org%2fa%2frussia-invasion-ukraine-war-future-2026%2f33644095.html "Facebook")
+  * [ X (Twitter) ](https://twitter.com/share?url=https%3a%2f%2fwww.rferl.org%2fa%2frussia-invasion-ukraine-war-future-2026%2f33644095.html&text=Will+Russia%27s+War+Against+Ukraine+End+In+2026%3f+ "X \(Twitter\)")
+  * [ LinkedIn ](https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.rferl.org%2fa%2frussia-invasion-ukraine-war-future-2026%2f33644095.html&title=Will Russia's War Against Ukraine End In 2026?  "LinkedIn")
+  * [ Email ](mailto:?body=https%3a%2f%2fwww.rferl.org%2fa%2frussia-invasion-ukraine-war-future-2026%2f33644095.html&subject=Will Russia's War Against Ukraine End In 2026?  "Email")
+
+Share 
+###### Share
+  * [ Copy link ]()
+  * [ Facebook ](https://facebook.com/sharer.php?u=https%3a%2f%2fwww.rferl.org%2fa%2frussia-invasion-ukraine-war-future-2026%2f33644095.html "Facebook")
+  * [ X (Twitter) ](https://twitter.com/share?url=https%3a%2f%2fwww.rferl.org%2fa%2frussia-invasion-ukraine-war-future-2026%2f33644095.html&text=Will+Russia%27s+War+Against+Ukraine+End+In+2026%3f+ "X \(Twitter\)")
+  * [ LinkedIn ](https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.rferl.org%2fa%2frussia-invasion-ukraine-war-future-2026%2f33644095.html&title=Will Russia's War Against Ukraine End In 2026?  "LinkedIn")
+  * [ Email ](mailto:?body=https%3a%2f%2fwww.rferl.org%2fa%2frussia-invasion-ukraine-war-future-2026%2f33644095.html&subject=Will Russia's War Against Ukraine End In 2026?  "Email")
+
+Print
+  * [ ![16x9 Image](https://gdb.rferl.org/7e041969-42d2-46d6-9e7b-94ea57279284_cx0_cy0_cw51_w100_r5.png) ![16x9 Image]() ](https://www.rferl.org/author/steve-gutterman/ug_yqi)
+####  [Steve Gutterman](https://www.rferl.org/author/steve-gutterman/ug_yqi)
+Steve Gutterman is the editor of the Russia/Ukraine/Belarus Desk in RFE/RL's Central Newsroom in Prague and the author of [**The Week In Russia**](https://www.rferl.org/p/the-week-in-russia.html) newsletter. He lived and worked in Russia and the former Soviet Union for nearly 20 years between 1989 and 2014, including postings in Moscow with the AP and Reuters. He has also reported from Afghanistan and Pakistan as well as other parts of Asia, Europe, and the United States.
+
+##### This item is part of
+  * [ Features ](https://www.rferl.org/Insight)
+  * [ Russia ](https://www.rferl.org/z/666)
+  * [ Ukraine ](https://www.rferl.org/z/670)
+  * [ The Rundown Stories ](https://www.rferl.org/z/23311)
+
+[​](https://www.rferl.org/p/7083.html "More to read and watch...")
+  * Follow Us 
+    * [ ](https://www.youtube.com/user/rferlonline "Follow us on YouTube")
+    * [ ](https://www.reddit.com/user/RFERL_ReadsReddit/ "Follow us on Reddit")
+    * [ ](https://www.instagram.com/rfe.rl/ "Follow us on Instagram")
+    * [ ](https://news.google.com/publications/CAAqIggKIhxDQklTRHdnTWFnc0tDWEptWlhKc0xtOXlaeWdBUAE?ceid=US:en&oc=3 "Follow us on Google News")
+    * [ ](https://x.com/RFERL "Follow us on Twitter")
+    * [ ](https://facebook.com/rferl "Follow us on Facebook")
+    * [ ](https://www.linkedin.com/company/radio-free-europeradio-liberty/ "Follow us on LinkedIn")
+    * [ ](https://www.whatsapp.com/channel/0029VazjbRpAzNbo38m3ik2P "Follow on WhatsApp")
+    * [ ](https://www.whatsapp.com/channel/0029VazjbRpAzNbo38m3ik2P "Follow on WhatsApp")
+    * [ ](https://www.rferl.org/newsletters "Subscribe")
+  * Quick Hits 
+    * [About RFE/RL](https://about.rferl.org/ "About RFE/RL")
+    * [Where We Work](https://pressroom.rferl.org/reaching-audiences/where-we-work/ "Where We Work")
+    * [Terms Of Use](https://about.rferl.org/use-our-content/ "Terms Of Use")
+    * [Jobs and Internships](https://www.rferl.mobi/jobs.html "Jobs and Internships")
+    * [U.S. Agency For Global Media](https://www.usagm.gov/ "U.S. Agency For Global Media")
+    * [Legal And Reporting](https://www.rferl.org/p/6466.html "Legal And Reporting")
+    * [All RFE/RL Sites](https://www.rferl.org/navigation/allsites "All RFE/RL Sites")
+    * [Contact Us](https://about.rferl.org/contact-us/ "Contact Us")
+  * Browse 
+    * [News](https://www.rferl.org/LatestNews "News")
+    * [Features](https://www.rferl.org/Features "Features")
+    * [Newsletters](https://www.rferl.org/Blogs "Newsletters")
+    * [Multimedia](https://www.rferl.org/Multimedia "Multimedia")
+    * [Podcasts](https://www.rferl.org/podcasts-in-english "Podcasts")
+    * [Qishloq Ovozi (January 2014-March 2022)](https://www.rferl.org/QishloqOvozi "Qishloq Ovozi \(January 2014-March 2022\)")
+    * [RFE/RL Newsline (Jan 2000-May 2008)](https://www.rferl.org/Newsline "RFE/RL Newsline \(Jan 2000-May 2008\)")
+    * [Analytical Reports (Jan 2000-June 2008)](https://www.rferl.org/Analytical-Reports "Analytical Reports \(Jan 2000-June 2008\)")
+    * [Hungarian Service (Sep 2020-Nov 2025)](https://www.szabadeuropa.hu/ "Hungarian Service \(Sep 2020-Nov 2025\)")
+
+Radio Free Europe/Radio Liberty

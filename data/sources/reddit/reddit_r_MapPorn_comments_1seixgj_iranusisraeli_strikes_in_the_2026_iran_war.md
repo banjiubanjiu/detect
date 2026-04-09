@@ -22,4 +22,4 @@
 > 
 > **u/Dramatic-Car-8507** (1 pts)
 > Looks like missiles per total populated area ratio is higher in israel
-> 
+>

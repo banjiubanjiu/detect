@@ -4,10 +4,50 @@
 
 ---
 
+Skip to cookie privacy notice  
+[ Human Rights Watch ](https://www.hrw.org/)
+  * [ World Report 2026 ](https://www.hrw.org/world-report/2026)
+  * Countries 
+
+[
+##  World Report 2026 
+](https://www.hrw.org/world-report/2026)
+Countries  Afghanistan  African Union  Algeria  Angola  Argentina  Armenia  Australia  Azerbaijan  Bahrain  Bangladesh  Belarus  Bosnia and Herzegovina  Brazil  Burkina Faso  Burundi  Cambodia  Canada  Central African Republic  Chad  China  Colombia  Cuba  Democratic Republic of Congo  Ecuador  Egypt  El Salvador  Eritrea  Eswatini  Ethiopia  European Union  France  Georgia  Germany  Greece  Guatemala  Haiti  Honduras  Hungary  India  Indonesia  Iran  Iraq  Israel and Palestine  Italy  Japan  Jordan  Kazakhstan  Kenya  Kyrgyzstan  Lebanon  Libya  Malawi  Malaysia  Mali  Mexico  Morocco and Western Sahara  Mozambique  Myanmar  Nepal  Nicaragua  Niger  Nigeria  North Korea  Pakistan  Peru  Philippines  Poland  Qatar  Russia  Rwanda  Saudi Arabia  Serbia/Kosovo  Singapore  Somalia  South Africa  South Korea  South Sudan  Spain  Sri Lanka  Sudan  Syria  Tajikistan  Tanzania  Thailand  Tunisia  Türkiye  Turkmenistan  Uganda  Ukraine  United Arab Emirates  United Kingdom  United States  Uzbekistan  Venezuela  Vietnam  Yemen  Zambia  Zimbabwe 
+[Download ](https://www.hrw.org/sites/default/files/media_2026/01/WR2026%20web_2.pdf)
+[ Share this via Facebook ](https://www.facebook.com/sharer.php?u=https://www.hrw.org/world-report/2026/country-chapters/myanmar "Share this via Facebook") [ Share this via Bluesky ](https://bsky.app/intent/compose?text=Myanmar%0Ahttps://www.hrw.org/world-report/2026/country-chapters/myanmar "Share this via Bluesky") More sharing options
+[ Share this via X ](https://twitter.com/intent/tweet?text=Myanmar&url=https://www.hrw.org/world-report/2026/country-chapters/myanmar "Share this via X")[ Share this via WhatsApp ](https://www.hrw.org/whatsapp://send?text=Myanmar%20-%20https://www.hrw.org/world-report/2026/country-chapters/myanmar "Share this via WhatsApp")[ Share this via Email ](mailto:?subject=Myanmar&body=https://www.hrw.org/world-report/2026/country-chapters/myanmar "Share this via Email")[ Share this via LinkedIn ](http://www.linkedin.com/shareArticle?mini=true&url=https://www.hrw.org/world-report/2026/country-chapters/myanmar&title=Myanmar "Share this via LinkedIn")[ Share this via Reddit ](http://reddit.com/submit?url=https://www.hrw.org/world-report/2026/country-chapters/myanmar&title=Myanmar "Share this via Reddit")[ Share this via Telegram ](https://telegram.me/share/url?url=https://www.hrw.org/world-report/2026/country-chapters/myanmar&text=Myanmar "Share this via Telegram")[ Share this via Printer ](https://www.hrw.org/node/392818/printable/print "Share this via Printer")
+Languages 
+  * [ English ](https://www.hrw.org/world-report/2026 "English")
+  * [ العربية ](https://www.hrw.org/ar/world-report/2026 "Arabic")
+  * [ 简体中文 ](https://www.hrw.org/zh-hans/world-report/2026 "Chinese, Simplified")
+  * [ 繁體中文 ](https://www.hrw.org/zh-hant/world-report/2026 "Chinese, Traditional")
+  * [ Français ](https://www.hrw.org/fr/world-report/2026 "French")
+  * [ Deutsch ](https://www.hrw.org/de/world-report/2026 "German")
+  * [ Português ](https://www.hrw.org/pt/world-report/2026 "Portugese")
+  * [ Русский ](https://www.hrw.org/ru/world-report/2026 "Russian")
+  * [ Español ](https://www.hrw.org/es/world-report/2026 "Spanish")
+
+[ Donate Now ](https://donate.hrw.org/page/107245/donate/1?ea.tracking.id=EP2022EVpgdonate&promo_id=1000)
+Would you like to read this page in another language? 
+[ Yes ](https://www.hrw.org/) No, don't ask again 
+✕ Close
+![](https://www.hrw.org/sites/default/files/styles/16x9_large/public/media_2026/01/202601asia_myanmar_wr.jpg?h=89bd4c8b&itok=TxAXN-KJ)
 #  Myanmar 
 Events of 2025 
 A Myanmar junta airstrike hit a school in Sagaing Region, killing 22 children and 2 teachers, on May 12, 2025.
+ook") [ Share this via Bluesky ](https://bsky.app/intent/compose?text=World%20Report%202026%3A%20Myanmar%20%7C%20Human%20Rights%20Watch%0Ahttps://www.hrw.org/world-report/2026/country-chapters/myanmar "Share this via Bluesky") More sharing options
+[ Share this via X ](https://twitter.com/intent/tweet?text=World%20Report%202026%3A%20Myanmar%20%7C%20Human%20Rights%20Watch&url=https://www.hrw.org/world-report/2026/country-chapters/myanmar "Share this via X")[ Share this via WhatsApp ](https://www.hrw.org/whatsapp://send?text=World%20Report%202026%3A%20Myanmar%20%7C%20Human%20Rights%20Watch%20-%20https://www.hrw.org/world-report/2026/country-chapters/myanmar "Share this via WhatsApp")[ Share this via Email ](mailto:?subject=World%20Report%202026%3A%20Myanmar%20%7C%20Human%20Rights%20Watch&body=https://www.hrw.org/world-report/2026/country-chapters/myanmar "Share this via Email")[ Share this via LinkedIn ](http://www.linkedin.com/shareArticle?mini=true&url=https://www.hrw.org/world-report/2026/country-chapters/myanmar&title=World%20Report%202026%3A%20Myanmar%20%7C%20Human%20Rights%20Watch "Share this via LinkedIn")[ Share this via Reddit ](http://reddit.com/submit?url=https://www.hrw.org/world-report/2026/country-chapters/myanmar&title=World%20Report%202026%3A%20Myanmar%20%7C%20Human%20Rights%20Watch "Share this via Reddit")[ Share this via Telegram ](https://telegram.me/share/url?url=https://www.hrw.org/world-report/2026/country-chapters/myanmar&text=World%20Report%202026%3A%20Myanmar%20%7C%20Human%20Rights%20Watch "Share this via Telegram")[ Share this via Printer ](https://www.hrw.org/node/392818/printable/print "Share this via Printer")
+  1. Conflict Abuses
+  2. Aid Blockages, Displacement, and Humanitarian Crisis
+  3. Arbitrary Detention, Torture, and Ill-Treatment
+  4. Political and Digital Repression
+  5. Rohingya
+  6. Sexual and Gender-Based Violence
+  7. Resource Extraction
+  8. Key International Actors
 
+[ Share this via Facebook ](https://www.facebook.com/sharer.php?u=https://www.hrw.org/world-report/2026/country-chapters/myanmar "Share this via Facebook") [ Share this via Bluesky ](https://bsky.app/intent/compose?text=World%20Report%202026%3A%20Myanmar%20%7C%20Human%20Rights%20Watch%0Ahttps://www.hrw.org/world-report/2026/country-chapters/myanmar "Share this via Bluesky") More sharing options
+[ Share this via X ](https://twitter.com/intent/tweet?text=World%20Report%202026%3A%20Myanmar%20%7C%20Human%20Rights%20Watch&url=https://www.hrw.org/world-report/2026/country-chapters/myanmar "Share this via X")[ Share this via WhatsApp ](https://www.hrw.org/whatsapp://send?text=World%20Report%202026%3A%20Myanmar%20%7C%20Human%20Rights%20Watch%20-%20https://www.hrw.org/world-report/2026/country-chapters/myanmar "Share this via WhatsApp")[ Share this via Email ](mailto:?subject=World%20Report%202026%3A%20Myanmar%20%7C%20Human%20Rights%20Watch&body=https://www.hrw.org/world-report/2026/country-chapters/myanmar "Share this via Email")[ Share this via LinkedIn ](http://www.linkedin.com/shareArticle?mini=true&url=https://www.hrw.org/world-report/2026/country-chapters/myanmar&title=World%20Report%202026%3A%20Myanmar%20%7C%20Human%20Rights%20Watch "Share this via LinkedIn")[ Share this via Reddit ](http://reddit.com/submit?url=https://www.hrw.org/world-report/2026/country-chapters/myanmar&title=World%20Report%202026%3A%20Myanmar%20%7C%20Human%20Rights%20Watch "Share this via Reddit")[ Share this via Telegram ](https://telegram.me/share/url?url=https://www.hrw.org/world-report/2026/country-chapters/myanmar&text=World%20Report%202026%3A%20Myanmar%20%7C%20Human%20Rights%20Watch "Share this via Telegram")[ Share this via Printer ](https://www.hrw.org/node/392818/printable/print "Share this via Printer")
 Five years since the February 2021 military coup, the Myanmar junta’s assault on the population has decimated the country’s infrastructure, economy, civil and political life, rule of law, and healthcare and education systems. The military’s post-coup atrocities amount to war crimes and crimes against humanity, fueled by decades of impunity. 
 The military responded to armed resistance in 2025 with repeated aerial and artillery attacks on civilians and civilian infrastructure, including in the immediate aftermath of the devastating March earthquake. 
 Throughout 2025, the junta ramped up violence and repression to lay the groundwork for [sham elections](https://www.hrw.org/news/2025/11/16/myanmar-elections-a-fraudulent-claim-for-credibility), which were held in three phases between December 28 and January 25.
@@ -51,7 +91,33 @@ Use of chemical leaching mining processes has led to [severe contamination of ri
 ## Key International Actors
 [China](https://www.stimson.org/2025/too-little-too-late-china-steps-up-military-aid-to-myanmars-junta/) and [Russia](https://www.scmp.com/week-asia/politics/article/3301448/global-shift-gives-putin-breathing-room-give-myanmar-junta-russian-arms-amid-isolation) continue to provide arms, military equipment, and political support to the Myanmar junta while blocking international action on the military’s crimes at the UN Security Council.
 In July, the United States [lifted sanctions](https://www.ohchr.org/en/press-releases/2025/07/un-expert-appalled-us-withdrawal-sanctions-against-companies-providing) on junta allies involved in the sale of arms and related supplies to the Myanmar military. In November, the US [announced](https://www.hrw.org/news/2025/11/24/myanmar-is-safe) the termination of Temporary Protected Status (TPS) for people from Myanmar; TPS protects non-US citizens from deportation to countries where return would be unsafe.
-In November 2024, the International Criminal Court prosecutor [requested](https://www.hrw.org/news/2024/11/27/myanmar-icc-prosecutor-requests-arrest-warrant) an arrest warrant for Min Aung Hlaing, leader of the junta, for the alleged crimes against humanity of deportation and persecution of the Rohingya committed in 2027. The judges have not yet issued a public decision on the request.
+In November 2024, the International Criminal Court prosecutor [requested](https://www.hrw.org/news/2024/11/27/myanmar-icc-prosecutor-requests-arrest-warrant) an arrest warrant for Min Aung Hlaing, leader of the junta, for the alleged crimes against humanity of deportation and persecution of the Rohingya committed in 2017. The judges have not yet issued a public decision on the request.
 In July 2025, the International Court of Justice [accepted the interventions](https://www.icj-cij.org/sites/default/files/case-related/178/178-20250729-pre-01-00-en.pdf) of four states in Gambia’s case against Myanmar under the Genocide Convention, in addition to the seven previous interveners. The merit hearings are expected in January 2026.
 In February, an Argentine court [issued arrest warrants](https://reliefweb.int/report/bangladesh/argentina-court-issues-arrest-warrants-genocide-and-crimes-against-humanity-committed-against-rohingya-community) for 25 individuals from Myanmar for crimes against humanity and genocide committed against the Rohingya. The case was brought under the principle of universal jurisdiction.
 The UN General Assembly [convened](https://www.hrw.org/news/2025/09/29/un-support-protection-justice-for-rohingya) a High-Level Conference on the Rohingya in September.
+Browse countries
+Choose Afghanistan  African Union  Algeria  Angola  Argentina  Armenia  Australia  Azerbaijan  Bahrain  Bangladesh  Belarus  Bosnia and Herzegovina  Brazil  Burkina Faso  Burundi  Cambodia  Canada  Central African Republic  Chad  China  Colombia  Cuba  Democratic Republic of Congo  Ecuador  Egypt  El Salvador  Eritrea  Eswatini  Ethiopia  European Union  France  Georgia  Germany  Greece  Guatemala  Haiti  Honduras  Hungary  India  Indonesia  Iran  Iraq  Israel and Palestine  Italy  Japan  Jordan  Kazakhstan  Kenya  Kyrgyzstan  Lebanon  Libya  Malawi  Malaysia  Mali  Mexico  Morocco and Western Sahara  Mozambique  Myanmar  Nepal  Nicaragua  Niger  Nigeria  North Korea  Pakistan  Peru  Philippines  Poland  Qatar  Russia  Rwanda  Saudi Arabia  Serbia/Kosovo  Singapore  Somalia  South Africa  South Korea  South Sudan  Spain  Sri Lanka  Sudan  Syria  Tajikistan  Tanzania  Thailand  Tunisia  Türkiye  Turkmenistan  Uganda  Ukraine  United Arab Emirates  United Kingdom  United States  Uzbekistan  Venezuela  Vietnam  Yemen  Zambia  Zimbabwe 
+[
+### Protecting Rights, Saving Lives
+Human Rights Watch defends the rights of people in close to 100 countries worldwide, spotlighting abuses and bringing perpetrators to justice 
+Donate Now ](https://donate.hrw.org/page/107245/donate/1?ea.tracking.id=EP2022EVpgfooter&promo_id=1005)
+Get Updates On Rights Issues Worldwide
+Leave blank Leave blank Leave blank
+
+## Connect With Us
+  * [ BlueSky ](https://bsky.app/profile/hrw.org "BlueSky")
+  * [ X ](https://twitter.com/hrw "X")
+  * [ Facebook ](https://www.facebook.com/HumanRightsWatch "Facebook")
+  * [ YouTube ](https://www.youtube.com/user/HumanRightsWatch "YouTube")
+  * [ Instagram ](https://www.instagram.com/humanrightswatch/ "Instagram")
+  * [ LinkedIn ](https://www.linkedin.com/company/human-rights-watch/ "LinkedIn")
+  * [ TikTok ](https://www.tiktok.com/@humanrightswatch "TikTok")
+
+## Footer menu
+  * [Contact Us](https://www.hrw.org/contact-us)
+  * [Corrections](https://www.hrw.org/corrections)
+  * [Privacy Policy](https://www.hrw.org/privacy-policy)
+  * [Permissions](https://www.hrw.org/permissions)
+  * [Site Map](https://www.hrw.org/sitemap)
+  * [Child Safeguarding](https://www.hrw.org/child-safeguarding-human-rights-watch)
+  * [Text Version](https://text.hrw.org/)

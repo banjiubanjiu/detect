@@ -75,4 +75,4 @@
 > 
 > **u/NY_Knux** (-12 pts)
 > In other words, you-knows-whos (an ideological choice, not a circumstance of birth) are bad people.
-> 
+>
