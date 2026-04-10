@@ -1,23 +1,19 @@
 {
-  "generated_at": "2026-04-09T07:29:41+00:00",
-  "reference_date": "2026-04-08",
+  "generated_at": "2026-04-10T07:52:38+00:00",
+  "reference_date": "2026-04-09",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
       "name_en": "Russia-Ukraine",
       "metrics": {
         "event_frequency": {
-          "today": 112,
-          "baseline": 28.4,
+          "today": 16,
+          "baseline": 43.9,
           "baseline_days": 7,
-          "delta_pct": 294,
-          "flag": "elevated",
+          "delta_pct": -64,
+          "flag": "depressed",
           "label": "事件频率",
           "histogram": [
-            {
-              "date": "2026-03-26",
-              "count": 0
-            },
             {
               "date": "2026-03-27",
               "count": 1
@@ -69,21 +65,21 @@
             {
               "date": "2026-04-08",
               "count": 112
+            },
+            {
+              "date": "2026-04-09",
+              "count": 16
             }
           ]
         },
         "critical_count": {
-          "today": 4,
-          "baseline": 0.3,
+          "today": 0,
+          "baseline": 0.9,
           "baseline_days": 7,
-          "delta_pct": 1300,
-          "flag": "elevated",
+          "delta_pct": -100,
+          "flag": "normal",
           "label": "关键事件",
           "histogram": [
-            {
-              "date": "2026-03-26",
-              "count": 0
-            },
             {
               "date": "2026-03-27",
               "count": 0
@@ -135,20 +131,23 @@
             {
               "date": "2026-04-08",
               "count": 4
+            },
+            {
+              "date": "2026-04-09",
+              "count": 0
             }
           ]
         },
         "escalation_trend": {
-          "today": 93,
-          "yesterday": 90,
-          "delta": 3,
+          "today": 91,
+          "yesterday": 93,
+          "delta": -2,
           "flag": "normal",
           "label": "升级指数"
         }
       },
       "warnings": [
-        "event_frequency",
-        "critical_count"
+        "event_frequency"
       ]
     },
     "israel-palestine": {
@@ -156,17 +155,13 @@
       "name_en": "Israel-Palestine",
       "metrics": {
         "event_frequency": {
-          "today": 105,
-          "baseline": 15.4,
+          "today": 62,
+          "baseline": 29.7,
           "baseline_days": 7,
-          "delta_pct": 581,
+          "delta_pct": 109,
           "flag": "elevated",
           "label": "事件频率",
           "histogram": [
-            {
-              "date": "2026-03-26",
-              "count": 1
-            },
             {
               "date": "2026-03-27",
               "count": 1
@@ -218,21 +213,21 @@
             {
               "date": "2026-04-08",
               "count": 105
+            },
+            {
+              "date": "2026-04-09",
+              "count": 62
             }
           ]
         },
         "critical_count": {
-          "today": 5,
-          "baseline": 0.0,
+          "today": 2,
+          "baseline": 0.7,
           "baseline_days": 7,
-          "delta_pct": 0,
-          "flag": "elevated",
+          "delta_pct": 180,
+          "flag": "normal",
           "label": "关键事件",
           "histogram": [
-            {
-              "date": "2026-03-26",
-              "count": 0
-            },
             {
               "date": "2026-03-27",
               "count": 0
@@ -284,20 +279,24 @@
             {
               "date": "2026-04-08",
               "count": 5
+            },
+            {
+              "date": "2026-04-09",
+              "count": 2
             }
           ]
         },
         "escalation_trend": {
-          "today": 79,
-          "yesterday": 72,
-          "delta": 7,
-          "flag": "normal",
+          "today": 92,
+          "yesterday": 79,
+          "delta": 13,
+          "flag": "rising",
           "label": "升级指数"
         }
       },
       "warnings": [
         "event_frequency",
-        "critical_count"
+        "escalation_trend"
       ]
     },
     "us-iran": {
@@ -305,17 +304,13 @@
       "name_en": "US-Iran",
       "metrics": {
         "event_frequency": {
-          "today": 220,
-          "baseline": 41.6,
+          "today": 54,
+          "baseline": 71.3,
           "baseline_days": 7,
-          "delta_pct": 429,
-          "flag": "elevated",
+          "delta_pct": -24,
+          "flag": "normal",
           "label": "事件频率",
           "histogram": [
-            {
-              "date": "2026-03-26",
-              "count": 3
-            },
             {
               "date": "2026-03-27",
               "count": 3
@@ -367,21 +362,21 @@
             {
               "date": "2026-04-08",
               "count": 220
+            },
+            {
+              "date": "2026-04-09",
+              "count": 54
             }
           ]
         },
         "critical_count": {
-          "today": 5,
-          "baseline": 0.1,
+          "today": 1,
+          "baseline": 0.9,
           "baseline_days": 7,
-          "delta_pct": 3400,
-          "flag": "elevated",
+          "delta_pct": 17,
+          "flag": "normal",
           "label": "关键事件",
           "histogram": [
-            {
-              "date": "2026-03-26",
-              "count": 0
-            },
             {
               "date": "2026-03-27",
               "count": 0
@@ -433,38 +428,35 @@
             {
               "date": "2026-04-08",
               "count": 5
+            },
+            {
+              "date": "2026-04-09",
+              "count": 1
             }
           ]
         },
         "escalation_trend": {
-          "today": 84,
-          "yesterday": 82,
-          "delta": 2,
+          "today": 92,
+          "yesterday": 84,
+          "delta": 8,
           "flag": "normal",
           "label": "升级指数"
         }
       },
-      "warnings": [
-        "event_frequency",
-        "critical_count"
-      ]
+      "warnings": []
     },
     "sudan": {
       "name": "苏丹内战",
       "name_en": "Sudan Civil War",
       "metrics": {
         "event_frequency": {
-          "today": 5,
-          "baseline": 1.3,
+          "today": 10,
+          "baseline": 2.0,
           "baseline_days": 7,
-          "delta_pct": 289,
+          "delta_pct": 400,
           "flag": "elevated",
           "label": "事件频率",
           "histogram": [
-            {
-              "date": "2026-03-26",
-              "count": 0
-            },
             {
               "date": "2026-03-27",
               "count": 0
@@ -516,21 +508,21 @@
             {
               "date": "2026-04-08",
               "count": 5
+            },
+            {
+              "date": "2026-04-09",
+              "count": 10
             }
           ]
         },
         "critical_count": {
-          "today": 2,
-          "baseline": 0.0,
+          "today": 1,
+          "baseline": 0.3,
           "baseline_days": 7,
-          "delta_pct": 0,
+          "delta_pct": 250,
           "flag": "normal",
           "label": "关键事件",
           "histogram": [
-            {
-              "date": "2026-03-26",
-              "count": 0
-            },
             {
               "date": "2026-03-27",
               "count": 0
@@ -582,12 +574,16 @@
             {
               "date": "2026-04-08",
               "count": 2
+            },
+            {
+              "date": "2026-04-09",
+              "count": 1
             }
           ]
         },
         "escalation_trend": {
-          "today": 49,
-          "yesterday": 41,
+          "today": 57,
+          "yesterday": 49,
           "delta": 8,
           "flag": "normal",
           "label": "升级指数"
@@ -602,17 +598,13 @@
       "name_en": "Myanmar Civil War",
       "metrics": {
         "event_frequency": {
-          "today": 6,
-          "baseline": 1.6,
+          "today": 5,
+          "baseline": 2.4,
           "baseline_days": 7,
-          "delta_pct": 282,
+          "delta_pct": 106,
           "flag": "elevated",
           "label": "事件频率",
           "histogram": [
-            {
-              "date": "2026-03-26",
-              "count": 0
-            },
             {
               "date": "2026-03-27",
               "count": 0
@@ -664,21 +656,21 @@
             {
               "date": "2026-04-08",
               "count": 6
+            },
+            {
+              "date": "2026-04-09",
+              "count": 5
             }
           ]
         },
         "critical_count": {
-          "today": 2,
-          "baseline": 0.3,
+          "today": 0,
+          "baseline": 0.6,
           "baseline_days": 7,
-          "delta_pct": 600,
+          "delta_pct": -100,
           "flag": "normal",
           "label": "关键事件",
           "histogram": [
-            {
-              "date": "2026-03-26",
-              "count": 0
-            },
             {
               "date": "2026-03-27",
               "count": 0
@@ -730,19 +722,24 @@
             {
               "date": "2026-04-08",
               "count": 2
+            },
+            {
+              "date": "2026-04-09",
+              "count": 0
             }
           ]
         },
         "escalation_trend": {
-          "today": 51,
-          "yesterday": 46,
-          "delta": 5,
-          "flag": "normal",
+          "today": 74,
+          "yesterday": 51,
+          "delta": 23,
+          "flag": "rising",
           "label": "升级指数"
         }
       },
       "warnings": [
-        "event_frequency"
+        "event_frequency",
+        "escalation_trend"
       ]
     },
     "yemen-houthi": {
@@ -750,17 +747,13 @@
       "name_en": "Yemen / Houthi",
       "metrics": {
         "event_frequency": {
-          "today": 1,
-          "baseline": 1.1,
+          "today": 11,
+          "baseline": 1.0,
           "baseline_days": 7,
-          "delta_pct": -12,
-          "flag": "normal",
+          "delta_pct": 1000,
+          "flag": "elevated",
           "label": "事件频率",
           "histogram": [
-            {
-              "date": "2026-03-26",
-              "count": 0
-            },
             {
               "date": "2026-03-27",
               "count": 3
@@ -812,11 +805,15 @@
             {
               "date": "2026-04-08",
               "count": 1
+            },
+            {
+              "date": "2026-04-09",
+              "count": 11
             }
           ]
         },
         "critical_count": {
-          "today": 0,
+          "today": 1,
           "baseline": 0.0,
           "baseline_days": 7,
           "delta_pct": 0,
@@ -824,10 +821,6 @@
           "label": "关键事件",
           "histogram": [
             {
-              "date": "2026-03-26",
-              "count": 0
-            },
-            {
               "date": "2026-03-27",
               "count": 0
             },
@@ -878,35 +871,38 @@
             {
               "date": "2026-04-08",
               "count": 0
+            },
+            {
+              "date": "2026-04-09",
+              "count": 1
             }
           ]
         },
         "escalation_trend": {
-          "today": 33,
-          "yesterday": 30,
-          "delta": 3,
-          "flag": "normal",
+          "today": 45,
+          "yesterday": 33,
+          "delta": 12,
+          "flag": "rising",
           "label": "升级指数"
         }
       },
-      "warnings": []
+      "warnings": [
+        "event_frequency",
+        "escalation_trend"
+      ]
     },
     "congo-drc": {
       "name": "刚果(金)冲突",
       "name_en": "Congo DRC / M23",
       "metrics": {
         "event_frequency": {
-          "today": 0,
+          "today": 3,
           "baseline": 0.7,
           "baseline_days": 7,
-          "delta_pct": -100,
-          "flag": "normal",
+          "delta_pct": 320,
+          "flag": "elevated",
           "label": "事件频率",
           "histogram": [
-            {
-              "date": "2026-03-26",
-              "count": 1
-            },
             {
               "date": "2026-03-27",
               "count": 0
@@ -958,6 +954,10 @@
             {
               "date": "2026-04-08",
               "count": 0
+            },
+            {
+              "date": "2026-04-09",
+              "count": 3
             }
           ]
         },
@@ -970,10 +970,6 @@
           "label": "关键事件",
           "histogram": [
             {
-              "date": "2026-03-26",
-              "count": 0
-            },
-            {
               "date": "2026-03-27",
               "count": 0
             },
@@ -1024,35 +1020,38 @@
             {
               "date": "2026-04-08",
               "count": 0
+            },
+            {
+              "date": "2026-04-09",
+              "count": 0
             }
           ]
         },
         "escalation_trend": {
-          "today": 47,
-          "yesterday": 44,
-          "delta": 3,
-          "flag": "normal",
+          "today": 25,
+          "yesterday": 47,
+          "delta": -22,
+          "flag": "falling",
           "label": "升级指数"
         }
       },
-      "warnings": []
+      "warnings": [
+        "event_frequency",
+        "escalation_trend"
+      ]
     },
     "syria": {
       "name": "叙利亚局势",
       "name_en": "Syria",
       "metrics": {
         "event_frequency": {
-          "today": 1,
-          "baseline": 1.1,
+          "today": 7,
+          "baseline": 1.3,
           "baseline_days": 7,
-          "delta_pct": -12,
-          "flag": "normal",
+          "delta_pct": 444,
+          "flag": "elevated",
           "label": "事件频率",
           "histogram": [
-            {
-              "date": "2026-03-26",
-              "count": 0
-            },
             {
               "date": "2026-03-27",
               "count": 0
@@ -1104,6 +1103,10 @@
             {
               "date": "2026-04-08",
               "count": 1
+            },
+            {
+              "date": "2026-04-09",
+              "count": 7
             }
           ]
         },
@@ -1115,10 +1118,6 @@
           "flag": "normal",
           "label": "关键事件",
           "histogram": [
-            {
-              "date": "2026-03-26",
-              "count": 0
-            },
             {
               "date": "2026-03-27",
               "count": 0
@@ -1170,35 +1169,37 @@
             {
               "date": "2026-04-08",
               "count": 0
+            },
+            {
+              "date": "2026-04-09",
+              "count": 0
             }
           ]
         },
         "escalation_trend": {
-          "today": 49,
-          "yesterday": 43,
-          "delta": 6,
+          "today": 40,
+          "yesterday": 49,
+          "delta": -9,
           "flag": "normal",
           "label": "升级指数"
         }
       },
-      "warnings": []
+      "warnings": [
+        "event_frequency"
+      ]
     },
     "taiwan-strait": {
       "name": "台海局势",
       "name_en": "Taiwan Strait",
       "metrics": {
         "event_frequency": {
-          "today": 10,
-          "baseline": 2.3,
+          "today": 7,
+          "baseline": 3.7,
           "baseline_days": 7,
-          "delta_pct": 338,
-          "flag": "elevated",
+          "delta_pct": 88,
+          "flag": "normal",
           "label": "事件频率",
           "histogram": [
-            {
-              "date": "2026-03-26",
-              "count": 0
-            },
             {
               "date": "2026-03-27",
               "count": 0
@@ -1250,21 +1251,21 @@
             {
               "date": "2026-04-08",
               "count": 10
+            },
+            {
+              "date": "2026-04-09",
+              "count": 7
             }
           ]
         },
         "critical_count": {
-          "today": 0,
+          "today": 1,
           "baseline": 0.0,
           "baseline_days": 7,
           "delta_pct": 0,
           "flag": "normal",
           "label": "关键事件",
           "histogram": [
-            {
-              "date": "2026-03-26",
-              "count": 0
-            },
             {
               "date": "2026-03-27",
               "count": 0
@@ -1316,25 +1317,26 @@
             {
               "date": "2026-04-08",
               "count": 0
+            },
+            {
+              "date": "2026-04-09",
+              "count": 1
             }
           ]
         },
         "escalation_trend": {
-          "today": 56,
-          "yesterday": 38,
-          "delta": 18,
-          "flag": "rising",
+          "today": 62,
+          "yesterday": 56,
+          "delta": 6,
+          "flag": "normal",
           "label": "升级指数"
         }
       },
-      "warnings": [
-        "event_frequency",
-        "escalation_trend"
-      ]
+      "warnings": []
     }
   },
-  "total_warnings": 10,
-  "flagged_conflicts": 6,
+  "total_warnings": 11,
+  "flagged_conflicts": 7,
   "thresholds": {
     "elevated_ratio": 2.0,
     "depressed_ratio": 0.5,
