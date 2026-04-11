@@ -5,7 +5,7 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 10 Apr 2026 07:52:16 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2026 07:11:25 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>[俄乌战争] 乌克兰-俄罗斯战争最新消息：乌克兰秘密部队袭击……</title>
@@ -126,6 +126,16 @@
       <category>俄乌战争</category>
       <category>外交谈判</category>
       <source url="https://reliefweb.int/report/world/declaracion-conjunta-de-los-directores-del-fondo-monetario-internacional-el-grupo-banco-mundial-y-el-programa-mundial-de-alimentos">ReliefWeb</source>
+    </item>
+    <item>
+      <title>[俄乌战争] RUSSIA → UKRAINIAN : Arrest, detain, or charge with legal action (Ukraine)</title>
+      <link>https://www.dailymaverick.co.za/article/2026-04-09-geopolitical-legal-iceberg-former-australian-pm-abbott-linked-to-antarctic-land-claim-pitch/</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: RUSSIA / UKRAINIAN. Location: Ukraine. Goldstein Scale: -5.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.dailymaverick.co.za/article/2026-04-09-geopolitical-legal-iceberg-former-australian-pm-abbott-linked-to-antarctic-land-claim-pitch/</guid>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>外交谈判</category>
+      <source url="https://www.dailymaverick.co.za/article/2026-04-09-geopolitical-legal-iceberg-former-australian-pm-abbott-linked-to-antarctic-land-claim-pitch/">dailymaverick.co.za</source>
     </item>
     <item>
       <title>[俄乌战争] 俄羅斯實際上打算吞併烏克蘭多少領土……</title>
@@ -328,6 +338,46 @@
       <source url="https://www.jpost.com/israel-news/sports/article-892405">Jerusalem Post</source>
     </item>
     <item>
+      <title>[巴以冲突] HOSPITAL → AUTHORITIES : Use conventional military force, not specified below (Bekaa Valley, Béa, Lebanon)</title>
+      <link>http://www.bignewsnetwork.com/news/278974234/israel-extends-evacuation-order-in-lebanon-for-hospital-refugee-camps-humanitarian-offices-un</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: HOSPITAL / AUTHORITIES. Location: Bekaa Valley, Béa, Lebanon. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">http://www.bignewsnetwork.com/news/278974234/israel-extends-evacuation-order-in-lebanon-for-hospital-refugee-camps-humanitarian-offices-un</guid>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="http://www.bignewsnetwork.com/news/278974234/israel-extends-evacuation-order-in-lebanon-for-hospital-refugee-camps-humanitarian-offices-un">bignewsnetwork.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] MISSOURI → SCHOOL : Use conventional military force, not specified below (Israel)</title>
+      <link>https://www.kctv5.com/2026/04/09/bill-combat-antisemitism-public-schools-sent-missouri-governor/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: MISSOURI / SCHOOL. Location: Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.</description>
+      <guid isPermaLink="true">https://www.kctv5.com/2026/04/09/bill-combat-antisemitism-public-schools-sent-missouri-governor/</guid>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.kctv5.com/2026/04/09/bill-combat-antisemitism-public-schools-sent-missouri-governor/">kctv5.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] GAZA → CIVILIAN : Use conventional military force, not specified below (Gaza, Israel (general), Israel)</title>
+      <link>https://www.jpost.com/middle-east/article-892559</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: GAZA / CIVILIAN. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://www.jpost.com/middle-east/article-892559</guid>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.jpost.com/middle-east/article-892559">jpost.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] LEBANON → AUTHORITIES : Use conventional military force, not specified below (Tel Aviv, Tel Aviv, Israel)</title>
+      <link>http://www.bignewsnetwork.com/news/278974326/israeli-military-says-air-raid-sirens-sound-in-central-israel</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: LEBANON / AUTHORITIES. Location: Tel Aviv, Tel Aviv, Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">http://www.bignewsnetwork.com/news/278974326/israeli-military-says-air-raid-sirens-sound-in-central-israel</guid>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="http://www.bignewsnetwork.com/news/278974326/israeli-military-says-air-raid-sirens-sound-in-central-israel">bignewsnetwork.com</source>
+    </item>
+    <item>
       <title>[巴以冲突] 澳大利亚：国防部长质疑伊朗对黎巴嫩停火协议的立场</title>
       <link>https://www.theguardian.com/australia-news/live/2026/apr/09/anthony-albanese-singapore-visit-fuel-crisis-middle-east-ceasefire-lebanon-strikes-politics-labor-coalition-reactions-ntwnfb</link>
       <description>澳大利亚影子国防部长詹姆斯·帕特森对伊朗在黎巴嫩停火协议中的参与表示质疑，他对听取伊朗在此问题上的意见持保留态度。新闻还包括ASX预计下滑以及新南威尔士州一宗冷案谋杀悬赏100万澳元。</description>
@@ -456,56 +506,6 @@
       <category>巴以冲突</category>
       <category>外交谈判</category>
       <source url="https://www.aljazeera.com/video/newsfeed/2026/4/9/protesters-outside-israeli-embassy-in-london-condemn-assault-on-lebanon?traffic_source=rss">Al Jazeera</source>
-    </item>
-    <item>
-      <title>[巴以冲突] 万斯：黎巴嫩不属于美伊停火协议</title>
-      <link>https://www.aljazeera.com/video/newsfeed/2026/4/9/us-vp-jd-vance-says-lebanon-is-not-part-of-the-us-iran-ceasefire?traffic_source=rss</link>
-      <description>美国副总统JD·万斯表示，黎巴嫩不属于美国和伊朗之间的停火协议范围。该表态暗示美国与伊朗的潜在协议不包括黎巴嫩真主党，以及以色列北部地区的安全。</description>
-      <guid isPermaLink="true">https://www.aljazeera.com/video/newsfeed/2026/4/9/us-vp-jd-vance-says-lebanon-is-not-part-of-the-us-iran-ceasefire?traffic_source=rss</guid>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>外交谈判</category>
-      <source url="https://www.aljazeera.com/video/newsfeed/2026/4/9/us-vp-jd-vance-says-lebanon-is-not-part-of-the-us-iran-ceasefire?traffic_source=rss">Al Jazeera</source>
-    </item>
-    <item>
-      <title>[巴以冲突] 联合国谴责以色列袭击黎巴嫩</title>
-      <link>https://www.aljazeera.com/news/liveblog/2026/4/9/iran-war-live-israel-kills-254-in-lebanon-shaking-trump-tehran-ceasefire?traffic_source=rss</link>
-      <description>联合国人权事务负责人沃尔克·图尔克谴责以色列袭击黎巴嫩，称在停火后不久发生此类事件是“可怕的”。摘要中未提及特朗普或伊朗协议，因此不涉及美伊冲突。</description>
-      <guid isPermaLink="true">https://www.aljazeera.com/news/liveblog/2026/4/9/iran-war-live-israel-kills-254-in-lebanon-shaking-trump-tehran-ceasefire?traffic_source=rss</guid>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>外交谈判</category>
-      <source url="https://www.aljazeera.com/news/liveblog/2026/4/9/iran-war-live-israel-kills-254-in-lebanon-shaking-trump-tehran-ceasefire?traffic_source=rss">Al Jazeera</source>
-    </item>
-    <item>
-      <title>[巴以冲突] 法国谴责以色列袭击黎巴嫩</title>
-      <link>https://www.middleeasteye.net/live-blog/live-blog-update/french-minister-condemns-israeli-blitz-lebanon-says-it-undermines-truce</link>
-      <description>法国外长强烈谴责以色列对黎巴嫩的袭击，称其“不可容忍”，并表示这些袭击“破坏了昨天达成的临时停火协议”。让-诺埃尔·巴罗在法国国际广播电台表示。</description>
-      <guid isPermaLink="true">https://www.middleeasteye.net/live-blog/live-blog-update/french-minister-condemns-israeli-blitz-lebanon-says-it-undermines-truce</guid>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>外交谈判</category>
-      <source url="https://www.middleeasteye.net/live-blog/live-blog-update/french-minister-condemns-israeli-blitz-lebanon-says-it-undermines-truce">Middle East Eye</source>
-    </item>
-    <item>
-      <title>[巴以冲突] 伊朗外长：美国不能既要又要</title>
-      <link>https://www.middleeasteye.net/live-blog/live-blog-update/iranian-minister-us-you-cannot-have-cake-and-eat-it-same-time</link>
-      <description>伊朗外交部副部长表示，美国不能一方面要求停火，另一方面其盟友却发动大屠杀。他指的是以色列对黎巴嫩的袭击，该袭击已造成超过250人死亡。伊朗认为美国对以色列在黎巴嫩的军事行动持支持态度，因此不能同时要求停火。</description>
-      <guid isPermaLink="true">https://www.middleeasteye.net/live-blog/live-blog-update/iranian-minister-us-you-cannot-have-cake-and-eat-it-same-time</guid>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>外交谈判</category>
-      <source url="https://www.middleeasteye.net/live-blog/live-blog-update/iranian-minister-us-you-cannot-have-cake-and-eat-it-same-time">Middle East Eye</source>
-    </item>
-    <item>
-      <title>[巴以冲突] 英国外交大臣：以色列袭击黎巴嫩造成“深度破坏”</title>
-      <link>https://www.middleeasteye.net/live-blog/live-blog-update/uk-foreign-minister-says-israeli-assault-lebanon-deeply-damaging</link>
-      <description>英国外交大臣伊薇特·库珀表示，以色列周三对黎巴嫩的袭击造成了“深度破坏”，并强调需要解决该地区的敌对行动。“我们希望看到黎巴嫩被纳入停火协议中。”以黎冲突升级，英国呼吁停火。</description>
-      <guid isPermaLink="true">https://www.middleeasteye.net/live-blog/live-blog-update/uk-foreign-minister-says-israeli-assault-lebanon-deeply-damaging</guid>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>外交谈判</category>
-      <source url="https://www.middleeasteye.net/live-blog/live-blog-update/uk-foreign-minister-says-israeli-assault-lebanon-deeply-damaging">Middle East Eye</source>
     </item>
   </channel>
 </rss>
