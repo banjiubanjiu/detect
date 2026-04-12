@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-11T07:11:47+00:00Z",
+  "updated_at": "2026-04-12T07:25:23.034415+00:00",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -9878,6 +9878,72 @@
                 "geo_lat": 31.9696,
                 "geo_lon": 35.1941,
                 "geo_name": "Birzeit, West Bank (general), West Bank"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1298766437",
+              "title": "ISRAEL → nan : Fight with small arms and light weapons (Beqaa, Béa, Lebanon)",
+              "title_en": "ISRAEL → nan : Fight with small arms and light weapons (Beqaa, Béa, Lebanon)",
+              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: ISRAEL / nan. Location: Beqaa, Béa, Lebanon. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: ISRAEL / nan. Location: Beqaa, Béa, Lebanon. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "sana.sy",
+              "date": "2026-04-11",
+              "url": "https://sana.sy/en/international/2309790/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1298766437",
+                "event_code": "193",
+                "cameo_desc": "Fight with small arms and light weapons",
+                "actor1": "ISRAEL",
+                "actor2": "nan",
+                "actor1_country": "ISR",
+                "actor2_country": "nan",
+                "geo_lat": 33.6667,
+                "geo_lon": 35.8333,
+                "geo_name": "Beqaa, Béa, Lebanon"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1298766439",
+              "title": "ISRAEL → WORKER : Physically assault, not specified below (Lebanon)",
+              "title_en": "ISRAEL → WORKER : Physically assault, not specified below (Lebanon)",
+              "summary": "GDELT Event: Physically assault, not specified below. Actors: ISRAEL / WORKER. Location: Lebanon. Goldstein Scale: -9.5. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Physically assault, not specified below. Actors: ISRAEL / WORKER. Location: Lebanon. Goldstein Scale: -9.5. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "channelnewsasia.com",
+              "date": "2026-04-11",
+              "url": "https://www.channelnewsasia.com/world/un-demands-accountability-violations-rules-war-in-mideast-6051121",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -9.5
+              },
+              "gdelt_meta": {
+                "event_id": "1298766439",
+                "event_code": "182",
+                "cameo_desc": "Physically assault, not specified below",
+                "actor1": "ISRAEL",
+                "actor2": "WORKER",
+                "actor1_country": "ISR",
+                "actor2_country": "nan",
+                "geo_lat": 33.833333,
+                "geo_lon": 35.833333,
+                "geo_name": "Lebanon"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -24443,6 +24509,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1298766431",
+              "title": "IRANIAN → EMBASSY : Demonstrate or rally (Canada)",
+              "title_en": "IRANIAN → EMBASSY : Demonstrate or rally (Canada)",
+              "summary": "GDELT Event: Demonstrate or rally. Actors: IRANIAN / EMBASSY. Location: Canada. Goldstein Scale: -6.5. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Demonstrate or rally. Actors: IRANIAN / EMBASSY. Location: Canada. Goldstein Scale: -6.5. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "cbc.ca",
+              "date": "2026-04-11",
+              "url": "https://www.cbc.ca/news/canada/ottawa/iranian-demonstrators-in-ottawa-hope-the-u-s-doesn-t-leave-them-behind-9.7160608",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -6.5
+              },
+              "gdelt_meta": {
+                "event_id": "1298766431",
+                "event_code": "141",
+                "cameo_desc": "Demonstrate or rally",
+                "actor1": "IRANIAN",
+                "actor2": "EMBASSY",
+                "actor1_country": "IRN",
+                "actor2_country": "nan",
+                "geo_lat": 60.0,
+                "geo_lon": -96.0,
+                "geo_name": "Canada"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -26922,6 +27021,40 @@
                 "geo_lat": 47.6,
                 "geo_lon": 8.1,
                 "geo_name": "Hohenfels, Baden-Wüberg, Germany"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3",
+              "criticality": "background"
+            },
+            {
+              "id": "gdelt_1298766633",
+              "title": "YEMEN → CONGRESS : Assassinate (Bayda, Al Ma?wit, Yemen)",
+              "title_en": "YEMEN → CONGRESS : Assassinate (Bayda, Al Ma?wit, Yemen)",
+              "summary": "GDELT Event: Assassinate. Actors: YEMEN / CONGRESS. Location: Bayda, Al Ma?wit, Yemen. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Assassinate. Actors: YEMEN / CONGRESS. Location: Bayda, Al Ma?wit, Yemen. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "khabaragency.net",
+              "date": "2026-04-11",
+              "url": "https://www.khabaragency.net/news246338.html",
+              "primary_conflict": "yemen-houthi",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1298766633",
+                "event_code": "186",
+                "cameo_desc": "Assassinate",
+                "actor1": "YEMEN",
+                "actor2": "CONGRESS",
+                "actor1_country": "YEM",
+                "actor2_country": "nan",
+                "geo_lat": 15.3333,
+                "geo_lon": 43.3,
+                "geo_name": "Bayda, Al Ma?wit, Yemen"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -29633,17 +29766,17 @@
     }
   },
   "stats": {
-    "total_items": 1594,
+    "total_items": 1598,
     "sources": {
       "web": 1264,
       "reddit": 102,
       "x": 68,
-      "gdelt": 98,
+      "gdelt": 102,
       "youtube": 62
     },
     "date_range": {
-      "from": "2026-03-15",
-      "to": "2026-04-10"
+      "from": "2026-03-13",
+      "to": "2026-04-12"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
