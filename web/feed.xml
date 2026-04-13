@@ -5,8 +5,48 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 12 Apr 2026 07:25:01 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 08:15:09 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[巴以冲突] ISRAEL → nan : Fight with small arms and light weapons (Beqaa, Béa, Lebanon)</title>
+      <link>https://sana.sy/en/international/2309790/</link>
+      <description>GDELT Event: Fight with small arms and light weapons. Actors: ISRAEL / nan. Location: Beqaa, Béa, Lebanon. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://sana.sy/en/international/2309790/</guid>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://sana.sy/en/international/2309790/">sana.sy</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAEL → WORKER : Physically assault, not specified below (Lebanon)</title>
+      <link>https://www.channelnewsasia.com/world/un-demands-accountability-violations-rules-war-in-mideast-6051121</link>
+      <description>GDELT Event: Physically assault, not specified below. Actors: ISRAEL / WORKER. Location: Lebanon. Goldstein Scale: -9.5. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.channelnewsasia.com/world/un-demands-accountability-violations-rules-war-in-mideast-6051121</guid>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.channelnewsasia.com/world/un-demands-accountability-violations-rules-war-in-mideast-6051121">channelnewsasia.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] IRANIAN → EMBASSY : Demonstrate or rally (Canada)</title>
+      <link>https://www.cbc.ca/news/canada/ottawa/iranian-demonstrators-in-ottawa-hope-the-u-s-doesn-t-leave-them-behind-9.7160608</link>
+      <description>GDELT Event: Demonstrate or rally. Actors: IRANIAN / EMBASSY. Location: Canada. Goldstein Scale: -6.5. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.cbc.ca/news/canada/ottawa/iranian-demonstrators-in-ottawa-hope-the-u-s-doesn-t-leave-them-behind-9.7160608</guid>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>舆论热点</category>
+      <source url="https://www.cbc.ca/news/canada/ottawa/iranian-demonstrators-in-ottawa-hope-the-u-s-doesn-t-leave-them-behind-9.7160608">cbc.ca</source>
+    </item>
+    <item>
+      <title>[也门/胡塞武装] YEMEN → CONGRESS : Assassinate (Bayda, Al Ma?wit, Yemen)</title>
+      <link>https://www.khabaragency.net/news246338.html</link>
+      <description>GDELT Event: Assassinate. Actors: YEMEN / CONGRESS. Location: Bayda, Al Ma?wit, Yemen. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.khabaragency.net/news246338.html</guid>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
+      <category>也门/胡塞武装</category>
+      <category>军事动态</category>
+      <source url="https://www.khabaragency.net/news246338.html">khabaragency.net</source>
+    </item>
     <item>
       <title>[俄乌战争] IRAN → UKRAINE : Use conventional military force, not specified below (Shahed, Fars, Iran)</title>
       <link>https://www.breitbart.com/national-security/2026/04/10/zelensky-reveals-ukrainian-forces-shot-down-iranian-drones-in-middle-east/</link>
@@ -466,46 +506,6 @@
       <category>巴以冲突</category>
       <category>军事动态</category>
       <source url="https://www.jpost.com/middle-east/article-892559">jpost.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] LEBANON → AUTHORITIES : Use conventional military force, not specified below (Tel Aviv, Tel Aviv, Israel)</title>
-      <link>http://www.bignewsnetwork.com/news/278974326/israeli-military-says-air-raid-sirens-sound-in-central-israel</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: LEBANON / AUTHORITIES. Location: Tel Aviv, Tel Aviv, Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">http://www.bignewsnetwork.com/news/278974326/israeli-military-says-air-raid-sirens-sound-in-central-israel</guid>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="http://www.bignewsnetwork.com/news/278974326/israeli-military-says-air-raid-sirens-sound-in-central-israel">bignewsnetwork.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] 澳大利亚：国防部长质疑伊朗对黎巴嫩停火协议的立场</title>
-      <link>https://www.theguardian.com/australia-news/live/2026/apr/09/anthony-albanese-singapore-visit-fuel-crisis-middle-east-ceasefire-lebanon-strikes-politics-labor-coalition-reactions-ntwnfb</link>
-      <description>澳大利亚影子国防部长詹姆斯·帕特森对伊朗在黎巴嫩停火协议中的参与表示质疑，他对听取伊朗在此问题上的意见持保留态度。新闻还包括ASX预计下滑以及新南威尔士州一宗冷案谋杀悬赏100万澳元。</description>
-      <guid isPermaLink="true">https://www.theguardian.com/australia-news/live/2026/apr/09/anthony-albanese-singapore-visit-fuel-crisis-middle-east-ceasefire-lebanon-strikes-politics-labor-coalition-reactions-ntwnfb</guid>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>外交谈判</category>
-      <source url="https://www.theguardian.com/australia-news/live/2026/apr/09/anthony-albanese-singapore-visit-fuel-crisis-middle-east-ceasefire-lebanon-strikes-politics-labor-coalition-reactions-ntwnfb">The Guardian</source>
-    </item>
-    <item>
-      <title>[巴以冲突] 美伊停火协议面临考验</title>
-      <link>https://www.nytimes.com/live/2026/04/08/world/iran-war-trump-news</link>
-      <description>尽管霍尔木兹海峡的局势尚不明朗，且美伊官员都威胁称，如果停火协议破裂，将恢复袭击，但两国都有理由希望停火协议能够维持下去。黎巴嫩也遭受了袭击，局势复杂。</description>
-      <guid isPermaLink="true">https://www.nytimes.com/live/2026/04/08/world/iran-war-trump-news</guid>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>外交谈判</category>
-      <source url="https://www.nytimes.com/live/2026/04/08/world/iran-war-trump-news">NYT World</source>
-    </item>
-    <item>
-      <title>[巴以冲突] 内塔尼亚胡曾向特朗普兜售对伊战争？</title>
-      <link>https://www.jpost.com/middle-east/iran-news/article-892403</link>
-      <description>一份报告称，内塔尼亚胡曾“极力推销”攻击伊朗，并提出了若干关于新伊朗领导人的方案，以便在现政权倒台后接管。报告暗示内塔尼亚胡政府曾积极游说美国对伊朗采取军事行动。</description>
-      <guid isPermaLink="true">https://www.jpost.com/middle-east/iran-news/article-892403</guid>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>外交谈判</category>
-      <source url="https://www.jpost.com/middle-east/iran-news/article-892403">Jerusalem Post</source>
     </item>
   </channel>
 </rss>
