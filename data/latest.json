@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-13T08:15:30.009090+00:00",
+  "updated_at": "2026-04-14T07:59:04+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -3557,6 +3557,39 @@
                 "geo_lat": 49.0,
                 "geo_lon": 32.0,
                 "geo_name": "Ukraine"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1299032327",
+              "title": "ADMINISTRATION → MILITARY : Use conventional military force, not specified below (Russia)",
+              "title_en": "ADMINISTRATION → MILITARY : Use conventional military force, not specified below (Russia)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: ADMINISTRATION / MILITARY. Location: Russia. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: ADMINISTRATION / MILITARY. Location: Russia. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "source": "gdelt",
+              "source_label": "newswire.co.nz",
+              "date": "2026-04-13",
+              "url": "https://newswire.co.nz/2026/04/former-cia-chief-says-new-zealand-is-probably-withholding-intelligence-from-the-united-states/",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 3,
+                "sources": 1,
+                "articles": 3,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1299032327",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "ADMINISTRATION",
+                "actor2": "MILITARY",
+                "actor1_country": "nan",
+                "actor2_country": "nan",
+                "geo_lat": 60.0,
+                "geo_lon": 100.0,
+                "geo_name": "Russia"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -10146,6 +10179,72 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1299032159",
+              "title": "CIVILIAN → ISRAEL : Fight with artillery and tanks (Israel)",
+              "title_en": "CIVILIAN → ISRAEL : Fight with artillery and tanks (Israel)",
+              "summary": "GDELT Event: Fight with artillery and tanks. Actors: CIVILIAN / ISRAEL. Location: Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Fight with artillery and tanks. Actors: CIVILIAN / ISRAEL. Location: Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "independentsentinel.com",
+              "date": "2026-04-13",
+              "url": "https://www.independentsentinel.com/the-pope-ignores-the-hezbollah-attacks/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1299032159",
+                "event_code": "194",
+                "cameo_desc": "Fight with artillery and tanks",
+                "actor1": "CIVILIAN",
+                "actor2": "ISRAEL",
+                "actor1_country": "nan",
+                "actor2_country": "ISR",
+                "geo_lat": 31.5,
+                "geo_lon": 34.75,
+                "geo_name": "Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1299032668",
+              "title": "FIGHTER → ISRAELI : Use conventional military force, not specified below (Lebanon)",
+              "title_en": "FIGHTER → ISRAELI : Use conventional military force, not specified below (Lebanon)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: FIGHTER / ISRAELI. Location: Lebanon. Goldstein Scale: -10.0. Mentioned in 7 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: FIGHTER / ISRAELI. Location: Lebanon. Goldstein Scale: -10.0. Mentioned in 7 sources.",
+              "source": "gdelt",
+              "source_label": "hindustantimes.com",
+              "date": "2026-04-13",
+              "url": "https://www.hindustantimes.com/world-news/apologise-for-lies-trump-slams-nyt-over-iran-war-coverage-insists-iran-obliterated-101776118051662.html",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 7,
+                "sources": 1,
+                "articles": 7,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1299032668",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "FIGHTER",
+                "actor2": "ISRAELI",
+                "actor1_country": "nan",
+                "actor2_country": "ISR",
+                "geo_lat": 33.833333,
+                "geo_lon": 35.833333,
+                "geo_name": "Lebanon"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -13146,6 +13245,72 @@
                 "geo_lat": 31.4167,
                 "geo_lon": 34.3333,
                 "geo_name": "Gaza, Israel (general), Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1299032824",
+              "title": "NEW YORK → ISRAEL : Obstruct passage, block (Manhattan, New York, United States)",
+              "title_en": "NEW YORK → ISRAEL : Obstruct passage, block (Manhattan, New York, United States)",
+              "summary": "GDELT Event: Obstruct passage, block. Actors: NEW YORK / ISRAEL. Location: Manhattan, New York, United States. Goldstein Scale: -7.5. Mentioned in 8 sources.",
+              "summary_en": "GDELT Event: Obstruct passage, block. Actors: NEW YORK / ISRAEL. Location: Manhattan, New York, United States. Goldstein Scale: -7.5. Mentioned in 8 sources.",
+              "source": "gdelt",
+              "source_label": "jns.org",
+              "date": "2026-04-13",
+              "url": "https://www.jns.org/news/u-s-news/arrests-made-after-anti-israel-protesters-block-manhattan-street-near-schumers-office",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 8,
+                "sources": 1,
+                "articles": 8,
+                "goldstein": -7.5
+              },
+              "gdelt_meta": {
+                "event_id": "1299032824",
+                "event_code": "144",
+                "cameo_desc": "Obstruct passage, block",
+                "actor1": "NEW YORK",
+                "actor2": "ISRAEL",
+                "actor1_country": "USA",
+                "actor2_country": "ISR",
+                "geo_lat": 40.7834,
+                "geo_lon": -73.9662,
+                "geo_name": "Manhattan, New York, United States"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1299032613",
+              "title": "PROTESTER → NEW YORK : Obstruct passage, block (Lebanon)",
+              "title_en": "PROTESTER → NEW YORK : Obstruct passage, block (Lebanon)",
+              "summary": "GDELT Event: Obstruct passage, block. Actors: PROTESTER / NEW YORK. Location: Lebanon. Goldstein Scale: -7.5. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Obstruct passage, block. Actors: PROTESTER / NEW YORK. Location: Lebanon. Goldstein Scale: -7.5. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "nbcnewyork.com",
+              "date": "2026-04-13",
+              "url": "https://www.nbcnewyork.com/news/local/schumer-gillibrand-nyc-protest-arrests/6489351/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -7.5
+              },
+              "gdelt_meta": {
+                "event_id": "1299032613",
+                "event_code": "144",
+                "cameo_desc": "Obstruct passage, block",
+                "actor1": "PROTESTER",
+                "actor2": "NEW YORK",
+                "actor1_country": "nan",
+                "actor2_country": "USA",
+                "geo_lat": 33.833333,
+                "geo_lon": 35.833333,
+                "geo_name": "Lebanon"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -30130,16 +30295,16 @@
     }
   },
   "stats": {
-    "total_items": 1609,
+    "total_items": 1614,
     "sources": {
       "web": 1264,
       "reddit": 102,
       "x": 68,
-      "gdelt": 113,
+      "gdelt": 118,
       "youtube": 62
     },
     "date_range": {
-      "from": "2026-03-14",
+      "from": "2026-03-15",
       "to": "2026-04-13"
     }
   },
