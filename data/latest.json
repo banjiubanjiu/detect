@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-14T07:59:04+00:00Z",
+  "updated_at": "2026-04-15T07:59:19+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -4797,23 +4797,6 @@
               "admiralty_code": "D4"
             },
             {
-              "id": "reddit_worldnews_ceasefire",
-              "title": "俄罗斯拒绝特朗普50天停火要求",
-              "summary": "俄罗斯拒绝了特朗普提出的在50天内实现停火的要求，称其条件不可接受。",
-              "source": "reddit",
-              "source_label": "r/worldnews",
-              "date": "2026-03-15",
-              "url": "https://www.reddit.com/r/worldnews/comments/1m0knl6/",
-              "local_file": "sources/reddit/www.reddit.com_r_worldnews_comments_1m0knl6.md",
-              "metrics": {
-                "comments": 1314
-              },
-              "criticality": "background",
-              "admiralty_source": "D",
-              "admiralty_info": 4,
-              "admiralty_code": "D4"
-            },
-            {
               "id": "gdelt_1298269539",
               "title": "RUSSIAN → KYIV : Destroy property (Budapest, Budapest, Hungary)",
               "title_en": "RUSSIAN → KYIV : Destroy property (Budapest, Budapest, Hungary)",
@@ -6593,21 +6576,6 @@
               "admiralty_source": "B",
               "admiralty_info": 3,
               "admiralty_code": "B3"
-            },
-            {
-              "id": "web_atlantic",
-              "title": "大西洋理事会：2026年战争将如何变化",
-              "summary": "深度分析莫斯科加大攻击力度与乌克兰远程打击的战略博弈。",
-              "source": "web",
-              "source_label": "Atlantic Council",
-              "date": "2026-03-15",
-              "url": "https://www.atlanticcouncil.org/event/how-might-russias-war-on-ukraine-change-in-2026/",
-              "local_file": "sources/web/www.atlanticcouncil.org_event_how-might-russias-war-on-ukraine-change-in-2026.md",
-              "metrics": {},
-              "criticality": "background",
-              "admiralty_source": "A",
-              "admiralty_info": 2,
-              "admiralty_code": "A2"
             }
           ]
         },
@@ -10245,6 +10213,105 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1299219657",
+              "title": "CONGRESSMAN → ISRAEL : Use conventional military force, not specified below (United States)",
+              "title_en": "CONGRESSMAN → ISRAEL : Use conventional military force, not specified below (United States)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: CONGRESSMAN / ISRAEL. Location: United States. Goldstein Scale: -10.0. Mentioned in 5 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: CONGRESSMAN / ISRAEL. Location: United States. Goldstein Scale: -10.0. Mentioned in 5 sources.",
+              "source": "gdelt",
+              "source_label": "timesfreepress.com",
+              "date": "2026-04-14",
+              "url": "http://www.timesfreepress.com/news/2026/apr/14/shawn-harris-trump-as-jesus-orban-ousted-and-more/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 5,
+                "sources": 1,
+                "articles": 5,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1299219657",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "CONGRESSMAN",
+                "actor2": "ISRAEL",
+                "actor1_country": "nan",
+                "actor2_country": "ISR",
+                "geo_lat": 39.828175,
+                "geo_lon": -98.5795,
+                "geo_name": "United States"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1299219572",
+              "title": "ISRAEL → IRAN : Use conventional military force, not specified below (Israel)",
+              "title_en": "ISRAEL → IRAN : Use conventional military force, not specified below (Israel)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / IRAN. Location: Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / IRAN. Location: Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "independent.co.uk",
+              "date": "2026-04-14",
+              "url": "https://www.independent.co.uk/news/world/middle-east/lebanon-israel-talks-us-washington-hezbollah-b2957669.html",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1299219572",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "ISRAEL",
+                "actor2": "IRAN",
+                "actor1_country": "ISR",
+                "actor2_country": "IRN",
+                "geo_lat": 31.5,
+                "geo_lon": 34.75,
+                "geo_name": "Israel"
+              },
+              "admiralty_source": "B",
+              "admiralty_info": 3,
+              "admiralty_code": "B3"
+            },
+            {
+              "id": "gdelt_1299219571",
+              "title": "ISRAEL → IRAN : Use conventional military force, not specified below (Iran)",
+              "title_en": "ISRAEL → IRAN : Use conventional military force, not specified below (Iran)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / IRAN. Location: Iran. Goldstein Scale: -10.0. Mentioned in 1 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / IRAN. Location: Iran. Goldstein Scale: -10.0. Mentioned in 1 sources.",
+              "source": "gdelt",
+              "source_label": "truthout.org",
+              "date": "2026-04-14",
+              "url": "https://truthout.org/articles/mass-action-targets-schumer-and-gillibrand-ahead-of-senate-vote-on-israel-aid/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 1,
+                "sources": 1,
+                "articles": 1,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1299219571",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "ISRAEL",
+                "actor2": "IRAN",
+                "actor1_country": "ISR",
+                "actor2_country": "IRN",
+                "geo_lat": 32.0,
+                "geo_lon": 53.0,
+                "geo_name": "Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -13311,6 +13378,39 @@
                 "geo_lat": 33.833333,
                 "geo_lon": 35.833333,
                 "geo_name": "Lebanon"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1299219579",
+              "title": "ISRAEL → GAZA : Demonstrate or rally (Michigan, United States)",
+              "title_en": "ISRAEL → GAZA : Demonstrate or rally (Michigan, United States)",
+              "summary": "GDELT Event: Demonstrate or rally. Actors: ISRAEL / GAZA. Location: Michigan, United States. Goldstein Scale: -6.5. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Demonstrate or rally. Actors: ISRAEL / GAZA. Location: Michigan, United States. Goldstein Scale: -6.5. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "bridgemi.com",
+              "date": "2026-04-14",
+              "url": "https://bridgemi.com/talent-education/antisemitism-islamophobia-claims-roil-u-m-board-of-regents-race/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -6.5
+              },
+              "gdelt_meta": {
+                "event_id": "1299219579",
+                "event_code": "141",
+                "cameo_desc": "Demonstrate or rally",
+                "actor1": "ISRAEL",
+                "actor2": "GAZA",
+                "actor1_country": "ISR",
+                "actor2_country": "PSE",
+                "geo_lat": 43.3504,
+                "geo_lon": -84.5603,
+                "geo_name": "Michigan, United States"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -17014,26 +17114,6 @@
               "admiralty_code": "D4"
             },
             {
-              "id": "x_2033290874776416630",
-              "title": "分析人士担心在中国和美国之间，中国即将入侵台湾……",
-              "summary": "突发新闻：\n\n分析人士担心，在美国因海湾地区局势分心，深陷与伊朗的战争之际，中国即将入侵台湾。\n\n台湾国防部侦测到26架中国军机在台湾附近活动。",
-              "source": "x",
-              "source_label": "@lorddrey",
-              "date": "2026-03-15",
-              "url": "https://x.com/lorddrey/status/2033290874776416630",
-              "local_file": "sources/x/x.com_lorddrey_status_2033290874776416630.md",
-              "metrics": {
-                "likes": 228,
-                "retweets": 21
-              },
-              "title_en": "Analysts fear China is about to invade Taiwan amid the US ...",
-              "summary_en": "BREAKING NEWS:\n\nAnalysts fear China is about to invade Taiwan amid the US distraction in the Gulf, locked in the Iran war. \n\nTaiwan's Defence Ministry detected 26 Chinese military aircraft around the ",
-              "criticality": "critical",
-              "admiralty_source": "D",
-              "admiralty_info": 4,
-              "admiralty_code": "D4"
-            },
-            {
               "id": "gdelt_1298268795",
               "title": "nan → AIRMAN : Use conventional military force, not specified below (Isfahan, Esfahan, Iran)",
               "title_en": "nan → AIRMAN : Use conventional military force, not specified below (Isfahan, Esfahan, Iran)",
@@ -17317,6 +17397,72 @@
                 "geo_lat": 29.2458,
                 "geo_lon": 50.3158,
                 "geo_name": "Kharg Island, Bushehr, Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1299219551",
+              "title": "IRAN → MINNESOTA : Fight with small arms and light weapons (Iran)",
+              "title_en": "IRAN → MINNESOTA : Fight with small arms and light weapons (Iran)",
+              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: IRAN / MINNESOTA. Location: Iran. Goldstein Scale: -10.0. Mentioned in 4 sources.",
+              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: IRAN / MINNESOTA. Location: Iran. Goldstein Scale: -10.0. Mentioned in 4 sources.",
+              "source": "gdelt",
+              "source_label": "niagarafallsreview.ca",
+              "date": "2026-04-14",
+              "url": "https://www.niagarafallsreview.ca/politics/political-opinion/this-terrifying-time-is-brought-to-you-by-donald-trump/article_a5fc8a0d-de65-542c-9852-d9cf3cf72574.html",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 4,
+                "sources": 2,
+                "articles": 4,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1299219551",
+                "event_code": "193",
+                "cameo_desc": "Fight with small arms and light weapons",
+                "actor1": "IRAN",
+                "actor2": "MINNESOTA",
+                "actor1_country": "IRN",
+                "actor2_country": "USA",
+                "geo_lat": 32.0,
+                "geo_lon": 53.0,
+                "geo_name": "Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1299219550",
+              "title": "IRAN → UNITED STATES : Use conventional military force, not specified below (Georgia, United States)",
+              "title_en": "IRAN → UNITED STATES : Use conventional military force, not specified below (Georgia, United States)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: IRAN / UNITED STATES. Location: Georgia, United States. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: IRAN / UNITED STATES. Location: Georgia, United States. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "reason.com",
+              "date": "2026-04-14",
+              "url": "https://reason.com/2026/04/14/trumps-reaction-to-the-jesus-flap-compounds-concerns-about-his-mental-acuity/",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1299219550",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "IRAN",
+                "actor2": "UNITED STATES",
+                "actor1_country": "IRN",
+                "actor2_country": "USA",
+                "geo_lat": 32.9866,
+                "geo_lon": -83.6487,
+                "geo_name": "Georgia, United States"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -29423,26 +29569,6 @@
               "admiralty_code": "F6"
             },
             {
-              "id": "x_2033290874776416630",
-              "title": "分析人士担心在中国和美国之间，中国即将入侵台湾……",
-              "summary": "突发新闻：\n\n分析人士担心，在美国因海湾地区局势分心，深陷与伊朗的战争之际，中国即将入侵台湾。\n\n台湾国防部侦测到26架中国军机在台湾附近活动。",
-              "source": "x",
-              "source_label": "@lorddrey",
-              "date": "2026-03-15",
-              "url": "https://x.com/lorddrey/status/2033290874776416630",
-              "local_file": "sources/x/x.com_lorddrey_status_2033290874776416630.md",
-              "metrics": {
-                "likes": 228,
-                "retweets": 21
-              },
-              "title_en": "Analysts fear China is about to invade Taiwan amid the US ...",
-              "summary_en": "BREAKING NEWS:\n\nAnalysts fear China is about to invade Taiwan amid the US distraction in the Gulf, locked in the Iran war. \n\nTaiwan's Defence Ministry detected 26 Chinese military aircraft around the ",
-              "criticality": "critical",
-              "admiralty_source": "D",
-              "admiralty_info": 4,
-              "admiralty_code": "D4"
-            },
-            {
               "id": "gdelt_1298644896",
               "title": "MEDIA → nan : Use unconventional violence, not specified below (Taipei, T'ai-pei, Taiwan)",
               "title_en": "MEDIA → nan : Use unconventional violence, not specified below (Taipei, T'ai-pei, Taiwan)",
@@ -30295,17 +30421,17 @@
     }
   },
   "stats": {
-    "total_items": 1614,
+    "total_items": 1616,
     "sources": {
-      "web": 1264,
-      "reddit": 102,
-      "x": 68,
-      "gdelt": 118,
+      "web": 1263,
+      "reddit": 101,
+      "x": 66,
+      "gdelt": 124,
       "youtube": 62
     },
     "date_range": {
-      "from": "2026-03-15",
-      "to": "2026-04-13"
+      "from": "2026-03-16",
+      "to": "2026-04-14"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",

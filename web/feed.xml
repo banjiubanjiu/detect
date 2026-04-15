@@ -5,8 +5,58 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 14 Apr 2026 07:58:43 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 07:58:58 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] ADMINISTRATION → MILITARY : Use conventional military force, not specified below (Russia)</title>
+      <link>https://newswire.co.nz/2026/04/former-cia-chief-says-new-zealand-is-probably-withholding-intelligence-from-the-united-states/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: ADMINISTRATION / MILITARY. Location: Russia. Goldstein Scale: -10.0. Mentioned in 3 sources.</description>
+      <guid isPermaLink="true">https://newswire.co.nz/2026/04/former-cia-chief-says-new-zealand-is-probably-withholding-intelligence-from-the-united-states/</guid>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://newswire.co.nz/2026/04/former-cia-chief-says-new-zealand-is-probably-withholding-intelligence-from-the-united-states/">newswire.co.nz</source>
+    </item>
+    <item>
+      <title>[巴以冲突] CIVILIAN → ISRAEL : Fight with artillery and tanks (Israel)</title>
+      <link>https://www.independentsentinel.com/the-pope-ignores-the-hezbollah-attacks/</link>
+      <description>GDELT Event: Fight with artillery and tanks. Actors: CIVILIAN / ISRAEL. Location: Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.independentsentinel.com/the-pope-ignores-the-hezbollah-attacks/</guid>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.independentsentinel.com/the-pope-ignores-the-hezbollah-attacks/">independentsentinel.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] FIGHTER → ISRAELI : Use conventional military force, not specified below (Lebanon)</title>
+      <link>https://www.hindustantimes.com/world-news/apologise-for-lies-trump-slams-nyt-over-iran-war-coverage-insists-iran-obliterated-101776118051662.html</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: FIGHTER / ISRAELI. Location: Lebanon. Goldstein Scale: -10.0. Mentioned in 7 sources.</description>
+      <guid isPermaLink="true">https://www.hindustantimes.com/world-news/apologise-for-lies-trump-slams-nyt-over-iran-war-coverage-insists-iran-obliterated-101776118051662.html</guid>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.hindustantimes.com/world-news/apologise-for-lies-trump-slams-nyt-over-iran-war-coverage-insists-iran-obliterated-101776118051662.html">hindustantimes.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] NEW YORK → ISRAEL : Obstruct passage, block (Manhattan, New York, United States)</title>
+      <link>https://www.jns.org/news/u-s-news/arrests-made-after-anti-israel-protesters-block-manhattan-street-near-schumers-office</link>
+      <description>GDELT Event: Obstruct passage, block. Actors: NEW YORK / ISRAEL. Location: Manhattan, New York, United States. Goldstein Scale: -7.5. Mentioned in 8 sources.</description>
+      <guid isPermaLink="true">https://www.jns.org/news/u-s-news/arrests-made-after-anti-israel-protesters-block-manhattan-street-near-schumers-office</guid>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>舆论热点</category>
+      <source url="https://www.jns.org/news/u-s-news/arrests-made-after-anti-israel-protesters-block-manhattan-street-near-schumers-office">jns.org</source>
+    </item>
+    <item>
+      <title>[巴以冲突] PROTESTER → NEW YORK : Obstruct passage, block (Lebanon)</title>
+      <link>https://www.nbcnewyork.com/news/local/schumer-gillibrand-nyc-protest-arrests/6489351/</link>
+      <description>GDELT Event: Obstruct passage, block. Actors: PROTESTER / NEW YORK. Location: Lebanon. Goldstein Scale: -7.5. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.nbcnewyork.com/news/local/schumer-gillibrand-nyc-protest-arrests/6489351/</guid>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>舆论热点</category>
+      <source url="https://www.nbcnewyork.com/news/local/schumer-gillibrand-nyc-protest-arrests/6489351/">nbcnewyork.com</source>
+    </item>
     <item>
       <title>[俄乌战争] nan → THE EUROPEAN UNION : Use conventional military force, not specified below (Ukraine)</title>
       <link>https://www.livemint.com/news/world/hungarian-parliamentary-election-who-is-peter-magyar-tisza-party-leader-who-ended-viktor-orban-s-16-year-rule-11776027894117.html</link>
@@ -456,56 +506,6 @@
       <category>巴以冲突</category>
       <category>军事动态</category>
       <source url="https://www.jpost.com/israel-news/defense-news/article-892401">Jerusalem Post</source>
-    </item>
-    <item>
-      <title>[巴以冲突] 西岸冲突：以定居者被石头击伤，巴勒斯坦人遭以军射击</title>
-      <link>https://www.jpost.com/israel-news/article-892402</link>
-      <description>据军方消息，在巴勒斯坦村庄塔亚西尔附近，多名巴勒斯坦人向以色列定居者投掷石块，以军士兵被派往现场。一名以色列定居者被石块击伤，一名巴勒斯坦人被以色列国防军士兵开枪击中。</description>
-      <guid isPermaLink="true">https://www.jpost.com/israel-news/article-892402</guid>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.jpost.com/israel-news/article-892402">Jerusalem Post</source>
-    </item>
-    <item>
-      <title>[巴以冲突] 加沙地带遭以色列袭击，包括半岛电视台记者在内的四人丧生……</title>
-      <link>https://www.reddit.com/r/worldnews/comments/1sg13n1/israeli_strikes_in_gaza_kill_four_including_al/</link>
-      <description>2024年2月，在以色列于加沙地带的战争达到高峰之际，军方指控瓦沙是哈马斯军事分支的成员。军方发布了照片，这些照片……</description>
-      <guid isPermaLink="true">https://www.reddit.com/r/worldnews/comments/1sg13n1/israeli_strikes_in_gaza_kill_four_including_al/</guid>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.reddit.com/r/worldnews/comments/1sg13n1/israeli_strikes_in_gaza_kill_four_including_al/">r/worldnews</source>
-    </item>
-    <item>
-      <title>[巴以冲突] 伊朗局势更新：停火进入第二天</title>
-      <link>https://www.nytimes.com/live/2026/04/09/world/iran-ceasefire-trump-lebanon</link>
-      <description>停火协议生效后，没有油轮或天然气运输船通过霍尔木兹海峡。真主党表示，周四早些时候向以色列发射了火箭弹。表明地区局势依然紧张，停火前景不明朗。</description>
-      <guid isPermaLink="true">https://www.nytimes.com/live/2026/04/09/world/iran-ceasefire-trump-lebanon</guid>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.nytimes.com/live/2026/04/09/world/iran-ceasefire-trump-lebanon">NYT World</source>
-    </item>
-    <item>
-      <title>[巴以冲突] 以色列袭击黎巴嫩致哀悼日</title>
-      <link>https://www.aljazeera.com/news/2026/4/9/iran-war-day-41-whats-happening-in-lebanon-middle-east-and-beyond?traffic_source=rss</link>
-      <description>黎巴嫩宣布进入全国哀悼日，此前以色列的袭击在一天之内造成至少 254 人死亡。以黎冲突加剧，地区紧张局势升级。</description>
-      <guid isPermaLink="true">https://www.aljazeera.com/news/2026/4/9/iran-war-day-41-whats-happening-in-lebanon-middle-east-and-beyond?traffic_source=rss</guid>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.aljazeera.com/news/2026/4/9/iran-war-day-41-whats-happening-in-lebanon-middle-east-and-beyond?traffic_source=rss">Al Jazeera</source>
-    </item>
-    <item>
-      <title>[巴以冲突] 13岁女孩记录以色列轰炸贝鲁特</title>
-      <link>https://www.aljazeera.com/video/newsfeed/2026/4/9/13-year-old-girl-captures-terrifying-moment-israel-bombed-beirut?traffic_source=rss</link>
-      <description>一名13岁的女孩在Snapchat上记录了以色列开始袭击贝鲁特的时刻。该视频捕捉到了爆炸的瞬间，引发了人们对黎巴嫩局势的关注，以及对平民安全的担忧。</description>
-      <guid isPermaLink="true">https://www.aljazeera.com/video/newsfeed/2026/4/9/13-year-old-girl-captures-terrifying-moment-israel-bombed-beirut?traffic_source=rss</guid>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.aljazeera.com/video/newsfeed/2026/4/9/13-year-old-girl-captures-terrifying-moment-israel-bombed-beirut?traffic_source=rss">Al Jazeera</source>
     </item>
   </channel>
 </rss>
