@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-15T07:59:19+00:00Z",
+  "updated_at": "2026-04-16T07:59:16+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -6576,6 +6576,39 @@
               "admiralty_source": "B",
               "admiralty_info": 3,
               "admiralty_code": "B3"
+            },
+            {
+              "id": "gdelt_1299411793",
+              "title": "MUSLIM → MUSLIM : Conduct hunger strike, not specified below (Taganrog, Rostovskaya Oblast', Russia)",
+              "title_en": "MUSLIM → MUSLIM : Conduct hunger strike, not specified below (Taganrog, Rostovskaya Oblast', Russia)",
+              "summary": "GDELT Event: Conduct hunger strike, not specified below. Actors: MUSLIM / MUSLIM. Location: Taganrog, Rostovskaya Oblast', Russia. Goldstein Scale: -6.5. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Conduct hunger strike, not specified below. Actors: MUSLIM / MUSLIM. Location: Taganrog, Rostovskaya Oblast', Russia. Goldstein Scale: -6.5. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "eng.kavkaz-uzel.eu",
+              "date": "2026-04-15",
+              "url": "https://www.eng.kavkaz-uzel.eu/articles/74505",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -6.5
+              },
+              "gdelt_meta": {
+                "event_id": "1299411793",
+                "event_code": "142",
+                "cameo_desc": "Conduct hunger strike, not specified below",
+                "actor1": "MUSLIM",
+                "actor2": "MUSLIM",
+                "actor1_country": "nan",
+                "actor2_country": "nan",
+                "geo_lat": 47.2362,
+                "geo_lon": 38.8969,
+                "geo_name": "Taganrog, Rostovskaya Oblast', Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -10312,6 +10345,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1299411641",
+              "title": "ISRAEL → IRAN : Use conventional military force, not specified below (Israel)",
+              "title_en": "ISRAEL → IRAN : Use conventional military force, not specified below (Israel)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / IRAN. Location: Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / IRAN. Location: Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "gazetaexpress.com",
+              "date": "2026-04-15",
+              "url": "https://www.gazetaexpress.com/en/Iran-suspends-exports-of-petrochemical-products-until-further-notice/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1299411641",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "ISRAEL",
+                "actor2": "IRAN",
+                "actor1_country": "ISR",
+                "actor2_country": "IRN",
+                "geo_lat": 31.5,
+                "geo_lon": 34.75,
+                "geo_name": "Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -12207,6 +12273,72 @@
               "admiralty_source": "B",
               "admiralty_info": 3,
               "admiralty_code": "B3"
+            },
+            {
+              "id": "gdelt_1299411635",
+              "title": "ISRAEL → POLICE OFFICER : Arrest, detain, or charge with legal action (Tel Aviv, Tel Aviv, Israel)",
+              "title_en": "ISRAEL → POLICE OFFICER : Arrest, detain, or charge with legal action (Tel Aviv, Tel Aviv, Israel)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: ISRAEL / POLICE OFFICER. Location: Tel Aviv, Tel Aviv, Israel. Goldstein Scale: -5.0. Mentioned in 5 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: ISRAEL / POLICE OFFICER. Location: Tel Aviv, Tel Aviv, Israel. Goldstein Scale: -5.0. Mentioned in 5 sources.",
+              "source": "gdelt",
+              "source_label": "hindustantimes.com",
+              "date": "2026-04-15",
+              "url": "https://www.hindustantimes.com/world-news/us-news/johnny-somali-5-things-to-know-about-us-streamer-jailed-in-south-korea-over-comfort-women-row-101776283040285.html",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 5,
+                "sources": 1,
+                "articles": 5,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1299411635",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "ISRAEL",
+                "actor2": "POLICE OFFICER",
+                "actor1_country": "ISR",
+                "actor2_country": "nan",
+                "geo_lat": 32.0667,
+                "geo_lon": 34.7667,
+                "geo_name": "Tel Aviv, Tel Aviv, Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1299411730",
+              "title": "LEBANON → nan : Impose administrative sanctions, not specified below (Beirut, Beyrouth, Lebanon)",
+              "title_en": "LEBANON → nan : Impose administrative sanctions, not specified below (Beirut, Beyrouth, Lebanon)",
+              "summary": "GDELT Event: Impose administrative sanctions, not specified below. Actors: LEBANON / nan. Location: Beirut, Beyrouth, Lebanon. Goldstein Scale: -5.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: LEBANON / nan. Location: Beirut, Beyrouth, Lebanon. Goldstein Scale: -5.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "imra.org.il",
+              "date": "2026-04-15",
+              "url": "http://www.imra.org.il/story.php?id=74437",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1299411730",
+                "event_code": "172",
+                "cameo_desc": "Impose administrative sanctions, not specified below",
+                "actor1": "LEBANON",
+                "actor2": "nan",
+                "actor1_country": "LBN",
+                "actor2_country": "nan",
+                "geo_lat": 33.8719,
+                "geo_lon": 35.5097,
+                "geo_name": "Beirut, Beyrouth, Lebanon"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -17467,6 +17599,105 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1299411611",
+              "title": "IRAN → AMERICAN : Use conventional military force, not specified below (Tehran, Tehran, Iran)",
+              "title_en": "IRAN → AMERICAN : Use conventional military force, not specified below (Tehran, Tehran, Iran)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: IRAN / AMERICAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: IRAN / AMERICAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "source": "gdelt",
+              "source_label": "nypost.com",
+              "date": "2026-04-15",
+              "url": "https://nypost.com/2026/04/15/world-news/iran-used-chinese-satellite-to-target-us-bases-in-the-middle-east-report/",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 8,
+                "sources": 1,
+                "articles": 8,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1299411611",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "IRAN",
+                "actor2": "AMERICAN",
+                "actor1_country": "IRN",
+                "actor2_country": "USA",
+                "geo_lat": 35.75,
+                "geo_lon": 51.5148,
+                "geo_name": "Tehran, Tehran, Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1299411592",
+              "title": "IRAN → PRESIDENT : Use conventional military force, not specified below (Chabahar, Sistan va Baluchestan, Iran)",
+              "title_en": "IRAN → PRESIDENT : Use conventional military force, not specified below (Chabahar, Sistan va Baluchestan, Iran)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: IRAN / PRESIDENT. Location: Chabahar, Sistan va Baluchestan, Iran. Goldstein Scale: -10.0. Mentioned in 4 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: IRAN / PRESIDENT. Location: Chabahar, Sistan va Baluchestan, Iran. Goldstein Scale: -10.0. Mentioned in 4 sources.",
+              "source": "gdelt",
+              "source_label": "larouchepub.com",
+              "date": "2026-04-15",
+              "url": "https://larouchepub.com/other/2026/5315-only_a_moral_intention_of_acti.html",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 4,
+                "sources": 1,
+                "articles": 4,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1299411592",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "IRAN",
+                "actor2": "PRESIDENT",
+                "actor1_country": "IRN",
+                "actor2_country": "nan",
+                "geo_lat": 25.2919,
+                "geo_lon": 60.643,
+                "geo_name": "Chabahar, Sistan va Baluchestan, Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1299411484",
+              "title": "WALES → NAVAL : Impose blockade, restrict movement (Tehran, Tehran, Iran)",
+              "title_en": "WALES → NAVAL : Impose blockade, restrict movement (Tehran, Tehran, Iran)",
+              "summary": "GDELT Event: Impose blockade, restrict movement. Actors: WALES / NAVAL. Location: Tehran, Tehran, Iran. Goldstein Scale: -9.5. Mentioned in 3 sources.",
+              "summary_en": "GDELT Event: Impose blockade, restrict movement. Actors: WALES / NAVAL. Location: Tehran, Tehran, Iran. Goldstein Scale: -9.5. Mentioned in 3 sources.",
+              "source": "gdelt",
+              "source_label": "yahoo.com",
+              "date": "2026-04-15",
+              "url": "https://www.yahoo.com/news/articles/iran-wont-enriching-uranium-peace-231003410.html",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 3,
+                "sources": 1,
+                "articles": 3,
+                "goldstein": -9.5
+              },
+              "gdelt_meta": {
+                "event_id": "1299411484",
+                "event_code": "191",
+                "cameo_desc": "Impose blockade, restrict movement",
+                "actor1": "WALES",
+                "actor2": "NAVAL",
+                "actor1_country": "GBR",
+                "actor2_country": "nan",
+                "geo_lat": 35.75,
+                "geo_lon": 51.5148,
+                "geo_name": "Tehran, Tehran, Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -22001,6 +22232,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1299411354",
+              "title": "PRISON → nan : Arrest, detain, or charge with legal action (Mashhad, (IR30), Iran)",
+              "title_en": "PRISON → nan : Arrest, detain, or charge with legal action (Mashhad, (IR30), Iran)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: PRISON / nan. Location: Mashhad, (IR30), Iran. Goldstein Scale: -5.0. Mentioned in 8 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: PRISON / nan. Location: Mashhad, (IR30), Iran. Goldstein Scale: -5.0. Mentioned in 8 sources.",
+              "source": "gdelt",
+              "source_label": "smdailyjournal.com",
+              "date": "2026-04-15",
+              "url": "https://www.smdailyjournal.com/business/the-latest-iran-threatens-to-disrupt-gulf-trade-in-response-to-us-naval-blockade/article_c62310ef-b613-5855-b9a2-56c528d09931.html",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 8,
+                "sources": 1,
+                "articles": 8,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1299411354",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "PRISON",
+                "actor2": "nan",
+                "actor1_country": "nan",
+                "actor2_country": "nan",
+                "geo_lat": 36.297,
+                "geo_lon": 59.6062,
+                "geo_name": "Mashhad, (IR30), Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -25183,6 +25447,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1299412100",
+              "title": "CHICAGO → IRAN : Demonstrate or rally (Chicago, Illinois, United States)",
+              "title_en": "CHICAGO → IRAN : Demonstrate or rally (Chicago, Illinois, United States)",
+              "summary": "GDELT Event: Demonstrate or rally. Actors: CHICAGO / IRAN. Location: Chicago, Illinois, United States. Goldstein Scale: -6.5. Mentioned in 8 sources.",
+              "summary_en": "GDELT Event: Demonstrate or rally. Actors: CHICAGO / IRAN. Location: Chicago, Illinois, United States. Goldstein Scale: -6.5. Mentioned in 8 sources.",
+              "source": "gdelt",
+              "source_label": "larouchepub.com",
+              "date": "2026-04-15",
+              "url": "https://larouchepub.com/hzl/2026/5315-short_road_to_hell_or_daring_t-hzl.html",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 8,
+                "sources": 1,
+                "articles": 8,
+                "goldstein": -6.5
+              },
+              "gdelt_meta": {
+                "event_id": "1299412100",
+                "event_code": "141",
+                "cameo_desc": "Demonstrate or rally",
+                "actor1": "CHICAGO",
+                "actor2": "IRAN",
+                "actor1_country": "USA",
+                "actor2_country": "IRN",
+                "geo_lat": 41.85,
+                "geo_lon": -87.6501,
+                "geo_name": "Chicago, Illinois, United States"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -25925,23 +26222,6 @@
               "metrics": {},
               "title_en": "Sudan Crisis Situation Analysis: (Period: 09/03/26",
               "summary_en": "Mar 24, 2026 — 3. The conflict has expanded significantly in December 2025. The RSF has consolidated control over most of Darfur following el-Fasher's fall in ...",
-              "criticality": "background",
-              "admiralty_source": "A",
-              "admiralty_info": 2,
-              "admiralty_code": "A2"
-            },
-            {
-              "id": "web_5043",
-              "title": "苏丹内战",
-              "summary": "2026年3月16日 — 快速支援部队袭击并焚烧达尔富尔村庄。2026年2月24日。苏丹一家民间社会组织指责快速支援部队叛军袭击了马斯塔里哈村。",
-              "source": "web",
-              "source_label": "cfr.org",
-              "date": "2026-03-16",
-              "url": "https://www.cfr.org/global-conflict-tracker/conflict/power-struggle-sudan",
-              "local_file": "sources/web/www.cfr.org_global-conflict-tracker_conflict_power-struggle-sudan.md",
-              "metrics": {},
-              "summary_en": "Mar 16, 2026 — RSF Strikes, Torches Darfur Village. February 24, 2026. A civil society organization in Sudan accused RSF rebels of storming Mastariha, a ...",
-              "title_en": "Civil War in Sudan",
               "criticality": "background",
               "admiralty_source": "A",
               "admiralty_info": 2,
@@ -28488,26 +28768,6 @@
               "admiralty_source": "D",
               "admiralty_info": 4,
               "admiralty_code": "D4"
-            },
-            {
-              "id": "x_2033650849965043988",
-              "title": "#紧急更新 🇷🇼🇺🇸 卢旺达已结束其军事...",
-              "summary": "#紧急更新 🇷🇼🇺🇸\n卢旺达已结束其在牙买加的军事工程任务，此前几周，美国财政部因卢旺达国防军（RDF）涉嫌支持M23叛军而对其施加制裁。",
-              "source": "x",
-              "source_label": "@xtr_africa",
-              "date": "2026-03-16",
-              "url": "https://x.com/xtr_africa/status/2033650849965043988",
-              "local_file": "sources/x/x.com_xtr_africa_status_2033650849965043988.md",
-              "metrics": {
-                "likes": 77,
-                "retweets": 30
-              },
-              "title_en": "#URGENT UPDATE 🇷🇼🇺🇸 Rwanda has ended its military ...",
-              "summary_en": "#URGENT UPDATE 🇷🇼🇺🇸\nRwanda has ended its military engineering mission in Jamaica, just weeks after the U.S. Treasury imposed sanctions on the Rwanda Defence Force (RDF) over alleged support to M23 reb",
-              "criticality": "notable",
-              "admiralty_source": "D",
-              "admiralty_info": 4,
-              "admiralty_code": "D4"
             }
           ]
         },
@@ -30421,17 +30681,17 @@
     }
   },
   "stats": {
-    "total_items": 1616,
+    "total_items": 1623,
     "sources": {
-      "web": 1263,
+      "web": 1262,
       "reddit": 101,
-      "x": 66,
-      "gdelt": 124,
+      "x": 65,
+      "gdelt": 133,
       "youtube": 62
     },
     "date_range": {
-      "from": "2026-03-16",
-      "to": "2026-04-14"
+      "from": "2026-03-17",
+      "to": "2026-04-15"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
