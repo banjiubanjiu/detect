@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-19T07:31:34+00:00Z",
+  "updated_at": "2026-04-20T08:20:34+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -4823,24 +4823,6 @@
               "admiralty_source": "B",
               "admiralty_info": 3,
               "admiralty_code": "B3"
-            },
-            {
-              "id": "x_2036897003427291337",
-              "title": "俄乌和平进程僵局，中国角色受关注",
-              "summary": "分析认为俄乌和平进程处于僵局，在美国被伊朗问题分散注意力的情况下，中国可能扮演更大角色。",
-              "source": "x",
-              "source_label": "@AsiaPolicy",
-              "date": "2026-03-20",
-              "url": "https://x.com/AsiaPolicy/status/2036897003427291337",
-              "local_file": "sources/x/x.com_AsiaPolicy_status_2036897003427291337.md",
-              "metrics": {
-                "likes": 89,
-                "retweets": 32
-              },
-              "criticality": "background",
-              "admiralty_source": "D",
-              "admiralty_info": 4,
-              "admiralty_code": "D4"
             },
             {
               "id": "gdelt_1298269539",
@@ -12748,6 +12730,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1300007537",
+              "title": "POLICE → RESERVIST : Arrest, detain, or charge with legal action (Gaza, Israel (general), Israel)",
+              "title_en": "POLICE → RESERVIST : Arrest, detain, or charge with legal action (Gaza, Israel (general), Israel)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: POLICE / RESERVIST. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: POLICE / RESERVIST. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "theyeshivaworld.com",
+              "date": "2026-04-19",
+              "url": "https://www.theyeshivaworld.com/news/israel-news/2537601/idf-reservist-who-protected-jews-from-arab-mob-arrested-denied-access-to-lawyer.html",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1300007537",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "POLICE",
+                "actor2": "RESERVIST",
+                "actor1_country": "nan",
+                "actor2_country": "nan",
+                "geo_lat": 31.4167,
+                "geo_lon": 34.3333,
+                "geo_name": "Gaza, Israel (general), Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -18404,6 +18419,72 @@
               "admiralty_source": "B",
               "admiralty_info": 3,
               "admiralty_code": "B3"
+            },
+            {
+              "id": "gdelt_1300007707",
+              "title": "IRAN → OMAN : Violate ceasefire (Iran)",
+              "title_en": "IRAN → OMAN : Violate ceasefire (Iran)",
+              "summary": "GDELT Event: Violate ceasefire. Actors: IRAN / OMAN. Location: Iran. Goldstein Scale: -9.5. Mentioned in 5 sources.",
+              "summary_en": "GDELT Event: Violate ceasefire. Actors: IRAN / OMAN. Location: Iran. Goldstein Scale: -9.5. Mentioned in 5 sources.",
+              "source": "gdelt",
+              "source_label": "yasstribune.com.au",
+              "date": "2026-04-19",
+              "url": "https://www.yasstribune.com.au/story/9227907/iran-vows-swift-response-to-us-attack-on-cargo-ship/",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 5,
+                "sources": 1,
+                "articles": 5,
+                "goldstein": -9.5
+              },
+              "gdelt_meta": {
+                "event_id": "1300007707",
+                "event_code": "196",
+                "cameo_desc": "Violate ceasefire",
+                "actor1": "IRAN",
+                "actor2": "OMAN",
+                "actor1_country": "IRN",
+                "actor2_country": "OMN",
+                "geo_lat": 32.0,
+                "geo_lon": 53.0,
+                "geo_name": "Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1300007691",
+              "title": "IRAN → FRANCE : Fight with small arms and light weapons (Kumzar, Musandam, Oman)",
+              "title_en": "IRAN → FRANCE : Fight with small arms and light weapons (Kumzar, Musandam, Oman)",
+              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: IRAN / FRANCE. Location: Kumzar, Musandam, Oman. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: IRAN / FRANCE. Location: Kumzar, Musandam, Oman. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "twincities.com",
+              "date": "2026-04-19",
+              "url": "https://www.twincities.com/2026/04/18/the-latest-us-navy-seizes-an-iranian-flagged-cargo-ship-and-tehran-vows-swift-response/",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1300007691",
+                "event_code": "193",
+                "cameo_desc": "Fight with small arms and light weapons",
+                "actor1": "IRAN",
+                "actor2": "FRANCE",
+                "actor1_country": "IRN",
+                "actor2_country": "FRA",
+                "geo_lat": 26.3369,
+                "geo_lon": 56.4108,
+                "geo_name": "Kumzar, Musandam, Oman"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -23004,6 +23085,39 @@
               "admiralty_source": "B",
               "admiralty_info": 3,
               "admiralty_code": "B3"
+            },
+            {
+              "id": "gdelt_1300007796",
+              "title": "MILITARY ADVISOR → IRAN : Impose administrative sanctions, not specified below (Iran)",
+              "title_en": "MILITARY ADVISOR → IRAN : Impose administrative sanctions, not specified below (Iran)",
+              "summary": "GDELT Event: Impose administrative sanctions, not specified below. Actors: MILITARY ADVISOR / IRAN. Location: Iran. Goldstein Scale: -5.0. Mentioned in 4 sources.",
+              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: MILITARY ADVISOR / IRAN. Location: Iran. Goldstein Scale: -5.0. Mentioned in 4 sources.",
+              "source": "gdelt",
+              "source_label": "dailystar.co.uk",
+              "date": "2026-04-19",
+              "url": "https://www.dailystar.co.uk/news/us-news/trump-locked-out-situation-room-37040049",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 4,
+                "sources": 1,
+                "articles": 4,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1300007796",
+                "event_code": "172",
+                "cameo_desc": "Impose administrative sanctions, not specified below",
+                "actor1": "MILITARY ADVISOR",
+                "actor2": "IRAN",
+                "actor1_country": "nan",
+                "actor2_country": "IRN",
+                "geo_lat": 32.0,
+                "geo_lon": 53.0,
+                "geo_name": "Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -29987,6 +30101,40 @@
               "admiralty_info": 3,
               "admiralty_code": "C3",
               "criticality": "background"
+            },
+            {
+              "id": "gdelt_1300007900",
+              "title": "SYRIAN → MILITARY : Occupy territory (Damascus, Dimashq, Syria)",
+              "title_en": "SYRIAN → MILITARY : Occupy territory (Damascus, Dimashq, Syria)",
+              "summary": "GDELT Event: Occupy territory. Actors: SYRIAN / MILITARY. Location: Damascus, Dimashq, Syria. Goldstein Scale: -9.5. Mentioned in 4 sources.",
+              "summary_en": "GDELT Event: Occupy territory. Actors: SYRIAN / MILITARY. Location: Damascus, Dimashq, Syria. Goldstein Scale: -9.5. Mentioned in 4 sources.",
+              "source": "gdelt",
+              "source_label": "theyeshivaworld.com",
+              "date": "2026-04-19",
+              "url": "https://www.theyeshivaworld.com/news/israel-news/2537489/us-completes-withdrawal-from-key-base-in-syria-as-part-of-a-larger-drawdown.html",
+              "primary_conflict": "syria",
+              "metrics": {
+                "mentions": 4,
+                "sources": 1,
+                "articles": 4,
+                "goldstein": -9.5
+              },
+              "gdelt_meta": {
+                "event_id": "1300007900",
+                "event_code": "192",
+                "cameo_desc": "Occupy territory",
+                "actor1": "SYRIAN",
+                "actor2": "MILITARY",
+                "actor1_country": "SYR",
+                "actor2_country": "nan",
+                "geo_lat": 33.5,
+                "geo_lon": 36.3,
+                "geo_name": "Damascus, Dimashq, Syria"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3",
+              "criticality": "background"
             }
           ]
         },
@@ -31521,17 +31669,17 @@
     }
   },
   "stats": {
-    "total_items": 1647,
+    "total_items": 1651,
     "sources": {
       "web": 1262,
       "reddit": 100,
-      "x": 63,
-      "gdelt": 160,
+      "x": 62,
+      "gdelt": 165,
       "youtube": 62
     },
     "date_range": {
-      "from": "2026-03-20",
-      "to": "2026-04-18"
+      "from": "2026-03-21",
+      "to": "2026-04-19"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
