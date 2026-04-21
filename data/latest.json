@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-20T08:20:34+00:00Z",
+  "updated_at": "2026-04-21T08:04:02+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -28781,26 +28781,6 @@
               "admiralty_code": "D4"
             },
             {
-              "id": "x_2035447043187961919",
-              "title": "🚨 新的威胁正在浮现，针对美国……",
-              "summary": "🚨 也门境内正出现针对美国及其盟友的新威胁，胡塞组织宣布正考虑关闭曼德海峡，该海峡是连接红海的重要水道。",
-              "source": "x",
-              "source_label": "@A_M_R_M1",
-              "date": "2026-03-21",
-              "url": "https://x.com/A_M_R_M1/status/2035447043187961919",
-              "local_file": "sources/x/x.com_A_M_R_M1_status_2035447043187961919.md",
-              "metrics": {
-                "likes": 39,
-                "retweets": 17
-              },
-              "title_en": "🚨 New threats are emerging against the United States ...",
-              "summary_en": "🚨 New threats are emerging against the United States and its allies from Yemen, as the Houthi group announced it is considering closing the Bab al-Mandeb Strait, a vital waterway connecting the Red Se",
-              "criticality": "background",
-              "admiralty_source": "D",
-              "admiralty_info": 4,
-              "admiralty_code": "D4"
-            },
-            {
               "id": "gdelt_1298463978",
               "title": "GERMANY → nan : Occupy territory (Hohenfels, Baden-Wüberg, Germany)",
               "title_en": "GERMANY → nan : Occupy territory (Hohenfels, Baden-Wüberg, Germany)",
@@ -31669,16 +31649,16 @@
     }
   },
   "stats": {
-    "total_items": 1651,
+    "total_items": 1650,
     "sources": {
       "web": 1262,
       "reddit": 100,
-      "x": 62,
+      "x": 61,
       "gdelt": 165,
       "youtube": 62
     },
     "date_range": {
-      "from": "2026-03-21",
+      "from": "2026-03-23",
       "to": "2026-04-19"
     }
   },

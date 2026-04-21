@@ -5,8 +5,58 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 20 Apr 2026 08:20:13 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 08:03:41 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[巴以冲突] POLICE → RESERVIST : Arrest, detain, or charge with legal action (Gaza, Israel (general), Israel)</title>
+      <link>https://www.theyeshivaworld.com/news/israel-news/2537601/idf-reservist-who-protected-jews-from-arab-mob-arrested-denied-access-to-lawyer.html</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: POLICE / RESERVIST. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.theyeshivaworld.com/news/israel-news/2537601/idf-reservist-who-protected-jews-from-arab-mob-arrested-denied-access-to-lawyer.html</guid>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>外交谈判</category>
+      <source url="https://www.theyeshivaworld.com/news/israel-news/2537601/idf-reservist-who-protected-jews-from-arab-mob-arrested-denied-access-to-lawyer.html">theyeshivaworld.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] IRAN → OMAN : Violate ceasefire (Iran)</title>
+      <link>https://www.yasstribune.com.au/story/9227907/iran-vows-swift-response-to-us-attack-on-cargo-ship/</link>
+      <description>GDELT Event: Violate ceasefire. Actors: IRAN / OMAN. Location: Iran. Goldstein Scale: -9.5. Mentioned in 5 sources.</description>
+      <guid isPermaLink="true">https://www.yasstribune.com.au/story/9227907/iran-vows-swift-response-to-us-attack-on-cargo-ship/</guid>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://www.yasstribune.com.au/story/9227907/iran-vows-swift-response-to-us-attack-on-cargo-ship/">yasstribune.com.au</source>
+    </item>
+    <item>
+      <title>[美伊对峙] IRAN → FRANCE : Fight with small arms and light weapons (Kumzar, Musandam, Oman)</title>
+      <link>https://www.twincities.com/2026/04/18/the-latest-us-navy-seizes-an-iranian-flagged-cargo-ship-and-tehran-vows-swift-response/</link>
+      <description>GDELT Event: Fight with small arms and light weapons. Actors: IRAN / FRANCE. Location: Kumzar, Musandam, Oman. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.twincities.com/2026/04/18/the-latest-us-navy-seizes-an-iranian-flagged-cargo-ship-and-tehran-vows-swift-response/</guid>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://www.twincities.com/2026/04/18/the-latest-us-navy-seizes-an-iranian-flagged-cargo-ship-and-tehran-vows-swift-response/">twincities.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] MILITARY ADVISOR → IRAN : Impose administrative sanctions, not specified below (Iran)</title>
+      <link>https://www.dailystar.co.uk/news/us-news/trump-locked-out-situation-room-37040049</link>
+      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: MILITARY ADVISOR / IRAN. Location: Iran. Goldstein Scale: -5.0. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://www.dailystar.co.uk/news/us-news/trump-locked-out-situation-room-37040049</guid>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>外交谈判</category>
+      <source url="https://www.dailystar.co.uk/news/us-news/trump-locked-out-situation-room-37040049">dailystar.co.uk</source>
+    </item>
+    <item>
+      <title>[叙利亚局势] SYRIAN → MILITARY : Occupy territory (Damascus, Dimashq, Syria)</title>
+      <link>https://www.theyeshivaworld.com/news/israel-news/2537489/us-completes-withdrawal-from-key-base-in-syria-as-part-of-a-larger-drawdown.html</link>
+      <description>GDELT Event: Occupy territory. Actors: SYRIAN / MILITARY. Location: Damascus, Dimashq, Syria. Goldstein Scale: -9.5. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://www.theyeshivaworld.com/news/israel-news/2537489/us-completes-withdrawal-from-key-base-in-syria-as-part-of-a-larger-drawdown.html</guid>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+      <category>叙利亚局势</category>
+      <category>军事动态</category>
+      <source url="https://www.theyeshivaworld.com/news/israel-news/2537489/us-completes-withdrawal-from-key-base-in-syria-as-part-of-a-larger-drawdown.html">theyeshivaworld.com</source>
+    </item>
     <item>
       <title>[俄乌战争] INGUSHETIA → nan : Fight with small arms and light weapons (nan)</title>
       <link>https://www.eng.kavkaz-uzel.eu/articles/74575</link>
@@ -456,56 +506,6 @@
       <category>巴以冲突</category>
       <category>军事动态</category>
       <source url="https://www.hindustantimes.com/world-news/apologise-for-lies-trump-slams-nyt-over-iran-war-coverage-insists-iran-obliterated-101776118051662.html">hindustantimes.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] NEW YORK → ISRAEL : Obstruct passage, block (Manhattan, New York, United States)</title>
-      <link>https://www.jns.org/news/u-s-news/arrests-made-after-anti-israel-protesters-block-manhattan-street-near-schumers-office</link>
-      <description>GDELT Event: Obstruct passage, block. Actors: NEW YORK / ISRAEL. Location: Manhattan, New York, United States. Goldstein Scale: -7.5. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">https://www.jns.org/news/u-s-news/arrests-made-after-anti-israel-protesters-block-manhattan-street-near-schumers-office</guid>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>舆论热点</category>
-      <source url="https://www.jns.org/news/u-s-news/arrests-made-after-anti-israel-protesters-block-manhattan-street-near-schumers-office">jns.org</source>
-    </item>
-    <item>
-      <title>[巴以冲突] PROTESTER → NEW YORK : Obstruct passage, block (Lebanon)</title>
-      <link>https://www.nbcnewyork.com/news/local/schumer-gillibrand-nyc-protest-arrests/6489351/</link>
-      <description>GDELT Event: Obstruct passage, block. Actors: PROTESTER / NEW YORK. Location: Lebanon. Goldstein Scale: -7.5. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.nbcnewyork.com/news/local/schumer-gillibrand-nyc-protest-arrests/6489351/</guid>
-      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>舆论热点</category>
-      <source url="https://www.nbcnewyork.com/news/local/schumer-gillibrand-nyc-protest-arrests/6489351/">nbcnewyork.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] nan → THE EUROPEAN UNION : Use conventional military force, not specified below (Ukraine)</title>
-      <link>https://www.livemint.com/news/world/hungarian-parliamentary-election-who-is-peter-magyar-tisza-party-leader-who-ended-viktor-orban-s-16-year-rule-11776027894117.html</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: nan / THE EUROPEAN UNION. Location: Ukraine. Goldstein Scale: -10.0. Mentioned in 5 sources.</description>
-      <guid isPermaLink="true">https://www.livemint.com/news/world/hungarian-parliamentary-election-who-is-peter-magyar-tisza-party-leader-who-ended-viktor-orban-s-16-year-rule-11776027894117.html</guid>
-      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://www.livemint.com/news/world/hungarian-parliamentary-election-who-is-peter-magyar-tisza-party-leader-who-ended-viktor-orban-s-16-year-rule-11776027894117.html">livemint.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAEL → THE US : Use conventional military force, not specified below (Israel)</title>
-      <link>https://www.gazetaexpress.com/en/Five-killed-in-Israeli-attacks-in-southern-Lebanon--says-health-ministry/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / THE US. Location: Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://www.gazetaexpress.com/en/Five-killed-in-Israeli-attacks-in-southern-Lebanon--says-health-ministry/</guid>
-      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.gazetaexpress.com/en/Five-killed-in-Israeli-attacks-in-southern-Lebanon--says-health-ministry/">gazetaexpress.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAEL → THE US : Impose blockade, restrict movement (Gulf Of Oman, Iran (general), Iran)</title>
-      <link>http://www.jpost.com/middle-east/iran-news/article-892771</link>
-      <description>GDELT Event: Impose blockade, restrict movement. Actors: ISRAEL / THE US. Location: Gulf Of Oman, Iran (general), Iran. Goldstein Scale: -9.5. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">http://www.jpost.com/middle-east/iran-news/article-892771</guid>
-      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="http://www.jpost.com/middle-east/iran-news/article-892771">jpost.com</source>
     </item>
   </channel>
 </rss>
