@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-21T08:04:02+00:00Z",
+  "updated_at": "2026-04-22T07:59:39.190641+00:00",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -5051,6 +5051,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1300362328",
+              "title": "BOSTON → SCHOOL : Arrest, detain, or charge with legal action (Russia)",
+              "title_en": "BOSTON → SCHOOL : Arrest, detain, or charge with legal action (Russia)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: BOSTON / SCHOOL. Location: Russia. Goldstein Scale: -5.0. Mentioned in 1 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: BOSTON / SCHOOL. Location: Russia. Goldstein Scale: -5.0. Mentioned in 1 sources.",
+              "source": "gdelt",
+              "source_label": "wbur.org",
+              "date": "2026-04-21",
+              "url": "https://www.wbur.org/tag/harvard-trump",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 1,
+                "sources": 1,
+                "articles": 1,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1300362328",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "BOSTON",
+                "actor2": "SCHOOL",
+                "actor1_country": "USA",
+                "actor2_country": "nan",
+                "geo_lat": 60.0,
+                "geo_lon": 100.0,
+                "geo_name": "Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -6699,6 +6732,39 @@
                 "geo_lat": 47.2362,
                 "geo_lon": 38.8969,
                 "geo_name": "Taganrog, Rostovskaya Oblast', Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1300361864",
+              "title": "GOVERNMENT → RUSSIA : Demonstrate or rally (Russia)",
+              "title_en": "GOVERNMENT → RUSSIA : Demonstrate or rally (Russia)",
+              "summary": "GDELT Event: Demonstrate or rally. Actors: GOVERNMENT / RUSSIA. Location: Russia. Goldstein Scale: -6.5. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Demonstrate or rally. Actors: GOVERNMENT / RUSSIA. Location: Russia. Goldstein Scale: -6.5. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "hellenicshippingnews.com",
+              "date": "2026-04-21",
+              "url": "https://www.hellenicshippingnews.com/windward-q1-2026-risk-report-shippings-most-turbulent-quarter-in-50-years/",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -6.5
+              },
+              "gdelt_meta": {
+                "event_id": "1300361864",
+                "event_code": "141",
+                "cameo_desc": "Demonstrate or rally",
+                "actor1": "GOVERNMENT",
+                "actor2": "RUSSIA",
+                "actor1_country": "nan",
+                "actor2_country": "RUS",
+                "geo_lat": 60.0,
+                "geo_lon": 100.0,
+                "geo_name": "Russia"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -10765,6 +10831,105 @@
                 "geo_lat": 33.0,
                 "geo_lon": 44.0,
                 "geo_name": "Iraq"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1300361993",
+              "title": "ISRAELI → IRANIAN : Use conventional military force, not specified below (Jerusalem, Israel (general), Israel)",
+              "title_en": "ISRAELI → IRANIAN : Use conventional military force, not specified below (Jerusalem, Israel (general), Israel)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAELI / IRANIAN. Location: Jerusalem, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 7 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAELI / IRANIAN. Location: Jerusalem, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 7 sources.",
+              "source": "gdelt",
+              "source_label": "aol.co.uk",
+              "date": "2026-04-21",
+              "url": "https://www.aol.co.uk/articles/trump-ceasefire-extension-ploy-buy-230456001.html",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 7,
+                "sources": 1,
+                "articles": 7,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1300361993",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "ISRAELI",
+                "actor2": "IRANIAN",
+                "actor1_country": "ISR",
+                "actor2_country": "IRN",
+                "geo_lat": 31.7667,
+                "geo_lon": 35.2333,
+                "geo_name": "Jerusalem, Israel (general), Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1300361924",
+              "title": "IRAN → ISRAEL : Use conventional military force, not specified below (Israel)",
+              "title_en": "IRAN → ISRAEL : Use conventional military force, not specified below (Israel)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: IRAN / ISRAEL. Location: Israel. Goldstein Scale: -10.0. Mentioned in 4 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: IRAN / ISRAEL. Location: Israel. Goldstein Scale: -10.0. Mentioned in 4 sources.",
+              "source": "gdelt",
+              "source_label": "radio.wpsu.org",
+              "date": "2026-04-21",
+              "url": "https://radio.wpsu.org/2026-04-21/trump-extends-u-s-ceasefire-with-iran-at-pakistans-request",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 4,
+                "sources": 2,
+                "articles": 4,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1300361924",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "IRAN",
+                "actor2": "ISRAEL",
+                "actor1_country": "IRN",
+                "actor2_country": "ISR",
+                "geo_lat": 31.5,
+                "geo_lon": 34.75,
+                "geo_name": "Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1300362002",
+              "title": "ISRAELI → PAKISTAN : Use conventional military force, not specified below (Islamabad, Islamabad, Pakistan)",
+              "title_en": "ISRAELI → PAKISTAN : Use conventional military force, not specified below (Islamabad, Islamabad, Pakistan)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAELI / PAKISTAN. Location: Islamabad, Islamabad, Pakistan. Goldstein Scale: -10.0. Mentioned in 4 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAELI / PAKISTAN. Location: Islamabad, Islamabad, Pakistan. Goldstein Scale: -10.0. Mentioned in 4 sources.",
+              "source": "gdelt",
+              "source_label": "tribune.com.pk",
+              "date": "2026-04-21",
+              "url": "https://tribune.com.pk/story/2604102/pakistan-condemns-al-aqsa-storming",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 4,
+                "sources": 1,
+                "articles": 4,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1300362002",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "ISRAELI",
+                "actor2": "PAKISTAN",
+                "actor1_country": "ISR",
+                "actor2_country": "PAK",
+                "geo_lat": 33.7,
+                "geo_lon": 73.1667,
+                "geo_name": "Islamabad, Islamabad, Pakistan"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -18485,6 +18650,138 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1300361814",
+              "title": "PRESIDENT → nan : Use conventional military force, not specified below (Tehran, Tehran, Iran)",
+              "title_en": "PRESIDENT → nan : Use conventional military force, not specified below (Tehran, Tehran, Iran)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: PRESIDENT / nan. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: PRESIDENT / nan. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "source": "gdelt",
+              "source_label": "rawstory.com",
+              "date": "2026-04-21",
+              "url": "https://www.rawstory.com/this-mess-proves-trump-is-no-longer-in-charge/",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 8,
+                "sources": 1,
+                "articles": 8,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1300361814",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "PRESIDENT",
+                "actor2": "nan",
+                "actor1_country": "nan",
+                "actor2_country": "nan",
+                "geo_lat": 35.75,
+                "geo_lon": 51.5148,
+                "geo_name": "Tehran, Tehran, Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1300361831",
+              "title": "PRESIDENT → THE POPE : Use conventional military force, not specified below (Iran)",
+              "title_en": "PRESIDENT → THE POPE : Use conventional military force, not specified below (Iran)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: PRESIDENT / THE POPE. Location: Iran. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: PRESIDENT / THE POPE. Location: Iran. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "source": "gdelt",
+              "source_label": "independent.co.uk",
+              "date": "2026-04-21",
+              "url": "https://www.independent.co.uk/news/world/americas/us-politics/pope-leo-god-iran-war-hegseth-b2962228.html",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 8,
+                "sources": 1,
+                "articles": 8,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1300361831",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "PRESIDENT",
+                "actor2": "THE POPE",
+                "actor1_country": "nan",
+                "actor2_country": "nan",
+                "geo_lat": 32.0,
+                "geo_lon": 53.0,
+                "geo_name": "Iran"
+              },
+              "admiralty_source": "B",
+              "admiralty_info": 3,
+              "admiralty_code": "B3"
+            },
+            {
+              "id": "gdelt_1300361612",
+              "title": "TANKER → IRAN : Occupy territory (Gulf Of Oman, Iran (general), Iran)",
+              "title_en": "TANKER → IRAN : Occupy territory (Gulf Of Oman, Iran (general), Iran)",
+              "summary": "GDELT Event: Occupy territory. Actors: TANKER / IRAN. Location: Gulf Of Oman, Iran (general), Iran. Goldstein Scale: -9.5. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Occupy territory. Actors: TANKER / IRAN. Location: Gulf Of Oman, Iran (general), Iran. Goldstein Scale: -9.5. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "thestar.com.my",
+              "date": "2026-04-21",
+              "url": "https://www.thestar.com.my/business/insight/2026/04/22/opening-hormuz-is-the-easy-part---restoring-oil-flows-isnt",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -9.5
+              },
+              "gdelt_meta": {
+                "event_id": "1300361612",
+                "event_code": "192",
+                "cameo_desc": "Occupy territory",
+                "actor1": "TANKER",
+                "actor2": "IRAN",
+                "actor1_country": "nan",
+                "actor2_country": "IRN",
+                "geo_lat": 25.4489,
+                "geo_lon": 57.7939,
+                "geo_name": "Gulf Of Oman, Iran (general), Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1300361595",
+              "title": "BAHRAIN → QATAR : Fight with artillery and tanks (Tehran, Tehran, Iran)",
+              "title_en": "BAHRAIN → QATAR : Fight with artillery and tanks (Tehran, Tehran, Iran)",
+              "summary": "GDELT Event: Fight with artillery and tanks. Actors: BAHRAIN / QATAR. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 4 sources.",
+              "summary_en": "GDELT Event: Fight with artillery and tanks. Actors: BAHRAIN / QATAR. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 4 sources.",
+              "source": "gdelt",
+              "source_label": "dailyreckoning.com",
+              "date": "2026-04-21",
+              "url": "https://dailyreckoning.com/black-rain-drone-destruction/",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 4,
+                "sources": 1,
+                "articles": 4,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1300361595",
+                "event_code": "194",
+                "cameo_desc": "Fight with artillery and tanks",
+                "actor1": "BAHRAIN",
+                "actor2": "QATAR",
+                "actor1_country": "BHR",
+                "actor2_country": "QAT",
+                "geo_lat": 35.75,
+                "geo_lon": 51.5148,
+                "geo_name": "Tehran, Tehran, Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -23114,6 +23411,39 @@
                 "geo_lat": 32.0,
                 "geo_lon": 53.0,
                 "geo_name": "Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1300361912",
+              "title": "IRAN → nan : Impose administrative sanctions, not specified below (Gulf Of Oman, Iran (general), Iran)",
+              "title_en": "IRAN → nan : Impose administrative sanctions, not specified below (Gulf Of Oman, Iran (general), Iran)",
+              "summary": "GDELT Event: Impose administrative sanctions, not specified below. Actors: IRAN / nan. Location: Gulf Of Oman, Iran (general), Iran. Goldstein Scale: -5.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: IRAN / nan. Location: Gulf Of Oman, Iran (general), Iran. Goldstein Scale: -5.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "en.mercopress.com",
+              "date": "2026-04-21",
+              "url": "https://en.mercopress.com/2026/04/21/trump-extends-iran-truce-demands-unified-proposal-from-tehran-to-negotiate",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1300361912",
+                "event_code": "172",
+                "cameo_desc": "Impose administrative sanctions, not specified below",
+                "actor1": "IRAN",
+                "actor2": "nan",
+                "actor1_country": "IRN",
+                "actor2_country": "nan",
+                "geo_lat": 25.4489,
+                "geo_lon": 57.7939,
+                "geo_name": "Gulf Of Oman, Iran (general), Iran"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -31649,17 +31979,17 @@
     }
   },
   "stats": {
-    "total_items": 1650,
+    "total_items": 1660,
     "sources": {
       "web": 1262,
       "reddit": 100,
       "x": 61,
-      "gdelt": 165,
+      "gdelt": 175,
       "youtube": 62
     },
     "date_range": {
       "from": "2026-03-23",
-      "to": "2026-04-19"
+      "to": "2026-04-22"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
