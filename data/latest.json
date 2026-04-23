@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-22T07:59:39.190641+00:00",
+  "updated_at": "2026-04-23T08:07:02+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -3640,6 +3640,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1300548130",
+              "title": "RUSSIA → UKRAINE : Use conventional military force, not specified below (Shahed, Fars, Iran)",
+              "title_en": "RUSSIA → UKRAINE : Use conventional military force, not specified below (Shahed, Fars, Iran)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: RUSSIA / UKRAINE. Location: Shahed, Fars, Iran. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: RUSSIA / UKRAINE. Location: Shahed, Fars, Iran. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "channelnewsasia.com",
+              "date": "2026-04-22",
+              "url": "https://www.channelnewsasia.com/commentary/us-iran-war-shahed-drone-missile-ukraine-war-6073421",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1300548130",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "RUSSIA",
+                "actor2": "UKRAINE",
+                "actor1_country": "RUS",
+                "actor2_country": "UKR",
+                "geo_lat": 28.5934,
+                "geo_lon": 52.2295,
+                "geo_name": "Shahed, Fars, Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -5080,6 +5113,39 @@
                 "geo_lat": 60.0,
                 "geo_lon": 100.0,
                 "geo_name": "Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1300547870",
+              "title": "DEFENSE MINIST → VOLGOGRAD : Arrest, detain, or charge with legal action (Volgograd, Volgogradskaya Oblast', Russia)",
+              "title_en": "DEFENSE MINIST → VOLGOGRAD : Arrest, detain, or charge with legal action (Volgograd, Volgogradskaya Oblast', Russia)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: DEFENSE MINIST / VOLGOGRAD. Location: Volgograd, Volgogradskaya Oblast', Russia. Goldstein Scale: -5.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: DEFENSE MINIST / VOLGOGRAD. Location: Volgograd, Volgogradskaya Oblast', Russia. Goldstein Scale: -5.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "eng.kavkaz-uzel.eu",
+              "date": "2026-04-22",
+              "url": "https://www.eng.kavkaz-uzel.eu/articles/74674",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1300547870",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "DEFENSE MINIST",
+                "actor2": "VOLGOGRAD",
+                "actor1_country": "nan",
+                "actor2_country": "RUS",
+                "geo_lat": 48.8047,
+                "geo_lon": 44.5858,
+                "geo_name": "Volgograd, Volgogradskaya Oblast', Russia"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -9637,26 +9703,6 @@
               "admiralty_code": "D4"
             },
             {
-              "id": "x_2036113612817739856",
-              "title": "每日报告：第二次伊朗战争 – 2026年3月23日（18:00）",
-              "summary": "每日报告 | 第二次伊朗战争 – 2026年3月23日\n\n以色列持续对伊朗境内的政权基础设施进行打击。德黑兰继续通过导弹和无人机袭击施加区域压力。",
-              "source": "x",
-              "source_label": "@Israel_Alma_org",
-              "date": "2026-03-23",
-              "url": "https://x.com/Israel_Alma_org/status/2036113612817739856",
-              "local_file": "sources/x/x.com_Israel_Alma_org_status_2036113612817739856.md",
-              "metrics": {
-                "likes": 21,
-                "retweets": 4
-              },
-              "title_en": "Daily Report: The Second Iran War – March 23, 2026 (18:00)",
-              "summary_en": "Daily Report | The Second Iran War – March 23, 2026\n\nIsrael continues its strikes against regime infrastructure across Iran. Tehran continues to apply regional pressure through missile and UAV attacks",
-              "criticality": "background",
-              "admiralty_source": "D",
-              "admiralty_info": 4,
-              "admiralty_code": "D4"
-            },
-            {
               "id": "gdelt_1298269316",
               "title": "ISRAEL → LEBANON : Employ aerial weapons (Iran)",
               "title_en": "ISRAEL → LEBANON : Employ aerial weapons (Iran)",
@@ -10930,6 +10976,105 @@
                 "geo_lat": 33.7,
                 "geo_lon": 73.1667,
                 "geo_name": "Islamabad, Islamabad, Pakistan"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1300547937",
+              "title": "JEWISH → PALESTINIAN : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
+              "title_en": "JEWISH → PALESTINIAN : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: JEWISH / PALESTINIAN. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: JEWISH / PALESTINIAN. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "latimes.com",
+              "date": "2026-04-22",
+              "url": "https://www.latimes.com/world-nation/story/2026-04-21/2-palestinians-including-14-year-old-boy-killed-by-israeli-settler-in-occupied-west-bank",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1300547937",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "JEWISH",
+                "actor2": "PALESTINIAN",
+                "actor1_country": "nan",
+                "actor2_country": "PSE",
+                "geo_lat": 31.4167,
+                "geo_lon": 34.3333,
+                "geo_name": "Gaza, Israel (general), Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1300547708",
+              "title": "COMMUNITY → nan : Use unconventional violence, not specified below (Tantura, H_efa, Israel)",
+              "title_en": "COMMUNITY → nan : Use unconventional violence, not specified below (Tantura, H_efa, Israel)",
+              "summary": "GDELT Event: Use unconventional violence, not specified below. Actors: COMMUNITY / nan. Location: Tantura, H_efa, Israel. Goldstein Scale: -9.0. Mentioned in 5 sources.",
+              "summary_en": "GDELT Event: Use unconventional violence, not specified below. Actors: COMMUNITY / nan. Location: Tantura, H_efa, Israel. Goldstein Scale: -9.0. Mentioned in 5 sources.",
+              "source": "gdelt",
+              "source_label": "antiwar.com",
+              "date": "2026-04-22",
+              "url": "https://www.antiwar.com/blog/2026/04/22/report-details-israeli-use-of-sexual-violence-to-force-palestinians-from-west-bank-homes/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 5,
+                "sources": 1,
+                "articles": 5,
+                "goldstein": -9.0
+              },
+              "gdelt_meta": {
+                "event_id": "1300547708",
+                "event_code": "180",
+                "cameo_desc": "Use unconventional violence, not specified below",
+                "actor1": "COMMUNITY",
+                "actor2": "nan",
+                "actor1_country": "nan",
+                "actor2_country": "nan",
+                "geo_lat": 32.6075,
+                "geo_lon": 34.9233,
+                "geo_name": "Tantura, H_efa, Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1300548100",
+              "title": "ISLAMABAD → NAVAL : Impose blockade, restrict movement (Lebanon)",
+              "title_en": "ISLAMABAD → NAVAL : Impose blockade, restrict movement (Lebanon)",
+              "summary": "GDELT Event: Impose blockade, restrict movement. Actors: ISLAMABAD / NAVAL. Location: Lebanon. Goldstein Scale: -9.5. Mentioned in 4 sources.",
+              "summary_en": "GDELT Event: Impose blockade, restrict movement. Actors: ISLAMABAD / NAVAL. Location: Lebanon. Goldstein Scale: -9.5. Mentioned in 4 sources.",
+              "source": "gdelt",
+              "source_label": "yahoo.com",
+              "date": "2026-04-22",
+              "url": "https://www.yahoo.com/news/articles/no-iran-delegation-sent-us-100922190.html",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 4,
+                "sources": 1,
+                "articles": 4,
+                "goldstein": -9.5
+              },
+              "gdelt_meta": {
+                "event_id": "1300548100",
+                "event_code": "191",
+                "cameo_desc": "Impose blockade, restrict movement",
+                "actor1": "ISLAMABAD",
+                "actor2": "NAVAL",
+                "actor1_country": "PAK",
+                "actor2_country": "nan",
+                "geo_lat": 33.833333,
+                "geo_lon": 35.833333,
+                "geo_name": "Lebanon"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -17848,26 +17993,6 @@
               "admiralty_code": "D4"
             },
             {
-              "id": "x_2036113612817739856",
-              "title": "每日报告：第二次伊朗战争 – 2026年3月23日（18:00）",
-              "summary": "每日报告 | 第二次伊朗战争 – 2026年3月23日\n\n以色列持续对伊朗境内的政权基础设施进行打击。德黑兰继续通过导弹和无人机袭击施加区域压力。",
-              "source": "x",
-              "source_label": "@Israel_Alma_org",
-              "date": "2026-03-23",
-              "url": "https://x.com/Israel_Alma_org/status/2036113612817739856",
-              "local_file": "sources/x/x.com_Israel_Alma_org_status_2036113612817739856.md",
-              "metrics": {
-                "likes": 21,
-                "retweets": 4
-              },
-              "title_en": "Daily Report: The Second Iran War – March 23, 2026 (18:00)",
-              "summary_en": "Daily Report | The Second Iran War – March 23, 2026\n\nIsrael continues its strikes against regime infrastructure across Iran. Tehran continues to apply regional pressure through missile and UAV attacks",
-              "criticality": "background",
-              "admiralty_source": "D",
-              "admiralty_info": 4,
-              "admiralty_code": "D4"
-            },
-            {
               "id": "gdelt_1298268795",
               "title": "nan → AIRMAN : Use conventional military force, not specified below (Isfahan, Esfahan, Iran)",
               "title_en": "nan → AIRMAN : Use conventional military force, not specified below (Isfahan, Esfahan, Iran)",
@@ -18775,6 +18900,72 @@
                 "actor2": "QATAR",
                 "actor1_country": "BHR",
                 "actor2_country": "QAT",
+                "geo_lat": 35.75,
+                "geo_lon": 51.5148,
+                "geo_name": "Tehran, Tehran, Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1300547667",
+              "title": "SECURITY FORCE → nan : Use unconventional violence, not specified below (Tehran, Tehran, Iran)",
+              "title_en": "SECURITY FORCE → nan : Use unconventional violence, not specified below (Tehran, Tehran, Iran)",
+              "summary": "GDELT Event: Use unconventional violence, not specified below. Actors: SECURITY FORCE / nan. Location: Tehran, Tehran, Iran. Goldstein Scale: -9.0. Mentioned in 3 sources.",
+              "summary_en": "GDELT Event: Use unconventional violence, not specified below. Actors: SECURITY FORCE / nan. Location: Tehran, Tehran, Iran. Goldstein Scale: -9.0. Mentioned in 3 sources.",
+              "source": "gdelt",
+              "source_label": "oann.com",
+              "date": "2026-04-22",
+              "url": "https://www.oann.com/newsroom/trump-announces-u-s-brokered-goodwill-understanding-with-iran-to-spare-8-female-prisoners-tehran-denies-execution-claims/",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 3,
+                "sources": 1,
+                "articles": 3,
+                "goldstein": -9.0
+              },
+              "gdelt_meta": {
+                "event_id": "1300547667",
+                "event_code": "180",
+                "cameo_desc": "Use unconventional violence, not specified below",
+                "actor1": "SECURITY FORCE",
+                "actor2": "nan",
+                "actor1_country": "nan",
+                "actor2_country": "nan",
+                "geo_lat": 35.75,
+                "geo_lon": 51.5148,
+                "geo_name": "Tehran, Tehran, Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1300547920",
+              "title": "IRAN → nan : Fight with artillery and tanks (Tehran, Tehran, Iran)",
+              "title_en": "IRAN → nan : Fight with artillery and tanks (Tehran, Tehran, Iran)",
+              "summary": "GDELT Event: Fight with artillery and tanks. Actors: IRAN / nan. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 1 sources.",
+              "summary_en": "GDELT Event: Fight with artillery and tanks. Actors: IRAN / nan. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 1 sources.",
+              "source": "gdelt",
+              "source_label": "alternet.org",
+              "date": "2026-04-22",
+              "url": "https://www.alternet.org/trump-iran-war-misinformation/",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 1,
+                "sources": 1,
+                "articles": 1,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1300547920",
+                "event_code": "194",
+                "cameo_desc": "Fight with artillery and tanks",
+                "actor1": "IRAN",
+                "actor2": "nan",
+                "actor1_country": "IRN",
+                "actor2_country": "nan",
                 "geo_lat": 35.75,
                 "geo_lon": 51.5148,
                 "geo_name": "Tehran, Tehran, Iran"
@@ -31979,16 +32170,16 @@
     }
   },
   "stats": {
-    "total_items": 1660,
+    "total_items": 1665,
     "sources": {
       "web": 1262,
       "reddit": 100,
-      "x": 61,
-      "gdelt": 175,
+      "x": 59,
+      "gdelt": 182,
       "youtube": 62
     },
     "date_range": {
-      "from": "2026-03-23",
+      "from": "2026-03-24",
       "to": "2026-04-22"
     }
   },
