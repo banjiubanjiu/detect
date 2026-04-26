@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-25T07:29:59+00:00Z",
+  "updated_at": "2026-04-26T07:51:51+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -3702,6 +3702,39 @@
                 "geo_lat": 49.0,
                 "geo_lon": 32.0,
                 "geo_name": "Ukraine"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1301038700",
+              "title": "ISRAEL → LEBANON : Employ aerial weapons (Russia)",
+              "title_en": "ISRAEL → LEBANON : Employ aerial weapons (Russia)",
+              "summary": "GDELT Event: Employ aerial weapons. Actors: ISRAEL / LEBANON. Location: Russia. Goldstein Scale: -10.0. Mentioned in 1 sources.",
+              "summary_en": "GDELT Event: Employ aerial weapons. Actors: ISRAEL / LEBANON. Location: Russia. Goldstein Scale: -10.0. Mentioned in 1 sources.",
+              "source": "gdelt",
+              "source_label": "athens-times.com",
+              "date": "2026-04-25",
+              "url": "https://athens-times.com/trump-i-havent-considered-ending-the-ceasefire-with-iran-araghchi-to-return-to-pakistan/",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 1,
+                "sources": 1,
+                "articles": 1,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1301038700",
+                "event_code": "195",
+                "cameo_desc": "Employ aerial weapons",
+                "actor1": "ISRAEL",
+                "actor2": "LEBANON",
+                "actor1_country": "ISR",
+                "actor2_country": "LBN",
+                "geo_lat": 60.0,
+                "geo_lon": 100.0,
+                "geo_name": "Russia"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -14891,22 +14924,6 @@
               "admiralty_source": "A",
               "admiralty_info": 2,
               "admiralty_code": "A2"
-            },
-            {
-              "id": "rss_012abc79649b",
-              "title": "无国界医生应对中东战争",
-              "title_en": "How is MSF responding to war in the Middle East?",
-              "summary": "无国界医生组织正在黎巴嫩和伊朗应对中东战争，并在其他国家准备应对措施。该组织正在努力为受冲突影响的民众提供医疗援助。",
-              "summary_en": "MSF teams are responding to the war in the Middle East in Lebanon and Iran, and are preparing responses in other countries.",
-              "source": "web",
-              "source_label": "MSF",
-              "date": "2026-03-26",
-              "url": "https://www.msf.org/how-msf-responding-war-middle-east",
-              "rss_source": "MSF",
-              "local_file": "sources/web/msf.orghow-msf-responding-war-middle-east.md",
-              "admiralty_source": "A",
-              "admiralty_info": 2,
-              "admiralty_code": "A2"
             }
           ]
         }
@@ -18061,23 +18078,6 @@
               "admiralty_source": "D",
               "admiralty_info": 4,
               "admiralty_code": "D4"
-            },
-            {
-              "id": "rss_3a0673b66f69",
-              "title": "贸易航道上的鱼雷：海军战重返印太地区",
-              "summary": "最近，一艘美国潜艇在世界上最繁忙的海上通道之一击沉了一艘伊朗军舰。许多人忽视了这一事件的重要性，另一些人则误解了所发生的事情。在印度洋，斯里兰卡南部海岸约40海里处，伊朗海军“德纳”号（IRIS Dena）被击沉，这是一个……",
-              "source": "web",
-              "source_label": "War on the Rocks",
-              "date": "2026-03-26",
-              "url": "https://warontherocks.com/2026/03/a-torpedo-in-the-trade-lanes-naval-warfare-returns-to-the-indo-pacific/",
-              "rss_source": "War on the Rocks",
-              "local_file": "sources/web/warontherocks.com_.md",
-              "title_en": "A Torpedo in the Trade Lanes: Naval Warfare Returns to the Indo-Pacific",
-              "summary_en": "A U.S. submarine recently sank an Iranian warship in one of the world’s busiest maritime corridors. Many overlooked the incident’s significance. Others misunderstood what had occurred.The sinking of the IRIS Dena in the Indian Ocean, roughly 40 nautical miles off Sri Lanka’s southern coast, was a gr",
-              "criticality": "background",
-              "admiralty_source": "B",
-              "admiralty_info": 3,
-              "admiralty_code": "B3"
             },
             {
               "id": "gdelt_1298268795",
@@ -26958,23 +26958,6 @@
               "admiralty_code": "F6"
             },
             {
-              "id": "rss_2d72f2c43a60",
-              "title": "韩国如何能为霍尔木兹海峡带来钢铁",
-              "summary": "最近的动态显示，美国已经开始将关键的导弹防御资产——包括末段高空区域防御系统（THAAD）的部分组件和爱国者导弹连——从韩国重新部署到中东。华盛顿正在应对一个日益动荡的全球局势。",
-              "source": "web",
-              "source_label": "War on the Rocks",
-              "date": "2026-03-26",
-              "url": "https://warontherocks.com/2026/03/how-south-korea-can-bring-iron-to-the-strait-of-hormuz/",
-              "rss_source": "War on the Rocks",
-              "local_file": "sources/web/warontherocks.com_.md",
-              "title_en": "How South Korea Can Bring Iron to the Strait of Hormuz",
-              "summary_en": "Recent developments indicate that the United States has begun redeploying critical missile defense assets — including elements of the Terminal High Altitude Area Defense (THAAD) system and Patriot batteries — from South Korea to the Middle East. As Washington navigates an increasingly volatile globa",
-              "criticality": "background",
-              "admiralty_source": "B",
-              "admiralty_info": 3,
-              "admiralty_code": "B3"
-            },
-            {
               "id": "gdelt_1298644870",
               "title": "LEBANON → nan : Demonstrate or rally (Tehran, Tehran, Iran)",
               "title_en": "LEBANON → nan : Demonstrate or rally (Tehran, Tehran, Iran)",
@@ -27522,22 +27505,6 @@
               "url": "https://news.un.org/feed/view/en/story/2026/03/1167224",
               "rss_source": "UN News",
               "local_file": "sources/web/news.un.org_1167224.md",
-              "admiralty_source": "A",
-              "admiralty_info": 2,
-              "admiralty_code": "A2"
-            },
-            {
-              "id": "rss_012abc79649b",
-              "title": "无国界医生应对中东战争",
-              "title_en": "How is MSF responding to war in the Middle East?",
-              "summary": "无国界医生组织正在黎巴嫩和伊朗应对中东战争，并在其他国家准备应对措施。该组织正在努力为受冲突影响的民众提供医疗援助。",
-              "summary_en": "MSF teams are responding to the war in the Middle East in Lebanon and Iran, and are preparing responses in other countries.",
-              "source": "web",
-              "source_label": "MSF",
-              "date": "2026-03-26",
-              "url": "https://www.msf.org/how-msf-responding-war-middle-east",
-              "rss_source": "MSF",
-              "local_file": "sources/web/msf.orghow-msf-responding-war-middle-east.md",
               "admiralty_source": "A",
               "admiralty_info": 2,
               "admiralty_code": "A2"
@@ -28745,13 +28712,10 @@
               "id": "reddit_53",
               "title_en": "Over 100 killed and hundreds more injured in a blast at a ...",
               "summary_en": "China pulls the strings behind Myanmar's civil war. Arming both the Junta and ethnic armed organizations. Propping up proxies and exploiting the country's ...Read more",
-              "cluster_id": "cl_c6599b",
-              "cluster_size": 5,
-              "cluster_bias_count": 1,
               "criticality": "background",
               "admiralty_source": "D",
-              "admiralty_info": 1,
-              "admiralty_code": "D1"
+              "admiralty_info": 4,
+              "admiralty_code": "D4"
             },
             {
               "title": "超过100人死亡，数百人受伤，在...发生爆炸。",
@@ -30111,26 +30075,6 @@
               "title_en": "Democratic Republic of Congo",
               "summary_en": "In 2025, violence in the eastern DR Congo has increased dramatically. The Rwanda-backed M23 rebels took over Goma, a provincial capital, in late January ...",
               "criticality": "background",
-              "admiralty_source": "A",
-              "admiralty_info": 2,
-              "admiralty_code": "A2"
-            },
-            {
-              "id": "rss_18183c6afbf5",
-              "title": "刚果（金）：暴力活动加剧，联合国特派团承诺继续提供支持",
-              "summary": "一位联合国高级官员星期四告诉安全理事会，刚果民主共和国（DRC）的安全和政治局势仍然“极其紧张”。",
-              "source": "web",
-              "source_label": "UN News",
-              "date": "2026-03-26",
-              "url": "https://news.un.org/feed/view/en/story/2026/03/1167204",
-              "rss_source": "UN News",
-              "local_file": "sources/web/news.un.org_1167204.md",
-              "title_en": "DR Congo: violence intensifies as UN mission pledges continued support",
-              "summary_en": "The security and political situation in the Democratic Republic of the Congo (DRC) remains “extremely tense”, a senior UN official told the Security Council on Thursday.",
-              "criticality": "notable",
-              "cluster_id": "cl_4e904d",
-              "cluster_size": 2,
-              "cluster_bias_count": 1,
               "admiralty_source": "A",
               "admiralty_info": 2,
               "admiralty_code": "A2"
@@ -32010,17 +31954,17 @@
     }
   },
   "stats": {
-    "total_items": 1639,
+    "total_items": 1635,
     "sources": {
-      "web": 1255,
+      "web": 1250,
       "reddit": 65,
       "x": 57,
-      "gdelt": 201,
+      "gdelt": 202,
       "youtube": 61
     },
     "date_range": {
-      "from": "2026-03-26",
-      "to": "2026-04-24"
+      "from": "2026-03-27",
+      "to": "2026-04-25"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
