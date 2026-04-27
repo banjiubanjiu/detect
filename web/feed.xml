@@ -5,8 +5,18 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 26 Apr 2026 07:51:30 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2026 08:37:53 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] ISRAEL → LEBANON : Employ aerial weapons (Russia)</title>
+      <link>https://athens-times.com/trump-i-havent-considered-ending-the-ceasefire-with-iran-araghchi-to-return-to-pakistan/</link>
+      <description>GDELT Event: Employ aerial weapons. Actors: ISRAEL / LEBANON. Location: Russia. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">https://athens-times.com/trump-i-havent-considered-ending-the-ceasefire-with-iran-araghchi-to-return-to-pakistan/</guid>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://athens-times.com/trump-i-havent-considered-ending-the-ceasefire-with-iran-araghchi-to-return-to-pakistan/">athens-times.com</source>
+    </item>
     <item>
       <title>[巴以冲突] DEPUTIES → nan : Fight with small arms and light weapons (Hebron, Israel (general), Israel)</title>
       <link>https://www.thedickinsonpress.com/news/local/the-stark-county-blotter-fish-in-a-ditch-a-woman-harassed-by-a-customer-and-a-baby-allegedly-dropped-at-a-daycare</link>
@@ -496,16 +506,6 @@
       <category>美伊对峙</category>
       <category>军事动态</category>
       <source url="https://www.eurasiareview.com/19042026-irans-regime-murders-arrested-protester-under-torture-amid-execution-spree-oped/">eurasiareview.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] IRAN → UNITED STATES : Use conventional military force, not specified below (Tehran, Tehran, Iran)</title>
-      <link>https://www.eurasiareview.com/19042026-how-did-iran-fight-this-war-analysis/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: IRAN / UNITED STATES. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
-      <guid isPermaLink="true">https://www.eurasiareview.com/19042026-how-did-iran-fight-this-war-analysis/</guid>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://www.eurasiareview.com/19042026-how-did-iran-fight-this-war-analysis/">eurasiareview.com</source>
     </item>
   </channel>
 </rss>

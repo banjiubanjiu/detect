@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-26T07:51:51+00:00Z",
+  "updated_at": "2026-04-27T08:38:15+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -3393,24 +3393,6 @@
               "admiralty_code": "A2"
             },
             {
-              "id": "reddit_worldnews_drones_iran",
-              "title": "俄罗斯向伊朗输送升级无人机",
-              "summary": "俄罗斯正向伊朗输送在乌克兰战场升级改进的无人机，引发地缘扩散担忧。",
-              "source": "reddit",
-              "source_label": "r/worldnews",
-              "date": "2026-03-27",
-              "url": "https://www.reddit.com/r/worldnews/comments/1s5cn4e/",
-              "local_file": "sources/reddit/www.reddit.com_r_worldnews_comments_1s5cn4e_russia_is_sending_upgraded_drones_used_in_the.md",
-              "metrics": {
-                "score": 3664,
-                "comments": 205
-              },
-              "criticality": "background",
-              "admiralty_source": "D",
-              "admiralty_info": 4,
-              "admiralty_code": "D4"
-            },
-            {
               "id": "gdelt_1298644819",
               "title": "IRAN → UKRAINE : Use conventional military force, not specified below (Shahed, Fars, Iran)",
               "title_en": "IRAN → UKRAINE : Use conventional military force, not specified below (Shahed, Fars, Iran)",
@@ -3735,6 +3717,39 @@
                 "geo_lat": 60.0,
                 "geo_lon": 100.0,
                 "geo_name": "Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1301144100",
+              "title": "UKRAINE → nan : Use conventional military force, not specified below (Belgorod, Belgorodskaya Oblast', Russia)",
+              "title_en": "UKRAINE → nan : Use conventional military force, not specified below (Belgorod, Belgorodskaya Oblast', Russia)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: UKRAINE / nan. Location: Belgorod, Belgorodskaya Oblast', Russia. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: UKRAINE / nan. Location: Belgorod, Belgorodskaya Oblast', Russia. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "goulburnpost.com.au",
+              "date": "2026-04-26",
+              "url": "https://www.goulburnpost.com.au/story/9233573/strikes-kill-at-least-16-on-chernobyl-anniversary/",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 1,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1301144100",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "UKRAINE",
+                "actor2": "nan",
+                "actor1_country": "UKR",
+                "actor2_country": "nan",
+                "geo_lat": 50.6107,
+                "geo_lon": 36.5802,
+                "geo_name": "Belgorod, Belgorodskaya Oblast', Russia"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -6880,6 +6895,39 @@
                 "geo_lat": 60.0,
                 "geo_lon": 100.0,
                 "geo_name": "Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1301144006",
+              "title": "DEMONSTRATOR → MOLOTOV : Demonstrate or rally (Boulder, Colorado, United States)",
+              "title_en": "DEMONSTRATOR → MOLOTOV : Demonstrate or rally (Boulder, Colorado, United States)",
+              "summary": "GDELT Event: Demonstrate or rally. Actors: DEMONSTRATOR / MOLOTOV. Location: Boulder, Colorado, United States. Goldstein Scale: -6.5. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Demonstrate or rally. Actors: DEMONSTRATOR / MOLOTOV. Location: Boulder, Colorado, United States. Goldstein Scale: -6.5. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "denverpost.com",
+              "date": "2026-04-26",
+              "url": "https://www.denverpost.com/2026/04/26/el-gamal-boulder-colorado-ice/",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -6.5
+              },
+              "gdelt_meta": {
+                "event_id": "1301144006",
+                "event_code": "141",
+                "cameo_desc": "Demonstrate or rally",
+                "actor1": "DEMONSTRATOR",
+                "actor2": "MOLOTOV",
+                "actor1_country": "nan",
+                "actor2_country": "RUS",
+                "geo_lat": 40.015,
+                "geo_lon": -105.271,
+                "geo_name": "Boulder, Colorado, United States"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -13277,6 +13325,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1301143769",
+              "title": "MIGRANT → nan : Arrest, detain, or charge with legal action (Gaza, Israel (general), Israel)",
+              "title_en": "MIGRANT → nan : Arrest, detain, or charge with legal action (Gaza, Israel (general), Israel)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: MIGRANT / nan. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: MIGRANT / nan. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "business.scoop.co.nz",
+              "date": "2026-04-26",
+              "url": "https://business.scoop.co.nz/2026/04/27/nz-government-minister-stokes-anti-indian-racism/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1301143769",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "MIGRANT",
+                "actor2": "nan",
+                "actor1_country": "nan",
+                "actor2_country": "nan",
+                "geo_lat": 31.4167,
+                "geo_lon": 34.3333,
+                "geo_name": "Gaza, Israel (general), Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -14905,22 +14986,6 @@
               "url": "https://www.msf.org/msf-reaffirms-decision-challenge-israel-ban-37-ngos-operating-palestine",
               "rss_source": "MSF",
               "local_file": "sources/web/msf.orgmsf-reaffirms-decision-challenge-israel-ban-37-ngos-operating-palestine.md",
-              "admiralty_source": "A",
-              "admiralty_info": 2,
-              "admiralty_code": "A2"
-            },
-            {
-              "id": "rss_47d3285e3f35",
-              "title": "约旦河西岸：巴勒斯坦人在暴力浪潮中挣扎",
-              "title_en": "West Bank: Palestinian daily life consumed by new wave of violence",
-              "summary": "在约旦河西岸，由于国际关注美以伊冲突，巴勒斯坦人民在不断升级的暴力中生活，遭受持续的恐惧和创伤。日常生活受到严重影响。",
-              "summary_en": "In the West Bank, Palestine, people live with constant fear and trauma from intensifying violence as the world focuses on the conflict between the United States, Israel and Iran.",
-              "source": "web",
-              "source_label": "MSF",
-              "date": "2026-03-27",
-              "url": "https://www.msf.org/west-bank-palestinian-daily-life-consumed-new-wave-violence",
-              "rss_source": "MSF",
-              "local_file": "sources/web/msf.orgwest-bank-palestinian-daily-life-consumed-new-wave-violence.md",
               "admiralty_source": "A",
               "admiralty_info": 2,
               "admiralty_code": "A2"
@@ -18020,64 +18085,6 @@
               "admiralty_source": "A",
               "admiralty_info": 2,
               "admiralty_code": "A2"
-            },
-            {
-              "id": "reddit_worldnews_drones_iran",
-              "title": "俄罗斯向伊朗输送升级无人机",
-              "summary": "俄罗斯正向伊朗输送在乌克兰战场升级改进的无人机，引发地缘扩散担忧。",
-              "source": "reddit",
-              "source_label": "r/worldnews",
-              "date": "2026-03-27",
-              "url": "https://www.reddit.com/r/worldnews/comments/1s5cn4e/",
-              "local_file": "sources/reddit/www.reddit.com_r_worldnews_comments_1s5cn4e_russia_is_sending_upgraded_drones_used_in_the.md",
-              "metrics": {
-                "score": 3664,
-                "comments": 205
-              },
-              "criticality": "background",
-              "admiralty_source": "D",
-              "admiralty_info": 4,
-              "admiralty_code": "D4"
-            },
-            {
-              "id": "x_2037633776977633721",
-              "title": "也门武装部队称，他们已准备好直接……",
-              "summary": "🚨突发：也门武装部队表示，如果针对伊朗的战争升级，他们已准备好进行直接军事干预，并概述了将促使安萨尔真主（胡塞）参与的三项触发因素：",
-              "source": "x",
-              "source_label": "@DropSiteNews",
-              "date": "2026-03-27",
-              "url": "https://x.com/DropSiteNews/status/2037633776977633721",
-              "local_file": "sources/x/x.com_DropSiteNews_status_2037633776977633721.md",
-              "metrics": {
-                "likes": 1237,
-                "retweets": 298
-              },
-              "title_en": "Yemen's armed forces say they are prepared for direct ...",
-              "summary_en": "🚨 BREAKING: Yemen’s armed forces say they are prepared for direct military intervention if the war against Iran escalates, outlining three triggers that would prompt Ansar Allah (Houthi) involvement:\n",
-              "criticality": "background",
-              "admiralty_source": "D",
-              "admiralty_info": 4,
-              "admiralty_code": "D4"
-            },
-            {
-              "id": "x_2037644092604117381",
-              "title": "也门胡塞武装警告称“我们的手指已经放在扳机上……”",
-              "summary": "也门胡塞武装警告称，如果对伊朗及其代理人的袭击继续，他们“已经扣动直接军事干预的扳机”，并威胁称，如果海湾阿拉伯国家加入，他们将袭击这些国家。",
-              "source": "x",
-              "source_label": "@ariel_oseran",
-              "date": "2026-03-27",
-              "url": "https://x.com/ariel_oseran/status/2037644092604117381",
-              "local_file": "sources/x/x.com_ariel_oseran_status_2037644092604117381.md",
-              "metrics": {
-                "likes": 52,
-                "retweets": 19
-              },
-              "title_en": "The Houthis in Yemen warn “our fingers are on the trigger ...",
-              "summary_en": "The Houthis in Yemen warn “our fingers are on the trigger for direct military intervention” if attacks on Iran and its proxies continue, and threaten to attack Gulf Arab countries if they join.\n\nThe H",
-              "criticality": "notable",
-              "admiralty_source": "D",
-              "admiralty_info": 4,
-              "admiralty_code": "D4"
             },
             {
               "id": "gdelt_1298268795",
@@ -29219,66 +29226,6 @@
               "admiralty_code": "F6"
             },
             {
-              "id": "x_2037633776977633721",
-              "title": "也门武装部队称，他们已准备好直接……",
-              "summary": "🚨突发：也门武装部队表示，如果针对伊朗的战争升级，他们已准备好进行直接军事干预，并概述了将促使安萨尔真主（胡塞）参与的三项触发因素：",
-              "source": "x",
-              "source_label": "@DropSiteNews",
-              "date": "2026-03-27",
-              "url": "https://x.com/DropSiteNews/status/2037633776977633721",
-              "local_file": "sources/x/x.com_DropSiteNews_status_2037633776977633721.md",
-              "metrics": {
-                "likes": 1237,
-                "retweets": 298
-              },
-              "title_en": "Yemen's armed forces say they are prepared for direct ...",
-              "summary_en": "🚨 BREAKING: Yemen’s armed forces say they are prepared for direct military intervention if the war against Iran escalates, outlining three triggers that would prompt Ansar Allah (Houthi) involvement:\n",
-              "criticality": "background",
-              "admiralty_source": "D",
-              "admiralty_info": 4,
-              "admiralty_code": "D4"
-            },
-            {
-              "id": "x_2037644092604117381",
-              "title": "也门胡塞武装警告称“我们的手指已经放在扳机上……”",
-              "summary": "也门胡塞武装警告称，如果对伊朗及其代理人的袭击继续，他们“已经扣动直接军事干预的扳机”，并威胁称，如果海湾阿拉伯国家加入，他们将袭击这些国家。",
-              "source": "x",
-              "source_label": "@ariel_oseran",
-              "date": "2026-03-27",
-              "url": "https://x.com/ariel_oseran/status/2037644092604117381",
-              "local_file": "sources/x/x.com_ariel_oseran_status_2037644092604117381.md",
-              "metrics": {
-                "likes": 52,
-                "retweets": 19
-              },
-              "title_en": "The Houthis in Yemen warn “our fingers are on the trigger ...",
-              "summary_en": "The Houthis in Yemen warn “our fingers are on the trigger for direct military intervention” if attacks on Iran and its proxies continue, and threaten to attack Gulf Arab countries if they join.\n\nThe H",
-              "criticality": "notable",
-              "admiralty_source": "D",
-              "admiralty_info": 4,
-              "admiralty_code": "D4"
-            },
-            {
-              "id": "x_2037633975665971417",
-              "title": "也门武装部队声明 关于……",
-              "summary": "正如@BashaReport两小时前分享的内容所证实，早于胡塞武装的官方声明。\n\n胡塞武装尚未声称发动任何袭击或宣战。他们已经阐明了他们的立场，包括他们的n",
-              "source": "x",
-              "source_label": "@BashaReport",
-              "date": "2026-03-27",
-              "url": "https://x.com/BashaReport/status/2037633975665971417",
-              "local_file": "sources/x/x.com_BashaReport_status_2037633975665971417.md",
-              "metrics": {
-                "likes": 20,
-                "retweets": 7
-              },
-              "title_en": "Statement by the Yemeni Armed Forces regarding ...",
-              "summary_en": "Confirming what @BashaReport shared two hours ago, before the official Houthi statement.\n\nThe Houthis have not claimed any attacks or declared war. They have laid out their position, including their n",
-              "criticality": "background",
-              "admiralty_source": "D",
-              "admiralty_info": 4,
-              "admiralty_code": "D4"
-            },
-            {
               "id": "gdelt_1298463978",
               "title": "GERMANY → nan : Occupy territory (Hohenfels, Baden-Wüberg, Germany)",
               "title_en": "GERMANY → nan : Occupy territory (Hohenfels, Baden-Wüberg, Germany)",
@@ -29918,9 +29865,6 @@
               "title_en": "DR Congo: violence intensifies as UN mission pledges ...",
               "summary_en": "6 days ago — The deputy chief's briefing came as clashes between rebel militia groups, AFC and M23, and forces supporting the Government in Kinshasa ...",
               "criticality": "background",
-              "cluster_id": "cl_4e904d",
-              "cluster_size": 2,
-              "cluster_bias_count": 1,
               "admiralty_source": "A",
               "admiralty_info": 2,
               "admiralty_code": "A2"
@@ -31954,17 +31898,17 @@
     }
   },
   "stats": {
-    "total_items": 1635,
+    "total_items": 1630,
     "sources": {
-      "web": 1250,
-      "reddit": 65,
-      "x": 57,
-      "gdelt": 202,
+      "web": 1249,
+      "reddit": 63,
+      "x": 52,
+      "gdelt": 205,
       "youtube": 61
     },
     "date_range": {
-      "from": "2026-03-27",
-      "to": "2026-04-25"
+      "from": "2026-03-28",
+      "to": "2026-04-26"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
