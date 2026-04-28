@@ -5,8 +5,38 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 27 Apr 2026 08:37:53 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 08:35:58 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] UKRAINE → nan : Use conventional military force, not specified below (Belgorod, Belgorodskaya Oblast', Russia)</title>
+      <link>https://www.goulburnpost.com.au/story/9233573/strikes-kill-at-least-16-on-chernobyl-anniversary/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: UKRAINE / nan. Location: Belgorod, Belgorodskaya Oblast', Russia. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.goulburnpost.com.au/story/9233573/strikes-kill-at-least-16-on-chernobyl-anniversary/</guid>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.goulburnpost.com.au/story/9233573/strikes-kill-at-least-16-on-chernobyl-anniversary/">goulburnpost.com.au</source>
+    </item>
+    <item>
+      <title>[俄乌战争] DEMONSTRATOR → MOLOTOV : Demonstrate or rally (Boulder, Colorado, United States)</title>
+      <link>https://www.denverpost.com/2026/04/26/el-gamal-boulder-colorado-ice/</link>
+      <description>GDELT Event: Demonstrate or rally. Actors: DEMONSTRATOR / MOLOTOV. Location: Boulder, Colorado, United States. Goldstein Scale: -6.5. Mentioned in 6 sources.</description>
+      <guid isPermaLink="true">https://www.denverpost.com/2026/04/26/el-gamal-boulder-colorado-ice/</guid>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>舆论热点</category>
+      <source url="https://www.denverpost.com/2026/04/26/el-gamal-boulder-colorado-ice/">denverpost.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] MIGRANT → nan : Arrest, detain, or charge with legal action (Gaza, Israel (general), Israel)</title>
+      <link>https://business.scoop.co.nz/2026/04/27/nz-government-minister-stokes-anti-indian-racism/</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: MIGRANT / nan. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://business.scoop.co.nz/2026/04/27/nz-government-minister-stokes-anti-indian-racism/</guid>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>外交谈判</category>
+      <source url="https://business.scoop.co.nz/2026/04/27/nz-government-minister-stokes-anti-indian-racism/">business.scoop.co.nz</source>
+    </item>
     <item>
       <title>[俄乌战争] ISRAEL → LEBANON : Employ aerial weapons (Russia)</title>
       <link>https://athens-times.com/trump-i-havent-considered-ending-the-ceasefire-with-iran-araghchi-to-return-to-pakistan/</link>
@@ -476,36 +506,6 @@
       <category>巴以冲突</category>
       <category>军事动态</category>
       <source url="https://www.mirror.co.uk/news/world-news/iranian-officials-afraid-bury-assassinated-37037436">mirror.co.uk</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAEL → PALESTINIAN : Engage in ethnic cleansing (Iraq)</title>
-      <link>https://kashmirreader.com/2026/04/19/the-collapse-is-real-lebanon-ceasefire-marks-a-historic-strategic-defeat/</link>
-      <description>GDELT Event: Engage in ethnic cleansing. Actors: ISRAEL / PALESTINIAN. Location: Iraq. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://kashmirreader.com/2026/04/19/the-collapse-is-real-lebanon-ceasefire-marks-a-historic-strategic-defeat/</guid>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://kashmirreader.com/2026/04/19/the-collapse-is-real-lebanon-ceasefire-marks-a-historic-strategic-defeat/">kashmirreader.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] HUMAN RIGHTS ACTIVIST → THE US : Use conventional military force, not specified below (Tehran, Tehran, Iran)</title>
-      <link>https://www.straitstimes.com/world/middle-east/iran-reports-3468-dead-in-war-with-us-israel-official</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: HUMAN RIGHTS ACTIVIST / THE US. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 5 sources.</description>
-      <guid isPermaLink="true">https://www.straitstimes.com/world/middle-east/iran-reports-3468-dead-in-war-with-us-israel-official</guid>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://www.straitstimes.com/world/middle-east/iran-reports-3468-dead-in-war-with-us-israel-official">straitstimes.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] IRAN → nan : Use conventional military force, not specified below (Shiraz, Fars, Iran)</title>
-      <link>https://www.eurasiareview.com/19042026-irans-regime-murders-arrested-protester-under-torture-amid-execution-spree-oped/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: IRAN / nan. Location: Shiraz, Fars, Iran. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://www.eurasiareview.com/19042026-irans-regime-murders-arrested-protester-under-torture-amid-execution-spree-oped/</guid>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://www.eurasiareview.com/19042026-irans-regime-murders-arrested-protester-under-torture-amid-execution-spree-oped/">eurasiareview.com</source>
     </item>
   </channel>
 </rss>
