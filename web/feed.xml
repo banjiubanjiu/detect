@@ -5,8 +5,38 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 28 Apr 2026 08:35:58 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 08:30:53 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] nan → RUSSIA : Arrest, detain, or charge with legal action (France)</title>
+      <link>https://hyperallergic.com/pussy-riot-shows-art-by-russias-prisoners-in-new-protest-exhibition/</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: nan / RUSSIA. Location: France. Goldstein Scale: -5.0. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">https://hyperallergic.com/pussy-riot-shows-art-by-russias-prisoners-in-new-protest-exhibition/</guid>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>外交谈判</category>
+      <source url="https://hyperallergic.com/pussy-riot-shows-art-by-russias-prisoners-in-new-protest-exhibition/">hyperallergic.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAELI → LEBANON : Fight with artillery and tanks (United States)</title>
+      <link>https://tribune.com.pk/story/2605207/israeli-strikes-hit-east-lebanon</link>
+      <description>GDELT Event: Fight with artillery and tanks. Actors: ISRAELI / LEBANON. Location: United States. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://tribune.com.pk/story/2605207/israeli-strikes-hit-east-lebanon</guid>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://tribune.com.pk/story/2605207/israeli-strikes-hit-east-lebanon">tribune.com.pk</source>
+    </item>
+    <item>
+      <title>[巴以冲突] JERUSALEM → JEWISH : Impose administrative sanctions, not specified below (Rome, Lazio, Italy)</title>
+      <link>https://www.indcatholicnews.com/news/54883</link>
+      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: JERUSALEM / JEWISH. Location: Rome, Lazio, Italy. Goldstein Scale: -5.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.indcatholicnews.com/news/54883</guid>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>外交谈判</category>
+      <source url="https://www.indcatholicnews.com/news/54883">indcatholicnews.com</source>
+    </item>
     <item>
       <title>[俄乌战争] UKRAINE → nan : Use conventional military force, not specified below (Belgorod, Belgorodskaya Oblast', Russia)</title>
       <link>https://www.goulburnpost.com.au/story/9233573/strikes-kill-at-least-16-on-chernobyl-anniversary/</link>
@@ -16,6 +46,16 @@
       <category>俄乌战争</category>
       <category>军事动态</category>
       <source url="https://www.goulburnpost.com.au/story/9233573/strikes-kill-at-least-16-on-chernobyl-anniversary/">goulburnpost.com.au</source>
+    </item>
+    <item>
+      <title>[俄乌战争] GUNMAN → PRESIDENT : Attempt to assassinate (Ukraine)</title>
+      <link>https://pjmedia.com/kevindowneyjr/2026/04/27/the-funny-thing-about-assassination-isnothing-n4952255</link>
+      <description>GDELT Event: Attempt to assassinate. Actors: GUNMAN / PRESIDENT. Location: Ukraine. Goldstein Scale: -8.0. Mentioned in 5 sources.</description>
+      <guid isPermaLink="true">https://pjmedia.com/kevindowneyjr/2026/04/27/the-funny-thing-about-assassination-isnothing-n4952255</guid>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://pjmedia.com/kevindowneyjr/2026/04/27/the-funny-thing-about-assassination-isnothing-n4952255">pjmedia.com</source>
     </item>
     <item>
       <title>[俄乌战争] DEMONSTRATOR → MOLOTOV : Demonstrate or rally (Boulder, Colorado, United States)</title>
@@ -466,46 +506,6 @@
       <category>俄乌战争</category>
       <category>军事动态</category>
       <source url="https://www.eng.kavkaz-uzel.eu/articles/74575">eng.kavkaz-uzel.eu</source>
-    </item>
-    <item>
-      <title>[俄乌战争] GUNMAN → KYIV : Use conventional military force, not specified below (Kyiv, Kyyiv, Misto, Ukraine)</title>
-      <link>http://europe.chinadaily.com.cn/a/202604/19/WS69e41292a310d6866eb44398.html</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: GUNMAN / KYIV. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">http://europe.chinadaily.com.cn/a/202604/19/WS69e41292a310d6866eb44398.html</guid>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="http://europe.chinadaily.com.cn/a/202604/19/WS69e41292a310d6866eb44398.html">europe.chinadaily.com.cn</source>
-    </item>
-    <item>
-      <title>[俄乌战争] GUNMAN → CRIMINAL : Arrest, detain, or charge with legal action (Russia)</title>
-      <link>https://bnonews.com/index.php/2026/04/7-dead-including-gunman-after-shooting-spree-in-kyiv-ukraine/</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: GUNMAN / CRIMINAL. Location: Russia. Goldstein Scale: -5.0. Mentioned in 6 sources.</description>
-      <guid isPermaLink="true">https://bnonews.com/index.php/2026/04/7-dead-including-gunman-after-shooting-spree-in-kyiv-ukraine/</guid>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>外交谈判</category>
-      <source url="https://bnonews.com/index.php/2026/04/7-dead-including-gunman-after-shooting-spree-in-kyiv-ukraine/">bnonews.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] FRANCE → FRANCE : Use conventional military force, not specified below (Ghanduriyah, Nabatî, Lebanon)</title>
-      <link>https://bnonews.com/index.php/2026/04/french-peacekeeper-killed-3-wounded-in-attack-on-unifil-patrol-in-lebanon/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: FRANCE / FRANCE. Location: Ghanduriyah, Nabatî, Lebanon. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">https://bnonews.com/index.php/2026/04/french-peacekeeper-killed-3-wounded-in-attack-on-unifil-patrol-in-lebanon/</guid>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://bnonews.com/index.php/2026/04/french-peacekeeper-killed-3-wounded-in-attack-on-unifil-patrol-in-lebanon/">bnonews.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] IRANIAN → nan : Assassinate (Israel)</title>
-      <link>https://www.mirror.co.uk/news/world-news/iranian-officials-afraid-bury-assassinated-37037436</link>
-      <description>GDELT Event: Assassinate. Actors: IRANIAN / nan. Location: Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.mirror.co.uk/news/world-news/iranian-officials-afraid-bury-assassinated-37037436</guid>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.mirror.co.uk/news/world-news/iranian-officials-afraid-bury-assassinated-37037436">mirror.co.uk</source>
     </item>
   </channel>
 </rss>

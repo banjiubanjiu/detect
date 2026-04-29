@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-28T08:36:19+00:00Z",
+  "updated_at": "2026-04-29T08:31:15+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -3290,24 +3290,6 @@
               "admiralty_code": "C3"
             },
             {
-              "id": "x_2038627481867977005",
-              "title": "俄军3月28-29日大规模打击，发射442枚无人机和导弹",
-              "summary": "俄军再次对乌克兰发动大规模打击，袭击公共休闲区域造成平民伤亡。乌克兰空军报告俄军发射1枚匕首导弹和442枚无人机/导弹。",
-              "source": "x",
-              "source_label": "@TheStudyofWar (ISW)",
-              "date": "2026-03-29",
-              "url": "https://x.com/TheStudyofWar/status/2038627481867977005",
-              "local_file": "sources/x/x.com_TheStudyofWar_status_2038627481867977005.md",
-              "metrics": {
-                "likes": 478,
-                "retweets": 112
-              },
-              "criticality": "background",
-              "admiralty_source": "D",
-              "admiralty_info": 4,
-              "admiralty_code": "D4"
-            },
-            {
               "id": "gdelt_1298644819",
               "title": "IRAN → UKRAINE : Use conventional military force, not specified below (Shahed, Fars, Iran)",
               "title_en": "IRAN → UKRAINE : Use conventional military force, not specified below (Shahed, Fars, Iran)",
@@ -3698,6 +3680,39 @@
                 "geo_lat": 49.0,
                 "geo_lon": 32.0,
                 "geo_name": "Ukraine"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1301497035",
+              "title": "RUSSIA → BELARUS : Employ aerial weapons (Kaliningrad, Kaliningradskaya Oblast', Russia)",
+              "title_en": "RUSSIA → BELARUS : Employ aerial weapons (Kaliningrad, Kaliningradskaya Oblast', Russia)",
+              "summary": "GDELT Event: Employ aerial weapons. Actors: RUSSIA / BELARUS. Location: Kaliningrad, Kaliningradskaya Oblast', Russia. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Employ aerial weapons. Actors: RUSSIA / BELARUS. Location: Kaliningrad, Kaliningradskaya Oblast', Russia. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "thenewamerican.com",
+              "date": "2026-04-28",
+              "url": "https://thenewamerican.com/features/russia-on-edge-as-finland-and-poland-seek-nuclear-weapons/",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1301497035",
+                "event_code": "195",
+                "cameo_desc": "Employ aerial weapons",
+                "actor1": "RUSSIA",
+                "actor2": "BELARUS",
+                "actor1_country": "RUS",
+                "actor2_country": "BLR",
+                "geo_lat": 54.7065,
+                "geo_lon": 20.511,
+                "geo_name": "Kaliningrad, Kaliningradskaya Oblast', Russia"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -4868,23 +4883,6 @@
               "admiralty_source": "A",
               "admiralty_info": 2,
               "admiralty_code": "A2"
-            },
-            {
-              "id": "rss_9bb34e4e71de",
-              "title": "因协助伊朗瞄准美国军队而惩罚俄罗斯",
-              "summary": "在三月的第二周，美国总统唐纳德·特朗普坚称俄罗斯总统弗拉基米尔·普京希望在中东问题上“有所帮助”。最近，在与欧盟外交政策负责人就美国在俄罗斯和乌克兰问题上的外交立场发生争执时，国务卿马可·卢比奥报道称……",
-              "source": "web",
-              "source_label": "War on the Rocks",
-              "date": "2026-03-29",
-              "url": "https://warontherocks.com/2026/03/punish-russia-for-helping-iran-target-the-u-s-military/",
-              "rss_source": "War on the Rocks",
-              "local_file": "sources/web/warontherocks.com_.md",
-              "title_en": "Punish Russia for Helping Iran Target the U.S. Military",
-              "summary_en": "In the second week of March, U.S. President Donald Trump insisted that Russian President Vladimir Putin wants to be “helpful” in the Middle East. More recently, in a spat with the E.U. foreign policy chief over America’s diplomatic stance on Russia and Ukraine, Secretary of State Marco Rubio reporte",
-              "criticality": "background",
-              "admiralty_source": "B",
-              "admiralty_info": 3,
-              "admiralty_code": "B3"
             },
             {
               "id": "gdelt_1298269539",
@@ -9398,23 +9396,6 @@
               "admiralty_code": "A2"
             },
             {
-              "id": "rss_47807436c9bd",
-              "title": "联合国维和人员在黎巴嫩南部遇袭身亡，另有一人重伤",
-              "summary": "联合国秘书长安东尼奥·古特雷斯呼吁追究责任，此前一名维和人员周日在黎巴嫩以色列和真主党之间的敌对行动中丧生。",
-              "source": "web",
-              "source_label": "UN News",
-              "date": "2026-03-29",
-              "url": "https://news.un.org/feed/view/en/story/2026/03/1167214",
-              "rss_source": "UN News",
-              "local_file": "sources/web/news.un.org_1167214.md",
-              "title_en": "UN peacekeeper killed, another seriously injured, in southern Lebanon",
-              "summary_en": "UN Secretary-General António Guterres called for accountability after a peacekeeper was killed in Lebanon on Sunday amid hostilities between Israel and Hezbollah.",
-              "criticality": "background",
-              "admiralty_source": "A",
-              "admiralty_info": 2,
-              "admiralty_code": "A2"
-            },
-            {
               "id": "gdelt_1298269316",
               "title": "ISRAEL → LEBANON : Employ aerial weapons (Iran)",
               "title_en": "ISRAEL → LEBANON : Employ aerial weapons (Iran)",
@@ -10985,6 +10966,105 @@
                 "geo_lat": 39.828175,
                 "geo_lon": -98.5795,
                 "geo_name": "United States"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1301497052",
+              "title": "INTELLIGENCE → MILITARY : Occupy territory (Lebanon)",
+              "title_en": "INTELLIGENCE → MILITARY : Occupy territory (Lebanon)",
+              "summary": "GDELT Event: Occupy territory. Actors: INTELLIGENCE / MILITARY. Location: Lebanon. Goldstein Scale: -9.5. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Occupy territory. Actors: INTELLIGENCE / MILITARY. Location: Lebanon. Goldstein Scale: -9.5. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "themedialine.org",
+              "date": "2026-04-28",
+              "url": "https://themedialine.org/headlines/the-idf-destroys-largest-network-of-hezbollah-tunnels-built-with-direct-guidance-from-iran/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -9.5
+              },
+              "gdelt_meta": {
+                "event_id": "1301497052",
+                "event_code": "192",
+                "cameo_desc": "Occupy territory",
+                "actor1": "INTELLIGENCE",
+                "actor2": "MILITARY",
+                "actor1_country": "nan",
+                "actor2_country": "nan",
+                "geo_lat": 33.833333,
+                "geo_lon": 35.833333,
+                "geo_name": "Lebanon"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1301496884",
+              "title": "ISRAELI → PALESTINIAN : Use conventional military force, not specified below (Merimbula, New South Wales, Australia)",
+              "title_en": "ISRAELI → PALESTINIAN : Use conventional military force, not specified below (Merimbula, New South Wales, Australia)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAELI / PALESTINIAN. Location: Merimbula, New South Wales, Australia. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAELI / PALESTINIAN. Location: Merimbula, New South Wales, Australia. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "source": "gdelt",
+              "source_label": "merimbulanewsweekly.com.au",
+              "date": "2026-04-28",
+              "url": "https://www.merimbulanewsweekly.com.au/story/9235410/five-killed-in-israeli-strikes-on-gaza-strip-medics/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 8,
+                "sources": 1,
+                "articles": 8,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1301496884",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "ISRAELI",
+                "actor2": "PALESTINIAN",
+                "actor1_country": "ISR",
+                "actor2_country": "PSE",
+                "geo_lat": -36.889,
+                "geo_lon": 149.91,
+                "geo_name": "Merimbula, New South Wales, Australia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1301496882",
+              "title": "ISRAEL → nan : Use conventional military force, not specified below (California, United States)",
+              "title_en": "ISRAEL → nan : Use conventional military force, not specified below (California, United States)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / nan. Location: California, United States. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / nan. Location: California, United States. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "slguardian.org",
+              "date": "2026-04-28",
+              "url": "https://slguardian.org/trump-is-putting-americans-into-digital-prison/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1301496882",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "ISRAEL",
+                "actor2": "nan",
+                "actor1_country": "ISR",
+                "actor2_country": "nan",
+                "geo_lat": 36.17,
+                "geo_lon": -119.746,
+                "geo_name": "California, United States"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -23128,40 +23208,6 @@
               "admiralty_code": "D4"
             },
             {
-              "id": "rss_9bb34e4e71de",
-              "title": "因协助伊朗瞄准美国军队而惩罚俄罗斯",
-              "summary": "在三月的第二周，美国总统唐纳德·特朗普坚称俄罗斯总统弗拉基米尔·普京希望在中东问题上“有所帮助”。最近，在与欧盟外交政策负责人就美国在俄罗斯和乌克兰问题上的外交立场发生争执时，国务卿马可·卢比奥报道称……",
-              "source": "web",
-              "source_label": "War on the Rocks",
-              "date": "2026-03-29",
-              "url": "https://warontherocks.com/2026/03/punish-russia-for-helping-iran-target-the-u-s-military/",
-              "rss_source": "War on the Rocks",
-              "local_file": "sources/web/warontherocks.com_.md",
-              "title_en": "Punish Russia for Helping Iran Target the U.S. Military",
-              "summary_en": "In the second week of March, U.S. President Donald Trump insisted that Russian President Vladimir Putin wants to be “helpful” in the Middle East. More recently, in a spat with the E.U. foreign policy chief over America’s diplomatic stance on Russia and Ukraine, Secretary of State Marco Rubio reporte",
-              "criticality": "background",
-              "admiralty_source": "B",
-              "admiralty_info": 3,
-              "admiralty_code": "B3"
-            },
-            {
-              "id": "reddit_6544",
-              "title": "如果美国发动地面入侵，伊朗威胁将进行报复",
-              "summary": "伊朗战争，2026年3月29日：如果美国发动地面入侵，伊朗威胁报复。美国新闻/时事 · r/centrist - 伊朗战争，3月29日...",
-              "source": "reddit",
-              "source_label": "r/centrist",
-              "date": "2026-03-29",
-              "url": "https://www.reddit.com/r/centrist/comments/1s7hgl8/iran_war_march_29_2026_iran_threatens_payback_if/",
-              "local_file": "sources/reddit/www.reddit.com_r_centrist_comments_1s7hgl8_iran_war_march_29_2026_iran_threatens_payback_if.md",
-              "metrics": {},
-              "title_en": "Iran Threatens Payback if U.S. Launches Ground Invasion",
-              "summary_en": "Iran War, March 29, 2026: Iran Threatens Payback if U.S. Launches Ground Invasion. US News/Current Events · r/centrist - Iran War, March 29 ...",
-              "criticality": "background",
-              "admiralty_source": "D",
-              "admiralty_info": 4,
-              "admiralty_code": "D4"
-            },
-            {
               "id": "gdelt_1298269273",
               "title": "IRANIAN → TAIWAN : Impose administrative sanctions, not specified below (Leicester, Leicester, United Kingdom)",
               "title_en": "IRANIAN → TAIWAN : Impose administrative sanctions, not specified below (Leicester, Leicester, United Kingdom)",
@@ -26863,26 +26909,6 @@
               "admiralty_source": "A",
               "admiralty_info": 2,
               "admiralty_code": "A2"
-            },
-            {
-              "id": "x_2038090066820497413",
-              "title": "过去两周，……急剧升级。",
-              "summary": "过去两周苏丹内战急剧升级，快速支援部队和苏丹武装部队之间的无人机袭击和炮击造成了大范围的破坏。",
-              "source": "x",
-              "source_label": "@ipsnews",
-              "date": "2026-03-29",
-              "url": "https://x.com/ipsnews/status/2038090066820497413/photo/1",
-              "local_file": "sources/x/x.com_ipsnews_status_2038090066820497413.md",
-              "metrics": {
-                "likes": 1,
-                "retweets": 1
-              },
-              "title_en": "The past two weeks have seen a sharp escalation in ...",
-              "summary_en": "The past two weeks have seen a sharp escalation in the Sudanese Civil War, with drone strikes and artillery shelling between the Rapid Support Forces and the Sudanese Armed Forces causing widespread d",
-              "criticality": "critical",
-              "admiralty_source": "D",
-              "admiralty_info": 4,
-              "admiralty_code": "D4"
             }
           ]
         },
@@ -27739,12 +27765,9 @@
               "title_en": "Who is fighting in Myanmar's multi-front civil war?",
               "summary_en": "For those less familiar with #Myanmar, here’s an explainer on who’s fighting, why & what may come next. \n\nThanks to analysts involved and @AJEnglish for keeping eyes on an overlooked war now getting p",
               "criticality": "notable",
-              "cluster_id": "cl_e24416",
-              "cluster_size": 2,
-              "cluster_bias_count": 1,
               "admiralty_source": "D",
-              "admiralty_info": 2,
-              "admiralty_code": "D2"
+              "admiralty_info": 4,
+              "admiralty_code": "D4"
             }
           ]
         },
@@ -28395,6 +28418,40 @@
               "admiralty_source": "B",
               "admiralty_info": 3,
               "admiralty_code": "B3"
+            },
+            {
+              "id": "gdelt_1301496627",
+              "title": "DEMOCRATIC REPUBLIC OF THE CONGO → nan : Demonstrate or rally (Rubare, Congo, Democratic Republic of The (general), Democratic Republic Of The Congo)",
+              "title_en": "DEMOCRATIC REPUBLIC OF THE CONGO → nan : Demonstrate or rally (Rubare, Congo, Democratic Republic of The (general), Democratic Republic Of The Congo)",
+              "summary": "GDELT Event: Demonstrate or rally. Actors: DEMOCRATIC REPUBLIC OF THE CONGO / nan. Location: Rubare, Congo, Democratic Republic of The (general), Democratic Republic Of The Congo. Goldstein Scale: -6.5. Mentioned in 4 sources.",
+              "summary_en": "GDELT Event: Demonstrate or rally. Actors: DEMOCRATIC REPUBLIC OF THE CONGO / nan. Location: Rubare, Congo, Democratic Republic of The (general), Democratic Republic Of The Congo. Goldstein Scale: -6.5. Mentioned in 4 sources.",
+              "source": "gdelt",
+              "source_label": "afjn.org",
+              "date": "2026-04-28",
+              "url": "https://afjn.org/a-cultural-strategy-for-peace-in-a-region-shaped-by-conflict/",
+              "primary_conflict": "congo-drc",
+              "metrics": {
+                "mentions": 4,
+                "sources": 1,
+                "articles": 4,
+                "goldstein": -6.5
+              },
+              "gdelt_meta": {
+                "event_id": "1301496627",
+                "event_code": "141",
+                "cameo_desc": "Demonstrate or rally",
+                "actor1": "DEMOCRATIC REPUBLIC OF THE CONGO",
+                "actor2": "nan",
+                "actor1_country": "COD",
+                "actor2_country": "nan",
+                "geo_lat": -1.21667,
+                "geo_lon": 29.3833,
+                "geo_name": "Rubare, Congo, Democratic Republic of The (general), Democratic Republic Of The Congo"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3",
+              "criticality": "background"
             }
           ]
         },
@@ -28949,26 +29006,6 @@
               "admiralty_code": "F6"
             },
             {
-              "id": "x_2038298480062374363",
-              "title": "乔纳森·巴斯",
-              "summary": "叙利亚已然成为无人问津的最重要的能源博弈。\n\n阿萨德于2024年12月8日倒台。《凯撒法案》被废除。SWIFT银行系统恢复。2026年2月28日，Centr",
-              "source": "x",
-              "source_label": "@jonsbass",
-              "date": "2026-03-29",
-              "url": "https://x.com/jonsbass/status/2038298480062374363",
-              "local_file": "sources/x/x.com_jonsbass_status_2038298480062374363.md",
-              "metrics": {
-                "likes": 0,
-                "retweets": 0
-              },
-              "title_en": "Jonathan Bass",
-              "summary_en": "Syria just became the most consequential energy play no one is talking about.\n\nAssad fell December 8, 2024. The Caesar Act was repealed. SWIFT banking was restored. And on February 28, 2026, the Centr",
-              "criticality": "background",
-              "admiralty_source": "D",
-              "admiralty_info": 4,
-              "admiralty_code": "D4"
-            },
-            {
               "id": "gdelt_1298869222",
               "title": "DAMASCUS → BENIN : Protest violently, riot (Nigeria)",
               "title_en": "DAMASCUS → BENIN : Protest violently, riot (Nigeria)",
@@ -29209,6 +29246,40 @@
                 "geo_lat": 25.0478,
                 "geo_lon": 121.532,
                 "geo_name": "Taipei, T'ai-pei, Taiwan"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3",
+              "criticality": "background"
+            },
+            {
+              "id": "gdelt_1301496707",
+              "title": "STUDENT → nan : Occupy territory (Taiwan)",
+              "title_en": "STUDENT → nan : Occupy territory (Taiwan)",
+              "summary": "GDELT Event: Occupy territory. Actors: STUDENT / nan. Location: Taiwan. Goldstein Scale: -9.5. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Occupy territory. Actors: STUDENT / nan. Location: Taiwan. Goldstein Scale: -9.5. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "forbes.com",
+              "date": "2026-04-28",
+              "url": "https://www.forbes.com/sites/jamiebeaton/2026/04/28/trumps-new-h-1b-lottery-just-produced-its-first-results-international-students-are-already-rethinking-their-majors/",
+              "primary_conflict": "taiwan-strait",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -9.5
+              },
+              "gdelt_meta": {
+                "event_id": "1301496707",
+                "event_code": "192",
+                "cameo_desc": "Occupy territory",
+                "actor1": "STUDENT",
+                "actor2": "nan",
+                "actor1_country": "nan",
+                "actor2_country": "nan",
+                "geo_lat": 24.0,
+                "geo_lon": 121.0,
+                "geo_name": "Taiwan"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -29772,17 +29843,17 @@
     }
   },
   "stats": {
-    "total_items": 1506,
+    "total_items": 1505,
     "sources": {
-      "web": 1169,
-      "reddit": 63,
-      "x": 45,
-      "gdelt": 209,
+      "web": 1166,
+      "reddit": 62,
+      "x": 42,
+      "gdelt": 215,
       "youtube": 20
     },
     "date_range": {
-      "from": "2026-03-29",
-      "to": "2026-04-27"
+      "from": "2026-03-30",
+      "to": "2026-04-28"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
