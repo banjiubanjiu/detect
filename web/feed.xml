@@ -5,8 +5,98 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 30 Apr 2026 08:33:16 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2026 08:21:40 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] nan → FIREFIGHTER : Use conventional military force, not specified below (Odesa, Odes'ka Oblast, Ukraine)</title>
+      <link>https://nypost.com/2026/04/29/world-news/trump-says-putin-could-agree-to-temporary-cease-fire-in-ukraine/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: nan / FIREFIGHTER. Location: Odesa, Odes'ka Oblast, Ukraine. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://nypost.com/2026/04/29/world-news/trump-says-putin-could-agree-to-temporary-cease-fire-in-ukraine/</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://nypost.com/2026/04/29/world-news/trump-says-putin-could-agree-to-temporary-cease-fire-in-ukraine/">nypost.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] nan → ISRAEL : Use conventional military force, not specified below (Shtula, Ha?afon, Israel)</title>
+      <link>https://www.camera.org/article/nprs-wordcraft-on-warcraft/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: nan / ISRAEL. Location: Shtula, Ha?afon, Israel. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
+      <guid isPermaLink="true">https://www.camera.org/article/nprs-wordcraft-on-warcraft/</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.camera.org/article/nprs-wordcraft-on-warcraft/">camera.org</source>
+    </item>
+    <item>
+      <title>[巴以冲突] HAMAS → GAZA : Abduct, hijack, or take hostage (Gaza, Israel (general), Israel)</title>
+      <link>https://religionnews.com/2026/04/29/rachel-goldberg-polin-mother-of-american-israeli-killed-by-hamas-is-a-modern-symbol-of-faith/</link>
+      <description>GDELT Event: Abduct, hijack, or take hostage. Actors: HAMAS / GAZA. Location: Gaza, Israel (general), Israel. Goldstein Scale: -9.0. Mentioned in 6 sources.</description>
+      <guid isPermaLink="true">https://religionnews.com/2026/04/29/rachel-goldberg-polin-mother-of-american-israeli-killed-by-hamas-is-a-modern-symbol-of-faith/</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://religionnews.com/2026/04/29/rachel-goldberg-polin-mother-of-american-israeli-killed-by-hamas-is-a-modern-symbol-of-faith/">religionnews.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAEL → ISRAEL : Use unconventional violence, not specified below (Gaza, Israel (general), Israel)</title>
+      <link>https://www.miragenews.com/uk-urged-to-act-on-israel-death-penalty-law-1664678/</link>
+      <description>GDELT Event: Use unconventional violence, not specified below. Actors: ISRAEL / ISRAEL. Location: Gaza, Israel (general), Israel. Goldstein Scale: -9.0. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://www.miragenews.com/uk-urged-to-act-on-israel-death-penalty-law-1664678/</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.miragenews.com/uk-urged-to-act-on-israel-death-penalty-law-1664678/">miragenews.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAEL → JEWISH : Fight with artillery and tanks (Israel)</title>
+      <link>https://www.dailymail.com/debate/article-15777333/ANGELA-EPSTEIN-outrage-met-words-flimsy-wind-fear-blowing-Golders-Green-Road.html</link>
+      <description>GDELT Event: Fight with artillery and tanks. Actors: ISRAEL / JEWISH. Location: Israel. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://www.dailymail.com/debate/article-15777333/ANGELA-EPSTEIN-outrage-met-words-flimsy-wind-fear-blowing-Golders-Green-Road.html</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.dailymail.com/debate/article-15777333/ANGELA-EPSTEIN-outrage-met-words-flimsy-wind-fear-blowing-Golders-Green-Road.html">dailymail.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAEL → IRAN : Use conventional military force, not specified below (Germany)</title>
+      <link>https://www.rutland-times.co.uk/national/king-would-have-probably-helped-with-military-strikes-against-iran-says-trump-165966/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / IRAN. Location: Germany. Goldstein Scale: -10.0. Mentioned in 3 sources.</description>
+      <guid isPermaLink="true">https://www.rutland-times.co.uk/national/king-would-have-probably-helped-with-military-strikes-against-iran-says-trump-165966/</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.rutland-times.co.uk/national/king-would-have-probably-helped-with-military-strikes-against-iran-says-trump-165966/">rutland-times.co.uk</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ULTRA ORTHODOX → ISRAEL : Demonstrate or rally (Capitol Hill, District of Columbia, United States)</title>
+      <link>https://www.seattletimes.com/business/the-latest-trump-says-iran-better-get-smart-soon-as-economies-face-cost-of-rising-energy-prices/</link>
+      <description>GDELT Event: Demonstrate or rally. Actors: ULTRA ORTHODOX / ISRAEL. Location: Capitol Hill, District of Columbia, United States. Goldstein Scale: -6.5. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.seattletimes.com/business/the-latest-trump-says-iran-better-get-smart-soon-as-economies-face-cost-of-rising-energy-prices/</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>舆论热点</category>
+      <source url="https://www.seattletimes.com/business/the-latest-trump-says-iran-better-get-smart-soon-as-economies-face-cost-of-rising-energy-prices/">seattletimes.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] IRAN → GOVERNMENT : Impose administrative sanctions, not specified below (Iran)</title>
+      <link>https://www.dailymail.com/news/article-15776779/Rent-controls-drive-prices-housing-minister-warns-shot-Reeves-bow-mortgages-cheaper-time-June.html</link>
+      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: IRAN / GOVERNMENT. Location: Iran. Goldstein Scale: -5.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.dailymail.com/news/article-15776779/Rent-controls-drive-prices-housing-minister-warns-shot-Reeves-bow-mortgages-cheaper-time-June.html</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>外交谈判</category>
+      <source url="https://www.dailymail.com/news/article-15776779/Rent-controls-drive-prices-housing-minister-warns-shot-Reeves-bow-mortgages-cheaper-time-June.html">dailymail.com</source>
+    </item>
+    <item>
+      <title>[苏丹内战] ARMY → SOUTH SUDAN : Use conventional military force, not specified below (Upper Nile State, Wilayat A`ali an Nil, South Sudan)</title>
+      <link>https://religionnews.com/2026/04/29/a-priest-vanished-three-years-ago-south-sudans-churches-say-hes-not-alone/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: ARMY / SOUTH SUDAN. Location: Upper Nile State, Wilayat A`ali an Nil, South Sudan. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://religionnews.com/2026/04/29/a-priest-vanished-three-years-ago-south-sudans-churches-say-hes-not-alone/</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <category>苏丹内战</category>
+      <category>军事动态</category>
+      <source url="https://religionnews.com/2026/04/29/a-priest-vanished-three-years-ago-south-sudans-churches-say-hes-not-alone/">religionnews.com</source>
+    </item>
     <item>
       <title>[俄乌战争] RUSSIA → BELARUS : Employ aerial weapons (Kaliningrad, Kaliningradskaya Oblast', Russia)</title>
       <link>https://thenewamerican.com/features/russia-on-edge-as-finland-and-poland-seek-nuclear-weapons/</link>
@@ -416,96 +506,6 @@
       <category>俄乌战争</category>
       <category>外交谈判</category>
       <source url="https://www.wbur.org/tag/harvard-trump">wbur.org</source>
-    </item>
-    <item>
-      <title>[俄乌战争] GOVERNMENT → RUSSIA : Demonstrate or rally (Russia)</title>
-      <link>https://www.hellenicshippingnews.com/windward-q1-2026-risk-report-shippings-most-turbulent-quarter-in-50-years/</link>
-      <description>GDELT Event: Demonstrate or rally. Actors: GOVERNMENT / RUSSIA. Location: Russia. Goldstein Scale: -6.5. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://www.hellenicshippingnews.com/windward-q1-2026-risk-report-shippings-most-turbulent-quarter-in-50-years/</guid>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>舆论热点</category>
-      <source url="https://www.hellenicshippingnews.com/windward-q1-2026-risk-report-shippings-most-turbulent-quarter-in-50-years/">hellenicshippingnews.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAELI → IRANIAN : Use conventional military force, not specified below (Jerusalem, Israel (general), Israel)</title>
-      <link>https://www.aol.co.uk/articles/trump-ceasefire-extension-ploy-buy-230456001.html</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAELI / IRANIAN. Location: Jerusalem, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 7 sources.</description>
-      <guid isPermaLink="true">https://www.aol.co.uk/articles/trump-ceasefire-extension-ploy-buy-230456001.html</guid>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.aol.co.uk/articles/trump-ceasefire-extension-ploy-buy-230456001.html">aol.co.uk</source>
-    </item>
-    <item>
-      <title>[巴以冲突] IRAN → ISRAEL : Use conventional military force, not specified below (Israel)</title>
-      <link>https://radio.wpsu.org/2026-04-21/trump-extends-u-s-ceasefire-with-iran-at-pakistans-request</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: IRAN / ISRAEL. Location: Israel. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://radio.wpsu.org/2026-04-21/trump-extends-u-s-ceasefire-with-iran-at-pakistans-request</guid>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://radio.wpsu.org/2026-04-21/trump-extends-u-s-ceasefire-with-iran-at-pakistans-request">radio.wpsu.org</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAELI → PAKISTAN : Use conventional military force, not specified below (Islamabad, Islamabad, Pakistan)</title>
-      <link>https://tribune.com.pk/story/2604102/pakistan-condemns-al-aqsa-storming</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAELI / PAKISTAN. Location: Islamabad, Islamabad, Pakistan. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://tribune.com.pk/story/2604102/pakistan-condemns-al-aqsa-storming</guid>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://tribune.com.pk/story/2604102/pakistan-condemns-al-aqsa-storming">tribune.com.pk</source>
-    </item>
-    <item>
-      <title>[美伊对峙] PRESIDENT → nan : Use conventional military force, not specified below (Tehran, Tehran, Iran)</title>
-      <link>https://www.rawstory.com/this-mess-proves-trump-is-no-longer-in-charge/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: PRESIDENT / nan. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">https://www.rawstory.com/this-mess-proves-trump-is-no-longer-in-charge/</guid>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://www.rawstory.com/this-mess-proves-trump-is-no-longer-in-charge/">rawstory.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] PRESIDENT → THE POPE : Use conventional military force, not specified below (Iran)</title>
-      <link>https://www.independent.co.uk/news/world/americas/us-politics/pope-leo-god-iran-war-hegseth-b2962228.html</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: PRESIDENT / THE POPE. Location: Iran. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">https://www.independent.co.uk/news/world/americas/us-politics/pope-leo-god-iran-war-hegseth-b2962228.html</guid>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://www.independent.co.uk/news/world/americas/us-politics/pope-leo-god-iran-war-hegseth-b2962228.html">independent.co.uk</source>
-    </item>
-    <item>
-      <title>[美伊对峙] TANKER → IRAN : Occupy territory (Gulf Of Oman, Iran (general), Iran)</title>
-      <link>https://www.thestar.com.my/business/insight/2026/04/22/opening-hormuz-is-the-easy-part---restoring-oil-flows-isnt</link>
-      <description>GDELT Event: Occupy territory. Actors: TANKER / IRAN. Location: Gulf Of Oman, Iran (general), Iran. Goldstein Scale: -9.5. Mentioned in 6 sources.</description>
-      <guid isPermaLink="true">https://www.thestar.com.my/business/insight/2026/04/22/opening-hormuz-is-the-easy-part---restoring-oil-flows-isnt</guid>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://www.thestar.com.my/business/insight/2026/04/22/opening-hormuz-is-the-easy-part---restoring-oil-flows-isnt">thestar.com.my</source>
-    </item>
-    <item>
-      <title>[美伊对峙] BAHRAIN → QATAR : Fight with artillery and tanks (Tehran, Tehran, Iran)</title>
-      <link>https://dailyreckoning.com/black-rain-drone-destruction/</link>
-      <description>GDELT Event: Fight with artillery and tanks. Actors: BAHRAIN / QATAR. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://dailyreckoning.com/black-rain-drone-destruction/</guid>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://dailyreckoning.com/black-rain-drone-destruction/">dailyreckoning.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] IRAN → nan : Impose administrative sanctions, not specified below (Gulf Of Oman, Iran (general), Iran)</title>
-      <link>https://en.mercopress.com/2026/04/21/trump-extends-iran-truce-demands-unified-proposal-from-tehran-to-negotiate</link>
-      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: IRAN / nan. Location: Gulf Of Oman, Iran (general), Iran. Goldstein Scale: -5.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://en.mercopress.com/2026/04/21/trump-extends-iran-truce-demands-unified-proposal-from-tehran-to-negotiate</guid>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>外交谈判</category>
-      <source url="https://en.mercopress.com/2026/04/21/trump-extends-iran-truce-demands-unified-proposal-from-tehran-to-negotiate">en.mercopress.com</source>
     </item>
   </channel>
 </rss>
