@@ -5,8 +5,78 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 01 May 2026 08:21:40 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 07:55:47 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] UKRAINE → RUSSIAN : Use unconventional violence, not specified below (Moscow, Moskva, Russia)</title>
+      <link>https://breakingdefense.com/2026/04/russias-windfall-from-the-iran-war-is-temporary-ukraines-isnt/</link>
+      <description>GDELT Event: Use unconventional violence, not specified below. Actors: UKRAINE / RUSSIAN. Location: Moscow, Moskva, Russia. Goldstein Scale: -9.0. Mentioned in 5 sources.</description>
+      <guid isPermaLink="true">https://breakingdefense.com/2026/04/russias-windfall-from-the-iran-war-is-temporary-ukraines-isnt/</guid>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://breakingdefense.com/2026/04/russias-windfall-from-the-iran-war-is-temporary-ukraines-isnt/">breakingdefense.com</source>
+    </item>
+    <item>
+      <title>[俄乌战争] PROSECUTOR → PRESIDENT : Arrest, detain, or charge with legal action (Russia)</title>
+      <link>https://humanevents.com/2026/04/30/mollie-hemingway-to-jack-posobiec-james-comey-tried-to-run-a-coup-against-trump-and-must-finally-be-held-accountable</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: PROSECUTOR / PRESIDENT. Location: Russia. Goldstein Scale: -5.0. Mentioned in 6 sources.</description>
+      <guid isPermaLink="true">https://humanevents.com/2026/04/30/mollie-hemingway-to-jack-posobiec-james-comey-tried-to-run-a-coup-against-trump-and-must-finally-be-held-accountable</guid>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>外交谈判</category>
+      <source url="https://humanevents.com/2026/04/30/mollie-hemingway-to-jack-posobiec-james-comey-tried-to-run-a-coup-against-trump-and-must-finally-be-held-accountable">humanevents.com</source>
+    </item>
+    <item>
+      <title>[俄乌战争] MOSCOW → MALI : Expel or deport individuals (Kidal, Kidal, Mali)</title>
+      <link>https://www.thecable.ng/mali-russia-and-the-collapse-of-a-dangerous-illusion/</link>
+      <description>GDELT Event: Expel or deport individuals. Actors: MOSCOW / MALI. Location: Kidal, Kidal, Mali. Goldstein Scale: -5.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.thecable.ng/mali-russia-and-the-collapse-of-a-dangerous-illusion/</guid>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>外交谈判</category>
+      <source url="https://www.thecable.ng/mali-russia-and-the-collapse-of-a-dangerous-illusion/">thecable.ng</source>
+    </item>
+    <item>
+      <title>[巴以冲突] GAZA → nan : Use conventional military force, not specified below (Eilat, HaDarom, Israel)</title>
+      <link>https://www.frontpagemag.com/idf-unit-destroys-much-of-hezbollahs-terrorist-infrastructure/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: GAZA / nan. Location: Eilat, HaDarom, Israel. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://www.frontpagemag.com/idf-unit-destroys-much-of-hezbollahs-terrorist-infrastructure/</guid>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.frontpagemag.com/idf-unit-destroys-much-of-hezbollahs-terrorist-infrastructure/">frontpagemag.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAEL → nan : Use conventional military force, not specified below (Shahed, Fars, Iran)</title>
+      <link>https://www.newkerala.com/news/a/iranians-pledge-allegiance-new-supreme-leader-mass-rallies-589.htm</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / nan. Location: Shahed, Fars, Iran. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.newkerala.com/news/a/iranians-pledge-allegiance-new-supreme-leader-mass-rallies-589.htm</guid>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.newkerala.com/news/a/iranians-pledge-allegiance-new-supreme-leader-mass-rallies-589.htm">newkerala.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAELI → GREEK : Confiscate property (Gaza, Israel (general), Israel)</title>
+      <link>https://neoskosmos.com/en/2026/05/01/news/greece/flotilla-activists-to-be-disembarked-in-greece-after-israeli-interception/</link>
+      <description>GDELT Event: Confiscate property. Actors: ISRAELI / GREEK. Location: Gaza, Israel (general), Israel. Goldstein Scale: -9.2. Mentioned in 6 sources.</description>
+      <guid isPermaLink="true">https://neoskosmos.com/en/2026/05/01/news/greece/flotilla-activists-to-be-disembarked-in-greece-after-israeli-interception/</guid>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>外交谈判</category>
+      <source url="https://neoskosmos.com/en/2026/05/01/news/greece/flotilla-activists-to-be-disembarked-in-greece-after-israeli-interception/">neoskosmos.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAEL → POLICEWOMAN : Arrest, detain, or charge with legal action (Bristol, Bristol, City of, United Kingdom)</title>
+      <link>https://www.frontpagemag.com/palestine-action-thug-hits-policewoman-with-a-sledgehammer/</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: ISRAEL / POLICEWOMAN. Location: Bristol, Bristol, City of, United Kingdom. Goldstein Scale: -5.0. Mentioned in 3 sources.</description>
+      <guid isPermaLink="true">https://www.frontpagemag.com/palestine-action-thug-hits-policewoman-with-a-sledgehammer/</guid>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>外交谈判</category>
+      <source url="https://www.frontpagemag.com/palestine-action-thug-hits-policewoman-with-a-sledgehammer/">frontpagemag.com</source>
+    </item>
     <item>
       <title>[俄乌战争] nan → FIREFIGHTER : Use conventional military force, not specified below (Odesa, Odes'ka Oblast, Ukraine)</title>
       <link>https://nypost.com/2026/04/29/world-news/trump-says-putin-could-agree-to-temporary-cease-fire-in-ukraine/</link>
@@ -436,76 +506,6 @@
       <category>俄乌战争</category>
       <category>军事动态</category>
       <source url="https://www.channelnewsasia.com/commentary/us-iran-war-shahed-drone-missile-ukraine-war-6073421">channelnewsasia.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] DEFENSE MINIST → VOLGOGRAD : Arrest, detain, or charge with legal action (Volgograd, Volgogradskaya Oblast', Russia)</title>
-      <link>https://www.eng.kavkaz-uzel.eu/articles/74674</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: DEFENSE MINIST / VOLGOGRAD. Location: Volgograd, Volgogradskaya Oblast', Russia. Goldstein Scale: -5.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://www.eng.kavkaz-uzel.eu/articles/74674</guid>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>外交谈判</category>
-      <source url="https://www.eng.kavkaz-uzel.eu/articles/74674">eng.kavkaz-uzel.eu</source>
-    </item>
-    <item>
-      <title>[巴以冲突] JEWISH → PALESTINIAN : Use conventional military force, not specified below (Gaza, Israel (general), Israel)</title>
-      <link>https://www.latimes.com/world-nation/story/2026-04-21/2-palestinians-including-14-year-old-boy-killed-by-israeli-settler-in-occupied-west-bank</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: JEWISH / PALESTINIAN. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.</description>
-      <guid isPermaLink="true">https://www.latimes.com/world-nation/story/2026-04-21/2-palestinians-including-14-year-old-boy-killed-by-israeli-settler-in-occupied-west-bank</guid>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.latimes.com/world-nation/story/2026-04-21/2-palestinians-including-14-year-old-boy-killed-by-israeli-settler-in-occupied-west-bank">latimes.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] COMMUNITY → nan : Use unconventional violence, not specified below (Tantura, H_efa, Israel)</title>
-      <link>https://www.antiwar.com/blog/2026/04/22/report-details-israeli-use-of-sexual-violence-to-force-palestinians-from-west-bank-homes/</link>
-      <description>GDELT Event: Use unconventional violence, not specified below. Actors: COMMUNITY / nan. Location: Tantura, H_efa, Israel. Goldstein Scale: -9.0. Mentioned in 5 sources.</description>
-      <guid isPermaLink="true">https://www.antiwar.com/blog/2026/04/22/report-details-israeli-use-of-sexual-violence-to-force-palestinians-from-west-bank-homes/</guid>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.antiwar.com/blog/2026/04/22/report-details-israeli-use-of-sexual-violence-to-force-palestinians-from-west-bank-homes/">antiwar.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISLAMABAD → NAVAL : Impose blockade, restrict movement (Lebanon)</title>
-      <link>https://www.yahoo.com/news/articles/no-iran-delegation-sent-us-100922190.html</link>
-      <description>GDELT Event: Impose blockade, restrict movement. Actors: ISLAMABAD / NAVAL. Location: Lebanon. Goldstein Scale: -9.5. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://www.yahoo.com/news/articles/no-iran-delegation-sent-us-100922190.html</guid>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.yahoo.com/news/articles/no-iran-delegation-sent-us-100922190.html">yahoo.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] SECURITY FORCE → nan : Use unconventional violence, not specified below (Tehran, Tehran, Iran)</title>
-      <link>https://www.oann.com/newsroom/trump-announces-u-s-brokered-goodwill-understanding-with-iran-to-spare-8-female-prisoners-tehran-denies-execution-claims/</link>
-      <description>GDELT Event: Use unconventional violence, not specified below. Actors: SECURITY FORCE / nan. Location: Tehran, Tehran, Iran. Goldstein Scale: -9.0. Mentioned in 3 sources.</description>
-      <guid isPermaLink="true">https://www.oann.com/newsroom/trump-announces-u-s-brokered-goodwill-understanding-with-iran-to-spare-8-female-prisoners-tehran-denies-execution-claims/</guid>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://www.oann.com/newsroom/trump-announces-u-s-brokered-goodwill-understanding-with-iran-to-spare-8-female-prisoners-tehran-denies-execution-claims/">oann.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] IRAN → nan : Fight with artillery and tanks (Tehran, Tehran, Iran)</title>
-      <link>https://www.alternet.org/trump-iran-war-misinformation/</link>
-      <description>GDELT Event: Fight with artillery and tanks. Actors: IRAN / nan. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
-      <guid isPermaLink="true">https://www.alternet.org/trump-iran-war-misinformation/</guid>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://www.alternet.org/trump-iran-war-misinformation/">alternet.org</source>
-    </item>
-    <item>
-      <title>[俄乌战争] BOSTON → SCHOOL : Arrest, detain, or charge with legal action (Russia)</title>
-      <link>https://www.wbur.org/tag/harvard-trump</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: BOSTON / SCHOOL. Location: Russia. Goldstein Scale: -5.0. Mentioned in 1 sources.</description>
-      <guid isPermaLink="true">https://www.wbur.org/tag/harvard-trump</guid>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>外交谈判</category>
-      <source url="https://www.wbur.org/tag/harvard-trump">wbur.org</source>
     </item>
   </channel>
 </rss>
