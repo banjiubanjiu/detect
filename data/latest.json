@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-04T08:40:48+00:00Z",
+  "updated_at": "2026-05-05T08:21:24+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -2778,23 +2778,6 @@
               "admiralty_code": "B3"
             },
             {
-              "id": "rss_968a92857d19",
-              "title": "乌克兰袭击击中俄罗斯南部，造成1人死亡，多人受伤",
-              "summary": "未经证实的报告称，与化肥和炸药生产相关的化工厂是袭击的目标。",
-              "source": "web",
-              "source_label": "Moscow Times",
-              "date": "2026-04-04",
-              "url": "https://www.themoscowtimes.com/2026/04/04/ukrainian-strikes-hit-southern-russia-killing-1-and-wounding-several-others-a92423",
-              "rss_source": "Moscow Times",
-              "local_file": "sources/web/themoscowtimes.com_ukrainian-strikes-hit-southern-russia-killing-1-and-wounding-.md",
-              "title_en": "Ukrainian Strikes Hit Southern Russia, Killing 1 and Wounding Several Others",
-              "summary_en": "Unverified reports said chemical plants tied to fertilizer and explosives production were targeted in the attacks.",
-              "criticality": "background",
-              "admiralty_source": "B",
-              "admiralty_info": 3,
-              "admiralty_code": "B3"
-            },
-            {
               "id": "gdelt_1298644819",
               "title": "IRAN → UKRAINE : Use conventional military force, not specified below (Shahed, Fars, Iran)",
               "title_en": "IRAN → UKRAINE : Use conventional military force, not specified below (Shahed, Fars, Iran)",
@@ -4403,23 +4386,6 @@
               "admiralty_code": "B3"
             },
             {
-              "id": "rss_339b114f234c",
-              "title": "亚美尼亚议长称，如果俄罗斯提高天然气价格，该国将退出集体安全条约组织和欧亚经济联盟。",
-              "summary": "亚美尼亚议长阿伦·西蒙尼扬表示，如果俄罗斯提高向该国供应的天然气价格，亚美尼亚将退出集体安全条约组织和欧亚经济联盟。",
-              "source": "web",
-              "source_label": "Meduza",
-              "date": "2026-04-04",
-              "url": "https://meduza.io/en/news/2026/04/04/armenia-s-parliamentary-speaker-says-country-will-leave-csto-and-eurasian-economic-union-if-russia-raises-gas-price",
-              "rss_source": "Meduza",
-              "local_file": "sources/web/meduza.io_armenia-s-parliamentary-speaker-says-country-will-leave-csto-and-euras.md",
-              "title_en": "Armenia’s parliamentary speaker says country will leave CSTO and Eurasian Economic Union if Russia raises gas price",
-              "summary_en": "Armenia’s parliamentary speaker Alen Simonyan said his country would leave the Collective Security Treaty Organization and the Eurasian Economic Union if Russia raises the price of gas it supplies to the republic.",
-              "criticality": "background",
-              "admiralty_source": "B",
-              "admiralty_info": 3,
-              "admiralty_code": "B3"
-            },
-            {
               "id": "gdelt_1298269539",
               "title": "RUSSIAN → KYIV : Destroy property (Budapest, Budapest, Hungary)",
               "title_en": "RUSSIAN → KYIV : Destroy property (Budapest, Budapest, Hungary)",
@@ -4807,6 +4773,72 @@
                 "geo_lat": 18.4411,
                 "geo_lon": 1.40778,
                 "geo_name": "Kidal, Kidal, Mali"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1302406563",
+              "title": "RUSSIA → nan : Impose administrative sanctions, not specified below (Turkey)",
+              "title_en": "RUSSIA → nan : Impose administrative sanctions, not specified below (Turkey)",
+              "summary": "GDELT Event: Impose administrative sanctions, not specified below. Actors: RUSSIA / nan. Location: Turkey. Goldstein Scale: -5.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: RUSSIA / nan. Location: Turkey. Goldstein Scale: -5.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "mining.com",
+              "date": "2026-05-04",
+              "url": "https://www.mining.com/op-ed-the-copper-supply-crisis-is-a-sulfur-management-crisis/",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1302406563",
+                "event_code": "172",
+                "cameo_desc": "Impose administrative sanctions, not specified below",
+                "actor1": "RUSSIA",
+                "actor2": "nan",
+                "actor1_country": "RUS",
+                "actor2_country": "nan",
+                "geo_lat": 39.059012,
+                "geo_lon": 34.911546,
+                "geo_name": "Turkey"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1302406605",
+              "title": "SWEDEN → CAPTAIN : Arrest, detain, or charge with legal action (Kremlin, Moskva, Russia)",
+              "title_en": "SWEDEN → CAPTAIN : Arrest, detain, or charge with legal action (Kremlin, Moskva, Russia)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: SWEDEN / CAPTAIN. Location: Kremlin, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 1 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: SWEDEN / CAPTAIN. Location: Kremlin, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 1 sources.",
+              "source": "gdelt",
+              "source_label": "kyivpost.com",
+              "date": "2026-05-04",
+              "url": "https://www.kyivpost.com/post/75406",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 1,
+                "sources": 1,
+                "articles": 1,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1302406605",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "SWEDEN",
+                "actor2": "CAPTAIN",
+                "actor1_country": "SWE",
+                "actor2_country": "nan",
+                "geo_lat": 55.7522,
+                "geo_lon": 37.6156,
+                "geo_name": "Kremlin, Moskva, Russia"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -6069,40 +6101,6 @@
               "local_file": "sources/web/meduza.io_putin-orders-transfer-of-2-medieval-icons-from-tretyakov-gallery-to-ru.md",
               "title_en": "Putin orders transfer of 2 medieval icons from Tretyakov Gallery to Russian Orthodox Church, patriarch says",
               "summary_en": "Patriarch Kirill said at an April 4 service in Moscow’s Cathedral of Christ the Savior that President Vladimir Putin had personally ordered the transfer of the Vladimir and Donskaya icons of the Mother of God to the Russian Orthodox Church.",
-              "criticality": "background",
-              "admiralty_source": "B",
-              "admiralty_info": 3,
-              "admiralty_code": "B3"
-            },
-            {
-              "id": "rss_da2357f4f461",
-              "title": "俄罗斯互联网监管机构命令各媒体删除将银行服务中断与屏蔽网站活动相关联的报道",
-              "summary": "俄罗斯联邦互联网监管机构Roskomnadzor已命令俄罗斯媒体删除将4月3日俄罗斯主要银行大范围中断与该机构网站屏蔽活动联系起来的报道。",
-              "source": "web",
-              "source_label": "Meduza",
-              "date": "2026-04-04",
-              "url": "https://meduza.io/en/news/2026/04/04/russia-s-internet-regulator-orders-outlets-to-delete-reports-linking-bank-disruptions-to-its-website-blocking-activity",
-              "rss_source": "Meduza",
-              "local_file": "sources/web/meduza.io_russia-s-internet-regulator-orders-outlets-to-delete-reports-linking-b.md",
-              "title_en": "Russia’s internet regulator orders outlets to delete reports linking bank disruptions to its website-blocking activity",
-              "summary_en": "Russia’s federal internet regulator, Roskomnadzor, has ordered Russian outlets to delete reports linking a widespread disruption at major Russian banks on April 3 to the agency’s website-blocking activity.",
-              "criticality": "background",
-              "admiralty_source": "B",
-              "admiralty_info": 3,
-              "admiralty_code": "B3"
-            },
-            {
-              "id": "rss_dc65e9eb5db1",
-              "title": "Telegram 创始人称，尽管受到封锁，仍有 6500 万俄罗斯人每天通过 VPN 使用该应用",
-              "summary": "Telegram创始人帕维尔·杜罗夫打破沉默，在其Telegram频道上发文称，俄罗斯当局此前已经试图封禁Telegram，并花费数年时间试图封禁VPN。",
-              "source": "web",
-              "source_label": "Meduza",
-              "date": "2026-04-04",
-              "url": "https://meduza.io/en/news/2026/04/04/telegram-founder-says-65-million-russians-use-app-daily-via-vpn-despite-blocking-attempts",
-              "rss_source": "Meduza",
-              "local_file": "sources/web/meduza.io_telegram-founder-says-65-million-russians-use-app-daily-via-vpn-despit.md",
-              "title_en": "Telegram founder says 65 million Russians use app daily via VPN despite blocking attempts",
-              "summary_en": "Telegram founder Pavel Durov broke his silence on Russia’s attempts to block the messaging app, writing in a post on his Telegram channel that Russian authorities had already tried to ban Telegram and spent years trying to ban VPNs.",
               "criticality": "background",
               "admiralty_source": "B",
               "admiralty_info": 3,
@@ -8298,23 +8296,6 @@
               "admiralty_code": "B3"
             },
             {
-              "id": "rss_1ebbff6a70fc",
-              "title": "伊朗正以高空集束弹头释放穿透以色列的弹道导弹防御系统",
-              "summary": "伊朗在高空释放子弹药已经帮助其突破以色列的末端导弹防御系统，而这种战术很可能会被其他国家效仿。《伊朗正利用高空集束弹头释放穿透以色列弹道导弹防御系统》一文首次出现在“战区”网站。",
-              "source": "web",
-              "source_label": "The War Zone",
-              "date": "2026-04-04",
-              "url": "https://www.twz.com/land/iran-is-piercing-israels-ballistic-missile-defenses-with-high-altitude-cluster-warhead-releases",
-              "rss_source": "The War Zone",
-              "local_file": "sources/web/twz.com_iran-is-piercing-israels-ballistic-missile-defenses-with-high-altitude-c.md",
-              "title_en": "Iran Is Piercing Israel’s Ballistic Missile Defenses With High Altitude Cluster Warhead Releases",
-              "summary_en": "Unleashing submunitions at high altitudes has helped Iran to get through Israel's terminal missile defenses, and is a tactic others will likely seize upon. The post Iran Is Piercing Israel’s Ballistic Missile Defenses With High Altitude Cluster Warhead Releases appeared first on The War Zone.",
-              "criticality": "background",
-              "admiralty_source": "F",
-              "admiralty_info": 6,
-              "admiralty_code": "F6"
-            },
-            {
               "id": "gdelt_1298269316",
               "title": "ISRAEL → LEBANON : Employ aerial weapons (Iran)",
               "title_en": "ISRAEL → LEBANON : Employ aerial weapons (Iran)",
@@ -10380,6 +10361,72 @@
                 "geo_lat": 33.833333,
                 "geo_lon": 35.833333,
                 "geo_name": "Lebanon"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1302406559",
+              "title": "HAMAS → ISRAEL : Violate ceasefire (Gaza, Israel (general), Israel)",
+              "title_en": "HAMAS → ISRAEL : Violate ceasefire (Gaza, Israel (general), Israel)",
+              "summary": "GDELT Event: Violate ceasefire. Actors: HAMAS / ISRAEL. Location: Gaza, Israel (general), Israel. Goldstein Scale: -9.5. Mentioned in 5 sources.",
+              "summary_en": "GDELT Event: Violate ceasefire. Actors: HAMAS / ISRAEL. Location: Gaza, Israel (general), Israel. Goldstein Scale: -9.5. Mentioned in 5 sources.",
+              "source": "gdelt",
+              "source_label": "abc7chicago.com",
+              "date": "2026-05-04",
+              "url": "https://abc7chicago.com/post/nuseirat-refugee-camp-children-gaza-find-relief-war-trauma-breakdancing/19037604/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 5,
+                "sources": 1,
+                "articles": 5,
+                "goldstein": -9.5
+              },
+              "gdelt_meta": {
+                "event_id": "1302406559",
+                "event_code": "196",
+                "cameo_desc": "Violate ceasefire",
+                "actor1": "HAMAS",
+                "actor2": "ISRAEL",
+                "actor1_country": "PSE",
+                "actor2_country": "ISR",
+                "geo_lat": 31.4167,
+                "geo_lon": 34.3333,
+                "geo_name": "Gaza, Israel (general), Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1302406298",
+              "title": "ISRAELI → LEBANON : Use conventional military force, not specified below (Israel)",
+              "title_en": "ISRAELI → LEBANON : Use conventional military force, not specified below (Israel)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAELI / LEBANON. Location: Israel. Goldstein Scale: -10.0. Mentioned in 1 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAELI / LEBANON. Location: Israel. Goldstein Scale: -10.0. Mentioned in 1 sources.",
+              "source": "gdelt",
+              "source_label": "wyomingnewsnow.tv",
+              "date": "2026-05-04",
+              "url": "https://www.wyomingnewsnow.tv/news/national/us-iran-ceasefire-on-brink-as-uae-reports-attacks/article_a5e056b3-1f58-5703-906e-5668c9a99e0f.html",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 1,
+                "sources": 1,
+                "articles": 1,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1302406298",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "ISRAELI",
+                "actor2": "LEBANON",
+                "actor1_country": "ISR",
+                "actor2_country": "LBN",
+                "geo_lat": 31.5,
+                "geo_lon": 34.75,
+                "geo_name": "Israel"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -12465,6 +12512,72 @@
                 "geo_lat": 51.45,
                 "geo_lon": -2.58333,
                 "geo_name": "Bristol, Bristol, City of, United Kingdom"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1302406381",
+              "title": "EMPLOYEE → nan : Impose administrative sanctions, not specified below (Gaza, Israel (general), Israel)",
+              "title_en": "EMPLOYEE → nan : Impose administrative sanctions, not specified below (Gaza, Israel (general), Israel)",
+              "summary": "GDELT Event: Impose administrative sanctions, not specified below. Actors: EMPLOYEE / nan. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 20 sources.",
+              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: EMPLOYEE / nan. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 20 sources.",
+              "source": "gdelt",
+              "source_label": "independent.co.uk",
+              "date": "2026-05-04",
+              "url": "https://www.independent.co.uk/news/world/americas/us-politics/google-trump-deal-protest-pentagon-ai-b2970268.html",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 20,
+                "sources": 2,
+                "articles": 20,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1302406381",
+                "event_code": "172",
+                "cameo_desc": "Impose administrative sanctions, not specified below",
+                "actor1": "EMPLOYEE",
+                "actor2": "nan",
+                "actor1_country": "nan",
+                "actor2_country": "nan",
+                "geo_lat": 31.4167,
+                "geo_lon": 34.3333,
+                "geo_name": "Gaza, Israel (general), Israel"
+              },
+              "admiralty_source": "B",
+              "admiralty_info": 3,
+              "admiralty_code": "B3"
+            },
+            {
+              "id": "gdelt_1302406252",
+              "title": "INTERNATIONAL CRIMINAL COURT → CRIMINAL : Arrest, detain, or charge with legal action (Gaza, Israel (general), Israel)",
+              "title_en": "INTERNATIONAL CRIMINAL COURT → CRIMINAL : Arrest, detain, or charge with legal action (Gaza, Israel (general), Israel)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: INTERNATIONAL CRIMINAL COURT / CRIMINAL. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: INTERNATIONAL CRIMINAL COURT / CRIMINAL. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "tribune.com.pk",
+              "date": "2026-05-04",
+              "url": "https://tribune.com.pk/story/2606357/diplomacy-in-the-age-of-power-politics",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1302406252",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "INTERNATIONAL CRIMINAL COURT",
+                "actor2": "CRIMINAL",
+                "actor1_country": "nan",
+                "actor2_country": "nan",
+                "geo_lat": 31.4167,
+                "geo_lon": 34.3333,
+                "geo_name": "Gaza, Israel (general), Israel"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -15578,12 +15691,9 @@
               "title_en": "US airman rescued after his fighter jet was shot down in Iran",
               "summary_en": "NPR's Tom Bowman reports on the race to rescue a U.S. airman after his fighter jet was shot down.",
               "criticality": "background",
-              "cluster_id": "cl_84587b",
-              "cluster_size": 4,
-              "cluster_bias_count": 2,
               "admiralty_source": "B",
-              "admiralty_info": 1,
-              "admiralty_code": "B1"
+              "admiralty_info": 3,
+              "admiralty_code": "B3"
             },
             {
               "id": "rss_3e2bc59b72b0",
@@ -15735,74 +15845,6 @@
               "admiralty_source": "B",
               "admiralty_info": 3,
               "admiralty_code": "B3"
-            },
-            {
-              "id": "rss_c651b760019d",
-              "title": "伊朗战争直播：德黑兰击落2架美国战机；以色列轰炸黎巴嫩桥梁",
-              "summary": "德黑兰举行庆祝活动，伊朗军方表示，此次袭击表明其部队仍具有作战能力。",
-              "source": "web",
-              "source_label": "Al Jazeera",
-              "date": "2026-04-04",
-              "url": "https://www.aljazeera.com/news/liveblog/2026/4/4/iran-war-live-tehran-downs-2-us-warplanes-israel-bombs-lebanon-bridges?traffic_source=rss",
-              "rss_source": "Al Jazeera",
-              "local_file": "sources/web/aljazeera.com_iran-war-live-tehran-downs-2-us-warplanes-israel-bombs-lebanon-bri.md",
-              "title_en": "Iran war live: Tehran downs 2 US warplanes; Israel bombs Lebanon bridges",
-              "summary_en": "Celebrations in Tehran as Iran's military says the strikes shows its forces still have fighting capability.",
-              "criticality": "background",
-              "admiralty_source": "B",
-              "admiralty_info": 3,
-              "admiralty_code": "B3"
-            },
-            {
-              "id": "rss_1ebbff6a70fc",
-              "title": "伊朗正以高空集束弹头释放穿透以色列的弹道导弹防御系统",
-              "summary": "伊朗在高空释放子弹药已经帮助其突破以色列的末端导弹防御系统，而这种战术很可能会被其他国家效仿。《伊朗正利用高空集束弹头释放穿透以色列弹道导弹防御系统》一文首次出现在“战区”网站。",
-              "source": "web",
-              "source_label": "The War Zone",
-              "date": "2026-04-04",
-              "url": "https://www.twz.com/land/iran-is-piercing-israels-ballistic-missile-defenses-with-high-altitude-cluster-warhead-releases",
-              "rss_source": "The War Zone",
-              "local_file": "sources/web/twz.com_iran-is-piercing-israels-ballistic-missile-defenses-with-high-altitude-c.md",
-              "title_en": "Iran Is Piercing Israel’s Ballistic Missile Defenses With High Altitude Cluster Warhead Releases",
-              "summary_en": "Unleashing submunitions at high altitudes has helped Iran to get through Israel's terminal missile defenses, and is a tactic others will likely seize upon. The post Iran Is Piercing Israel’s Ballistic Missile Defenses With High Altitude Cluster Warhead Releases appeared first on The War Zone.",
-              "criticality": "background",
-              "admiralty_source": "F",
-              "admiralty_info": 6,
-              "admiralty_code": "F6"
-            },
-            {
-              "id": "rss_3186c133b50f",
-              "title": "关于搜寻在伊朗失踪的美国飞行员，我们目前已知的信息",
-              "summary": "美国和伊朗军队正在搜寻一名失踪的美国机组人员，此前一架美国战机被击落。",
-              "source": "web",
-              "source_label": "BBC World",
-              "date": "2026-04-04",
-              "url": "https://www.bbc.com/news/videos/c7vqlr5gqr0o?at_medium=RSS&at_campaign=rss",
-              "rss_source": "BBC World",
-              "local_file": "sources/web/bbc.com_c7vqlr5gqr0o_at_medium_RSS_at_campaign_rss.md",
-              "title_en": "What we know so far about the search for missing US airman in Iran",
-              "summary_en": "US and Iranian forces are searching for a missing American crew member after a US warplane was shot down.",
-              "criticality": "background",
-              "admiralty_source": "B",
-              "admiralty_info": 3,
-              "admiralty_code": "B3"
-            },
-            {
-              "id": "rss_8614b9d9b852",
-              "title": "伊朗境内F-15E战机坠毁，救援行动正在进行中（更新）",
-              "summary": "一架F-15E在不明情况下坠毁，并且有美国战斗搜索救援力量被发现在伊朗境内纵深处活动。最初发表于《战区》的帖子：F-15E在伊朗坠毁，救援行动正在进行中（已更新）。",
-              "source": "web",
-              "source_label": "The War Zone",
-              "date": "2026-04-04",
-              "url": "https://www.twz.com/air/photos-of-f-15e-wreckage-emerge-amid-iranian-claims-it-shot-down-an-american-fighter",
-              "rss_source": "The War Zone",
-              "local_file": "sources/web/twz.com_photos-of-f-15e-wreckage-emerge-amid-iranian-claims-it-shot-down-an-amer.md",
-              "title_en": "F-15E Down In Iran, Rescue Operation Ongoing (Updated)",
-              "summary_en": "The F-15E went down under unknown circumstances and U.S. combat search and rescue assets have been seen deep in Iran. The post F-15E Down In Iran, Rescue Operation Ongoing (Updated) appeared first on The War Zone.",
-              "criticality": "background",
-              "admiralty_source": "F",
-              "admiralty_info": 6,
-              "admiralty_code": "F6"
             },
             {
               "id": "gdelt_1298268795",
@@ -17177,6 +17219,138 @@
                 "geo_lat": 27.8333,
                 "geo_lon": -81.717,
                 "geo_name": "Florida, United States"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1302406035",
+              "title": "RESIDENTS → IRANIAN : Use conventional military force, not specified below (Iran)",
+              "title_en": "RESIDENTS → IRANIAN : Use conventional military force, not specified below (Iran)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: RESIDENTS / IRANIAN. Location: Iran. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: RESIDENTS / IRANIAN. Location: Iran. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "source": "gdelt",
+              "source_label": "stripes.com",
+              "date": "2026-05-04",
+              "url": "https://www.stripes.com/theaters/middle_east/2026-05-04/us-intercepts-iranian-missiles-strait-of-hormuz-21573524.html",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 8,
+                "sources": 1,
+                "articles": 8,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1302406035",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "RESIDENTS",
+                "actor2": "IRANIAN",
+                "actor1_country": "nan",
+                "actor2_country": "IRN",
+                "geo_lat": 32.0,
+                "geo_lon": 53.0,
+                "geo_name": "Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1302406844",
+              "title": "THE US → PRESIDENT : Fight with small arms and light weapons (Iran)",
+              "title_en": "THE US → PRESIDENT : Fight with small arms and light weapons (Iran)",
+              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: THE US / PRESIDENT. Location: Iran. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: THE US / PRESIDENT. Location: Iran. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "israelnationalnews.com",
+              "date": "2026-05-04",
+              "url": "https://www.israelnationalnews.com/news/426559",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1302406844",
+                "event_code": "193",
+                "cameo_desc": "Fight with small arms and light weapons",
+                "actor1": "THE US",
+                "actor2": "PRESIDENT",
+                "actor1_country": "USA",
+                "actor2_country": "nan",
+                "geo_lat": 32.0,
+                "geo_lon": 53.0,
+                "geo_name": "Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1302406206",
+              "title": "PRESIDENT → IRAN : Violate ceasefire (Iran)",
+              "title_en": "PRESIDENT → IRAN : Violate ceasefire (Iran)",
+              "summary": "GDELT Event: Violate ceasefire. Actors: PRESIDENT / IRAN. Location: Iran. Goldstein Scale: -9.5. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Violate ceasefire. Actors: PRESIDENT / IRAN. Location: Iran. Goldstein Scale: -9.5. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "mediaite.com",
+              "date": "2026-05-04",
+              "url": "https://www.mediaite.com/media/news/trump-gives-abcs-jon-karl-an-exclusive-phoner-just-hours-after-accusing-him-of-lying-about-a-prior-call/",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -9.5
+              },
+              "gdelt_meta": {
+                "event_id": "1302406206",
+                "event_code": "196",
+                "cameo_desc": "Violate ceasefire",
+                "actor1": "PRESIDENT",
+                "actor2": "IRAN",
+                "actor1_country": "nan",
+                "actor2_country": "IRN",
+                "geo_lat": 32.0,
+                "geo_lon": 53.0,
+                "geo_name": "Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1302406287",
+              "title": "IRANIAN → AMERICAN : Fight with small arms and light weapons (United States)",
+              "title_en": "IRANIAN → AMERICAN : Fight with small arms and light weapons (United States)",
+              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: IRANIAN / AMERICAN. Location: United States. Goldstein Scale: -10.0. Mentioned in 5 sources.",
+              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: IRANIAN / AMERICAN. Location: United States. Goldstein Scale: -10.0. Mentioned in 5 sources.",
+              "source": "gdelt",
+              "source_label": "mediaite.com",
+              "date": "2026-05-04",
+              "url": "https://www.mediaite.com/media/tv/us-military-ships-attacked-by-iran-as-ceasefire-remains-uncertain-military-commander-confirms/",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 5,
+                "sources": 1,
+                "articles": 5,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1302406287",
+                "event_code": "193",
+                "cameo_desc": "Fight with small arms and light weapons",
+                "actor1": "IRANIAN",
+                "actor2": "AMERICAN",
+                "actor1_country": "IRN",
+                "actor2_country": "USA",
+                "geo_lat": 39.828175,
+                "geo_lon": -98.5795,
+                "geo_name": "United States"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -21272,40 +21446,6 @@
               "admiralty_code": "B3"
             },
             {
-              "id": "rss_31949c7bff39",
-              "title": "联合国核机构负责人对有关伊朗电站最新袭击的报告“深感关切”",
-              "summary": "关于布什尔核电站附近再次发生弹药袭击的报告促使国际原子能机构（IAEA）总干事拉斐尔·格罗西于周六表达了他的深切关注。",
-              "source": "web",
-              "source_label": "UN News",
-              "date": "2026-04-04",
-              "url": "https://news.un.org/feed/view/en/story/2026/04/1167250",
-              "rss_source": "UN News",
-              "local_file": "sources/web/news.un.org_1167250.md",
-              "title_en": "UN nuclear agency chief ‘deeply concerned’ by reports of latest attack on Iran power plant",
-              "summary_en": "Reports of yet another projectile strike near the Bushehr nuclear power plant prompted Rafael Grossi, head of the International Atomic Energy Agency (IAEA), to register his deep concern on Saturday.",
-              "criticality": "background",
-              "admiralty_source": "A",
-              "admiralty_info": 2,
-              "admiralty_code": "A2"
-            },
-            {
-              "id": "rss_050698b911af",
-              "title": "伊朗为和平谈判敞开大门，搜寻失踪美国飞行员的工作仍在继续",
-              "summary": "一名美国军人可能还活着并在伊朗境内逃亡的消息，出现在特朗普威胁要将伊朗“炸回石器时代”的几天后。",
-              "source": "web",
-              "source_label": "Defense News",
-              "date": "2026-04-04",
-              "url": "https://www.defensenews.com/news/pentagon-congress/2026/04/04/iran-leaves-door-open-for-peace-talks-as-hunt-for-missing-us-pilot-continues/",
-              "rss_source": "Defense News",
-              "local_file": "sources/web/defensenews.com_.md",
-              "title_en": "Iran leaves door open for peace talks as hunt for missing US pilot continues",
-              "summary_en": "The prospect of a U.S. service member alive and on the run in Iran comes days after Trump threatened to bomb Iran “back to the Stone Ages.”",
-              "criticality": "background",
-              "admiralty_source": "B",
-              "admiralty_info": 3,
-              "admiralty_code": "B3"
-            },
-            {
               "id": "gdelt_1298269273",
               "title": "IRANIAN → TAIWAN : Impose administrative sanctions, not specified below (Leicester, Leicester, United Kingdom)",
               "title_en": "IRANIAN → TAIWAN : Impose administrative sanctions, not specified below (Leicester, Leicester, United Kingdom)",
@@ -24244,6 +24384,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1302406436",
+              "title": "MILITARY → OMDURMAN : Employ aerial weapons (Al-Markhiyat, Al Khartum, Sudan)",
+              "title_en": "MILITARY → OMDURMAN : Employ aerial weapons (Al-Markhiyat, Al Khartum, Sudan)",
+              "summary": "GDELT Event: Employ aerial weapons. Actors: MILITARY / OMDURMAN. Location: Al-Markhiyat, Al Khartum, Sudan. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "summary_en": "GDELT Event: Employ aerial weapons. Actors: MILITARY / OMDURMAN. Location: Al-Markhiyat, Al Khartum, Sudan. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "source": "gdelt",
+              "source_label": "english.news.cn",
+              "date": "2026-05-04",
+              "url": "https://english.news.cn/africa/20260505/76b0656406d74381b8a94cc54e537142/c.html",
+              "primary_conflict": "sudan",
+              "metrics": {
+                "mentions": 3,
+                "sources": 1,
+                "articles": 3,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1302406436",
+                "event_code": "195",
+                "cameo_desc": "Employ aerial weapons",
+                "actor1": "MILITARY",
+                "actor2": "OMDURMAN",
+                "actor1_country": "nan",
+                "actor2_country": "SDN",
+                "geo_lat": 15.7119,
+                "geo_lon": 32.3973,
+                "geo_name": "Al-Markhiyat, Al Khartum, Sudan"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -25833,6 +26006,40 @@
               "admiralty_info": 3,
               "admiralty_code": "C3",
               "criticality": "background"
+            },
+            {
+              "id": "gdelt_1302406609",
+              "title": "SYRIA → nan : Occupy territory (Syria)",
+              "title_en": "SYRIA → nan : Occupy territory (Syria)",
+              "summary": "GDELT Event: Occupy territory. Actors: SYRIA / nan. Location: Syria. Goldstein Scale: -9.5. Mentioned in 5 sources.",
+              "summary_en": "GDELT Event: Occupy territory. Actors: SYRIA / nan. Location: Syria. Goldstein Scale: -9.5. Mentioned in 5 sources.",
+              "source": "gdelt",
+              "source_label": "english.news.cn",
+              "date": "2026-05-04",
+              "url": "https://english.news.cn/20260505/56a5f7355ef04e8e90473ee7a42faba7/c.html",
+              "primary_conflict": "syria",
+              "metrics": {
+                "mentions": 5,
+                "sources": 1,
+                "articles": 5,
+                "goldstein": -9.5
+              },
+              "gdelt_meta": {
+                "event_id": "1302406609",
+                "event_code": "192",
+                "cameo_desc": "Occupy territory",
+                "actor1": "SYRIA",
+                "actor2": "nan",
+                "actor1_country": "SYR",
+                "actor2_country": "nan",
+                "geo_lat": 35.0,
+                "geo_lon": 38.0,
+                "geo_name": "Syria"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3",
+              "criticality": "background"
             }
           ]
         },
@@ -26763,17 +26970,17 @@
     }
   },
   "stats": {
-    "total_items": 1310,
+    "total_items": 1311,
     "sources": {
-      "web": 974,
+      "web": 963,
       "reddit": 57,
       "x": 31,
-      "gdelt": 230,
+      "gdelt": 242,
       "youtube": 18
     },
     "date_range": {
-      "from": "2026-04-04",
-      "to": "2026-05-03"
+      "from": "2026-04-05",
+      "to": "2026-05-04"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
