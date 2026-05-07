@@ -5,8 +5,98 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 06 May 2026 08:37:32 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 08:44:54 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] MILITARY → UKRAINE : Use conventional military force, not specified below (Crimea, Krym, Avtonomna Respublika, Ukraine)</title>
+      <link>https://www.hometownregister.com/news/national/russian-strikes-kill-21-in-ukraine/article_13734223-396b-5aaa-ab6a-92d721a51e4f.html</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: MILITARY / UKRAINE. Location: Crimea, Krym, Avtonomna Respublika, Ukraine. Goldstein Scale: -10.0. Mentioned in 6 sources.</description>
+      <guid isPermaLink="true">https://www.hometownregister.com/news/national/russian-strikes-kill-21-in-ukraine/article_13734223-396b-5aaa-ab6a-92d721a51e4f.html</guid>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.hometownregister.com/news/national/russian-strikes-kill-21-in-ukraine/article_13734223-396b-5aaa-ab6a-92d721a51e4f.html">hometownregister.com</source>
+    </item>
+    <item>
+      <title>[俄乌战争] RUSSIAN → VLADIMIR PUTIN : Impose administrative sanctions, not specified below (nan)</title>
+      <link>https://eturbonews.com/georgian-prime-minister-supports-resumption-of-direct-flights-between-georgia-and-russia/</link>
+      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: RUSSIAN / VLADIMIR PUTIN. Location: nan. Goldstein Scale: -5.0. Mentioned in 6 sources.</description>
+      <guid isPermaLink="true">https://eturbonews.com/georgian-prime-minister-supports-resumption-of-direct-flights-between-georgia-and-russia/</guid>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>外交谈判</category>
+      <source url="https://eturbonews.com/georgian-prime-minister-supports-resumption-of-direct-flights-between-georgia-and-russia/">eturbonews.com</source>
+    </item>
+    <item>
+      <title>[俄乌战争] nan → UNITED STATES : Arrest, detain, or charge with legal action (Russia)</title>
+      <link>https://www.wnd.com/2026/05/doj-ballot-box-rise-lawfare-candidates/</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: nan / UNITED STATES. Location: Russia. Goldstein Scale: -5.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.wnd.com/2026/05/doj-ballot-box-rise-lawfare-candidates/</guid>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>外交谈判</category>
+      <source url="https://www.wnd.com/2026/05/doj-ballot-box-rise-lawfare-candidates/">wnd.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] DEFENSE SECRETARY → IRAN : Violate ceasefire (Iran)</title>
+      <link>https://www.csmonitor.com/USA/Politics/2026/0505/The-Strait-of-Hormuz-is-still-blocked.-What-s-the-US-military-doing-about-it</link>
+      <description>GDELT Event: Violate ceasefire. Actors: DEFENSE SECRETARY / IRAN. Location: Iran. Goldstein Scale: -9.5. Mentioned in 8 sources.</description>
+      <guid isPermaLink="true">https://www.csmonitor.com/USA/Politics/2026/0505/The-Strait-of-Hormuz-is-still-blocked.-What-s-the-US-military-doing-about-it</guid>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://www.csmonitor.com/USA/Politics/2026/0505/The-Strait-of-Hormuz-is-still-blocked.-What-s-the-US-military-doing-about-it">csmonitor.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] IRAN → THE WHITE HOUSE : Use conventional military force, not specified below (Bandar Abbas, Hormozgan, Iran)</title>
+      <link>https://www.bnnbloomberg.ca/business/2026/05/05/trump-says-hes-paused-us-effort-to-guide-stranded-vessels-out-of-strait-of-hormuz/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: IRAN / THE WHITE HOUSE. Location: Bandar Abbas, Hormozgan, Iran. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://www.bnnbloomberg.ca/business/2026/05/05/trump-says-hes-paused-us-effort-to-guide-stranded-vessels-out-of-strait-of-hormuz/</guid>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://www.bnnbloomberg.ca/business/2026/05/05/trump-says-hes-paused-us-effort-to-guide-stranded-vessels-out-of-strait-of-hormuz/">bnnbloomberg.ca</source>
+    </item>
+    <item>
+      <title>[美伊对峙] IRAN → AMERICAN : Use conventional military force, not specified below (Saudi Arabia)</title>
+      <link>https://www.wisn.com/article/trump-paused-stranded-vessels-strait-of-hormuz/71223668</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: IRAN / AMERICAN. Location: Saudi Arabia. Goldstein Scale: -10.0. Mentioned in 3 sources.</description>
+      <guid isPermaLink="true">https://www.wisn.com/article/trump-paused-stranded-vessels-strait-of-hormuz/71223668</guid>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://www.wisn.com/article/trump-paused-stranded-vessels-strait-of-hormuz/71223668">wisn.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] IRAN → nan : Fight with artillery and tanks (Sydney, New South Wales, Australia)</title>
+      <link>https://www.9news.com.au/national/australia-sydney-children-cancer-centre-opens/4b7abc49-47bc-4bfd-ada8-2ec79b9d43d7</link>
+      <description>GDELT Event: Fight with artillery and tanks. Actors: IRAN / nan. Location: Sydney, New South Wales, Australia. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.9news.com.au/national/australia-sydney-children-cancer-centre-opens/4b7abc49-47bc-4bfd-ada8-2ec79b9d43d7</guid>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://www.9news.com.au/national/australia-sydney-children-cancer-centre-opens/4b7abc49-47bc-4bfd-ada8-2ec79b9d43d7">9news.com.au</source>
+    </item>
+    <item>
+      <title>[美伊对峙] TEHRAN → THE US : Use conventional military force, not specified below (Tehran, Tehran, Iran)</title>
+      <link>https://www.dailymail.com/news/article-15793503/Trump-announces-pause-breaking-Irans-blockade-Strait-Hormuz-signals-hope-complete-final-agreement.html</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: TEHRAN / THE US. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.dailymail.com/news/article-15793503/Trump-announces-pause-breaking-Irans-blockade-Strait-Hormuz-signals-hope-complete-final-agreement.html</guid>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://www.dailymail.com/news/article-15793503/Trump-announces-pause-breaking-Irans-blockade-Strait-Hormuz-signals-hope-complete-final-agreement.html">dailymail.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] AMERICAN → UNITED STATES : Destroy property (Tehran, Tehran, Iran)</title>
+      <link>https://www.lbc.co.uk/article/pentagon-denies-tehran-has-kamikaze-dolphins-5HjdYjc_2/</link>
+      <description>GDELT Event: Destroy property. Actors: AMERICAN / UNITED STATES. Location: Tehran, Tehran, Iran. Goldstein Scale: -9.2. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.lbc.co.uk/article/pentagon-denies-tehran-has-kamikaze-dolphins-5HjdYjc_2/</guid>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>外交谈判</category>
+      <source url="https://www.lbc.co.uk/article/pentagon-denies-tehran-has-kamikaze-dolphins-5HjdYjc_2/">lbc.co.uk</source>
+    </item>
     <item>
       <title>[俄乌战争] RUSSIA → nan : Impose administrative sanctions, not specified below (Turkey)</title>
       <link>https://www.mining.com/op-ed-the-copper-supply-crisis-is-a-sulfur-management-crisis/</link>
@@ -416,96 +506,6 @@
       <category>巴以冲突</category>
       <category>舆论热点</category>
       <source url="https://www.seattletimes.com/business/the-latest-trump-says-iran-better-get-smart-soon-as-economies-face-cost-of-rising-energy-prices/">seattletimes.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] IRAN → GOVERNMENT : Impose administrative sanctions, not specified below (Iran)</title>
-      <link>https://www.dailymail.com/news/article-15776779/Rent-controls-drive-prices-housing-minister-warns-shot-Reeves-bow-mortgages-cheaper-time-June.html</link>
-      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: IRAN / GOVERNMENT. Location: Iran. Goldstein Scale: -5.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://www.dailymail.com/news/article-15776779/Rent-controls-drive-prices-housing-minister-warns-shot-Reeves-bow-mortgages-cheaper-time-June.html</guid>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>外交谈判</category>
-      <source url="https://www.dailymail.com/news/article-15776779/Rent-controls-drive-prices-housing-minister-warns-shot-Reeves-bow-mortgages-cheaper-time-June.html">dailymail.com</source>
-    </item>
-    <item>
-      <title>[苏丹内战] ARMY → SOUTH SUDAN : Use conventional military force, not specified below (Upper Nile State, Wilayat A`ali an Nil, South Sudan)</title>
-      <link>https://religionnews.com/2026/04/29/a-priest-vanished-three-years-ago-south-sudans-churches-say-hes-not-alone/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: ARMY / SOUTH SUDAN. Location: Upper Nile State, Wilayat A`ali an Nil, South Sudan. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://religionnews.com/2026/04/29/a-priest-vanished-three-years-ago-south-sudans-churches-say-hes-not-alone/</guid>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
-      <category>苏丹内战</category>
-      <category>军事动态</category>
-      <source url="https://religionnews.com/2026/04/29/a-priest-vanished-three-years-ago-south-sudans-churches-say-hes-not-alone/">religionnews.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] RUSSIA → BELARUS : Employ aerial weapons (Kaliningrad, Kaliningradskaya Oblast', Russia)</title>
-      <link>https://thenewamerican.com/features/russia-on-edge-as-finland-and-poland-seek-nuclear-weapons/</link>
-      <description>GDELT Event: Employ aerial weapons. Actors: RUSSIA / BELARUS. Location: Kaliningrad, Kaliningradskaya Oblast', Russia. Goldstein Scale: -10.0. Mentioned in 6 sources.</description>
-      <guid isPermaLink="true">https://thenewamerican.com/features/russia-on-edge-as-finland-and-poland-seek-nuclear-weapons/</guid>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://thenewamerican.com/features/russia-on-edge-as-finland-and-poland-seek-nuclear-weapons/">thenewamerican.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] INTELLIGENCE → MILITARY : Occupy territory (Lebanon)</title>
-      <link>https://themedialine.org/headlines/the-idf-destroys-largest-network-of-hezbollah-tunnels-built-with-direct-guidance-from-iran/</link>
-      <description>GDELT Event: Occupy territory. Actors: INTELLIGENCE / MILITARY. Location: Lebanon. Goldstein Scale: -9.5. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://themedialine.org/headlines/the-idf-destroys-largest-network-of-hezbollah-tunnels-built-with-direct-guidance-from-iran/</guid>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://themedialine.org/headlines/the-idf-destroys-largest-network-of-hezbollah-tunnels-built-with-direct-guidance-from-iran/">themedialine.org</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAELI → PALESTINIAN : Use conventional military force, not specified below (Merimbula, New South Wales, Australia)</title>
-      <link>https://www.merimbulanewsweekly.com.au/story/9235410/five-killed-in-israeli-strikes-on-gaza-strip-medics/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAELI / PALESTINIAN. Location: Merimbula, New South Wales, Australia. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">https://www.merimbulanewsweekly.com.au/story/9235410/five-killed-in-israeli-strikes-on-gaza-strip-medics/</guid>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.merimbulanewsweekly.com.au/story/9235410/five-killed-in-israeli-strikes-on-gaza-strip-medics/">merimbulanewsweekly.com.au</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAEL → nan : Use conventional military force, not specified below (California, United States)</title>
-      <link>https://slguardian.org/trump-is-putting-americans-into-digital-prison/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / nan. Location: California, United States. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://slguardian.org/trump-is-putting-americans-into-digital-prison/</guid>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://slguardian.org/trump-is-putting-americans-into-digital-prison/">slguardian.org</source>
-    </item>
-    <item>
-      <title>[刚果(金)冲突] DEMOCRATIC REPUBLIC OF THE CONGO → nan : Demonstrate or rally (Rubare, Congo, Democratic Republic of The (general), Democratic Republic Of The Congo)</title>
-      <link>https://afjn.org/a-cultural-strategy-for-peace-in-a-region-shaped-by-conflict/</link>
-      <description>GDELT Event: Demonstrate or rally. Actors: DEMOCRATIC REPUBLIC OF THE CONGO / nan. Location: Rubare, Congo, Democratic Republic of The (general), Democratic Republic Of The Congo. Goldstein Scale: -6.5. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://afjn.org/a-cultural-strategy-for-peace-in-a-region-shaped-by-conflict/</guid>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-      <category>刚果(金)冲突</category>
-      <category>舆论热点</category>
-      <source url="https://afjn.org/a-cultural-strategy-for-peace-in-a-region-shaped-by-conflict/">afjn.org</source>
-    </item>
-    <item>
-      <title>[台海局势] STUDENT → nan : Occupy territory (Taiwan)</title>
-      <link>https://www.forbes.com/sites/jamiebeaton/2026/04/28/trumps-new-h-1b-lottery-just-produced-its-first-results-international-students-are-already-rethinking-their-majors/</link>
-      <description>GDELT Event: Occupy territory. Actors: STUDENT / nan. Location: Taiwan. Goldstein Scale: -9.5. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://www.forbes.com/sites/jamiebeaton/2026/04/28/trumps-new-h-1b-lottery-just-produced-its-first-results-international-students-are-already-rethinking-their-majors/</guid>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-      <category>台海局势</category>
-      <category>军事动态</category>
-      <source url="https://www.forbes.com/sites/jamiebeaton/2026/04/28/trumps-new-h-1b-lottery-just-produced-its-first-results-international-students-are-already-rethinking-their-majors/">forbes.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] nan → RUSSIA : Arrest, detain, or charge with legal action (France)</title>
-      <link>https://hyperallergic.com/pussy-riot-shows-art-by-russias-prisoners-in-new-protest-exhibition/</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: nan / RUSSIA. Location: France. Goldstein Scale: -5.0. Mentioned in 1 sources.</description>
-      <guid isPermaLink="true">https://hyperallergic.com/pussy-riot-shows-art-by-russias-prisoners-in-new-protest-exhibition/</guid>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>外交谈判</category>
-      <source url="https://hyperallergic.com/pussy-riot-shows-art-by-russias-prisoners-in-new-protest-exhibition/">hyperallergic.com</source>
     </item>
   </channel>
 </rss>
