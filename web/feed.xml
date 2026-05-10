@@ -5,8 +5,78 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 09 May 2026 08:07:36 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 08:18:32 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] KYIV → RUSSIAN : Use conventional military force, not specified below (Kyiv, Kyyiv, Misto, Ukraine)</title>
+      <link>https://inlandnewstoday.com/story.php?s=80407</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: KYIV / RUSSIAN. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -10.0. Mentioned in 7 sources.</description>
+      <guid isPermaLink="true">https://inlandnewstoday.com/story.php?s=80407</guid>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://inlandnewstoday.com/story.php?s=80407">inlandnewstoday.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAEL → IRAN : Employ aerial weapons (Israel)</title>
+      <link>http://www.jpost.com/international/article-895594</link>
+      <description>GDELT Event: Employ aerial weapons. Actors: ISRAEL / IRAN. Location: Israel. Goldstein Scale: -10.0. Mentioned in 16 sources.</description>
+      <guid isPermaLink="true">http://www.jpost.com/international/article-895594</guid>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="http://www.jpost.com/international/article-895594">jpost.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] GOVERNMENT → nan : Abduct, hijack, or take hostage (Jerusalem, Israel (general), Israel)</title>
+      <link>http://www.jpost.com/opinion/article-895351</link>
+      <description>GDELT Event: Abduct, hijack, or take hostage. Actors: GOVERNMENT / nan. Location: Jerusalem, Israel (general), Israel. Goldstein Scale: -9.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">http://www.jpost.com/opinion/article-895351</guid>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="http://www.jpost.com/opinion/article-895351">jpost.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAELI → IRAN : Fight with artillery and tanks (Iran)</title>
+      <link>https://www.gdnonline.com:443/Details/1394133</link>
+      <description>GDELT Event: Fight with artillery and tanks. Actors: ISRAELI / IRAN. Location: Iran. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.gdnonline.com:443/Details/1394133</guid>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.gdnonline.com:443/Details/1394133">gdnonline.com:443</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAEL → JUDGE : Fight with small arms and light weapons (Israel)</title>
+      <link>https://www.wcax.com/2026/05/08/judge-sets-trial-date-vt-man-accused-shooting-3-palestinian-students/</link>
+      <description>GDELT Event: Fight with small arms and light weapons. Actors: ISRAEL / JUDGE. Location: Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.</description>
+      <guid isPermaLink="true">https://www.wcax.com/2026/05/08/judge-sets-trial-date-vt-man-accused-shooting-3-palestinian-students/</guid>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.wcax.com/2026/05/08/judge-sets-trial-date-vt-man-accused-shooting-3-palestinian-students/">wcax.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] PRISON → PROSECUTOR : Arrest, detain, or charge with legal action (Israel)</title>
+      <link>https://www.simivalleyacorn.com/articles/man-pleads-guilty-in-fatal-2023-palestine-israel-protest-conflict/</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: PRISON / PROSECUTOR. Location: Israel. Goldstein Scale: -5.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.simivalleyacorn.com/articles/man-pleads-guilty-in-fatal-2023-palestine-israel-protest-conflict/</guid>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>外交谈判</category>
+      <source url="https://www.simivalleyacorn.com/articles/man-pleads-guilty-in-fatal-2023-palestine-israel-protest-conflict/">simivalleyacorn.com</source>
+    </item>
+    <item>
+      <title>[刚果(金)冲突] KINSHASA → CONGO : Use conventional military force, not specified below (Kivu, Sud, Rwanda)</title>
+      <link>https://cbn.com/news/world/islamic-militants-attack-congo-villages-near-uganda-killing-40-people</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: KINSHASA / CONGO. Location: Kivu, Sud, Rwanda. Goldstein Scale: -10.0. Mentioned in 5 sources.</description>
+      <guid isPermaLink="true">https://cbn.com/news/world/islamic-militants-attack-congo-villages-near-uganda-killing-40-people</guid>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <category>刚果(金)冲突</category>
+      <category>军事动态</category>
+      <source url="https://cbn.com/news/world/islamic-militants-attack-congo-villages-near-uganda-killing-40-people">cbn.com</source>
+    </item>
     <item>
       <title>[俄乌战争] SOUTH KOREA → KURSK : Use conventional military force, not specified below (Ukraine)</title>
       <link>https://www.yahoo.com/news/articles/thousands-north-koreans-fought-russia-222103116.html</link>
@@ -56,6 +126,16 @@
       <category>巴以冲突</category>
       <category>军事动态</category>
       <source url="http://www.china.org.cn/2026-05/08/content_118482091.shtml">china.org.cn</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAELI → LEBANON : Fight with artillery and tanks (Israel)</title>
+      <link>https://www.gdnonline.com:443/Details/1394146</link>
+      <description>GDELT Event: Fight with artillery and tanks. Actors: ISRAELI / LEBANON. Location: Israel. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
+      <guid isPermaLink="true">https://www.gdnonline.com:443/Details/1394146</guid>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.gdnonline.com:443/Details/1394146">gdnonline.com:443</source>
     </item>
     <item>
       <title>[巴以冲突] SCHOOL → COMPANIES : Demonstrate or rally (Gaza, Israel (general), Israel)</title>
@@ -426,86 +506,6 @@
       <category>美伊对峙</category>
       <category>军事动态</category>
       <source url="https://www.israelnationalnews.com/news/426559">israelnationalnews.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] PRESIDENT → IRAN : Violate ceasefire (Iran)</title>
-      <link>https://www.mediaite.com/media/news/trump-gives-abcs-jon-karl-an-exclusive-phoner-just-hours-after-accusing-him-of-lying-about-a-prior-call/</link>
-      <description>GDELT Event: Violate ceasefire. Actors: PRESIDENT / IRAN. Location: Iran. Goldstein Scale: -9.5. Mentioned in 6 sources.</description>
-      <guid isPermaLink="true">https://www.mediaite.com/media/news/trump-gives-abcs-jon-karl-an-exclusive-phoner-just-hours-after-accusing-him-of-lying-about-a-prior-call/</guid>
-      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://www.mediaite.com/media/news/trump-gives-abcs-jon-karl-an-exclusive-phoner-just-hours-after-accusing-him-of-lying-about-a-prior-call/">mediaite.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] IRANIAN → AMERICAN : Fight with small arms and light weapons (United States)</title>
-      <link>https://www.mediaite.com/media/tv/us-military-ships-attacked-by-iran-as-ceasefire-remains-uncertain-military-commander-confirms/</link>
-      <description>GDELT Event: Fight with small arms and light weapons. Actors: IRANIAN / AMERICAN. Location: United States. Goldstein Scale: -10.0. Mentioned in 5 sources.</description>
-      <guid isPermaLink="true">https://www.mediaite.com/media/tv/us-military-ships-attacked-by-iran-as-ceasefire-remains-uncertain-military-commander-confirms/</guid>
-      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://www.mediaite.com/media/tv/us-military-ships-attacked-by-iran-as-ceasefire-remains-uncertain-military-commander-confirms/">mediaite.com</source>
-    </item>
-    <item>
-      <title>[苏丹内战] MILITARY → OMDURMAN : Employ aerial weapons (Al-Markhiyat, Al Khartum, Sudan)</title>
-      <link>https://english.news.cn/africa/20260505/76b0656406d74381b8a94cc54e537142/c.html</link>
-      <description>GDELT Event: Employ aerial weapons. Actors: MILITARY / OMDURMAN. Location: Al-Markhiyat, Al Khartum, Sudan. Goldstein Scale: -10.0. Mentioned in 3 sources.</description>
-      <guid isPermaLink="true">https://english.news.cn/africa/20260505/76b0656406d74381b8a94cc54e537142/c.html</guid>
-      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
-      <category>苏丹内战</category>
-      <category>军事动态</category>
-      <source url="https://english.news.cn/africa/20260505/76b0656406d74381b8a94cc54e537142/c.html">english.news.cn</source>
-    </item>
-    <item>
-      <title>[叙利亚局势] SYRIA → nan : Occupy territory (Syria)</title>
-      <link>https://english.news.cn/20260505/56a5f7355ef04e8e90473ee7a42faba7/c.html</link>
-      <description>GDELT Event: Occupy territory. Actors: SYRIA / nan. Location: Syria. Goldstein Scale: -9.5. Mentioned in 5 sources.</description>
-      <guid isPermaLink="true">https://english.news.cn/20260505/56a5f7355ef04e8e90473ee7a42faba7/c.html</guid>
-      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
-      <category>叙利亚局势</category>
-      <category>军事动态</category>
-      <source url="https://english.news.cn/20260505/56a5f7355ef04e8e90473ee7a42faba7/c.html">english.news.cn</source>
-    </item>
-    <item>
-      <title>[俄乌战争] NATO → RUSSIAN : Occupy territory (Madrid, Madrid, Spain)</title>
-      <link>http://www.bignewsnetwork.com/news/279028566/the-spanish-us-spat-could-lead-to-natos-unraveling</link>
-      <description>GDELT Event: Occupy territory. Actors: NATO / RUSSIAN. Location: Madrid, Madrid, Spain. Goldstein Scale: -9.5. Mentioned in 1 sources.</description>
-      <guid isPermaLink="true">http://www.bignewsnetwork.com/news/279028566/the-spanish-us-spat-could-lead-to-natos-unraveling</guid>
-      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="http://www.bignewsnetwork.com/news/279028566/the-spanish-us-spat-could-lead-to-natos-unraveling">bignewsnetwork.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] RABBI → ISRAEL : Fight with small arms and light weapons (Gaza, Israel (general), Israel)</title>
-      <link>https://www.thetimes.com/comment/columnists/article/stand-with-jews-antisemitism-golders-green-attacks-mlqccsxq9</link>
-      <description>GDELT Event: Fight with small arms and light weapons. Actors: RABBI / ISRAEL. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://www.thetimes.com/comment/columnists/article/stand-with-jews-antisemitism-golders-green-attacks-mlqccsxq9</guid>
-      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.thetimes.com/comment/columnists/article/stand-with-jews-antisemitism-golders-green-attacks-mlqccsxq9">thetimes.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAEL → LEBANON : Use conventional military force, not specified below (Lebanon)</title>
-      <link>https://home.nzcity.co.nz/news/article.aspx?id=445105</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / LEBANON. Location: Lebanon. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
-      <guid isPermaLink="true">https://home.nzcity.co.nz/news/article.aspx?id=445105</guid>
-      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://home.nzcity.co.nz/news/article.aspx?id=445105">home.nzcity.co.nz</source>
-    </item>
-    <item>
-      <title>[美伊对峙] UNITED KINGDOM → IRAN : Use conventional military force, not specified below (Sirik, Hormozgan, Iran)</title>
-      <link>http://www.vietnamtribune.com/news/279028492/vessel-attacked-by-multiple-small-boats-near-iran-in-strait-of-hormuz-ukmto</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: UNITED KINGDOM / IRAN. Location: Sirik, Hormozgan, Iran. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">http://www.vietnamtribune.com/news/279028492/vessel-attacked-by-multiple-small-boats-near-iran-in-strait-of-hormuz-ukmto</guid>
-      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="http://www.vietnamtribune.com/news/279028492/vessel-attacked-by-multiple-small-boats-near-iran-in-strait-of-hormuz-ukmto">vietnamtribune.com</source>
     </item>
   </channel>
 </rss>
