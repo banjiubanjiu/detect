@@ -5,8 +5,38 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 11 May 2026 09:51:29 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 08:51:06 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] UKRAINE → RUSSIA : Violate ceasefire (Zelenskiy, Astrakhanskaya Oblast', Russia)</title>
+      <link>https://www.unionleader.com/news/national/ukraine-russia-trade-accusations-of-violating-us-backed-ceasefire/article_98c62b31-d927-5a90-b2f0-ea0052aa6322.html</link>
+      <description>GDELT Event: Violate ceasefire. Actors: UKRAINE / RUSSIA. Location: Zelenskiy, Astrakhanskaya Oblast', Russia. Goldstein Scale: -9.5. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://www.unionleader.com/news/national/ukraine-russia-trade-accusations-of-violating-us-backed-ceasefire/article_98c62b31-d927-5a90-b2f0-ea0052aa6322.html</guid>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.unionleader.com/news/national/ukraine-russia-trade-accusations-of-violating-us-backed-ceasefire/article_98c62b31-d927-5a90-b2f0-ea0052aa6322.html">unionleader.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] SETTLER → SETTLEMENT : Demonstrate or rally (Gaza, Israel (general), Israel)</title>
+      <link>https://www.knau.org/npr-news/2026-05-10/israeli-settlers-force-palestinian-family-to-exhume-and-rebury-their-father</link>
+      <description>GDELT Event: Demonstrate or rally. Actors: SETTLER / SETTLEMENT. Location: Gaza, Israel (general), Israel. Goldstein Scale: -6.5. Mentioned in 12 sources.</description>
+      <guid isPermaLink="true">https://www.knau.org/npr-news/2026-05-10/israeli-settlers-force-palestinian-family-to-exhume-and-rebury-their-father</guid>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>舆论热点</category>
+      <source url="https://www.knau.org/npr-news/2026-05-10/israeli-settlers-force-palestinian-family-to-exhume-and-rebury-their-father">knau.org</source>
+    </item>
+    <item>
+      <title>[巴以冲突] UNITED STATES → ISRAEL : Demonstrate or rally (Gaza, Israel (general), Israel)</title>
+      <link>https://freerepublic.com/focus/f-bloggers/4378653/posts</link>
+      <description>GDELT Event: Demonstrate or rally. Actors: UNITED STATES / ISRAEL. Location: Gaza, Israel (general), Israel. Goldstein Scale: -6.5. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://freerepublic.com/focus/f-bloggers/4378653/posts</guid>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>舆论热点</category>
+      <source url="https://freerepublic.com/focus/f-bloggers/4378653/posts">freerepublic.com</source>
+    </item>
     <item>
       <title>[俄乌战争] POLITBURO → RUSSIA : Engage in popular protest, not specified below (Moscow, Moskva, Russia)</title>
       <link>https://en.apa.az/domestic-policy/azerbaijan-marks-103rd-anniversary-of-birth-of-national-leader-heydar-aliyev-505262</link>
@@ -476,36 +506,6 @@
       <category>美伊对峙</category>
       <category>军事动态</category>
       <source url="https://www.dailymail.com/news/article-15793503/Trump-announces-pause-breaking-Irans-blockade-Strait-Hormuz-signals-hope-complete-final-agreement.html">dailymail.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] AMERICAN → UNITED STATES : Destroy property (Tehran, Tehran, Iran)</title>
-      <link>https://www.lbc.co.uk/article/pentagon-denies-tehran-has-kamikaze-dolphins-5HjdYjc_2/</link>
-      <description>GDELT Event: Destroy property. Actors: AMERICAN / UNITED STATES. Location: Tehran, Tehran, Iran. Goldstein Scale: -9.2. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.lbc.co.uk/article/pentagon-denies-tehran-has-kamikaze-dolphins-5HjdYjc_2/</guid>
-      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>外交谈判</category>
-      <source url="https://www.lbc.co.uk/article/pentagon-denies-tehran-has-kamikaze-dolphins-5HjdYjc_2/">lbc.co.uk</source>
-    </item>
-    <item>
-      <title>[俄乌战争] RUSSIA → nan : Impose administrative sanctions, not specified below (Turkey)</title>
-      <link>https://www.mining.com/op-ed-the-copper-supply-crisis-is-a-sulfur-management-crisis/</link>
-      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: RUSSIA / nan. Location: Turkey. Goldstein Scale: -5.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://www.mining.com/op-ed-the-copper-supply-crisis-is-a-sulfur-management-crisis/</guid>
-      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>外交谈判</category>
-      <source url="https://www.mining.com/op-ed-the-copper-supply-crisis-is-a-sulfur-management-crisis/">mining.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] SWEDEN → CAPTAIN : Arrest, detain, or charge with legal action (Kremlin, Moskva, Russia)</title>
-      <link>https://www.kyivpost.com/post/75406</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: SWEDEN / CAPTAIN. Location: Kremlin, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 1 sources.</description>
-      <guid isPermaLink="true">https://www.kyivpost.com/post/75406</guid>
-      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>外交谈判</category>
-      <source url="https://www.kyivpost.com/post/75406">kyivpost.com</source>
     </item>
   </channel>
 </rss>
