@@ -5,8 +5,78 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 13 May 2026 08:55:50 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 08:48:00 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] RUSSIAN → UKRAINE : Use conventional military force, not specified below (Australia)</title>
+      <link>https://www.sconeadvocate.com.au/story/9245397/russia-targets-ukraine-civilians-after-ceasefire-ends/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: RUSSIAN / UKRAINE. Location: Australia. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.sconeadvocate.com.au/story/9245397/russia-targets-ukraine-civilians-after-ceasefire-ends/</guid>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.sconeadvocate.com.au/story/9245397/russia-targets-ukraine-civilians-after-ceasefire-ends/">sconeadvocate.com.au</source>
+    </item>
+    <item>
+      <title>[巴以冲突] PALESTINIAN → JEWISH : Use unconventional violence, not specified below (Israel)</title>
+      <link>https://nevadanewsandviews.com/nevada-news-views-digest-may-12-2026/</link>
+      <description>GDELT Event: Use unconventional violence, not specified below. Actors: PALESTINIAN / JEWISH. Location: Israel. Goldstein Scale: -9.0. Mentioned in 3 sources.</description>
+      <guid isPermaLink="true">https://nevadanewsandviews.com/nevada-news-views-digest-may-12-2026/</guid>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://nevadanewsandviews.com/nevada-news-views-digest-may-12-2026/">nevadanewsandviews.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] UNITED STATES → nan : Use conventional military force, not specified below (Israel)</title>
+      <link>https://www.seattletimes.com/nation-world/u-s-intelligence-shows-iran-retains-substantial-missile-capabilities/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: UNITED STATES / nan. Location: Israel. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">https://www.seattletimes.com/nation-world/u-s-intelligence-shows-iran-retains-substantial-missile-capabilities/</guid>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.seattletimes.com/nation-world/u-s-intelligence-shows-iran-retains-substantial-missile-capabilities/">seattletimes.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ULTRA ORTHODOX → MILITARY : Demonstrate or rally (Jerusalem, Israel (general), Israel)</title>
+      <link>https://www.npr.org/2026/05/12/g-s1-121631/israel-military-ultra-orthodox-netanyahu-coalition</link>
+      <description>GDELT Event: Demonstrate or rally. Actors: ULTRA ORTHODOX / MILITARY. Location: Jerusalem, Israel (general), Israel. Goldstein Scale: -6.5. Mentioned in 20 sources.</description>
+      <guid isPermaLink="true">https://www.npr.org/2026/05/12/g-s1-121631/israel-military-ultra-orthodox-netanyahu-coalition</guid>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>舆论热点</category>
+      <source url="https://www.npr.org/2026/05/12/g-s1-121631/israel-military-ultra-orthodox-netanyahu-coalition">npr.org</source>
+    </item>
+    <item>
+      <title>[美伊对峙] ISLAMIC → nan : Arrest, detain, or charge with legal action (Tehran, Tehran, Iran)</title>
+      <link>https://foreignpolicy.com/2026/05/12/iran-trump-obama-jcpoa-nuclear-deal/?tpcc=recirc_trending062921</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: ISLAMIC / nan. Location: Tehran, Tehran, Iran. Goldstein Scale: -5.0. Mentioned in 20 sources.</description>
+      <guid isPermaLink="true">https://foreignpolicy.com/2026/05/12/iran-trump-obama-jcpoa-nuclear-deal/?tpcc=recirc_trending062921</guid>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>外交谈判</category>
+      <source url="https://foreignpolicy.com/2026/05/12/iran-trump-obama-jcpoa-nuclear-deal/?tpcc=recirc_trending062921">foreignpolicy.com</source>
+    </item>
+    <item>
+      <title>[叙利亚局势] SYRIA → ISLAMIC : Use conventional military force, not specified below (Raqqa, Ar Raqqah, Syria)</title>
+      <link>https://www.thehindu.com/news/international/i/article70970085.ece</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: SYRIA / ISLAMIC. Location: Raqqa, Ar Raqqah, Syria. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://www.thehindu.com/news/international/i/article70970085.ece</guid>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      <category>叙利亚局势</category>
+      <category>军事动态</category>
+      <source url="https://www.thehindu.com/news/international/i/article70970085.ece">thehindu.com</source>
+    </item>
+    <item>
+      <title>[台海局势] PRISON → UNITED KINGDOM : Arrest, detain, or charge with legal action (Taiwan)</title>
+      <link>https://www.theepochtimes.com/china/trump-to-raise-taiwan-arms-sales-and-jimmy-lai-case-in-meeting-with-chinas-xi-6024859</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: PRISON / UNITED KINGDOM. Location: Taiwan. Goldstein Scale: -5.0. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">https://www.theepochtimes.com/china/trump-to-raise-taiwan-arms-sales-and-jimmy-lai-case-in-meeting-with-chinas-xi-6024859</guid>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      <category>台海局势</category>
+      <category>外交谈判</category>
+      <source url="https://www.theepochtimes.com/china/trump-to-raise-taiwan-arms-sales-and-jimmy-lai-case-in-meeting-with-chinas-xi-6024859">theepochtimes.com</source>
+    </item>
     <item>
       <title>[俄乌战争] ODESSA → UNITED STATES : Use unconventional violence, not specified below (Odessa, Texas, United States)</title>
       <link>https://starlocalmedia.com/news/state/odessa-man-faces-multiple-felony-charges-including-assault-and-theft/article_4511c3ff-5e11-5d0c-96be-140146b6241f.html</link>
@@ -436,76 +506,6 @@
       <category>巴以冲突</category>
       <category>军事动态</category>
       <source url="https://www.algemeiner.com/2026/05/06/adl-reports-overall-drop-us-antisemitic-incidents-rise-assaults/">algemeiner.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAELI → SYRIA : Use conventional military force, not specified below (Syria)</title>
-      <link>https://www.middleeasteye.net/live-blog/live-blog-update/israeli-forces-carry-out-incursion-southern-syria</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAELI / SYRIA. Location: Syria. Goldstein Scale: -10.0. Mentioned in 7 sources.</description>
-      <guid isPermaLink="true">https://www.middleeasteye.net/live-blog/live-blog-update/israeli-forces-carry-out-incursion-southern-syria</guid>
-      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.middleeasteye.net/live-blog/live-blog-update/israeli-forces-carry-out-incursion-southern-syria">middleeasteye.net</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAELI → PALESTINIAN : Use conventional military force, not specified below (Jabalia, Gaza Strip (general), Gaza Strip)</title>
-      <link>https://english.wafa.ps/Pages/Details/170205</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAELI / PALESTINIAN. Location: Jabalia, Gaza Strip (general), Gaza Strip. Goldstein Scale: -10.0. Mentioned in 3 sources.</description>
-      <guid isPermaLink="true">https://english.wafa.ps/Pages/Details/170205</guid>
-      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://english.wafa.ps/Pages/Details/170205">english.wafa.ps</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAEL → POPULATION : Use as human shield (Gaza, Israel (general), Israel)</title>
-      <link>https://www.ynetnews.com/article/bk9qtgkabx</link>
-      <description>GDELT Event: Use as human shield. Actors: ISRAEL / POPULATION. Location: Gaza, Israel (general), Israel. Goldstein Scale: -8.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.ynetnews.com/article/bk9qtgkabx</guid>
-      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.ynetnews.com/article/bk9qtgkabx">ynetnews.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAELI → PALESTINIAN : Employ aerial weapons (New York, United States)</title>
-      <link>https://www.e-flux.com/criticism/6782422/61st-venice-biennale-in-minor-keys</link>
-      <description>GDELT Event: Employ aerial weapons. Actors: ISRAELI / PALESTINIAN. Location: New York, United States. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.e-flux.com/criticism/6782422/61st-venice-biennale-in-minor-keys</guid>
-      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.e-flux.com/criticism/6782422/61st-venice-biennale-in-minor-keys">e-flux.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAEL → PRISON : Arrest, detain, or charge with legal action (Ventura County, California, United States)</title>
-      <link>https://www.algemeiner.com/2026/05/06/california-man-pleads-guilty-killing-jewish-pro-israel-protester-judge-weighs-light-sentence/</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: ISRAEL / PRISON. Location: Ventura County, California, United States. Goldstein Scale: -5.0. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://www.algemeiner.com/2026/05/06/california-man-pleads-guilty-killing-jewish-pro-israel-protester-judge-weighs-light-sentence/</guid>
-      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>外交谈判</category>
-      <source url="https://www.algemeiner.com/2026/05/06/california-man-pleads-guilty-killing-jewish-pro-israel-protester-judge-weighs-light-sentence/">algemeiner.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAEL → FRENCH : Engage in popular protest, not specified below (Gaza, Israel (general), Israel)</title>
-      <link>https://www.algemeiner.com/2026/05/06/artists-cultural-workers-plan-strike-venice-biennale-protest-israels-participation/</link>
-      <description>GDELT Event: Engage in popular protest, not specified below. Actors: ISRAEL / FRENCH. Location: Gaza, Israel (general), Israel. Goldstein Scale: -6.5. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">https://www.algemeiner.com/2026/05/06/artists-cultural-workers-plan-strike-venice-biennale-protest-israels-participation/</guid>
-      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>舆论热点</category>
-      <source url="https://www.algemeiner.com/2026/05/06/artists-cultural-workers-plan-strike-venice-biennale-protest-israels-participation/">algemeiner.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] PRESIDENT → nan : Fight with small arms and light weapons (Isfahan, Esfahan, Iran)</title>
-      <link>https://www.yourdemocracy.net.au/drupal/node/59664</link>
-      <description>GDELT Event: Fight with small arms and light weapons. Actors: PRESIDENT / nan. Location: Isfahan, Esfahan, Iran. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://www.yourdemocracy.net.au/drupal/node/59664</guid>
-      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://www.yourdemocracy.net.au/drupal/node/59664">yourdemocracy.net.au</source>
     </item>
   </channel>
 </rss>
