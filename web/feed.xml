@@ -5,8 +5,48 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 17 May 2026 08:31:57 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2026 10:16:25 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] UKRAINE → RUSSIA : Fight with small arms and light weapons (Odesa, Odes'ka Oblast, Ukraine)</title>
+      <link>https://www.latimes.com/world-nation/story/2026-05-16/putin-to-visit-chinese-leader-xi-jinping-days-after-trump-leaves</link>
+      <description>GDELT Event: Fight with small arms and light weapons. Actors: UKRAINE / RUSSIA. Location: Odesa, Odes'ka Oblast, Ukraine. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://www.latimes.com/world-nation/story/2026-05-16/putin-to-visit-chinese-leader-xi-jinping-days-after-trump-leaves</guid>
+      <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.latimes.com/world-nation/story/2026-05-16/putin-to-visit-chinese-leader-xi-jinping-days-after-trump-leaves">latimes.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] LEBANON → BATTALION : Use conventional military force, not specified below (Maoz, Ha?afon, Israel)</title>
+      <link>https://themedialine.org/headlines/idf-capt-maoz-israel-recanti-killed-by-explosive-drone-in-southern-lebanon/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: LEBANON / BATTALION. Location: Maoz, Ha?afon, Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://themedialine.org/headlines/idf-capt-maoz-israel-recanti-killed-by-explosive-drone-in-southern-lebanon/</guid>
+      <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://themedialine.org/headlines/idf-capt-maoz-israel-recanti-killed-by-explosive-drone-in-southern-lebanon/">themedialine.org</source>
+    </item>
+    <item>
+      <title>[巴以冲突] UNITED STATES → nan : Employ aerial weapons (Gaza, Israel (general), Israel)</title>
+      <link>https://www.whro.org/military-veterans/2026-05-16/uss-gerald-r-ford-returns-home-after-record-breaking-deployment</link>
+      <description>GDELT Event: Employ aerial weapons. Actors: UNITED STATES / nan. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 5 sources.</description>
+      <guid isPermaLink="true">https://www.whro.org/military-veterans/2026-05-16/uss-gerald-r-ford-returns-home-after-record-breaking-deployment</guid>
+      <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.whro.org/military-veterans/2026-05-16/uss-gerald-r-ford-returns-home-after-record-breaking-deployment">whro.org</source>
+    </item>
+    <item>
+      <title>[巴以冲突] LEBANESE → VILLAGE : Use conventional military force, not specified below (Beirut, Beyrouth, Lebanon)</title>
+      <link>https://timesofindia.indiatimes.com/world/middle-east/us-israel-iran-war-ceasefire-news-live-updates-donald-trump-iran-talks-strait-of-hormuz-blockade-middle-east-conflict-tehran-crude-oil-latest/liveblog/131145558.cms</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: LEBANESE / VILLAGE. Location: Beirut, Beyrouth, Lebanon. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://timesofindia.indiatimes.com/world/middle-east/us-israel-iran-war-ceasefire-news-live-updates-donald-trump-iran-talks-strait-of-hormuz-blockade-middle-east-conflict-tehran-crude-oil-latest/liveblog/131145558.cms</guid>
+      <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://timesofindia.indiatimes.com/world/middle-east/us-israel-iran-war-ceasefire-news-live-updates-donald-trump-iran-talks-strait-of-hormuz-blockade-middle-east-conflict-tehran-crude-oil-latest/liveblog/131145558.cms">timesofindia.indiatimes.com</source>
+    </item>
     <item>
       <title>[巴以冲突] nan → GANGSTER : Use conventional military force, not specified below (Gaza, Israel (general), Israel)</title>
       <link>https://wrp.org.uk/features/i-support-my-children-i-support-palestine-and-i-support-the-struggle/</link>
@@ -466,46 +506,6 @@
       <category>美伊对峙</category>
       <category>军事动态</category>
       <source url="https://www.ynetnews.com/article/hkgl9jjjzg">ynetnews.com</source>
-    </item>
-    <item>
-      <title>[苏丹内战] EGYPT → SOUTH SUDANESE : Arrest, detain, or charge with legal action (Cairo, Al Qahirah, Egypt)</title>
-      <link>https://www.christiandaily.com/news/police-in-egypt-arrest-south-sudanese-christian-child</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: EGYPT / SOUTH SUDANESE. Location: Cairo, Al Qahirah, Egypt. Goldstein Scale: -5.0. Mentioned in 6 sources.</description>
-      <guid isPermaLink="true">https://www.christiandaily.com/news/police-in-egypt-arrest-south-sudanese-christian-child</guid>
-      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
-      <category>苏丹内战</category>
-      <category>外交谈判</category>
-      <source url="https://www.christiandaily.com/news/police-in-egypt-arrest-south-sudanese-christian-child">christiandaily.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] UKRAINE → RUSSIA : Violate ceasefire (Zelenskiy, Astrakhanskaya Oblast', Russia)</title>
-      <link>https://www.unionleader.com/news/national/ukraine-russia-trade-accusations-of-violating-us-backed-ceasefire/article_98c62b31-d927-5a90-b2f0-ea0052aa6322.html</link>
-      <description>GDELT Event: Violate ceasefire. Actors: UKRAINE / RUSSIA. Location: Zelenskiy, Astrakhanskaya Oblast', Russia. Goldstein Scale: -9.5. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://www.unionleader.com/news/national/ukraine-russia-trade-accusations-of-violating-us-backed-ceasefire/article_98c62b31-d927-5a90-b2f0-ea0052aa6322.html</guid>
-      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://www.unionleader.com/news/national/ukraine-russia-trade-accusations-of-violating-us-backed-ceasefire/article_98c62b31-d927-5a90-b2f0-ea0052aa6322.html">unionleader.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] MEXICO → nan : Abduct, hijack, or take hostage (Russia)</title>
-      <link>https://theworld.org/episodes/2026/05/11/criminals-arent-the-only-ones-responsible-for-mexicos-disappeared</link>
-      <description>GDELT Event: Abduct, hijack, or take hostage. Actors: MEXICO / nan. Location: Russia. Goldstein Scale: -9.0. Mentioned in 5 sources.</description>
-      <guid isPermaLink="true">https://theworld.org/episodes/2026/05/11/criminals-arent-the-only-ones-responsible-for-mexicos-disappeared</guid>
-      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://theworld.org/episodes/2026/05/11/criminals-arent-the-only-ones-responsible-for-mexicos-disappeared">theworld.org</source>
-    </item>
-    <item>
-      <title>[巴以冲突] SETTLER → SETTLEMENT : Demonstrate or rally (Gaza, Israel (general), Israel)</title>
-      <link>https://www.knau.org/npr-news/2026-05-10/israeli-settlers-force-palestinian-family-to-exhume-and-rebury-their-father</link>
-      <description>GDELT Event: Demonstrate or rally. Actors: SETTLER / SETTLEMENT. Location: Gaza, Israel (general), Israel. Goldstein Scale: -6.5. Mentioned in 12 sources.</description>
-      <guid isPermaLink="true">https://www.knau.org/npr-news/2026-05-10/israeli-settlers-force-palestinian-family-to-exhume-and-rebury-their-father</guid>
-      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>舆论热点</category>
-      <source url="https://www.knau.org/npr-news/2026-05-10/israeli-settlers-force-palestinian-family-to-exhume-and-rebury-their-father">knau.org</source>
     </item>
   </channel>
 </rss>
