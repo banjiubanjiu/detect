@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-19T09:57:15+00:00Z",
+  "updated_at": "2026-05-20T09:45:53+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -869,6 +869,72 @@
                 "actor2": "UKRAINIAN",
                 "actor1_country": "RUS",
                 "actor2_country": "UKR",
+                "geo_lat": 55.7522,
+                "geo_lon": 37.6156,
+                "geo_name": "Moscow, Moskva, Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1304930855",
+              "title": "CHECHNYA → nan : Use conventional military force, not specified below (Semibugry, Astrakhanskaya Oblast', Russia)",
+              "title_en": "CHECHNYA → nan : Use conventional military force, not specified below (Semibugry, Astrakhanskaya Oblast', Russia)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: CHECHNYA / nan. Location: Semibugry, Astrakhanskaya Oblast', Russia. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: CHECHNYA / nan. Location: Semibugry, Astrakhanskaya Oblast', Russia. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "eng.kavkaz-uzel.eu",
+              "date": "2026-05-19",
+              "url": "https://www.eng.kavkaz-uzel.eu/articles/75373",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1304930855",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "CHECHNYA",
+                "actor2": "nan",
+                "actor1_country": "RUS",
+                "actor2_country": "nan",
+                "geo_lat": 46.1669,
+                "geo_lon": 48.2579,
+                "geo_name": "Semibugry, Astrakhanskaya Oblast', Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1304930856",
+              "title": "RUSSIA → ZHEJIANG : Fight with small arms and light weapons (Moscow, Moskva, Russia)",
+              "title_en": "RUSSIA → ZHEJIANG : Fight with small arms and light weapons (Moscow, Moskva, Russia)",
+              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: RUSSIA / ZHEJIANG. Location: Moscow, Moskva, Russia. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: RUSSIA / ZHEJIANG. Location: Moscow, Moskva, Russia. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "africa.chinadaily.com.cn",
+              "date": "2026-05-19",
+              "url": "http://africa.chinadaily.com.cn/a/202605/20/WS6a0cec33a310d6866eb498af.html",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1304930856",
+                "event_code": "193",
+                "cameo_desc": "Fight with small arms and light weapons",
+                "actor1": "RUSSIA",
+                "actor2": "ZHEJIANG",
+                "actor1_country": "RUS",
+                "actor2_country": "CHN",
                 "geo_lat": 55.7522,
                 "geo_lon": 37.6156,
                 "geo_name": "Moscow, Moskva, Russia"
@@ -3992,36 +4058,96 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
-            }
-          ]
-        },
-        "diplomacy": {
-          "label": "外交谈判",
-          "icon": "🕊️",
-          "items": [
+            },
             {
-              "id": "gdelt_1300007537",
-              "title": "POLICE → RESERVIST : Arrest, detain, or charge with legal action (Gaza, Israel (general), Israel)",
-              "title_en": "POLICE → RESERVIST : Arrest, detain, or charge with legal action (Gaza, Israel (general), Israel)",
-              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: POLICE / RESERVIST. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 10 sources.",
-              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: POLICE / RESERVIST. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 10 sources.",
+              "id": "gdelt_1304930632",
+              "title": "ISRAEL → GAZA : Fight with small arms and light weapons (Canada)",
+              "title_en": "ISRAEL → GAZA : Fight with small arms and light weapons (Canada)",
+              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: ISRAEL / GAZA. Location: Canada. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: ISRAEL / GAZA. Location: Canada. Goldstein Scale: -10.0. Mentioned in 6 sources.",
               "source": "gdelt",
-              "source_label": "theyeshivaworld.com",
-              "date": "2026-04-19",
-              "url": "https://www.theyeshivaworld.com/news/israel-news/2537601/idf-reservist-who-protected-jews-from-arab-mob-arrested-denied-access-to-lawyer.html",
+              "source_label": "cbc.ca",
+              "date": "2026-05-19",
+              "url": "https://www.cbc.ca/player/play/video/9.7205160",
               "primary_conflict": "israel-palestine",
               "metrics": {
-                "mentions": 10,
+                "mentions": 6,
                 "sources": 1,
-                "articles": 10,
-                "goldstein": -5.0
+                "articles": 6,
+                "goldstein": -10.0
               },
               "gdelt_meta": {
-                "event_id": "1300007537",
-                "event_code": "173",
-                "cameo_desc": "Arrest, detain, or charge with legal action",
-                "actor1": "POLICE",
-                "actor2": "RESERVIST",
+                "event_id": "1304930632",
+                "event_code": "193",
+                "cameo_desc": "Fight with small arms and light weapons",
+                "actor1": "ISRAEL",
+                "actor2": "GAZA",
+                "actor1_country": "ISR",
+                "actor2_country": "PSE",
+                "geo_lat": 60.0,
+                "geo_lon": -96.0,
+                "geo_name": "Canada"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1304930794",
+              "title": "MUSLIM → LEBANON : Use conventional military force, not specified below (Lebanon)",
+              "title_en": "MUSLIM → LEBANON : Use conventional military force, not specified below (Lebanon)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: MUSLIM / LEBANON. Location: Lebanon. Goldstein Scale: -10.0. Mentioned in 5 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: MUSLIM / LEBANON. Location: Lebanon. Goldstein Scale: -10.0. Mentioned in 5 sources.",
+              "source": "gdelt",
+              "source_label": "camera.org",
+              "date": "2026-05-19",
+              "url": "https://www.camera.org/article/fault-lines-and-faulty-logic-the-times-on-local-frustration-and-support-for-hezbollah/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 5,
+                "sources": 1,
+                "articles": 5,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1304930794",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "MUSLIM",
+                "actor2": "LEBANON",
+                "actor1_country": "nan",
+                "actor2_country": "LBN",
+                "geo_lat": 33.833333,
+                "geo_lon": 35.833333,
+                "geo_name": "Lebanon"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1304930841",
+              "title": "ACTIVIST → nan : Torture (Gaza, Israel (general), Israel)",
+              "title_en": "ACTIVIST → nan : Torture (Gaza, Israel (general), Israel)",
+              "summary": "GDELT Event: Torture. Actors: ACTIVIST / nan. Location: Gaza, Israel (general), Israel. Goldstein Scale: -9.0. Mentioned in 3 sources.",
+              "summary_en": "GDELT Event: Torture. Actors: ACTIVIST / nan. Location: Gaza, Israel (general), Israel. Goldstein Scale: -9.0. Mentioned in 3 sources.",
+              "source": "gdelt",
+              "source_label": "the-messenger.com",
+              "date": "2026-05-19",
+              "url": "https://www.the-messenger.com/news/world/article_47fbfd24-d8a4-5b7d-9bc7-b2999bafee56.html",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 3,
+                "sources": 1,
+                "articles": 3,
+                "goldstein": -9.0
+              },
+              "gdelt_meta": {
+                "event_id": "1304930841",
+                "event_code": "1822",
+                "cameo_desc": "Torture",
+                "actor1": "ACTIVIST",
+                "actor2": "nan",
                 "actor1_country": "nan",
                 "actor2_country": "nan",
                 "geo_lat": 31.4167,
@@ -4032,6 +4158,78 @@
               "admiralty_info": 3,
               "admiralty_code": "C3"
             },
+            {
+              "id": "gdelt_1304930634",
+              "title": "ISRAEL → TERRORIST : Fight with small arms and light weapons (Michigan, United States)",
+              "title_en": "ISRAEL → TERRORIST : Fight with small arms and light weapons (Michigan, United States)",
+              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: ISRAEL / TERRORIST. Location: Michigan, United States. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: ISRAEL / TERRORIST. Location: Michigan, United States. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "source": "gdelt",
+              "source_label": "timesofsandiego.com",
+              "date": "2026-05-19",
+              "url": "https://timesofsandiego.com/crime/2026/05/19/islamic-center-san-diego-state-security-grants-budget-cuts/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 3,
+                "sources": 1,
+                "articles": 3,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1304930634",
+                "event_code": "193",
+                "cameo_desc": "Fight with small arms and light weapons",
+                "actor1": "ISRAEL",
+                "actor2": "TERRORIST",
+                "actor1_country": "ISR",
+                "actor2_country": "nan",
+                "geo_lat": 43.3504,
+                "geo_lon": -84.5603,
+                "geo_name": "Michigan, United States"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1304930635",
+              "title": "ISRAEL → SAN DIEGO : Fight with small arms and light weapons (San Diego, California, United States)",
+              "title_en": "ISRAEL → SAN DIEGO : Fight with small arms and light weapons (San Diego, California, United States)",
+              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: ISRAEL / SAN DIEGO. Location: San Diego, California, United States. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: ISRAEL / SAN DIEGO. Location: San Diego, California, United States. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "source": "gdelt",
+              "source_label": "wxyz.com",
+              "date": "2026-05-19",
+              "url": "https://www.wxyz.com/news/voices/local-muslim-american-leaders-condemn-san-diego-attack-call-for-peace",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 3,
+                "sources": 1,
+                "articles": 3,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1304930635",
+                "event_code": "193",
+                "cameo_desc": "Fight with small arms and light weapons",
+                "actor1": "ISRAEL",
+                "actor2": "SAN DIEGO",
+                "actor1_country": "ISR",
+                "actor2_country": "USA",
+                "geo_lat": 32.7153,
+                "geo_lon": -117.157,
+                "geo_name": "San Diego, California, United States"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            }
+          ]
+        },
+        "diplomacy": {
+          "label": "外交谈判",
+          "icon": "🕊️",
+          "items": [
             {
               "id": "gdelt_1300735502",
               "title": "LEBANON → CIVILIAN : Impose administrative sanctions, not specified below (Gaza, Israel (general), Israel)",
@@ -4526,6 +4724,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1304930630",
+              "title": "ISRAEL → POLAND : Impose administrative sanctions, not specified below (Poland)",
+              "title_en": "ISRAEL → POLAND : Impose administrative sanctions, not specified below (Poland)",
+              "summary": "GDELT Event: Impose administrative sanctions, not specified below. Actors: ISRAEL / POLAND. Location: Poland. Goldstein Scale: -5.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: ISRAEL / POLAND. Location: Poland. Goldstein Scale: -5.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "crowdfundinsider.com",
+              "date": "2026-05-19",
+              "url": "https://www.crowdfundinsider.com/2026/05/279516-poland-could-ban-crypto-pushing-back-on-eu-mica-regulation/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1304930630",
+                "event_code": "172",
+                "cameo_desc": "Impose administrative sanctions, not specified below",
+                "actor1": "ISRAEL",
+                "actor2": "POLAND",
+                "actor1_country": "ISR",
+                "actor2_country": "POL",
+                "geo_lat": 52.0,
+                "geo_lon": 20.0,
+                "geo_name": "Poland"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -4800,72 +5031,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1300007707",
-              "title": "IRAN → OMAN : Violate ceasefire (Iran)",
-              "title_en": "IRAN → OMAN : Violate ceasefire (Iran)",
-              "summary": "GDELT Event: Violate ceasefire. Actors: IRAN / OMAN. Location: Iran. Goldstein Scale: -9.5. Mentioned in 5 sources.",
-              "summary_en": "GDELT Event: Violate ceasefire. Actors: IRAN / OMAN. Location: Iran. Goldstein Scale: -9.5. Mentioned in 5 sources.",
-              "source": "gdelt",
-              "source_label": "yasstribune.com.au",
-              "date": "2026-04-19",
-              "url": "https://www.yasstribune.com.au/story/9227907/iran-vows-swift-response-to-us-attack-on-cargo-ship/",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 5,
-                "sources": 1,
-                "articles": 5,
-                "goldstein": -9.5
-              },
-              "gdelt_meta": {
-                "event_id": "1300007707",
-                "event_code": "196",
-                "cameo_desc": "Violate ceasefire",
-                "actor1": "IRAN",
-                "actor2": "OMAN",
-                "actor1_country": "IRN",
-                "actor2_country": "OMN",
-                "geo_lat": 32.0,
-                "geo_lon": 53.0,
-                "geo_name": "Iran"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1300007691",
-              "title": "IRAN → FRANCE : Fight with small arms and light weapons (Kumzar, Musandam, Oman)",
-              "title_en": "IRAN → FRANCE : Fight with small arms and light weapons (Kumzar, Musandam, Oman)",
-              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: IRAN / FRANCE. Location: Kumzar, Musandam, Oman. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: IRAN / FRANCE. Location: Kumzar, Musandam, Oman. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "source": "gdelt",
-              "source_label": "twincities.com",
-              "date": "2026-04-19",
-              "url": "https://www.twincities.com/2026/04/18/the-latest-us-navy-seizes-an-iranian-flagged-cargo-ship-and-tehran-vows-swift-response/",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 2,
-                "sources": 1,
-                "articles": 2,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1300007691",
-                "event_code": "193",
-                "cameo_desc": "Fight with small arms and light weapons",
-                "actor1": "IRAN",
-                "actor2": "FRANCE",
-                "actor1_country": "IRN",
-                "actor2_country": "FRA",
-                "geo_lat": 26.3369,
-                "geo_lon": 56.4108,
-                "geo_name": "Kumzar, Musandam, Oman"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1300361814",
               "title": "PRESIDENT → nan : Use conventional military force, not specified below (Tehran, Tehran, Iran)",
@@ -6259,39 +6424,6 @@
           "icon": "🕊️",
           "items": [
             {
-              "id": "gdelt_1300007796",
-              "title": "MILITARY ADVISOR → IRAN : Impose administrative sanctions, not specified below (Iran)",
-              "title_en": "MILITARY ADVISOR → IRAN : Impose administrative sanctions, not specified below (Iran)",
-              "summary": "GDELT Event: Impose administrative sanctions, not specified below. Actors: MILITARY ADVISOR / IRAN. Location: Iran. Goldstein Scale: -5.0. Mentioned in 4 sources.",
-              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: MILITARY ADVISOR / IRAN. Location: Iran. Goldstein Scale: -5.0. Mentioned in 4 sources.",
-              "source": "gdelt",
-              "source_label": "dailystar.co.uk",
-              "date": "2026-04-19",
-              "url": "https://www.dailystar.co.uk/news/us-news/trump-locked-out-situation-room-37040049",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 4,
-                "sources": 1,
-                "articles": 4,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1300007796",
-                "event_code": "172",
-                "cameo_desc": "Impose administrative sanctions, not specified below",
-                "actor1": "MILITARY ADVISOR",
-                "actor2": "IRAN",
-                "actor1_country": "nan",
-                "actor2_country": "IRN",
-                "geo_lat": 32.0,
-                "geo_lon": 53.0,
-                "geo_name": "Iran"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
               "id": "gdelt_1300361912",
               "title": "IRAN → nan : Impose administrative sanctions, not specified below (Gulf Of Oman, Iran (general), Iran)",
               "title_en": "IRAN → nan : Impose administrative sanctions, not specified below (Gulf Of Oman, Iran (general), Iran)",
@@ -6759,6 +6891,40 @@
               "admiralty_info": 3,
               "admiralty_code": "C3",
               "criticality": "background"
+            },
+            {
+              "id": "gdelt_1304930864",
+              "title": "SUDANESE → nan : Abduct, hijack, or take hostage (Sudan)",
+              "title_en": "SUDANESE → nan : Abduct, hijack, or take hostage (Sudan)",
+              "summary": "GDELT Event: Abduct, hijack, or take hostage. Actors: SUDANESE / nan. Location: Sudan. Goldstein Scale: -9.0. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Abduct, hijack, or take hostage. Actors: SUDANESE / nan. Location: Sudan. Goldstein Scale: -9.0. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "newarkadvertiser.co.uk",
+              "date": "2026-05-19",
+              "url": "https://www.newarkadvertiser.co.uk/national/cooper-leads-international-mission-to-tackle-violence-against-women-and-girls-166906/",
+              "primary_conflict": "sudan",
+              "metrics": {
+                "mentions": 6,
+                "sources": 2,
+                "articles": 6,
+                "goldstein": -9.0
+              },
+              "gdelt_meta": {
+                "event_id": "1304930864",
+                "event_code": "181",
+                "cameo_desc": "Abduct, hijack, or take hostage",
+                "actor1": "SUDANESE",
+                "actor2": "nan",
+                "actor1_country": "SDN",
+                "actor2_country": "nan",
+                "geo_lat": 16.0,
+                "geo_lon": 30.0,
+                "geo_name": "Sudan"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3",
+              "criticality": "background"
             }
           ]
         },
@@ -6872,6 +7038,40 @@
                 "geo_lat": NaN,
                 "geo_lon": NaN,
                 "geo_name": "nan"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3",
+              "criticality": "background"
+            },
+            {
+              "id": "gdelt_1304931053",
+              "title": "DETROIT → DETROIT : Arrest, detain, or charge with legal action (Myanmar)",
+              "title_en": "DETROIT → DETROIT : Arrest, detain, or charge with legal action (Myanmar)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: DETROIT / DETROIT. Location: Myanmar. Goldstein Scale: -5.0. Mentioned in 5 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: DETROIT / DETROIT. Location: Myanmar. Goldstein Scale: -5.0. Mentioned in 5 sources.",
+              "source": "gdelt",
+              "source_label": "wdet.org",
+              "date": "2026-05-19",
+              "url": "https://wdet.org/2026/05/19/detroit-evening-report-former-detroit-police-sergeant-stands-trial-for-rape/",
+              "primary_conflict": "myanmar",
+              "metrics": {
+                "mentions": 5,
+                "sources": 1,
+                "articles": 5,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1304931053",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "DETROIT",
+                "actor2": "DETROIT",
+                "actor1_country": "USA",
+                "actor2_country": "USA",
+                "geo_lat": 22.0,
+                "geo_lon": 98.0,
+                "geo_name": "Myanmar"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -7147,40 +7347,6 @@
           "icon": "⚔️",
           "items": [
             {
-              "id": "gdelt_1300007900",
-              "title": "SYRIAN → MILITARY : Occupy territory (Damascus, Dimashq, Syria)",
-              "title_en": "SYRIAN → MILITARY : Occupy territory (Damascus, Dimashq, Syria)",
-              "summary": "GDELT Event: Occupy territory. Actors: SYRIAN / MILITARY. Location: Damascus, Dimashq, Syria. Goldstein Scale: -9.5. Mentioned in 4 sources.",
-              "summary_en": "GDELT Event: Occupy territory. Actors: SYRIAN / MILITARY. Location: Damascus, Dimashq, Syria. Goldstein Scale: -9.5. Mentioned in 4 sources.",
-              "source": "gdelt",
-              "source_label": "theyeshivaworld.com",
-              "date": "2026-04-19",
-              "url": "https://www.theyeshivaworld.com/news/israel-news/2537489/us-completes-withdrawal-from-key-base-in-syria-as-part-of-a-larger-drawdown.html",
-              "primary_conflict": "syria",
-              "metrics": {
-                "mentions": 4,
-                "sources": 1,
-                "articles": 4,
-                "goldstein": -9.5
-              },
-              "gdelt_meta": {
-                "event_id": "1300007900",
-                "event_code": "192",
-                "cameo_desc": "Occupy territory",
-                "actor1": "SYRIAN",
-                "actor2": "MILITARY",
-                "actor1_country": "SYR",
-                "actor2_country": "nan",
-                "geo_lat": 33.5,
-                "geo_lon": 36.3,
-                "geo_name": "Damascus, Dimashq, Syria"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3",
-              "criticality": "background"
-            },
-            {
               "id": "gdelt_1300916917",
               "title": "ARMENIA → SYRIA : Use conventional military force, not specified below (Armenia)",
               "title_en": "ARMENIA → SYRIA : Use conventional military force, not specified below (Armenia)",
@@ -7452,13 +7618,13 @@
     }
   },
   "stats": {
-    "total_items": 213,
+    "total_items": 218,
     "sources": {
-      "gdelt": 213
+      "gdelt": 218
     },
     "date_range": {
-      "from": "2026-04-19",
-      "to": "2026-05-18"
+      "from": "2026-04-21",
+      "to": "2026-05-19"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",

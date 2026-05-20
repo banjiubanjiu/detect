@@ -5,8 +5,48 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 19 May 2026 09:56:57 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2026 09:45:36 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] RUSSIA → UKRAINIAN : Employ aerial weapons (Moscow, Moskva, Russia)</title>
+      <link>https://www.yahoo.com/news/articles/ukraine-declares-first-homegrown-guided-222907796.html</link>
+      <description>GDELT Event: Employ aerial weapons. Actors: RUSSIA / UKRAINIAN. Location: Moscow, Moskva, Russia. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
+      <guid isPermaLink="true">https://www.yahoo.com/news/articles/ukraine-declares-first-homegrown-guided-222907796.html</guid>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.yahoo.com/news/articles/ukraine-declares-first-homegrown-guided-222907796.html">yahoo.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] HAMAS → UNIVERSITY : Use conventional military force, not specified below (Israel)</title>
+      <link>https://www.yahoo.com/news/articles/honorary-degree-presented-parents-omer-212248845.html</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: HAMAS / UNIVERSITY. Location: Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.yahoo.com/news/articles/honorary-degree-presented-parents-omer-212248845.html</guid>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.yahoo.com/news/articles/honorary-degree-presented-parents-omer-212248845.html">yahoo.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] MILITARY → IRAN : Use conventional military force, not specified below (South Carolina, United States)</title>
+      <link>https://laotimes.com/trump-says-he-is-delaying-an-attack-on-iran-at-the-request-of-gulf-arab-leaders/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: MILITARY / IRAN. Location: South Carolina, United States. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://laotimes.com/trump-says-he-is-delaying-an-attack-on-iran-at-the-request-of-gulf-arab-leaders/</guid>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://laotimes.com/trump-says-he-is-delaying-an-attack-on-iran-at-the-request-of-gulf-arab-leaders/">laotimes.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] IRAN → UNITED STATES : Arrest, detain, or charge with legal action (Tehran, Tehran, Iran)</title>
+      <link>https://www.goskagit.com/news/politics/the-latest-trump-calls-off-iran-strike-planned-for-tuesday-to-allow-for-serious-negotiations/article_1b06ef4b-2a6c-5cb5-8ccf-d27b7cee4d02.html</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: IRAN / UNITED STATES. Location: Tehran, Tehran, Iran. Goldstein Scale: -5.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.goskagit.com/news/politics/the-latest-trump-calls-off-iran-strike-planned-for-tuesday-to-allow-for-serious-negotiations/article_1b06ef4b-2a6c-5cb5-8ccf-d27b7cee4d02.html</guid>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>外交谈判</category>
+      <source url="https://www.goskagit.com/news/politics/the-latest-trump-calls-off-iran-strike-planned-for-tuesday-to-allow-for-serious-negotiations/article_1b06ef4b-2a6c-5cb5-8ccf-d27b7cee4d02.html">goskagit.com</source>
+    </item>
     <item>
       <title>[俄乌战争] SIBERIA → POLISH : Use conventional military force, not specified below (Poland)</title>
       <link>https://www.ckom.com/2026/05/17/first-of-its-kind-polish-war-memorial-planned-for-regina-cemetery/</link>
@@ -466,46 +506,6 @@
       <category>巴以冲突</category>
       <category>军事动态</category>
       <source url="https://www.seattletimes.com/nation-world/u-s-intelligence-shows-iran-retains-substantial-missile-capabilities/">seattletimes.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ULTRA ORTHODOX → MILITARY : Demonstrate or rally (Jerusalem, Israel (general), Israel)</title>
-      <link>https://www.npr.org/2026/05/12/g-s1-121631/israel-military-ultra-orthodox-netanyahu-coalition</link>
-      <description>GDELT Event: Demonstrate or rally. Actors: ULTRA ORTHODOX / MILITARY. Location: Jerusalem, Israel (general), Israel. Goldstein Scale: -6.5. Mentioned in 20 sources.</description>
-      <guid isPermaLink="true">https://www.npr.org/2026/05/12/g-s1-121631/israel-military-ultra-orthodox-netanyahu-coalition</guid>
-      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>舆论热点</category>
-      <source url="https://www.npr.org/2026/05/12/g-s1-121631/israel-military-ultra-orthodox-netanyahu-coalition">npr.org</source>
-    </item>
-    <item>
-      <title>[美伊对峙] ISLAMIC → nan : Arrest, detain, or charge with legal action (Tehran, Tehran, Iran)</title>
-      <link>https://foreignpolicy.com/2026/05/12/iran-trump-obama-jcpoa-nuclear-deal/?tpcc=recirc_trending062921</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: ISLAMIC / nan. Location: Tehran, Tehran, Iran. Goldstein Scale: -5.0. Mentioned in 20 sources.</description>
-      <guid isPermaLink="true">https://foreignpolicy.com/2026/05/12/iran-trump-obama-jcpoa-nuclear-deal/?tpcc=recirc_trending062921</guid>
-      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>外交谈判</category>
-      <source url="https://foreignpolicy.com/2026/05/12/iran-trump-obama-jcpoa-nuclear-deal/?tpcc=recirc_trending062921">foreignpolicy.com</source>
-    </item>
-    <item>
-      <title>[叙利亚局势] SYRIA → ISLAMIC : Use conventional military force, not specified below (Raqqa, Ar Raqqah, Syria)</title>
-      <link>https://www.thehindu.com/news/international/i/article70970085.ece</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: SYRIA / ISLAMIC. Location: Raqqa, Ar Raqqah, Syria. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://www.thehindu.com/news/international/i/article70970085.ece</guid>
-      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
-      <category>叙利亚局势</category>
-      <category>军事动态</category>
-      <source url="https://www.thehindu.com/news/international/i/article70970085.ece">thehindu.com</source>
-    </item>
-    <item>
-      <title>[台海局势] PRISON → UNITED KINGDOM : Arrest, detain, or charge with legal action (Taiwan)</title>
-      <link>https://www.theepochtimes.com/china/trump-to-raise-taiwan-arms-sales-and-jimmy-lai-case-in-meeting-with-chinas-xi-6024859</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: PRISON / UNITED KINGDOM. Location: Taiwan. Goldstein Scale: -5.0. Mentioned in 1 sources.</description>
-      <guid isPermaLink="true">https://www.theepochtimes.com/china/trump-to-raise-taiwan-arms-sales-and-jimmy-lai-case-in-meeting-with-chinas-xi-6024859</guid>
-      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
-      <category>台海局势</category>
-      <category>外交谈判</category>
-      <source url="https://www.theepochtimes.com/china/trump-to-raise-taiwan-arms-sales-and-jimmy-lai-case-in-meeting-with-chinas-xi-6024859">theepochtimes.com</source>
     </item>
   </channel>
 </rss>
