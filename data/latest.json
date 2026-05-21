@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-20T09:45:53+00:00Z",
+  "updated_at": "2026-05-21T09:52:38.264357+00:00",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -942,6 +942,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1305132876",
+              "title": "DEFENCE SECRETARY → RUSSIAN : Fight with artillery and tanks (Russia)",
+              "title_en": "DEFENCE SECRETARY → RUSSIAN : Fight with artillery and tanks (Russia)",
+              "summary": "GDELT Event: Fight with artillery and tanks. Actors: DEFENCE SECRETARY / RUSSIAN. Location: Russia. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Fight with artillery and tanks. Actors: DEFENCE SECRETARY / RUSSIAN. Location: Russia. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "gdnonline.com:443",
+              "date": "2026-05-20",
+              "url": "https://www.gdnonline.com:443/Details/1395435",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1305132876",
+                "event_code": "194",
+                "cameo_desc": "Fight with artillery and tanks",
+                "actor1": "DEFENCE SECRETARY",
+                "actor2": "RUSSIAN",
+                "actor1_country": "nan",
+                "actor2_country": "RUS",
+                "geo_lat": 60.0,
+                "geo_lon": 100.0,
+                "geo_name": "Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -1340,6 +1373,39 @@
                 "geo_lat": 31.106,
                 "geo_lon": -97.6475,
                 "geo_name": "Texas, United States"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1305133030",
+              "title": "MILITARY → ISLAM : Arrest, detain, or charge with legal action (Maykop, Adygeya, Russia)",
+              "title_en": "MILITARY → ISLAM : Arrest, detain, or charge with legal action (Maykop, Adygeya, Russia)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: MILITARY / ISLAM. Location: Maykop, Adygeya, Russia. Goldstein Scale: -5.0. Mentioned in 8 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: MILITARY / ISLAM. Location: Maykop, Adygeya, Russia. Goldstein Scale: -5.0. Mentioned in 8 sources.",
+              "source": "gdelt",
+              "source_label": "eng.kavkaz-uzel.eu",
+              "date": "2026-05-20",
+              "url": "https://www.eng.kavkaz-uzel.eu/articles/75402",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 8,
+                "sources": 1,
+                "articles": 8,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1305133030",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "MILITARY",
+                "actor2": "ISLAM",
+                "actor1_country": "nan",
+                "actor2_country": "nan",
+                "geo_lat": 44.6078,
+                "geo_lon": 40.1058,
+                "geo_name": "Maykop, Adygeya, Russia"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -4223,6 +4289,105 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1305133091",
+              "title": "PALESTINIAN → DISPLACED PERSON : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
+              "title_en": "PALESTINIAN → DISPLACED PERSON : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: PALESTINIAN / DISPLACED PERSON. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: PALESTINIAN / DISPLACED PERSON. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "source": "gdelt",
+              "source_label": "aa.com.tr",
+              "date": "2026-05-20",
+              "url": "https://aa.com.tr/en/world/cuba-at-un-denounces-israeli-treatment-of-gaza-flotilla-members-in-international-waters/3943983",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 3,
+                "sources": 1,
+                "articles": 3,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1305133091",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "PALESTINIAN",
+                "actor2": "DISPLACED PERSON",
+                "actor1_country": "PSE",
+                "actor2_country": "nan",
+                "geo_lat": 31.4167,
+                "geo_lon": 34.3333,
+                "geo_name": "Gaza, Israel (general), Israel"
+              },
+              "admiralty_source": "B",
+              "admiralty_info": 3,
+              "admiralty_code": "B3"
+            },
+            {
+              "id": "gdelt_1305132911",
+              "title": "ISRAELI → nan : Fight with small arms and light weapons (Gaza Strip)",
+              "title_en": "ISRAELI → nan : Fight with small arms and light weapons (Gaza Strip)",
+              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: ISRAELI / nan. Location: Gaza Strip. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: ISRAELI / nan. Location: Gaza Strip. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "aa.com.tr",
+              "date": "2026-05-20",
+              "url": "https://aa.com.tr/en/middle-east/gaza-aid-convoy-activist-injured-in-leg-refuses-treatment-in-israeli-hospitals/3943958",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1305132911",
+                "event_code": "193",
+                "cameo_desc": "Fight with small arms and light weapons",
+                "actor1": "ISRAELI",
+                "actor2": "nan",
+                "actor1_country": "ISR",
+                "actor2_country": "nan",
+                "geo_lat": 31.425074,
+                "geo_lon": 34.373398,
+                "geo_name": "Gaza Strip"
+              },
+              "admiralty_source": "B",
+              "admiralty_info": 3,
+              "admiralty_code": "B3"
+            },
+            {
+              "id": "gdelt_1305132916",
+              "title": "ISRAEL → IRAN : Use conventional military force, not specified below (Barakah, Dahuk, Iraq)",
+              "title_en": "ISRAEL → IRAN : Use conventional military force, not specified below (Barakah, Dahuk, Iraq)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / IRAN. Location: Barakah, Dahuk, Iraq. Goldstein Scale: -10.0. Mentioned in 1 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / IRAN. Location: Barakah, Dahuk, Iraq. Goldstein Scale: -10.0. Mentioned in 1 sources.",
+              "source": "gdelt",
+              "source_label": "aa.com.tr",
+              "date": "2026-05-20",
+              "url": "https://aa.com.tr/en/middle-east/iraq-vows-firm-action-against-anyone-involved-in-attacks-on-gulf-countries-from-its-territory/3944061",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 1,
+                "sources": 1,
+                "articles": 1,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1305132916",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "ISRAEL",
+                "actor2": "IRAN",
+                "actor1_country": "ISR",
+                "actor2_country": "IRN",
+                "geo_lat": 37.2956,
+                "geo_lon": 43.3171,
+                "geo_name": "Barakah, Dahuk, Iraq"
+              },
+              "admiralty_source": "B",
+              "admiralty_info": 3,
+              "admiralty_code": "B3"
             }
           ]
         },
@@ -4757,6 +4922,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1305132918",
+              "title": "ISRAEL → ACTIVIST : Arrest, detain, or charge with legal action (New Zealand)",
+              "title_en": "ISRAEL → ACTIVIST : Arrest, detain, or charge with legal action (New Zealand)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: ISRAEL / ACTIVIST. Location: New Zealand. Goldstein Scale: -5.0. Mentioned in 4 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: ISRAEL / ACTIVIST. Location: New Zealand. Goldstein Scale: -5.0. Mentioned in 4 sources.",
+              "source": "gdelt",
+              "source_label": "nzherald.co.nz",
+              "date": "2026-05-20",
+              "url": "https://www.nzherald.co.nz/nz/politics/winston-peters-asks-mfat-to-call-in-israeli-ambassador-over-treatment-of-gaza-flotilla/YCO3LE4KPJFSPDBQLFBGJ4CSCE/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 4,
+                "sources": 1,
+                "articles": 4,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1305132918",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "ISRAEL",
+                "actor2": "ACTIVIST",
+                "actor1_country": "ISR",
+                "actor2_country": "nan",
+                "geo_lat": -42.0,
+                "geo_lon": 174.0,
+                "geo_name": "New Zealand"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -4994,6 +5192,39 @@
               "admiralty_source": "B",
               "admiralty_info": 3,
               "admiralty_code": "B3"
+            },
+            {
+              "id": "gdelt_1305133059",
+              "title": "PROTESTER → SETTLER : Demonstrate or rally (Israel)",
+              "title_en": "PROTESTER → SETTLER : Demonstrate or rally (Israel)",
+              "summary": "GDELT Event: Demonstrate or rally. Actors: PROTESTER / SETTLER. Location: Israel. Goldstein Scale: -6.5. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Demonstrate or rally. Actors: PROTESTER / SETTLER. Location: Israel. Goldstein Scale: -6.5. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "nydailynews.com",
+              "date": "2026-05-20",
+              "url": "https://www.nydailynews.com/2026/05/20/nyc-council-speaker-menin-to-press-limited-version-of-school-security-bill-after-mamdani-veto/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -6.5
+              },
+              "gdelt_meta": {
+                "event_id": "1305133059",
+                "event_code": "141",
+                "cameo_desc": "Demonstrate or rally",
+                "actor1": "PROTESTER",
+                "actor2": "SETTLER",
+                "actor1_country": "nan",
+                "actor2_country": "nan",
+                "geo_lat": 31.5,
+                "geo_lon": 34.75,
+                "geo_name": "Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -7618,13 +7849,13 @@
     }
   },
   "stats": {
-    "total_items": 218,
+    "total_items": 225,
     "sources": {
-      "gdelt": 218
+      "gdelt": 225
     },
     "date_range": {
       "from": "2026-04-21",
-      "to": "2026-05-19"
+      "to": "2026-05-21"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
