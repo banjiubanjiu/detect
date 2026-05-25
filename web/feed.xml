@@ -5,8 +5,68 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 24 May 2026 08:39:35 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2026 10:18:35 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] MEDIA → UKRAINE : Use conventional military force, not specified below (Lugansk, Luhans'ka Oblast', Ukraine)</title>
+      <link>http://www.heraldglobe.com/news/279071760/suspected-oreshnik-strike-reported-near-kiev</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: MEDIA / UKRAINE. Location: Lugansk, Luhans'ka Oblast', Ukraine. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
+      <guid isPermaLink="true">http://www.heraldglobe.com/news/279071760/suspected-oreshnik-strike-reported-near-kiev</guid>
+      <pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="http://www.heraldglobe.com/news/279071760/suspected-oreshnik-strike-reported-near-kiev">heraldglobe.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAEL → nan : Use conventional military force, not specified below (Saudi Arabia)</title>
+      <link>https://www.thehindu.com/news/international/trump-says-agreement-with-iran-largely-negotiated-includes-opening-strait/article71015849.ece</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / nan. Location: Saudi Arabia. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">https://www.thehindu.com/news/international/trump-says-agreement-with-iran-largely-negotiated-includes-opening-strait/article71015849.ece</guid>
+      <pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.thehindu.com/news/international/trump-says-agreement-with-iran-largely-negotiated-includes-opening-strait/article71015849.ece">thehindu.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAEL → BASQUE : Expel or deport individuals (Gaza, Israel (general), Israel)</title>
+      <link>https://jewlicious.com/2026/05/welcome-home-spain-beats-its-own-flotilla-heroes-at-the-airport/</link>
+      <description>GDELT Event: Expel or deport individuals. Actors: ISRAEL / BASQUE. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://jewlicious.com/2026/05/welcome-home-spain-beats-its-own-flotilla-heroes-at-the-airport/</guid>
+      <pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>外交谈判</category>
+      <source url="https://jewlicious.com/2026/05/welcome-home-spain-beats-its-own-flotilla-heroes-at-the-airport/">jewlicious.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] A US → IRAN : Employ aerial weapons (Iran)</title>
+      <link>https://www.zerohedge.com/military/iran-destroyed-20-pentagons-mq-9-reaper-drone-fleet-report</link>
+      <description>GDELT Event: Employ aerial weapons. Actors: A US / IRAN. Location: Iran. Goldstein Scale: -10.0. Mentioned in 6 sources.</description>
+      <guid isPermaLink="true">https://www.zerohedge.com/military/iran-destroyed-20-pentagons-mq-9-reaper-drone-fleet-report</guid>
+      <pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://www.zerohedge.com/military/iran-destroyed-20-pentagons-mq-9-reaper-drone-fleet-report">zerohedge.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] MILITARY → IRAN : Use conventional military force, not specified below (Tehran, Tehran, Iran)</title>
+      <link>https://www.houstonpublicmedia.org/npr/2026/05/23/g-s1-124145/trump-says-a-deal-with-iran-and-opening-of-strait-of-hormuz-are-largely-negotiated/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: MILITARY / IRAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.houstonpublicmedia.org/npr/2026/05/23/g-s1-124145/trump-says-a-deal-with-iran-and-opening-of-strait-of-hormuz-are-largely-negotiated/</guid>
+      <pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://www.houstonpublicmedia.org/npr/2026/05/23/g-s1-124145/trump-says-a-deal-with-iran-and-opening-of-strait-of-hormuz-are-largely-negotiated/">houstonpublicmedia.org</source>
+    </item>
+    <item>
+      <title>[美伊对峙] IRAN → nan : Use unconventional violence, not specified below (Tehran, Tehran, Iran)</title>
+      <link>https://themedialine.org/headlines/president-trump-says-iran-deal-largely-negotiated-senior-republicans-voice-alarm-about-deal/</link>
+      <description>GDELT Event: Use unconventional violence, not specified below. Actors: IRAN / nan. Location: Tehran, Tehran, Iran. Goldstein Scale: -9.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://themedialine.org/headlines/president-trump-says-iran-deal-largely-negotiated-senior-republicans-voice-alarm-about-deal/</guid>
+      <pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://themedialine.org/headlines/president-trump-says-iran-deal-largely-negotiated-senior-republicans-voice-alarm-about-deal/">themedialine.org</source>
+    </item>
     <item>
       <title>[俄乌战争] nan → UNITED STATES : Occupy territory (Russia)</title>
       <link>https://nypost.com/2026/05/22/opinion/hunter-biden-remains-as-delusional-as-ever/</link>
@@ -446,66 +506,6 @@
       <category>巴以冲突</category>
       <category>军事动态</category>
       <source url="https://www.spacewar.com/afp/260517223458.iarspyyd.html">spacewar.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] UNITED KINGDOM → ISRAEL : Use conventional military force, not specified below (London, London, City of, United Kingdom)</title>
-      <link>https://wrp.org.uk/features/today-we-say-enough-we-will-return-all-of-palestine-will-be-free/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: UNITED KINGDOM / ISRAEL. Location: London, London, City of, United Kingdom. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://wrp.org.uk/features/today-we-say-enough-we-will-return-all-of-palestine-will-be-free/</guid>
-      <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://wrp.org.uk/features/today-we-say-enough-we-will-return-all-of-palestine-will-be-free/">wrp.org.uk</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAEL → IRAN : Use conventional military force, not specified below (Israel)</title>
-      <link>https://www.oann.com/newsroom/uae-condemns-unprovoked-terrorist-attack-after-drone-strike-near-nuclear-facility/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / IRAN. Location: Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.oann.com/newsroom/uae-condemns-unprovoked-terrorist-attack-after-drone-strike-near-nuclear-facility/</guid>
-      <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.oann.com/newsroom/uae-condemns-unprovoked-terrorist-attack-after-drone-strike-near-nuclear-facility/">oann.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] IRANIAN → REBEL : Use conventional military force, not specified below (Iraq)</title>
-      <link>https://www.spacewar.com/afp/260517183843.mas9ky7b.html</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: IRANIAN / REBEL. Location: Iraq. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.spacewar.com/afp/260517183843.mas9ky7b.html</guid>
-      <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://www.spacewar.com/afp/260517183843.mas9ky7b.html">spacewar.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] UKRAINE → RUSSIA : Fight with small arms and light weapons (Odesa, Odes'ka Oblast, Ukraine)</title>
-      <link>https://www.latimes.com/world-nation/story/2026-05-16/putin-to-visit-chinese-leader-xi-jinping-days-after-trump-leaves</link>
-      <description>GDELT Event: Fight with small arms and light weapons. Actors: UKRAINE / RUSSIA. Location: Odesa, Odes'ka Oblast, Ukraine. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://www.latimes.com/world-nation/story/2026-05-16/putin-to-visit-chinese-leader-xi-jinping-days-after-trump-leaves</guid>
-      <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://www.latimes.com/world-nation/story/2026-05-16/putin-to-visit-chinese-leader-xi-jinping-days-after-trump-leaves">latimes.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] LEBANON → BATTALION : Use conventional military force, not specified below (Maoz, Ha?afon, Israel)</title>
-      <link>https://themedialine.org/headlines/idf-capt-maoz-israel-recanti-killed-by-explosive-drone-in-southern-lebanon/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: LEBANON / BATTALION. Location: Maoz, Ha?afon, Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://themedialine.org/headlines/idf-capt-maoz-israel-recanti-killed-by-explosive-drone-in-southern-lebanon/</guid>
-      <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://themedialine.org/headlines/idf-capt-maoz-israel-recanti-killed-by-explosive-drone-in-southern-lebanon/">themedialine.org</source>
-    </item>
-    <item>
-      <title>[巴以冲突] UNITED STATES → nan : Employ aerial weapons (Gaza, Israel (general), Israel)</title>
-      <link>https://www.whro.org/military-veterans/2026-05-16/uss-gerald-r-ford-returns-home-after-record-breaking-deployment</link>
-      <description>GDELT Event: Employ aerial weapons. Actors: UNITED STATES / nan. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 5 sources.</description>
-      <guid isPermaLink="true">https://www.whro.org/military-veterans/2026-05-16/uss-gerald-r-ford-returns-home-after-record-breaking-deployment</guid>
-      <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.whro.org/military-veterans/2026-05-16/uss-gerald-r-ford-returns-home-after-record-breaking-deployment">whro.org</source>
     </item>
   </channel>
 </rss>
