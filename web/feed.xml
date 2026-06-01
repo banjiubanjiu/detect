@@ -5,8 +5,28 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 31 May 2026 08:56:28 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 11:47:20 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[巴以冲突] LEBANESE → ISRAELI : Use conventional military force, not specified below (Beirut, Beyrouth, Lebanon)</title>
+      <link>https://www.naturalnews.com/2026-05-30-israeli-airstrikes-hit-beirut-suburbs-14-dead.html</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: LEBANESE / ISRAELI. Location: Beirut, Beyrouth, Lebanon. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.naturalnews.com/2026-05-30-israeli-airstrikes-hit-beirut-suburbs-14-dead.html</guid>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.naturalnews.com/2026-05-30-israeli-airstrikes-hit-beirut-suburbs-14-dead.html">naturalnews.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] TYRE → RESIDENTS : Expel or deport individuals (Beirut, Beyrouth, Lebanon)</title>
+      <link>https://tribune.com.pk/story/2610638/tehran-says-trump-betraying-diplomacy-with-hormuz-blockade</link>
+      <description>GDELT Event: Expel or deport individuals. Actors: TYRE / RESIDENTS. Location: Beirut, Beyrouth, Lebanon. Goldstein Scale: -5.0. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">https://tribune.com.pk/story/2610638/tehran-says-trump-betraying-diplomacy-with-hormuz-blockade</guid>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>外交谈判</category>
+      <source url="https://tribune.com.pk/story/2610638/tehran-says-trump-betraying-diplomacy-with-hormuz-blockade">tribune.com.pk</source>
+    </item>
     <item>
       <title>[俄乌战争] PRINCE → UKRAINE : Impose administrative sanctions, not specified below (Kyiv, Kyyiv, Misto, Ukraine)</title>
       <link>https://stylecaster.com/entertainment/celebrity-news/1234914903/harry-response-peter-phillips-wedding/</link>
@@ -486,26 +506,6 @@
       <category>俄乌战争</category>
       <category>军事动态</category>
       <source url="https://www.el-balad.com/17013937">el-balad.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] nan → ISRAELI : Use conventional military force, not specified below (Gilboa, Ha?afon, Israel)</title>
-      <link>https://themedialine.org/headlines/2-former-israeli-air-force-officers-killed-in-light-plane-crash-in-jezreel-valley/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: nan / ISRAELI. Location: Gilboa, Ha?afon, Israel. Goldstein Scale: -10.0. Mentioned in 3 sources.</description>
-      <guid isPermaLink="true">https://themedialine.org/headlines/2-former-israeli-air-force-officers-killed-in-light-plane-crash-in-jezreel-valley/</guid>
-      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://themedialine.org/headlines/2-former-israeli-air-force-officers-killed-in-light-plane-crash-in-jezreel-valley/">themedialine.org</source>
-    </item>
-    <item>
-      <title>[巴以冲突] SAN DIEGO → DOMINICAN REPUBLIC : Fight with small arms and light weapons (Gaza, Israel (general), Israel)</title>
-      <link>https://dominicanrepublicpost.com/after-san-diego-shooting-muslim-americans-aim-to-turn-grief-into-action/</link>
-      <description>GDELT Event: Fight with small arms and light weapons. Actors: SAN DIEGO / DOMINICAN REPUBLIC. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 3 sources.</description>
-      <guid isPermaLink="true">https://dominicanrepublicpost.com/after-san-diego-shooting-muslim-americans-aim-to-turn-grief-into-action/</guid>
-      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://dominicanrepublicpost.com/after-san-diego-shooting-muslim-americans-aim-to-turn-grief-into-action/">dominicanrepublicpost.com</source>
     </item>
   </channel>
 </rss>
