@@ -5,8 +5,38 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 01 Jun 2026 11:47:20 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2026 10:35:25 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] RUSSIA → UKRAINE : Arrest, detain, or charge with legal action (Taiwan)</title>
+      <link>https://www.marinelink.com/news/seasats-completes-first-autonomous-539767</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: RUSSIA / UKRAINE. Location: Taiwan. Goldstein Scale: -5.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.marinelink.com/news/seasats-completes-first-autonomous-539767</guid>
+      <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>外交谈判</category>
+      <source url="https://www.marinelink.com/news/seasats-completes-first-autonomous-539767">marinelink.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] TEHRAN → IRAN : Fight with small arms and light weapons (Washington, District of Columbia, United States)</title>
+      <link>https://navhindtimes.in/worldnews/downed-us-drone-on-hostile-mission-in-irans-waters/</link>
+      <description>GDELT Event: Fight with small arms and light weapons. Actors: TEHRAN / IRAN. Location: Washington, District of Columbia, United States. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://navhindtimes.in/worldnews/downed-us-drone-on-hostile-mission-in-irans-waters/</guid>
+      <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://navhindtimes.in/worldnews/downed-us-drone-on-hostile-mission-in-irans-waters/">navhindtimes.in</source>
+    </item>
+    <item>
+      <title>[刚果(金)冲突] nan → AFRICA : Use conventional military force, not specified below (Brazzaville, Brazzaville, Congo)</title>
+      <link>https://allafrica.com/stories/202605310141.html</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: nan / AFRICA. Location: Brazzaville, Brazzaville, Congo. Goldstein Scale: -10.0. Mentioned in 5 sources.</description>
+      <guid isPermaLink="true">https://allafrica.com/stories/202605310141.html</guid>
+      <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
+      <category>刚果(金)冲突</category>
+      <category>军事动态</category>
+      <source url="https://allafrica.com/stories/202605310141.html">allafrica.com</source>
+    </item>
     <item>
       <title>[巴以冲突] LEBANESE → ISRAELI : Use conventional military force, not specified below (Beirut, Beyrouth, Lebanon)</title>
       <link>https://www.naturalnews.com/2026-05-30-israeli-airstrikes-hit-beirut-suburbs-14-dead.html</link>
@@ -476,36 +506,6 @@
       <category>美伊对峙</category>
       <category>军事动态</category>
       <source url="http://www.austinglobe.com/news/279075507/us-jets-attack-iranian-naval-vessels">austinglobe.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] PRESIDENT → IRAN : Conduct strike or boycott, not specified below (Tehran, Tehran, Iran)</title>
-      <link>https://www.breitbart.com/politics/2026/05/25/congressional-republicans-rally-behind-trump-as-iran-deal-talks-advance-give-potus-the-space-to-negotiate/</link>
-      <description>GDELT Event: Conduct strike or boycott, not specified below. Actors: PRESIDENT / IRAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -6.5. Mentioned in 6 sources.</description>
-      <guid isPermaLink="true">https://www.breitbart.com/politics/2026/05/25/congressional-republicans-rally-behind-trump-as-iran-deal-talks-advance-give-potus-the-space-to-negotiate/</guid>
-      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>舆论热点</category>
-      <source url="https://www.breitbart.com/politics/2026/05/25/congressional-republicans-rally-behind-trump-as-iran-deal-talks-advance-give-potus-the-space-to-negotiate/">breitbart.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] MINISTRY → RUSSIA : Employ aerial weapons (Kyiv, Kyyiv, Misto, Ukraine)</title>
-      <link>https://news.antiwar.com/2026/05/24/russia-launches-massive-drone-and-missile-barrage-on-kyiv-after-ukrainian-strike-kills-21-at-luhansk-college/</link>
-      <description>GDELT Event: Employ aerial weapons. Actors: MINISTRY / RUSSIA. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">https://news.antiwar.com/2026/05/24/russia-launches-massive-drone-and-missile-barrage-on-kyiv-after-ukrainian-strike-kills-21-at-luhansk-college/</guid>
-      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://news.antiwar.com/2026/05/24/russia-launches-massive-drone-and-missile-barrage-on-kyiv-after-ukrainian-strike-kills-21-at-luhansk-college/">news.antiwar.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] UNITED KINGDOM → RUSSIA : Employ aerial weapons (Black Sea, Oceans (general), Oceans)</title>
-      <link>https://www.el-balad.com/17013937</link>
-      <description>GDELT Event: Employ aerial weapons. Actors: UNITED KINGDOM / RUSSIA. Location: Black Sea, Oceans (general), Oceans. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.el-balad.com/17013937</guid>
-      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://www.el-balad.com/17013937">el-balad.com</source>
     </item>
   </channel>
 </rss>

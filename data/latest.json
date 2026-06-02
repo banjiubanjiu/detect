@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-01T11:47:38+00:00Z",
+  "updated_at": "2026-06-02T10:35:44+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -19,39 +19,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1302142434",
-              "title": "UKRAINE → RUSSIA : Use conventional military force, not specified below (Kherson, Khersons'ka Oblast', Ukraine)",
-              "title_en": "UKRAINE → RUSSIA : Use conventional military force, not specified below (Kherson, Khersons'ka Oblast', Ukraine)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: UKRAINE / RUSSIA. Location: Kherson, Khersons'ka Oblast', Ukraine. Goldstein Scale: -10.0. Mentioned in 8 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: UKRAINE / RUSSIA. Location: Kherson, Khersons'ka Oblast', Ukraine. Goldstein Scale: -10.0. Mentioned in 8 sources.",
-              "source": "gdelt",
-              "source_label": "bostonherald.com",
-              "date": "2026-05-02",
-              "url": "https://www.bostonherald.com/2026/05/02/russian-tuapse-oil-terminal-fire-extinguished-after-attack/",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 8,
-                "sources": 1,
-                "articles": 8,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1302142434",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "UKRAINE",
-                "actor2": "RUSSIA",
-                "actor1_country": "UKR",
-                "actor2_country": "RUS",
-                "geo_lat": 46.6558,
-                "geo_lon": 32.6178,
-                "geo_name": "Kherson, Khersons'ka Oblast', Ukraine"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1302245737",
               "title": "NATO → RUSSIAN : Occupy territory (Madrid, Madrid, Spain)",
@@ -1650,72 +1617,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1302142170",
-              "title": "DJIBOUTI → ISRAEL : Use conventional military force, not specified below (Israel)",
-              "title_en": "DJIBOUTI → ISRAEL : Use conventional military force, not specified below (Israel)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: DJIBOUTI / ISRAEL. Location: Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: DJIBOUTI / ISRAEL. Location: Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.",
-              "source": "gdelt",
-              "source_label": "ruthfullyyours.com",
-              "date": "2026-05-02",
-              "url": "https://www.ruthfullyyours.com/2026/05/02/us-navys-secret-weapon-leveraging-israels-naval-capabilities-yoram-ettinger/",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 6,
-                "sources": 1,
-                "articles": 6,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1302142170",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "DJIBOUTI",
-                "actor2": "ISRAEL",
-                "actor1_country": "DJI",
-                "actor2_country": "ISR",
-                "geo_lat": 31.5,
-                "geo_lon": 34.75,
-                "geo_name": "Israel"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1302142178",
-              "title": "SCHOOL → ISRAEL : Fight with small arms and light weapons (Los Angeles, California, United States)",
-              "title_en": "SCHOOL → ISRAEL : Fight with small arms and light weapons (Los Angeles, California, United States)",
-              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: SCHOOL / ISRAEL. Location: Los Angeles, California, United States. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: SCHOOL / ISRAEL. Location: Los Angeles, California, United States. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "source": "gdelt",
-              "source_label": "nbclosangeles.com",
-              "date": "2026-05-02",
-              "url": "https://www.nbclosangeles.com/news/national-international/boy-14-shot-dead-israeli-settlers/3884771/",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 2,
-                "sources": 1,
-                "articles": 2,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1302142178",
-                "event_code": "193",
-                "cameo_desc": "Fight with small arms and light weapons",
-                "actor1": "SCHOOL",
-                "actor2": "ISRAEL",
-                "actor1_country": "nan",
-                "actor2_country": "ISR",
-                "geo_lat": 34.0522,
-                "geo_lon": -118.244,
-                "geo_name": "Los Angeles, California, United States"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1302245770",
               "title": "RABBI → ISRAEL : Fight with small arms and light weapons (Gaza, Israel (general), Israel)",
@@ -4751,6 +4652,171 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1306972665",
+              "title": "ISRAEL → IRAN : Impose blockade, restrict movement (Iran)",
+              "title_en": "ISRAEL → IRAN : Impose blockade, restrict movement (Iran)",
+              "summary": "GDELT Event: Impose blockade, restrict movement. Actors: ISRAEL / IRAN. Location: Iran. Goldstein Scale: -9.5. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Impose blockade, restrict movement. Actors: ISRAEL / IRAN. Location: Iran. Goldstein Scale: -9.5. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "truthout.org",
+              "date": "2026-06-01",
+              "url": "https://truthout.org/articles/iranian-media-says-iran-is-suspending-talks-with-us-over-ceasefire-violations/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -9.5
+              },
+              "gdelt_meta": {
+                "event_id": "1306972665",
+                "event_code": "191",
+                "cameo_desc": "Impose blockade, restrict movement",
+                "actor1": "ISRAEL",
+                "actor2": "IRAN",
+                "actor1_country": "ISR",
+                "actor2_country": "IRN",
+                "geo_lat": 32.0,
+                "geo_lon": 53.0,
+                "geo_name": "Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1306972651",
+              "title": "IRANIAN → LEBANON : Violate ceasefire (Israel)",
+              "title_en": "IRANIAN → LEBANON : Violate ceasefire (Israel)",
+              "summary": "GDELT Event: Violate ceasefire. Actors: IRANIAN / LEBANON. Location: Israel. Goldstein Scale: -9.5. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Violate ceasefire. Actors: IRANIAN / LEBANON. Location: Israel. Goldstein Scale: -9.5. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "koat.com",
+              "date": "2026-06-01",
+              "url": "https://www.koat.com/article/president-trump-says-iran-talks-are-moving-fast-but-also-couldnt-care-less-if-they-collapse/71464091",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -9.5
+              },
+              "gdelt_meta": {
+                "event_id": "1306972651",
+                "event_code": "196",
+                "cameo_desc": "Violate ceasefire",
+                "actor1": "IRANIAN",
+                "actor2": "LEBANON",
+                "actor1_country": "IRN",
+                "actor2_country": "LBN",
+                "geo_lat": 31.5,
+                "geo_lon": 34.75,
+                "geo_name": "Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1306972647",
+              "title": "IRANIAN → LEBANON : Violate ceasefire (Beaufort Castle, Nabatî, Lebanon)",
+              "title_en": "IRANIAN → LEBANON : Violate ceasefire (Beaufort Castle, Nabatî, Lebanon)",
+              "summary": "GDELT Event: Violate ceasefire. Actors: IRANIAN / LEBANON. Location: Beaufort Castle, Nabatî, Lebanon. Goldstein Scale: -9.5. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Violate ceasefire. Actors: IRANIAN / LEBANON. Location: Beaufort Castle, Nabatî, Lebanon. Goldstein Scale: -9.5. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "businessworld.in",
+              "date": "2026-06-01",
+              "url": "https://www.businessworld.in/article/iran-suspends-ceasefire-talks-with-us-vows-to-keep-strait-of-hormuz-closed-609083",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -9.5
+              },
+              "gdelt_meta": {
+                "event_id": "1306972647",
+                "event_code": "196",
+                "cameo_desc": "Violate ceasefire",
+                "actor1": "IRANIAN",
+                "actor2": "LEBANON",
+                "actor1_country": "IRN",
+                "actor2_country": "LBN",
+                "geo_lat": 33.3242,
+                "geo_lon": 35.5319,
+                "geo_name": "Beaufort Castle, Nabatî, Lebanon"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1306972667",
+              "title": "ISRAELI → IRAN : Violate ceasefire (Beirut, Beyrouth, Lebanon)",
+              "title_en": "ISRAELI → IRAN : Violate ceasefire (Beirut, Beyrouth, Lebanon)",
+              "summary": "GDELT Event: Violate ceasefire. Actors: ISRAELI / IRAN. Location: Beirut, Beyrouth, Lebanon. Goldstein Scale: -9.5. Mentioned in 4 sources.",
+              "summary_en": "GDELT Event: Violate ceasefire. Actors: ISRAELI / IRAN. Location: Beirut, Beyrouth, Lebanon. Goldstein Scale: -9.5. Mentioned in 4 sources.",
+              "source": "gdelt",
+              "source_label": "presstv.ir",
+              "date": "2026-06-01",
+              "url": "https://www.presstv.ir/Detail/2026/06/01/769681/Our-lives-are-one-Iran-Lebanon-bond-unbreakable-Iran-parl-speaker-tells-Berri",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 4,
+                "sources": 1,
+                "articles": 4,
+                "goldstein": -9.5
+              },
+              "gdelt_meta": {
+                "event_id": "1306972667",
+                "event_code": "196",
+                "cameo_desc": "Violate ceasefire",
+                "actor1": "ISRAELI",
+                "actor2": "IRAN",
+                "actor1_country": "ISR",
+                "actor2_country": "IRN",
+                "geo_lat": 33.8719,
+                "geo_lon": 35.5097,
+                "geo_name": "Beirut, Beyrouth, Lebanon"
+              },
+              "admiralty_source": "B",
+              "admiralty_info": 3,
+              "admiralty_code": "B3"
+            },
+            {
+              "id": "gdelt_1306972702",
+              "title": "JEWISH → JEWISH : Use unconventional violence, not specified below (Gaza, Israel (general), Israel)",
+              "title_en": "JEWISH → JEWISH : Use unconventional violence, not specified below (Gaza, Israel (general), Israel)",
+              "summary": "GDELT Event: Use unconventional violence, not specified below. Actors: JEWISH / JEWISH. Location: Gaza, Israel (general), Israel. Goldstein Scale: -9.0. Mentioned in 1 sources.",
+              "summary_en": "GDELT Event: Use unconventional violence, not specified below. Actors: JEWISH / JEWISH. Location: Gaza, Israel (general), Israel. Goldstein Scale: -9.0. Mentioned in 1 sources.",
+              "source": "gdelt",
+              "source_label": "cbc.ca",
+              "date": "2026-06-01",
+              "url": "https://www.cbc.ca/news/politics/carney-canada-failing-jewish-canadians-9.7219707",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 1,
+                "sources": 1,
+                "articles": 1,
+                "goldstein": -9.0
+              },
+              "gdelt_meta": {
+                "event_id": "1306972702",
+                "event_code": "180",
+                "cameo_desc": "Use unconventional violence, not specified below",
+                "actor1": "JEWISH",
+                "actor2": "JEWISH",
+                "actor1_country": "nan",
+                "actor2_country": "nan",
+                "geo_lat": 31.4167,
+                "geo_lon": 34.3333,
+                "geo_name": "Gaza, Israel (general), Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -5450,6 +5516,72 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1306972890",
+              "title": "UYGUR → UNITED KINGDOM : Impose administrative sanctions, not specified below (Israel)",
+              "title_en": "UYGUR → UNITED KINGDOM : Impose administrative sanctions, not specified below (Israel)",
+              "summary": "GDELT Event: Impose administrative sanctions, not specified below. Actors: UYGUR / UNITED KINGDOM. Location: Israel. Goldstein Scale: -5.0. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: UYGUR / UNITED KINGDOM. Location: Israel. Goldstein Scale: -5.0. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "forward.com",
+              "date": "2026-06-01",
+              "url": "https://forward.com/fast-forward/828391/hasan-piker-blames-israel-after-uk-bars-him-from-entry-citing-potential-risk/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1306972890",
+                "event_code": "172",
+                "cameo_desc": "Impose administrative sanctions, not specified below",
+                "actor1": "UYGUR",
+                "actor2": "UNITED KINGDOM",
+                "actor1_country": "nan",
+                "actor2_country": "GBR",
+                "geo_lat": 31.5,
+                "geo_lon": 34.75,
+                "geo_name": "Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1306972664",
+              "title": "ISRAEL → INTERNATIONAL CRIMINAL COURT : Arrest, detain, or charge with legal action (Jerusalem, Israel (general), Israel)",
+              "title_en": "ISRAEL → INTERNATIONAL CRIMINAL COURT : Arrest, detain, or charge with legal action (Jerusalem, Israel (general), Israel)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: ISRAEL / INTERNATIONAL CRIMINAL COURT. Location: Jerusalem, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 4 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: ISRAEL / INTERNATIONAL CRIMINAL COURT. Location: Jerusalem, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 4 sources.",
+              "source": "gdelt",
+              "source_label": "truthout.org",
+              "date": "2026-06-01",
+              "url": "https://truthout.org/articles/far-right-israeli-leaders-join-new-york-democrats-in-nycs-israel-day-parade/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 4,
+                "sources": 1,
+                "articles": 4,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1306972664",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "ISRAEL",
+                "actor2": "INTERNATIONAL CRIMINAL COURT",
+                "actor1_country": "ISR",
+                "actor2_country": "nan",
+                "geo_lat": 31.7667,
+                "geo_lon": 35.2333,
+                "geo_name": "Jerusalem, Israel (general), Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -5889,39 +6021,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1302142398",
-              "title": "PERSIAN GULF → IRAN : Use conventional military force, not specified below (Kharg Island, Bushehr, Iran)",
-              "title_en": "PERSIAN GULF → IRAN : Use conventional military force, not specified below (Kharg Island, Bushehr, Iran)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: PERSIAN GULF / IRAN. Location: Kharg Island, Bushehr, Iran. Goldstein Scale: -10.0. Mentioned in 5 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: PERSIAN GULF / IRAN. Location: Kharg Island, Bushehr, Iran. Goldstein Scale: -10.0. Mentioned in 5 sources.",
-              "source": "gdelt",
-              "source_label": "oilprice.com",
-              "date": "2026-05-02",
-              "url": "https://oilprice.com/Energy/Crude-Oil/Hormuz-Deadlock-Persists-as-Trump-Faces-War-Powers-Deadline-at-Home.html",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 5,
-                "sources": 1,
-                "articles": 5,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1302142398",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "PERSIAN GULF",
-                "actor2": "IRAN",
-                "actor1_country": "PGS",
-                "actor2_country": "IRN",
-                "geo_lat": 29.2458,
-                "geo_lon": 50.3158,
-                "geo_name": "Kharg Island, Bushehr, Iran"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1302245675",
               "title": "UNITED KINGDOM → IRAN : Use conventional military force, not specified below (Sirik, Hormozgan, Iran)",
@@ -7274,6 +7373,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1306973032",
+              "title": "WASHINGTON → NAVAL : Employ aerial weapons (Tehran, Tehran, Iran)",
+              "title_en": "WASHINGTON → NAVAL : Employ aerial weapons (Tehran, Tehran, Iran)",
+              "summary": "GDELT Event: Employ aerial weapons. Actors: WASHINGTON / NAVAL. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 5 sources.",
+              "summary_en": "GDELT Event: Employ aerial weapons. Actors: WASHINGTON / NAVAL. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 5 sources.",
+              "source": "gdelt",
+              "source_label": "presstv.ir",
+              "date": "2026-06-01",
+              "url": "https://www.presstv.ir/Detail/2026/06/01/769679/Persian-Gulf-Strait-Authority-says-processed-300-transit-requests-since-May",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 5,
+                "sources": 1,
+                "articles": 5,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1306973032",
+                "event_code": "195",
+                "cameo_desc": "Employ aerial weapons",
+                "actor1": "WASHINGTON",
+                "actor2": "NAVAL",
+                "actor1_country": "USA",
+                "actor2_country": "nan",
+                "geo_lat": 35.75,
+                "geo_lon": 51.5148,
+                "geo_name": "Tehran, Tehran, Iran"
+              },
+              "admiralty_source": "B",
+              "admiralty_info": 3,
+              "admiralty_code": "B3"
             }
           ]
         },
@@ -8011,6 +8143,40 @@
               "admiralty_info": 3,
               "admiralty_code": "C3",
               "criticality": "background"
+            },
+            {
+              "id": "gdelt_1306973113",
+              "title": "ADEN → nan : Occupy territory (Islah, Al Ma?wit, Yemen)",
+              "title_en": "ADEN → nan : Occupy territory (Islah, Al Ma?wit, Yemen)",
+              "summary": "GDELT Event: Occupy territory. Actors: ADEN / nan. Location: Islah, Al Ma?wit, Yemen. Goldstein Scale: -9.5. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Occupy territory. Actors: ADEN / nan. Location: Islah, Al Ma?wit, Yemen. Goldstein Scale: -9.5. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "religionnews.com",
+              "date": "2026-06-01",
+              "url": "https://religionnews.com/2026/06/01/former-yemen-president-abdrabbuh-mansour-hadi-who-governed-mostly-from-exile-dies-at-80/",
+              "primary_conflict": "yemen-houthi",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -9.5
+              },
+              "gdelt_meta": {
+                "event_id": "1306973113",
+                "event_code": "192",
+                "cameo_desc": "Occupy territory",
+                "actor1": "ADEN",
+                "actor2": "nan",
+                "actor1_country": "YEM",
+                "actor2_country": "nan",
+                "geo_lat": 15.5068,
+                "geo_lon": 43.7413,
+                "geo_name": "Islah, Al Ma?wit, Yemen"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3",
+              "criticality": "background"
             }
           ]
         },
@@ -8511,13 +8677,13 @@
     }
   },
   "stats": {
-    "total_items": 245,
+    "total_items": 250,
     "sources": {
-      "gdelt": 245
+      "gdelt": 250
     },
     "date_range": {
-      "from": "2026-05-02",
-      "to": "2026-05-31"
+      "from": "2026-05-03",
+      "to": "2026-06-01"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
