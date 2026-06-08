@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-07T09:06:31+00:00Z",
+  "updated_at": "2026-06-08T11:08:16+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -19,39 +19,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1303170051",
-              "title": "KYIV → RUSSIAN : Use conventional military force, not specified below (Kyiv, Kyyiv, Misto, Ukraine)",
-              "title_en": "KYIV → RUSSIAN : Use conventional military force, not specified below (Kyiv, Kyyiv, Misto, Ukraine)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: KYIV / RUSSIAN. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -10.0. Mentioned in 7 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: KYIV / RUSSIAN. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -10.0. Mentioned in 7 sources.",
-              "source": "gdelt",
-              "source_label": "inlandnewstoday.com",
-              "date": "2026-05-08",
-              "url": "https://inlandnewstoday.com/story.php?s=80407",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 7,
-                "sources": 1,
-                "articles": 7,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1303170051",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "KYIV",
-                "actor2": "RUSSIAN",
-                "actor1_country": "UKR",
-                "actor2_country": "RUS",
-                "geo_lat": 50.4333,
-                "geo_lon": 30.5167,
-                "geo_name": "Kyiv, Kyyiv, Misto, Ukraine"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1303403715",
               "title": "UKRAINE → RUSSIA : Violate ceasefire (Zelenskiy, Astrakhanskaya Oblast', Russia)",
@@ -1617,138 +1584,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1303169868",
-              "title": "ISRAEL → IRAN : Employ aerial weapons (Israel)",
-              "title_en": "ISRAEL → IRAN : Employ aerial weapons (Israel)",
-              "summary": "GDELT Event: Employ aerial weapons. Actors: ISRAEL / IRAN. Location: Israel. Goldstein Scale: -10.0. Mentioned in 16 sources.",
-              "summary_en": "GDELT Event: Employ aerial weapons. Actors: ISRAEL / IRAN. Location: Israel. Goldstein Scale: -10.0. Mentioned in 16 sources.",
-              "source": "gdelt",
-              "source_label": "jpost.com",
-              "date": "2026-05-08",
-              "url": "http://www.jpost.com/international/article-895594",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 16,
-                "sources": 2,
-                "articles": 16,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1303169868",
-                "event_code": "195",
-                "cameo_desc": "Employ aerial weapons",
-                "actor1": "ISRAEL",
-                "actor2": "IRAN",
-                "actor1_country": "ISR",
-                "actor2_country": "IRN",
-                "geo_lat": 31.5,
-                "geo_lon": 34.75,
-                "geo_name": "Israel"
-              },
-              "admiralty_source": "B",
-              "admiralty_info": 3,
-              "admiralty_code": "B3"
-            },
-            {
-              "id": "gdelt_1303169770",
-              "title": "GOVERNMENT → nan : Abduct, hijack, or take hostage (Jerusalem, Israel (general), Israel)",
-              "title_en": "GOVERNMENT → nan : Abduct, hijack, or take hostage (Jerusalem, Israel (general), Israel)",
-              "summary": "GDELT Event: Abduct, hijack, or take hostage. Actors: GOVERNMENT / nan. Location: Jerusalem, Israel (general), Israel. Goldstein Scale: -9.0. Mentioned in 10 sources.",
-              "summary_en": "GDELT Event: Abduct, hijack, or take hostage. Actors: GOVERNMENT / nan. Location: Jerusalem, Israel (general), Israel. Goldstein Scale: -9.0. Mentioned in 10 sources.",
-              "source": "gdelt",
-              "source_label": "jpost.com",
-              "date": "2026-05-08",
-              "url": "http://www.jpost.com/opinion/article-895351",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 10,
-                "sources": 1,
-                "articles": 10,
-                "goldstein": -9.0
-              },
-              "gdelt_meta": {
-                "event_id": "1303169770",
-                "event_code": "181",
-                "cameo_desc": "Abduct, hijack, or take hostage",
-                "actor1": "GOVERNMENT",
-                "actor2": "nan",
-                "actor1_country": "nan",
-                "actor2_country": "nan",
-                "geo_lat": 31.7667,
-                "geo_lon": 35.2333,
-                "geo_name": "Jerusalem, Israel (general), Israel"
-              },
-              "admiralty_source": "B",
-              "admiralty_info": 3,
-              "admiralty_code": "B3"
-            },
-            {
-              "id": "gdelt_1303169867",
-              "title": "ISRAELI → IRAN : Fight with artillery and tanks (Iran)",
-              "title_en": "ISRAELI → IRAN : Fight with artillery and tanks (Iran)",
-              "summary": "GDELT Event: Fight with artillery and tanks. Actors: ISRAELI / IRAN. Location: Iran. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "summary_en": "GDELT Event: Fight with artillery and tanks. Actors: ISRAELI / IRAN. Location: Iran. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "source": "gdelt",
-              "source_label": "gdnonline.com:443",
-              "date": "2026-05-08",
-              "url": "https://www.gdnonline.com:443/Details/1394133",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 10,
-                "sources": 1,
-                "articles": 10,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1303169867",
-                "event_code": "194",
-                "cameo_desc": "Fight with artillery and tanks",
-                "actor1": "ISRAELI",
-                "actor2": "IRAN",
-                "actor1_country": "ISR",
-                "actor2_country": "IRN",
-                "geo_lat": 32.0,
-                "geo_lon": 53.0,
-                "geo_name": "Iran"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1303169873",
-              "title": "ISRAEL → JUDGE : Fight with small arms and light weapons (Israel)",
-              "title_en": "ISRAEL → JUDGE : Fight with small arms and light weapons (Israel)",
-              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: ISRAEL / JUDGE. Location: Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.",
-              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: ISRAEL / JUDGE. Location: Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.",
-              "source": "gdelt",
-              "source_label": "wcax.com",
-              "date": "2026-05-08",
-              "url": "https://www.wcax.com/2026/05/08/judge-sets-trial-date-vt-man-accused-shooting-3-palestinian-students/",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 6,
-                "sources": 1,
-                "articles": 4,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1303169873",
-                "event_code": "193",
-                "cameo_desc": "Fight with small arms and light weapons",
-                "actor1": "ISRAEL",
-                "actor2": "JUDGE",
-                "actor1_country": "ISR",
-                "actor2_country": "nan",
-                "geo_lat": 31.5,
-                "geo_lon": 34.75,
-                "geo_name": "Israel"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1303293722",
               "title": "ISRAELI → HEALTH MINIST : Use conventional military force, not specified below (Bedias, Liban-Sud, Lebanon)",
@@ -4784,6 +4619,105 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1307930529",
+              "title": "IRAQ → ISRAEL : Fight with artillery and tanks (Iran)",
+              "title_en": "IRAQ → ISRAEL : Fight with artillery and tanks (Iran)",
+              "summary": "GDELT Event: Fight with artillery and tanks. Actors: IRAQ / ISRAEL. Location: Iran. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "summary_en": "GDELT Event: Fight with artillery and tanks. Actors: IRAQ / ISRAEL. Location: Iran. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "source": "gdelt",
+              "source_label": "news.webindia123.com",
+              "date": "2026-06-07",
+              "url": "https://news.webindia123.com/news/Articles/World/20260608/4459715.html",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 8,
+                "sources": 1,
+                "articles": 8,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1307930529",
+                "event_code": "194",
+                "cameo_desc": "Fight with artillery and tanks",
+                "actor1": "IRAQ",
+                "actor2": "ISRAEL",
+                "actor1_country": "IRQ",
+                "actor2_country": "ISR",
+                "geo_lat": 32.0,
+                "geo_lon": 53.0,
+                "geo_name": "Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1307930586",
+              "title": "LEBANON → nan : Occupy territory (Beaufort Castle, Nabatî, Lebanon)",
+              "title_en": "LEBANON → nan : Occupy territory (Beaufort Castle, Nabatî, Lebanon)",
+              "summary": "GDELT Event: Occupy territory. Actors: LEBANON / nan. Location: Beaufort Castle, Nabatî, Lebanon. Goldstein Scale: -9.5. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Occupy territory. Actors: LEBANON / nan. Location: Beaufort Castle, Nabatî, Lebanon. Goldstein Scale: -9.5. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "jpost.com",
+              "date": "2026-06-07",
+              "url": "https://www.jpost.com/israel-news/defense-news/article-898655",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -9.5
+              },
+              "gdelt_meta": {
+                "event_id": "1307930586",
+                "event_code": "192",
+                "cameo_desc": "Occupy territory",
+                "actor1": "LEBANON",
+                "actor2": "nan",
+                "actor1_country": "LBN",
+                "actor2_country": "nan",
+                "geo_lat": 33.3242,
+                "geo_lon": 35.5319,
+                "geo_name": "Beaufort Castle, Nabatî, Lebanon"
+              },
+              "admiralty_source": "B",
+              "admiralty_info": 3,
+              "admiralty_code": "B3"
+            },
+            {
+              "id": "gdelt_1307930533",
+              "title": "ISRAEL → IRAN : Fight with artillery and tanks (Iran)",
+              "title_en": "ISRAEL → IRAN : Fight with artillery and tanks (Iran)",
+              "summary": "GDELT Event: Fight with artillery and tanks. Actors: ISRAEL / IRAN. Location: Iran. Goldstein Scale: -10.0. Mentioned in 1 sources.",
+              "summary_en": "GDELT Event: Fight with artillery and tanks. Actors: ISRAEL / IRAN. Location: Iran. Goldstein Scale: -10.0. Mentioned in 1 sources.",
+              "source": "gdelt",
+              "source_label": "jpost.com",
+              "date": "2026-06-07",
+              "url": "https://www.jpost.com/israel-news/article-898663",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 1,
+                "sources": 1,
+                "articles": 1,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1307930533",
+                "event_code": "194",
+                "cameo_desc": "Fight with artillery and tanks",
+                "actor1": "ISRAEL",
+                "actor2": "IRAN",
+                "actor1_country": "ISR",
+                "actor2_country": "IRN",
+                "geo_lat": 32.0,
+                "geo_lon": 53.0,
+                "geo_name": "Iran"
+              },
+              "admiralty_source": "B",
+              "admiralty_info": 3,
+              "admiralty_code": "B3"
             }
           ]
         },
@@ -4791,39 +4725,6 @@
           "label": "外交谈判",
           "icon": "🕊️",
           "items": [
-            {
-              "id": "gdelt_1303169633",
-              "title": "PRISON → PROSECUTOR : Arrest, detain, or charge with legal action (Israel)",
-              "title_en": "PRISON → PROSECUTOR : Arrest, detain, or charge with legal action (Israel)",
-              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: PRISON / PROSECUTOR. Location: Israel. Goldstein Scale: -5.0. Mentioned in 10 sources.",
-              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: PRISON / PROSECUTOR. Location: Israel. Goldstein Scale: -5.0. Mentioned in 10 sources.",
-              "source": "gdelt",
-              "source_label": "simivalleyacorn.com",
-              "date": "2026-05-08",
-              "url": "https://www.simivalleyacorn.com/articles/man-pleads-guilty-in-fatal-2023-palestine-israel-protest-conflict/",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 10,
-                "sources": 1,
-                "articles": 10,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1303169633",
-                "event_code": "173",
-                "cameo_desc": "Arrest, detain, or charge with legal action",
-                "actor1": "PRISON",
-                "actor2": "PROSECUTOR",
-                "actor1_country": "nan",
-                "actor2_country": "nan",
-                "geo_lat": 31.5,
-                "geo_lon": 34.75,
-                "geo_name": "Israel"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1303293542",
               "title": "nan → CANADA : Arrest, detain, or charge with legal action (Israel)",
@@ -6845,6 +6746,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1307930523",
+              "title": "IRAN → MEDIA : Fight with artillery and tanks (Tehran, Tehran, Iran)",
+              "title_en": "IRAN → MEDIA : Fight with artillery and tanks (Tehran, Tehran, Iran)",
+              "summary": "GDELT Event: Fight with artillery and tanks. Actors: IRAN / MEDIA. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Fight with artillery and tanks. Actors: IRAN / MEDIA. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "okaz.com.sa",
+              "date": "2026-06-07",
+              "url": "https://www.okaz.com.sa/live/2251666",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1307930523",
+                "event_code": "194",
+                "cameo_desc": "Fight with artillery and tanks",
+                "actor1": "IRAN",
+                "actor2": "MEDIA",
+                "actor1_country": "IRN",
+                "actor2_country": "nan",
+                "geo_lat": 35.75,
+                "geo_lon": 51.5148,
+                "geo_name": "Tehran, Tehran, Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -7629,40 +7563,6 @@
           "icon": "⚔️",
           "items": [
             {
-              "id": "gdelt_1303169607",
-              "title": "KINSHASA → CONGO : Use conventional military force, not specified below (Kivu, Sud, Rwanda)",
-              "title_en": "KINSHASA → CONGO : Use conventional military force, not specified below (Kivu, Sud, Rwanda)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: KINSHASA / CONGO. Location: Kivu, Sud, Rwanda. Goldstein Scale: -10.0. Mentioned in 5 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: KINSHASA / CONGO. Location: Kivu, Sud, Rwanda. Goldstein Scale: -10.0. Mentioned in 5 sources.",
-              "source": "gdelt",
-              "source_label": "cbn.com",
-              "date": "2026-05-08",
-              "url": "https://cbn.com/news/world/islamic-militants-attack-congo-villages-near-uganda-killing-40-people",
-              "primary_conflict": "congo-drc",
-              "metrics": {
-                "mentions": 5,
-                "sources": 1,
-                "articles": 5,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1303169607",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "KINSHASA",
-                "actor2": "CONGO",
-                "actor1_country": "COD",
-                "actor2_country": "COG",
-                "geo_lat": -2.631,
-                "geo_lon": 29.5048,
-                "geo_name": "Kivu, Sud, Rwanda"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3",
-              "criticality": "background"
-            },
-            {
               "id": "gdelt_1306422108",
               "title": "nan → CONGOLESE : Assassinate (Congo)",
               "title_en": "nan → CONGOLESE : Assassinate (Congo)",
@@ -8117,13 +8017,13 @@
     }
   },
   "stats": {
-    "total_items": 233,
+    "total_items": 230,
     "sources": {
-      "gdelt": 233
+      "gdelt": 230
     },
     "date_range": {
-      "from": "2026-05-08",
-      "to": "2026-06-06"
+      "from": "2026-05-09",
+      "to": "2026-06-07"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",

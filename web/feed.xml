@@ -5,8 +5,38 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 07 Jun 2026 09:06:14 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jun 2026 11:07:56 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] RUSSIA → AZERBAIJANI : Use conventional military force, not specified below (Baku, Baki*, Azerbaijan)</title>
+      <link>https://www.theweek.in/news/maritime/2026/06/07/at-least-5-dead-after-drones-attack-russia-bound-cargo-ships-in-sea-of-azov.html</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: RUSSIA / AZERBAIJANI. Location: Baku, Baki*, Azerbaijan. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
+      <guid isPermaLink="true">https://www.theweek.in/news/maritime/2026/06/07/at-least-5-dead-after-drones-attack-russia-bound-cargo-ships-in-sea-of-azov.html</guid>
+      <pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.theweek.in/news/maritime/2026/06/07/at-least-5-dead-after-drones-attack-russia-bound-cargo-ships-in-sea-of-azov.html">theweek.in</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAEL → BAHRAIN : Fight with artillery and tanks (Iran)</title>
+      <link>https://english.wafa.ps/Pages/Details/171250</link>
+      <description>GDELT Event: Fight with artillery and tanks. Actors: ISRAEL / BAHRAIN. Location: Iran. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://english.wafa.ps/Pages/Details/171250</guid>
+      <pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://english.wafa.ps/Pages/Details/171250">english.wafa.ps</source>
+    </item>
+    <item>
+      <title>[美伊对峙] REBEL → MEDIA : Use unconventional violence, not specified below (Kaziranga, Assam, India)</title>
+      <link>https://www.tribuneindia.com/news/variety/dreamer-builder-manju-barua/</link>
+      <description>GDELT Event: Use unconventional violence, not specified below. Actors: REBEL / MEDIA. Location: Kaziranga, Assam, India. Goldstein Scale: -9.0. Mentioned in 5 sources.</description>
+      <guid isPermaLink="true">https://www.tribuneindia.com/news/variety/dreamer-builder-manju-barua/</guid>
+      <pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://www.tribuneindia.com/news/variety/dreamer-builder-manju-barua/">tribuneindia.com</source>
+    </item>
     <item>
       <title>[俄乌战争] RUSSIA → nan : Fight with small arms and light weapons (New York, United States)</title>
       <link>https://insidegnss.com/russia-has-been-jamming-gps-from-space-since-2019/</link>
@@ -476,36 +506,6 @@
       <category>美伊对峙</category>
       <category>军事动态</category>
       <source url="https://navhindtimes.in/worldnews/downed-us-drone-on-hostile-mission-in-irans-waters/">navhindtimes.in</source>
-    </item>
-    <item>
-      <title>[刚果(金)冲突] nan → AFRICA : Use conventional military force, not specified below (Brazzaville, Brazzaville, Congo)</title>
-      <link>https://allafrica.com/stories/202605310141.html</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: nan / AFRICA. Location: Brazzaville, Brazzaville, Congo. Goldstein Scale: -10.0. Mentioned in 5 sources.</description>
-      <guid isPermaLink="true">https://allafrica.com/stories/202605310141.html</guid>
-      <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
-      <category>刚果(金)冲突</category>
-      <category>军事动态</category>
-      <source url="https://allafrica.com/stories/202605310141.html">allafrica.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] LEBANESE → ISRAELI : Use conventional military force, not specified below (Beirut, Beyrouth, Lebanon)</title>
-      <link>https://www.naturalnews.com/2026-05-30-israeli-airstrikes-hit-beirut-suburbs-14-dead.html</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: LEBANESE / ISRAELI. Location: Beirut, Beyrouth, Lebanon. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://www.naturalnews.com/2026-05-30-israeli-airstrikes-hit-beirut-suburbs-14-dead.html</guid>
-      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.naturalnews.com/2026-05-30-israeli-airstrikes-hit-beirut-suburbs-14-dead.html">naturalnews.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] TYRE → RESIDENTS : Expel or deport individuals (Beirut, Beyrouth, Lebanon)</title>
-      <link>https://tribune.com.pk/story/2610638/tehran-says-trump-betraying-diplomacy-with-hormuz-blockade</link>
-      <description>GDELT Event: Expel or deport individuals. Actors: TYRE / RESIDENTS. Location: Beirut, Beyrouth, Lebanon. Goldstein Scale: -5.0. Mentioned in 1 sources.</description>
-      <guid isPermaLink="true">https://tribune.com.pk/story/2610638/tehran-says-trump-betraying-diplomacy-with-hormuz-blockade</guid>
-      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>外交谈判</category>
-      <source url="https://tribune.com.pk/story/2610638/tehran-says-trump-betraying-diplomacy-with-hormuz-blockade">tribune.com.pk</source>
     </item>
   </channel>
 </rss>
