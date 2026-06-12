@@ -5,8 +5,58 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 11 Jun 2026 10:47:01 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2026 10:24:47 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[美伊对峙] PRESIDENT → AMERICAN : Fight with small arms and light weapons (Tehran, Tehran, Iran)</title>
+      <link>https://ktrh.iheart.com/featured/houston-texas-news/content/2026-06-10-us-unleashes-new-airstrikes-against-iran/</link>
+      <description>GDELT Event: Fight with small arms and light weapons. Actors: PRESIDENT / AMERICAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
+      <guid isPermaLink="true">https://ktrh.iheart.com/featured/houston-texas-news/content/2026-06-10-us-unleashes-new-airstrikes-against-iran/</guid>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://ktrh.iheart.com/featured/houston-texas-news/content/2026-06-10-us-unleashes-new-airstrikes-against-iran/">ktrh.iheart.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] IRAN → BAHRAIN : Use conventional military force, not specified below (Chicago, Illinois, United States)</title>
+      <link>https://www.independent.co.uk/news/world/americas/us-politics/trump-war-drain-us-oil-reserve-reagan-b2993521.html</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: IRAN / BAHRAIN. Location: Chicago, Illinois, United States. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.independent.co.uk/news/world/americas/us-politics/trump-war-drain-us-oil-reserve-reagan-b2993521.html</guid>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://www.independent.co.uk/news/world/americas/us-politics/trump-war-drain-us-oil-reserve-reagan-b2993521.html">independent.co.uk</source>
+    </item>
+    <item>
+      <title>[美伊对峙] MILITARY → nan : Use conventional military force, not specified below (Sirik, Hormozgan, Iran)</title>
+      <link>https://www.cp24.com/news/world/2026/06/10/us-strikes-multiple-targets-in-iran-after-trump-threatened-more-attacks/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: MILITARY / nan. Location: Sirik, Hormozgan, Iran. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.cp24.com/news/world/2026/06/10/us-strikes-multiple-targets-in-iran-after-trump-threatened-more-attacks/</guid>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://www.cp24.com/news/world/2026/06/10/us-strikes-multiple-targets-in-iran-after-trump-threatened-more-attacks/">cp24.com</source>
+    </item>
+    <item>
+      <title>[苏丹内战] UNITED KINGDOM → POLICE : Use conventional military force, not specified below (Sudan)</title>
+      <link>https://www.breitbart.com/europe/2026/06/10/chaos-continues-in-northern-ireland-anti-migration-rioters-clash-with-police-set-vehicles-on-fire/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: UNITED KINGDOM / POLICE. Location: Sudan. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://www.breitbart.com/europe/2026/06/10/chaos-continues-in-northern-ireland-anti-migration-rioters-clash-with-police-set-vehicles-on-fire/</guid>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+      <category>苏丹内战</category>
+      <category>军事动态</category>
+      <source url="https://www.breitbart.com/europe/2026/06/10/chaos-continues-in-northern-ireland-anti-migration-rioters-clash-with-police-set-vehicles-on-fire/">breitbart.com</source>
+    </item>
+    <item>
+      <title>[苏丹内战] SUDANESE → MIGRANT : Kill by physical assault (Sudan)</title>
+      <link>https://dailycaller.com/2026/06/10/belfast-ireland-alleged-attempted-beheading-sudanese-stephen-ogilvy-family/</link>
+      <description>GDELT Event: Kill by physical assault. Actors: SUDANESE / MIGRANT. Location: Sudan. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://dailycaller.com/2026/06/10/belfast-ireland-alleged-attempted-beheading-sudanese-stephen-ogilvy-family/</guid>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+      <category>苏丹内战</category>
+      <category>军事动态</category>
+      <source url="https://dailycaller.com/2026/06/10/belfast-ireland-alleged-attempted-beheading-sudanese-stephen-ogilvy-family/">dailycaller.com</source>
+    </item>
     <item>
       <title>[俄乌战争] RUSSIAN → RUSSIA : Use conventional military force, not specified below (Balashikha, Moskovskaya Oblast', Russia)</title>
       <link>https://www.kyivpost.com/post/77847</link>
@@ -46,6 +96,16 @@
       <category>巴以冲突</category>
       <category>军事动态</category>
       <source url="https://nationalpost.com/news/world/israel-middle-east/u-s-launches-self-defence-strikes-on-iran-day-after-american-helicopter-downed">nationalpost.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] LEBANON → ISRAELI : Employ aerial weapons (Lebanon)</title>
+      <link>https://www.rte.ie/news/middle-east/2026/0611/1577844-middle-east-iran/</link>
+      <description>GDELT Event: Employ aerial weapons. Actors: LEBANON / ISRAELI. Location: Lebanon. Goldstein Scale: -10.0. Mentioned in 3 sources.</description>
+      <guid isPermaLink="true">https://www.rte.ie/news/middle-east/2026/0611/1577844-middle-east-iran/</guid>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.rte.ie/news/middle-east/2026/0611/1577844-middle-east-iran/">rte.ie</source>
     </item>
     <item>
       <title>[美伊对峙] THE US → IRAN : Use conventional military force, not specified below (Iran)</title>
@@ -446,66 +506,6 @@
       <category>美伊对峙</category>
       <category>军事动态</category>
       <source url="https://investinglive.com:443/commodities/iea-stockpile-warning-and-deeper-crude-draw-add-fuel-to-wednesdays-oil-rally-20260603/">investinglive.com:443</source>
-    </item>
-    <item>
-      <title>[美伊对峙] UNITED STATES → IRANIAN : Use conventional military force, not specified below (Iran)</title>
-      <link>https://www.upi.com/Top_News/US/2026/06/03/House-passes-war-powers-measure/8231780528167/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: UNITED STATES / IRANIAN. Location: Iran. Goldstein Scale: -10.0. Mentioned in 5 sources.</description>
-      <guid isPermaLink="true">https://www.upi.com/Top_News/US/2026/06/03/House-passes-war-powers-measure/8231780528167/</guid>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://www.upi.com/Top_News/US/2026/06/03/House-passes-war-powers-measure/8231780528167/">upi.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] PRESIDENTIAL CANDIDATE → BRAZILIAN : Arrest, detain, or charge with legal action (Iran)</title>
-      <link>https://foreignpolicy.com/2026/06/03/us-brazil-gangs-first-command-capital-red-fto/?tpcc=recirc_trending062921</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: PRESIDENTIAL CANDIDATE / BRAZILIAN. Location: Iran. Goldstein Scale: -5.0. Mentioned in 3 sources.</description>
-      <guid isPermaLink="true">https://foreignpolicy.com/2026/06/03/us-brazil-gangs-first-command-capital-red-fto/?tpcc=recirc_trending062921</guid>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>外交谈判</category>
-      <source url="https://foreignpolicy.com/2026/06/03/us-brazil-gangs-first-command-capital-red-fto/?tpcc=recirc_trending062921">foreignpolicy.com</source>
-    </item>
-    <item>
-      <title>[苏丹内战] INTERNATIONAL CRIMINAL COURT → SUDANESE : Arrest, detain, or charge with legal action (Darfur, Gharb Darfur, Sudan)</title>
-      <link>https://truthout.org/articles/in-sudan-perpetrators-of-war-crimes-are-rewarded-while-civilians-languish/</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: INTERNATIONAL CRIMINAL COURT / SUDANESE. Location: Darfur, Gharb Darfur, Sudan. Goldstein Scale: -5.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://truthout.org/articles/in-sudan-perpetrators-of-war-crimes-are-rewarded-while-civilians-languish/</guid>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-      <category>苏丹内战</category>
-      <category>外交谈判</category>
-      <source url="https://truthout.org/articles/in-sudan-perpetrators-of-war-crimes-are-rewarded-while-civilians-languish/">truthout.org</source>
-    </item>
-    <item>
-      <title>[也门/胡塞武装] YEMEN → YEMEN : Fight with small arms and light weapons (Al-Hajr, Sadah, Yemen)</title>
-      <link>https://www.khabaragency.net/news248050.html</link>
-      <description>GDELT Event: Fight with small arms and light weapons. Actors: YEMEN / YEMEN. Location: Al-Hajr, Sadah, Yemen. Goldstein Scale: -10.0. Mentioned in 5 sources.</description>
-      <guid isPermaLink="true">https://www.khabaragency.net/news248050.html</guid>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-      <category>也门/胡塞武装</category>
-      <category>军事动态</category>
-      <source url="https://www.khabaragency.net/news248050.html">khabaragency.net</source>
-    </item>
-    <item>
-      <title>[台海局势] CHINA → TAIWAN : Impose administrative sanctions, not specified below (Wellington, New Zealand (general), New Zealand)</title>
-      <link>https://www.rnz.co.nz/news/political/597212/intimidation-china-bans-four-nz-mps-after-taiwan-trip</link>
-      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: CHINA / TAIWAN. Location: Wellington, New Zealand (general), New Zealand. Goldstein Scale: -5.0. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://www.rnz.co.nz/news/political/597212/intimidation-china-bans-four-nz-mps-after-taiwan-trip</guid>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-      <category>台海局势</category>
-      <category>外交谈判</category>
-      <source url="https://www.rnz.co.nz/news/political/597212/intimidation-china-bans-four-nz-mps-after-taiwan-trip">rnz.co.nz</source>
-    </item>
-    <item>
-      <title>[台海局势] CHINA → POLITICIAN : Impose administrative sanctions, not specified below (Taiwan)</title>
-      <link>https://www.easternriverinachronicle.com.au/story/9284109/china-bans-four-nz-politicians-after-taiwan-visit/</link>
-      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: CHINA / POLITICIAN. Location: Taiwan. Goldstein Scale: -5.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.easternriverinachronicle.com.au/story/9284109/china-bans-four-nz-politicians-after-taiwan-visit/</guid>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-      <category>台海局势</category>
-      <category>外交谈判</category>
-      <source url="https://www.easternriverinachronicle.com.au/story/9284109/china-bans-four-nz-politicians-after-taiwan-visit/">easternriverinachronicle.com.au</source>
     </item>
   </channel>
 </rss>
