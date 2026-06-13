@@ -5,8 +5,48 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 12 Jun 2026 10:24:47 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2026 09:27:16 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] RUSSIAN → RUSSIAN : Use conventional military force, not specified below (Kyiv, Kyyiv, Misto, Ukraine)</title>
+      <link>http://www.jpost.com/opinion/article-898850</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: RUSSIAN / RUSSIAN. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -10.0. Mentioned in 6 sources.</description>
+      <guid isPermaLink="true">http://www.jpost.com/opinion/article-898850</guid>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="http://www.jpost.com/opinion/article-898850">jpost.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ARMY → REFUGEE : Use conventional military force, not specified below (Jordan Valley, Israel (general), Israel)</title>
+      <link>https://imemc.org/article/israeli-invasions-and-abductions-in-the-occupied-west-bank/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: ARMY / REFUGEE. Location: Jordan Valley, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://imemc.org/article/israeli-invasions-and-abductions-in-the-occupied-west-bank/</guid>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://imemc.org/article/israeli-invasions-and-abductions-in-the-occupied-west-bank/">imemc.org</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ADMINISTRATION → STUDENT : Coerce, not specified below (Gaza, Israel (general), Israel)</title>
+      <link>https://vtdigger.org/2026/06/11/vermont-student-activist-mohsen-mahdawi-faces-new-deportation-order/</link>
+      <description>GDELT Event: Coerce, not specified below. Actors: ADMINISTRATION / STUDENT. Location: Gaza, Israel (general), Israel. Goldstein Scale: -7.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://vtdigger.org/2026/06/11/vermont-student-activist-mohsen-mahdawi-faces-new-deportation-order/</guid>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>外交谈判</category>
+      <source url="https://vtdigger.org/2026/06/11/vermont-student-activist-mohsen-mahdawi-faces-new-deportation-order/">vtdigger.org</source>
+    </item>
+    <item>
+      <title>[美伊对峙] ATTORNEY → nan : Torture (Iran)</title>
+      <link>https://www.foxnews.com/us/trump-plans-deport-iranians-violence-plagued-central-african-nation-new-deal</link>
+      <description>GDELT Event: Torture. Actors: ATTORNEY / nan. Location: Iran. Goldstein Scale: -9.0. Mentioned in 7 sources.</description>
+      <guid isPermaLink="true">https://www.foxnews.com/us/trump-plans-deport-iranians-violence-plagued-central-african-nation-new-deal</guid>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://www.foxnews.com/us/trump-plans-deport-iranians-violence-plagued-central-african-nation-new-deal">foxnews.com</source>
+    </item>
     <item>
       <title>[美伊对峙] PRESIDENT → AMERICAN : Fight with small arms and light weapons (Tehran, Tehran, Iran)</title>
       <link>https://ktrh.iheart.com/featured/houston-texas-news/content/2026-06-10-us-unleashes-new-airstrikes-against-iran/</link>
@@ -466,46 +506,6 @@
       <category>巴以冲突</category>
       <category>军事动态</category>
       <source url="https://investinglive.com:443/commodities/here-we-go-again-israel-lebanon-agree-ceasefire-framework-but-hezbollah-holds-the-key-20260603/">investinglive.com:443</source>
-    </item>
-    <item>
-      <title>[巴以冲突] INSURGENT → ISRAEL : Use conventional military force, not specified below (Israel)</title>
-      <link>https://www.greanvillepost.com/glenn-greenwald-the-elitist-corporate-media-attacks-populism/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: INSURGENT / ISRAEL. Location: Israel. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
-      <guid isPermaLink="true">https://www.greanvillepost.com/glenn-greenwald-the-elitist-corporate-media-attacks-populism/</guid>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.greanvillepost.com/glenn-greenwald-the-elitist-corporate-media-attacks-populism/">greanvillepost.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] POLICE → CRIMINAL : Arrest, detain, or charge with legal action (Israel)</title>
-      <link>https://www.greanvillepost.com/due-dissidence-dispatches-democrats-and-war-criminals-flood-nyc-for-israel-day/</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: POLICE / CRIMINAL. Location: Israel. Goldstein Scale: -5.0. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">https://www.greanvillepost.com/due-dissidence-dispatches-democrats-and-war-criminals-flood-nyc-for-israel-day/</guid>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>外交谈判</category>
-      <source url="https://www.greanvillepost.com/due-dissidence-dispatches-democrats-and-war-criminals-flood-nyc-for-israel-day/">greanvillepost.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ALBANIA → nan : Demonstrate or rally (Gaza, Israel (general), Israel)</title>
-      <link>https://truthout.org/articles/protests-in-albania-grow-in-opposition-to-kushners-4-billion-luxury-resort/</link>
-      <description>GDELT Event: Demonstrate or rally. Actors: ALBANIA / nan. Location: Gaza, Israel (general), Israel. Goldstein Scale: -6.5. Mentioned in 6 sources.</description>
-      <guid isPermaLink="true">https://truthout.org/articles/protests-in-albania-grow-in-opposition-to-kushners-4-billion-luxury-resort/</guid>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>舆论热点</category>
-      <source url="https://truthout.org/articles/protests-in-albania-grow-in-opposition-to-kushners-4-billion-luxury-resort/">truthout.org</source>
-    </item>
-    <item>
-      <title>[美伊对峙] IRAN → BAHRAIN : Fight with artillery and tanks (Kuwait)</title>
-      <link>https://investinglive.com:443/commodities/iea-stockpile-warning-and-deeper-crude-draw-add-fuel-to-wednesdays-oil-rally-20260603/</link>
-      <description>GDELT Event: Fight with artillery and tanks. Actors: IRAN / BAHRAIN. Location: Kuwait. Goldstein Scale: -10.0. Mentioned in 5 sources.</description>
-      <guid isPermaLink="true">https://investinglive.com:443/commodities/iea-stockpile-warning-and-deeper-crude-draw-add-fuel-to-wednesdays-oil-rally-20260603/</guid>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://investinglive.com:443/commodities/iea-stockpile-warning-and-deeper-crude-draw-add-fuel-to-wednesdays-oil-rally-20260603/">investinglive.com:443</source>
     </item>
   </channel>
 </rss>

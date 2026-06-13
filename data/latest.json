@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-12T10:25:03+00:00Z",
+  "updated_at": "2026-06-13T09:27:33+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -1107,6 +1107,39 @@
               "admiralty_source": "B",
               "admiralty_info": 3,
               "admiralty_code": "B3"
+            },
+            {
+              "id": "gdelt_1308797626",
+              "title": "UNITED STATES → ODESSA : Fight with small arms and light weapons (Texas, United States)",
+              "title_en": "UNITED STATES → ODESSA : Fight with small arms and light weapons (Texas, United States)",
+              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: UNITED STATES / ODESSA. Location: Texas, United States. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: UNITED STATES / ODESSA. Location: Texas, United States. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "scallywagandvagabond.com",
+              "date": "2026-06-12",
+              "url": "https://scallywagandvagabond.com/2026/06/midland-texas-shooter-45-was-wanted-for-attempted-capital-murder-of-a-peace-officer/",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 4,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1308797626",
+                "event_code": "193",
+                "cameo_desc": "Fight with small arms and light weapons",
+                "actor1": "UNITED STATES",
+                "actor2": "ODESSA",
+                "actor1_country": "USA",
+                "actor2_country": "UKR",
+                "geo_lat": 31.106,
+                "geo_lon": -97.6475,
+                "geo_name": "Texas, United States"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -1114,39 +1147,6 @@
           "label": "外交谈判",
           "icon": "🕊️",
           "items": [
-            {
-              "id": "gdelt_1303968723",
-              "title": "POLITICAL PRISONER → nan : Arrest, detain, or charge with legal action (Kremlin, Moskva, Russia)",
-              "title_en": "POLITICAL PRISONER → nan : Arrest, detain, or charge with legal action (Kremlin, Moskva, Russia)",
-              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: POLITICAL PRISONER / nan. Location: Kremlin, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 10 sources.",
-              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: POLITICAL PRISONER / nan. Location: Kremlin, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 10 sources.",
-              "source": "gdelt",
-              "source_label": "jamestown.org",
-              "date": "2026-05-13",
-              "url": "http://jamestown.org/vladimir-putin-creating-new-oprichnina/",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 10,
-                "sources": 1,
-                "articles": 10,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1303968723",
-                "event_code": "173",
-                "cameo_desc": "Arrest, detain, or charge with legal action",
-                "actor1": "POLITICAL PRISONER",
-                "actor2": "nan",
-                "actor1_country": "nan",
-                "actor2_country": "nan",
-                "geo_lat": 55.7522,
-                "geo_lon": 37.6156,
-                "geo_name": "Kremlin, Moskva, Russia"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1304165030",
               "title": "NORWEGIAN → RUSSIA : Arrest, detain, or charge with legal action (Norway)",
@@ -1476,6 +1476,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1308797365",
+              "title": "SENATE → nan : Arrest, detain, or charge with legal action (Russia)",
+              "title_en": "SENATE → nan : Arrest, detain, or charge with legal action (Russia)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: SENATE / nan. Location: Russia. Goldstein Scale: -5.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: SENATE / nan. Location: Russia. Goldstein Scale: -5.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "theblaze.com",
+              "date": "2026-06-12",
+              "url": "https://www.theblaze.com/news/rep-luna-void-trump-impeachment",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1308797365",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "SENATE",
+                "actor2": "nan",
+                "actor1_country": "nan",
+                "actor2_country": "nan",
+                "geo_lat": 60.0,
+                "geo_lon": 100.0,
+                "geo_name": "Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -1517,171 +1550,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1303968522",
-              "title": "ISRAEL → TEHRAN : Fight with artillery and tanks (Israel)",
-              "title_en": "ISRAEL → TEHRAN : Fight with artillery and tanks (Israel)",
-              "summary": "GDELT Event: Fight with artillery and tanks. Actors: ISRAEL / TEHRAN. Location: Israel. Goldstein Scale: -10.0. Mentioned in 8 sources.",
-              "summary_en": "GDELT Event: Fight with artillery and tanks. Actors: ISRAEL / TEHRAN. Location: Israel. Goldstein Scale: -10.0. Mentioned in 8 sources.",
-              "source": "gdelt",
-              "source_label": "aa.com.tr",
-              "date": "2026-05-13",
-              "url": "https://aa.com.tr/en/middle-east/yemen-s-houthis-warn-renewed-war-on-iran-would-hit-everyone-/3936746",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 8,
-                "sources": 1,
-                "articles": 8,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1303968522",
-                "event_code": "194",
-                "cameo_desc": "Fight with artillery and tanks",
-                "actor1": "ISRAEL",
-                "actor2": "TEHRAN",
-                "actor1_country": "ISR",
-                "actor2_country": "IRN",
-                "geo_lat": 31.5,
-                "geo_lon": 34.75,
-                "geo_name": "Israel"
-              },
-              "admiralty_source": "B",
-              "admiralty_info": 3,
-              "admiralty_code": "B3"
-            },
-            {
-              "id": "gdelt_1303968539",
-              "title": "JEWISH → ISRAEL : Sexually assault (Israel)",
-              "title_en": "JEWISH → ISRAEL : Sexually assault (Israel)",
-              "summary": "GDELT Event: Sexually assault. Actors: JEWISH / ISRAEL. Location: Israel. Goldstein Scale: -9.0. Mentioned in 8 sources.",
-              "summary_en": "GDELT Event: Sexually assault. Actors: JEWISH / ISRAEL. Location: Israel. Goldstein Scale: -9.0. Mentioned in 8 sources.",
-              "source": "gdelt",
-              "source_label": "wfmd.com",
-              "date": "2026-05-13",
-              "url": "https://www.wfmd.com/2026/05/13/jewish-dem-lawmaker-pans-ny-times-suggests-paper-on-hamas-payroll-for-palestinian-prisoner-dog-rape-report/",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 8,
-                "sources": 1,
-                "articles": 8,
-                "goldstein": -9.0
-              },
-              "gdelt_meta": {
-                "event_id": "1303968539",
-                "event_code": "1821",
-                "cameo_desc": "Sexually assault",
-                "actor1": "JEWISH",
-                "actor2": "ISRAEL",
-                "actor1_country": "nan",
-                "actor2_country": "ISR",
-                "geo_lat": 31.5,
-                "geo_lon": 34.75,
-                "geo_name": "Israel"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1303968097",
-              "title": "nan → ISRAEL : Fight with artillery and tanks (Lebanon)",
-              "title_en": "nan → ISRAEL : Fight with artillery and tanks (Lebanon)",
-              "summary": "GDELT Event: Fight with artillery and tanks. Actors: nan / ISRAEL. Location: Lebanon. Goldstein Scale: -10.0. Mentioned in 3 sources.",
-              "summary_en": "GDELT Event: Fight with artillery and tanks. Actors: nan / ISRAEL. Location: Lebanon. Goldstein Scale: -10.0. Mentioned in 3 sources.",
-              "source": "gdelt",
-              "source_label": "bbc.com",
-              "date": "2026-05-13",
-              "url": "https://www.bbc.com/news/articles/c9d3g6deljyo",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 3,
-                "sources": 1,
-                "articles": 3,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1303968097",
-                "event_code": "194",
-                "cameo_desc": "Fight with artillery and tanks",
-                "actor1": "nan",
-                "actor2": "ISRAEL",
-                "actor1_country": "nan",
-                "actor2_country": "ISR",
-                "geo_lat": 33.833333,
-                "geo_lon": 35.833333,
-                "geo_name": "Lebanon"
-              },
-              "admiralty_source": "B",
-              "admiralty_info": 3,
-              "admiralty_code": "B3"
-            },
-            {
-              "id": "gdelt_1303968527",
-              "title": "ISRAELI → LEBANON : Use conventional military force, not specified below (Beirut, Beyrouth, Lebanon)",
-              "title_en": "ISRAELI → LEBANON : Use conventional military force, not specified below (Beirut, Beyrouth, Lebanon)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAELI / LEBANON. Location: Beirut, Beyrouth, Lebanon. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAELI / LEBANON. Location: Beirut, Beyrouth, Lebanon. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "source": "gdelt",
-              "source_label": "abc.net.au",
-              "date": "2026-05-13",
-              "url": "https://www.abc.net.au/news/2026-05-14/iran-live-updates-may-14-trump-netanyahu-china-xi-jinping-visit/106674744",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 2,
-                "sources": 1,
-                "articles": 2,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1303968527",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "ISRAELI",
-                "actor2": "LEBANON",
-                "actor1_country": "ISR",
-                "actor2_country": "LBN",
-                "geo_lat": 33.8719,
-                "geo_lon": 35.5097,
-                "geo_name": "Beirut, Beyrouth, Lebanon"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1303968591",
-              "title": "LEBANON → ISRAEL : Physically assault, not specified below (Lebanon)",
-              "title_en": "LEBANON → ISRAEL : Physically assault, not specified below (Lebanon)",
-              "summary": "GDELT Event: Physically assault, not specified below. Actors: LEBANON / ISRAEL. Location: Lebanon. Goldstein Scale: -9.5. Mentioned in 1 sources.",
-              "summary_en": "GDELT Event: Physically assault, not specified below. Actors: LEBANON / ISRAEL. Location: Lebanon. Goldstein Scale: -9.5. Mentioned in 1 sources.",
-              "source": "gdelt",
-              "source_label": "aa.com.tr",
-              "date": "2026-05-13",
-              "url": "https://aa.com.tr/en/middle-east/israel-approves-nearly-700m-plan-to-counter-hezbollah-drones-amid-mounting-losses/3936744",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 1,
-                "sources": 1,
-                "articles": 1,
-                "goldstein": -9.5
-              },
-              "gdelt_meta": {
-                "event_id": "1303968591",
-                "event_code": "182",
-                "cameo_desc": "Physically assault, not specified below",
-                "actor1": "LEBANON",
-                "actor2": "ISRAEL",
-                "actor1_country": "LBN",
-                "actor2_country": "ISR",
-                "geo_lat": 33.833333,
-                "geo_lon": 35.833333,
-                "geo_name": "Lebanon"
-              },
-              "admiralty_source": "B",
-              "admiralty_info": 3,
-              "admiralty_code": "B3"
-            },
             {
               "id": "gdelt_1304164844",
               "title": "JORDANIAN → nan : Engage in ethnic cleansing (Jerusalem, Israel (general), Israel)",
@@ -4684,6 +4552,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1308797358",
+              "title": "LEBANON → ISRAEL : Fight with artillery and tanks (Lebanon)",
+              "title_en": "LEBANON → ISRAEL : Fight with artillery and tanks (Lebanon)",
+              "summary": "GDELT Event: Fight with artillery and tanks. Actors: LEBANON / ISRAEL. Location: Lebanon. Goldstein Scale: -10.0. Mentioned in 4 sources.",
+              "summary_en": "GDELT Event: Fight with artillery and tanks. Actors: LEBANON / ISRAEL. Location: Lebanon. Goldstein Scale: -10.0. Mentioned in 4 sources.",
+              "source": "gdelt",
+              "source_label": "cp24.com",
+              "date": "2026-06-12",
+              "url": "https://www.cp24.com/news/world/2026/06/12/hezbollah-says-it-confronted-israeli-troops-advancing-in-south-lebanon/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 4,
+                "sources": 2,
+                "articles": 4,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1308797358",
+                "event_code": "194",
+                "cameo_desc": "Fight with artillery and tanks",
+                "actor1": "LEBANON",
+                "actor2": "ISRAEL",
+                "actor1_country": "LBN",
+                "actor2_country": "ISR",
+                "geo_lat": 33.833333,
+                "geo_lon": 35.833333,
+                "geo_name": "Lebanon"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -5409,6 +5310,39 @@
                 "actor2": "STUDENT",
                 "actor1_country": "nan",
                 "actor2_country": "nan",
+                "geo_lat": 31.4167,
+                "geo_lon": 34.3333,
+                "geo_name": "Gaza, Israel (general), Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1308797051",
+              "title": "VILLAGE → ISRAEL : Destroy property (Gaza, Israel (general), Israel)",
+              "title_en": "VILLAGE → ISRAEL : Destroy property (Gaza, Israel (general), Israel)",
+              "summary": "GDELT Event: Destroy property. Actors: VILLAGE / ISRAEL. Location: Gaza, Israel (general), Israel. Goldstein Scale: -9.2. Mentioned in 8 sources.",
+              "summary_en": "GDELT Event: Destroy property. Actors: VILLAGE / ISRAEL. Location: Gaza, Israel (general), Israel. Goldstein Scale: -9.2. Mentioned in 8 sources.",
+              "source": "gdelt",
+              "source_label": "home.nzcity.co.nz",
+              "date": "2026-06-12",
+              "url": "https://home.nzcity.co.nz/news/article.aspx?id=447806",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 8,
+                "sources": 1,
+                "articles": 8,
+                "goldstein": -9.2
+              },
+              "gdelt_meta": {
+                "event_id": "1308797051",
+                "event_code": "1712",
+                "cameo_desc": "Destroy property",
+                "actor1": "VILLAGE",
+                "actor2": "ISRAEL",
+                "actor1_country": "nan",
+                "actor2_country": "ISR",
                 "geo_lat": 31.4167,
                 "geo_lon": 34.3333,
                 "geo_name": "Gaza, Israel (general), Israel"
@@ -6819,39 +6753,6 @@
           "icon": "🕊️",
           "items": [
             {
-              "id": "gdelt_1303968486",
-              "title": "IRANIAN → CHINA : Arrest, detain, or charge with legal action (Tehran, Tehran, Iran)",
-              "title_en": "IRANIAN → CHINA : Arrest, detain, or charge with legal action (Tehran, Tehran, Iran)",
-              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: IRANIAN / CHINA. Location: Tehran, Tehran, Iran. Goldstein Scale: -5.0. Mentioned in 8 sources.",
-              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: IRANIAN / CHINA. Location: Tehran, Tehran, Iran. Goldstein Scale: -5.0. Mentioned in 8 sources.",
-              "source": "gdelt",
-              "source_label": "maritime-executive.com",
-              "date": "2026-05-13",
-              "url": "https://maritime-executive.com/editorials/iranian-oil-afloat-is-keeping-china-well-buffered",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 8,
-                "sources": 1,
-                "articles": 8,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1303968486",
-                "event_code": "173",
-                "cameo_desc": "Arrest, detain, or charge with legal action",
-                "actor1": "IRANIAN",
-                "actor2": "CHINA",
-                "actor1_country": "IRN",
-                "actor2_country": "CHN",
-                "geo_lat": 35.75,
-                "geo_lon": 51.5148,
-                "geo_name": "Tehran, Tehran, Iran"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
               "id": "gdelt_1304164713",
               "title": "IRAN → nan : Arrest, detain, or charge with legal action (Texas, United States)",
               "title_en": "IRAN → nan : Arrest, detain, or charge with legal action (Texas, United States)",
@@ -8017,13 +7918,13 @@
     }
   },
   "stats": {
-    "total_items": 230,
+    "total_items": 227,
     "sources": {
-      "gdelt": 230
+      "gdelt": 227
     },
     "date_range": {
-      "from": "2026-05-13",
-      "to": "2026-06-11"
+      "from": "2026-05-14",
+      "to": "2026-06-12"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
