@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-15T12:26:33+00:00Z",
+  "updated_at": "2026-06-16T11:22:07+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -19,39 +19,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1304467488",
-              "title": "UKRAINE → RUSSIA : Fight with small arms and light weapons (Odesa, Odes'ka Oblast, Ukraine)",
-              "title_en": "UKRAINE → RUSSIA : Fight with small arms and light weapons (Odesa, Odes'ka Oblast, Ukraine)",
-              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: UKRAINE / RUSSIA. Location: Odesa, Odes'ka Oblast, Ukraine. Goldstein Scale: -10.0. Mentioned in 4 sources.",
-              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: UKRAINE / RUSSIA. Location: Odesa, Odes'ka Oblast, Ukraine. Goldstein Scale: -10.0. Mentioned in 4 sources.",
-              "source": "gdelt",
-              "source_label": "latimes.com",
-              "date": "2026-05-16",
-              "url": "https://www.latimes.com/world-nation/story/2026-05-16/putin-to-visit-chinese-leader-xi-jinping-days-after-trump-leaves",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 4,
-                "sources": 1,
-                "articles": 4,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1304467488",
-                "event_code": "193",
-                "cameo_desc": "Fight with small arms and light weapons",
-                "actor1": "UKRAINE",
-                "actor2": "RUSSIA",
-                "actor1_country": "UKR",
-                "actor2_country": "RUS",
-                "geo_lat": 46.4639,
-                "geo_lon": 30.7386,
-                "geo_name": "Odesa, Odes'ka Oblast, Ukraine"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1304571380",
               "title": "SIBERIA → POLISH : Use conventional military force, not specified below (Poland)",
@@ -1449,7 +1416,41 @@
         "opinion": {
           "label": "舆论热点",
           "icon": "💬",
-          "items": []
+          "items": [
+            {
+              "id": "gdelt_1309179878",
+              "title": "PROTESTER → nan : Demonstrate or rally (Petersburg, Sankt-Peterburg, Russia)",
+              "title_en": "PROTESTER → nan : Demonstrate or rally (Petersburg, Sankt-Peterburg, Russia)",
+              "summary": "GDELT Event: Demonstrate or rally. Actors: PROTESTER / nan. Location: Petersburg, Sankt-Peterburg, Russia. Goldstein Scale: -6.5. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Demonstrate or rally. Actors: PROTESTER / nan. Location: Petersburg, Sankt-Peterburg, Russia. Goldstein Scale: -6.5. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "fox2detroit.com",
+              "date": "2026-06-15",
+              "url": "https://www.fox2detroit.com/news/dueling-dan-sullivans-alaska-blocks-sham-candidate-from-ballot-after-name-confusion-drama",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -6.5
+              },
+              "gdelt_meta": {
+                "event_id": "1309179878",
+                "event_code": "141",
+                "cameo_desc": "Demonstrate or rally",
+                "actor1": "PROTESTER",
+                "actor2": "nan",
+                "actor1_country": "nan",
+                "actor2_country": "nan",
+                "geo_lat": 59.8944,
+                "geo_lon": 30.2642,
+                "geo_name": "Petersburg, Sankt-Peterburg, Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            }
+          ]
         },
         "video": {
           "label": "视频报道",
@@ -1484,105 +1485,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1304467418",
-              "title": "LEBANON → BATTALION : Use conventional military force, not specified below (Maoz, Ha?afon, Israel)",
-              "title_en": "LEBANON → BATTALION : Use conventional military force, not specified below (Maoz, Ha?afon, Israel)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: LEBANON / BATTALION. Location: Maoz, Ha?afon, Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: LEBANON / BATTALION. Location: Maoz, Ha?afon, Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "source": "gdelt",
-              "source_label": "themedialine.org",
-              "date": "2026-05-16",
-              "url": "https://themedialine.org/headlines/idf-capt-maoz-israel-recanti-killed-by-explosive-drone-in-southern-lebanon/",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 10,
-                "sources": 1,
-                "articles": 10,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1304467418",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "LEBANON",
-                "actor2": "BATTALION",
-                "actor1_country": "LBN",
-                "actor2_country": "nan",
-                "geo_lat": 32.4833,
-                "geo_lon": 35.55,
-                "geo_name": "Maoz, Ha?afon, Israel"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1304467555",
-              "title": "UNITED STATES → nan : Employ aerial weapons (Gaza, Israel (general), Israel)",
-              "title_en": "UNITED STATES → nan : Employ aerial weapons (Gaza, Israel (general), Israel)",
-              "summary": "GDELT Event: Employ aerial weapons. Actors: UNITED STATES / nan. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 5 sources.",
-              "summary_en": "GDELT Event: Employ aerial weapons. Actors: UNITED STATES / nan. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 5 sources.",
-              "source": "gdelt",
-              "source_label": "whro.org",
-              "date": "2026-05-16",
-              "url": "https://www.whro.org/military-veterans/2026-05-16/uss-gerald-r-ford-returns-home-after-record-breaking-deployment",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 5,
-                "sources": 1,
-                "articles": 5,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1304467555",
-                "event_code": "195",
-                "cameo_desc": "Employ aerial weapons",
-                "actor1": "UNITED STATES",
-                "actor2": "nan",
-                "actor1_country": "USA",
-                "actor2_country": "nan",
-                "geo_lat": 31.4167,
-                "geo_lon": 34.3333,
-                "geo_name": "Gaza, Israel (general), Israel"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1304467420",
-              "title": "LEBANESE → VILLAGE : Use conventional military force, not specified below (Beirut, Beyrouth, Lebanon)",
-              "title_en": "LEBANESE → VILLAGE : Use conventional military force, not specified below (Beirut, Beyrouth, Lebanon)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: LEBANESE / VILLAGE. Location: Beirut, Beyrouth, Lebanon. Goldstein Scale: -10.0. Mentioned in 4 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: LEBANESE / VILLAGE. Location: Beirut, Beyrouth, Lebanon. Goldstein Scale: -10.0. Mentioned in 4 sources.",
-              "source": "gdelt",
-              "source_label": "timesofindia.indiatimes.com",
-              "date": "2026-05-16",
-              "url": "https://timesofindia.indiatimes.com/world/middle-east/us-israel-iran-war-ceasefire-news-live-updates-donald-trump-iran-talks-strait-of-hormuz-blockade-middle-east-conflict-tehran-crude-oil-latest/liveblog/131145558.cms",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 4,
-                "sources": 1,
-                "articles": 4,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1304467420",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "LEBANESE",
-                "actor2": "VILLAGE",
-                "actor1_country": "LBN",
-                "actor2_country": "nan",
-                "geo_lat": 33.8719,
-                "geo_lon": 35.5097,
-                "geo_name": "Beirut, Beyrouth, Lebanon"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1304571213",
               "title": "NATIONAL NEWS AGENCY → ISLAMIC : Use conventional military force, not specified below (Israel)",
@@ -4123,6 +4025,204 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1309179615",
+              "title": "GOVERNMENT → LEBANON : Use conventional military force, not specified below (Lebanon)",
+              "title_en": "GOVERNMENT → LEBANON : Use conventional military force, not specified below (Lebanon)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: GOVERNMENT / LEBANON. Location: Lebanon. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: GOVERNMENT / LEBANON. Location: Lebanon. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "source": "gdelt",
+              "source_label": "newsday.com",
+              "date": "2026-06-15",
+              "url": "https://www.newsday.com/opinion/editorials/iran-war-ceasefire-deal-xqefsc75",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 8,
+                "sources": 1,
+                "articles": 8,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1309179615",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "GOVERNMENT",
+                "actor2": "LEBANON",
+                "actor1_country": "nan",
+                "actor2_country": "LBN",
+                "geo_lat": 33.833333,
+                "geo_lon": 35.833333,
+                "geo_name": "Lebanon"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1309179897",
+              "title": "POLITICIAN → ISRAEL : Use conventional military force, not specified below (Tel Aviv, Tel Aviv, Israel)",
+              "title_en": "POLITICIAN → ISRAEL : Use conventional military force, not specified below (Tel Aviv, Tel Aviv, Israel)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: POLITICIAN / ISRAEL. Location: Tel Aviv, Tel Aviv, Israel. Goldstein Scale: -10.0. Mentioned in 7 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: POLITICIAN / ISRAEL. Location: Tel Aviv, Tel Aviv, Israel. Goldstein Scale: -10.0. Mentioned in 7 sources.",
+              "source": "gdelt",
+              "source_label": "presstv.ir",
+              "date": "2026-06-15",
+              "url": "https://www.presstv.ir/Detail/2026/06/15/770519/June-15--Iran-finalizes-MoU-as-tankers-and-cargo-ships-clear-US-naval-blockade",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 7,
+                "sources": 1,
+                "articles": 7,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1309179897",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "POLITICIAN",
+                "actor2": "ISRAEL",
+                "actor1_country": "nan",
+                "actor2_country": "ISR",
+                "geo_lat": 32.0667,
+                "geo_lon": 34.7667,
+                "geo_name": "Tel Aviv, Tel Aviv, Israel"
+              },
+              "admiralty_source": "B",
+              "admiralty_info": 3,
+              "admiralty_code": "B3"
+            },
+            {
+              "id": "gdelt_1309179694",
+              "title": "IRAN → LEBANESE : Use conventional military force, not specified below (Lebanon)",
+              "title_en": "IRAN → LEBANESE : Use conventional military force, not specified below (Lebanon)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: IRAN / LEBANESE. Location: Lebanon. Goldstein Scale: -10.0. Mentioned in 7 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: IRAN / LEBANESE. Location: Lebanon. Goldstein Scale: -10.0. Mentioned in 7 sources.",
+              "source": "gdelt",
+              "source_label": "presstv.ir",
+              "date": "2026-06-15",
+              "url": "https://www.presstv.ir/Detail/2026/06/15/770521/Quds-commander--Imposed-war-discredited-US,-accelerated-collapse-of-Israel",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 7,
+                "sources": 1,
+                "articles": 7,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1309179694",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "IRAN",
+                "actor2": "LEBANESE",
+                "actor1_country": "IRN",
+                "actor2_country": "LBN",
+                "geo_lat": 33.833333,
+                "geo_lon": 35.833333,
+                "geo_name": "Lebanon"
+              },
+              "admiralty_source": "B",
+              "admiralty_info": 3,
+              "admiralty_code": "B3"
+            },
+            {
+              "id": "gdelt_1309179740",
+              "title": "ISRAELI → IRANIAN : Assassinate (Israel)",
+              "title_en": "ISRAELI → IRANIAN : Assassinate (Israel)",
+              "summary": "GDELT Event: Assassinate. Actors: ISRAELI / IRANIAN. Location: Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Assassinate. Actors: ISRAELI / IRANIAN. Location: Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "presstv.ir",
+              "date": "2026-06-15",
+              "url": "https://www.presstv.ir/Detail/2026/06/15/770481/mystery-surrounds-death-iranian-ai-pioneer-france-fingers-pointing-mossad%20class=hover-effect",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1309179740",
+                "event_code": "186",
+                "cameo_desc": "Assassinate",
+                "actor1": "ISRAELI",
+                "actor2": "IRANIAN",
+                "actor1_country": "ISR",
+                "actor2_country": "IRN",
+                "geo_lat": 31.5,
+                "geo_lon": 34.75,
+                "geo_name": "Israel"
+              },
+              "admiralty_source": "B",
+              "admiralty_info": 3,
+              "admiralty_code": "B3"
+            },
+            {
+              "id": "gdelt_1309180062",
+              "title": "THE US → IRAN : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
+              "title_en": "THE US → IRAN : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: THE US / IRAN. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: THE US / IRAN. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "freemalaysiatoday.com",
+              "date": "2026-06-15",
+              "url": "https://www.freemalaysiatoday.com/category/highlight/2026/06/16/netanyahu-says-war-with-iran-saved-israel-from-threat-of-nuclear-annihilation",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1309180062",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "THE US",
+                "actor2": "IRAN",
+                "actor1_country": "USA",
+                "actor2_country": "IRN",
+                "geo_lat": 31.4167,
+                "geo_lon": 34.3333,
+                "geo_name": "Gaza, Israel (general), Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1309179736",
+              "title": "ISRAEL → MILITANT : Use conventional military force, not specified below (Jerusalem, Israel (general), Israel)",
+              "title_en": "ISRAEL → MILITANT : Use conventional military force, not specified below (Jerusalem, Israel (general), Israel)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / MILITANT. Location: Jerusalem, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / MILITANT. Location: Jerusalem, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "koreaherald.com",
+              "date": "2026-06-15",
+              "url": "https://www.koreaherald.com/article/10772325",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1309179736",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "ISRAEL",
+                "actor2": "MILITANT",
+                "actor1_country": "ISR",
+                "actor2_country": "nan",
+                "geo_lat": 31.7667,
+                "geo_lon": 35.2333,
+                "geo_name": "Jerusalem, Israel (general), Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -6250,6 +6350,72 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1309179486",
+              "title": "CITIZEN → IRANIAN : Use conventional military force, not specified below (Iran)",
+              "title_en": "CITIZEN → IRANIAN : Use conventional military force, not specified below (Iran)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: CITIZEN / IRANIAN. Location: Iran. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: CITIZEN / IRANIAN. Location: Iran. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "nypost.com",
+              "date": "2026-06-15",
+              "url": "https://nypost.com/2026/06/15/opinion/fast-takes-trump-abandons-iranian-people-becerras-disqualifying-legacy-and-more/",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1309179486",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "CITIZEN",
+                "actor2": "IRANIAN",
+                "actor1_country": "nan",
+                "actor2_country": "IRN",
+                "geo_lat": 32.0,
+                "geo_lon": 53.0,
+                "geo_name": "Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1309179633",
+              "title": "REGIME → UNITED STATES : Use conventional military force, not specified below (Iran)",
+              "title_en": "REGIME → UNITED STATES : Use conventional military force, not specified below (Iran)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: REGIME / UNITED STATES. Location: Iran. Goldstein Scale: -10.0. Mentioned in 1 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: REGIME / UNITED STATES. Location: Iran. Goldstein Scale: -10.0. Mentioned in 1 sources.",
+              "source": "gdelt",
+              "source_label": "wgbh.org",
+              "date": "2026-06-15",
+              "url": "https://www.wgbh.org/news/international-news/2026-06-15/local-iranian-community-is-hopeful-cautious-on-us-iran-ceasefire-deal",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 1,
+                "sources": 1,
+                "articles": 1,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1309179633",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "REGIME",
+                "actor2": "UNITED STATES",
+                "actor1_country": "nan",
+                "actor2_country": "USA",
+                "geo_lat": 32.0,
+                "geo_lon": 53.0,
+                "geo_name": "Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -7356,13 +7522,13 @@
     }
   },
   "stats": {
-    "total_items": 210,
+    "total_items": 215,
     "sources": {
-      "gdelt": 210
+      "gdelt": 215
     },
     "date_range": {
-      "from": "2026-05-16",
-      "to": "2026-06-14"
+      "from": "2026-05-17",
+      "to": "2026-06-15"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
