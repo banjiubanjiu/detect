@@ -5,8 +5,38 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 18 Jun 2026 10:30:55 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jun 2026 10:48:23 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[巴以冲突] IRAN → THE US : Use conventional military force, not specified below (Israel)</title>
+      <link>https://hotair.com/david-strom/2026/06/17/what-happens-if-the-israel-hezbollah-war-continues-n3816061</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: IRAN / THE US. Location: Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://hotair.com/david-strom/2026/06/17/what-happens-if-the-israel-hezbollah-war-continues-n3816061</guid>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://hotair.com/david-strom/2026/06/17/what-happens-if-the-israel-hezbollah-war-continues-n3816061">hotair.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] ADMINISTRATION → IRAN : Impose administrative sanctions, not specified below (Natanz, Esfahan, Iran)</title>
+      <link>https://www.cbsnews.com/news/how-trump-iran-nuclear-deal-memorandum-of-understanding-compares-to-obama-nuclear-deal-jcpoa/</link>
+      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: ADMINISTRATION / IRAN. Location: Natanz, Esfahan, Iran. Goldstein Scale: -5.0. Mentioned in 5 sources.</description>
+      <guid isPermaLink="true">https://www.cbsnews.com/news/how-trump-iran-nuclear-deal-memorandum-of-understanding-compares-to-obama-nuclear-deal-jcpoa/</guid>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>外交谈判</category>
+      <source url="https://www.cbsnews.com/news/how-trump-iran-nuclear-deal-memorandum-of-understanding-compares-to-obama-nuclear-deal-jcpoa/">cbsnews.com</source>
+    </item>
+    <item>
+      <title>[刚果(金)冲突] GOMA → ANTI GOVERNMENT FORCE : Use conventional military force, not specified below (Uganda)</title>
+      <link>https://www.cbsnews.com/news/congo-efforts-to-stop-ebola-outbreak/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: GOMA / ANTI GOVERNMENT FORCE. Location: Uganda. Goldstein Scale: -10.0. Mentioned in 5 sources.</description>
+      <guid isPermaLink="true">https://www.cbsnews.com/news/congo-efforts-to-stop-ebola-outbreak/</guid>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+      <category>刚果(金)冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.cbsnews.com/news/congo-efforts-to-stop-ebola-outbreak/">cbsnews.com</source>
+    </item>
     <item>
       <title>[俄乌战争] MILITARY → ROSTOV : Use conventional military force, not specified below (Rostov, Rostovskaya Oblast', Russia)</title>
       <link>https://www.eng.kavkaz-uzel.eu/articles/76185</link>
@@ -476,36 +506,6 @@
       <category>苏丹内战</category>
       <category>外交谈判</category>
       <source url="https://www.abc.net.au/listen/programs/am/protests-across-belfast-after-knife-attack/106779114">abc.net.au</source>
-    </item>
-    <item>
-      <title>[也门/胡塞武装] MEDICAL OFFICIAL → PROTESTER : Fight with small arms and light weapons (Sanaa, Sana', Yemen)</title>
-      <link>http://www.bignewsnetwork.com/news/279112686/1-killed-several-wounded-as-protests-over-power-outages-intensify-across-s-yemen-source</link>
-      <description>GDELT Event: Fight with small arms and light weapons. Actors: MEDICAL OFFICIAL / PROTESTER. Location: Sanaa, Sana', Yemen. Goldstein Scale: -10.0. Mentioned in 20 sources.</description>
-      <guid isPermaLink="true">http://www.bignewsnetwork.com/news/279112686/1-killed-several-wounded-as-protests-over-power-outages-intensify-across-s-yemen-source</guid>
-      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
-      <category>也门/胡塞武装</category>
-      <category>军事动态</category>
-      <source url="http://www.bignewsnetwork.com/news/279112686/1-killed-several-wounded-as-protests-over-power-outages-intensify-across-s-yemen-source">bignewsnetwork.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] POLAND → UKRAINE : Impose blockade, restrict movement (Kyiv, Kyyiv, Misto, Ukraine)</title>
-      <link>https://www.kyivpost.com/post/77772</link>
-      <description>GDELT Event: Impose blockade, restrict movement. Actors: POLAND / UKRAINE. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -9.5. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.kyivpost.com/post/77772</guid>
-      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://www.kyivpost.com/post/77772">kyivpost.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] RUSSIA → IRAN : Impose administrative sanctions, not specified below (Washington, District of Columbia, United States)</title>
-      <link>https://pjmedia.com/david-manney/2026/06/08/orwells-1984-warning-still-has-teeth-77-years-later-n4953741</link>
-      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: RUSSIA / IRAN. Location: Washington, District of Columbia, United States. Goldstein Scale: -5.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://pjmedia.com/david-manney/2026/06/08/orwells-1984-warning-still-has-teeth-77-years-later-n4953741</guid>
-      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>外交谈判</category>
-      <source url="https://pjmedia.com/david-manney/2026/06/08/orwells-1984-warning-still-has-teeth-77-years-later-n4953741">pjmedia.com</source>
     </item>
   </channel>
 </rss>
