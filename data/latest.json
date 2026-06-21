@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-20T09:26:42+00:00Z",
+  "updated_at": "2026-06-21T10:01:19+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -1107,6 +1107,72 @@
               "admiralty_source": "B",
               "admiralty_info": 3,
               "admiralty_code": "B3"
+            },
+            {
+              "id": "gdelt_1310011409",
+              "title": "RUSSIAN → KYIV : Use conventional military force, not specified below (Pechersk, Samarskaya Oblast', Russia)",
+              "title_en": "RUSSIAN → KYIV : Use conventional military force, not specified below (Pechersk, Samarskaya Oblast', Russia)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: RUSSIAN / KYIV. Location: Pechersk, Samarskaya Oblast', Russia. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: RUSSIAN / KYIV. Location: Pechersk, Samarskaya Oblast', Russia. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "thehindu.com",
+              "date": "2026-06-20",
+              "url": "https://www.thehindu.com/news/international/zelenskyy-warns-of-impending-massive-russian-attack-on-ukraine/article71127364.ece",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1310011409",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "RUSSIAN",
+                "actor2": "KYIV",
+                "actor1_country": "RUS",
+                "actor2_country": "UKR",
+                "geo_lat": 53.2406,
+                "geo_lon": 49.0175,
+                "geo_name": "Pechersk, Samarskaya Oblast', Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1310011423",
+              "title": "UKRAINE → VILLAGE : Use conventional military force, not specified below (Sumy, Sums'ka Oblast', Ukraine)",
+              "title_en": "UKRAINE → VILLAGE : Use conventional military force, not specified below (Sumy, Sums'ka Oblast', Ukraine)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: UKRAINE / VILLAGE. Location: Sumy, Sums'ka Oblast', Ukraine. Goldstein Scale: -10.0. Mentioned in 1 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: UKRAINE / VILLAGE. Location: Sumy, Sums'ka Oblast', Ukraine. Goldstein Scale: -10.0. Mentioned in 1 sources.",
+              "source": "gdelt",
+              "source_label": "goulburnpost.com.au",
+              "date": "2026-06-20",
+              "url": "https://www.goulburnpost.com.au/story/9295943/zelenskiy-warns-of-impending-massive-russian-attack/",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 1,
+                "sources": 1,
+                "articles": 1,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1310011423",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "UKRAINE",
+                "actor2": "VILLAGE",
+                "actor1_country": "UKR",
+                "actor2_country": "nan",
+                "geo_lat": 50.9216,
+                "geo_lon": 34.8003,
+                "geo_name": "Sumy, Sums'ka Oblast', Ukraine"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -1485,39 +1551,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1305329843",
-              "title": "ISRAEL → ISRAEL : Physically assault, not specified below (Israel)",
-              "title_en": "ISRAEL → ISRAEL : Physically assault, not specified below (Israel)",
-              "summary": "GDELT Event: Physically assault, not specified below. Actors: ISRAEL / ISRAEL. Location: Israel. Goldstein Scale: -9.5. Mentioned in 4 sources.",
-              "summary_en": "GDELT Event: Physically assault, not specified below. Actors: ISRAEL / ISRAEL. Location: Israel. Goldstein Scale: -9.5. Mentioned in 4 sources.",
-              "source": "gdelt",
-              "source_label": "english.wafa.ps",
-              "date": "2026-05-21",
-              "url": "https://english.wafa.ps/Pages/Details/170735",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 4,
-                "sources": 1,
-                "articles": 4,
-                "goldstein": -9.5
-              },
-              "gdelt_meta": {
-                "event_id": "1305329843",
-                "event_code": "182",
-                "cameo_desc": "Physically assault, not specified below",
-                "actor1": "ISRAEL",
-                "actor2": "ISRAEL",
-                "actor1_country": "ISR",
-                "actor2_country": "ISR",
-                "geo_lat": 31.5,
-                "geo_lon": 34.75,
-                "geo_name": "Israel"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1305513135",
               "title": "nan → FIREFIGHTER : Use conventional military force, not specified below (Bethlehem, West Bank (general), West Bank)",
@@ -3992,71 +4025,32 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
-            }
-          ]
-        },
-        "diplomacy": {
-          "label": "外交谈判",
-          "icon": "🕊️",
-          "items": [
+            },
             {
-              "id": "gdelt_1305329835",
-              "title": "ISRAEL → AUSTRALIAN : Arrest, detain, or charge with legal action (Sydney, New South Wales, Australia)",
-              "title_en": "ISRAEL → AUSTRALIAN : Arrest, detain, or charge with legal action (Sydney, New South Wales, Australia)",
-              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: ISRAEL / AUSTRALIAN. Location: Sydney, New South Wales, Australia. Goldstein Scale: -5.0. Mentioned in 10 sources.",
-              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: ISRAEL / AUSTRALIAN. Location: Sydney, New South Wales, Australia. Goldstein Scale: -5.0. Mentioned in 10 sources.",
+              "id": "gdelt_1310011346",
+              "title": "ISRAEL → HAMAS : Violate ceasefire (Gaza, Israel (general), Israel)",
+              "title_en": "ISRAEL → HAMAS : Violate ceasefire (Gaza, Israel (general), Israel)",
+              "summary": "GDELT Event: Violate ceasefire. Actors: ISRAEL / HAMAS. Location: Gaza, Israel (general), Israel. Goldstein Scale: -9.5. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Violate ceasefire. Actors: ISRAEL / HAMAS. Location: Gaza, Israel (general), Israel. Goldstein Scale: -9.5. Mentioned in 10 sources.",
               "source": "gdelt",
-              "source_label": "perthnow.com.au",
-              "date": "2026-05-21",
-              "url": "https://www.perthnow.com.au/news/politics/news-and-politics-live-updates-labor-weigh-death-tax-backflip-in-face-of-backlash-isis-brides-head-to-aus-c-22320616",
+              "source_label": "yahoo.com",
+              "date": "2026-06-20",
+              "url": "https://www.yahoo.com/news/world/articles/israeli-strikes-kill-six-people-220341667.html",
               "primary_conflict": "israel-palestine",
               "metrics": {
                 "mentions": 10,
                 "sources": 1,
                 "articles": 10,
-                "goldstein": -5.0
+                "goldstein": -9.5
               },
               "gdelt_meta": {
-                "event_id": "1305329835",
-                "event_code": "173",
-                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "event_id": "1310011346",
+                "event_code": "196",
+                "cameo_desc": "Violate ceasefire",
                 "actor1": "ISRAEL",
-                "actor2": "AUSTRALIAN",
+                "actor2": "HAMAS",
                 "actor1_country": "ISR",
-                "actor2_country": "AUS",
-                "geo_lat": -33.8833,
-                "geo_lon": 151.217,
-                "geo_name": "Sydney, New South Wales, Australia"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1305330086",
-              "title": "TURKEY → AUSSIE : Arrest, detain, or charge with legal action (Gaza, Israel (general), Israel)",
-              "title_en": "TURKEY → AUSSIE : Arrest, detain, or charge with legal action (Gaza, Israel (general), Israel)",
-              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: TURKEY / AUSSIE. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 8 sources.",
-              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: TURKEY / AUSSIE. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 8 sources.",
-              "source": "gdelt",
-              "source_label": "perthnow.com.au",
-              "date": "2026-05-21",
-              "url": "https://www.perthnow.com.au/news/politics/aussie-activists-detained-by-israel-arrive-in-turkey-c-22321082",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 8,
-                "sources": 1,
-                "articles": 8,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1305330086",
-                "event_code": "173",
-                "cameo_desc": "Arrest, detain, or charge with legal action",
-                "actor1": "TURKEY",
-                "actor2": "AUSSIE",
-                "actor1_country": "TUR",
-                "actor2_country": "AUS",
+                "actor2_country": "PSE",
                 "geo_lat": 31.4167,
                 "geo_lon": 34.3333,
                 "geo_name": "Gaza, Israel (general), Israel"
@@ -4065,6 +4059,210 @@
               "admiralty_info": 3,
               "admiralty_code": "C3"
             },
+            {
+              "id": "gdelt_1310011369",
+              "title": "LEBANON → nan : Torture (Beirut, Beyrouth, Lebanon)",
+              "title_en": "LEBANON → nan : Torture (Beirut, Beyrouth, Lebanon)",
+              "summary": "GDELT Event: Torture. Actors: LEBANON / nan. Location: Beirut, Beyrouth, Lebanon. Goldstein Scale: -9.0. Mentioned in 4 sources.",
+              "summary_en": "GDELT Event: Torture. Actors: LEBANON / nan. Location: Beirut, Beyrouth, Lebanon. Goldstein Scale: -9.0. Mentioned in 4 sources.",
+              "source": "gdelt",
+              "source_label": "mishpacha.com",
+              "date": "2026-06-20",
+              "url": "https://mishpacha.com/hijacked/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 4,
+                "sources": 1,
+                "articles": 4,
+                "goldstein": -9.0
+              },
+              "gdelt_meta": {
+                "event_id": "1310011369",
+                "event_code": "1822",
+                "cameo_desc": "Torture",
+                "actor1": "LEBANON",
+                "actor2": "nan",
+                "actor1_country": "LBN",
+                "actor2_country": "nan",
+                "geo_lat": 33.8719,
+                "geo_lon": 35.5097,
+                "geo_name": "Beirut, Beyrouth, Lebanon"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1310011374",
+              "title": "LEBANON → ISRAELI : Use conventional military force, not specified below (Beirut, Beyrouth, Lebanon)",
+              "title_en": "LEBANON → ISRAELI : Use conventional military force, not specified below (Beirut, Beyrouth, Lebanon)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: LEBANON / ISRAELI. Location: Beirut, Beyrouth, Lebanon. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: LEBANON / ISRAELI. Location: Beirut, Beyrouth, Lebanon. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "source": "gdelt",
+              "source_label": "dailycaller.com",
+              "date": "2026-06-20",
+              "url": "https://dailycaller.com/2026/06/20/iran-declares-hormuz-strait-closed-israel-ceasefire-violations-strikes-lebanon-hezbollah/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 3,
+                "sources": 1,
+                "articles": 3,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1310011374",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "LEBANON",
+                "actor2": "ISRAELI",
+                "actor1_country": "LBN",
+                "actor2_country": "ISR",
+                "geo_lat": 33.8719,
+                "geo_lon": 35.5097,
+                "geo_name": "Beirut, Beyrouth, Lebanon"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1310011373",
+              "title": "LEBANON → ISRAELI : Use conventional military force, not specified below (Tehran, Tehran, Iran)",
+              "title_en": "LEBANON → ISRAELI : Use conventional military force, not specified below (Tehran, Tehran, Iran)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: LEBANON / ISRAELI. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: LEBANON / ISRAELI. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "source": "gdelt",
+              "source_label": "straitstimes.com",
+              "date": "2026-06-20",
+              "url": "https://www.straitstimes.com/world/middle-east/iran-negotiators-head-for-switzerland-as-trump-threatens-us-tolls-on-strait-of-hormuz",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 3,
+                "sources": 2,
+                "articles": 3,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1310011373",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "LEBANON",
+                "actor2": "ISRAELI",
+                "actor1_country": "LBN",
+                "actor2_country": "ISR",
+                "geo_lat": 35.75,
+                "geo_lon": 51.5148,
+                "geo_name": "Tehran, Tehran, Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1310011345",
+              "title": "ISRAELI → LEBANON : Employ aerial weapons (Israel)",
+              "title_en": "ISRAELI → LEBANON : Employ aerial weapons (Israel)",
+              "summary": "GDELT Event: Employ aerial weapons. Actors: ISRAELI / LEBANON. Location: Israel. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "summary_en": "GDELT Event: Employ aerial weapons. Actors: ISRAELI / LEBANON. Location: Israel. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "source": "gdelt",
+              "source_label": "gdnonline.com:443",
+              "date": "2026-06-20",
+              "url": "https://www.gdnonline.com:443/Details/1398256",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 3,
+                "sources": 1,
+                "articles": 3,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1310011345",
+                "event_code": "195",
+                "cameo_desc": "Employ aerial weapons",
+                "actor1": "ISRAELI",
+                "actor2": "LEBANON",
+                "actor1_country": "ISR",
+                "actor2_country": "LBN",
+                "geo_lat": 31.5,
+                "geo_lon": 34.75,
+                "geo_name": "Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1310011402",
+              "title": "HAMAS → ISRAEL : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
+              "title_en": "HAMAS → ISRAEL : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: HAMAS / ISRAEL. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: HAMAS / ISRAEL. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "gdnonline.com:443",
+              "date": "2026-06-20",
+              "url": "https://www.gdnonline.com:443/Details/1398274",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1310011402",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "HAMAS",
+                "actor2": "ISRAEL",
+                "actor1_country": "PSE",
+                "actor2_country": "ISR",
+                "geo_lat": 31.4167,
+                "geo_lon": 34.3333,
+                "geo_name": "Gaza, Israel (general), Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1310011159",
+              "title": "LEBANON → ISRAELI : Use conventional military force, not specified below (Tehran, Tehran, Iran)",
+              "title_en": "LEBANON → ISRAELI : Use conventional military force, not specified below (Tehran, Tehran, Iran)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: LEBANON / ISRAELI. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 1 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: LEBANON / ISRAELI. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 1 sources.",
+              "source": "gdelt",
+              "source_label": "gdnonline.com:443",
+              "date": "2026-06-19",
+              "url": "https://www.gdnonline.com:443/Details/1398273",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 1,
+                "sources": 1,
+                "articles": 1,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1310011159",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "LEBANON",
+                "actor2": "ISRAELI",
+                "actor1_country": "LBN",
+                "actor2_country": "ISR",
+                "geo_lat": 35.75,
+                "geo_lon": 51.5148,
+                "geo_name": "Tehran, Tehran, Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            }
+          ]
+        },
+        "diplomacy": {
+          "label": "外交谈判",
+          "icon": "🕊️",
+          "items": [
             {
               "id": "gdelt_1305513507",
               "title": "JAPANESE → ACTIVIST : Arrest, detain, or charge with legal action (Israel)",
@@ -4566,39 +4764,6 @@
           "label": "舆论热点",
           "icon": "💬",
           "items": [
-            {
-              "id": "gdelt_1305330048",
-              "title": "PALESTINIAN → ISRAELI : Engage in popular protest, not specified below (Israel)",
-              "title_en": "PALESTINIAN → ISRAELI : Engage in popular protest, not specified below (Israel)",
-              "summary": "GDELT Event: Engage in popular protest, not specified below. Actors: PALESTINIAN / ISRAELI. Location: Israel. Goldstein Scale: -6.5. Mentioned in 4 sources.",
-              "summary_en": "GDELT Event: Engage in popular protest, not specified below. Actors: PALESTINIAN / ISRAELI. Location: Israel. Goldstein Scale: -6.5. Mentioned in 4 sources.",
-              "source": "gdelt",
-              "source_label": "clevelandjewishnews.com",
-              "date": "2026-05-21",
-              "url": "https://www.clevelandjewishnews.com/jta/poll-shows-wide-lead-for-brad-lander-as-he-and-dan-goldman-weigh-in-on/article_2c3433ea-b807-5d6c-a7d7-a76cffbc8a42.html",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 4,
-                "sources": 1,
-                "articles": 4,
-                "goldstein": -6.5
-              },
-              "gdelt_meta": {
-                "event_id": "1305330048",
-                "event_code": "140",
-                "cameo_desc": "Engage in popular protest, not specified below",
-                "actor1": "PALESTINIAN",
-                "actor2": "ISRAELI",
-                "actor1_country": "PSE",
-                "actor2_country": "ISR",
-                "geo_lat": 31.5,
-                "geo_lon": 34.75,
-                "geo_name": "Israel"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1305738258",
               "title": "IRANIAN → GOVERNMENT : Demonstrate or rally (Israel)",
@@ -6431,6 +6596,40 @@
               "admiralty_info": 3,
               "admiralty_code": "C3",
               "criticality": "background"
+            },
+            {
+              "id": "gdelt_1310011411",
+              "title": "KORDOFAN → nan : Use conventional military force, not specified below (El Obeid, Shamal Kurdufan, Sudan)",
+              "title_en": "KORDOFAN → nan : Use conventional military force, not specified below (El Obeid, Shamal Kurdufan, Sudan)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: KORDOFAN / nan. Location: El Obeid, Shamal Kurdufan, Sudan. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: KORDOFAN / nan. Location: El Obeid, Shamal Kurdufan, Sudan. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "source": "gdelt",
+              "source_label": "miragenews.com",
+              "date": "2026-06-20",
+              "url": "https://www.miragenews.com/un-warns-of-mass-atrocity-risk-in-el-obeid-1696044/",
+              "primary_conflict": "sudan",
+              "metrics": {
+                "mentions": 3,
+                "sources": 1,
+                "articles": 3,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1310011411",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "KORDOFAN",
+                "actor2": "nan",
+                "actor1_country": "SDN",
+                "actor2_country": "nan",
+                "geo_lat": 13.1833,
+                "geo_lon": 30.2167,
+                "geo_name": "El Obeid, Shamal Kurdufan, Sudan"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3",
+              "criticality": "background"
             }
           ]
         },
@@ -6624,40 +6823,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1305329963",
-              "title": "WARSHIP → nan : Fight with artillery and tanks (Yemen)",
-              "title_en": "WARSHIP → nan : Fight with artillery and tanks (Yemen)",
-              "summary": "GDELT Event: Fight with artillery and tanks. Actors: WARSHIP / nan. Location: Yemen. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "summary_en": "GDELT Event: Fight with artillery and tanks. Actors: WARSHIP / nan. Location: Yemen. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "source": "gdelt",
-              "source_label": "gazetaexpress.com",
-              "date": "2026-05-21",
-              "url": "https://www.gazetaexpress.com/en/war-with-iran-washington-post-usa-spent-half-of-thaad-missile-arsenal-israel-kept-its-military-reserves/",
-              "primary_conflict": "yemen-houthi",
-              "metrics": {
-                "mentions": 10,
-                "sources": 1,
-                "articles": 10,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1305329963",
-                "event_code": "194",
-                "cameo_desc": "Fight with artillery and tanks",
-                "actor1": "WARSHIP",
-                "actor2": "nan",
-                "actor1_country": "nan",
-                "actor2_country": "nan",
-                "geo_lat": 15.5,
-                "geo_lon": 47.5,
-                "geo_name": "Yemen"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3",
-              "criticality": "background"
-            },
             {
               "id": "gdelt_1306973113",
               "title": "ADEN → nan : Occupy territory (Islah, Al Ma?wit, Yemen)",
@@ -7059,42 +7224,7 @@
         "diplomacy": {
           "label": "外交谈判",
           "icon": "🕊️",
-          "items": [
-            {
-              "id": "gdelt_1305330082",
-              "title": "SYRIA → CORRESPONDENT : Arrest, detain, or charge with legal action (Damascus, Dimashq, Syria)",
-              "title_en": "SYRIA → CORRESPONDENT : Arrest, detain, or charge with legal action (Damascus, Dimashq, Syria)",
-              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: SYRIA / CORRESPONDENT. Location: Damascus, Dimashq, Syria. Goldstein Scale: -5.0. Mentioned in 10 sources.",
-              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: SYRIA / CORRESPONDENT. Location: Damascus, Dimashq, Syria. Goldstein Scale: -5.0. Mentioned in 10 sources.",
-              "source": "gdelt",
-              "source_label": "skynews.com.au",
-              "date": "2026-05-21",
-              "url": "https://www.skynews.com.au/australia-news/politics/bus-carrying-isislinked-australian-women-and-children-leaves-syrian-camp-for-damascus/news-story/1712390f292e3a0d9a710e059c3ad288?nk=e91e79f5ded0c046d432ffceaea93685-1779406334",
-              "primary_conflict": "syria",
-              "metrics": {
-                "mentions": 10,
-                "sources": 1,
-                "articles": 10,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1305330082",
-                "event_code": "173",
-                "cameo_desc": "Arrest, detain, or charge with legal action",
-                "actor1": "SYRIA",
-                "actor2": "CORRESPONDENT",
-                "actor1_country": "SYR",
-                "actor2_country": "nan",
-                "geo_lat": 33.5,
-                "geo_lon": 36.3,
-                "geo_name": "Damascus, Dimashq, Syria"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3",
-              "criticality": "background"
-            }
-          ]
+          "items": []
         },
         "opinion": {
           "label": "舆论热点",
@@ -7132,42 +7262,7 @@
         "military": {
           "label": "军事动态",
           "icon": "⚔️",
-          "items": [
-            {
-              "id": "gdelt_1305330307",
-              "title": "THE US → TAIWAN : Fight with artillery and tanks (Beijing, Beijing, China)",
-              "title_en": "THE US → TAIWAN : Fight with artillery and tanks (Beijing, Beijing, China)",
-              "summary": "GDELT Event: Fight with artillery and tanks. Actors: THE US / TAIWAN. Location: Beijing, Beijing, China. Goldstein Scale: -10.0. Mentioned in 4 sources.",
-              "summary_en": "GDELT Event: Fight with artillery and tanks. Actors: THE US / TAIWAN. Location: Beijing, Beijing, China. Goldstein Scale: -10.0. Mentioned in 4 sources.",
-              "source": "gdelt",
-              "source_label": "aol.co.uk",
-              "date": "2026-05-21",
-              "url": "https://www.aol.co.uk/articles/taiwan-risks-xi-wrath-trump-112843888.html",
-              "primary_conflict": "taiwan-strait",
-              "metrics": {
-                "mentions": 4,
-                "sources": 1,
-                "articles": 4,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1305330307",
-                "event_code": "194",
-                "cameo_desc": "Fight with artillery and tanks",
-                "actor1": "THE US",
-                "actor2": "TAIWAN",
-                "actor1_country": "USA",
-                "actor2_country": "TWN",
-                "geo_lat": 39.9289,
-                "geo_lon": 116.388,
-                "geo_name": "Beijing, Beijing, China"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3",
-              "criticality": "background"
-            }
-          ]
+          "items": []
         },
         "diplomacy": {
           "label": "外交谈判",
@@ -7259,13 +7354,13 @@
     }
   },
   "stats": {
-    "total_items": 207,
+    "total_items": 210,
     "sources": {
-      "gdelt": 207
+      "gdelt": 210
     },
     "date_range": {
-      "from": "2026-05-21",
-      "to": "2026-06-19"
+      "from": "2026-05-22",
+      "to": "2026-06-20"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
