@@ -5,8 +5,98 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 21 Jun 2026 10:01:03 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2026 12:06:06 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] RUSSIAN → KYIV : Use conventional military force, not specified below (Pechersk, Samarskaya Oblast', Russia)</title>
+      <link>https://www.thehindu.com/news/international/zelenskyy-warns-of-impending-massive-russian-attack-on-ukraine/article71127364.ece</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: RUSSIAN / KYIV. Location: Pechersk, Samarskaya Oblast', Russia. Goldstein Scale: -10.0. Mentioned in 6 sources.</description>
+      <guid isPermaLink="true">https://www.thehindu.com/news/international/zelenskyy-warns-of-impending-massive-russian-attack-on-ukraine/article71127364.ece</guid>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.thehindu.com/news/international/zelenskyy-warns-of-impending-massive-russian-attack-on-ukraine/article71127364.ece">thehindu.com</source>
+    </item>
+    <item>
+      <title>[俄乌战争] UKRAINE → VILLAGE : Use conventional military force, not specified below (Sumy, Sums'ka Oblast', Ukraine)</title>
+      <link>https://www.goulburnpost.com.au/story/9295943/zelenskiy-warns-of-impending-massive-russian-attack/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: UKRAINE / VILLAGE. Location: Sumy, Sums'ka Oblast', Ukraine. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">https://www.goulburnpost.com.au/story/9295943/zelenskiy-warns-of-impending-massive-russian-attack/</guid>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.goulburnpost.com.au/story/9295943/zelenskiy-warns-of-impending-massive-russian-attack/">goulburnpost.com.au</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAEL → HAMAS : Violate ceasefire (Gaza, Israel (general), Israel)</title>
+      <link>https://www.yahoo.com/news/world/articles/israeli-strikes-kill-six-people-220341667.html</link>
+      <description>GDELT Event: Violate ceasefire. Actors: ISRAEL / HAMAS. Location: Gaza, Israel (general), Israel. Goldstein Scale: -9.5. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.yahoo.com/news/world/articles/israeli-strikes-kill-six-people-220341667.html</guid>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.yahoo.com/news/world/articles/israeli-strikes-kill-six-people-220341667.html">yahoo.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] LEBANON → nan : Torture (Beirut, Beyrouth, Lebanon)</title>
+      <link>https://mishpacha.com/hijacked/</link>
+      <description>GDELT Event: Torture. Actors: LEBANON / nan. Location: Beirut, Beyrouth, Lebanon. Goldstein Scale: -9.0. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://mishpacha.com/hijacked/</guid>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://mishpacha.com/hijacked/">mishpacha.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] LEBANON → ISRAELI : Use conventional military force, not specified below (Beirut, Beyrouth, Lebanon)</title>
+      <link>https://dailycaller.com/2026/06/20/iran-declares-hormuz-strait-closed-israel-ceasefire-violations-strikes-lebanon-hezbollah/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: LEBANON / ISRAELI. Location: Beirut, Beyrouth, Lebanon. Goldstein Scale: -10.0. Mentioned in 3 sources.</description>
+      <guid isPermaLink="true">https://dailycaller.com/2026/06/20/iran-declares-hormuz-strait-closed-israel-ceasefire-violations-strikes-lebanon-hezbollah/</guid>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://dailycaller.com/2026/06/20/iran-declares-hormuz-strait-closed-israel-ceasefire-violations-strikes-lebanon-hezbollah/">dailycaller.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] LEBANON → ISRAELI : Use conventional military force, not specified below (Tehran, Tehran, Iran)</title>
+      <link>https://www.straitstimes.com/world/middle-east/iran-negotiators-head-for-switzerland-as-trump-threatens-us-tolls-on-strait-of-hormuz</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: LEBANON / ISRAELI. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 3 sources.</description>
+      <guid isPermaLink="true">https://www.straitstimes.com/world/middle-east/iran-negotiators-head-for-switzerland-as-trump-threatens-us-tolls-on-strait-of-hormuz</guid>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.straitstimes.com/world/middle-east/iran-negotiators-head-for-switzerland-as-trump-threatens-us-tolls-on-strait-of-hormuz">straitstimes.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAELI → LEBANON : Employ aerial weapons (Israel)</title>
+      <link>https://www.gdnonline.com:443/Details/1398256</link>
+      <description>GDELT Event: Employ aerial weapons. Actors: ISRAELI / LEBANON. Location: Israel. Goldstein Scale: -10.0. Mentioned in 3 sources.</description>
+      <guid isPermaLink="true">https://www.gdnonline.com:443/Details/1398256</guid>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.gdnonline.com:443/Details/1398256">gdnonline.com:443</source>
+    </item>
+    <item>
+      <title>[巴以冲突] HAMAS → ISRAEL : Use conventional military force, not specified below (Gaza, Israel (general), Israel)</title>
+      <link>https://www.gdnonline.com:443/Details/1398274</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: HAMAS / ISRAEL. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.gdnonline.com:443/Details/1398274</guid>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.gdnonline.com:443/Details/1398274">gdnonline.com:443</source>
+    </item>
+    <item>
+      <title>[苏丹内战] KORDOFAN → nan : Use conventional military force, not specified below (El Obeid, Shamal Kurdufan, Sudan)</title>
+      <link>https://www.miragenews.com/un-warns-of-mass-atrocity-risk-in-el-obeid-1696044/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: KORDOFAN / nan. Location: El Obeid, Shamal Kurdufan, Sudan. Goldstein Scale: -10.0. Mentioned in 3 sources.</description>
+      <guid isPermaLink="true">https://www.miragenews.com/un-warns-of-mass-atrocity-risk-in-el-obeid-1696044/</guid>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
+      <category>苏丹内战</category>
+      <category>军事动态</category>
+      <source url="https://www.miragenews.com/un-warns-of-mass-atrocity-risk-in-el-obeid-1696044/">miragenews.com</source>
+    </item>
     <item>
       <title>[俄乌战争] RUSSIA → UKRAINIAN : Use conventional military force, not specified below (Zelenskiy, Astrakhanskaya Oblast', Russia)</title>
       <link>https://www.rferl.org/a/ukraine-belarus-zelenskyy-lukashenko-russia-signal-relay/33784778.html</link>
@@ -66,6 +156,16 @@
       <category>巴以冲突</category>
       <category>军事动态</category>
       <source url="https://english.pnn.ps/news/48185">english.pnn.ps</source>
+    </item>
+    <item>
+      <title>[巴以冲突] LEBANON → ISRAELI : Use conventional military force, not specified below (Tehran, Tehran, Iran)</title>
+      <link>https://www.gdnonline.com:443/Details/1398273</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: LEBANON / ISRAELI. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">https://www.gdnonline.com:443/Details/1398273</guid>
+      <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.gdnonline.com:443/Details/1398273">gdnonline.com:443</source>
     </item>
     <item>
       <title>[美伊对峙] MILITARY → IRAN : Fight with small arms and light weapons (Iran)</title>
@@ -406,106 +506,6 @@
       <category>俄乌战争</category>
       <category>军事动态</category>
       <source url="https://scallywagandvagabond.com/2026/06/midland-texas-shooter-45-was-wanted-for-attempted-capital-murder-of-a-peace-officer/">scallywagandvagabond.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] SENATE → nan : Arrest, detain, or charge with legal action (Russia)</title>
-      <link>https://www.theblaze.com/news/rep-luna-void-trump-impeachment</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: SENATE / nan. Location: Russia. Goldstein Scale: -5.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.theblaze.com/news/rep-luna-void-trump-impeachment</guid>
-      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>外交谈判</category>
-      <source url="https://www.theblaze.com/news/rep-luna-void-trump-impeachment">theblaze.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] LEBANON → ISRAEL : Fight with artillery and tanks (Lebanon)</title>
-      <link>https://www.cp24.com/news/world/2026/06/12/hezbollah-says-it-confronted-israeli-troops-advancing-in-south-lebanon/</link>
-      <description>GDELT Event: Fight with artillery and tanks. Actors: LEBANON / ISRAEL. Location: Lebanon. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://www.cp24.com/news/world/2026/06/12/hezbollah-says-it-confronted-israeli-troops-advancing-in-south-lebanon/</guid>
-      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.cp24.com/news/world/2026/06/12/hezbollah-says-it-confronted-israeli-troops-advancing-in-south-lebanon/">cp24.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] VILLAGE → ISRAEL : Destroy property (Gaza, Israel (general), Israel)</title>
-      <link>https://home.nzcity.co.nz/news/article.aspx?id=447806</link>
-      <description>GDELT Event: Destroy property. Actors: VILLAGE / ISRAEL. Location: Gaza, Israel (general), Israel. Goldstein Scale: -9.2. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">https://home.nzcity.co.nz/news/article.aspx?id=447806</guid>
-      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>外交谈判</category>
-      <source url="https://home.nzcity.co.nz/news/article.aspx?id=447806">home.nzcity.co.nz</source>
-    </item>
-    <item>
-      <title>[俄乌战争] RUSSIAN → RUSSIAN : Use conventional military force, not specified below (Kyiv, Kyyiv, Misto, Ukraine)</title>
-      <link>http://www.jpost.com/opinion/article-898850</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: RUSSIAN / RUSSIAN. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -10.0. Mentioned in 6 sources.</description>
-      <guid isPermaLink="true">http://www.jpost.com/opinion/article-898850</guid>
-      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="http://www.jpost.com/opinion/article-898850">jpost.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ARMY → REFUGEE : Use conventional military force, not specified below (Jordan Valley, Israel (general), Israel)</title>
-      <link>https://imemc.org/article/israeli-invasions-and-abductions-in-the-occupied-west-bank/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: ARMY / REFUGEE. Location: Jordan Valley, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://imemc.org/article/israeli-invasions-and-abductions-in-the-occupied-west-bank/</guid>
-      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://imemc.org/article/israeli-invasions-and-abductions-in-the-occupied-west-bank/">imemc.org</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ADMINISTRATION → STUDENT : Coerce, not specified below (Gaza, Israel (general), Israel)</title>
-      <link>https://vtdigger.org/2026/06/11/vermont-student-activist-mohsen-mahdawi-faces-new-deportation-order/</link>
-      <description>GDELT Event: Coerce, not specified below. Actors: ADMINISTRATION / STUDENT. Location: Gaza, Israel (general), Israel. Goldstein Scale: -7.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://vtdigger.org/2026/06/11/vermont-student-activist-mohsen-mahdawi-faces-new-deportation-order/</guid>
-      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>外交谈判</category>
-      <source url="https://vtdigger.org/2026/06/11/vermont-student-activist-mohsen-mahdawi-faces-new-deportation-order/">vtdigger.org</source>
-    </item>
-    <item>
-      <title>[美伊对峙] ATTORNEY → nan : Torture (Iran)</title>
-      <link>https://www.foxnews.com/us/trump-plans-deport-iranians-violence-plagued-central-african-nation-new-deal</link>
-      <description>GDELT Event: Torture. Actors: ATTORNEY / nan. Location: Iran. Goldstein Scale: -9.0. Mentioned in 7 sources.</description>
-      <guid isPermaLink="true">https://www.foxnews.com/us/trump-plans-deport-iranians-violence-plagued-central-african-nation-new-deal</guid>
-      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://www.foxnews.com/us/trump-plans-deport-iranians-violence-plagued-central-african-nation-new-deal">foxnews.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] PRESIDENT → AMERICAN : Fight with small arms and light weapons (Tehran, Tehran, Iran)</title>
-      <link>https://ktrh.iheart.com/featured/houston-texas-news/content/2026-06-10-us-unleashes-new-airstrikes-against-iran/</link>
-      <description>GDELT Event: Fight with small arms and light weapons. Actors: PRESIDENT / AMERICAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">https://ktrh.iheart.com/featured/houston-texas-news/content/2026-06-10-us-unleashes-new-airstrikes-against-iran/</guid>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://ktrh.iheart.com/featured/houston-texas-news/content/2026-06-10-us-unleashes-new-airstrikes-against-iran/">ktrh.iheart.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] IRAN → BAHRAIN : Use conventional military force, not specified below (Chicago, Illinois, United States)</title>
-      <link>https://www.independent.co.uk/news/world/americas/us-politics/trump-war-drain-us-oil-reserve-reagan-b2993521.html</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: IRAN / BAHRAIN. Location: Chicago, Illinois, United States. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.independent.co.uk/news/world/americas/us-politics/trump-war-drain-us-oil-reserve-reagan-b2993521.html</guid>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://www.independent.co.uk/news/world/americas/us-politics/trump-war-drain-us-oil-reserve-reagan-b2993521.html">independent.co.uk</source>
-    </item>
-    <item>
-      <title>[美伊对峙] MILITARY → nan : Use conventional military force, not specified below (Sirik, Hormozgan, Iran)</title>
-      <link>https://www.cp24.com/news/world/2026/06/10/us-strikes-multiple-targets-in-iran-after-trump-threatened-more-attacks/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: MILITARY / nan. Location: Sirik, Hormozgan, Iran. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.cp24.com/news/world/2026/06/10/us-strikes-multiple-targets-in-iran-after-trump-threatened-more-attacks/</guid>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://www.cp24.com/news/world/2026/06/10/us-strikes-multiple-targets-in-iran-after-trump-threatened-more-attacks/">cp24.com</source>
     </item>
   </channel>
 </rss>
