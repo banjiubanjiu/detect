@@ -5,8 +5,58 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 24 Jun 2026 09:41:23 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 09:33:04 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] MILITARY → ASTRAKHAN : Use conventional military force, not specified below (Astrakhan, Astrakhanskaya Oblast', Russia)</title>
+      <link>https://www.eng.kavkaz-uzel.eu/articles/76373</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: MILITARY / ASTRAKHAN. Location: Astrakhan, Astrakhanskaya Oblast', Russia. Goldstein Scale: -10.0. Mentioned in 20 sources.</description>
+      <guid isPermaLink="true">https://www.eng.kavkaz-uzel.eu/articles/76373</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.eng.kavkaz-uzel.eu/articles/76373">eng.kavkaz-uzel.eu</source>
+    </item>
+    <item>
+      <title>[俄乌战争] RUSSIAN → SERVICEMEN : Use conventional military force, not specified below (Russia)</title>
+      <link>https://www.eng.kavkaz-uzel.eu/articles/76370</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: RUSSIAN / SERVICEMEN. Location: Russia. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.eng.kavkaz-uzel.eu/articles/76370</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.eng.kavkaz-uzel.eu/articles/76370">eng.kavkaz-uzel.eu</source>
+    </item>
+    <item>
+      <title>[俄乌战争] UKRAINIAN → ROSTOV : Use conventional military force, not specified below (Kiev, Ukraine (general), Ukraine)</title>
+      <link>https://www.odnako.org/moscow-under-a-rain-of-drones-zelensky-it-will-burn-with-us-refinery-set-on-fire-lavrov-promises-harsh-response/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: UKRAINIAN / ROSTOV. Location: Kiev, Ukraine (general), Ukraine. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://www.odnako.org/moscow-under-a-rain-of-drones-zelensky-it-will-burn-with-us-refinery-set-on-fire-lavrov-promises-harsh-response/</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.odnako.org/moscow-under-a-rain-of-drones-zelensky-it-will-burn-with-us-refinery-set-on-fire-lavrov-promises-harsh-response/">odnako.org</source>
+    </item>
+    <item>
+      <title>[俄乌战争] SVERDLOVSK → NURSE : Impose administrative sanctions, not specified below (Sverdlovsk, Sverdlovskaya Oblast', Russia)</title>
+      <link>https://www.eng.kavkaz-uzel.eu/articles/76371</link>
+      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: SVERDLOVSK / NURSE. Location: Sverdlovsk, Sverdlovskaya Oblast', Russia. Goldstein Scale: -5.0. Mentioned in 5 sources.</description>
+      <guid isPermaLink="true">https://www.eng.kavkaz-uzel.eu/articles/76371</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>外交谈判</category>
+      <source url="https://www.eng.kavkaz-uzel.eu/articles/76371">eng.kavkaz-uzel.eu</source>
+    </item>
+    <item>
+      <title>[美伊对峙] CHAMBER → IRAN : Use conventional military force, not specified below (Tehran, Tehran, Iran)</title>
+      <link>http://www.bignewsnetwork.com/news/279143651/us-senate-passes-resolution-seeking-to-limit-trump-iran-war-powers</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: CHAMBER / IRAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">http://www.bignewsnetwork.com/news/279143651/us-senate-passes-resolution-seeking-to-limit-trump-iran-war-powers</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="http://www.bignewsnetwork.com/news/279143651/us-senate-passes-resolution-seeking-to-limit-trump-iran-war-powers">bignewsnetwork.com</source>
+    </item>
     <item>
       <title>[俄乌战争] UNITED STATES → nan : Impose administrative sanctions, not specified below (Yall, Khabarovskiy Kray, Russia)</title>
       <link>https://wcyb.com/news/local/former-inmate-pleads-for-change-after-mckay-homicide-officer-reprimanded</link>
@@ -456,56 +506,6 @@
       <category>巴以冲突</category>
       <category>军事动态</category>
       <source url="https://www.presstv.ir/Detail/2026/06/15/770519/June-15--Iran-finalizes-MoU-as-tankers-and-cargo-ships-clear-US-naval-blockade">presstv.ir</source>
-    </item>
-    <item>
-      <title>[巴以冲突] IRAN → LEBANESE : Use conventional military force, not specified below (Lebanon)</title>
-      <link>https://www.presstv.ir/Detail/2026/06/15/770521/Quds-commander--Imposed-war-discredited-US,-accelerated-collapse-of-Israel</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: IRAN / LEBANESE. Location: Lebanon. Goldstein Scale: -10.0. Mentioned in 7 sources.</description>
-      <guid isPermaLink="true">https://www.presstv.ir/Detail/2026/06/15/770521/Quds-commander--Imposed-war-discredited-US,-accelerated-collapse-of-Israel</guid>
-      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.presstv.ir/Detail/2026/06/15/770521/Quds-commander--Imposed-war-discredited-US,-accelerated-collapse-of-Israel">presstv.ir</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAELI → IRANIAN : Assassinate (Israel)</title>
-      <link>https://www.presstv.ir/Detail/2026/06/15/770481/mystery-surrounds-death-iranian-ai-pioneer-france-fingers-pointing-mossad%20class=hover-effect</link>
-      <description>GDELT Event: Assassinate. Actors: ISRAELI / IRANIAN. Location: Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.</description>
-      <guid isPermaLink="true">https://www.presstv.ir/Detail/2026/06/15/770481/mystery-surrounds-death-iranian-ai-pioneer-france-fingers-pointing-mossad%20class=hover-effect</guid>
-      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.presstv.ir/Detail/2026/06/15/770481/mystery-surrounds-death-iranian-ai-pioneer-france-fingers-pointing-mossad%20class=hover-effect">presstv.ir</source>
-    </item>
-    <item>
-      <title>[巴以冲突] THE US → IRAN : Use conventional military force, not specified below (Gaza, Israel (general), Israel)</title>
-      <link>https://www.freemalaysiatoday.com/category/highlight/2026/06/16/netanyahu-says-war-with-iran-saved-israel-from-threat-of-nuclear-annihilation</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: THE US / IRAN. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.freemalaysiatoday.com/category/highlight/2026/06/16/netanyahu-says-war-with-iran-saved-israel-from-threat-of-nuclear-annihilation</guid>
-      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.freemalaysiatoday.com/category/highlight/2026/06/16/netanyahu-says-war-with-iran-saved-israel-from-threat-of-nuclear-annihilation">freemalaysiatoday.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAEL → MILITANT : Use conventional military force, not specified below (Jerusalem, Israel (general), Israel)</title>
-      <link>https://www.koreaherald.com/article/10772325</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / MILITANT. Location: Jerusalem, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.koreaherald.com/article/10772325</guid>
-      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.koreaherald.com/article/10772325">koreaherald.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] CITIZEN → IRANIAN : Use conventional military force, not specified below (Iran)</title>
-      <link>https://nypost.com/2026/06/15/opinion/fast-takes-trump-abandons-iranian-people-becerras-disqualifying-legacy-and-more/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: CITIZEN / IRANIAN. Location: Iran. Goldstein Scale: -10.0. Mentioned in 6 sources.</description>
-      <guid isPermaLink="true">https://nypost.com/2026/06/15/opinion/fast-takes-trump-abandons-iranian-people-becerras-disqualifying-legacy-and-more/</guid>
-      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://nypost.com/2026/06/15/opinion/fast-takes-trump-abandons-iranian-people-becerras-disqualifying-legacy-and-more/">nypost.com</source>
     </item>
   </channel>
 </rss>
