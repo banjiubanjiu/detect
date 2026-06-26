@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T09:33:21+00:00Z",
+  "updated_at": "2026-06-26T09:38:38+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -1173,6 +1173,105 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1310814855",
+              "title": "RUSSIA → RUSSIAN : Use unconventional violence, not specified below (Russia)",
+              "title_en": "RUSSIA → RUSSIAN : Use unconventional violence, not specified below (Russia)",
+              "summary": "GDELT Event: Use unconventional violence, not specified below. Actors: RUSSIA / RUSSIAN. Location: Russia. Goldstein Scale: -9.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Use unconventional violence, not specified below. Actors: RUSSIA / RUSSIAN. Location: Russia. Goldstein Scale: -9.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "theconversation.com",
+              "date": "2026-06-25",
+              "url": "https://theconversation.com/other-nations-thirst-for-ukraines-drone-success-but-they-need-a-culture-shift-first-286187",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -9.0
+              },
+              "gdelt_meta": {
+                "event_id": "1310814855",
+                "event_code": "180",
+                "cameo_desc": "Use unconventional violence, not specified below",
+                "actor1": "RUSSIA",
+                "actor2": "RUSSIAN",
+                "actor1_country": "RUS",
+                "actor2_country": "RUS",
+                "geo_lat": 60.0,
+                "geo_lon": 100.0,
+                "geo_name": "Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1310814874",
+              "title": "UKRAINE → nan : Occupy territory (Kyiv, Kyyiv, Misto, Ukraine)",
+              "title_en": "UKRAINE → nan : Occupy territory (Kyiv, Kyyiv, Misto, Ukraine)",
+              "summary": "GDELT Event: Occupy territory. Actors: UKRAINE / nan. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -9.5. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Occupy territory. Actors: UKRAINE / nan. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -9.5. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "defensenews.com",
+              "date": "2026-06-25",
+              "url": "https://www.defensenews.com/unmanned/2026/06/25/ukraines-top-strike-drone-maker-moves-into-ballistic-missile-defense/",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -9.5
+              },
+              "gdelt_meta": {
+                "event_id": "1310814874",
+                "event_code": "192",
+                "cameo_desc": "Occupy territory",
+                "actor1": "UKRAINE",
+                "actor2": "nan",
+                "actor1_country": "UKR",
+                "actor2_country": "nan",
+                "geo_lat": 50.4333,
+                "geo_lon": 30.5167,
+                "geo_name": "Kyiv, Kyyiv, Misto, Ukraine"
+              },
+              "admiralty_source": "B",
+              "admiralty_info": 3,
+              "admiralty_code": "B3"
+            },
+            {
+              "id": "gdelt_1310814351",
+              "title": "nan → RUSSIA : Use conventional military force, not specified below (Afghanistan)",
+              "title_en": "nan → RUSSIA : Use conventional military force, not specified below (Afghanistan)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: nan / RUSSIA. Location: Afghanistan. Goldstein Scale: -10.0. Mentioned in 1 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: nan / RUSSIA. Location: Afghanistan. Goldstein Scale: -10.0. Mentioned in 1 sources.",
+              "source": "gdelt",
+              "source_label": "newsbusters.org",
+              "date": "2026-06-25",
+              "url": "https://www.newsbusters.org/blogs/nb/geoffrey-dickens/2007/09/05/today-devotes-entire-half-hour-team-billary",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 1,
+                "sources": 1,
+                "articles": 1,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1310814351",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "nan",
+                "actor2": "RUSSIA",
+                "actor1_country": "nan",
+                "actor2_country": "RUS",
+                "geo_lat": 33.0,
+                "geo_lon": 66.0,
+                "geo_name": "Afghanistan"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -1180,72 +1279,6 @@
           "label": "外交谈判",
           "icon": "🕊️",
           "items": [
-            {
-              "id": "gdelt_1306062619",
-              "title": "LENINGRAD → nan : Arrest, detain, or charge with legal action (Leningrad, Sankt-Peterburg, Russia)",
-              "title_en": "LENINGRAD → nan : Arrest, detain, or charge with legal action (Leningrad, Sankt-Peterburg, Russia)",
-              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: LENINGRAD / nan. Location: Leningrad, Sankt-Peterburg, Russia. Goldstein Scale: -5.0. Mentioned in 8 sources.",
-              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: LENINGRAD / nan. Location: Leningrad, Sankt-Peterburg, Russia. Goldstein Scale: -5.0. Mentioned in 8 sources.",
-              "source": "gdelt",
-              "source_label": "womansworld.com",
-              "date": "2026-05-26",
-              "url": "https://www.womansworld.com/entertainment/books/tom-hanks-ww2-documentary-is-addictive-these-books-fill-the-gap",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 8,
-                "sources": 1,
-                "articles": 8,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1306062619",
-                "event_code": "173",
-                "cameo_desc": "Arrest, detain, or charge with legal action",
-                "actor1": "LENINGRAD",
-                "actor2": "nan",
-                "actor1_country": "RUS",
-                "actor2_country": "nan",
-                "geo_lat": 59.8944,
-                "geo_lon": 30.2642,
-                "geo_name": "Leningrad, Sankt-Peterburg, Russia"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1306062431",
-              "title": "PRIME MINISTER → SAMARA : Expel or deport individuals (Greece)",
-              "title_en": "PRIME MINISTER → SAMARA : Expel or deport individuals (Greece)",
-              "summary": "GDELT Event: Expel or deport individuals. Actors: PRIME MINISTER / SAMARA. Location: Greece. Goldstein Scale: -5.0. Mentioned in 3 sources.",
-              "summary_en": "GDELT Event: Expel or deport individuals. Actors: PRIME MINISTER / SAMARA. Location: Greece. Goldstein Scale: -5.0. Mentioned in 3 sources.",
-              "source": "gdelt",
-              "source_label": "freemalaysiatoday.com",
-              "date": "2026-05-26",
-              "url": "https://www.freemalaysiatoday.com/category/world/2026/05/27/greek-ex-pm-tsipras-announces-new-party-in-comeback",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 3,
-                "sources": 1,
-                "articles": 3,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1306062431",
-                "event_code": "174",
-                "cameo_desc": "Expel or deport individuals",
-                "actor1": "PRIME MINISTER",
-                "actor2": "SAMARA",
-                "actor1_country": "nan",
-                "actor2_country": "RUS",
-                "geo_lat": 39.0,
-                "geo_lon": 22.0,
-                "geo_name": "Greece"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1306242098",
               "title": "RUSSIA → TERRORIST ORGANIZATION : Impose administrative sanctions, not specified below (Rostov-On-Don, Rostovskaya Oblast', Russia)",
@@ -1650,72 +1683,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1306062485",
-              "title": "ISRAEL → HAMAS : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
-              "title_en": "ISRAEL → HAMAS : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / HAMAS. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / HAMAS. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "source": "gdelt",
-              "source_label": "yahoo.com",
-              "date": "2026-05-26",
-              "url": "https://www.yahoo.com/news/world/articles/three-killed-dozens-injured-israeli-225051003.html",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 10,
-                "sources": 1,
-                "articles": 10,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1306062485",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "ISRAEL",
-                "actor2": "HAMAS",
-                "actor1_country": "ISR",
-                "actor2_country": "PSE",
-                "geo_lat": 31.4167,
-                "geo_lon": 34.3333,
-                "geo_name": "Gaza, Israel (general), Israel"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1306062111",
-              "title": "nan → HEALTH MINIST : Use conventional military force, not specified below (Srifa, Liban-Sud, Lebanon)",
-              "title_en": "nan → HEALTH MINIST : Use conventional military force, not specified below (Srifa, Liban-Sud, Lebanon)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: nan / HEALTH MINIST. Location: Srifa, Liban-Sud, Lebanon. Goldstein Scale: -10.0. Mentioned in 4 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: nan / HEALTH MINIST. Location: Srifa, Liban-Sud, Lebanon. Goldstein Scale: -10.0. Mentioned in 4 sources.",
-              "source": "gdelt",
-              "source_label": "freemalaysiatoday.com",
-              "date": "2026-05-26",
-              "url": "https://www.freemalaysiatoday.com/category/highlight/2026/05/27/israeli-strikes-kill-31-in-south-lebanon-as-israel-expands-ground-operations",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 4,
-                "sources": 1,
-                "articles": 4,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1306062111",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "nan",
-                "actor2": "HEALTH MINIST",
-                "actor1_country": "nan",
-                "actor2_country": "nan",
-                "geo_lat": 33.2814,
-                "geo_lon": 35.3967,
-                "geo_name": "Srifa, Liban-Sud, Lebanon"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1306241509",
               "title": "nan → HEALTH OFFICIAL : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
@@ -4198,39 +4165,6 @@
           "icon": "🕊️",
           "items": [
             {
-              "id": "gdelt_1306062475",
-              "title": "ISRAELI → ISRAEL : Destroy property (Israel)",
-              "title_en": "ISRAELI → ISRAEL : Destroy property (Israel)",
-              "summary": "GDELT Event: Destroy property. Actors: ISRAELI / ISRAEL. Location: Israel. Goldstein Scale: -9.2. Mentioned in 6 sources.",
-              "summary_en": "GDELT Event: Destroy property. Actors: ISRAELI / ISRAEL. Location: Israel. Goldstein Scale: -9.2. Mentioned in 6 sources.",
-              "source": "gdelt",
-              "source_label": "columbian.com",
-              "date": "2026-05-26",
-              "url": "https://www.columbian.com/news/2026/may/26/israel-hezbollah-clash-along-key-river/",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 6,
-                "sources": 1,
-                "articles": 4,
-                "goldstein": -9.2
-              },
-              "gdelt_meta": {
-                "event_id": "1306062475",
-                "event_code": "1712",
-                "cameo_desc": "Destroy property",
-                "actor1": "ISRAELI",
-                "actor2": "ISRAEL",
-                "actor1_country": "ISR",
-                "actor2_country": "ISR",
-                "geo_lat": 31.5,
-                "geo_lon": 34.75,
-                "geo_name": "Israel"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
               "id": "gdelt_1306242392",
               "title": "VERMONT → VERMONT : Destroy property (Israel)",
               "title_en": "VERMONT → VERMONT : Destroy property (Israel)",
@@ -6065,6 +5999,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1310814716",
+              "title": "IRAN → nan : Demonstrate or rally (Australia)",
+              "title_en": "IRAN → nan : Demonstrate or rally (Australia)",
+              "summary": "GDELT Event: Demonstrate or rally. Actors: IRAN / nan. Location: Australia. Goldstein Scale: -6.5. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Demonstrate or rally. Actors: IRAN / nan. Location: Australia. Goldstein Scale: -6.5. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "islandsbusiness.com",
+              "date": "2026-06-25",
+              "url": "https://islandsbusiness.com/news-break/australias-huge-nuclear-dilemma/",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -6.5
+              },
+              "gdelt_meta": {
+                "event_id": "1310814716",
+                "event_code": "141",
+                "cameo_desc": "Demonstrate or rally",
+                "actor1": "IRAN",
+                "actor2": "nan",
+                "actor1_country": "IRN",
+                "actor2_country": "nan",
+                "geo_lat": -25.0,
+                "geo_lon": 135.0,
+                "geo_name": "Australia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -6241,40 +6208,6 @@
           "label": "外交谈判",
           "icon": "🕊️",
           "items": [
-            {
-              "id": "gdelt_1306062241",
-              "title": "CANADA → SOUTH SUDAN : Impose administrative sanctions, not specified below (Washington, District of Columbia, United States)",
-              "title_en": "CANADA → SOUTH SUDAN : Impose administrative sanctions, not specified below (Washington, District of Columbia, United States)",
-              "summary": "GDELT Event: Impose administrative sanctions, not specified below. Actors: CANADA / SOUTH SUDAN. Location: Washington, District of Columbia, United States. Goldstein Scale: -5.0. Mentioned in 10 sources.",
-              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: CANADA / SOUTH SUDAN. Location: Washington, District of Columbia, United States. Goldstein Scale: -5.0. Mentioned in 10 sources.",
-              "source": "gdelt",
-              "source_label": "whbl.com",
-              "date": "2026-05-26",
-              "url": "https://whbl.com/2026/05/26/canada-imposes-ebola-related-travel-ban-as-bahamas-plans-similar-move/",
-              "primary_conflict": "sudan",
-              "metrics": {
-                "mentions": 10,
-                "sources": 1,
-                "articles": 10,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1306062241",
-                "event_code": "172",
-                "cameo_desc": "Impose administrative sanctions, not specified below",
-                "actor1": "CANADA",
-                "actor2": "SOUTH SUDAN",
-                "actor1_country": "CAN",
-                "actor2_country": "SSD",
-                "geo_lat": 38.8951,
-                "geo_lon": -77.0364,
-                "geo_name": "Washington, District of Columbia, United States"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3",
-              "criticality": "background"
-            },
             {
               "id": "gdelt_1307345825",
               "title": "INTERNATIONAL CRIMINAL COURT → SUDANESE : Arrest, detain, or charge with legal action (Darfur, Gharb Darfur, Sudan)",
@@ -6596,6 +6529,40 @@
               "admiralty_info": 3,
               "admiralty_code": "C3",
               "criticality": "background"
+            },
+            {
+              "id": "gdelt_1310814821",
+              "title": "SHIA → KARBALA : Use conventional military force, not specified below (Red Sea, Djibouti (general), Djibouti)",
+              "title_en": "SHIA → KARBALA : Use conventional military force, not specified below (Red Sea, Djibouti (general), Djibouti)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: SHIA / KARBALA. Location: Red Sea, Djibouti (general), Djibouti. Goldstein Scale: -10.0. Mentioned in 5 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: SHIA / KARBALA. Location: Red Sea, Djibouti (general), Djibouti. Goldstein Scale: -10.0. Mentioned in 5 sources.",
+              "source": "gdelt",
+              "source_label": "thehindu.com",
+              "date": "2026-06-25",
+              "url": "https://www.thehindu.com/society/faith/a-day-written-in-divine-mercy/article71146317.ece",
+              "primary_conflict": "yemen-houthi",
+              "metrics": {
+                "mentions": 5,
+                "sources": 1,
+                "articles": 5,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1310814821",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "SHIA",
+                "actor2": "KARBALA",
+                "actor1_country": "nan",
+                "actor2_country": "IRQ",
+                "geo_lat": 19.0,
+                "geo_lon": 39.5,
+                "geo_name": "Red Sea, Djibouti (general), Djibouti"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3",
+              "criticality": "background"
             }
           ]
         },
@@ -6828,7 +6795,42 @@
         "diplomacy": {
           "label": "外交谈判",
           "icon": "🕊️",
-          "items": []
+          "items": [
+            {
+              "id": "gdelt_1310814869",
+              "title": "SYRIA → IMMIGRANT : Coerce, not specified below (Springfield, Ohio, United States)",
+              "title_en": "SYRIA → IMMIGRANT : Coerce, not specified below (Springfield, Ohio, United States)",
+              "summary": "GDELT Event: Coerce, not specified below. Actors: SYRIA / IMMIGRANT. Location: Springfield, Ohio, United States. Goldstein Scale: -7.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Coerce, not specified below. Actors: SYRIA / IMMIGRANT. Location: Springfield, Ohio, United States. Goldstein Scale: -7.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "esquire.com",
+              "date": "2026-06-25",
+              "url": "https://www.esquire.com/news-politics/politics/a71734069/scotus-migrants-temporary-protected-status/",
+              "primary_conflict": "syria",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -7.0
+              },
+              "gdelt_meta": {
+                "event_id": "1310814869",
+                "event_code": "170",
+                "cameo_desc": "Coerce, not specified below",
+                "actor1": "SYRIA",
+                "actor2": "IMMIGRANT",
+                "actor1_country": "SYR",
+                "actor2_country": "nan",
+                "geo_lat": 39.9242,
+                "geo_lon": -83.8088,
+                "geo_name": "Springfield, Ohio, United States"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3",
+              "criticality": "background"
+            }
+          ]
         },
         "opinion": {
           "label": "舆论热点",
@@ -6963,8 +6965,8 @@
       "gdelt": 198
     },
     "date_range": {
-      "from": "2026-05-26",
-      "to": "2026-06-24"
+      "from": "2026-05-27",
+      "to": "2026-06-25"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",

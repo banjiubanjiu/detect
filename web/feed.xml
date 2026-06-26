@@ -5,8 +5,98 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 25 Jun 2026 09:33:04 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 09:38:21 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] FIGHTER JET → RUSSIA : Employ aerial weapons (Tulcea, Tulcea, Romania)</title>
+      <link>https://jamestown.org/romania-invests-heavily-in-air-defense-to-counter-russian-threat/</link>
+      <description>GDELT Event: Employ aerial weapons. Actors: FIGHTER JET / RUSSIA. Location: Tulcea, Tulcea, Romania. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://jamestown.org/romania-invests-heavily-in-air-defense-to-counter-russian-threat/</guid>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://jamestown.org/romania-invests-heavily-in-air-defense-to-counter-russian-threat/">jamestown.org</source>
+    </item>
+    <item>
+      <title>[俄乌战争] VOLGOGRAD → DEFENSE ATTORNEY : Arrest, detain, or charge with legal action (Volgograd, Volgogradskaya Oblast', Russia)</title>
+      <link>https://www.eng.kavkaz-uzel.eu/articles/76399</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: VOLGOGRAD / DEFENSE ATTORNEY. Location: Volgograd, Volgogradskaya Oblast', Russia. Goldstein Scale: -5.0. Mentioned in 7 sources.</description>
+      <guid isPermaLink="true">https://www.eng.kavkaz-uzel.eu/articles/76399</guid>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>外交谈判</category>
+      <source url="https://www.eng.kavkaz-uzel.eu/articles/76399">eng.kavkaz-uzel.eu</source>
+    </item>
+    <item>
+      <title>[俄乌战争] RUSSIAN → nan : Arrest, detain, or charge with legal action (nan)</title>
+      <link>https://jamestown.org/tbilisis-counterintelligence-drive-strains-western-ties/</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: RUSSIAN / nan. Location: nan. Goldstein Scale: -5.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://jamestown.org/tbilisis-counterintelligence-drive-strains-western-ties/</guid>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>外交谈判</category>
+      <source url="https://jamestown.org/tbilisis-counterintelligence-drive-strains-western-ties/">jamestown.org</source>
+    </item>
+    <item>
+      <title>[巴以冲突] COLOMBIA → HUMAN RIGHTS ORGANIZATION : Engage in mass killings (Gaza, Israel (general), Israel)</title>
+      <link>https://www.cbsnews.com/news/colombia-presidential-election-abelardo-de-la-espriella-winner/</link>
+      <description>GDELT Event: Engage in mass killings. Actors: COLOMBIA / HUMAN RIGHTS ORGANIZATION. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.cbsnews.com/news/colombia-presidential-election-abelardo-de-la-espriella-winner/</guid>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.cbsnews.com/news/colombia-presidential-election-abelardo-de-la-espriella-winner/">cbsnews.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] MASSACHUSETTS → ISRAEL : Use conventional military force, not specified below (Gaza, Israel (general), Israel)</title>
+      <link>https://legalinsurrection.com/2026/06/jewish-groups-threaten-to-sue-somerville-ma-over-anti-israel-boycott-ordinance/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: MASSACHUSETTS / ISRAEL. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://legalinsurrection.com/2026/06/jewish-groups-threaten-to-sue-somerville-ma-over-anti-israel-boycott-ordinance/</guid>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://legalinsurrection.com/2026/06/jewish-groups-threaten-to-sue-somerville-ma-over-anti-israel-boycott-ordinance/">legalinsurrection.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAELI → LEBANON : Use conventional military force, not specified below (Tel Aviv, Tel Aviv, Israel)</title>
+      <link>https://www.arabnews.com/node/2648488/middle-east</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAELI / LEBANON. Location: Tel Aviv, Tel Aviv, Israel. Goldstein Scale: -10.0. Mentioned in 9 sources.</description>
+      <guid isPermaLink="true">https://www.arabnews.com/node/2648488/middle-east</guid>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.arabnews.com/node/2648488/middle-east">arabnews.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] LEBANON → ISRAEL : Use conventional military force, not specified below (Israel)</title>
+      <link>https://www.israelnationalnews.com/news/429154</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: LEBANON / ISRAEL. Location: Israel. Goldstein Scale: -10.0. Mentioned in 7 sources.</description>
+      <guid isPermaLink="true">https://www.israelnationalnews.com/news/429154</guid>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.israelnationalnews.com/news/429154">israelnationalnews.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] GAZA → ISRAELI : Use conventional military force, not specified below (Gaza, Israel (general), Israel)</title>
+      <link>https://www.arabnews.com/node/2648487/middle-east</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: GAZA / ISRAELI. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.</description>
+      <guid isPermaLink="true">https://www.arabnews.com/node/2648487/middle-east</guid>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.arabnews.com/node/2648487/middle-east">arabnews.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] IRAN → PRESIDENT : Use conventional military force, not specified below (Minab, Sistan va Baluchestan, Iran)</title>
+      <link>https://www.thehindu.com/news/international/trump-says-it-may-never-be-known-who-was-at-fault-for-strike-on-girls-school-in-iran/article71143766.ece</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: IRAN / PRESIDENT. Location: Minab, Sistan va Baluchestan, Iran. Goldstein Scale: -10.0. Mentioned in 3 sources.</description>
+      <guid isPermaLink="true">https://www.thehindu.com/news/international/trump-says-it-may-never-be-known-who-was-at-fault-for-strike-on-girls-school-in-iran/article71143766.ece</guid>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://www.thehindu.com/news/international/trump-says-it-may-never-be-known-who-was-at-fault-for-strike-on-girls-school-in-iran/article71143766.ece">thehindu.com</source>
+    </item>
     <item>
       <title>[俄乌战争] MILITARY → ASTRAKHAN : Use conventional military force, not specified below (Astrakhan, Astrakhanskaya Oblast', Russia)</title>
       <link>https://www.eng.kavkaz-uzel.eu/articles/76373</link>
@@ -416,96 +506,6 @@
       <category>俄乌战争</category>
       <category>军事动态</category>
       <source url="https://www.dailystar.co.uk/news/uk-news/retired-british-couple-recount-scary-37306217">dailystar.co.uk</source>
-    </item>
-    <item>
-      <title>[俄乌战争] RUSSIAN → UNITED KINGDOM : Use conventional military force, not specified below (Moscow, Moskva, Russia)</title>
-      <link>https://www.spacewar.com/afp/260616193635.854o89ny.html</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: RUSSIAN / UNITED KINGDOM. Location: Moscow, Moskva, Russia. Goldstein Scale: -10.0. Mentioned in 6 sources.</description>
-      <guid isPermaLink="true">https://www.spacewar.com/afp/260616193635.854o89ny.html</guid>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://www.spacewar.com/afp/260616193635.854o89ny.html">spacewar.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] RUSSIA → nan : Use unconventional violence, not specified below (Washington, District of Columbia, United States)</title>
-      <link>https://www.forbes.com/sites/kevinholdenplatt/2026/06/16/elon-musk-can-join-up-with-ukraine-forces-to-shoot-down-irans-drones/</link>
-      <description>GDELT Event: Use unconventional violence, not specified below. Actors: RUSSIA / nan. Location: Washington, District of Columbia, United States. Goldstein Scale: -9.0. Mentioned in 1 sources.</description>
-      <guid isPermaLink="true">https://www.forbes.com/sites/kevinholdenplatt/2026/06/16/elon-musk-can-join-up-with-ukraine-forces-to-shoot-down-irans-drones/</guid>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://www.forbes.com/sites/kevinholdenplatt/2026/06/16/elon-musk-can-join-up-with-ukraine-forces-to-shoot-down-irans-drones/">forbes.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] VOLGOGRAD → KRASNODAR : Confiscate property (Volga, Yaroslavskaya Oblast', Russia)</title>
-      <link>https://www.eng.kavkaz-uzel.eu/articles/76184</link>
-      <description>GDELT Event: Confiscate property. Actors: VOLGOGRAD / KRASNODAR. Location: Volga, Yaroslavskaya Oblast', Russia. Goldstein Scale: -9.2. Mentioned in 7 sources.</description>
-      <guid isPermaLink="true">https://www.eng.kavkaz-uzel.eu/articles/76184</guid>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>外交谈判</category>
-      <source url="https://www.eng.kavkaz-uzel.eu/articles/76184">eng.kavkaz-uzel.eu</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAEL → nan : Fight with small arms and light weapons (Jerusalem, Israel (general), Israel)</title>
-      <link>https://www.kxxv.com/news/local-news/in-your-neighborhood/mclennan-county/waco/second-defendant-convicted-in-lee-murrow-murder-receives-20-year-prison-sentence</link>
-      <description>GDELT Event: Fight with small arms and light weapons. Actors: ISRAEL / nan. Location: Jerusalem, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://www.kxxv.com/news/local-news/in-your-neighborhood/mclennan-county/waco/second-defendant-convicted-in-lee-murrow-murder-receives-20-year-prison-sentence</guid>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.kxxv.com/news/local-news/in-your-neighborhood/mclennan-county/waco/second-defendant-convicted-in-lee-murrow-murder-receives-20-year-prison-sentence">kxxv.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] nan → IRAN : Fight with artillery and tanks (Tennessee, United States)</title>
-      <link>http://www.iranherald.com/news/279127596/musks-grok-ai-helped-fire-2000-missiles-at-iran-pentagon</link>
-      <description>GDELT Event: Fight with artillery and tanks. Actors: nan / IRAN. Location: Tennessee, United States. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">http://www.iranherald.com/news/279127596/musks-grok-ai-helped-fire-2000-missiles-at-iran-pentagon</guid>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="http://www.iranherald.com/news/279127596/musks-grok-ai-helped-fire-2000-missiles-at-iran-pentagon">iranherald.com</source>
-    </item>
-    <item>
-      <title>[也门/胡塞武装] CHINA → EGYPT : Occupy territory (Red Sea, Djibouti (general), Djibouti)</title>
-      <link>https://oilprice.com/Energy/Natural-Gas/Egypt-Clears-6-Billion-in-Energy-Debt-and-Opens-Door-to-a-New-Gas-Boom.html</link>
-      <description>GDELT Event: Occupy territory. Actors: CHINA / EGYPT. Location: Red Sea, Djibouti (general), Djibouti. Goldstein Scale: -9.5. Mentioned in 1 sources.</description>
-      <guid isPermaLink="true">https://oilprice.com/Energy/Natural-Gas/Egypt-Clears-6-Billion-in-Energy-Debt-and-Opens-Door-to-a-New-Gas-Boom.html</guid>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-      <category>也门/胡塞武装</category>
-      <category>军事动态</category>
-      <source url="https://oilprice.com/Energy/Natural-Gas/Egypt-Clears-6-Billion-in-Energy-Debt-and-Opens-Door-to-a-New-Gas-Boom.html">oilprice.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] PROTESTER → nan : Demonstrate or rally (Petersburg, Sankt-Peterburg, Russia)</title>
-      <link>https://www.fox2detroit.com/news/dueling-dan-sullivans-alaska-blocks-sham-candidate-from-ballot-after-name-confusion-drama</link>
-      <description>GDELT Event: Demonstrate or rally. Actors: PROTESTER / nan. Location: Petersburg, Sankt-Peterburg, Russia. Goldstein Scale: -6.5. Mentioned in 6 sources.</description>
-      <guid isPermaLink="true">https://www.fox2detroit.com/news/dueling-dan-sullivans-alaska-blocks-sham-candidate-from-ballot-after-name-confusion-drama</guid>
-      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>舆论热点</category>
-      <source url="https://www.fox2detroit.com/news/dueling-dan-sullivans-alaska-blocks-sham-candidate-from-ballot-after-name-confusion-drama">fox2detroit.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] GOVERNMENT → LEBANON : Use conventional military force, not specified below (Lebanon)</title>
-      <link>https://www.newsday.com/opinion/editorials/iran-war-ceasefire-deal-xqefsc75</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: GOVERNMENT / LEBANON. Location: Lebanon. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">https://www.newsday.com/opinion/editorials/iran-war-ceasefire-deal-xqefsc75</guid>
-      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.newsday.com/opinion/editorials/iran-war-ceasefire-deal-xqefsc75">newsday.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] POLITICIAN → ISRAEL : Use conventional military force, not specified below (Tel Aviv, Tel Aviv, Israel)</title>
-      <link>https://www.presstv.ir/Detail/2026/06/15/770519/June-15--Iran-finalizes-MoU-as-tankers-and-cargo-ships-clear-US-naval-blockade</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: POLITICIAN / ISRAEL. Location: Tel Aviv, Tel Aviv, Israel. Goldstein Scale: -10.0. Mentioned in 7 sources.</description>
-      <guid isPermaLink="true">https://www.presstv.ir/Detail/2026/06/15/770519/June-15--Iran-finalizes-MoU-as-tankers-and-cargo-ships-clear-US-naval-blockade</guid>
-      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.presstv.ir/Detail/2026/06/15/770519/June-15--Iran-finalizes-MoU-as-tankers-and-cargo-ships-clear-US-naval-blockade">presstv.ir</source>
     </item>
   </channel>
 </rss>
