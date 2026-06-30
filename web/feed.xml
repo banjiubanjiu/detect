@@ -5,8 +5,38 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 29 Jun 2026 11:11:03 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 09:47:08 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] UNITED STATES → nan : Use conventional military force, not specified below (Russia)</title>
+      <link>https://collider.com/denzel-washington-the-equalizer-trilogy-streaming-hbo-max-july-2026/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: UNITED STATES / nan. Location: Russia. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://collider.com/denzel-washington-the-equalizer-trilogy-streaming-hbo-max-july-2026/</guid>
+      <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://collider.com/denzel-washington-the-equalizer-trilogy-streaming-hbo-max-july-2026/">collider.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAEL → JOURNALIST : Use conventional military force, not specified below (Gaza, Israel (general), Israel)</title>
+      <link>https://www.middleeasteye.net/live-blog/live-blog-update/gaza-journalists-work-tents-after-israel-destroys-media-offices</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / JOURNALIST. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.middleeasteye.net/live-blog/live-blog-update/gaza-journalists-work-tents-after-israel-destroys-media-offices</guid>
+      <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.middleeasteye.net/live-blog/live-blog-update/gaza-journalists-work-tents-after-israel-destroys-media-offices">middleeasteye.net</source>
+    </item>
+    <item>
+      <title>[美伊对峙] UNITED STATES → IRAN : Violate ceasefire (Tehran, Tehran, Iran)</title>
+      <link>https://www.middleeasteye.net/live-blog/live-blog-update/us-and-iran-agree-resume-strait-hormuz-talks-report</link>
+      <description>GDELT Event: Violate ceasefire. Actors: UNITED STATES / IRAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -9.5. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.middleeasteye.net/live-blog/live-blog-update/us-and-iran-agree-resume-strait-hormuz-talks-report</guid>
+      <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://www.middleeasteye.net/live-blog/live-blog-update/us-and-iran-agree-resume-strait-hormuz-talks-report">middleeasteye.net</source>
+    </item>
     <item>
       <title>[俄乌战争] CRIMINAL → RUSSIAN : Use conventional military force, not specified below (Dagestan, Dagestan, Russia)</title>
       <link>https://www.eng.kavkaz-uzel.eu/articles/76476</link>
@@ -476,36 +506,6 @@
       <category>巴以冲突</category>
       <category>军事动态</category>
       <source url="https://www.yahoo.com/news/world/articles/israeli-strikes-kill-six-people-220341667.html">yahoo.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] LEBANON → nan : Torture (Beirut, Beyrouth, Lebanon)</title>
-      <link>https://mishpacha.com/hijacked/</link>
-      <description>GDELT Event: Torture. Actors: LEBANON / nan. Location: Beirut, Beyrouth, Lebanon. Goldstein Scale: -9.0. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://mishpacha.com/hijacked/</guid>
-      <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://mishpacha.com/hijacked/">mishpacha.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] LEBANON → ISRAELI : Use conventional military force, not specified below (Beirut, Beyrouth, Lebanon)</title>
-      <link>https://dailycaller.com/2026/06/20/iran-declares-hormuz-strait-closed-israel-ceasefire-violations-strikes-lebanon-hezbollah/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: LEBANON / ISRAELI. Location: Beirut, Beyrouth, Lebanon. Goldstein Scale: -10.0. Mentioned in 3 sources.</description>
-      <guid isPermaLink="true">https://dailycaller.com/2026/06/20/iran-declares-hormuz-strait-closed-israel-ceasefire-violations-strikes-lebanon-hezbollah/</guid>
-      <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://dailycaller.com/2026/06/20/iran-declares-hormuz-strait-closed-israel-ceasefire-violations-strikes-lebanon-hezbollah/">dailycaller.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] LEBANON → ISRAELI : Use conventional military force, not specified below (Tehran, Tehran, Iran)</title>
-      <link>https://www.straitstimes.com/world/middle-east/iran-negotiators-head-for-switzerland-as-trump-threatens-us-tolls-on-strait-of-hormuz</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: LEBANON / ISRAELI. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 3 sources.</description>
-      <guid isPermaLink="true">https://www.straitstimes.com/world/middle-east/iran-negotiators-head-for-switzerland-as-trump-threatens-us-tolls-on-strait-of-hormuz</guid>
-      <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.straitstimes.com/world/middle-east/iran-negotiators-head-for-switzerland-as-trump-threatens-us-tolls-on-strait-of-hormuz">straitstimes.com</source>
     </item>
   </channel>
 </rss>

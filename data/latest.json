@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-29T11:11:20+00:00Z",
+  "updated_at": "2026-06-30T09:47:25+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -1173,6 +1173,72 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1311341888",
+              "title": "FIRE SERVICE → nan : Fight with small arms and light weapons (Petersburg, Sankt-Peterburg, Russia)",
+              "title_en": "FIRE SERVICE → nan : Fight with small arms and light weapons (Petersburg, Sankt-Peterburg, Russia)",
+              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: FIRE SERVICE / nan. Location: Petersburg, Sankt-Peterburg, Russia. Goldstein Scale: -10.0. Mentioned in 5 sources.",
+              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: FIRE SERVICE / nan. Location: Petersburg, Sankt-Peterburg, Russia. Goldstein Scale: -10.0. Mentioned in 5 sources.",
+              "source": "gdelt",
+              "source_label": "fox13news.com",
+              "date": "2026-06-29",
+              "url": "https://www.fox13news.com/news/legacy-six-firefighters-recognized-plaque-st-pete-fire-rescue-headquarters",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 5,
+                "sources": 1,
+                "articles": 5,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1311341888",
+                "event_code": "193",
+                "cameo_desc": "Fight with small arms and light weapons",
+                "actor1": "FIRE SERVICE",
+                "actor2": "nan",
+                "actor1_country": "nan",
+                "actor2_country": "nan",
+                "geo_lat": 59.8944,
+                "geo_lon": 30.2642,
+                "geo_name": "Petersburg, Sankt-Peterburg, Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1311342061",
+              "title": "RUSSIA → UKRAINE : Use unconventional violence, not specified below (Moscow, Moskva, Russia)",
+              "title_en": "RUSSIA → UKRAINE : Use unconventional violence, not specified below (Moscow, Moskva, Russia)",
+              "summary": "GDELT Event: Use unconventional violence, not specified below. Actors: RUSSIA / UKRAINE. Location: Moscow, Moskva, Russia. Goldstein Scale: -9.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Use unconventional violence, not specified below. Actors: RUSSIA / UKRAINE. Location: Moscow, Moskva, Russia. Goldstein Scale: -9.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "kyivpost.com",
+              "date": "2026-06-29",
+              "url": "https://www.kyivpost.com/post/79230",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -9.0
+              },
+              "gdelt_meta": {
+                "event_id": "1311342061",
+                "event_code": "180",
+                "cameo_desc": "Use unconventional violence, not specified below",
+                "actor1": "RUSSIA",
+                "actor2": "UKRAINE",
+                "actor1_country": "RUS",
+                "actor2_country": "UKR",
+                "geo_lat": 55.7522,
+                "geo_lon": 37.6156,
+                "geo_name": "Moscow, Moskva, Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -1518,39 +1584,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1306710363",
-              "title": "LEBANESE → ISRAELI : Use conventional military force, not specified below (Beirut, Beyrouth, Lebanon)",
-              "title_en": "LEBANESE → ISRAELI : Use conventional military force, not specified below (Beirut, Beyrouth, Lebanon)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: LEBANESE / ISRAELI. Location: Beirut, Beyrouth, Lebanon. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: LEBANESE / ISRAELI. Location: Beirut, Beyrouth, Lebanon. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "source": "gdelt",
-              "source_label": "naturalnews.com",
-              "date": "2026-05-30",
-              "url": "https://www.naturalnews.com/2026-05-30-israeli-airstrikes-hit-beirut-suburbs-14-dead.html",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 10,
-                "sources": 1,
-                "articles": 10,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1306710363",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "LEBANESE",
-                "actor2": "ISRAELI",
-                "actor1_country": "LBN",
-                "actor2_country": "ISR",
-                "geo_lat": 33.8719,
-                "geo_lon": 35.5097,
-                "geo_name": "Beirut, Beyrouth, Lebanon"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1306972665",
               "title": "ISRAEL → IRAN : Impose blockade, restrict movement (Iran)",
@@ -3794,6 +3827,72 @@
               "admiralty_source": "B",
               "admiralty_info": 3,
               "admiralty_code": "B3"
+            },
+            {
+              "id": "gdelt_1311342052",
+              "title": "GAZA → JOURNALIST : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
+              "title_en": "GAZA → JOURNALIST : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: GAZA / JOURNALIST. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 12 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: GAZA / JOURNALIST. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 12 sources.",
+              "source": "gdelt",
+              "source_label": "middleeasteye.net",
+              "date": "2026-06-29",
+              "url": "https://www.middleeasteye.net/live-blog/live-blog-update/cpj-board-member-removed-it-undertakes-review-journalists-killed-gaza",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 12,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1311342052",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "GAZA",
+                "actor2": "JOURNALIST",
+                "actor1_country": "PSE",
+                "actor2_country": "nan",
+                "geo_lat": 31.4167,
+                "geo_lon": 34.3333,
+                "geo_name": "Gaza, Israel (general), Israel"
+              },
+              "admiralty_source": "B",
+              "admiralty_info": 3,
+              "admiralty_code": "B3"
+            },
+            {
+              "id": "gdelt_1311341953",
+              "title": "ISRAEL → JOURNALIST : Use conventional military force, not specified below (Los Angeles, California, United States)",
+              "title_en": "ISRAEL → JOURNALIST : Use conventional military force, not specified below (Los Angeles, California, United States)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / JOURNALIST. Location: Los Angeles, California, United States. Goldstein Scale: -10.0. Mentioned in 4 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / JOURNALIST. Location: Los Angeles, California, United States. Goldstein Scale: -10.0. Mentioned in 4 sources.",
+              "source": "gdelt",
+              "source_label": "middleeasteye.net",
+              "date": "2026-06-29",
+              "url": "https://www.middleeasteye.net/news/cpj-board-member-removed-undertakes-review-journalists-killed-gaza",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 4,
+                "sources": 1,
+                "articles": 4,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1311341953",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "ISRAEL",
+                "actor2": "JOURNALIST",
+                "actor1_country": "ISR",
+                "actor2_country": "nan",
+                "geo_lat": 34.0522,
+                "geo_lon": -118.244,
+                "geo_name": "Los Angeles, California, United States"
+              },
+              "admiralty_source": "B",
+              "admiralty_info": 3,
+              "admiralty_code": "B3"
             }
           ]
         },
@@ -3801,39 +3900,6 @@
           "label": "外交谈判",
           "icon": "🕊️",
           "items": [
-            {
-              "id": "gdelt_1306710358",
-              "title": "TYRE → RESIDENTS : Expel or deport individuals (Beirut, Beyrouth, Lebanon)",
-              "title_en": "TYRE → RESIDENTS : Expel or deport individuals (Beirut, Beyrouth, Lebanon)",
-              "summary": "GDELT Event: Expel or deport individuals. Actors: TYRE / RESIDENTS. Location: Beirut, Beyrouth, Lebanon. Goldstein Scale: -5.0. Mentioned in 1 sources.",
-              "summary_en": "GDELT Event: Expel or deport individuals. Actors: TYRE / RESIDENTS. Location: Beirut, Beyrouth, Lebanon. Goldstein Scale: -5.0. Mentioned in 1 sources.",
-              "source": "gdelt",
-              "source_label": "tribune.com.pk",
-              "date": "2026-05-30",
-              "url": "https://tribune.com.pk/story/2610638/tehran-says-trump-betraying-diplomacy-with-hormuz-blockade",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 1,
-                "sources": 1,
-                "articles": 1,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1306710358",
-                "event_code": "174",
-                "cameo_desc": "Expel or deport individuals",
-                "actor1": "TYRE",
-                "actor2": "RESIDENTS",
-                "actor1_country": "LBN",
-                "actor2_country": "nan",
-                "geo_lat": 33.8719,
-                "geo_lon": 35.5097,
-                "geo_name": "Beirut, Beyrouth, Lebanon"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1306972890",
               "title": "UYGUR → UNITED KINGDOM : Impose administrative sanctions, not specified below (Israel)",
@@ -4165,6 +4231,39 @@
                 "geo_lat": 31.4167,
                 "geo_lon": 34.3333,
                 "geo_name": "Gaza, Israel (general), Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1311341957",
+              "title": "HAREDI → RABBI : Demonstrate or rally (Israel)",
+              "title_en": "HAREDI → RABBI : Demonstrate or rally (Israel)",
+              "summary": "GDELT Event: Demonstrate or rally. Actors: HAREDI / RABBI. Location: Israel. Goldstein Scale: -6.5. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Demonstrate or rally. Actors: HAREDI / RABBI. Location: Israel. Goldstein Scale: -6.5. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "israelnationalnews.com",
+              "date": "2026-06-29",
+              "url": "https://www.israelnationalnews.com/news/429396",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -6.5
+              },
+              "gdelt_meta": {
+                "event_id": "1311341957",
+                "event_code": "141",
+                "cameo_desc": "Demonstrate or rally",
+                "actor1": "HAREDI",
+                "actor2": "RABBI",
+                "actor1_country": "nan",
+                "actor2_country": "nan",
+                "geo_lat": 31.5,
+                "geo_lon": 34.75,
+                "geo_name": "Israel"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -6068,6 +6167,40 @@
               "admiralty_info": 3,
               "admiralty_code": "C3",
               "criticality": "background"
+            },
+            {
+              "id": "gdelt_1311341798",
+              "title": "GERMANY → TURKISH : Fight with small arms and light weapons (Rot Am See, Baden-Wüberg, Germany)",
+              "title_en": "GERMANY → TURKISH : Fight with small arms and light weapons (Rot Am See, Baden-Wüberg, Germany)",
+              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: GERMANY / TURKISH. Location: Rot Am See, Baden-Wüberg, Germany. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: GERMANY / TURKISH. Location: Rot Am See, Baden-Wüberg, Germany. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "dailycaller.com",
+              "date": "2026-06-29",
+              "url": "https://dailycaller.com/2026/06/29/six-dead-turkish-german-gunman-domestic-violence-youth-welfare-center-hamburg-stade/",
+              "primary_conflict": "yemen-houthi",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1311341798",
+                "event_code": "193",
+                "cameo_desc": "Fight with small arms and light weapons",
+                "actor1": "GERMANY",
+                "actor2": "TURKISH",
+                "actor1_country": "DEU",
+                "actor2_country": "TUR",
+                "geo_lat": 49.25,
+                "geo_lon": 10.0167,
+                "geo_name": "Rot Am See, Baden-Wüberg, Germany"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3",
+              "criticality": "background"
             }
           ]
         },
@@ -6430,13 +6563,13 @@
     }
   },
   "stats": {
-    "total_items": 182,
+    "total_items": 186,
     "sources": {
-      "gdelt": 182
+      "gdelt": 186
     },
     "date_range": {
-      "from": "2026-05-30",
-      "to": "2026-06-28"
+      "from": "2026-05-31",
+      "to": "2026-06-29"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
