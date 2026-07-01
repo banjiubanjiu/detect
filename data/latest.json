@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-30T09:47:25+00:00Z",
+  "updated_at": "2026-07-01T09:59:29+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -1246,39 +1246,6 @@
           "label": "外交谈判",
           "icon": "🕊️",
           "items": [
-            {
-              "id": "gdelt_1306807232",
-              "title": "RUSSIA → UKRAINE : Arrest, detain, or charge with legal action (Taiwan)",
-              "title_en": "RUSSIA → UKRAINE : Arrest, detain, or charge with legal action (Taiwan)",
-              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: RUSSIA / UKRAINE. Location: Taiwan. Goldstein Scale: -5.0. Mentioned in 10 sources.",
-              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: RUSSIA / UKRAINE. Location: Taiwan. Goldstein Scale: -5.0. Mentioned in 10 sources.",
-              "source": "gdelt",
-              "source_label": "marinelink.com",
-              "date": "2026-05-31",
-              "url": "https://www.marinelink.com/news/seasats-completes-first-autonomous-539767",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 10,
-                "sources": 1,
-                "articles": 10,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1306807232",
-                "event_code": "173",
-                "cameo_desc": "Arrest, detain, or charge with legal action",
-                "actor1": "RUSSIA",
-                "actor2": "UKRAINE",
-                "actor1_country": "RUS",
-                "actor2_country": "UKR",
-                "geo_lat": 24.0,
-                "geo_lon": 121.0,
-                "geo_name": "Taiwan"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1308101691",
               "title": "RUSSIA → IRAN : Impose administrative sanctions, not specified below (Washington, District of Columbia, United States)",
@@ -4306,39 +4273,6 @@
           "icon": "⚔️",
           "items": [
             {
-              "id": "gdelt_1306807143",
-              "title": "TEHRAN → IRAN : Fight with small arms and light weapons (Washington, District of Columbia, United States)",
-              "title_en": "TEHRAN → IRAN : Fight with small arms and light weapons (Washington, District of Columbia, United States)",
-              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: TEHRAN / IRAN. Location: Washington, District of Columbia, United States. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: TEHRAN / IRAN. Location: Washington, District of Columbia, United States. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "source": "gdelt",
-              "source_label": "navhindtimes.in",
-              "date": "2026-05-31",
-              "url": "https://navhindtimes.in/worldnews/downed-us-drone-on-hostile-mission-in-irans-waters/",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 10,
-                "sources": 1,
-                "articles": 10,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1306807143",
-                "event_code": "193",
-                "cameo_desc": "Fight with small arms and light weapons",
-                "actor1": "TEHRAN",
-                "actor2": "IRAN",
-                "actor1_country": "IRN",
-                "actor2_country": "IRN",
-                "geo_lat": 38.8951,
-                "geo_lon": -77.0364,
-                "geo_name": "Washington, District of Columbia, United States"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
               "id": "gdelt_1306973032",
               "title": "WASHINGTON → NAVAL : Employ aerial weapons (Tehran, Tehran, Iran)",
               "title_en": "WASHINGTON → NAVAL : Employ aerial weapons (Tehran, Tehran, Iran)",
@@ -5426,6 +5360,39 @@
               "admiralty_source": "B",
               "admiralty_info": 3,
               "admiralty_code": "B3"
+            },
+            {
+              "id": "gdelt_1311511211",
+              "title": "ENVOY → IRAN : Fight with small arms and light weapons (Doha, Ad Daw?ah, Qatar)",
+              "title_en": "ENVOY → IRAN : Fight with small arms and light weapons (Doha, Ad Daw?ah, Qatar)",
+              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: ENVOY / IRAN. Location: Doha, Ad Daw?ah, Qatar. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: ENVOY / IRAN. Location: Doha, Ad Daw?ah, Qatar. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "source": "gdelt",
+              "source_label": "businesstimes.com.sg",
+              "date": "2026-06-30",
+              "url": "https://www.businesstimes.com.sg/companies-markets/energy-commodities/oil-prices-little-changed-set-steepest-monthly-and-quarterly-losses-2020",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 8,
+                "sources": 1,
+                "articles": 8,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1311511211",
+                "event_code": "193",
+                "cameo_desc": "Fight with small arms and light weapons",
+                "actor1": "ENVOY",
+                "actor2": "IRAN",
+                "actor1_country": "nan",
+                "actor2_country": "IRN",
+                "geo_lat": 25.2867,
+                "geo_lon": 51.5333,
+                "geo_name": "Doha, Ad Daw?ah, Qatar"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -5494,6 +5461,39 @@
                 "geo_lat": 33.4964,
                 "geo_lon": 51.9266,
                 "geo_name": "Natanz, Esfahan, Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1311511381",
+              "title": "NIGERIA → nan : Destroy property (Iran)",
+              "title_en": "NIGERIA → nan : Destroy property (Iran)",
+              "summary": "GDELT Event: Destroy property. Actors: NIGERIA / nan. Location: Iran. Goldstein Scale: -9.2. Mentioned in 5 sources.",
+              "summary_en": "GDELT Event: Destroy property. Actors: NIGERIA / nan. Location: Iran. Goldstein Scale: -9.2. Mentioned in 5 sources.",
+              "source": "gdelt",
+              "source_label": "tribuneonlineng.com",
+              "date": "2026-06-30",
+              "url": "https://tribuneonlineng.com/falling-oil-prices-taming-effects-on-revenue-with-pipeline-surveillance/",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 5,
+                "sources": 1,
+                "articles": 5,
+                "goldstein": -9.2
+              },
+              "gdelt_meta": {
+                "event_id": "1311511381",
+                "event_code": "1712",
+                "cameo_desc": "Destroy property",
+                "actor1": "NIGERIA",
+                "actor2": "nan",
+                "actor1_country": "NGA",
+                "actor2_country": "nan",
+                "geo_lat": 32.0,
+                "geo_lon": 53.0,
+                "geo_name": "Iran"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -6247,40 +6247,6 @@
           "icon": "⚔️",
           "items": [
             {
-              "id": "gdelt_1306806812",
-              "title": "nan → AFRICA : Use conventional military force, not specified below (Brazzaville, Brazzaville, Congo)",
-              "title_en": "nan → AFRICA : Use conventional military force, not specified below (Brazzaville, Brazzaville, Congo)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: nan / AFRICA. Location: Brazzaville, Brazzaville, Congo. Goldstein Scale: -10.0. Mentioned in 5 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: nan / AFRICA. Location: Brazzaville, Brazzaville, Congo. Goldstein Scale: -10.0. Mentioned in 5 sources.",
-              "source": "gdelt",
-              "source_label": "allafrica.com",
-              "date": "2026-05-31",
-              "url": "https://allafrica.com/stories/202605310141.html",
-              "primary_conflict": "congo-drc",
-              "metrics": {
-                "mentions": 5,
-                "sources": 1,
-                "articles": 5,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1306806812",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "nan",
-                "actor2": "AFRICA",
-                "actor1_country": "nan",
-                "actor2_country": "AFR",
-                "geo_lat": -4.25917,
-                "geo_lon": 15.2847,
-                "geo_name": "Brazzaville, Brazzaville, Congo"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3",
-              "criticality": "background"
-            },
-            {
               "id": "gdelt_1309546464",
               "title": "GOMA → ANTI GOVERNMENT FORCE : Use conventional military force, not specified below (Uganda)",
               "title_en": "GOMA → ANTI GOVERNMENT FORCE : Use conventional military force, not specified below (Uganda)",
@@ -6563,13 +6529,13 @@
     }
   },
   "stats": {
-    "total_items": 186,
+    "total_items": 185,
     "sources": {
-      "gdelt": 186
+      "gdelt": 185
     },
     "date_range": {
-      "from": "2026-05-31",
-      "to": "2026-06-29"
+      "from": "2026-06-01",
+      "to": "2026-06-30"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",

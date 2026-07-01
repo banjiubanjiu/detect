@@ -5,8 +5,68 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 30 Jun 2026 09:47:08 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 09:59:12 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] FIRE SERVICE → nan : Fight with small arms and light weapons (Petersburg, Sankt-Peterburg, Russia)</title>
+      <link>https://www.fox13news.com/news/legacy-six-firefighters-recognized-plaque-st-pete-fire-rescue-headquarters</link>
+      <description>GDELT Event: Fight with small arms and light weapons. Actors: FIRE SERVICE / nan. Location: Petersburg, Sankt-Peterburg, Russia. Goldstein Scale: -10.0. Mentioned in 5 sources.</description>
+      <guid isPermaLink="true">https://www.fox13news.com/news/legacy-six-firefighters-recognized-plaque-st-pete-fire-rescue-headquarters</guid>
+      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.fox13news.com/news/legacy-six-firefighters-recognized-plaque-st-pete-fire-rescue-headquarters">fox13news.com</source>
+    </item>
+    <item>
+      <title>[俄乌战争] RUSSIA → UKRAINE : Use unconventional violence, not specified below (Moscow, Moskva, Russia)</title>
+      <link>https://www.kyivpost.com/post/79230</link>
+      <description>GDELT Event: Use unconventional violence, not specified below. Actors: RUSSIA / UKRAINE. Location: Moscow, Moskva, Russia. Goldstein Scale: -9.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.kyivpost.com/post/79230</guid>
+      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.kyivpost.com/post/79230">kyivpost.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] GAZA → JOURNALIST : Use conventional military force, not specified below (Gaza, Israel (general), Israel)</title>
+      <link>https://www.middleeasteye.net/live-blog/live-blog-update/cpj-board-member-removed-it-undertakes-review-journalists-killed-gaza</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: GAZA / JOURNALIST. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 12 sources.</description>
+      <guid isPermaLink="true">https://www.middleeasteye.net/live-blog/live-blog-update/cpj-board-member-removed-it-undertakes-review-journalists-killed-gaza</guid>
+      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.middleeasteye.net/live-blog/live-blog-update/cpj-board-member-removed-it-undertakes-review-journalists-killed-gaza">middleeasteye.net</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAEL → JOURNALIST : Use conventional military force, not specified below (Los Angeles, California, United States)</title>
+      <link>https://www.middleeasteye.net/news/cpj-board-member-removed-undertakes-review-journalists-killed-gaza</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / JOURNALIST. Location: Los Angeles, California, United States. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://www.middleeasteye.net/news/cpj-board-member-removed-undertakes-review-journalists-killed-gaza</guid>
+      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.middleeasteye.net/news/cpj-board-member-removed-undertakes-review-journalists-killed-gaza">middleeasteye.net</source>
+    </item>
+    <item>
+      <title>[巴以冲突] HAREDI → RABBI : Demonstrate or rally (Israel)</title>
+      <link>https://www.israelnationalnews.com/news/429396</link>
+      <description>GDELT Event: Demonstrate or rally. Actors: HAREDI / RABBI. Location: Israel. Goldstein Scale: -6.5. Mentioned in 6 sources.</description>
+      <guid isPermaLink="true">https://www.israelnationalnews.com/news/429396</guid>
+      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>舆论热点</category>
+      <source url="https://www.israelnationalnews.com/news/429396">israelnationalnews.com</source>
+    </item>
+    <item>
+      <title>[也门/胡塞武装] GERMANY → TURKISH : Fight with small arms and light weapons (Rot Am See, Baden-Wüberg, Germany)</title>
+      <link>https://dailycaller.com/2026/06/29/six-dead-turkish-german-gunman-domestic-violence-youth-welfare-center-hamburg-stade/</link>
+      <description>GDELT Event: Fight with small arms and light weapons. Actors: GERMANY / TURKISH. Location: Rot Am See, Baden-Wüberg, Germany. Goldstein Scale: -10.0. Mentioned in 6 sources.</description>
+      <guid isPermaLink="true">https://dailycaller.com/2026/06/29/six-dead-turkish-german-gunman-domestic-violence-youth-welfare-center-hamburg-stade/</guid>
+      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+      <category>也门/胡塞武装</category>
+      <category>军事动态</category>
+      <source url="https://dailycaller.com/2026/06/29/six-dead-turkish-german-gunman-domestic-violence-youth-welfare-center-hamburg-stade/">dailycaller.com</source>
+    </item>
     <item>
       <title>[俄乌战争] UNITED STATES → nan : Use conventional military force, not specified below (Russia)</title>
       <link>https://collider.com/denzel-washington-the-equalizer-trilogy-streaming-hbo-max-july-2026/</link>
@@ -446,66 +506,6 @@
       <category>美伊对峙</category>
       <category>军事动态</category>
       <source url="https://www.brandonsun.com/entertainment/2026/06/22/tucker-carlson-says-hell-no-longer-support-the-republican-party">brandonsun.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] MAYOR → nan : Fight with small arms and light weapons (Russia)</title>
-      <link>https://www.zerohedge.com/news/2026-06-21/soviet-seattle-pimp-war-2026</link>
-      <description>GDELT Event: Fight with small arms and light weapons. Actors: MAYOR / nan. Location: Russia. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://www.zerohedge.com/news/2026-06-21/soviet-seattle-pimp-war-2026</guid>
-      <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://www.zerohedge.com/news/2026-06-21/soviet-seattle-pimp-war-2026">zerohedge.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] RUSSIA → UKRAINE : Employ aerial weapons (Kyiv, Kyyiv, Misto, Ukraine)</title>
-      <link>https://www.perthnow.com.au/news/conflict/zelenskiy-tells-belarus-to-de-escalate-not-apologise-c-22464530</link>
-      <description>GDELT Event: Employ aerial weapons. Actors: RUSSIA / UKRAINE. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.perthnow.com.au/news/conflict/zelenskiy-tells-belarus-to-de-escalate-not-apologise-c-22464530</guid>
-      <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://www.perthnow.com.au/news/conflict/zelenskiy-tells-belarus-to-de-escalate-not-apologise-c-22464530">perthnow.com.au</source>
-    </item>
-    <item>
-      <title>[美伊对峙] IRANIAN → COMPANY : Use conventional military force, not specified below (Chicago, Illinois, United States)</title>
-      <link>https://www.newsx.com/world/qatar-ras-laffan-explosion-several-injured-after-fire-at-barzan-gas-facility-watch-238853/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: IRANIAN / COMPANY. Location: Chicago, Illinois, United States. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.newsx.com/world/qatar-ras-laffan-explosion-several-injured-after-fire-at-barzan-gas-facility-watch-238853/</guid>
-      <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://www.newsx.com/world/qatar-ras-laffan-explosion-several-injured-after-fire-at-barzan-gas-facility-watch-238853/">newsx.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] RUSSIAN → KYIV : Use conventional military force, not specified below (Pechersk, Samarskaya Oblast', Russia)</title>
-      <link>https://www.thehindu.com/news/international/zelenskyy-warns-of-impending-massive-russian-attack-on-ukraine/article71127364.ece</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: RUSSIAN / KYIV. Location: Pechersk, Samarskaya Oblast', Russia. Goldstein Scale: -10.0. Mentioned in 6 sources.</description>
-      <guid isPermaLink="true">https://www.thehindu.com/news/international/zelenskyy-warns-of-impending-massive-russian-attack-on-ukraine/article71127364.ece</guid>
-      <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://www.thehindu.com/news/international/zelenskyy-warns-of-impending-massive-russian-attack-on-ukraine/article71127364.ece">thehindu.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] UKRAINE → VILLAGE : Use conventional military force, not specified below (Sumy, Sums'ka Oblast', Ukraine)</title>
-      <link>https://www.goulburnpost.com.au/story/9295943/zelenskiy-warns-of-impending-massive-russian-attack/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: UKRAINE / VILLAGE. Location: Sumy, Sums'ka Oblast', Ukraine. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
-      <guid isPermaLink="true">https://www.goulburnpost.com.au/story/9295943/zelenskiy-warns-of-impending-massive-russian-attack/</guid>
-      <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://www.goulburnpost.com.au/story/9295943/zelenskiy-warns-of-impending-massive-russian-attack/">goulburnpost.com.au</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAEL → HAMAS : Violate ceasefire (Gaza, Israel (general), Israel)</title>
-      <link>https://www.yahoo.com/news/world/articles/israeli-strikes-kill-six-people-220341667.html</link>
-      <description>GDELT Event: Violate ceasefire. Actors: ISRAEL / HAMAS. Location: Gaza, Israel (general), Israel. Goldstein Scale: -9.5. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://www.yahoo.com/news/world/articles/israeli-strikes-kill-six-people-220341667.html</guid>
-      <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.yahoo.com/news/world/articles/israeli-strikes-kill-six-people-220341667.html">yahoo.com</source>
     </item>
   </channel>
 </rss>
