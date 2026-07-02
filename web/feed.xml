@@ -5,8 +5,28 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 01 Jul 2026 09:59:12 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 09:23:15 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[美伊对峙] ENVOY → IRAN : Fight with small arms and light weapons (Doha, Ad Daw?ah, Qatar)</title>
+      <link>https://www.businesstimes.com.sg/companies-markets/energy-commodities/oil-prices-little-changed-set-steepest-monthly-and-quarterly-losses-2020</link>
+      <description>GDELT Event: Fight with small arms and light weapons. Actors: ENVOY / IRAN. Location: Doha, Ad Daw?ah, Qatar. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
+      <guid isPermaLink="true">https://www.businesstimes.com.sg/companies-markets/energy-commodities/oil-prices-little-changed-set-steepest-monthly-and-quarterly-losses-2020</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://www.businesstimes.com.sg/companies-markets/energy-commodities/oil-prices-little-changed-set-steepest-monthly-and-quarterly-losses-2020">businesstimes.com.sg</source>
+    </item>
+    <item>
+      <title>[美伊对峙] NIGERIA → nan : Destroy property (Iran)</title>
+      <link>https://tribuneonlineng.com/falling-oil-prices-taming-effects-on-revenue-with-pipeline-surveillance/</link>
+      <description>GDELT Event: Destroy property. Actors: NIGERIA / nan. Location: Iran. Goldstein Scale: -9.2. Mentioned in 5 sources.</description>
+      <guid isPermaLink="true">https://tribuneonlineng.com/falling-oil-prices-taming-effects-on-revenue-with-pipeline-surveillance/</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>外交谈判</category>
+      <source url="https://tribuneonlineng.com/falling-oil-prices-taming-effects-on-revenue-with-pipeline-surveillance/">tribuneonlineng.com</source>
+    </item>
     <item>
       <title>[俄乌战争] FIRE SERVICE → nan : Fight with small arms and light weapons (Petersburg, Sankt-Peterburg, Russia)</title>
       <link>https://www.fox13news.com/news/legacy-six-firefighters-recognized-plaque-st-pete-fire-rescue-headquarters</link>
@@ -486,26 +506,6 @@
       <category>巴以冲突</category>
       <category>军事动态</category>
       <source url="https://english.wafa.ps/Pages/Details/171943">english.wafa.ps</source>
-    </item>
-    <item>
-      <title>[巴以冲突] CHRISTIAN CHURCH → CHRISTIAN : Use conventional military force, not specified below (Gaza, Israel (general), Israel)</title>
-      <link>https://news.antiwar.com/2026/06/22/jerusalems-latin-and-greek-patriarchs-visit-gazas-small-christian-community/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: CHRISTIAN CHURCH / CHRISTIAN. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
-      <guid isPermaLink="true">https://news.antiwar.com/2026/06/22/jerusalems-latin-and-greek-patriarchs-visit-gazas-small-christian-community/</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://news.antiwar.com/2026/06/22/jerusalems-latin-and-greek-patriarchs-visit-gazas-small-christian-community/">news.antiwar.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] THE WHITE HOUSE → IRAN : Assassinate (Iran)</title>
-      <link>https://www.brandonsun.com/entertainment/2026/06/22/tucker-carlson-says-hell-no-longer-support-the-republican-party</link>
-      <description>GDELT Event: Assassinate. Actors: THE WHITE HOUSE / IRAN. Location: Iran. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.brandonsun.com/entertainment/2026/06/22/tucker-carlson-says-hell-no-longer-support-the-republican-party</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://www.brandonsun.com/entertainment/2026/06/22/tucker-carlson-says-hell-no-longer-support-the-republican-party">brandonsun.com</source>
     </item>
   </channel>
 </rss>
