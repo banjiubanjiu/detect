@@ -5,8 +5,58 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 02 Jul 2026 09:23:15 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 09:28:36 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] REUTERS → UKRAINIAN : Use conventional military force, not specified below (Dublin, Dublin, Ireland)</title>
+      <link>https://whbl.com/2026/07/01/russian-drones-attack-ukrainian-capital-set-central-district-hotel-on-fire/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: REUTERS / UKRAINIAN. Location: Dublin, Dublin, Ireland. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://whbl.com/2026/07/01/russian-drones-attack-ukrainian-capital-set-central-district-hotel-on-fire/</guid>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://whbl.com/2026/07/01/russian-drones-attack-ukrainian-capital-set-central-district-hotel-on-fire/">whbl.com</source>
+    </item>
+    <item>
+      <title>[俄乌战争] UKRAINIAN → nan : Use conventional military force, not specified below (Ukrainka, Zhytomyrs'ka Oblast', Ukraine)</title>
+      <link>https://jamestown.org/russian-aviation-industry-facing-problems/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: UKRAINIAN / nan. Location: Ukrainka, Zhytomyrs'ka Oblast', Ukraine. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
+      <guid isPermaLink="true">https://jamestown.org/russian-aviation-industry-facing-problems/</guid>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://jamestown.org/russian-aviation-industry-facing-problems/">jamestown.org</source>
+    </item>
+    <item>
+      <title>[巴以冲突] THE US → IRAN : Use conventional military force, not specified below (Israel)</title>
+      <link>https://punchng.com/crude-slips-below-72-petrol-stays-above-n1000/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: THE US / IRAN. Location: Israel. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
+      <guid isPermaLink="true">https://punchng.com/crude-slips-below-72-petrol-stays-above-n1000/</guid>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://punchng.com/crude-slips-below-72-petrol-stays-above-n1000/">punchng.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] TERRORIST → nan : Abduct, hijack, or take hostage (Israel)</title>
+      <link>https://www.israelnationalnews.com/news/429504</link>
+      <description>GDELT Event: Abduct, hijack, or take hostage. Actors: TERRORIST / nan. Location: Israel. Goldstein Scale: -9.0. Mentioned in 5 sources.</description>
+      <guid isPermaLink="true">https://www.israelnationalnews.com/news/429504</guid>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.israelnationalnews.com/news/429504">israelnationalnews.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAELI → LEBANON : Occupy territory (Beirut, Beyrouth, Lebanon)</title>
+      <link>http://www.heraldglobe.com/news/279160593/israel-to-occupy-parts-of-gaza-lebanon-and-syria-indefinitely-defense-minister</link>
+      <description>GDELT Event: Occupy territory. Actors: ISRAELI / LEBANON. Location: Beirut, Beyrouth, Lebanon. Goldstein Scale: -9.5. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">http://www.heraldglobe.com/news/279160593/israel-to-occupy-parts-of-gaza-lebanon-and-syria-indefinitely-defense-minister</guid>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="http://www.heraldglobe.com/news/279160593/israel-to-occupy-parts-of-gaza-lebanon-and-syria-indefinitely-defense-minister">heraldglobe.com</source>
+    </item>
     <item>
       <title>[美伊对峙] ENVOY → IRAN : Fight with small arms and light weapons (Doha, Ad Daw?ah, Qatar)</title>
       <link>https://www.businesstimes.com.sg/companies-markets/energy-commodities/oil-prices-little-changed-set-steepest-monthly-and-quarterly-losses-2020</link>
@@ -456,56 +506,6 @@
       <category>美伊对峙</category>
       <category>军事动态</category>
       <source url="http://www.bignewsnetwork.com/news/279143651/us-senate-passes-resolution-seeking-to-limit-trump-iran-war-powers">bignewsnetwork.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] UNITED STATES → nan : Impose administrative sanctions, not specified below (Yall, Khabarovskiy Kray, Russia)</title>
-      <link>https://wcyb.com/news/local/former-inmate-pleads-for-change-after-mckay-homicide-officer-reprimanded</link>
-      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: UNITED STATES / nan. Location: Yall, Khabarovskiy Kray, Russia. Goldstein Scale: -5.0. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://wcyb.com/news/local/former-inmate-pleads-for-change-after-mckay-homicide-officer-reprimanded</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>外交谈判</category>
-      <source url="https://wcyb.com/news/local/former-inmate-pleads-for-change-after-mckay-homicide-officer-reprimanded">wcyb.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] LEBANON → PRISON : Fight with small arms and light weapons (Lebanon)</title>
-      <link>https://www.krmsradio.com/laclede-county-murder-case-ends-with-plea-deal-in-morgan-county/</link>
-      <description>GDELT Event: Fight with small arms and light weapons. Actors: LEBANON / PRISON. Location: Lebanon. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://www.krmsradio.com/laclede-county-murder-case-ends-with-plea-deal-in-morgan-county/</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.krmsradio.com/laclede-county-murder-case-ends-with-plea-deal-in-morgan-county/">krmsradio.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAELI → SYRIA : Impose blockade, restrict movement (Syria)</title>
-      <link>https://news.antiwar.com/2026/06/22/israeli-troops-raid-southwest-syria-villages-interrogate-shepherds-detain-farm-worker/</link>
-      <description>GDELT Event: Impose blockade, restrict movement. Actors: ISRAELI / SYRIA. Location: Syria. Goldstein Scale: -9.5. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">https://news.antiwar.com/2026/06/22/israeli-troops-raid-southwest-syria-villages-interrogate-shepherds-detain-farm-worker/</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://news.antiwar.com/2026/06/22/israeli-troops-raid-southwest-syria-villages-interrogate-shepherds-detain-farm-worker/">news.antiwar.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAEL → PALESTINIAN : Use conventional military force, not specified below (Gaza, Israel (general), Israel)</title>
-      <link>https://news.antiwar.com/2026/06/22/israeli-strike-on-car-in-gaza-city-kills-high-school-student/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / PALESTINIAN. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://news.antiwar.com/2026/06/22/israeli-strike-on-car-in-gaza-city-kills-high-school-student/</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://news.antiwar.com/2026/06/22/israeli-strike-on-car-in-gaza-city-kills-high-school-student/">news.antiwar.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] WEST BANK → nan : Use conventional military force, not specified below (Jerusalem, Israel (general), Israel)</title>
-      <link>https://english.wafa.ps/Pages/Details/171943</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: WEST BANK / nan. Location: Jerusalem, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://english.wafa.ps/Pages/Details/171943</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://english.wafa.ps/Pages/Details/171943">english.wafa.ps</source>
     </item>
   </channel>
 </rss>
