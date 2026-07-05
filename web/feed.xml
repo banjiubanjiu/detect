@@ -5,8 +5,68 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 04 Jul 2026 08:47:20 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jul 2026 09:03:02 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] FIGHTER → DAGESTAN : Use conventional military force, not specified below (Ukraine)</title>
+      <link>https://www.eng.kavkaz-uzel.eu/articles/76642</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: FIGHTER / DAGESTAN. Location: Ukraine. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
+      <guid isPermaLink="true">https://www.eng.kavkaz-uzel.eu/articles/76642</guid>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.eng.kavkaz-uzel.eu/articles/76642">eng.kavkaz-uzel.eu</source>
+    </item>
+    <item>
+      <title>[俄乌战争] REUTERS → UKRAINE : Occupy territory (Moscow, Moskva, Russia)</title>
+      <link>https://whbl.com/2026/07/03/russian-defence-ministry-says-its-forces-captured-kostiantynivka-in-eastern-ukraine/</link>
+      <description>GDELT Event: Occupy territory. Actors: REUTERS / UKRAINE. Location: Moscow, Moskva, Russia. Goldstein Scale: -9.5. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://whbl.com/2026/07/03/russian-defence-ministry-says-its-forces-captured-kostiantynivka-in-eastern-ukraine/</guid>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://whbl.com/2026/07/03/russian-defence-ministry-says-its-forces-captured-kostiantynivka-in-eastern-ukraine/">whbl.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAELI → ISLAMIC : Use conventional military force, not specified below (Tehran, Tehran, Iran)</title>
+      <link>http://www.vietnamtribune.com/news/279165630/iran-bids-farewell-to-late-supreme-leader</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAELI / ISLAMIC. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
+      <guid isPermaLink="true">http://www.vietnamtribune.com/news/279165630/iran-bids-farewell-to-late-supreme-leader</guid>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="http://www.vietnamtribune.com/news/279165630/iran-bids-farewell-to-late-supreme-leader">vietnamtribune.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] HAMAS → ISRAEL : Engage in mass killings (Israel)</title>
+      <link>https://www.israelnationalnews.com/news/429614</link>
+      <description>GDELT Event: Engage in mass killings. Actors: HAMAS / ISRAEL. Location: Israel. Goldstein Scale: -10.0. Mentioned in 5 sources.</description>
+      <guid isPermaLink="true">https://www.israelnationalnews.com/news/429614</guid>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.israelnationalnews.com/news/429614">israelnationalnews.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] AMERICAN → MILITARY : Use conventional military force, not specified below (Tehran, Tehran, Iran)</title>
+      <link>https://dailyk2.com/bahrain-requests-emergency-un-security-council-session-after-iranian-strikes/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: AMERICAN / MILITARY. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://dailyk2.com/bahrain-requests-emergency-un-security-council-session-after-iranian-strikes/</guid>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://dailyk2.com/bahrain-requests-emergency-un-security-council-session-after-iranian-strikes/">dailyk2.com</source>
+    </item>
+    <item>
+      <title>[叙利亚局势] UNITED NATIONS → SYRIA : Use unconventional violence, not specified below (Sweida, As Suwayda', Syria)</title>
+      <link>https://www.israelnationalnews.com/news/429615</link>
+      <description>GDELT Event: Use unconventional violence, not specified below. Actors: UNITED NATIONS / SYRIA. Location: Sweida, As Suwayda', Syria. Goldstein Scale: -9.0. Mentioned in 8 sources.</description>
+      <guid isPermaLink="true">https://www.israelnationalnews.com/news/429615</guid>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+      <category>叙利亚局势</category>
+      <category>军事动态</category>
+      <source url="https://www.israelnationalnews.com/news/429615">israelnationalnews.com</source>
+    </item>
     <item>
       <title>[俄乌战争] nan → REGIME : Arrest, detain, or charge with legal action (Leningradskaya, Krasnodarskiy Kray, Russia)</title>
       <link>https://www.eng.kavkaz-uzel.eu/articles/76612</link>
@@ -446,66 +506,6 @@
       <category>俄乌战争</category>
       <category>军事动态</category>
       <source url="https://jamestown.org/romania-invests-heavily-in-air-defense-to-counter-russian-threat/">jamestown.org</source>
-    </item>
-    <item>
-      <title>[俄乌战争] VOLGOGRAD → DEFENSE ATTORNEY : Arrest, detain, or charge with legal action (Volgograd, Volgogradskaya Oblast', Russia)</title>
-      <link>https://www.eng.kavkaz-uzel.eu/articles/76399</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: VOLGOGRAD / DEFENSE ATTORNEY. Location: Volgograd, Volgogradskaya Oblast', Russia. Goldstein Scale: -5.0. Mentioned in 7 sources.</description>
-      <guid isPermaLink="true">https://www.eng.kavkaz-uzel.eu/articles/76399</guid>
-      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>外交谈判</category>
-      <source url="https://www.eng.kavkaz-uzel.eu/articles/76399">eng.kavkaz-uzel.eu</source>
-    </item>
-    <item>
-      <title>[俄乌战争] RUSSIAN → nan : Arrest, detain, or charge with legal action (nan)</title>
-      <link>https://jamestown.org/tbilisis-counterintelligence-drive-strains-western-ties/</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: RUSSIAN / nan. Location: nan. Goldstein Scale: -5.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://jamestown.org/tbilisis-counterintelligence-drive-strains-western-ties/</guid>
-      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>外交谈判</category>
-      <source url="https://jamestown.org/tbilisis-counterintelligence-drive-strains-western-ties/">jamestown.org</source>
-    </item>
-    <item>
-      <title>[巴以冲突] COLOMBIA → HUMAN RIGHTS ORGANIZATION : Engage in mass killings (Gaza, Israel (general), Israel)</title>
-      <link>https://www.cbsnews.com/news/colombia-presidential-election-abelardo-de-la-espriella-winner/</link>
-      <description>GDELT Event: Engage in mass killings. Actors: COLOMBIA / HUMAN RIGHTS ORGANIZATION. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://www.cbsnews.com/news/colombia-presidential-election-abelardo-de-la-espriella-winner/</guid>
-      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.cbsnews.com/news/colombia-presidential-election-abelardo-de-la-espriella-winner/">cbsnews.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] MASSACHUSETTS → ISRAEL : Use conventional military force, not specified below (Gaza, Israel (general), Israel)</title>
-      <link>https://legalinsurrection.com/2026/06/jewish-groups-threaten-to-sue-somerville-ma-over-anti-israel-boycott-ordinance/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: MASSACHUSETTS / ISRAEL. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://legalinsurrection.com/2026/06/jewish-groups-threaten-to-sue-somerville-ma-over-anti-israel-boycott-ordinance/</guid>
-      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://legalinsurrection.com/2026/06/jewish-groups-threaten-to-sue-somerville-ma-over-anti-israel-boycott-ordinance/">legalinsurrection.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAELI → LEBANON : Use conventional military force, not specified below (Tel Aviv, Tel Aviv, Israel)</title>
-      <link>https://www.arabnews.com/node/2648488/middle-east</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAELI / LEBANON. Location: Tel Aviv, Tel Aviv, Israel. Goldstein Scale: -10.0. Mentioned in 9 sources.</description>
-      <guid isPermaLink="true">https://www.arabnews.com/node/2648488/middle-east</guid>
-      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.arabnews.com/node/2648488/middle-east">arabnews.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] LEBANON → ISRAEL : Use conventional military force, not specified below (Israel)</title>
-      <link>https://www.israelnationalnews.com/news/429154</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: LEBANON / ISRAEL. Location: Israel. Goldstein Scale: -10.0. Mentioned in 7 sources.</description>
-      <guid isPermaLink="true">https://www.israelnationalnews.com/news/429154</guid>
-      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.israelnationalnews.com/news/429154">israelnationalnews.com</source>
     </item>
   </channel>
 </rss>
