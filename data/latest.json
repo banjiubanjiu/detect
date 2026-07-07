@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T10:33:55+00:00Z",
+  "updated_at": "2026-07-07T09:52:34+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -19,39 +19,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1307823934",
-              "title": "RUSSIA → AZERBAIJANI : Use conventional military force, not specified below (Baku, Baki*, Azerbaijan)",
-              "title_en": "RUSSIA → AZERBAIJANI : Use conventional military force, not specified below (Baku, Baki*, Azerbaijan)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: RUSSIA / AZERBAIJANI. Location: Baku, Baki*, Azerbaijan. Goldstein Scale: -10.0. Mentioned in 8 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: RUSSIA / AZERBAIJANI. Location: Baku, Baki*, Azerbaijan. Goldstein Scale: -10.0. Mentioned in 8 sources.",
-              "source": "gdelt",
-              "source_label": "theweek.in",
-              "date": "2026-06-06",
-              "url": "https://www.theweek.in/news/maritime/2026/06/07/at-least-5-dead-after-drones-attack-russia-bound-cargo-ships-in-sea-of-azov.html",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 8,
-                "sources": 1,
-                "articles": 8,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1307823934",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "RUSSIA",
-                "actor2": "AZERBAIJANI",
-                "actor1_country": "RUS",
-                "actor2_country": "AZE",
-                "geo_lat": 40.3953,
-                "geo_lon": 49.8822,
-                "geo_name": "Baku, Baki*, Azerbaijan"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1308101659",
               "title": "POLAND → UKRAINE : Impose blockade, restrict movement (Kyiv, Kyyiv, Misto, Ukraine)",
@@ -1173,6 +1140,72 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1312361659",
+              "title": "RUSSIA → nan : Use unconventional violence, not specified below (Moscow, Moskva, Russia)",
+              "title_en": "RUSSIA → nan : Use unconventional violence, not specified below (Moscow, Moskva, Russia)",
+              "summary": "GDELT Event: Use unconventional violence, not specified below. Actors: RUSSIA / nan. Location: Moscow, Moskva, Russia. Goldstein Scale: -9.0. Mentioned in 8 sources.",
+              "summary_en": "GDELT Event: Use unconventional violence, not specified below. Actors: RUSSIA / nan. Location: Moscow, Moskva, Russia. Goldstein Scale: -9.0. Mentioned in 8 sources.",
+              "source": "gdelt",
+              "source_label": "jamestown.org",
+              "date": "2026-07-06",
+              "url": "https://jamestown.org/putin-intensifies-missile-attacks-against-kyiv-ahead-of-nato-summit/",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 8,
+                "sources": 1,
+                "articles": 8,
+                "goldstein": -9.0
+              },
+              "gdelt_meta": {
+                "event_id": "1312361659",
+                "event_code": "180",
+                "cameo_desc": "Use unconventional violence, not specified below",
+                "actor1": "RUSSIA",
+                "actor2": "nan",
+                "actor1_country": "RUS",
+                "actor2_country": "nan",
+                "geo_lat": 55.7522,
+                "geo_lon": 37.6156,
+                "geo_name": "Moscow, Moskva, Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1312361662",
+              "title": "RUSSIAN → NIGERIAN : Use conventional military force, not specified below (Kharkiv, Kharkivs'ka Oblast', Ukraine)",
+              "title_en": "RUSSIAN → NIGERIAN : Use conventional military force, not specified below (Kharkiv, Kharkivs'ka Oblast', Ukraine)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: RUSSIAN / NIGERIAN. Location: Kharkiv, Kharkivs'ka Oblast', Ukraine. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: RUSSIAN / NIGERIAN. Location: Kharkiv, Kharkivs'ka Oblast', Ukraine. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "source": "gdelt",
+              "source_label": "opinionnigeria.com",
+              "date": "2026-07-06",
+              "url": "https://www.opinionnigeria.com/nigerian-medical-student-dies-after-injuries-from-russian-airstrike-in-ukraine/",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 8,
+                "sources": 1,
+                "articles": 8,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1312361662",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "RUSSIAN",
+                "actor2": "NIGERIAN",
+                "actor1_country": "RUS",
+                "actor2_country": "NGA",
+                "geo_lat": 49.9808,
+                "geo_lon": 36.2527,
+                "geo_name": "Kharkiv, Kharkivs'ka Oblast', Ukraine"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -1551,39 +1584,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1307823867",
-              "title": "ISRAEL → BAHRAIN : Fight with artillery and tanks (Iran)",
-              "title_en": "ISRAEL → BAHRAIN : Fight with artillery and tanks (Iran)",
-              "summary": "GDELT Event: Fight with artillery and tanks. Actors: ISRAEL / BAHRAIN. Location: Iran. Goldstein Scale: -10.0. Mentioned in 4 sources.",
-              "summary_en": "GDELT Event: Fight with artillery and tanks. Actors: ISRAEL / BAHRAIN. Location: Iran. Goldstein Scale: -10.0. Mentioned in 4 sources.",
-              "source": "gdelt",
-              "source_label": "english.wafa.ps",
-              "date": "2026-06-06",
-              "url": "https://english.wafa.ps/Pages/Details/171250",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 4,
-                "sources": 1,
-                "articles": 4,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1307823867",
-                "event_code": "194",
-                "cameo_desc": "Fight with artillery and tanks",
-                "actor1": "ISRAEL",
-                "actor2": "BAHRAIN",
-                "actor1_country": "ISR",
-                "actor2_country": "BHR",
-                "geo_lat": 32.0,
-                "geo_lon": 53.0,
-                "geo_name": "Iran"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1307930529",
               "title": "IRAQ → ISRAEL : Fight with artillery and tanks (Iran)",
@@ -4108,39 +4108,6 @@
           "icon": "⚔️",
           "items": [
             {
-              "id": "gdelt_1307823931",
-              "title": "REBEL → MEDIA : Use unconventional violence, not specified below (Kaziranga, Assam, India)",
-              "title_en": "REBEL → MEDIA : Use unconventional violence, not specified below (Kaziranga, Assam, India)",
-              "summary": "GDELT Event: Use unconventional violence, not specified below. Actors: REBEL / MEDIA. Location: Kaziranga, Assam, India. Goldstein Scale: -9.0. Mentioned in 5 sources.",
-              "summary_en": "GDELT Event: Use unconventional violence, not specified below. Actors: REBEL / MEDIA. Location: Kaziranga, Assam, India. Goldstein Scale: -9.0. Mentioned in 5 sources.",
-              "source": "gdelt",
-              "source_label": "tribuneindia.com",
-              "date": "2026-06-06",
-              "url": "https://www.tribuneindia.com/news/variety/dreamer-builder-manju-barua/",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 5,
-                "sources": 1,
-                "articles": 5,
-                "goldstein": -9.0
-              },
-              "gdelt_meta": {
-                "event_id": "1307823931",
-                "event_code": "180",
-                "cameo_desc": "Use unconventional violence, not specified below",
-                "actor1": "REBEL",
-                "actor2": "MEDIA",
-                "actor1_country": "nan",
-                "actor2_country": "nan",
-                "geo_lat": 26.6,
-                "geo_lon": 93.4667,
-                "geo_name": "Kaziranga, Assam, India"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
               "id": "gdelt_1307930523",
               "title": "IRAN → MEDIA : Fight with artillery and tanks (Tehran, Tehran, Iran)",
               "title_en": "IRAN → MEDIA : Fight with artillery and tanks (Tehran, Tehran, Iran)",
@@ -5377,6 +5344,40 @@
               "admiralty_info": 3,
               "admiralty_code": "B3",
               "criticality": "background"
+            },
+            {
+              "id": "gdelt_1312361094",
+              "title": "nan → GOVERNMENT : Use conventional military force, not specified below (Akobo, Wilayat Junqoley, South Sudan)",
+              "title_en": "nan → GOVERNMENT : Use conventional military force, not specified below (Akobo, Wilayat Junqoley, South Sudan)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: nan / GOVERNMENT. Location: Akobo, Wilayat Junqoley, South Sudan. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: nan / GOVERNMENT. Location: Akobo, Wilayat Junqoley, South Sudan. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "source": "gdelt",
+              "source_label": "radiotamazuj.org",
+              "date": "2026-07-06",
+              "url": "https://www.radiotamazuj.org/en/news/article/splm-mourns-slain-akobo-county-commissioner",
+              "primary_conflict": "sudan",
+              "metrics": {
+                "mentions": 8,
+                "sources": 1,
+                "articles": 8,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1312361094",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "nan",
+                "actor2": "GOVERNMENT",
+                "actor1_country": "nan",
+                "actor2_country": "nan",
+                "geo_lat": 7.78775,
+                "geo_lon": 33.005,
+                "geo_name": "Akobo, Wilayat Junqoley, South Sudan"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3",
+              "criticality": "background"
             }
           ]
         },
@@ -5412,6 +5413,40 @@
                 "geo_lat": 54.5833,
                 "geo_lon": -5.93333,
                 "geo_name": "Belfast, Belfast, United Kingdom"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3",
+              "criticality": "background"
+            },
+            {
+              "id": "gdelt_1312361566",
+              "title": "BRIGADIER GENERAL → SOUTH SUDAN : Arrest, detain, or charge with legal action (Juba, Wilayat Bahr al Jabal, South Sudan)",
+              "title_en": "BRIGADIER GENERAL → SOUTH SUDAN : Arrest, detain, or charge with legal action (Juba, Wilayat Bahr al Jabal, South Sudan)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: BRIGADIER GENERAL / SOUTH SUDAN. Location: Juba, Wilayat Bahr al Jabal, South Sudan. Goldstein Scale: -5.0. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: BRIGADIER GENERAL / SOUTH SUDAN. Location: Juba, Wilayat Bahr al Jabal, South Sudan. Goldstein Scale: -5.0. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "radiotamazuj.org",
+              "date": "2026-07-06",
+              "url": "https://www.radiotamazuj.org/en/news/article/aweil-south-community-leader-piol-geng-dies-in-egypt-after-illness",
+              "primary_conflict": "sudan",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1312361566",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "BRIGADIER GENERAL",
+                "actor2": "SOUTH SUDAN",
+                "actor1_country": "nan",
+                "actor2_country": "SSD",
+                "geo_lat": 4.84597,
+                "geo_lon": 31.6012,
+                "geo_name": "Juba, Wilayat Bahr al Jabal, South Sudan"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -6040,6 +6075,40 @@
               "admiralty_info": 3,
               "admiralty_code": "B3",
               "criticality": "background"
+            },
+            {
+              "id": "gdelt_1312361193",
+              "title": "PRODUCER → DEPUTY : Arrest, detain, or charge with legal action (Berea, ?alab, Syria)",
+              "title_en": "PRODUCER → DEPUTY : Arrest, detain, or charge with legal action (Berea, ?alab, Syria)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: PRODUCER / DEPUTY. Location: Berea, ?alab, Syria. Goldstein Scale: -5.0. Mentioned in 5 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: PRODUCER / DEPUTY. Location: Berea, ?alab, Syria. Goldstein Scale: -5.0. Mentioned in 5 sources.",
+              "source": "gdelt",
+              "source_label": "wyff4.com",
+              "date": "2026-07-06",
+              "url": "https://www.wyff4.com/article/traffic-stop-ends-in-deadly-crash-police-chase/71840891",
+              "primary_conflict": "syria",
+              "metrics": {
+                "mentions": 5,
+                "sources": 1,
+                "articles": 5,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1312361193",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "PRODUCER",
+                "actor2": "DEPUTY",
+                "actor1_country": "nan",
+                "actor2_country": "nan",
+                "geo_lat": 36.2028,
+                "geo_lon": 37.1586,
+                "geo_name": "Berea, ?alab, Syria"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3",
+              "criticality": "background"
             }
           ]
         },
@@ -6102,13 +6171,13 @@
     }
   },
   "stats": {
-    "total_items": 172,
+    "total_items": 174,
     "sources": {
-      "gdelt": 172
+      "gdelt": 174
     },
     "date_range": {
-      "from": "2026-06-06",
-      "to": "2026-07-05"
+      "from": "2026-06-07",
+      "to": "2026-07-06"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
