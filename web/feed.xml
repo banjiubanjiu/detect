@@ -5,8 +5,58 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 07 Jul 2026 09:52:17 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 08:38:57 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] RUSSIA → nan : Use unconventional violence, not specified below (Moscow, Moskva, Russia)</title>
+      <link>https://jamestown.org/putin-intensifies-missile-attacks-against-kyiv-ahead-of-nato-summit/</link>
+      <description>GDELT Event: Use unconventional violence, not specified below. Actors: RUSSIA / nan. Location: Moscow, Moskva, Russia. Goldstein Scale: -9.0. Mentioned in 8 sources.</description>
+      <guid isPermaLink="true">https://jamestown.org/putin-intensifies-missile-attacks-against-kyiv-ahead-of-nato-summit/</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://jamestown.org/putin-intensifies-missile-attacks-against-kyiv-ahead-of-nato-summit/">jamestown.org</source>
+    </item>
+    <item>
+      <title>[俄乌战争] RUSSIAN → NIGERIAN : Use conventional military force, not specified below (Kharkiv, Kharkivs'ka Oblast', Ukraine)</title>
+      <link>https://www.opinionnigeria.com/nigerian-medical-student-dies-after-injuries-from-russian-airstrike-in-ukraine/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: RUSSIAN / NIGERIAN. Location: Kharkiv, Kharkivs'ka Oblast', Ukraine. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
+      <guid isPermaLink="true">https://www.opinionnigeria.com/nigerian-medical-student-dies-after-injuries-from-russian-airstrike-in-ukraine/</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.opinionnigeria.com/nigerian-medical-student-dies-after-injuries-from-russian-airstrike-in-ukraine/">opinionnigeria.com</source>
+    </item>
+    <item>
+      <title>[苏丹内战] nan → GOVERNMENT : Use conventional military force, not specified below (Akobo, Wilayat Junqoley, South Sudan)</title>
+      <link>https://www.radiotamazuj.org/en/news/article/splm-mourns-slain-akobo-county-commissioner</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: nan / GOVERNMENT. Location: Akobo, Wilayat Junqoley, South Sudan. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
+      <guid isPermaLink="true">https://www.radiotamazuj.org/en/news/article/splm-mourns-slain-akobo-county-commissioner</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+      <category>苏丹内战</category>
+      <category>军事动态</category>
+      <source url="https://www.radiotamazuj.org/en/news/article/splm-mourns-slain-akobo-county-commissioner">radiotamazuj.org</source>
+    </item>
+    <item>
+      <title>[苏丹内战] BRIGADIER GENERAL → SOUTH SUDAN : Arrest, detain, or charge with legal action (Juba, Wilayat Bahr al Jabal, South Sudan)</title>
+      <link>https://www.radiotamazuj.org/en/news/article/aweil-south-community-leader-piol-geng-dies-in-egypt-after-illness</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: BRIGADIER GENERAL / SOUTH SUDAN. Location: Juba, Wilayat Bahr al Jabal, South Sudan. Goldstein Scale: -5.0. Mentioned in 6 sources.</description>
+      <guid isPermaLink="true">https://www.radiotamazuj.org/en/news/article/aweil-south-community-leader-piol-geng-dies-in-egypt-after-illness</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+      <category>苏丹内战</category>
+      <category>外交谈判</category>
+      <source url="https://www.radiotamazuj.org/en/news/article/aweil-south-community-leader-piol-geng-dies-in-egypt-after-illness">radiotamazuj.org</source>
+    </item>
+    <item>
+      <title>[叙利亚局势] PRODUCER → DEPUTY : Arrest, detain, or charge with legal action (Berea, ?alab, Syria)</title>
+      <link>https://www.wyff4.com/article/traffic-stop-ends-in-deadly-crash-police-chase/71840891</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: PRODUCER / DEPUTY. Location: Berea, ?alab, Syria. Goldstein Scale: -5.0. Mentioned in 5 sources.</description>
+      <guid isPermaLink="true">https://www.wyff4.com/article/traffic-stop-ends-in-deadly-crash-police-chase/71840891</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+      <category>叙利亚局势</category>
+      <category>外交谈判</category>
+      <source url="https://www.wyff4.com/article/traffic-stop-ends-in-deadly-crash-police-chase/71840891">wyff4.com</source>
+    </item>
     <item>
       <title>[巴以冲突] ISRAEL → CUBA : Use conventional military force, not specified below (Mashhad, (IR30), Iran)</title>
       <link>https://www.cubaheadlines.com/articles/334268</link>
@@ -456,56 +506,6 @@
       <category>俄乌战争</category>
       <category>军事动态</category>
       <source url="https://www.eng.kavkaz-uzel.eu/articles/76475">eng.kavkaz-uzel.eu</source>
-    </item>
-    <item>
-      <title>[巴以冲突] THE US → IRAN : Use conventional military force, not specified below (Israel)</title>
-      <link>https://www.perthnow.com.au/news/middle-east/us-iran-war-latest-middle-east-tensions-escalate-as-us-launches-fresh-strikes-in-strait-of-hormuz-c-22495607</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: THE US / IRAN. Location: Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://www.perthnow.com.au/news/middle-east/us-iran-war-latest-middle-east-tensions-escalate-as-us-launches-fresh-strikes-in-strait-of-hormuz-c-22495607</guid>
-      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.perthnow.com.au/news/middle-east/us-iran-war-latest-middle-east-tensions-escalate-as-us-launches-fresh-strikes-in-strait-of-hormuz-c-22495607">perthnow.com.au</source>
-    </item>
-    <item>
-      <title>[巴以冲突] STUDENT → ISRAEL : Fight with small arms and light weapons (Harif, Maysan, Iraq)</title>
-      <link>https://www.jpost.com/opinion/article-900404</link>
-      <description>GDELT Event: Fight with small arms and light weapons. Actors: STUDENT / ISRAEL. Location: Harif, Maysan, Iraq. Goldstein Scale: -10.0. Mentioned in 7 sources.</description>
-      <guid isPermaLink="true">https://www.jpost.com/opinion/article-900404</guid>
-      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.jpost.com/opinion/article-900404">jpost.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAEL → IRAQ : Abduct, hijack, or take hostage (Gaza, Israel (general), Israel)</title>
-      <link>https://www.newsghana.com.gh/yazidi-survivors-un-plea-exposes-global-hypocrisy/</link>
-      <description>GDELT Event: Abduct, hijack, or take hostage. Actors: ISRAEL / IRAQ. Location: Gaza, Israel (general), Israel. Goldstein Scale: -9.0. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://www.newsghana.com.gh/yazidi-survivors-un-plea-exposes-global-hypocrisy/</guid>
-      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.newsghana.com.gh/yazidi-survivors-un-plea-exposes-global-hypocrisy/">newsghana.com.gh</source>
-    </item>
-    <item>
-      <title>[巴以冲突] UNITED STATES → ISRAEL : Use conventional military force, not specified below (Tel Aviv, Tel Aviv, Israel)</title>
-      <link>https://www.opednews.com/populum/page.php?f=addicted-to-war-selling-o-Genocide_Genocide-260627-262.html</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: UNITED STATES / ISRAEL. Location: Tel Aviv, Tel Aviv, Israel. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://www.opednews.com/populum/page.php?f=addicted-to-war-selling-o-Genocide_Genocide-260627-262.html</guid>
-      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.opednews.com/populum/page.php?f=addicted-to-war-selling-o-Genocide_Genocide-260627-262.html">opednews.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] POLISH → ISRAEL : Use conventional military force, not specified below (Jerusalem, Israel (general), Israel)</title>
-      <link>https://www.jpost.com/opinion/article-900259</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: POLISH / ISRAEL. Location: Jerusalem, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
-      <guid isPermaLink="true">https://www.jpost.com/opinion/article-900259</guid>
-      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.jpost.com/opinion/article-900259">jpost.com</source>
     </item>
   </channel>
 </rss>
