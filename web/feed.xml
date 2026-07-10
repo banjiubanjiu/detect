@@ -5,8 +5,58 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 09 Jul 2026 09:50:05 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 09:46:02 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] FIREFIGHTER → nan : Use conventional military force, not specified below (Moscow, Moskva, Russia)</title>
+      <link>https://www.yahoo.com/news/articles/ukrainian-capital-kyiv-under-missile-231059393.html</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: FIREFIGHTER / nan. Location: Moscow, Moskva, Russia. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.yahoo.com/news/articles/ukrainian-capital-kyiv-under-missile-231059393.html</guid>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.yahoo.com/news/articles/ukrainian-capital-kyiv-under-missile-231059393.html">yahoo.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] RABBI → ISRAEL : Fight with small arms and light weapons (Coney Island, New York, United States)</title>
+      <link>https://www.jns.org/news/u-s-news/must-show-respect-to-mamdani-who-wants-to-do-right-thing-for-nyc-says-chabad-rabbi-aiming-to-stay-out-of-politics</link>
+      <description>GDELT Event: Fight with small arms and light weapons. Actors: RABBI / ISRAEL. Location: Coney Island, New York, United States. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.jns.org/news/u-s-news/must-show-respect-to-mamdani-who-wants-to-do-right-thing-for-nyc-says-chabad-rabbi-aiming-to-stay-out-of-politics</guid>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.jns.org/news/u-s-news/must-show-respect-to-mamdani-who-wants-to-do-right-thing-for-nyc-says-chabad-rabbi-aiming-to-stay-out-of-politics">jns.org</source>
+    </item>
+    <item>
+      <title>[巴以冲突] AMERICAN → ISRAEL : Demonstrate or rally (New York, United States)</title>
+      <link>https://www.theblaze.com/news/shocking-poll-reveals-american-jews-prefer-mamdani-to-netanyahu-by-a-lot</link>
+      <description>GDELT Event: Demonstrate or rally. Actors: AMERICAN / ISRAEL. Location: New York, United States. Goldstein Scale: -6.5. Mentioned in 7 sources.</description>
+      <guid isPermaLink="true">https://www.theblaze.com/news/shocking-poll-reveals-american-jews-prefer-mamdani-to-netanyahu-by-a-lot</guid>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>舆论热点</category>
+      <source url="https://www.theblaze.com/news/shocking-poll-reveals-american-jews-prefer-mamdani-to-netanyahu-by-a-lot">theblaze.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] TURKEY → IRAN : Use conventional military force, not specified below (Tehran, Tehran, Iran)</title>
+      <link>https://www.watoday.com.au/world/north-america/trump-launches-second-day-of-strikes-against-iran-20260709-p60dtx.html</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: TURKEY / IRAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 6 sources.</description>
+      <guid isPermaLink="true">https://www.watoday.com.au/world/north-america/trump-launches-second-day-of-strikes-against-iran-20260709-p60dtx.html</guid>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://www.watoday.com.au/world/north-america/trump-launches-second-day-of-strikes-against-iran-20260709-p60dtx.html">watoday.com.au</source>
+    </item>
+    <item>
+      <title>[苏丹内战] KORDOFAN → nan : Abduct, hijack, or take hostage (Kordofan, Shamal Kurdufan, Sudan)</title>
+      <link>https://www.dailysabah.com/world/africa/un-finds-rsf-conduct-in-sudan-civil-war-amounts-to-genocide</link>
+      <description>GDELT Event: Abduct, hijack, or take hostage. Actors: KORDOFAN / nan. Location: Kordofan, Shamal Kurdufan, Sudan. Goldstein Scale: -9.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.dailysabah.com/world/africa/un-finds-rsf-conduct-in-sudan-civil-war-amounts-to-genocide</guid>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <category>苏丹内战</category>
+      <category>军事动态</category>
+      <source url="https://www.dailysabah.com/world/africa/un-finds-rsf-conduct-in-sudan-civil-war-amounts-to-genocide">dailysabah.com</source>
+    </item>
     <item>
       <title>[俄乌战争] RUSSIA → UKRAINE : Fight with small arms and light weapons (Moscow, Moskva, Russia)</title>
       <link>https://www.aljazeera.com/news/2026/7/7/russian-missile-strikes-hit-ukraines-capital-kyiv-for-third-time-in-a-week</link>
@@ -456,56 +506,6 @@
       <category>美伊对峙</category>
       <category>外交谈判</category>
       <source url="https://tribuneonlineng.com/falling-oil-prices-taming-effects-on-revenue-with-pipeline-surveillance/">tribuneonlineng.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] FIRE SERVICE → nan : Fight with small arms and light weapons (Petersburg, Sankt-Peterburg, Russia)</title>
-      <link>https://www.fox13news.com/news/legacy-six-firefighters-recognized-plaque-st-pete-fire-rescue-headquarters</link>
-      <description>GDELT Event: Fight with small arms and light weapons. Actors: FIRE SERVICE / nan. Location: Petersburg, Sankt-Peterburg, Russia. Goldstein Scale: -10.0. Mentioned in 5 sources.</description>
-      <guid isPermaLink="true">https://www.fox13news.com/news/legacy-six-firefighters-recognized-plaque-st-pete-fire-rescue-headquarters</guid>
-      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://www.fox13news.com/news/legacy-six-firefighters-recognized-plaque-st-pete-fire-rescue-headquarters">fox13news.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] RUSSIA → UKRAINE : Use unconventional violence, not specified below (Moscow, Moskva, Russia)</title>
-      <link>https://www.kyivpost.com/post/79230</link>
-      <description>GDELT Event: Use unconventional violence, not specified below. Actors: RUSSIA / UKRAINE. Location: Moscow, Moskva, Russia. Goldstein Scale: -9.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.kyivpost.com/post/79230</guid>
-      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://www.kyivpost.com/post/79230">kyivpost.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] GAZA → JOURNALIST : Use conventional military force, not specified below (Gaza, Israel (general), Israel)</title>
-      <link>https://www.middleeasteye.net/live-blog/live-blog-update/cpj-board-member-removed-it-undertakes-review-journalists-killed-gaza</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: GAZA / JOURNALIST. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 12 sources.</description>
-      <guid isPermaLink="true">https://www.middleeasteye.net/live-blog/live-blog-update/cpj-board-member-removed-it-undertakes-review-journalists-killed-gaza</guid>
-      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.middleeasteye.net/live-blog/live-blog-update/cpj-board-member-removed-it-undertakes-review-journalists-killed-gaza">middleeasteye.net</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAEL → JOURNALIST : Use conventional military force, not specified below (Los Angeles, California, United States)</title>
-      <link>https://www.middleeasteye.net/news/cpj-board-member-removed-undertakes-review-journalists-killed-gaza</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / JOURNALIST. Location: Los Angeles, California, United States. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://www.middleeasteye.net/news/cpj-board-member-removed-undertakes-review-journalists-killed-gaza</guid>
-      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.middleeasteye.net/news/cpj-board-member-removed-undertakes-review-journalists-killed-gaza">middleeasteye.net</source>
-    </item>
-    <item>
-      <title>[巴以冲突] HAREDI → RABBI : Demonstrate or rally (Israel)</title>
-      <link>https://www.israelnationalnews.com/news/429396</link>
-      <description>GDELT Event: Demonstrate or rally. Actors: HAREDI / RABBI. Location: Israel. Goldstein Scale: -6.5. Mentioned in 6 sources.</description>
-      <guid isPermaLink="true">https://www.israelnationalnews.com/news/429396</guid>
-      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>舆论热点</category>
-      <source url="https://www.israelnationalnews.com/news/429396">israelnationalnews.com</source>
     </item>
   </channel>
 </rss>
