@@ -5,8 +5,48 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 10 Jul 2026 09:46:02 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2026 08:06:06 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] RUSSIA → nan : Use conventional military force, not specified below (Kharg Island, Bushehr, Iran)</title>
+      <link>https://www.aol.com/articles/trump-says-deserves-nobel-peace-194036000.html</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: RUSSIA / nan. Location: Kharg Island, Bushehr, Iran. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.aol.com/articles/trump-says-deserves-nobel-peace-194036000.html</guid>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.aol.com/articles/trump-says-deserves-nobel-peace-194036000.html">aol.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAEL → BUSINESS : Employ aerial weapons (Iran)</title>
+      <link>https://santamariatimes.com/ap/business/iran-s-supreme-leader-ayatollah-ali-khamenei-has-been-laid-to-rest-months-after-u/article_1b578bd6-b409-52b0-9db6-9f776943c445.html</link>
+      <description>GDELT Event: Employ aerial weapons. Actors: ISRAEL / BUSINESS. Location: Iran. Goldstein Scale: -10.0. Mentioned in 5 sources.</description>
+      <guid isPermaLink="true">https://santamariatimes.com/ap/business/iran-s-supreme-leader-ayatollah-ali-khamenei-has-been-laid-to-rest-months-after-u/article_1b578bd6-b409-52b0-9db6-9f776943c445.html</guid>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://santamariatimes.com/ap/business/iran-s-supreme-leader-ayatollah-ali-khamenei-has-been-laid-to-rest-months-after-u/article_1b578bd6-b409-52b0-9db6-9f776943c445.html">santamariatimes.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] IRAN → KINGDOM : Fight with artillery and tanks (Tehran, Tehran, Iran)</title>
+      <link>https://mumbaimirror.indiatimes.com/news/world/ceasefire-interrupted/articleshow/132293632.html</link>
+      <description>GDELT Event: Fight with artillery and tanks. Actors: IRAN / KINGDOM. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 6 sources.</description>
+      <guid isPermaLink="true">https://mumbaimirror.indiatimes.com/news/world/ceasefire-interrupted/articleshow/132293632.html</guid>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://mumbaimirror.indiatimes.com/news/world/ceasefire-interrupted/articleshow/132293632.html">mumbaimirror.indiatimes.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] IRANIAN → IRANIAN : Use conventional military force, not specified below (Oman)</title>
+      <link>https://www.channelnewsasia.com/world/khamenei-burial-strikes-us-iran-6245006</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: IRANIAN / IRANIAN. Location: Oman. Goldstein Scale: -10.0. Mentioned in 5 sources.</description>
+      <guid isPermaLink="true">https://www.channelnewsasia.com/world/khamenei-burial-strikes-us-iran-6245006</guid>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://www.channelnewsasia.com/world/khamenei-burial-strikes-us-iran-6245006">channelnewsasia.com</source>
+    </item>
     <item>
       <title>[俄乌战争] FIREFIGHTER → nan : Use conventional military force, not specified below (Moscow, Moskva, Russia)</title>
       <link>https://www.yahoo.com/news/articles/ukrainian-capital-kyiv-under-missile-231059393.html</link>
@@ -466,46 +506,6 @@
       <category>巴以冲突</category>
       <category>军事动态</category>
       <source url="https://punchng.com/crude-slips-below-72-petrol-stays-above-n1000/">punchng.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] TERRORIST → nan : Abduct, hijack, or take hostage (Israel)</title>
-      <link>https://www.israelnationalnews.com/news/429504</link>
-      <description>GDELT Event: Abduct, hijack, or take hostage. Actors: TERRORIST / nan. Location: Israel. Goldstein Scale: -9.0. Mentioned in 5 sources.</description>
-      <guid isPermaLink="true">https://www.israelnationalnews.com/news/429504</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.israelnationalnews.com/news/429504">israelnationalnews.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAELI → LEBANON : Occupy territory (Beirut, Beyrouth, Lebanon)</title>
-      <link>http://www.heraldglobe.com/news/279160593/israel-to-occupy-parts-of-gaza-lebanon-and-syria-indefinitely-defense-minister</link>
-      <description>GDELT Event: Occupy territory. Actors: ISRAELI / LEBANON. Location: Beirut, Beyrouth, Lebanon. Goldstein Scale: -9.5. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">http://www.heraldglobe.com/news/279160593/israel-to-occupy-parts-of-gaza-lebanon-and-syria-indefinitely-defense-minister</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="http://www.heraldglobe.com/news/279160593/israel-to-occupy-parts-of-gaza-lebanon-and-syria-indefinitely-defense-minister">heraldglobe.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] ENVOY → IRAN : Fight with small arms and light weapons (Doha, Ad Daw?ah, Qatar)</title>
-      <link>https://www.businesstimes.com.sg/companies-markets/energy-commodities/oil-prices-little-changed-set-steepest-monthly-and-quarterly-losses-2020</link>
-      <description>GDELT Event: Fight with small arms and light weapons. Actors: ENVOY / IRAN. Location: Doha, Ad Daw?ah, Qatar. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">https://www.businesstimes.com.sg/companies-markets/energy-commodities/oil-prices-little-changed-set-steepest-monthly-and-quarterly-losses-2020</guid>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://www.businesstimes.com.sg/companies-markets/energy-commodities/oil-prices-little-changed-set-steepest-monthly-and-quarterly-losses-2020">businesstimes.com.sg</source>
-    </item>
-    <item>
-      <title>[美伊对峙] NIGERIA → nan : Destroy property (Iran)</title>
-      <link>https://tribuneonlineng.com/falling-oil-prices-taming-effects-on-revenue-with-pipeline-surveillance/</link>
-      <description>GDELT Event: Destroy property. Actors: NIGERIA / nan. Location: Iran. Goldstein Scale: -9.2. Mentioned in 5 sources.</description>
-      <guid isPermaLink="true">https://tribuneonlineng.com/falling-oil-prices-taming-effects-on-revenue-with-pipeline-surveillance/</guid>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>外交谈判</category>
-      <source url="https://tribuneonlineng.com/falling-oil-prices-taming-effects-on-revenue-with-pipeline-surveillance/">tribuneonlineng.com</source>
     </item>
   </channel>
 </rss>

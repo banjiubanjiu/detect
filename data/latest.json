@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-10T09:46:19+00:00Z",
+  "updated_at": "2026-07-11T08:06:23+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -1571,6 +1571,72 @@
                 "geo_lat": 55.7522,
                 "geo_lon": 37.6156,
                 "geo_name": "Moscow, Moskva, Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1313077912",
+              "title": "KAZAKHSTAN → RUSSIA : Impose administrative sanctions, not specified below (Moscow, Moskva, Russia)",
+              "title_en": "KAZAKHSTAN → RUSSIA : Impose administrative sanctions, not specified below (Moscow, Moskva, Russia)",
+              "summary": "GDELT Event: Impose administrative sanctions, not specified below. Actors: KAZAKHSTAN / RUSSIA. Location: Moscow, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: KAZAKHSTAN / RUSSIA. Location: Moscow, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "oilprice.com",
+              "date": "2026-07-10",
+              "url": "https://oilprice.com/Energy/Energy-General/Kazakhstan-Extends-Petroleum-Export-Ban-Six-Months-as-Hormuz-Tensions-Flare.html",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1313077912",
+                "event_code": "172",
+                "cameo_desc": "Impose administrative sanctions, not specified below",
+                "actor1": "KAZAKHSTAN",
+                "actor2": "RUSSIA",
+                "actor1_country": "KAZ",
+                "actor2_country": "RUS",
+                "geo_lat": 55.7522,
+                "geo_lon": 37.6156,
+                "geo_name": "Moscow, Moskva, Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1313077545",
+              "title": "GERMAN → UKRAINIAN : Arrest, detain, or charge with legal action (Germany)",
+              "title_en": "GERMAN → UKRAINIAN : Arrest, detain, or charge with legal action (Germany)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: GERMAN / UKRAINIAN. Location: Germany. Goldstein Scale: -5.0. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: GERMAN / UKRAINIAN. Location: Germany. Goldstein Scale: -5.0. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "yahoo.com",
+              "date": "2026-07-03",
+              "url": "https://www.yahoo.com/news/world/articles/ukraines-top-prosecutor-says-no-103328857.html",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1313077545",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "GERMAN",
+                "actor2": "UKRAINIAN",
+                "actor1_country": "DEU",
+                "actor2_country": "UKR",
+                "geo_lat": 51.5,
+                "geo_lon": 10.5,
+                "geo_name": "Germany"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -3464,6 +3530,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1313077862",
+              "title": "ISRAEL → nan : Assassinate (White House, District of Columbia, United States)",
+              "title_en": "ISRAEL → nan : Assassinate (White House, District of Columbia, United States)",
+              "summary": "GDELT Event: Assassinate. Actors: ISRAEL / nan. Location: White House, District of Columbia, United States. Goldstein Scale: -10.0. Mentioned in 16 sources.",
+              "summary_en": "GDELT Event: Assassinate. Actors: ISRAEL / nan. Location: White House, District of Columbia, United States. Goldstein Scale: -10.0. Mentioned in 16 sources.",
+              "source": "gdelt",
+              "source_label": "kmbc.com",
+              "date": "2026-07-10",
+              "url": "https://www.kmbc.com/article/report-assassination-plot-plane-swap-trump/71899719",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 16,
+                "sources": 2,
+                "articles": 16,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1313077862",
+                "event_code": "186",
+                "cameo_desc": "Assassinate",
+                "actor1": "ISRAEL",
+                "actor2": "nan",
+                "actor1_country": "ISR",
+                "actor2_country": "nan",
+                "geo_lat": 38.8951,
+                "geo_lon": -77.0364,
+                "geo_name": "White House, District of Columbia, United States"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -3668,6 +3767,39 @@
               "admiralty_source": "B",
               "admiralty_info": 3,
               "admiralty_code": "B3"
+            },
+            {
+              "id": "gdelt_1313078173",
+              "title": "MASSACHUSETTS → PRESIDENT : Arrest, detain, or charge with legal action (Gaza, Israel (general), Israel)",
+              "title_en": "MASSACHUSETTS → PRESIDENT : Arrest, detain, or charge with legal action (Gaza, Israel (general), Israel)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: MASSACHUSETTS / PRESIDENT. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 3 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: MASSACHUSETTS / PRESIDENT. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 3 sources.",
+              "source": "gdelt",
+              "source_label": "nypost.com",
+              "date": "2026-07-10",
+              "url": "https://nypost.com/2026/07/10/opinion/teachers-fake-marriage-uproar-hid-another-scandal-in-school-brainwashing/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 3,
+                "sources": 1,
+                "articles": 3,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1313078173",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "MASSACHUSETTS",
+                "actor2": "PRESIDENT",
+                "actor1_country": "USA",
+                "actor2_country": "nan",
+                "geo_lat": 31.4167,
+                "geo_lon": 34.3333,
+                "geo_name": "Gaza, Israel (general), Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -3942,105 +4074,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1308460752",
-              "title": "PRESIDENT → AMERICAN : Fight with small arms and light weapons (Tehran, Tehran, Iran)",
-              "title_en": "PRESIDENT → AMERICAN : Fight with small arms and light weapons (Tehran, Tehran, Iran)",
-              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: PRESIDENT / AMERICAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 8 sources.",
-              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: PRESIDENT / AMERICAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 8 sources.",
-              "source": "gdelt",
-              "source_label": "ktrh.iheart.com",
-              "date": "2026-06-10",
-              "url": "https://ktrh.iheart.com/featured/houston-texas-news/content/2026-06-10-us-unleashes-new-airstrikes-against-iran/",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 8,
-                "sources": 1,
-                "articles": 8,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1308460752",
-                "event_code": "193",
-                "cameo_desc": "Fight with small arms and light weapons",
-                "actor1": "PRESIDENT",
-                "actor2": "AMERICAN",
-                "actor1_country": "nan",
-                "actor2_country": "USA",
-                "geo_lat": 35.75,
-                "geo_lon": 51.5148,
-                "geo_name": "Tehran, Tehran, Iran"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1308460790",
-              "title": "IRAN → BAHRAIN : Use conventional military force, not specified below (Chicago, Illinois, United States)",
-              "title_en": "IRAN → BAHRAIN : Use conventional military force, not specified below (Chicago, Illinois, United States)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: IRAN / BAHRAIN. Location: Chicago, Illinois, United States. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: IRAN / BAHRAIN. Location: Chicago, Illinois, United States. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "source": "gdelt",
-              "source_label": "independent.co.uk",
-              "date": "2026-06-10",
-              "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-war-drain-us-oil-reserve-reagan-b2993521.html",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 2,
-                "sources": 1,
-                "articles": 2,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1308460790",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "IRAN",
-                "actor2": "BAHRAIN",
-                "actor1_country": "IRN",
-                "actor2_country": "BHR",
-                "geo_lat": 41.85,
-                "geo_lon": -87.6501,
-                "geo_name": "Chicago, Illinois, United States"
-              },
-              "admiralty_source": "B",
-              "admiralty_info": 3,
-              "admiralty_code": "B3"
-            },
-            {
-              "id": "gdelt_1308460951",
-              "title": "MILITARY → nan : Use conventional military force, not specified below (Sirik, Hormozgan, Iran)",
-              "title_en": "MILITARY → nan : Use conventional military force, not specified below (Sirik, Hormozgan, Iran)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: MILITARY / nan. Location: Sirik, Hormozgan, Iran. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: MILITARY / nan. Location: Sirik, Hormozgan, Iran. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "source": "gdelt",
-              "source_label": "cp24.com",
-              "date": "2026-06-10",
-              "url": "https://www.cp24.com/news/world/2026/06/10/us-strikes-multiple-targets-in-iran-after-trump-threatened-more-attacks/",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 2,
-                "sources": 1,
-                "articles": 2,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1308460951",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "MILITARY",
-                "actor2": "nan",
-                "actor1_country": "nan",
-                "actor2_country": "nan",
-                "geo_lat": 26.5055,
-                "geo_lon": 57.122,
-                "geo_name": "Sirik, Hormozgan, Iran"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1308636295",
               "title": "ATTORNEY → nan : Torture (Iran)",
@@ -5044,74 +5077,6 @@
           "icon": "⚔️",
           "items": [
             {
-              "id": "gdelt_1308460676",
-              "title": "UNITED KINGDOM → POLICE : Use conventional military force, not specified below (Sudan)",
-              "title_en": "UNITED KINGDOM → POLICE : Use conventional military force, not specified below (Sudan)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: UNITED KINGDOM / POLICE. Location: Sudan. Goldstein Scale: -10.0. Mentioned in 4 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: UNITED KINGDOM / POLICE. Location: Sudan. Goldstein Scale: -10.0. Mentioned in 4 sources.",
-              "source": "gdelt",
-              "source_label": "breitbart.com",
-              "date": "2026-06-10",
-              "url": "https://www.breitbart.com/europe/2026/06/10/chaos-continues-in-northern-ireland-anti-migration-rioters-clash-with-police-set-vehicles-on-fire/",
-              "primary_conflict": "sudan",
-              "metrics": {
-                "mentions": 4,
-                "sources": 1,
-                "articles": 4,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1308460676",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "UNITED KINGDOM",
-                "actor2": "POLICE",
-                "actor1_country": "GBR",
-                "actor2_country": "nan",
-                "geo_lat": 16.0,
-                "geo_lon": 30.0,
-                "geo_name": "Sudan"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3",
-              "criticality": "background"
-            },
-            {
-              "id": "gdelt_1308461067",
-              "title": "SUDANESE → MIGRANT : Kill by physical assault (Sudan)",
-              "title_en": "SUDANESE → MIGRANT : Kill by physical assault (Sudan)",
-              "summary": "GDELT Event: Kill by physical assault. Actors: SUDANESE / MIGRANT. Location: Sudan. Goldstein Scale: -10.0. Mentioned in 4 sources.",
-              "summary_en": "GDELT Event: Kill by physical assault. Actors: SUDANESE / MIGRANT. Location: Sudan. Goldstein Scale: -10.0. Mentioned in 4 sources.",
-              "source": "gdelt",
-              "source_label": "dailycaller.com",
-              "date": "2026-06-10",
-              "url": "https://dailycaller.com/2026/06/10/belfast-ireland-alleged-attempted-beheading-sudanese-stephen-ogilvy-family/",
-              "primary_conflict": "sudan",
-              "metrics": {
-                "mentions": 4,
-                "sources": 1,
-                "articles": 4,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1308461067",
-                "event_code": "1823",
-                "cameo_desc": "Kill by physical assault",
-                "actor1": "SUDANESE",
-                "actor2": "MIGRANT",
-                "actor1_country": "SDN",
-                "actor2_country": "nan",
-                "geo_lat": 16.0,
-                "geo_lon": 30.0,
-                "geo_name": "Sudan"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3",
-              "criticality": "background"
-            },
-            {
               "id": "gdelt_1309731987",
               "title": "SOUTH SUDAN → COMMUNITY : Occupy territory (Tonj, Wilayat Warab, South Sudan)",
               "title_en": "SOUTH SUDAN → COMMUNITY : Occupy territory (Tonj, Wilayat Warab, South Sudan)",
@@ -6005,13 +5970,13 @@
     }
   },
   "stats": {
-    "total_items": 169,
+    "total_items": 168,
     "sources": {
-      "gdelt": 169
+      "gdelt": 168
     },
     "date_range": {
-      "from": "2026-06-10",
-      "to": "2026-07-09"
+      "from": "2026-06-11",
+      "to": "2026-07-10"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
