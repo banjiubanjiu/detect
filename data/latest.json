@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11T08:06:23+00:00Z",
+  "updated_at": "2026-07-12T08:28:12+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -19,39 +19,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1308636500",
-              "title": "RUSSIAN → RUSSIAN : Use conventional military force, not specified below (Kyiv, Kyyiv, Misto, Ukraine)",
-              "title_en": "RUSSIAN → RUSSIAN : Use conventional military force, not specified below (Kyiv, Kyyiv, Misto, Ukraine)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: RUSSIAN / RUSSIAN. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -10.0. Mentioned in 6 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: RUSSIAN / RUSSIAN. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -10.0. Mentioned in 6 sources.",
-              "source": "gdelt",
-              "source_label": "jpost.com",
-              "date": "2026-06-11",
-              "url": "http://www.jpost.com/opinion/article-898850",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 6,
-                "sources": 1,
-                "articles": 6,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1308636500",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "RUSSIAN",
-                "actor2": "RUSSIAN",
-                "actor1_country": "RUS",
-                "actor2_country": "RUS",
-                "geo_lat": 50.4333,
-                "geo_lon": 30.5167,
-                "geo_name": "Kyiv, Kyyiv, Misto, Ukraine"
-              },
-              "admiralty_source": "B",
-              "admiralty_info": 3,
-              "admiralty_code": "B3"
-            },
             {
               "id": "gdelt_1308797626",
               "title": "UNITED STATES → ODESSA : Fight with small arms and light weapons (Texas, United States)",
@@ -1641,6 +1608,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1313189475",
+              "title": "KIEV → nan : Destroy property (Kiev, Ukraine (general), Ukraine)",
+              "title_en": "KIEV → nan : Destroy property (Kiev, Ukraine (general), Ukraine)",
+              "summary": "GDELT Event: Destroy property. Actors: KIEV / nan. Location: Kiev, Ukraine (general), Ukraine. Goldstein Scale: -9.2. Mentioned in 20 sources.",
+              "summary_en": "GDELT Event: Destroy property. Actors: KIEV / nan. Location: Kiev, Ukraine (general), Ukraine. Goldstein Scale: -9.2. Mentioned in 20 sources.",
+              "source": "gdelt",
+              "source_label": "dailyliberal.com.au",
+              "date": "2026-07-11",
+              "url": "https://www.dailyliberal.com.au/story/9308871/russian-strikes-on-ukraine-kill-eight-wound-dozens/",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 20,
+                "sources": 2,
+                "articles": 20,
+                "goldstein": -9.2
+              },
+              "gdelt_meta": {
+                "event_id": "1313189475",
+                "event_code": "1712",
+                "cameo_desc": "Destroy property",
+                "actor1": "KIEV",
+                "actor2": "nan",
+                "actor1_country": "UKR",
+                "actor2_country": "nan",
+                "geo_lat": 50.4333,
+                "geo_lon": 30.5167,
+                "geo_name": "Kiev, Ukraine (general), Ukraine"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -1716,39 +1716,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1308636402",
-              "title": "ARMY → REFUGEE : Use conventional military force, not specified below (Jordan Valley, Israel (general), Israel)",
-              "title_en": "ARMY → REFUGEE : Use conventional military force, not specified below (Jordan Valley, Israel (general), Israel)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: ARMY / REFUGEE. Location: Jordan Valley, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: ARMY / REFUGEE. Location: Jordan Valley, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "source": "gdelt",
-              "source_label": "imemc.org",
-              "date": "2026-06-11",
-              "url": "https://imemc.org/article/israeli-invasions-and-abductions-in-the-occupied-west-bank/",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 10,
-                "sources": 1,
-                "articles": 10,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1308636402",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "ARMY",
-                "actor2": "REFUGEE",
-                "actor1_country": "nan",
-                "actor2_country": "nan",
-                "geo_lat": 32.6667,
-                "geo_lon": 35.5,
-                "geo_name": "Jordan Valley, Israel (general), Israel"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1308797358",
               "title": "LEBANON → ISRAEL : Fight with artillery and tanks (Lebanon)",
@@ -3571,39 +3538,6 @@
           "icon": "🕊️",
           "items": [
             {
-              "id": "gdelt_1308636159",
-              "title": "ADMINISTRATION → STUDENT : Coerce, not specified below (Gaza, Israel (general), Israel)",
-              "title_en": "ADMINISTRATION → STUDENT : Coerce, not specified below (Gaza, Israel (general), Israel)",
-              "summary": "GDELT Event: Coerce, not specified below. Actors: ADMINISTRATION / STUDENT. Location: Gaza, Israel (general), Israel. Goldstein Scale: -7.0. Mentioned in 10 sources.",
-              "summary_en": "GDELT Event: Coerce, not specified below. Actors: ADMINISTRATION / STUDENT. Location: Gaza, Israel (general), Israel. Goldstein Scale: -7.0. Mentioned in 10 sources.",
-              "source": "gdelt",
-              "source_label": "vtdigger.org",
-              "date": "2026-06-11",
-              "url": "https://vtdigger.org/2026/06/11/vermont-student-activist-mohsen-mahdawi-faces-new-deportation-order/",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 10,
-                "sources": 1,
-                "articles": 10,
-                "goldstein": -7.0
-              },
-              "gdelt_meta": {
-                "event_id": "1308636159",
-                "event_code": "170",
-                "cameo_desc": "Coerce, not specified below",
-                "actor1": "ADMINISTRATION",
-                "actor2": "STUDENT",
-                "actor1_country": "nan",
-                "actor2_country": "nan",
-                "geo_lat": 31.4167,
-                "geo_lon": 34.3333,
-                "geo_name": "Gaza, Israel (general), Israel"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
               "id": "gdelt_1308797051",
               "title": "VILLAGE → ISRAEL : Destroy property (Gaza, Israel (general), Israel)",
               "title_en": "VILLAGE → ISRAEL : Destroy property (Gaza, Israel (general), Israel)",
@@ -3796,6 +3730,72 @@
                 "geo_lat": 31.4167,
                 "geo_lon": 34.3333,
                 "geo_name": "Gaza, Israel (general), Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1313189037",
+              "title": "nan → ISRAELI : Arrest, detain, or charge with legal action (Israel)",
+              "title_en": "nan → ISRAELI : Arrest, detain, or charge with legal action (Israel)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: nan / ISRAELI. Location: Israel. Goldstein Scale: -5.0. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: nan / ISRAELI. Location: Israel. Goldstein Scale: -5.0. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "abcnews.com",
+              "date": "2026-07-11",
+              "url": "https://abcnews.com/Politics/rep-ro-khanna-detained-israeli-settlers-military-west/story?id=134681240",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1313189037",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "nan",
+                "actor2": "ISRAELI",
+                "actor1_country": "nan",
+                "actor2_country": "ISR",
+                "geo_lat": 31.5,
+                "geo_lon": 34.75,
+                "geo_name": "Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1313189335",
+              "title": "ISRAEL → SETTLER : Arrest, detain, or charge with legal action (Sinjil, West Bank (general), West Bank)",
+              "title_en": "ISRAEL → SETTLER : Arrest, detain, or charge with legal action (Sinjil, West Bank (general), West Bank)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: ISRAEL / SETTLER. Location: Sinjil, West Bank (general), West Bank. Goldstein Scale: -5.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: ISRAEL / SETTLER. Location: Sinjil, West Bank (general), West Bank. Goldstein Scale: -5.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "pressdemocrat.com",
+              "date": "2026-07-11",
+              "url": "https://www.pressdemocrat.com/2026/07/11/democratic-congressman-says-he-was-detained-by-the-israeli-military-and-settlers-in-the-west-bank/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1313189335",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "ISRAEL",
+                "actor2": "SETTLER",
+                "actor1_country": "ISR",
+                "actor2_country": "nan",
+                "geo_lat": 32.0333,
+                "geo_lon": 35.2654,
+                "geo_name": "Sinjil, West Bank (general), West Bank"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -4037,6 +4037,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1313189438",
+              "title": "GAZA → nan : Demonstrate or rally (Gaza, Israel (general), Israel)",
+              "title_en": "GAZA → nan : Demonstrate or rally (Gaza, Israel (general), Israel)",
+              "summary": "GDELT Event: Demonstrate or rally. Actors: GAZA / nan. Location: Gaza, Israel (general), Israel. Goldstein Scale: -6.5. Mentioned in 1 sources.",
+              "summary_en": "GDELT Event: Demonstrate or rally. Actors: GAZA / nan. Location: Gaza, Israel (general), Israel. Goldstein Scale: -6.5. Mentioned in 1 sources.",
+              "source": "gdelt",
+              "source_label": "kashmirreader.com",
+              "date": "2026-07-11",
+              "url": "https://kashmirreader.com/2026/07/12/israel-debated-why-palestine-is-rewriting-the-rules-of-domestic-us-politics/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 1,
+                "sources": 1,
+                "articles": 1,
+                "goldstein": -6.5
+              },
+              "gdelt_meta": {
+                "event_id": "1313189438",
+                "event_code": "141",
+                "cameo_desc": "Demonstrate or rally",
+                "actor1": "GAZA",
+                "actor2": "nan",
+                "actor1_country": "PSE",
+                "actor2_country": "nan",
+                "geo_lat": 31.4167,
+                "geo_lon": 34.3333,
+                "geo_name": "Gaza, Israel (general), Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -4074,39 +4107,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1308636295",
-              "title": "ATTORNEY → nan : Torture (Iran)",
-              "title_en": "ATTORNEY → nan : Torture (Iran)",
-              "summary": "GDELT Event: Torture. Actors: ATTORNEY / nan. Location: Iran. Goldstein Scale: -9.0. Mentioned in 7 sources.",
-              "summary_en": "GDELT Event: Torture. Actors: ATTORNEY / nan. Location: Iran. Goldstein Scale: -9.0. Mentioned in 7 sources.",
-              "source": "gdelt",
-              "source_label": "foxnews.com",
-              "date": "2026-06-11",
-              "url": "https://www.foxnews.com/us/trump-plans-deport-iranians-violence-plagued-central-african-nation-new-deal",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 7,
-                "sources": 1,
-                "articles": 7,
-                "goldstein": -9.0
-              },
-              "gdelt_meta": {
-                "event_id": "1308636295",
-                "event_code": "1822",
-                "cameo_desc": "Torture",
-                "actor1": "ATTORNEY",
-                "actor2": "nan",
-                "actor1_country": "nan",
-                "actor2_country": "nan",
-                "geo_lat": 32.0,
-                "geo_lon": 53.0,
-                "geo_name": "Iran"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1308906958",
               "title": "CIVILIAN → MILITANT : Use conventional military force, not specified below (Miran Shah, Punjab, Pakistan)",
@@ -5975,8 +5975,8 @@
       "gdelt": 168
     },
     "date_range": {
-      "from": "2026-06-11",
-      "to": "2026-07-10"
+      "from": "2026-06-12",
+      "to": "2026-07-11"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
