@@ -5,8 +5,48 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 12 Jul 2026 08:27:56 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 09:38:04 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] KIEV → nan : Destroy property (Kiev, Ukraine (general), Ukraine)</title>
+      <link>https://www.dailyliberal.com.au/story/9308871/russian-strikes-on-ukraine-kill-eight-wound-dozens/</link>
+      <description>GDELT Event: Destroy property. Actors: KIEV / nan. Location: Kiev, Ukraine (general), Ukraine. Goldstein Scale: -9.2. Mentioned in 20 sources.</description>
+      <guid isPermaLink="true">https://www.dailyliberal.com.au/story/9308871/russian-strikes-on-ukraine-kill-eight-wound-dozens/</guid>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>外交谈判</category>
+      <source url="https://www.dailyliberal.com.au/story/9308871/russian-strikes-on-ukraine-kill-eight-wound-dozens/">dailyliberal.com.au</source>
+    </item>
+    <item>
+      <title>[巴以冲突] nan → ISRAELI : Arrest, detain, or charge with legal action (Israel)</title>
+      <link>https://abcnews.com/Politics/rep-ro-khanna-detained-israeli-settlers-military-west/story?id=134681240</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: nan / ISRAELI. Location: Israel. Goldstein Scale: -5.0. Mentioned in 6 sources.</description>
+      <guid isPermaLink="true">https://abcnews.com/Politics/rep-ro-khanna-detained-israeli-settlers-military-west/story?id=134681240</guid>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>外交谈判</category>
+      <source url="https://abcnews.com/Politics/rep-ro-khanna-detained-israeli-settlers-military-west/story?id=134681240">abcnews.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAEL → SETTLER : Arrest, detain, or charge with legal action (Sinjil, West Bank (general), West Bank)</title>
+      <link>https://www.pressdemocrat.com/2026/07/11/democratic-congressman-says-he-was-detained-by-the-israeli-military-and-settlers-in-the-west-bank/</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: ISRAEL / SETTLER. Location: Sinjil, West Bank (general), West Bank. Goldstein Scale: -5.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.pressdemocrat.com/2026/07/11/democratic-congressman-says-he-was-detained-by-the-israeli-military-and-settlers-in-the-west-bank/</guid>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>外交谈判</category>
+      <source url="https://www.pressdemocrat.com/2026/07/11/democratic-congressman-says-he-was-detained-by-the-israeli-military-and-settlers-in-the-west-bank/">pressdemocrat.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] GAZA → nan : Demonstrate or rally (Gaza, Israel (general), Israel)</title>
+      <link>https://kashmirreader.com/2026/07/12/israel-debated-why-palestine-is-rewriting-the-rules-of-domestic-us-politics/</link>
+      <description>GDELT Event: Demonstrate or rally. Actors: GAZA / nan. Location: Gaza, Israel (general), Israel. Goldstein Scale: -6.5. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">https://kashmirreader.com/2026/07/12/israel-debated-why-palestine-is-rewriting-the-rules-of-domestic-us-politics/</guid>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>舆论热点</category>
+      <source url="https://kashmirreader.com/2026/07/12/israel-debated-why-palestine-is-rewriting-the-rules-of-domestic-us-politics/">kashmirreader.com</source>
+    </item>
     <item>
       <title>[俄乌战争] KAZAKHSTAN → RUSSIA : Impose administrative sanctions, not specified below (Moscow, Moskva, Russia)</title>
       <link>https://oilprice.com/Energy/Energy-General/Kazakhstan-Extends-Petroleum-Export-Ban-Six-Months-as-Hormuz-Tensions-Flare.html</link>
@@ -466,46 +506,6 @@
       <category>俄乌战争</category>
       <category>外交谈判</category>
       <source url="https://legalinsurrection.com/2026/07/german-prosecutors-ukraine-behind-nord-stream-destruction/">legalinsurrection.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] AMERICAN → ISRAEL : Use conventional military force, not specified below (Iran)</title>
-      <link>https://investinglive.com:443/news/us-officials-believed-israel-might-have-been-plotting-to-assassinate-irans-negotiators-20260702/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: AMERICAN / ISRAEL. Location: Iran. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://investinglive.com:443/news/us-officials-believed-israel-might-have-been-plotting-to-assassinate-irans-negotiators-20260702/</guid>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://investinglive.com:443/news/us-officials-believed-israel-might-have-been-plotting-to-assassinate-irans-negotiators-20260702/">investinglive.com:443</source>
-    </item>
-    <item>
-      <title>[巴以冲突] THE US → ISRAEL : Use conventional military force, not specified below (Tel Aviv, Tel Aviv, Israel)</title>
-      <link>https://www.newkerala.com/news/a/mojtaba-khamenei-skip-his-father-ali-khameneis-funeral-674.htm</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: THE US / ISRAEL. Location: Tel Aviv, Tel Aviv, Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.newkerala.com/news/a/mojtaba-khamenei-skip-his-father-ali-khameneis-funeral-674.htm</guid>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.newkerala.com/news/a/mojtaba-khamenei-skip-his-father-ali-khameneis-funeral-674.htm">newkerala.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] POLICE → nan : Arrest, detain, or charge with legal action (Shfaram, Ha?afon, Israel)</title>
-      <link>http://www.jpost.com/israel-news/crime-in-israel/article-901294</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: POLICE / nan. Location: Shfaram, Ha?afon, Israel. Goldstein Scale: -5.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">http://www.jpost.com/israel-news/crime-in-israel/article-901294</guid>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>外交谈判</category>
-      <source url="http://www.jpost.com/israel-news/crime-in-israel/article-901294">jpost.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] PROTESTER → ISRAEL : Arrest, detain, or charge with legal action (Israel)</title>
-      <link>https://abc7news.com/post/golden-gate-bridge-protesters-7-pro-palestinian-demonstrators-found-guilty-lesser-charges-jury-deadlocked-felonies/19437543/</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: PROTESTER / ISRAEL. Location: Israel. Goldstein Scale: -5.0. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://abc7news.com/post/golden-gate-bridge-protesters-7-pro-palestinian-demonstrators-found-guilty-lesser-charges-jury-deadlocked-felonies/19437543/</guid>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>外交谈判</category>
-      <source url="https://abc7news.com/post/golden-gate-bridge-protesters-7-pro-palestinian-demonstrators-found-guilty-lesser-charges-jury-deadlocked-felonies/19437543/">abc7news.com</source>
     </item>
   </channel>
 </rss>
