@@ -5,8 +5,58 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 14 Jul 2026 08:16:06 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 08:20:51 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[巴以冲突] nan → WEST BANK : Use conventional military force, not specified below (Turmus Ayya, West Bank (general), West Bank)</title>
+      <link>https://attackofthefanboy.com/politics/ro-khanna-clashes-with-fox-news-host-over-key-details-of-his-west-bank-detainment-the-ambassador-is-lying/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: nan / WEST BANK. Location: Turmus Ayya, West Bank (general), West Bank. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://attackofthefanboy.com/politics/ro-khanna-clashes-with-fox-news-host-over-key-details-of-his-west-bank-detainment-the-ambassador-is-lying/</guid>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://attackofthefanboy.com/politics/ro-khanna-clashes-with-fox-news-host-over-key-details-of-his-west-bank-detainment-the-ambassador-is-lying/">attackofthefanboy.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAELI → nan : Coerce, not specified below (Israel)</title>
+      <link>https://www.theguardian.com/us-news/2026/jul/13/marco-rubio-dismantle-international-criminal-court</link>
+      <description>GDELT Event: Coerce, not specified below. Actors: ISRAELI / nan. Location: Israel. Goldstein Scale: -7.0. Mentioned in 3 sources.</description>
+      <guid isPermaLink="true">https://www.theguardian.com/us-news/2026/jul/13/marco-rubio-dismantle-international-criminal-court</guid>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>外交谈判</category>
+      <source url="https://www.theguardian.com/us-news/2026/jul/13/marco-rubio-dismantle-international-criminal-court">theguardian.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] OMANI → IRANIAN : Physically assault, not specified below (Oman)</title>
+      <link>http://www.bignewsnetwork.com/news/279185609/urgent-1-killed-after-2-uae-tankers-hit-by-iranian-cruise-missiles-in-strait-of-hormuz</link>
+      <description>GDELT Event: Physically assault, not specified below. Actors: OMANI / IRANIAN. Location: Oman. Goldstein Scale: -9.5. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">http://www.bignewsnetwork.com/news/279185609/urgent-1-killed-after-2-uae-tankers-hit-by-iranian-cruise-missiles-in-strait-of-hormuz</guid>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="http://www.bignewsnetwork.com/news/279185609/urgent-1-killed-after-2-uae-tankers-hit-by-iranian-cruise-missiles-in-strait-of-hormuz">bignewsnetwork.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] IRAN → nan : Fight with small arms and light weapons (Natanz, Esfahan, Iran)</title>
+      <link>http://www.jpost.com/middle-east/iran-news/article-902414</link>
+      <description>GDELT Event: Fight with small arms and light weapons. Actors: IRAN / nan. Location: Natanz, Esfahan, Iran. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
+      <guid isPermaLink="true">http://www.jpost.com/middle-east/iran-news/article-902414</guid>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="http://www.jpost.com/middle-east/iran-news/article-902414">jpost.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] UNITED KINGDOM → OMAN : Use conventional military force, not specified below (Tehran, Tehran, Iran)</title>
+      <link>https://www.mendocinobeacon.com/2026/07/13/strait-of-hormuz-control-fact-check/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: UNITED KINGDOM / OMAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 5 sources.</description>
+      <guid isPermaLink="true">https://www.mendocinobeacon.com/2026/07/13/strait-of-hormuz-control-fact-check/</guid>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://www.mendocinobeacon.com/2026/07/13/strait-of-hormuz-control-fact-check/">mendocinobeacon.com</source>
+    </item>
     <item>
       <title>[俄乌战争] BATTALION → RUSSIAN : Use conventional military force, not specified below (Syzran, Samarskaya Oblast', Russia)</title>
       <link>https://maritime-executive.com/article/ukraine-damages-90-russian-ships-in-one-week</link>
@@ -456,56 +506,6 @@
       <category>巴以冲突</category>
       <category>舆论热点</category>
       <source url="http://www.jpost.com/jerusalem-report/article-900803">jpost.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] AMERICAN → ISRAELI : Protest violently, riot (White House, District of Columbia, United States)</title>
-      <link>http://www.jpost.com/jerusalem-report/article-900801</link>
-      <description>GDELT Event: Protest violently, riot. Actors: AMERICAN / ISRAELI. Location: White House, District of Columbia, United States. Goldstein Scale: -7.5. Mentioned in 3 sources.</description>
-      <guid isPermaLink="true">http://www.jpost.com/jerusalem-report/article-900801</guid>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>舆论热点</category>
-      <source url="http://www.jpost.com/jerusalem-report/article-900801">jpost.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] BEIRUT → nan : Demonstrate or rally (Beirut, Beyrouth, Lebanon)</title>
-      <link>https://www.arabnews.com/node/2649688</link>
-      <description>GDELT Event: Demonstrate or rally. Actors: BEIRUT / nan. Location: Beirut, Beyrouth, Lebanon. Goldstein Scale: -6.5. Mentioned in 3 sources.</description>
-      <guid isPermaLink="true">https://www.arabnews.com/node/2649688</guid>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>舆论热点</category>
-      <source url="https://www.arabnews.com/node/2649688">arabnews.com</source>
-    </item>
-    <item>
-      <title>[苏丹内战] nan → SUDAN : Use conventional military force, not specified below (El-Obeid, Shamal Kurdufan, Sudan)</title>
-      <link>https://www.arabnews.com/node/2649685</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: nan / SUDAN. Location: El-Obeid, Shamal Kurdufan, Sudan. Goldstein Scale: -10.0. Mentioned in 6 sources.</description>
-      <guid isPermaLink="true">https://www.arabnews.com/node/2649685</guid>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
-      <category>苏丹内战</category>
-      <category>军事动态</category>
-      <source url="https://www.arabnews.com/node/2649685">arabnews.com</source>
-    </item>
-    <item>
-      <title>[缅甸内战] JUNTA → MYANMAR : Arrest, detain, or charge with legal action (Naypyitaw, Mandalay, Myanmar)</title>
-      <link>https://www.thehindu.com/news/international/aung-san-suu-kyi-a-symbol-of-resistance/article71183720.ece</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: JUNTA / MYANMAR. Location: Naypyitaw, Mandalay, Myanmar. Goldstein Scale: -5.0. Mentioned in 6 sources.</description>
-      <guid isPermaLink="true">https://www.thehindu.com/news/international/aung-san-suu-kyi-a-symbol-of-resistance/article71183720.ece</guid>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
-      <category>缅甸内战</category>
-      <category>外交谈判</category>
-      <source url="https://www.thehindu.com/news/international/aung-san-suu-kyi-a-symbol-of-resistance/article71183720.ece">thehindu.com</source>
-    </item>
-    <item>
-      <title>[叙利亚局势] THE US → SYRIAN : Arrest, detain, or charge with legal action (Damascus, Dimashq, Syria)</title>
-      <link>http://www.jpost.com/international/article-901400</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: THE US / SYRIAN. Location: Damascus, Dimashq, Syria. Goldstein Scale: -5.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">http://www.jpost.com/international/article-901400</guid>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
-      <category>叙利亚局势</category>
-      <category>外交谈判</category>
-      <source url="http://www.jpost.com/international/article-901400">jpost.com</source>
     </item>
   </channel>
 </rss>
