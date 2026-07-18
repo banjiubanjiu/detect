@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T08:20:10+00:00Z",
+  "updated_at": "2026-07-18T08:01:04+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -1107,6 +1107,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1314142560",
+              "title": "MINISTRY → CARGO SHIP : Use conventional military force, not specified below (Odessa, Odes'ka Oblast, Ukraine)",
+              "title_en": "MINISTRY → CARGO SHIP : Use conventional military force, not specified below (Odessa, Odes'ka Oblast, Ukraine)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: MINISTRY / CARGO SHIP. Location: Odessa, Odes'ka Oblast, Ukraine. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: MINISTRY / CARGO SHIP. Location: Odessa, Odes'ka Oblast, Ukraine. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "yahoo.com",
+              "date": "2026-07-17",
+              "url": "https://www.yahoo.com/news/world/articles/cargo-ship-damaged-russian-missile-224832300.html",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1314142560",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "MINISTRY",
+                "actor2": "CARGO SHIP",
+                "actor1_country": "nan",
+                "actor2_country": "nan",
+                "geo_lat": 46.4639,
+                "geo_lon": 30.7386,
+                "geo_name": "Odessa, Odes'ka Oblast, Ukraine"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -1551,39 +1584,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1309546808",
-              "title": "IRAN → THE US : Use conventional military force, not specified below (Israel)",
-              "title_en": "IRAN → THE US : Use conventional military force, not specified below (Israel)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: IRAN / THE US. Location: Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: IRAN / THE US. Location: Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "source": "gdelt",
-              "source_label": "hotair.com",
-              "date": "2026-06-17",
-              "url": "https://hotair.com/david-strom/2026/06/17/what-happens-if-the-israel-hezbollah-war-continues-n3816061",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 10,
-                "sources": 1,
-                "articles": 10,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1309546808",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "IRAN",
-                "actor2": "THE US",
-                "actor1_country": "IRN",
-                "actor2_country": "USA",
-                "geo_lat": 31.5,
-                "geo_lon": 34.75,
-                "geo_name": "Israel"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1309899279",
               "title": "MILITARY → NEIGHBORHOOD : Occupy territory (Gaza, Israel (general), Israel)",
@@ -4997,6 +4997,72 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1314142611",
+              "title": "IRAN → nan : Fight with artillery and tanks (China)",
+              "title_en": "IRAN → nan : Fight with artillery and tanks (China)",
+              "summary": "GDELT Event: Fight with artillery and tanks. Actors: IRAN / nan. Location: China. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Fight with artillery and tanks. Actors: IRAN / nan. Location: China. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "dailymail.com",
+              "date": "2026-07-17",
+              "url": "https://www.dailymail.com/news/article-15986465/Tehran-banner-Trump-family-US-airstrikes-hit-Iran.html",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1314142611",
+                "event_code": "194",
+                "cameo_desc": "Fight with artillery and tanks",
+                "actor1": "IRAN",
+                "actor2": "nan",
+                "actor1_country": "IRN",
+                "actor2_country": "nan",
+                "geo_lat": 35.0,
+                "geo_lon": 105.0,
+                "geo_name": "China"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1314142616",
+              "title": "IRAN → THE US : Use conventional military force, not specified below (Sirik, Hormozgan, Iran)",
+              "title_en": "IRAN → THE US : Use conventional military force, not specified below (Sirik, Hormozgan, Iran)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: IRAN / THE US. Location: Sirik, Hormozgan, Iran. Goldstein Scale: -10.0. Mentioned in 5 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: IRAN / THE US. Location: Sirik, Hormozgan, Iran. Goldstein Scale: -10.0. Mentioned in 5 sources.",
+              "source": "gdelt",
+              "source_label": "aa.com.tr",
+              "date": "2026-07-17",
+              "url": "https://aa.com.tr/en/us-israel-iran-war/blasts-rock-southern-iran-as-us-launches-new-wave-of-attacks/4001837",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 5,
+                "sources": 1,
+                "articles": 5,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1314142616",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "IRAN",
+                "actor2": "THE US",
+                "actor1_country": "IRN",
+                "actor2_country": "USA",
+                "geo_lat": 26.5055,
+                "geo_lon": 57.122,
+                "geo_name": "Sirik, Hormozgan, Iran"
+              },
+              "admiralty_source": "B",
+              "admiralty_info": 3,
+              "admiralty_code": "B3"
             }
           ]
         },
@@ -5004,39 +5070,6 @@
           "label": "外交谈判",
           "icon": "🕊️",
           "items": [
-            {
-              "id": "gdelt_1309546701",
-              "title": "ADMINISTRATION → IRAN : Impose administrative sanctions, not specified below (Natanz, Esfahan, Iran)",
-              "title_en": "ADMINISTRATION → IRAN : Impose administrative sanctions, not specified below (Natanz, Esfahan, Iran)",
-              "summary": "GDELT Event: Impose administrative sanctions, not specified below. Actors: ADMINISTRATION / IRAN. Location: Natanz, Esfahan, Iran. Goldstein Scale: -5.0. Mentioned in 5 sources.",
-              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: ADMINISTRATION / IRAN. Location: Natanz, Esfahan, Iran. Goldstein Scale: -5.0. Mentioned in 5 sources.",
-              "source": "gdelt",
-              "source_label": "cbsnews.com",
-              "date": "2026-06-17",
-              "url": "https://www.cbsnews.com/news/how-trump-iran-nuclear-deal-memorandum-of-understanding-compares-to-obama-nuclear-deal-jcpoa/",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 5,
-                "sources": 1,
-                "articles": 5,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1309546701",
-                "event_code": "172",
-                "cameo_desc": "Impose administrative sanctions, not specified below",
-                "actor1": "ADMINISTRATION",
-                "actor2": "IRAN",
-                "actor1_country": "nan",
-                "actor2_country": "IRN",
-                "geo_lat": 33.4964,
-                "geo_lon": 51.9266,
-                "geo_name": "Natanz, Esfahan, Iran"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1311511381",
               "title": "NIGERIA → nan : Destroy property (Iran)",
@@ -5785,40 +5818,6 @@
           "icon": "⚔️",
           "items": [
             {
-              "id": "gdelt_1309546464",
-              "title": "GOMA → ANTI GOVERNMENT FORCE : Use conventional military force, not specified below (Uganda)",
-              "title_en": "GOMA → ANTI GOVERNMENT FORCE : Use conventional military force, not specified below (Uganda)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: GOMA / ANTI GOVERNMENT FORCE. Location: Uganda. Goldstein Scale: -10.0. Mentioned in 5 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: GOMA / ANTI GOVERNMENT FORCE. Location: Uganda. Goldstein Scale: -10.0. Mentioned in 5 sources.",
-              "source": "gdelt",
-              "source_label": "cbsnews.com",
-              "date": "2026-06-17",
-              "url": "https://www.cbsnews.com/news/congo-efforts-to-stop-ebola-outbreak/",
-              "primary_conflict": "congo-drc",
-              "metrics": {
-                "mentions": 5,
-                "sources": 1,
-                "articles": 5,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1309546464",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "GOMA",
-                "actor2": "ANTI GOVERNMENT FORCE",
-                "actor1_country": "COD",
-                "actor2_country": "nan",
-                "geo_lat": 2.0,
-                "geo_lon": 33.0,
-                "geo_name": "Uganda"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3",
-              "criticality": "background"
-            },
-            {
               "id": "gdelt_1311086170",
               "title": "HOSPITAL → ZIMBABWE : Physically assault, not specified below (Ngomahuru, Zimbabwe (general), Zimbabwe)",
               "title_en": "HOSPITAL → ZIMBABWE : Physically assault, not specified below (Ngomahuru, Zimbabwe (general), Zimbabwe)",
@@ -6140,8 +6139,8 @@
       "gdelt": 173
     },
     "date_range": {
-      "from": "2026-06-17",
-      "to": "2026-07-16"
+      "from": "2026-06-18",
+      "to": "2026-07-17"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
