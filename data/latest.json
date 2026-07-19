@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-18T08:01:04+00:00Z",
+  "updated_at": "2026-07-19T08:29:37+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -1505,6 +1505,72 @@
                 "geo_lat": 45.0428,
                 "geo_lon": 41.9734,
                 "geo_name": "Stavropol, Stavropol'skiy Kray, Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1314249918",
+              "title": "nan → KRASNODAR : Arrest, detain, or charge with legal action (nan)",
+              "title_en": "nan → KRASNODAR : Arrest, detain, or charge with legal action (nan)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: nan / KRASNODAR. Location: nan. Goldstein Scale: -5.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: nan / KRASNODAR. Location: nan. Goldstein Scale: -5.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "eng.kavkaz-uzel.eu",
+              "date": "2026-07-18",
+              "url": "https://www.eng.kavkaz-uzel.eu/articles/77036",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1314249918",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "nan",
+                "actor2": "KRASNODAR",
+                "actor1_country": "nan",
+                "actor2_country": "RUS",
+                "geo_lat": NaN,
+                "geo_lon": NaN,
+                "geo_name": "nan"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1314250026",
+              "title": "IRAN → UKRAINE : Destroy property (Syria)",
+              "title_en": "IRAN → UKRAINE : Destroy property (Syria)",
+              "summary": "GDELT Event: Destroy property. Actors: IRAN / UKRAINE. Location: Syria. Goldstein Scale: -9.2. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Destroy property. Actors: IRAN / UKRAINE. Location: Syria. Goldstein Scale: -9.2. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "slashfilm.com",
+              "date": "2026-07-18",
+              "url": "https://www.slashfilm.com/2218133/christopher-nolan-the-odyssey-stream-movie-free-next-the-trojan-women/",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -9.2
+              },
+              "gdelt_meta": {
+                "event_id": "1314250026",
+                "event_code": "1712",
+                "cameo_desc": "Destroy property",
+                "actor1": "IRAN",
+                "actor2": "UKRAINE",
+                "actor1_country": "IRN",
+                "actor2_country": "UKR",
+                "geo_lat": 35.0,
+                "geo_lon": 38.0,
+                "geo_name": "Syria"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -3200,6 +3266,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1314249922",
+              "title": "nan → CORNISH : Use conventional military force, not specified below (Israel)",
+              "title_en": "nan → CORNISH : Use conventional military force, not specified below (Israel)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: nan / CORNISH. Location: Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: nan / CORNISH. Location: Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "newsbusters.org",
+              "date": "2026-07-18",
+              "url": "https://newsbusters.org/blogs/nb/mark-finkelstein/2026/07/18/cnn-panelists-tough-guy-good-riddance-fetterman-melts-under",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1314249922",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "nan",
+                "actor2": "CORNISH",
+                "actor1_country": "nan",
+                "actor2_country": "nan",
+                "geo_lat": 31.5,
+                "geo_lon": 34.75,
+                "geo_name": "Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -3777,39 +3876,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1309731818",
-              "title": "IRAN → DIPLOMAT : Use conventional military force, not specified below (Iran)",
-              "title_en": "IRAN → DIPLOMAT : Use conventional military force, not specified below (Iran)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: IRAN / DIPLOMAT. Location: Iran. Goldstein Scale: -10.0. Mentioned in 1 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: IRAN / DIPLOMAT. Location: Iran. Goldstein Scale: -10.0. Mentioned in 1 sources.",
-              "source": "gdelt",
-              "source_label": "wired.com",
-              "date": "2026-06-18",
-              "url": "https://www.wired.com/story/how-peter-thiels-private-dialog-club-secretly-ranks-its-members/",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 1,
-                "sources": 1,
-                "articles": 1,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1309731818",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "IRAN",
-                "actor2": "DIPLOMAT",
-                "actor1_country": "IRN",
-                "actor2_country": "nan",
-                "geo_lat": 32.0,
-                "geo_lon": 53.0,
-                "geo_name": "Iran"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1309899280",
               "title": "MILITARY → IRAN : Fight with small arms and light weapons (Iran)",
@@ -5063,6 +5129,138 @@
               "admiralty_source": "B",
               "admiralty_info": 3,
               "admiralty_code": "B3"
+            },
+            {
+              "id": "gdelt_1314250011",
+              "title": "IRAN → JORDAN : Employ aerial weapons (Jordan)",
+              "title_en": "IRAN → JORDAN : Employ aerial weapons (Jordan)",
+              "summary": "GDELT Event: Employ aerial weapons. Actors: IRAN / JORDAN. Location: Jordan. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "summary_en": "GDELT Event: Employ aerial weapons. Actors: IRAN / JORDAN. Location: Jordan. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "source": "gdelt",
+              "source_label": "timesofindia.indiatimes.com",
+              "date": "2026-07-18",
+              "url": "https://timesofindia.indiatimes.com/world/middle-east/us-launches-fresh-airstrikes-on-iran-after-attack-on-american-troops-in-jordan/articleshow/132488646.cms",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 8,
+                "sources": 1,
+                "articles": 8,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1314250011",
+                "event_code": "195",
+                "cameo_desc": "Employ aerial weapons",
+                "actor1": "IRAN",
+                "actor2": "JORDAN",
+                "actor1_country": "IRN",
+                "actor2_country": "JOR",
+                "geo_lat": 31.0,
+                "geo_lon": 36.0,
+                "geo_name": "Jordan"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1314250033",
+              "title": "IRAN → HARTFORD : Employ aerial weapons (Dubai, Dubayy, United Arab Emirates)",
+              "title_en": "IRAN → HARTFORD : Employ aerial weapons (Dubai, Dubayy, United Arab Emirates)",
+              "summary": "GDELT Event: Employ aerial weapons. Actors: IRAN / HARTFORD. Location: Dubai, Dubayy, United Arab Emirates. Goldstein Scale: -10.0. Mentioned in 5 sources.",
+              "summary_en": "GDELT Event: Employ aerial weapons. Actors: IRAN / HARTFORD. Location: Dubai, Dubayy, United Arab Emirates. Goldstein Scale: -10.0. Mentioned in 5 sources.",
+              "source": "gdelt",
+              "source_label": "courant.com",
+              "date": "2026-07-18",
+              "url": "https://www.courant.com/2026/07/18/us-says-its-launching-new-airstrikes-on-iran-to-swiftly-punish-revolutionary-guard-after-deadly-attack-on-us-troops/",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 5,
+                "sources": 1,
+                "articles": 5,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1314250033",
+                "event_code": "195",
+                "cameo_desc": "Employ aerial weapons",
+                "actor1": "IRAN",
+                "actor2": "HARTFORD",
+                "actor1_country": "IRN",
+                "actor2_country": "USA",
+                "geo_lat": 25.2522,
+                "geo_lon": 55.28,
+                "geo_name": "Dubai, Dubayy, United Arab Emirates"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1314250014",
+              "title": "IRANIAN → ISLAMIC : Use conventional military force, not specified below (Iran)",
+              "title_en": "IRANIAN → ISLAMIC : Use conventional military force, not specified below (Iran)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: IRANIAN / ISLAMIC. Location: Iran. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: IRANIAN / ISLAMIC. Location: Iran. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "source": "gdelt",
+              "source_label": "en.apa.az",
+              "date": "2026-07-18",
+              "url": "https://en.apa.az/america/hegseth-says-deaths-of-two-american-soldiers-will-strengthen-us-resolve-516793",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 3,
+                "sources": 1,
+                "articles": 3,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1314250014",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "IRANIAN",
+                "actor2": "ISLAMIC",
+                "actor1_country": "IRN",
+                "actor2_country": "nan",
+                "geo_lat": 32.0,
+                "geo_lon": 53.0,
+                "geo_name": "Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1314250041",
+              "title": "JORDANIAN → IRAN : Fight with small arms and light weapons (Jordan)",
+              "title_en": "JORDANIAN → IRAN : Fight with small arms and light weapons (Jordan)",
+              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: JORDANIAN / IRAN. Location: Jordan. Goldstein Scale: -10.0. Mentioned in 1 sources.",
+              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: JORDANIAN / IRAN. Location: Jordan. Goldstein Scale: -10.0. Mentioned in 1 sources.",
+              "source": "gdelt",
+              "source_label": "opinionnigeria.com",
+              "date": "2026-07-18",
+              "url": "https://www.opinionnigeria.com/iran-vows-us-will-face-unforgettable-lessons-as-conflict-escalates-across-gulf/",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 1,
+                "sources": 1,
+                "articles": 1,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1314250041",
+                "event_code": "193",
+                "cameo_desc": "Fight with small arms and light weapons",
+                "actor1": "JORDANIAN",
+                "actor2": "IRAN",
+                "actor1_country": "JOR",
+                "actor2_country": "IRN",
+                "geo_lat": 31.0,
+                "geo_lon": 36.0,
+                "geo_name": "Jordan"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -5274,40 +5472,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1309731987",
-              "title": "SOUTH SUDAN → COMMUNITY : Occupy territory (Tonj, Wilayat Warab, South Sudan)",
-              "title_en": "SOUTH SUDAN → COMMUNITY : Occupy territory (Tonj, Wilayat Warab, South Sudan)",
-              "summary": "GDELT Event: Occupy territory. Actors: SOUTH SUDAN / COMMUNITY. Location: Tonj, Wilayat Warab, South Sudan. Goldstein Scale: -9.5. Mentioned in 3 sources.",
-              "summary_en": "GDELT Event: Occupy territory. Actors: SOUTH SUDAN / COMMUNITY. Location: Tonj, Wilayat Warab, South Sudan. Goldstein Scale: -9.5. Mentioned in 3 sources.",
-              "source": "gdelt",
-              "source_label": "radiotamazuj.org",
-              "date": "2026-06-18",
-              "url": "https://www.radiotamazuj.org/en/news/article/opposition-group-alleges-land-grabbing-for-gold-mining-in-tonj-south",
-              "primary_conflict": "sudan",
-              "metrics": {
-                "mentions": 3,
-                "sources": 1,
-                "articles": 3,
-                "goldstein": -9.5
-              },
-              "gdelt_meta": {
-                "event_id": "1309731987",
-                "event_code": "192",
-                "cameo_desc": "Occupy territory",
-                "actor1": "SOUTH SUDAN",
-                "actor2": "COMMUNITY",
-                "actor1_country": "SSD",
-                "actor2_country": "nan",
-                "geo_lat": 7.27369,
-                "geo_lon": 28.6822,
-                "geo_name": "Tonj, Wilayat Warab, South Sudan"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3",
-              "criticality": "background"
-            },
             {
               "id": "gdelt_1310011411",
               "title": "KORDOFAN → nan : Use conventional military force, not specified below (El Obeid, Shamal Kurdufan, Sudan)",
@@ -5637,40 +5801,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1309731530",
-              "title": "MERCHANT SHIP → REBEL : Use conventional military force, not specified below (Red Sea, Djibouti (general), Djibouti)",
-              "title_en": "MERCHANT SHIP → REBEL : Use conventional military force, not specified below (Red Sea, Djibouti (general), Djibouti)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: MERCHANT SHIP / REBEL. Location: Red Sea, Djibouti (general), Djibouti. Goldstein Scale: -10.0. Mentioned in 16 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: MERCHANT SHIP / REBEL. Location: Red Sea, Djibouti (general), Djibouti. Goldstein Scale: -10.0. Mentioned in 16 sources.",
-              "source": "gdelt",
-              "source_label": "clickondetroit.com",
-              "date": "2026-06-18",
-              "url": "https://www.clickondetroit.com/news/politics/2026/06/18/senators-seek-to-block-hegseth-travel-funds-until-pentagon-releases-report-on-iran-school-strike/",
-              "primary_conflict": "yemen-houthi",
-              "metrics": {
-                "mentions": 16,
-                "sources": 2,
-                "articles": 16,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1309731530",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "MERCHANT SHIP",
-                "actor2": "REBEL",
-                "actor1_country": "nan",
-                "actor2_country": "nan",
-                "geo_lat": 19.0,
-                "geo_lon": 39.5,
-                "geo_name": "Red Sea, Djibouti (general), Djibouti"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3",
-              "criticality": "background"
-            },
             {
               "id": "gdelt_1310814821",
               "title": "SHIA → KARBALA : Use conventional military force, not specified below (Red Sea, Djibouti (general), Djibouti)",
@@ -6134,13 +6264,13 @@
     }
   },
   "stats": {
-    "total_items": 173,
+    "total_items": 177,
     "sources": {
-      "gdelt": 173
+      "gdelt": 177
     },
     "date_range": {
-      "from": "2026-06-18",
-      "to": "2026-07-17"
+      "from": "2026-06-19",
+      "to": "2026-07-18"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
