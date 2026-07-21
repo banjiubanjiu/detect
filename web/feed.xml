@@ -5,8 +5,58 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 20 Jul 2026 09:24:11 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 08:38:57 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[巴以冲突] TEHRAN → JORDAN : Use conventional military force, not specified below (Dimona, HaDarom, Israel)</title>
+      <link>http://www.pakistantelegraph.com/news/279188361/us-launches-new-iran-strikes-reimposes-naval-blockade</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: TEHRAN / JORDAN. Location: Dimona, HaDarom, Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.</description>
+      <guid isPermaLink="true">http://www.pakistantelegraph.com/news/279188361/us-launches-new-iran-strikes-reimposes-naval-blockade</guid>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="http://www.pakistantelegraph.com/news/279188361/us-launches-new-iran-strikes-reimposes-naval-blockade">pakistantelegraph.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] NEW YORK → ISRAEL : Use conventional military force, not specified below (Israel)</title>
+      <link>https://albeu.com/english/clash-of-statements-between-netanyahu-and-new-york-mayor-war-criminal-we-await-him-in-the-hague/934004/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: NEW YORK / ISRAEL. Location: Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://albeu.com/english/clash-of-statements-between-netanyahu-and-new-york-mayor-war-criminal-we-await-him-in-the-hague/934004/</guid>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://albeu.com/english/clash-of-statements-between-netanyahu-and-new-york-mayor-war-criminal-we-await-him-in-the-hague/934004/">albeu.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] IRAN → nan : Use conventional military force, not specified below (Syria)</title>
+      <link>https://www.middleeasteye.net/live-blog/live-blog-update/irgc-claims-surprise-attack-command-centre-syria</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: IRAN / nan. Location: Syria. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.middleeasteye.net/live-blog/live-blog-update/irgc-claims-surprise-attack-command-centre-syria</guid>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://www.middleeasteye.net/live-blog/live-blog-update/irgc-claims-surprise-attack-command-centre-syria">middleeasteye.net</source>
+    </item>
+    <item>
+      <title>[美伊对峙] IRAN → UNITED STATES : Use conventional military force, not specified below (Hormozgan, Hormozgan, Iran)</title>
+      <link>http://usa.chinadaily.com.cn/a/202607/19/WS6a5ce7f9a310986e2b46610d.html</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: IRAN / UNITED STATES. Location: Hormozgan, Hormozgan, Iran. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">http://usa.chinadaily.com.cn/a/202607/19/WS6a5ce7f9a310986e2b46610d.html</guid>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="http://usa.chinadaily.com.cn/a/202607/19/WS6a5ce7f9a310986e2b46610d.html">usa.chinadaily.com.cn</source>
+    </item>
+    <item>
+      <title>[美伊对峙] PRESIDENT → IRAN : Use conventional military force, not specified below (Iran)</title>
+      <link>https://gcaptain.com/america-is-finally-remembering-the-merchant-mariners-who-carry-its-power/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: PRESIDENT / IRAN. Location: Iran. Goldstein Scale: -10.0. Mentioned in 6 sources.</description>
+      <guid isPermaLink="true">https://gcaptain.com/america-is-finally-remembering-the-merchant-mariners-who-carry-its-power/</guid>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://gcaptain.com/america-is-finally-remembering-the-merchant-mariners-who-carry-its-power/">gcaptain.com</source>
+    </item>
     <item>
       <title>[俄乌战争] nan → KRASNODAR : Arrest, detain, or charge with legal action (nan)</title>
       <link>https://www.eng.kavkaz-uzel.eu/articles/77036</link>
@@ -456,56 +506,6 @@
       <category>俄乌战争</category>
       <category>外交谈判</category>
       <source url="https://www.dailyliberal.com.au/story/9308871/russian-strikes-on-ukraine-kill-eight-wound-dozens/">dailyliberal.com.au</source>
-    </item>
-    <item>
-      <title>[巴以冲突] nan → ISRAELI : Arrest, detain, or charge with legal action (Israel)</title>
-      <link>https://abcnews.com/Politics/rep-ro-khanna-detained-israeli-settlers-military-west/story?id=134681240</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: nan / ISRAELI. Location: Israel. Goldstein Scale: -5.0. Mentioned in 6 sources.</description>
-      <guid isPermaLink="true">https://abcnews.com/Politics/rep-ro-khanna-detained-israeli-settlers-military-west/story?id=134681240</guid>
-      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>外交谈判</category>
-      <source url="https://abcnews.com/Politics/rep-ro-khanna-detained-israeli-settlers-military-west/story?id=134681240">abcnews.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAEL → SETTLER : Arrest, detain, or charge with legal action (Sinjil, West Bank (general), West Bank)</title>
-      <link>https://www.pressdemocrat.com/2026/07/11/democratic-congressman-says-he-was-detained-by-the-israeli-military-and-settlers-in-the-west-bank/</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: ISRAEL / SETTLER. Location: Sinjil, West Bank (general), West Bank. Goldstein Scale: -5.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.pressdemocrat.com/2026/07/11/democratic-congressman-says-he-was-detained-by-the-israeli-military-and-settlers-in-the-west-bank/</guid>
-      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>外交谈判</category>
-      <source url="https://www.pressdemocrat.com/2026/07/11/democratic-congressman-says-he-was-detained-by-the-israeli-military-and-settlers-in-the-west-bank/">pressdemocrat.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] GAZA → nan : Demonstrate or rally (Gaza, Israel (general), Israel)</title>
-      <link>https://kashmirreader.com/2026/07/12/israel-debated-why-palestine-is-rewriting-the-rules-of-domestic-us-politics/</link>
-      <description>GDELT Event: Demonstrate or rally. Actors: GAZA / nan. Location: Gaza, Israel (general), Israel. Goldstein Scale: -6.5. Mentioned in 1 sources.</description>
-      <guid isPermaLink="true">https://kashmirreader.com/2026/07/12/israel-debated-why-palestine-is-rewriting-the-rules-of-domestic-us-politics/</guid>
-      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>舆论热点</category>
-      <source url="https://kashmirreader.com/2026/07/12/israel-debated-why-palestine-is-rewriting-the-rules-of-domestic-us-politics/">kashmirreader.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] KAZAKHSTAN → RUSSIA : Impose administrative sanctions, not specified below (Moscow, Moskva, Russia)</title>
-      <link>https://oilprice.com/Energy/Energy-General/Kazakhstan-Extends-Petroleum-Export-Ban-Six-Months-as-Hormuz-Tensions-Flare.html</link>
-      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: KAZAKHSTAN / RUSSIA. Location: Moscow, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://oilprice.com/Energy/Energy-General/Kazakhstan-Extends-Petroleum-Export-Ban-Six-Months-as-Hormuz-Tensions-Flare.html</guid>
-      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>外交谈判</category>
-      <source url="https://oilprice.com/Energy/Energy-General/Kazakhstan-Extends-Petroleum-Export-Ban-Six-Months-as-Hormuz-Tensions-Flare.html">oilprice.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAEL → nan : Assassinate (White House, District of Columbia, United States)</title>
-      <link>https://www.kmbc.com/article/report-assassination-plot-plane-swap-trump/71899719</link>
-      <description>GDELT Event: Assassinate. Actors: ISRAEL / nan. Location: White House, District of Columbia, United States. Goldstein Scale: -10.0. Mentioned in 16 sources.</description>
-      <guid isPermaLink="true">https://www.kmbc.com/article/report-assassination-plot-plane-swap-trump/71899719</guid>
-      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.kmbc.com/article/report-assassination-plot-plane-swap-trump/71899719">kmbc.com</source>
     </item>
   </channel>
 </rss>
