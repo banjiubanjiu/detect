@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T08:39:13+00:00Z",
+  "updated_at": "2026-07-22T08:38:56+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -19,72 +19,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1310115205",
-              "title": "MAYOR → nan : Fight with small arms and light weapons (Russia)",
-              "title_en": "MAYOR → nan : Fight with small arms and light weapons (Russia)",
-              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: MAYOR / nan. Location: Russia. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: MAYOR / nan. Location: Russia. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "source": "gdelt",
-              "source_label": "zerohedge.com",
-              "date": "2026-06-21",
-              "url": "https://www.zerohedge.com/news/2026-06-21/soviet-seattle-pimp-war-2026",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 10,
-                "sources": 1,
-                "articles": 10,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1310115205",
-                "event_code": "193",
-                "cameo_desc": "Fight with small arms and light weapons",
-                "actor1": "MAYOR",
-                "actor2": "nan",
-                "actor1_country": "nan",
-                "actor2_country": "nan",
-                "geo_lat": 60.0,
-                "geo_lon": 100.0,
-                "geo_name": "Russia"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1310115348",
-              "title": "RUSSIA → UKRAINE : Employ aerial weapons (Kyiv, Kyyiv, Misto, Ukraine)",
-              "title_en": "RUSSIA → UKRAINE : Employ aerial weapons (Kyiv, Kyyiv, Misto, Ukraine)",
-              "summary": "GDELT Event: Employ aerial weapons. Actors: RUSSIA / UKRAINE. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "summary_en": "GDELT Event: Employ aerial weapons. Actors: RUSSIA / UKRAINE. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "source": "gdelt",
-              "source_label": "perthnow.com.au",
-              "date": "2026-06-21",
-              "url": "https://www.perthnow.com.au/news/conflict/zelenskiy-tells-belarus-to-de-escalate-not-apologise-c-22464530",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 2,
-                "sources": 1,
-                "articles": 2,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1310115348",
-                "event_code": "195",
-                "cameo_desc": "Employ aerial weapons",
-                "actor1": "RUSSIA",
-                "actor2": "UKRAINE",
-                "actor1_country": "RUS",
-                "actor2_country": "UKR",
-                "geo_lat": 50.4333,
-                "geo_lon": 30.5167,
-                "geo_name": "Kyiv, Kyyiv, Misto, Ukraine"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1310459453",
               "title": "MILITARY → ASTRAKHAN : Use conventional military force, not specified below (Astrakhan, Astrakhanskaya Oblast', Russia)",
@@ -1041,6 +975,72 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1314669095",
+              "title": "UKRAINE → nan : Fight with artillery and tanks (Russia)",
+              "title_en": "UKRAINE → nan : Fight with artillery and tanks (Russia)",
+              "summary": "GDELT Event: Fight with artillery and tanks. Actors: UKRAINE / nan. Location: Russia. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "summary_en": "GDELT Event: Fight with artillery and tanks. Actors: UKRAINE / nan. Location: Russia. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "source": "gdelt",
+              "source_label": "finance.yahoo.com",
+              "date": "2026-07-21",
+              "url": "https://finance.yahoo.com/energy/articles/crude-prices-erase-early-gains-154523621.html",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 8,
+                "sources": 1,
+                "articles": 8,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1314669095",
+                "event_code": "194",
+                "cameo_desc": "Fight with artillery and tanks",
+                "actor1": "UKRAINE",
+                "actor2": "nan",
+                "actor1_country": "UKR",
+                "actor2_country": "nan",
+                "geo_lat": 60.0,
+                "geo_lon": 100.0,
+                "geo_name": "Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1314669072",
+              "title": "INTELLIGENCE → nan : Use conventional military force, not specified below (Russia)",
+              "title_en": "INTELLIGENCE → nan : Use conventional military force, not specified below (Russia)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: INTELLIGENCE / nan. Location: Russia. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: INTELLIGENCE / nan. Location: Russia. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "source": "gdelt",
+              "source_label": "defensenews.com",
+              "date": "2026-07-21",
+              "url": "https://www.defensenews.com/news/pentagon-congress/2026/07/21/cost-of-iran-war-rises-to-375-billion-pentagon-requests-671-billion-more/",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 3,
+                "sources": 1,
+                "articles": 3,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1314669072",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "INTELLIGENCE",
+                "actor2": "nan",
+                "actor1_country": "nan",
+                "actor2_country": "nan",
+                "geo_lat": 60.0,
+                "geo_lon": 100.0,
+                "geo_name": "Russia"
+              },
+              "admiralty_source": "B",
+              "admiralty_info": 3,
+              "admiralty_code": "B3"
             }
           ]
         },
@@ -1511,6 +1511,39 @@
                 "geo_lat": 48.5,
                 "geo_lon": 38.5,
                 "geo_name": "Donbass, Ukraine (general), Ukraine"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1314668293",
+              "title": "nan → UKRAINE : Engage in popular protest, not specified below (Kyiv, Kyyiv, Misto, Ukraine)",
+              "title_en": "nan → UKRAINE : Engage in popular protest, not specified below (Kyiv, Kyyiv, Misto, Ukraine)",
+              "summary": "GDELT Event: Engage in popular protest, not specified below. Actors: nan / UKRAINE. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -6.5. Mentioned in 1 sources.",
+              "summary_en": "GDELT Event: Engage in popular protest, not specified below. Actors: nan / UKRAINE. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -6.5. Mentioned in 1 sources.",
+              "source": "gdelt",
+              "source_label": "nypost.com",
+              "date": "2026-07-21",
+              "url": "https://nypost.com/2026/07/21/world-news/zelensky-fires-ukraine-military-chief-and-names-replacement-after-mass-protests/",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 1,
+                "sources": 1,
+                "articles": 1,
+                "goldstein": -6.5
+              },
+              "gdelt_meta": {
+                "event_id": "1314668293",
+                "event_code": "140",
+                "cameo_desc": "Engage in popular protest, not specified below",
+                "actor1": "nan",
+                "actor2": "UKRAINE",
+                "actor1_country": "nan",
+                "actor2_country": "UKR",
+                "geo_lat": 50.4333,
+                "geo_lon": 30.5167,
+                "geo_name": "Kyiv, Kyyiv, Misto, Ukraine"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -2936,6 +2969,105 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1314668783",
+              "title": "ISRAELI → CIVILIAN : Fight with small arms and light weapons (Gaza, Israel (general), Israel)",
+              "title_en": "ISRAELI → CIVILIAN : Fight with small arms and light weapons (Gaza, Israel (general), Israel)",
+              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: ISRAELI / CIVILIAN. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: ISRAELI / CIVILIAN. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "wrp.org.uk",
+              "date": "2026-07-21",
+              "url": "https://wrp.org.uk/features/two-palestinians-killed-by-settlers-in-west-bank-israeli-planes-continue-to-bomb-gaza/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1314668783",
+                "event_code": "193",
+                "cameo_desc": "Fight with small arms and light weapons",
+                "actor1": "ISRAELI",
+                "actor2": "CIVILIAN",
+                "actor1_country": "ISR",
+                "actor2_country": "nan",
+                "geo_lat": 31.4167,
+                "geo_lon": 34.3333,
+                "geo_name": "Gaza, Israel (general), Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1314668871",
+              "title": "LEBANESE → VILLAGE : Occupy territory (Beirut, Beyrouth, Lebanon)",
+              "title_en": "LEBANESE → VILLAGE : Occupy territory (Beirut, Beyrouth, Lebanon)",
+              "summary": "GDELT Event: Occupy territory. Actors: LEBANESE / VILLAGE. Location: Beirut, Beyrouth, Lebanon. Goldstein Scale: -9.5. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Occupy territory. Actors: LEBANESE / VILLAGE. Location: Beirut, Beyrouth, Lebanon. Goldstein Scale: -9.5. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "al-monitor.com",
+              "date": "2026-07-21",
+              "url": "https://www.al-monitor.com/originals/2026/07/trump-hosts-lebanons-aoun-pledges-concrete-plans-toward-israeli-withdrawal",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -9.5
+              },
+              "gdelt_meta": {
+                "event_id": "1314668871",
+                "event_code": "192",
+                "cameo_desc": "Occupy territory",
+                "actor1": "LEBANESE",
+                "actor2": "VILLAGE",
+                "actor1_country": "LBN",
+                "actor2_country": "nan",
+                "geo_lat": 33.8719,
+                "geo_lon": 35.5097,
+                "geo_name": "Beirut, Beyrouth, Lebanon"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1314668799",
+              "title": "ISRAEL → MAINE : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
+              "title_en": "ISRAEL → MAINE : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / MAINE. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / MAINE. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "sunjournal.com",
+              "date": "2026-07-21",
+              "url": "https://www.sunjournal.com/2026/07/21/maines-medical-journalistic-and-political-silence-on-gaza-is-shameful-opinion/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1314668799",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "ISRAEL",
+                "actor2": "MAINE",
+                "actor1_country": "ISR",
+                "actor2_country": "USA",
+                "geo_lat": 31.4167,
+                "geo_lon": 34.3333,
+                "geo_name": "Gaza, Israel (general), Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -3546,39 +3678,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1310115241",
-              "title": "IRANIAN → COMPANY : Use conventional military force, not specified below (Chicago, Illinois, United States)",
-              "title_en": "IRANIAN → COMPANY : Use conventional military force, not specified below (Chicago, Illinois, United States)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: IRANIAN / COMPANY. Location: Chicago, Illinois, United States. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: IRANIAN / COMPANY. Location: Chicago, Illinois, United States. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "source": "gdelt",
-              "source_label": "newsx.com",
-              "date": "2026-06-21",
-              "url": "https://www.newsx.com/world/qatar-ras-laffan-explosion-several-injured-after-fire-at-barzan-gas-facility-watch-238853/",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 2,
-                "sources": 1,
-                "articles": 2,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1310115241",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "IRANIAN",
-                "actor2": "COMPANY",
-                "actor1_country": "IRN",
-                "actor2_country": "nan",
-                "geo_lat": 41.85,
-                "geo_lon": -87.6501,
-                "geo_name": "Chicago, Illinois, United States"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1310279909",
               "title": "THE WHITE HOUSE → IRAN : Assassinate (Iran)",
@@ -5063,6 +5162,72 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1314668767",
+              "title": "IRAN → DJIBOUTI : Impose blockade, restrict movement (Red Sea, Djibouti (general), Djibouti)",
+              "title_en": "IRAN → DJIBOUTI : Impose blockade, restrict movement (Red Sea, Djibouti (general), Djibouti)",
+              "summary": "GDELT Event: Impose blockade, restrict movement. Actors: IRAN / DJIBOUTI. Location: Red Sea, Djibouti (general), Djibouti. Goldstein Scale: -9.5. Mentioned in 5 sources.",
+              "summary_en": "GDELT Event: Impose blockade, restrict movement. Actors: IRAN / DJIBOUTI. Location: Red Sea, Djibouti (general), Djibouti. Goldstein Scale: -9.5. Mentioned in 5 sources.",
+              "source": "gdelt",
+              "source_label": "perthnow.com.au",
+              "date": "2026-07-21",
+              "url": "https://www.perthnow.com.au/news/politics/news-and-politics-live-updates-donald-trump-considers-joint-us-israel-military-campaign-against-iran-c-22610196",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 5,
+                "sources": 1,
+                "articles": 5,
+                "goldstein": -9.5
+              },
+              "gdelt_meta": {
+                "event_id": "1314668767",
+                "event_code": "191",
+                "cameo_desc": "Impose blockade, restrict movement",
+                "actor1": "IRAN",
+                "actor2": "DJIBOUTI",
+                "actor1_country": "IRN",
+                "actor2_country": "DJI",
+                "geo_lat": 19.0,
+                "geo_lon": 39.5,
+                "geo_name": "Red Sea, Djibouti (general), Djibouti"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1314668773",
+              "title": "IRANIAN → NORTH CAROLINA : Use conventional military force, not specified below (Tehran, Tehran, Iran)",
+              "title_en": "IRANIAN → NORTH CAROLINA : Use conventional military force, not specified below (Tehran, Tehran, Iran)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: IRANIAN / NORTH CAROLINA. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: IRANIAN / NORTH CAROLINA. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "koco.com",
+              "date": "2026-07-21",
+              "url": "https://www.koco.com/article/hegseth-testifies-capitol-hill-iran-war-costs/73221832",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 2,
+                "sources": 2,
+                "articles": 2,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1314668773",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "IRANIAN",
+                "actor2": "NORTH CAROLINA",
+                "actor1_country": "IRN",
+                "actor2_country": "USA",
+                "geo_lat": 35.75,
+                "geo_lon": 51.5148,
+                "geo_name": "Tehran, Tehran, Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -5828,6 +5993,40 @@
               "admiralty_info": 3,
               "admiralty_code": "C3",
               "criticality": "background"
+            },
+            {
+              "id": "gdelt_1314669073",
+              "title": "SYRIA → PERTH : Use conventional military force, not specified below (Raqqa, Ar Raqqah, Syria)",
+              "title_en": "SYRIA → PERTH : Use conventional military force, not specified below (Raqqa, Ar Raqqah, Syria)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: SYRIA / PERTH. Location: Raqqa, Ar Raqqah, Syria. Goldstein Scale: -10.0. Mentioned in 12 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: SYRIA / PERTH. Location: Raqqa, Ar Raqqah, Syria. Goldstein Scale: -10.0. Mentioned in 12 sources.",
+              "source": "gdelt",
+              "source_label": "perthnow.com.au",
+              "date": "2026-07-21",
+              "url": "https://www.perthnow.com.au/news/world/australian-isis-fighter-tareq-kamleh-in-iraq-can-rot-in-jail-minister-says-c-22610429",
+              "primary_conflict": "syria",
+              "metrics": {
+                "mentions": 12,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1314669073",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "SYRIA",
+                "actor2": "PERTH",
+                "actor1_country": "SYR",
+                "actor2_country": "AUS",
+                "geo_lat": 35.95,
+                "geo_lon": 39.0167,
+                "geo_name": "Raqqa, Ar Raqqah, Syria"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3",
+              "criticality": "background"
             }
           ]
         },
@@ -6032,13 +6231,13 @@
     }
   },
   "stats": {
-    "total_items": 170,
+    "total_items": 176,
     "sources": {
-      "gdelt": 170
+      "gdelt": 176
     },
     "date_range": {
-      "from": "2026-06-21",
-      "to": "2026-07-20"
+      "from": "2026-06-22",
+      "to": "2026-07-21"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
