@@ -5,8 +5,98 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 22 Jul 2026 08:38:40 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 08:40:29 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] UKRAINE → nan : Fight with artillery and tanks (Russia)</title>
+      <link>https://finance.yahoo.com/energy/articles/crude-prices-erase-early-gains-154523621.html</link>
+      <description>GDELT Event: Fight with artillery and tanks. Actors: UKRAINE / nan. Location: Russia. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
+      <guid isPermaLink="true">https://finance.yahoo.com/energy/articles/crude-prices-erase-early-gains-154523621.html</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://finance.yahoo.com/energy/articles/crude-prices-erase-early-gains-154523621.html">finance.yahoo.com</source>
+    </item>
+    <item>
+      <title>[俄乌战争] INTELLIGENCE → nan : Use conventional military force, not specified below (Russia)</title>
+      <link>https://www.defensenews.com/news/pentagon-congress/2026/07/21/cost-of-iran-war-rises-to-375-billion-pentagon-requests-671-billion-more/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: INTELLIGENCE / nan. Location: Russia. Goldstein Scale: -10.0. Mentioned in 3 sources.</description>
+      <guid isPermaLink="true">https://www.defensenews.com/news/pentagon-congress/2026/07/21/cost-of-iran-war-rises-to-375-billion-pentagon-requests-671-billion-more/</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.defensenews.com/news/pentagon-congress/2026/07/21/cost-of-iran-war-rises-to-375-billion-pentagon-requests-671-billion-more/">defensenews.com</source>
+    </item>
+    <item>
+      <title>[俄乌战争] nan → UKRAINE : Engage in popular protest, not specified below (Kyiv, Kyyiv, Misto, Ukraine)</title>
+      <link>https://nypost.com/2026/07/21/world-news/zelensky-fires-ukraine-military-chief-and-names-replacement-after-mass-protests/</link>
+      <description>GDELT Event: Engage in popular protest, not specified below. Actors: nan / UKRAINE. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -6.5. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">https://nypost.com/2026/07/21/world-news/zelensky-fires-ukraine-military-chief-and-names-replacement-after-mass-protests/</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>舆论热点</category>
+      <source url="https://nypost.com/2026/07/21/world-news/zelensky-fires-ukraine-military-chief-and-names-replacement-after-mass-protests/">nypost.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAELI → CIVILIAN : Fight with small arms and light weapons (Gaza, Israel (general), Israel)</title>
+      <link>https://wrp.org.uk/features/two-palestinians-killed-by-settlers-in-west-bank-israeli-planes-continue-to-bomb-gaza/</link>
+      <description>GDELT Event: Fight with small arms and light weapons. Actors: ISRAELI / CIVILIAN. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://wrp.org.uk/features/two-palestinians-killed-by-settlers-in-west-bank-israeli-planes-continue-to-bomb-gaza/</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://wrp.org.uk/features/two-palestinians-killed-by-settlers-in-west-bank-israeli-planes-continue-to-bomb-gaza/">wrp.org.uk</source>
+    </item>
+    <item>
+      <title>[巴以冲突] LEBANESE → VILLAGE : Occupy territory (Beirut, Beyrouth, Lebanon)</title>
+      <link>https://www.al-monitor.com/originals/2026/07/trump-hosts-lebanons-aoun-pledges-concrete-plans-toward-israeli-withdrawal</link>
+      <description>GDELT Event: Occupy territory. Actors: LEBANESE / VILLAGE. Location: Beirut, Beyrouth, Lebanon. Goldstein Scale: -9.5. Mentioned in 6 sources.</description>
+      <guid isPermaLink="true">https://www.al-monitor.com/originals/2026/07/trump-hosts-lebanons-aoun-pledges-concrete-plans-toward-israeli-withdrawal</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.al-monitor.com/originals/2026/07/trump-hosts-lebanons-aoun-pledges-concrete-plans-toward-israeli-withdrawal">al-monitor.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAEL → MAINE : Use conventional military force, not specified below (Gaza, Israel (general), Israel)</title>
+      <link>https://www.sunjournal.com/2026/07/21/maines-medical-journalistic-and-political-silence-on-gaza-is-shameful-opinion/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / MAINE. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.</description>
+      <guid isPermaLink="true">https://www.sunjournal.com/2026/07/21/maines-medical-journalistic-and-political-silence-on-gaza-is-shameful-opinion/</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.sunjournal.com/2026/07/21/maines-medical-journalistic-and-political-silence-on-gaza-is-shameful-opinion/">sunjournal.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] IRAN → DJIBOUTI : Impose blockade, restrict movement (Red Sea, Djibouti (general), Djibouti)</title>
+      <link>https://www.perthnow.com.au/news/politics/news-and-politics-live-updates-donald-trump-considers-joint-us-israel-military-campaign-against-iran-c-22610196</link>
+      <description>GDELT Event: Impose blockade, restrict movement. Actors: IRAN / DJIBOUTI. Location: Red Sea, Djibouti (general), Djibouti. Goldstein Scale: -9.5. Mentioned in 5 sources.</description>
+      <guid isPermaLink="true">https://www.perthnow.com.au/news/politics/news-and-politics-live-updates-donald-trump-considers-joint-us-israel-military-campaign-against-iran-c-22610196</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://www.perthnow.com.au/news/politics/news-and-politics-live-updates-donald-trump-considers-joint-us-israel-military-campaign-against-iran-c-22610196">perthnow.com.au</source>
+    </item>
+    <item>
+      <title>[美伊对峙] IRANIAN → NORTH CAROLINA : Use conventional military force, not specified below (Tehran, Tehran, Iran)</title>
+      <link>https://www.koco.com/article/hegseth-testifies-capitol-hill-iran-war-costs/73221832</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: IRANIAN / NORTH CAROLINA. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.koco.com/article/hegseth-testifies-capitol-hill-iran-war-costs/73221832</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://www.koco.com/article/hegseth-testifies-capitol-hill-iran-war-costs/73221832">koco.com</source>
+    </item>
+    <item>
+      <title>[叙利亚局势] SYRIA → PERTH : Use conventional military force, not specified below (Raqqa, Ar Raqqah, Syria)</title>
+      <link>https://www.perthnow.com.au/news/world/australian-isis-fighter-tareq-kamleh-in-iraq-can-rot-in-jail-minister-says-c-22610429</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: SYRIA / PERTH. Location: Raqqa, Ar Raqqah, Syria. Goldstein Scale: -10.0. Mentioned in 12 sources.</description>
+      <guid isPermaLink="true">https://www.perthnow.com.au/news/world/australian-isis-fighter-tareq-kamleh-in-iraq-can-rot-in-jail-minister-says-c-22610429</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <category>叙利亚局势</category>
+      <category>军事动态</category>
+      <source url="https://www.perthnow.com.au/news/world/australian-isis-fighter-tareq-kamleh-in-iraq-can-rot-in-jail-minister-says-c-22610429">perthnow.com.au</source>
+    </item>
     <item>
       <title>[俄乌战争] NATO → MILITARY : Fight with artillery and tanks (Dnieper River, Ukraine (general), Ukraine)</title>
       <link>https://www.naturalnews.com/2026-07-20-russia-strikes-ukrainian-ports-with-ai-equipped-drones.html</link>
@@ -416,96 +506,6 @@
       <category>叙利亚局势</category>
       <category>外交谈判</category>
       <source url="https://sana.sy/en/economic/2329618/">sana.sy</source>
-    </item>
-    <item>
-      <title>[巴以冲突] nan → WEST BANK : Use conventional military force, not specified below (Turmus Ayya, West Bank (general), West Bank)</title>
-      <link>https://attackofthefanboy.com/politics/ro-khanna-clashes-with-fox-news-host-over-key-details-of-his-west-bank-detainment-the-ambassador-is-lying/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: nan / WEST BANK. Location: Turmus Ayya, West Bank (general), West Bank. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://attackofthefanboy.com/politics/ro-khanna-clashes-with-fox-news-host-over-key-details-of-his-west-bank-detainment-the-ambassador-is-lying/</guid>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://attackofthefanboy.com/politics/ro-khanna-clashes-with-fox-news-host-over-key-details-of-his-west-bank-detainment-the-ambassador-is-lying/">attackofthefanboy.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAELI → nan : Coerce, not specified below (Israel)</title>
-      <link>https://www.theguardian.com/us-news/2026/jul/13/marco-rubio-dismantle-international-criminal-court</link>
-      <description>GDELT Event: Coerce, not specified below. Actors: ISRAELI / nan. Location: Israel. Goldstein Scale: -7.0. Mentioned in 3 sources.</description>
-      <guid isPermaLink="true">https://www.theguardian.com/us-news/2026/jul/13/marco-rubio-dismantle-international-criminal-court</guid>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>外交谈判</category>
-      <source url="https://www.theguardian.com/us-news/2026/jul/13/marco-rubio-dismantle-international-criminal-court">theguardian.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] OMANI → IRANIAN : Physically assault, not specified below (Oman)</title>
-      <link>http://www.bignewsnetwork.com/news/279185609/urgent-1-killed-after-2-uae-tankers-hit-by-iranian-cruise-missiles-in-strait-of-hormuz</link>
-      <description>GDELT Event: Physically assault, not specified below. Actors: OMANI / IRANIAN. Location: Oman. Goldstein Scale: -9.5. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">http://www.bignewsnetwork.com/news/279185609/urgent-1-killed-after-2-uae-tankers-hit-by-iranian-cruise-missiles-in-strait-of-hormuz</guid>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="http://www.bignewsnetwork.com/news/279185609/urgent-1-killed-after-2-uae-tankers-hit-by-iranian-cruise-missiles-in-strait-of-hormuz">bignewsnetwork.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] IRAN → nan : Fight with small arms and light weapons (Natanz, Esfahan, Iran)</title>
-      <link>http://www.jpost.com/middle-east/iran-news/article-902414</link>
-      <description>GDELT Event: Fight with small arms and light weapons. Actors: IRAN / nan. Location: Natanz, Esfahan, Iran. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">http://www.jpost.com/middle-east/iran-news/article-902414</guid>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="http://www.jpost.com/middle-east/iran-news/article-902414">jpost.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] UNITED KINGDOM → OMAN : Use conventional military force, not specified below (Tehran, Tehran, Iran)</title>
-      <link>https://www.mendocinobeacon.com/2026/07/13/strait-of-hormuz-control-fact-check/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: UNITED KINGDOM / OMAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 5 sources.</description>
-      <guid isPermaLink="true">https://www.mendocinobeacon.com/2026/07/13/strait-of-hormuz-control-fact-check/</guid>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://www.mendocinobeacon.com/2026/07/13/strait-of-hormuz-control-fact-check/">mendocinobeacon.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] BATTALION → RUSSIAN : Use conventional military force, not specified below (Syzran, Samarskaya Oblast', Russia)</title>
-      <link>https://maritime-executive.com/article/ukraine-damages-90-russian-ships-in-one-week</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: BATTALION / RUSSIAN. Location: Syzran, Samarskaya Oblast', Russia. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://maritime-executive.com/article/ukraine-damages-90-russian-ships-in-one-week</guid>
-      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://maritime-executive.com/article/ukraine-damages-90-russian-ships-in-one-week">maritime-executive.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] MILITARY → LEBANESE : Use conventional military force, not specified below (Lebanon)</title>
-      <link>https://www.islamicinvitationturkey.com/iran-affirms-support-for-lebanons-sovereignty-calls-for-end-to-israeli-occupation-states-araghchi/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: MILITARY / LEBANESE. Location: Lebanon. Goldstein Scale: -10.0. Mentioned in 7 sources.</description>
-      <guid isPermaLink="true">https://www.islamicinvitationturkey.com/iran-affirms-support-for-lebanons-sovereignty-calls-for-end-to-israeli-occupation-states-araghchi/</guid>
-      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.islamicinvitationturkey.com/iran-affirms-support-for-lebanons-sovereignty-calls-for-end-to-israeli-occupation-states-araghchi/">islamicinvitationturkey.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] SENATOR → ISRAEL : Engage in mass killings (Jerusalem, Israel (general), Israel)</title>
-      <link>https://www.sdjewishworld.com/2026/07/12/jews-react-to-the-sudden-death-of-sen-lindsay-graham/</link>
-      <description>GDELT Event: Engage in mass killings. Actors: SENATOR / ISRAEL. Location: Jerusalem, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 3 sources.</description>
-      <guid isPermaLink="true">https://www.sdjewishworld.com/2026/07/12/jews-react-to-the-sudden-death-of-sen-lindsay-graham/</guid>
-      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.sdjewishworld.com/2026/07/12/jews-react-to-the-sudden-death-of-sen-lindsay-graham/">sdjewishworld.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] KUWAIT → KUWAIT : Use conventional military force, not specified below (Bushehr, Bushehr, Iran)</title>
-      <link>https://maritime-executive.com/article/kuwait-reports-drone-attack-on-offshore-oil-platform</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: KUWAIT / KUWAIT. Location: Bushehr, Bushehr, Iran. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://maritime-executive.com/article/kuwait-reports-drone-attack-on-offshore-oil-platform</guid>
-      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://maritime-executive.com/article/kuwait-reports-drone-attack-on-offshore-oil-platform">maritime-executive.com</source>
     </item>
   </channel>
 </rss>
