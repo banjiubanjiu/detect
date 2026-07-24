@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T08:40:45+00:00Z",
+  "updated_at": "2026-07-24T08:37:06+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -19,105 +19,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1310459453",
-              "title": "MILITARY → ASTRAKHAN : Use conventional military force, not specified below (Astrakhan, Astrakhanskaya Oblast', Russia)",
-              "title_en": "MILITARY → ASTRAKHAN : Use conventional military force, not specified below (Astrakhan, Astrakhanskaya Oblast', Russia)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: MILITARY / ASTRAKHAN. Location: Astrakhan, Astrakhanskaya Oblast', Russia. Goldstein Scale: -10.0. Mentioned in 20 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: MILITARY / ASTRAKHAN. Location: Astrakhan, Astrakhanskaya Oblast', Russia. Goldstein Scale: -10.0. Mentioned in 20 sources.",
-              "source": "gdelt",
-              "source_label": "eng.kavkaz-uzel.eu",
-              "date": "2026-06-23",
-              "url": "https://www.eng.kavkaz-uzel.eu/articles/76373",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 20,
-                "sources": 1,
-                "articles": 10,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1310459453",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "MILITARY",
-                "actor2": "ASTRAKHAN",
-                "actor1_country": "nan",
-                "actor2_country": "RUS",
-                "geo_lat": 46.3497,
-                "geo_lon": 48.0408,
-                "geo_name": "Astrakhan, Astrakhanskaya Oblast', Russia"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1310459520",
-              "title": "RUSSIAN → SERVICEMEN : Use conventional military force, not specified below (Russia)",
-              "title_en": "RUSSIAN → SERVICEMEN : Use conventional military force, not specified below (Russia)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: RUSSIAN / SERVICEMEN. Location: Russia. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: RUSSIAN / SERVICEMEN. Location: Russia. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "source": "gdelt",
-              "source_label": "eng.kavkaz-uzel.eu",
-              "date": "2026-06-23",
-              "url": "https://www.eng.kavkaz-uzel.eu/articles/76370",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 10,
-                "sources": 1,
-                "articles": 10,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1310459520",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "RUSSIAN",
-                "actor2": "SERVICEMEN",
-                "actor1_country": "RUS",
-                "actor2_country": "nan",
-                "geo_lat": 60.0,
-                "geo_lon": 100.0,
-                "geo_name": "Russia"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1310459539",
-              "title": "UKRAINIAN → ROSTOV : Use conventional military force, not specified below (Kiev, Ukraine (general), Ukraine)",
-              "title_en": "UKRAINIAN → ROSTOV : Use conventional military force, not specified below (Kiev, Ukraine (general), Ukraine)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: UKRAINIAN / ROSTOV. Location: Kiev, Ukraine (general), Ukraine. Goldstein Scale: -10.0. Mentioned in 4 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: UKRAINIAN / ROSTOV. Location: Kiev, Ukraine (general), Ukraine. Goldstein Scale: -10.0. Mentioned in 4 sources.",
-              "source": "gdelt",
-              "source_label": "odnako.org",
-              "date": "2026-06-23",
-              "url": "https://www.odnako.org/moscow-under-a-rain-of-drones-zelensky-it-will-burn-with-us-refinery-set-on-fire-lavrov-promises-harsh-response/",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 4,
-                "sources": 1,
-                "articles": 4,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1310459539",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "UKRAINIAN",
-                "actor2": "ROSTOV",
-                "actor1_country": "UKR",
-                "actor2_country": "RUS",
-                "geo_lat": 50.4333,
-                "geo_lon": 30.5167,
-                "geo_name": "Kiev, Ukraine (general), Ukraine"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1310637318",
               "title": "FIGHTER JET → RUSSIA : Employ aerial weapons (Tulcea, Tulcea, Romania)",
@@ -1115,39 +1016,6 @@
           "icon": "🕊️",
           "items": [
             {
-              "id": "gdelt_1310459517",
-              "title": "SVERDLOVSK → NURSE : Impose administrative sanctions, not specified below (Sverdlovsk, Sverdlovskaya Oblast', Russia)",
-              "title_en": "SVERDLOVSK → NURSE : Impose administrative sanctions, not specified below (Sverdlovsk, Sverdlovskaya Oblast', Russia)",
-              "summary": "GDELT Event: Impose administrative sanctions, not specified below. Actors: SVERDLOVSK / NURSE. Location: Sverdlovsk, Sverdlovskaya Oblast', Russia. Goldstein Scale: -5.0. Mentioned in 5 sources.",
-              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: SVERDLOVSK / NURSE. Location: Sverdlovsk, Sverdlovskaya Oblast', Russia. Goldstein Scale: -5.0. Mentioned in 5 sources.",
-              "source": "gdelt",
-              "source_label": "eng.kavkaz-uzel.eu",
-              "date": "2026-06-23",
-              "url": "https://www.eng.kavkaz-uzel.eu/articles/76371",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 5,
-                "sources": 1,
-                "articles": 5,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1310459517",
-                "event_code": "172",
-                "cameo_desc": "Impose administrative sanctions, not specified below",
-                "actor1": "SVERDLOVSK",
-                "actor2": "NURSE",
-                "actor1_country": "RUS",
-                "actor2_country": "nan",
-                "geo_lat": 56.8575,
-                "geo_lon": 60.6125,
-                "geo_name": "Sverdlovsk, Sverdlovskaya Oblast', Russia"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
               "id": "gdelt_1310637383",
               "title": "VOLGOGRAD → DEFENSE ATTORNEY : Arrest, detain, or charge with legal action (Volgograd, Volgogradskaya Oblast', Russia)",
               "title_en": "VOLGOGRAD → DEFENSE ATTORNEY : Arrest, detain, or charge with legal action (Volgograd, Volgogradskaya Oblast', Russia)",
@@ -1538,6 +1406,39 @@
                 "geo_lat": 40.3736,
                 "geo_lon": -82.7755,
                 "geo_name": "Ohio, United States"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1315035959",
+              "title": "UKRAINE → GHANAIAN : Arrest, detain, or charge with legal action (Ghana)",
+              "title_en": "UKRAINE → GHANAIAN : Arrest, detain, or charge with legal action (Ghana)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: UKRAINE / GHANAIAN. Location: Ghana. Goldstein Scale: -5.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: UKRAINE / GHANAIAN. Location: Ghana. Goldstein Scale: -5.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "ghanamma.com",
+              "date": "2026-07-23",
+              "url": "https://www.ghanamma.com/2026/07/23/ghanas-85-war-dead-exposing-the-dark-truth-behind-russias-african-recruitment-pipeline/",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1315035959",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "UKRAINE",
+                "actor2": "GHANAIAN",
+                "actor1_country": "UKR",
+                "actor2_country": "GHA",
+                "geo_lat": 8.0,
+                "geo_lon": -2.0,
+                "geo_name": "Ghana"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -2969,6 +2870,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1315035597",
+              "title": "COMMUNITY → NURSE : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
+              "title_en": "COMMUNITY → NURSE : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: COMMUNITY / NURSE. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: COMMUNITY / NURSE. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "source": "gdelt",
+              "source_label": "fox23maine.com",
+              "date": "2026-07-23",
+              "url": "https://fox23maine.com/newsletter-daily/maine-nurses-protest-mainehealths-ties-to-ai-software-company-palantir-artificial-intelligence-data-ice-imigration-customs-enforcement",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 8,
+                "sources": 2,
+                "articles": 8,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1315035597",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "COMMUNITY",
+                "actor2": "NURSE",
+                "actor1_country": "nan",
+                "actor2_country": "nan",
+                "geo_lat": 31.4167,
+                "geo_lon": 34.3333,
+                "geo_name": "Gaza, Israel (general), Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -3579,39 +3513,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1310459421",
-              "title": "CHAMBER → IRAN : Use conventional military force, not specified below (Tehran, Tehran, Iran)",
-              "title_en": "CHAMBER → IRAN : Use conventional military force, not specified below (Tehran, Tehran, Iran)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: CHAMBER / IRAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 1 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: CHAMBER / IRAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 1 sources.",
-              "source": "gdelt",
-              "source_label": "bignewsnetwork.com",
-              "date": "2026-06-23",
-              "url": "http://www.bignewsnetwork.com/news/279143651/us-senate-passes-resolution-seeking-to-limit-trump-iran-war-powers",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 1,
-                "sources": 1,
-                "articles": 1,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1310459421",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "CHAMBER",
-                "actor2": "IRAN",
-                "actor1_country": "nan",
-                "actor2_country": "IRN",
-                "geo_lat": 35.75,
-                "geo_lon": 51.5148,
-                "geo_name": "Tehran, Tehran, Iran"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1310637203",
               "title": "IRAN → PRESIDENT : Use conventional military force, not specified below (Minab, Sistan va Baluchestan, Iran)",
@@ -5366,6 +5267,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1315035773",
+              "title": "IRAN → CHRISTIAN : Impose administrative sanctions, not specified below (Iran)",
+              "title_en": "IRAN → CHRISTIAN : Impose administrative sanctions, not specified below (Iran)",
+              "summary": "GDELT Event: Impose administrative sanctions, not specified below. Actors: IRAN / CHRISTIAN. Location: Iran. Goldstein Scale: -5.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: IRAN / CHRISTIAN. Location: Iran. Goldstein Scale: -5.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "news.crossmap.com",
+              "date": "2026-07-23",
+              "url": "https://news.crossmap.com/2026/07/23/iran-bans-christian-tv-broadcasters-threatens-prosecution/",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1315035773",
+                "event_code": "172",
+                "cameo_desc": "Impose administrative sanctions, not specified below",
+                "actor1": "IRAN",
+                "actor2": "CHRISTIAN",
+                "actor1_country": "IRN",
+                "actor2_country": "nan",
+                "geo_lat": 32.0,
+                "geo_lon": 53.0,
+                "geo_name": "Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -6264,13 +6198,13 @@
     }
   },
   "stats": {
-    "total_items": 177,
+    "total_items": 175,
     "sources": {
-      "gdelt": 177
+      "gdelt": 175
     },
     "date_range": {
-      "from": "2026-06-23",
-      "to": "2026-07-22"
+      "from": "2026-06-24",
+      "to": "2026-07-23"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
