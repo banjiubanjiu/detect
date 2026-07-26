@@ -1,27 +1,19 @@
 {
-  "generated_at": "2026-07-24T08:37:06+00:00",
-  "reference_date": "2026-07-23",
+  "generated_at": "2026-07-26T08:36:00+00:00",
+  "reference_date": "2026-07-25",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
       "name_en": "Russia-Ukraine",
       "metrics": {
         "event_frequency": {
-          "today": 1,
-          "baseline": 1.7,
+          "today": 3,
+          "baseline": 1.4,
           "baseline_days": 7,
-          "delta_pct": -42,
-          "flag": "normal",
+          "delta_pct": 110,
+          "flag": "elevated",
           "label": "事件频率",
           "histogram": [
-            {
-              "date": "2026-07-10",
-              "count": 1
-            },
-            {
-              "date": "2026-07-11",
-              "count": 1
-            },
             {
               "date": "2026-07-12",
               "count": 1
@@ -69,6 +61,14 @@
             {
               "date": "2026-07-23",
               "count": 1
+            },
+            {
+              "date": "2026-07-24",
+              "count": 0
+            },
+            {
+              "date": "2026-07-25",
+              "count": 3
             }
           ]
         },
@@ -81,14 +81,6 @@
           "label": "关键事件",
           "histogram": [
             {
-              "date": "2026-07-10",
-              "count": 0
-            },
-            {
-              "date": "2026-07-11",
-              "count": 0
-            },
-            {
               "date": "2026-07-12",
               "count": 0
             },
@@ -135,18 +127,28 @@
             {
               "date": "2026-07-23",
               "count": 0
+            },
+            {
+              "date": "2026-07-24",
+              "count": 0
+            },
+            {
+              "date": "2026-07-25",
+              "count": 0
             }
           ]
         },
         "escalation_trend": {
-          "today": 68,
-          "yesterday": 69,
-          "delta": -1,
-          "flag": "normal",
+          "today": null,
+          "yesterday": null,
+          "delta": null,
+          "flag": "insufficient",
           "label": "升级指数"
         }
       },
-      "warnings": []
+      "warnings": [
+        "event_frequency"
+      ]
     },
     "israel-palestine": {
       "name": "巴以冲突",
@@ -154,20 +156,12 @@
       "metrics": {
         "event_frequency": {
           "today": 1,
-          "baseline": 1.4,
+          "baseline": 1.9,
           "baseline_days": 7,
-          "delta_pct": -30,
+          "delta_pct": -46,
           "flag": "normal",
           "label": "事件频率",
           "histogram": [
-            {
-              "date": "2026-07-10",
-              "count": 2
-            },
-            {
-              "date": "2026-07-11",
-              "count": 3
-            },
             {
               "date": "2026-07-12",
               "count": 2
@@ -214,6 +208,14 @@
             },
             {
               "date": "2026-07-23",
+              "count": 1
+            },
+            {
+              "date": "2026-07-24",
+              "count": 4
+            },
+            {
+              "date": "2026-07-25",
               "count": 1
             }
           ]
@@ -227,14 +229,6 @@
           "label": "关键事件",
           "histogram": [
             {
-              "date": "2026-07-10",
-              "count": 0
-            },
-            {
-              "date": "2026-07-11",
-              "count": 0
-            },
-            {
               "date": "2026-07-12",
               "count": 0
             },
@@ -281,14 +275,22 @@
             {
               "date": "2026-07-23",
               "count": 0
+            },
+            {
+              "date": "2026-07-24",
+              "count": 0
+            },
+            {
+              "date": "2026-07-25",
+              "count": 0
             }
           ]
         },
         "escalation_trend": {
-          "today": 53,
-          "yesterday": 62,
-          "delta": -9,
-          "flag": "normal",
+          "today": null,
+          "yesterday": null,
+          "delta": null,
+          "flag": "insufficient",
           "label": "升级指数"
         }
       },
@@ -299,21 +301,13 @@
       "name_en": "US-Iran",
       "metrics": {
         "event_frequency": {
-          "today": 1,
-          "baseline": 3.3,
+          "today": 0,
+          "baseline": 2.6,
           "baseline_days": 7,
-          "delta_pct": -70,
+          "delta_pct": -100,
           "flag": "depressed",
           "label": "事件频率",
           "histogram": [
-            {
-              "date": "2026-07-10",
-              "count": 0
-            },
-            {
-              "date": "2026-07-11",
-              "count": 0
-            },
             {
               "date": "2026-07-12",
               "count": 6
@@ -361,6 +355,14 @@
             {
               "date": "2026-07-23",
               "count": 1
+            },
+            {
+              "date": "2026-07-24",
+              "count": 0
+            },
+            {
+              "date": "2026-07-25",
+              "count": 0
             }
           ]
         },
@@ -372,14 +374,6 @@
           "flag": "normal",
           "label": "关键事件",
           "histogram": [
-            {
-              "date": "2026-07-10",
-              "count": 0
-            },
-            {
-              "date": "2026-07-11",
-              "count": 0
-            },
             {
               "date": "2026-07-12",
               "count": 0
@@ -427,14 +421,22 @@
             {
               "date": "2026-07-23",
               "count": 0
+            },
+            {
+              "date": "2026-07-24",
+              "count": 0
+            },
+            {
+              "date": "2026-07-25",
+              "count": 0
             }
           ]
         },
         "escalation_trend": {
-          "today": 61,
-          "yesterday": 64,
-          "delta": -3,
-          "flag": "normal",
+          "today": null,
+          "yesterday": null,
+          "delta": null,
+          "flag": "insufficient",
           "label": "升级指数"
         }
       },
@@ -455,14 +457,6 @@
           "label": "事件频率",
           "histogram": [
             {
-              "date": "2026-07-10",
-              "count": 0
-            },
-            {
-              "date": "2026-07-11",
-              "count": 0
-            },
-            {
               "date": "2026-07-12",
               "count": 0
             },
@@ -508,6 +502,14 @@
             },
             {
               "date": "2026-07-23",
+              "count": 0
+            },
+            {
+              "date": "2026-07-24",
+              "count": 0
+            },
+            {
+              "date": "2026-07-25",
               "count": 0
             }
           ]
@@ -521,14 +523,6 @@
           "label": "关键事件",
           "histogram": [
             {
-              "date": "2026-07-10",
-              "count": 0
-            },
-            {
-              "date": "2026-07-11",
-              "count": 0
-            },
-            {
               "date": "2026-07-12",
               "count": 0
             },
@@ -575,14 +569,22 @@
             {
               "date": "2026-07-23",
               "count": 0
+            },
+            {
+              "date": "2026-07-24",
+              "count": 0
+            },
+            {
+              "date": "2026-07-25",
+              "count": 0
             }
           ]
         },
         "escalation_trend": {
-          "today": 50,
-          "yesterday": 50,
-          "delta": 0,
-          "flag": "normal",
+          "today": null,
+          "yesterday": null,
+          "delta": null,
+          "flag": "insufficient",
           "label": "升级指数"
         }
       },
@@ -601,14 +603,6 @@
           "label": "事件频率",
           "histogram": [
             {
-              "date": "2026-07-10",
-              "count": 0
-            },
-            {
-              "date": "2026-07-11",
-              "count": 0
-            },
-            {
               "date": "2026-07-12",
               "count": 0
             },
@@ -654,6 +648,14 @@
             },
             {
               "date": "2026-07-23",
+              "count": 0
+            },
+            {
+              "date": "2026-07-24",
+              "count": 0
+            },
+            {
+              "date": "2026-07-25",
               "count": 0
             }
           ]
@@ -667,14 +669,6 @@
           "label": "关键事件",
           "histogram": [
             {
-              "date": "2026-07-10",
-              "count": 0
-            },
-            {
-              "date": "2026-07-11",
-              "count": 0
-            },
-            {
               "date": "2026-07-12",
               "count": 0
             },
@@ -721,14 +715,22 @@
             {
               "date": "2026-07-23",
               "count": 0
+            },
+            {
+              "date": "2026-07-24",
+              "count": 0
+            },
+            {
+              "date": "2026-07-25",
+              "count": 0
             }
           ]
         },
         "escalation_trend": {
-          "today": 50,
-          "yesterday": 50,
-          "delta": 0,
-          "flag": "normal",
+          "today": null,
+          "yesterday": null,
+          "delta": null,
+          "flag": "insufficient",
           "label": "升级指数"
         }
       },
@@ -740,20 +742,12 @@
       "metrics": {
         "event_frequency": {
           "today": 0,
-          "baseline": 0.0,
+          "baseline": 0.1,
           "baseline_days": 7,
-          "delta_pct": 0,
+          "delta_pct": -100,
           "flag": "normal",
           "label": "事件频率",
           "histogram": [
-            {
-              "date": "2026-07-10",
-              "count": 0
-            },
-            {
-              "date": "2026-07-11",
-              "count": 0
-            },
             {
               "date": "2026-07-12",
               "count": 0
@@ -800,6 +794,14 @@
             },
             {
               "date": "2026-07-23",
+              "count": 0
+            },
+            {
+              "date": "2026-07-24",
+              "count": 1
+            },
+            {
+              "date": "2026-07-25",
               "count": 0
             }
           ]
@@ -813,14 +815,6 @@
           "label": "关键事件",
           "histogram": [
             {
-              "date": "2026-07-10",
-              "count": 0
-            },
-            {
-              "date": "2026-07-11",
-              "count": 0
-            },
-            {
               "date": "2026-07-12",
               "count": 0
             },
@@ -867,14 +861,22 @@
             {
               "date": "2026-07-23",
               "count": 0
+            },
+            {
+              "date": "2026-07-24",
+              "count": 0
+            },
+            {
+              "date": "2026-07-25",
+              "count": 0
             }
           ]
         },
         "escalation_trend": {
-          "today": 50,
-          "yesterday": 50,
-          "delta": 0,
-          "flag": "normal",
+          "today": null,
+          "yesterday": null,
+          "delta": null,
+          "flag": "insufficient",
           "label": "升级指数"
         }
       },
@@ -893,14 +895,6 @@
           "label": "事件频率",
           "histogram": [
             {
-              "date": "2026-07-10",
-              "count": 0
-            },
-            {
-              "date": "2026-07-11",
-              "count": 0
-            },
-            {
               "date": "2026-07-12",
               "count": 0
             },
@@ -946,6 +940,14 @@
             },
             {
               "date": "2026-07-23",
+              "count": 0
+            },
+            {
+              "date": "2026-07-24",
+              "count": 0
+            },
+            {
+              "date": "2026-07-25",
               "count": 0
             }
           ]
@@ -959,14 +961,6 @@
           "label": "关键事件",
           "histogram": [
             {
-              "date": "2026-07-10",
-              "count": 0
-            },
-            {
-              "date": "2026-07-11",
-              "count": 0
-            },
-            {
               "date": "2026-07-12",
               "count": 0
             },
@@ -1013,14 +1007,22 @@
             {
               "date": "2026-07-23",
               "count": 0
+            },
+            {
+              "date": "2026-07-24",
+              "count": 0
+            },
+            {
+              "date": "2026-07-25",
+              "count": 0
             }
           ]
         },
         "escalation_trend": {
-          "today": 50,
-          "yesterday": 50,
-          "delta": 0,
-          "flag": "normal",
+          "today": null,
+          "yesterday": null,
+          "delta": null,
+          "flag": "insufficient",
           "label": "升级指数"
         }
       },
@@ -1039,14 +1041,6 @@
           "label": "事件频率",
           "histogram": [
             {
-              "date": "2026-07-10",
-              "count": 0
-            },
-            {
-              "date": "2026-07-11",
-              "count": 0
-            },
-            {
               "date": "2026-07-12",
               "count": 0
             },
@@ -1092,6 +1086,14 @@
             },
             {
               "date": "2026-07-23",
+              "count": 0
+            },
+            {
+              "date": "2026-07-24",
+              "count": 0
+            },
+            {
+              "date": "2026-07-25",
               "count": 0
             }
           ]
@@ -1105,14 +1107,6 @@
           "label": "关键事件",
           "histogram": [
             {
-              "date": "2026-07-10",
-              "count": 0
-            },
-            {
-              "date": "2026-07-11",
-              "count": 0
-            },
-            {
               "date": "2026-07-12",
               "count": 0
             },
@@ -1159,14 +1153,22 @@
             {
               "date": "2026-07-23",
               "count": 0
+            },
+            {
+              "date": "2026-07-24",
+              "count": 0
+            },
+            {
+              "date": "2026-07-25",
+              "count": 0
             }
           ]
         },
         "escalation_trend": {
-          "today": 73,
-          "yesterday": 73,
-          "delta": 0,
-          "flag": "normal",
+          "today": null,
+          "yesterday": null,
+          "delta": null,
+          "flag": "insufficient",
           "label": "升级指数"
         }
       },
@@ -1185,14 +1187,6 @@
           "label": "事件频率",
           "histogram": [
             {
-              "date": "2026-07-10",
-              "count": 0
-            },
-            {
-              "date": "2026-07-11",
-              "count": 0
-            },
-            {
               "date": "2026-07-12",
               "count": 0
             },
@@ -1238,6 +1232,14 @@
             },
             {
               "date": "2026-07-23",
+              "count": 0
+            },
+            {
+              "date": "2026-07-24",
+              "count": 0
+            },
+            {
+              "date": "2026-07-25",
               "count": 0
             }
           ]
@@ -1251,14 +1253,6 @@
           "label": "关键事件",
           "histogram": [
             {
-              "date": "2026-07-10",
-              "count": 0
-            },
-            {
-              "date": "2026-07-11",
-              "count": 0
-            },
-            {
               "date": "2026-07-12",
               "count": 0
             },
@@ -1305,22 +1299,30 @@
             {
               "date": "2026-07-23",
               "count": 0
+            },
+            {
+              "date": "2026-07-24",
+              "count": 0
+            },
+            {
+              "date": "2026-07-25",
+              "count": 0
             }
           ]
         },
         "escalation_trend": {
-          "today": 50,
-          "yesterday": 50,
-          "delta": 0,
-          "flag": "normal",
+          "today": null,
+          "yesterday": null,
+          "delta": null,
+          "flag": "insufficient",
           "label": "升级指数"
         }
       },
       "warnings": []
     }
   },
-  "total_warnings": 1,
-  "flagged_conflicts": 1,
+  "total_warnings": 2,
+  "flagged_conflicts": 2,
   "thresholds": {
     "elevated_ratio": 2.0,
     "depressed_ratio": 0.5,
