@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-07T07:26:07+00:00Z",
+  "updated_at": "2026-08-08T07:03:20+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -19,39 +19,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1312733078",
-              "title": "FIREFIGHTER → nan : Use conventional military force, not specified below (Moscow, Moskva, Russia)",
-              "title_en": "FIREFIGHTER → nan : Use conventional military force, not specified below (Moscow, Moskva, Russia)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: FIREFIGHTER / nan. Location: Moscow, Moskva, Russia. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: FIREFIGHTER / nan. Location: Moscow, Moskva, Russia. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "source": "gdelt",
-              "source_label": "yahoo.com",
-              "date": "2026-07-08",
-              "url": "https://www.yahoo.com/news/articles/ukrainian-capital-kyiv-under-missile-231059393.html",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 2,
-                "sources": 1,
-                "articles": 2,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1312733078",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "FIREFIGHTER",
-                "actor2": "nan",
-                "actor1_country": "nan",
-                "actor2_country": "nan",
-                "geo_lat": 55.7522,
-                "geo_lon": 37.6156,
-                "geo_name": "Moscow, Moskva, Russia"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1312912744",
               "title": "RUSSIA → nan : Use conventional military force, not specified below (Kharg Island, Bushehr, Iran)",
@@ -1155,39 +1122,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1312733169",
-              "title": "RABBI → ISRAEL : Fight with small arms and light weapons (Coney Island, New York, United States)",
-              "title_en": "RABBI → ISRAEL : Fight with small arms and light weapons (Coney Island, New York, United States)",
-              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: RABBI / ISRAEL. Location: Coney Island, New York, United States. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: RABBI / ISRAEL. Location: Coney Island, New York, United States. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "source": "gdelt",
-              "source_label": "jns.org",
-              "date": "2026-07-08",
-              "url": "https://www.jns.org/news/u-s-news/must-show-respect-to-mamdani-who-wants-to-do-right-thing-for-nyc-says-chabad-rabbi-aiming-to-stay-out-of-politics",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 2,
-                "sources": 1,
-                "articles": 2,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1312733169",
-                "event_code": "193",
-                "cameo_desc": "Fight with small arms and light weapons",
-                "actor1": "RABBI",
-                "actor2": "ISRAEL",
-                "actor1_country": "nan",
-                "actor2_country": "ISR",
-                "geo_lat": 40.5779,
-                "geo_lon": -73.994,
-                "geo_name": "Coney Island, New York, United States"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1312912620",
               "title": "ISRAEL → BUSINESS : Employ aerial weapons (Iran)",
@@ -2455,39 +2389,6 @@
           "icon": "💬",
           "items": [
             {
-              "id": "gdelt_1312733412",
-              "title": "AMERICAN → ISRAEL : Demonstrate or rally (New York, United States)",
-              "title_en": "AMERICAN → ISRAEL : Demonstrate or rally (New York, United States)",
-              "summary": "GDELT Event: Demonstrate or rally. Actors: AMERICAN / ISRAEL. Location: New York, United States. Goldstein Scale: -6.5. Mentioned in 7 sources.",
-              "summary_en": "GDELT Event: Demonstrate or rally. Actors: AMERICAN / ISRAEL. Location: New York, United States. Goldstein Scale: -6.5. Mentioned in 7 sources.",
-              "source": "gdelt",
-              "source_label": "theblaze.com",
-              "date": "2026-07-08",
-              "url": "https://www.theblaze.com/news/shocking-poll-reveals-american-jews-prefer-mamdani-to-netanyahu-by-a-lot",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 7,
-                "sources": 1,
-                "articles": 7,
-                "goldstein": -6.5
-              },
-              "gdelt_meta": {
-                "event_id": "1312733412",
-                "event_code": "141",
-                "cameo_desc": "Demonstrate or rally",
-                "actor1": "AMERICAN",
-                "actor2": "ISRAEL",
-                "actor1_country": "USA",
-                "actor2_country": "ISR",
-                "geo_lat": 42.1497,
-                "geo_lon": -74.9384,
-                "geo_name": "New York, United States"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
               "id": "gdelt_1313189438",
               "title": "GAZA → nan : Demonstrate or rally (Gaza, Israel (general), Israel)",
               "title_en": "GAZA → nan : Demonstrate or rally (Gaza, Israel (general), Israel)",
@@ -2556,39 +2457,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1312733303",
-              "title": "TURKEY → IRAN : Use conventional military force, not specified below (Tehran, Tehran, Iran)",
-              "title_en": "TURKEY → IRAN : Use conventional military force, not specified below (Tehran, Tehran, Iran)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: TURKEY / IRAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 6 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: TURKEY / IRAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 6 sources.",
-              "source": "gdelt",
-              "source_label": "watoday.com.au",
-              "date": "2026-07-08",
-              "url": "https://www.watoday.com.au/world/north-america/trump-launches-second-day-of-strikes-against-iran-20260709-p60dtx.html",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 6,
-                "sources": 2,
-                "articles": 6,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1312733303",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "TURKEY",
-                "actor2": "IRAN",
-                "actor1_country": "TUR",
-                "actor2_country": "IRN",
-                "geo_lat": 35.75,
-                "geo_lon": 51.5148,
-                "geo_name": "Tehran, Tehran, Iran"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1312912604",
               "title": "IRAN → KINGDOM : Fight with artillery and tanks (Tehran, Tehran, Iran)",
@@ -4040,6 +3908,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1317332195",
+              "title": "PERSEPOLIS → MEDIA : Occupy territory (Paris, France (general), France)",
+              "title_en": "PERSEPOLIS → MEDIA : Occupy territory (Paris, France (general), France)",
+              "summary": "GDELT Event: Occupy territory. Actors: PERSEPOLIS / MEDIA. Location: Paris, France (general), France. Goldstein Scale: -9.5. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Occupy territory. Actors: PERSEPOLIS / MEDIA. Location: Paris, France (general), France. Goldstein Scale: -9.5. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "awn.com",
+              "date": "2026-08-07",
+              "url": "http://www.awn.com/animationworld/disarming-legacy-persepolis-author-and-director-marjane-satrapi",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -9.5
+              },
+              "gdelt_meta": {
+                "event_id": "1317332195",
+                "event_code": "192",
+                "cameo_desc": "Occupy territory",
+                "actor1": "PERSEPOLIS",
+                "actor2": "MEDIA",
+                "actor1_country": "IRN",
+                "actor2_country": "nan",
+                "geo_lat": 48.8667,
+                "geo_lon": 2.33333,
+                "geo_name": "Paris, France (general), France"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -4250,42 +4151,7 @@
         "military": {
           "label": "军事动态",
           "icon": "⚔️",
-          "items": [
-            {
-              "id": "gdelt_1312733298",
-              "title": "KORDOFAN → nan : Abduct, hijack, or take hostage (Kordofan, Shamal Kurdufan, Sudan)",
-              "title_en": "KORDOFAN → nan : Abduct, hijack, or take hostage (Kordofan, Shamal Kurdufan, Sudan)",
-              "summary": "GDELT Event: Abduct, hijack, or take hostage. Actors: KORDOFAN / nan. Location: Kordofan, Shamal Kurdufan, Sudan. Goldstein Scale: -9.0. Mentioned in 10 sources.",
-              "summary_en": "GDELT Event: Abduct, hijack, or take hostage. Actors: KORDOFAN / nan. Location: Kordofan, Shamal Kurdufan, Sudan. Goldstein Scale: -9.0. Mentioned in 10 sources.",
-              "source": "gdelt",
-              "source_label": "dailysabah.com",
-              "date": "2026-07-08",
-              "url": "https://www.dailysabah.com/world/africa/un-finds-rsf-conduct-in-sudan-civil-war-amounts-to-genocide",
-              "primary_conflict": "sudan",
-              "metrics": {
-                "mentions": 10,
-                "sources": 1,
-                "articles": 10,
-                "goldstein": -9.0
-              },
-              "gdelt_meta": {
-                "event_id": "1312733298",
-                "event_code": "181",
-                "cameo_desc": "Abduct, hijack, or take hostage",
-                "actor1": "KORDOFAN",
-                "actor2": "nan",
-                "actor1_country": "SDN",
-                "actor2_country": "nan",
-                "geo_lat": 13.0833,
-                "geo_lon": 30.35,
-                "geo_name": "Kordofan, Shamal Kurdufan, Sudan"
-              },
-              "admiralty_source": "B",
-              "admiralty_info": 3,
-              "admiralty_code": "B3",
-              "criticality": "background"
-            }
-          ]
+          "items": []
         },
         "diplomacy": {
           "label": "外交谈判",
@@ -4840,13 +4706,13 @@
     }
   },
   "stats": {
-    "total_items": 134,
+    "total_items": 130,
     "sources": {
-      "gdelt": 134
+      "gdelt": 130
     },
     "date_range": {
-      "from": "2026-07-08",
-      "to": "2026-08-06"
+      "from": "2026-07-09",
+      "to": "2026-08-07"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
