@@ -5,8 +5,18 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 08 Aug 2026 07:03:04 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 07:05:52 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[美伊对峙] PERSEPOLIS → MEDIA : Occupy territory (Paris, France (general), France)</title>
+      <link>http://www.awn.com/animationworld/disarming-legacy-persepolis-author-and-director-marjane-satrapi</link>
+      <description>GDELT Event: Occupy territory. Actors: PERSEPOLIS / MEDIA. Location: Paris, France (general), France. Goldstein Scale: -9.5. Mentioned in 6 sources.</description>
+      <guid isPermaLink="true">http://www.awn.com/animationworld/disarming-legacy-persepolis-author-and-director-marjane-satrapi</guid>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="http://www.awn.com/animationworld/disarming-legacy-persepolis-author-and-director-marjane-satrapi">awn.com</source>
+    </item>
     <item>
       <title>[俄乌战争] IRAN → UKRAINE : Use conventional military force, not specified below (Tehran, Tehran, Iran)</title>
       <link>https://themedialine.org/top-stories/wars-collide-in-the-caspian-ukraine-strike-exposes-the-iran-russia-connection/</link>
@@ -496,16 +506,6 @@
       <category>俄乌战争</category>
       <category>外交谈判</category>
       <source url="https://www.glasgowcourier.com/story/2026/07/22/opinion/america-250-montana-has-more-reasons-than-most-to-celebrate-americas-250th/18601.html">glasgowcourier.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] THE US → IRAN : Occupy territory (Tehran, Tehran, Iran)</title>
-      <link>https://www.el-balad.com/17034828</link>
-      <description>GDELT Event: Occupy territory. Actors: THE US / IRAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -9.5. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">https://www.el-balad.com/17034828</guid>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://www.el-balad.com/17034828">el-balad.com</source>
     </item>
   </channel>
 </rss>
