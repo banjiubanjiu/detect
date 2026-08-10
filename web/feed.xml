@@ -5,8 +5,58 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 09 Aug 2026 07:05:52 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 07:51:21 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] NATO → RUSSIA : Fight with small arms and light weapons (Romania)</title>
+      <link>https://www.zerohedge.com/geopolitical/ukrainian-drone-huge-explosive-payload-hits-bulgaria-near-vital-gas-pipeline</link>
+      <description>GDELT Event: Fight with small arms and light weapons. Actors: NATO / RUSSIA. Location: Romania. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">https://www.zerohedge.com/geopolitical/ukrainian-drone-huge-explosive-payload-hits-bulgaria-near-vital-gas-pipeline</guid>
+      <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.zerohedge.com/geopolitical/ukrainian-drone-huge-explosive-payload-hits-bulgaria-near-vital-gas-pipeline">zerohedge.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAELI → SETTLER : Use unconventional violence, not specified below (Hebron, Israel (general), Israel)</title>
+      <link>https://www.middleeasteye.net/news/three-palestinians-killed-and-dozens-wounded-israeli-attacks-across-gaza-and-west-bank</link>
+      <description>GDELT Event: Use unconventional violence, not specified below. Actors: ISRAELI / SETTLER. Location: Hebron, Israel (general), Israel. Goldstein Scale: -9.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.middleeasteye.net/news/three-palestinians-killed-and-dozens-wounded-israeli-attacks-across-gaza-and-west-bank</guid>
+      <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.middleeasteye.net/news/three-palestinians-killed-and-dozens-wounded-israeli-attacks-across-gaza-and-west-bank">middleeasteye.net</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAELI → WEST BANK : Use conventional military force, not specified below (Dar Salah, West Bank (general), West Bank)</title>
+      <link>https://www.middleeasteye.net/live-blog/live-blog-update/israeli-forces-shell-gaza-areas-raid-several-west-bank-towns-and</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAELI / WEST BANK. Location: Dar Salah, West Bank (general), West Bank. Goldstein Scale: -10.0. Mentioned in 7 sources.</description>
+      <guid isPermaLink="true">https://www.middleeasteye.net/live-blog/live-blog-update/israeli-forces-shell-gaza-areas-raid-several-west-bank-towns-and</guid>
+      <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.middleeasteye.net/live-blog/live-blog-update/israeli-forces-shell-gaza-areas-raid-several-west-bank-towns-and">middleeasteye.net</source>
+    </item>
+    <item>
+      <title>[巴以冲突] SAUDI ARABIA → HAMAS : Use conventional military force, not specified below (Israel)</title>
+      <link>https://www.thehindu.com/news/international/mecca-agreement-a-new-triple-alliance-in-west-asia/article71322635.ece</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: SAUDI ARABIA / HAMAS. Location: Israel. Goldstein Scale: -10.0. Mentioned in 5 sources.</description>
+      <guid isPermaLink="true">https://www.thehindu.com/news/international/mecca-agreement-a-new-triple-alliance-in-west-asia/article71322635.ece</guid>
+      <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.thehindu.com/news/international/mecca-agreement-a-new-triple-alliance-in-west-asia/article71322635.ece">thehindu.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] EUROPE → SPAIN : Expel or deport individuals (Gaza, Israel (general), Israel)</title>
+      <link>https://www.yourdemocracy.net.au/drupal/node/60735</link>
+      <description>GDELT Event: Expel or deport individuals. Actors: EUROPE / SPAIN. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">https://www.yourdemocracy.net.au/drupal/node/60735</guid>
+      <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>外交谈判</category>
+      <source url="https://www.yourdemocracy.net.au/drupal/node/60735">yourdemocracy.net.au</source>
+    </item>
     <item>
       <title>[美伊对峙] PERSEPOLIS → MEDIA : Occupy territory (Paris, France (general), France)</title>
       <link>http://www.awn.com/animationworld/disarming-legacy-persepolis-author-and-director-marjane-satrapi</link>
@@ -456,56 +506,6 @@
       <category>俄乌战争</category>
       <category>外交谈判</category>
       <source url="https://www.ghanamma.com/2026/07/23/ghanas-85-war-dead-exposing-the-dark-truth-behind-russias-african-recruitment-pipeline/">ghanamma.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] COMMUNITY → NURSE : Use conventional military force, not specified below (Gaza, Israel (general), Israel)</title>
-      <link>https://fox23maine.com/newsletter-daily/maine-nurses-protest-mainehealths-ties-to-ai-software-company-palantir-artificial-intelligence-data-ice-imigration-customs-enforcement</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: COMMUNITY / NURSE. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">https://fox23maine.com/newsletter-daily/maine-nurses-protest-mainehealths-ties-to-ai-software-company-palantir-artificial-intelligence-data-ice-imigration-customs-enforcement</guid>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://fox23maine.com/newsletter-daily/maine-nurses-protest-mainehealths-ties-to-ai-software-company-palantir-artificial-intelligence-data-ice-imigration-customs-enforcement">fox23maine.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] IRAN → CHRISTIAN : Impose administrative sanctions, not specified below (Iran)</title>
-      <link>https://news.crossmap.com/2026/07/23/iran-bans-christian-tv-broadcasters-threatens-prosecution/</link>
-      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: IRAN / CHRISTIAN. Location: Iran. Goldstein Scale: -5.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://news.crossmap.com/2026/07/23/iran-bans-christian-tv-broadcasters-threatens-prosecution/</guid>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>外交谈判</category>
-      <source url="https://news.crossmap.com/2026/07/23/iran-bans-christian-tv-broadcasters-threatens-prosecution/">news.crossmap.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] ST PETERSBURG → nan : Fight with small arms and light weapons (Petersburg, Sankt-Peterburg, Russia)</title>
-      <link>https://www.winknews.com/news/lee/homicide-suspect-wanted-in-st-petersburg-arrested-after-tense-i-75-standoff-in-lee-county/article_410a0e52-d0bb-4a95-8dae-1372dd79a3ee.html</link>
-      <description>GDELT Event: Fight with small arms and light weapons. Actors: ST PETERSBURG / nan. Location: Petersburg, Sankt-Peterburg, Russia. Goldstein Scale: -10.0. Mentioned in 12 sources.</description>
-      <guid isPermaLink="true">https://www.winknews.com/news/lee/homicide-suspect-wanted-in-st-petersburg-arrested-after-tense-i-75-standoff-in-lee-county/article_410a0e52-d0bb-4a95-8dae-1372dd79a3ee.html</guid>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://www.winknews.com/news/lee/homicide-suspect-wanted-in-st-petersburg-arrested-after-tense-i-75-standoff-in-lee-county/article_410a0e52-d0bb-4a95-8dae-1372dd79a3ee.html">winknews.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] RUSSIA → CARGO SHIP : Use conventional military force, not specified below (Russia)</title>
-      <link>https://www.gdnonline.com:443/Details/1401405</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: RUSSIA / CARGO SHIP. Location: Russia. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">https://www.gdnonline.com:443/Details/1401405</guid>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://www.gdnonline.com:443/Details/1401405">gdnonline.com:443</source>
-    </item>
-    <item>
-      <title>[俄乌战争] CHINA → RUSSIA : Arrest, detain, or charge with legal action (Ohio, United States)</title>
-      <link>https://www.glasgowcourier.com/story/2026/07/22/opinion/america-250-montana-has-more-reasons-than-most-to-celebrate-americas-250th/18601.html</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: CHINA / RUSSIA. Location: Ohio, United States. Goldstein Scale: -5.0. Mentioned in 5 sources.</description>
-      <guid isPermaLink="true">https://www.glasgowcourier.com/story/2026/07/22/opinion/america-250-montana-has-more-reasons-than-most-to-celebrate-americas-250th/18601.html</guid>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>外交谈判</category>
-      <source url="https://www.glasgowcourier.com/story/2026/07/22/opinion/america-250-montana-has-more-reasons-than-most-to-celebrate-americas-250th/18601.html">glasgowcourier.com</source>
     </item>
   </channel>
 </rss>

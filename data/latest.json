@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-09T07:06:08+00:00Z",
+  "updated_at": "2026-08-10T07:51:38+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -587,39 +587,6 @@
           "icon": "🕊️",
           "items": [
             {
-              "id": "gdelt_1313077912",
-              "title": "KAZAKHSTAN → RUSSIA : Impose administrative sanctions, not specified below (Moscow, Moskva, Russia)",
-              "title_en": "KAZAKHSTAN → RUSSIA : Impose administrative sanctions, not specified below (Moscow, Moskva, Russia)",
-              "summary": "GDELT Event: Impose administrative sanctions, not specified below. Actors: KAZAKHSTAN / RUSSIA. Location: Moscow, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 10 sources.",
-              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: KAZAKHSTAN / RUSSIA. Location: Moscow, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 10 sources.",
-              "source": "gdelt",
-              "source_label": "oilprice.com",
-              "date": "2026-07-10",
-              "url": "https://oilprice.com/Energy/Energy-General/Kazakhstan-Extends-Petroleum-Export-Ban-Six-Months-as-Hormuz-Tensions-Flare.html",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 10,
-                "sources": 1,
-                "articles": 10,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1313077912",
-                "event_code": "172",
-                "cameo_desc": "Impose administrative sanctions, not specified below",
-                "actor1": "KAZAKHSTAN",
-                "actor2": "RUSSIA",
-                "actor1_country": "KAZ",
-                "actor2_country": "RUS",
-                "geo_lat": 55.7522,
-                "geo_lon": 37.6156,
-                "geo_name": "Moscow, Moskva, Russia"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
               "id": "gdelt_1313189475",
               "title": "KIEV → nan : Destroy property (Kiev, Ukraine (general), Ukraine)",
               "title_en": "KIEV → nan : Destroy property (Kiev, Ukraine (general), Ukraine)",
@@ -1122,39 +1089,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1313077862",
-              "title": "ISRAEL → nan : Assassinate (White House, District of Columbia, United States)",
-              "title_en": "ISRAEL → nan : Assassinate (White House, District of Columbia, United States)",
-              "summary": "GDELT Event: Assassinate. Actors: ISRAEL / nan. Location: White House, District of Columbia, United States. Goldstein Scale: -10.0. Mentioned in 16 sources.",
-              "summary_en": "GDELT Event: Assassinate. Actors: ISRAEL / nan. Location: White House, District of Columbia, United States. Goldstein Scale: -10.0. Mentioned in 16 sources.",
-              "source": "gdelt",
-              "source_label": "kmbc.com",
-              "date": "2026-07-10",
-              "url": "https://www.kmbc.com/article/report-assassination-plot-plane-swap-trump/71899719",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 16,
-                "sources": 2,
-                "articles": 16,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1313077862",
-                "event_code": "186",
-                "cameo_desc": "Assassinate",
-                "actor1": "ISRAEL",
-                "actor2": "nan",
-                "actor1_country": "ISR",
-                "actor2_country": "nan",
-                "geo_lat": 38.8951,
-                "geo_lon": -77.0364,
-                "geo_name": "White House, District of Columbia, United States"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1313288386",
               "title": "MILITARY → LEBANESE : Use conventional military force, not specified below (Lebanon)",
@@ -2078,37 +2012,31 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
-            }
-          ]
-        },
-        "diplomacy": {
-          "label": "外交谈判",
-          "icon": "🕊️",
-          "items": [
+            },
             {
-              "id": "gdelt_1313078173",
-              "title": "MASSACHUSETTS → PRESIDENT : Arrest, detain, or charge with legal action (Gaza, Israel (general), Israel)",
-              "title_en": "MASSACHUSETTS → PRESIDENT : Arrest, detain, or charge with legal action (Gaza, Israel (general), Israel)",
-              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: MASSACHUSETTS / PRESIDENT. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 3 sources.",
-              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: MASSACHUSETTS / PRESIDENT. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 3 sources.",
+              "id": "gdelt_1317538630",
+              "title": "GAZA → JOURNALIST : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
+              "title_en": "GAZA → JOURNALIST : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: GAZA / JOURNALIST. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: GAZA / JOURNALIST. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.",
               "source": "gdelt",
-              "source_label": "nypost.com",
-              "date": "2026-07-10",
-              "url": "https://nypost.com/2026/07/10/opinion/teachers-fake-marriage-uproar-hid-another-scandal-in-school-brainwashing/",
+              "source_label": "yahoo.com",
+              "date": "2026-08-09",
+              "url": "https://www.yahoo.com/news/world/articles/union-reports-108-attacks-palestinian-230125771.html",
               "primary_conflict": "israel-palestine",
               "metrics": {
-                "mentions": 3,
+                "mentions": 6,
                 "sources": 1,
-                "articles": 3,
-                "goldstein": -5.0
+                "articles": 6,
+                "goldstein": -10.0
               },
               "gdelt_meta": {
-                "event_id": "1313078173",
-                "event_code": "173",
-                "cameo_desc": "Arrest, detain, or charge with legal action",
-                "actor1": "MASSACHUSETTS",
-                "actor2": "PRESIDENT",
-                "actor1_country": "USA",
+                "event_id": "1317538630",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "GAZA",
+                "actor2": "JOURNALIST",
+                "actor1_country": "PSE",
                 "actor2_country": "nan",
                 "geo_lat": 31.4167,
                 "geo_lon": 34.3333,
@@ -2117,7 +2045,13 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
-            },
+            }
+          ]
+        },
+        "diplomacy": {
+          "label": "外交谈判",
+          "icon": "🕊️",
+          "items": [
             {
               "id": "gdelt_1313189037",
               "title": "nan → ISRAELI : Arrest, detain, or charge with legal action (Israel)",
@@ -2515,6 +2449,39 @@
                 "geo_lat": 31.4167,
                 "geo_lon": 34.3333,
                 "geo_name": "Gaza, Israel (general), Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1317538407",
+              "title": "nan → ISRAEL : Conduct strike or boycott, not specified below (Israel)",
+              "title_en": "nan → ISRAEL : Conduct strike or boycott, not specified below (Israel)",
+              "summary": "GDELT Event: Conduct strike or boycott, not specified below. Actors: nan / ISRAEL. Location: Israel. Goldstein Scale: -6.5. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Conduct strike or boycott, not specified below. Actors: nan / ISRAEL. Location: Israel. Goldstein Scale: -6.5. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "news.webindia123.com",
+              "date": "2026-08-09",
+              "url": "https://news.webindia123.com/news/Articles/World/20260810/4485075.html",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -6.5
+              },
+              "gdelt_meta": {
+                "event_id": "1317538407",
+                "event_code": "143",
+                "cameo_desc": "Conduct strike or boycott, not specified below",
+                "actor1": "nan",
+                "actor2": "ISRAEL",
+                "actor1_country": "nan",
+                "actor2_country": "ISR",
+                "geo_lat": 31.5,
+                "geo_lon": 34.75,
+                "geo_name": "Israel"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -4112,6 +4079,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1317538739",
+              "title": "UNITED STATES → UNITED STATES : Arrest, detain, or charge with legal action (Tehran, Tehran, Iran)",
+              "title_en": "UNITED STATES → UNITED STATES : Arrest, detain, or charge with legal action (Tehran, Tehran, Iran)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: UNITED STATES / UNITED STATES. Location: Tehran, Tehran, Iran. Goldstein Scale: -5.0. Mentioned in 1 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: UNITED STATES / UNITED STATES. Location: Tehran, Tehran, Iran. Goldstein Scale: -5.0. Mentioned in 1 sources.",
+              "source": "gdelt",
+              "source_label": "freerepublic.com",
+              "date": "2026-08-09",
+              "url": "https://freerepublic.com/tag/*/index?more=4391218",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 1,
+                "sources": 1,
+                "articles": 1,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1317538739",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "UNITED STATES",
+                "actor2": "UNITED STATES",
+                "actor1_country": "USA",
+                "actor2_country": "USA",
+                "geo_lat": 35.75,
+                "geo_lon": 51.5148,
+                "geo_name": "Tehran, Tehran, Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -4744,8 +4744,8 @@
       "gdelt": 131
     },
     "date_range": {
-      "from": "2026-07-10",
-      "to": "2026-08-08"
+      "from": "2026-07-11",
+      "to": "2026-08-09"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
