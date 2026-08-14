@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13T07:43:50+00:00Z",
+  "updated_at": "2026-08-14T07:34:04+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -19,39 +19,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1313629427",
-              "title": "COUNSELLOR → UKRAINE : Occupy territory (California, United States)",
-              "title_en": "COUNSELLOR → UKRAINE : Occupy territory (California, United States)",
-              "summary": "GDELT Event: Occupy territory. Actors: COUNSELLOR / UKRAINE. Location: California, United States. Goldstein Scale: -9.5. Mentioned in 7 sources.",
-              "summary_en": "GDELT Event: Occupy territory. Actors: COUNSELLOR / UKRAINE. Location: California, United States. Goldstein Scale: -9.5. Mentioned in 7 sources.",
-              "source": "gdelt",
-              "source_label": "straitstimes.com",
-              "date": "2026-07-14",
-              "url": "https://www.straitstimes.com/opinion/the-worlds-superpowers-are-scrambling-for-an-edge-it-makes-all-of-us-less-safe",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 7,
-                "sources": 1,
-                "articles": 7,
-                "goldstein": -9.5
-              },
-              "gdelt_meta": {
-                "event_id": "1313629427",
-                "event_code": "192",
-                "cameo_desc": "Occupy territory",
-                "actor1": "COUNSELLOR",
-                "actor2": "UKRAINE",
-                "actor1_country": "nan",
-                "actor2_country": "UKR",
-                "geo_lat": 36.17,
-                "geo_lon": -119.746,
-                "geo_name": "California, United States"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1313806509",
               "title": "VLADIMIR PUTIN → nan : Employ aerial weapons (Russia)",
@@ -2623,138 +2590,6 @@
           "icon": "⚔️",
           "items": [
             {
-              "id": "gdelt_1313629578",
-              "title": "SINGAPORE → THE US : Impose blockade, restrict movement (Tehran, Tehran, Iran)",
-              "title_en": "SINGAPORE → THE US : Impose blockade, restrict movement (Tehran, Tehran, Iran)",
-              "summary": "GDELT Event: Impose blockade, restrict movement. Actors: SINGAPORE / THE US. Location: Tehran, Tehran, Iran. Goldstein Scale: -9.5. Mentioned in 8 sources.",
-              "summary_en": "GDELT Event: Impose blockade, restrict movement. Actors: SINGAPORE / THE US. Location: Tehran, Tehran, Iran. Goldstein Scale: -9.5. Mentioned in 8 sources.",
-              "source": "gdelt",
-              "source_label": "straitstimes.com",
-              "date": "2026-07-14",
-              "url": "https://www.straitstimes.com/world/middle-east/us-military-says-it-is-launching-more-strikes-against-iran",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 8,
-                "sources": 1,
-                "articles": 8,
-                "goldstein": -9.5
-              },
-              "gdelt_meta": {
-                "event_id": "1313629578",
-                "event_code": "191",
-                "cameo_desc": "Impose blockade, restrict movement",
-                "actor1": "SINGAPORE",
-                "actor2": "THE US",
-                "actor1_country": "SGP",
-                "actor2_country": "USA",
-                "geo_lat": 35.75,
-                "geo_lon": 51.5148,
-                "geo_name": "Tehran, Tehran, Iran"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1313629374",
-              "title": "IRAN → JORDAN : Use conventional military force, not specified below (Jordan)",
-              "title_en": "IRAN → JORDAN : Use conventional military force, not specified below (Jordan)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: IRAN / JORDAN. Location: Jordan. Goldstein Scale: -10.0. Mentioned in 6 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: IRAN / JORDAN. Location: Jordan. Goldstein Scale: -10.0. Mentioned in 6 sources.",
-              "source": "gdelt",
-              "source_label": "straitstimes.com",
-              "date": "2026-07-14",
-              "url": "https://www.straitstimes.com/world/middle-east/trump-resumes-iran-port-blockade-and-threatens-strikes-on-energy-targets",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 6,
-                "sources": 1,
-                "articles": 6,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1313629374",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "IRAN",
-                "actor2": "JORDAN",
-                "actor1_country": "IRN",
-                "actor2_country": "JOR",
-                "geo_lat": 31.0,
-                "geo_lon": 36.0,
-                "geo_name": "Jordan"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1313628959",
-              "title": "nan → TANKER : Use conventional military force, not specified below (Mahshahr, Khuzestan, Iran)",
-              "title_en": "nan → TANKER : Use conventional military force, not specified below (Mahshahr, Khuzestan, Iran)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: nan / TANKER. Location: Mahshahr, Khuzestan, Iran. Goldstein Scale: -10.0. Mentioned in 5 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: nan / TANKER. Location: Mahshahr, Khuzestan, Iran. Goldstein Scale: -10.0. Mentioned in 5 sources.",
-              "source": "gdelt",
-              "source_label": "sana.sy",
-              "date": "2026-07-14",
-              "url": "https://sana.sy/en/middle-east/2329580/",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 5,
-                "sources": 1,
-                "articles": 5,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1313628959",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "nan",
-                "actor2": "TANKER",
-                "actor1_country": "nan",
-                "actor2_country": "nan",
-                "geo_lat": 30.5588,
-                "geo_lon": 49.1981,
-                "geo_name": "Mahshahr, Khuzestan, Iran"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1313629376",
-              "title": "IRANIAN → JORDAN : Use conventional military force, not specified below (Tehran, Tehran, Iran)",
-              "title_en": "IRANIAN → JORDAN : Use conventional military force, not specified below (Tehran, Tehran, Iran)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: IRANIAN / JORDAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 3 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: IRANIAN / JORDAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 3 sources.",
-              "source": "gdelt",
-              "source_label": "dw.com",
-              "date": "2026-07-14",
-              "url": "https://www.dw.com/en/trump-strikes-on-iran-to-continue-until-i-say-its-enough/live-77960667",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 3,
-                "sources": 1,
-                "articles": 3,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1313629376",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "IRANIAN",
-                "actor2": "JORDAN",
-                "actor1_country": "IRN",
-                "actor2_country": "JOR",
-                "geo_lat": 35.75,
-                "geo_lon": 51.5148,
-                "geo_name": "Tehran, Tehran, Iran"
-              },
-              "admiralty_source": "B",
-              "admiralty_info": 3,
-              "admiralty_code": "B3"
-            },
-            {
               "id": "gdelt_1313806696",
               "title": "THE US → IRAN : Use conventional military force, not specified below (Kharg Island, Bushehr, Iran)",
               "title_en": "THE US → IRAN : Use conventional military force, not specified below (Kharg Island, Bushehr, Iran)",
@@ -3842,6 +3677,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1318189519",
+              "title": "KURDISTAN → nan : Use conventional military force, not specified below (Sulaymaniyah, As Sulaymaniyah, Iraq)",
+              "title_en": "KURDISTAN → nan : Use conventional military force, not specified below (Sulaymaniyah, As Sulaymaniyah, Iraq)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: KURDISTAN / nan. Location: Sulaymaniyah, As Sulaymaniyah, Iraq. Goldstein Scale: -10.0. Mentioned in 5 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: KURDISTAN / nan. Location: Sulaymaniyah, As Sulaymaniyah, Iraq. Goldstein Scale: -10.0. Mentioned in 5 sources.",
+              "source": "gdelt",
+              "source_label": "opednews.com",
+              "date": "2026-08-13",
+              "url": "https://www.opednews.com/populum/page.php?f=U-S-Withdrawal-from-Iraq-Iraq_Iraq-Green-Zone_Iraq-Militias_Iraq-Occupation-Strategy-260813-222.html",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 5,
+                "sources": 1,
+                "articles": 5,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1318189519",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "KURDISTAN",
+                "actor2": "nan",
+                "actor1_country": "IRN",
+                "actor2_country": "nan",
+                "geo_lat": 35.565,
+                "geo_lon": 45.4329,
+                "geo_name": "Sulaymaniyah, As Sulaymaniyah, Iraq"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -4576,42 +4444,7 @@
         "diplomacy": {
           "label": "外交谈判",
           "icon": "🕊️",
-          "items": [
-            {
-              "id": "gdelt_1313629564",
-              "title": "BUCHAREST → ROMANIA : Arrest, detain, or charge with legal action (Syria)",
-              "title_en": "BUCHAREST → ROMANIA : Arrest, detain, or charge with legal action (Syria)",
-              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: BUCHAREST / ROMANIA. Location: Syria. Goldstein Scale: -5.0. Mentioned in 2 sources.",
-              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: BUCHAREST / ROMANIA. Location: Syria. Goldstein Scale: -5.0. Mentioned in 2 sources.",
-              "source": "gdelt",
-              "source_label": "sana.sy",
-              "date": "2026-07-14",
-              "url": "https://sana.sy/en/economic/2329618/",
-              "primary_conflict": "syria",
-              "metrics": {
-                "mentions": 2,
-                "sources": 1,
-                "articles": 2,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1313629564",
-                "event_code": "173",
-                "cameo_desc": "Arrest, detain, or charge with legal action",
-                "actor1": "BUCHAREST",
-                "actor2": "ROMANIA",
-                "actor1_country": "nan",
-                "actor2_country": "nan",
-                "geo_lat": 35.0,
-                "geo_lon": 38.0,
-                "geo_name": "Syria"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3",
-              "criticality": "background"
-            }
-          ]
+          "items": []
         },
         "opinion": {
           "label": "舆论热点",
@@ -4810,13 +4643,13 @@
     }
   },
   "stats": {
-    "total_items": 133,
+    "total_items": 128,
     "sources": {
-      "gdelt": 133
+      "gdelt": 128
     },
     "date_range": {
-      "from": "2026-07-14",
-      "to": "2026-08-12"
+      "from": "2026-07-15",
+      "to": "2026-08-13"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",

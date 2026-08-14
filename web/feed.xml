@@ -5,8 +5,68 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 13 Aug 2026 07:43:34 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 07:33:46 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] PRISON → RUSSIA : Arrest, detain, or charge with legal action (Moscow, Moskva, Russia)</title>
+      <link>https://www.foreignpolicyjournal.com/2026/08/12/marine-veteran-robert-gilman-returns-home-after-1666-days-in-russian-prison-with-no-prisoner-swap-required/</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: PRISON / RUSSIA. Location: Moscow, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 8 sources.</description>
+      <guid isPermaLink="true">https://www.foreignpolicyjournal.com/2026/08/12/marine-veteran-robert-gilman-returns-home-after-1666-days-in-russian-prison-with-no-prisoner-swap-required/</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>外交谈判</category>
+      <source url="https://www.foreignpolicyjournal.com/2026/08/12/marine-veteran-robert-gilman-returns-home-after-1666-days-in-russian-prison-with-no-prisoner-swap-required/">foreignpolicyjournal.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAEL → HAMAS : Use conventional military force, not specified below (Kuwait)</title>
+      <link>https://www.wdrb.com/news/national/israel-says-gaza-drone-strike-targeted-a-hamas-commander-and-other-developments-in-the-mideast/article_deead9bf-b8f9-5c96-b4ce-d4b7fb28714e.html</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / HAMAS. Location: Kuwait. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
+      <guid isPermaLink="true">https://www.wdrb.com/news/national/israel-says-gaza-drone-strike-targeted-a-hamas-commander-and-other-developments-in-the-mideast/article_deead9bf-b8f9-5c96-b4ce-d4b7fb28714e.html</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.wdrb.com/news/national/israel-says-gaza-drone-strike-targeted-a-hamas-commander-and-other-developments-in-the-mideast/article_deead9bf-b8f9-5c96-b4ce-d4b7fb28714e.html">wdrb.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAELI → WEST BANK : Use conventional military force, not specified below (Gaza, Israel (general), Israel)</title>
+      <link>https://www.sbs.com.au/news/article/settlers-seige-palestinian-homes-in-west-bank/iuq0fhfh8</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAELI / WEST BANK. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.</description>
+      <guid isPermaLink="true">https://www.sbs.com.au/news/article/settlers-seige-palestinian-homes-in-west-bank/iuq0fhfh8</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.sbs.com.au/news/article/settlers-seige-palestinian-homes-in-west-bank/iuq0fhfh8">sbs.com.au</source>
+    </item>
+    <item>
+      <title>[美伊对峙] THE US → IRAN : Use conventional military force, not specified below (Paris, France (general), France)</title>
+      <link>https://www.businesstimes.com.sg/companies-markets/energy-commodities/oil-prices-edge-investors-weigh-us-iran-talks-deadlock-against-lower-demand</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: THE US / IRAN. Location: Paris, France (general), France. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.businesstimes.com.sg/companies-markets/energy-commodities/oil-prices-edge-investors-weigh-us-iran-talks-deadlock-against-lower-demand</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://www.businesstimes.com.sg/companies-markets/energy-commodities/oil-prices-edge-investors-weigh-us-iran-talks-deadlock-against-lower-demand">businesstimes.com.sg</source>
+    </item>
+    <item>
+      <title>[也门/胡塞武装] CARGO VESSEL → YEMEN : Use conventional military force, not specified below (Yemen)</title>
+      <link>https://www.businesstimes.com.sg/international/global/iran-says-no-progress-reviving-interim-peace-deal-us</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: CARGO VESSEL / YEMEN. Location: Yemen. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.businesstimes.com.sg/international/global/iran-says-no-progress-reviving-interim-peace-deal-us</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <category>也门/胡塞武装</category>
+      <category>军事动态</category>
+      <source url="https://www.businesstimes.com.sg/international/global/iran-says-no-progress-reviving-interim-peace-deal-us">businesstimes.com.sg</source>
+    </item>
+    <item>
+      <title>[也门/胡塞武装] YEMEN → SAUDI ARABIA : Fight with artillery and tanks (Tihama, Makkah, Saudi Arabia)</title>
+      <link>https://themedialine.org/top-stories/as-houthi-attacks-spread-saudi-arabia-weighs-a-new-yemen-campaign/</link>
+      <description>GDELT Event: Fight with artillery and tanks. Actors: YEMEN / SAUDI ARABIA. Location: Tihama, Makkah, Saudi Arabia. Goldstein Scale: -10.0. Mentioned in 3 sources.</description>
+      <guid isPermaLink="true">https://themedialine.org/top-stories/as-houthi-attacks-spread-saudi-arabia-weighs-a-new-yemen-campaign/</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <category>也门/胡塞武装</category>
+      <category>军事动态</category>
+      <source url="https://themedialine.org/top-stories/as-houthi-attacks-spread-saudi-arabia-weighs-a-new-yemen-campaign/">themedialine.org</source>
+    </item>
     <item>
       <title>[俄乌战争] NAVY → PANAMA : Employ aerial weapons (Ukraine)</title>
       <link>https://www.rigzone.com/news/wire/oil_extends_gains_on_hormuz_uncertainty-11-aug-2026-184351-article/</link>
@@ -446,66 +506,6 @@
       <category>俄乌战争</category>
       <category>舆论热点</category>
       <source url="https://www.ancient-origins.net/news-history-archaeology/medieval-ring-traveled-1300-miles-reach-russian-city-00103055">ancient-origins.net</source>
-    </item>
-    <item>
-      <title>[巴以冲突] nan → HAMAS : Use conventional military force, not specified below (United Kingdom)</title>
-      <link>https://www.israelnationalnews.com/news/431247</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: nan / HAMAS. Location: United Kingdom. Goldstein Scale: -10.0. Mentioned in 6 sources.</description>
-      <guid isPermaLink="true">https://www.israelnationalnews.com/news/431247</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.israelnationalnews.com/news/431247">israelnationalnews.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAELI → MEDIA : Use conventional military force, not specified below (Gaza, Israel (general), Israel)</title>
-      <link>https://www.al-monitor.com/originals/2026/08/gaza-family-buries-112-recovered-war-rubble-after-israeli-strike</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAELI / MEDIA. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.</description>
-      <guid isPermaLink="true">https://www.al-monitor.com/originals/2026/08/gaza-family-buries-112-recovered-war-rubble-after-israeli-strike</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.al-monitor.com/originals/2026/08/gaza-family-buries-112-recovered-war-rubble-after-israeli-strike">al-monitor.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] PALESTINE → UNITED STATES : Arrest, detain, or charge with legal action (Michigan, United States)</title>
-      <link>https://www.theblaze.com/news/nessel-anti-semitism-dem-party-convention</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: PALESTINE / UNITED STATES. Location: Michigan, United States. Goldstein Scale: -5.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.theblaze.com/news/nessel-anti-semitism-dem-party-convention</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>外交谈判</category>
-      <source url="https://www.theblaze.com/news/nessel-anti-semitism-dem-party-convention">theblaze.com</source>
-    </item>
-    <item>
-      <title>[台海局势] FEDERAL COURT → ADMINISTRATION : Use conventional military force, not specified below (Bering Strait, Alaska, United States)</title>
-      <link>https://www.adn.com/business-economy/energy/2026/08/04/trump-administration-mounts-second-attempt-to-relax-offshore-arctic-drilling-rules/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: FEDERAL COURT / ADMINISTRATION. Location: Bering Strait, Alaska, United States. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
-      <guid isPermaLink="true">https://www.adn.com/business-economy/energy/2026/08/04/trump-administration-mounts-second-attempt-to-relax-offshore-arctic-drilling-rules/</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
-      <category>台海局势</category>
-      <category>军事动态</category>
-      <source url="https://www.adn.com/business-economy/energy/2026/08/04/trump-administration-mounts-second-attempt-to-relax-offshore-arctic-drilling-rules/">adn.com</source>
-    </item>
-    <item>
-      <title>[台海局势] PRISON → nan : Arrest, detain, or charge with legal action (Taipei, T'ai-pei, Taiwan)</title>
-      <link>https://edmontonsun.com/opinion/editorials/editorial-federal-conflict-law-is-notoriously-weak-2/wcm/d2428012-4f00-4f8b-978f-70f87f962f27</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: PRISON / nan. Location: Taipei, T'ai-pei, Taiwan. Goldstein Scale: -5.0. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">https://edmontonsun.com/opinion/editorials/editorial-federal-conflict-law-is-notoriously-weak-2/wcm/d2428012-4f00-4f8b-978f-70f87f962f27</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
-      <category>台海局势</category>
-      <category>外交谈判</category>
-      <source url="https://edmontonsun.com/opinion/editorials/editorial-federal-conflict-law-is-notoriously-weak-2/wcm/d2428012-4f00-4f8b-978f-70f87f962f27">edmontonsun.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] MILITARY → NATIVES : Use conventional military force, not specified below (Lesken, Severnaya Osetiya-Alaniya, Russia)</title>
-      <link>https://www.eng.kavkaz-uzel.eu/articles/77261</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: MILITARY / NATIVES. Location: Lesken, Severnaya Osetiya-Alaniya, Russia. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://www.eng.kavkaz-uzel.eu/articles/77261</guid>
-      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://www.eng.kavkaz-uzel.eu/articles/77261">eng.kavkaz-uzel.eu</source>
     </item>
   </channel>
 </rss>
