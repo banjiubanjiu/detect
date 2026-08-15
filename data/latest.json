@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14T07:34:04+00:00Z",
+  "updated_at": "2026-08-15T06:47:19+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -19,72 +19,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1313806509",
-              "title": "VLADIMIR PUTIN → nan : Employ aerial weapons (Russia)",
-              "title_en": "VLADIMIR PUTIN → nan : Employ aerial weapons (Russia)",
-              "summary": "GDELT Event: Employ aerial weapons. Actors: VLADIMIR PUTIN / nan. Location: Russia. Goldstein Scale: -10.0. Mentioned in 8 sources.",
-              "summary_en": "GDELT Event: Employ aerial weapons. Actors: VLADIMIR PUTIN / nan. Location: Russia. Goldstein Scale: -10.0. Mentioned in 8 sources.",
-              "source": "gdelt",
-              "source_label": "express.co.uk",
-              "date": "2026-07-15",
-              "url": "https://www.express.co.uk/news/world/2229618/vladimir-putin-resorts-desperate-measures",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 8,
-                "sources": 1,
-                "articles": 8,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1313806509",
-                "event_code": "195",
-                "cameo_desc": "Employ aerial weapons",
-                "actor1": "VLADIMIR PUTIN",
-                "actor2": "nan",
-                "actor1_country": "RUS",
-                "actor2_country": "nan",
-                "geo_lat": 60.0,
-                "geo_lon": 100.0,
-                "geo_name": "Russia"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1313806293",
-              "title": "THE EU → UKRAINE : Torture (Moscow, Moskva, Russia)",
-              "title_en": "THE EU → UKRAINE : Torture (Moscow, Moskva, Russia)",
-              "summary": "GDELT Event: Torture. Actors: THE EU / UKRAINE. Location: Moscow, Moskva, Russia. Goldstein Scale: -9.0. Mentioned in 2 sources.",
-              "summary_en": "GDELT Event: Torture. Actors: THE EU / UKRAINE. Location: Moscow, Moskva, Russia. Goldstein Scale: -9.0. Mentioned in 2 sources.",
-              "source": "gdelt",
-              "source_label": "opinionnigeria.com",
-              "date": "2026-07-15",
-              "url": "https://www.opinionnigeria.com/europes-double-standard-on-ukraine-refugees-by-fransiscus-nanga-roka/",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 2,
-                "sources": 1,
-                "articles": 2,
-                "goldstein": -9.0
-              },
-              "gdelt_meta": {
-                "event_id": "1313806293",
-                "event_code": "1822",
-                "cameo_desc": "Torture",
-                "actor1": "THE EU",
-                "actor2": "UKRAINE",
-                "actor1_country": "EUR",
-                "actor2_country": "UKR",
-                "geo_lat": 55.7522,
-                "geo_lon": 37.6156,
-                "geo_name": "Moscow, Moskva, Russia"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1314142560",
               "title": "MINISTRY → CARGO SHIP : Use conventional military force, not specified below (Odessa, Odes'ka Oblast, Ukraine)",
@@ -711,6 +645,105 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1318351153",
+              "title": "THE US → nan : Use conventional military force, not specified below (Ukraine)",
+              "title_en": "THE US → nan : Use conventional military force, not specified below (Ukraine)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: THE US / nan. Location: Ukraine. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: THE US / nan. Location: Ukraine. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "techradar.com",
+              "date": "2026-08-14",
+              "url": "https://www.techradar.com/pro/ukrainian-drones-disabled-us-armor-brigade-in-simulated-warfare-so-quickly-that-they-had-to-respawn-the-equipment",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1318351153",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "THE US",
+                "actor2": "nan",
+                "actor1_country": "USA",
+                "actor2_country": "nan",
+                "geo_lat": 49.0,
+                "geo_lon": 32.0,
+                "geo_name": "Ukraine"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1318350934",
+              "title": "IRAN → UKRAINE : Use conventional military force, not specified below (Tehran, Tehran, Iran)",
+              "title_en": "IRAN → UKRAINE : Use conventional military force, not specified below (Tehran, Tehran, Iran)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: IRAN / UKRAINE. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: IRAN / UKRAINE. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "hellenicshippingnews.com",
+              "date": "2026-08-14",
+              "url": "https://www.hellenicshippingnews.com/oil-climbs-on-tanker-attacks-us-iran-claims-about-hormuz-control/",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1318350934",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "IRAN",
+                "actor2": "UKRAINE",
+                "actor1_country": "IRN",
+                "actor2_country": "UKR",
+                "geo_lat": 35.75,
+                "geo_lon": 51.5148,
+                "geo_name": "Tehran, Tehran, Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1318351073",
+              "title": "RUSSIA → TRADER : Use conventional military force, not specified below (Ukraine)",
+              "title_en": "RUSSIA → TRADER : Use conventional military force, not specified below (Ukraine)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: RUSSIA / TRADER. Location: Ukraine. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: RUSSIA / TRADER. Location: Ukraine. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "hellenicshippingnews.com",
+              "date": "2026-08-14",
+              "url": "https://www.hellenicshippingnews.com/russian-grain-exports-disrupted-after-novorossiysk-terminals-attack/",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1318351073",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "RUSSIA",
+                "actor2": "TRADER",
+                "actor1_country": "RUS",
+                "actor2_country": "nan",
+                "geo_lat": 49.0,
+                "geo_lon": 32.0,
+                "geo_name": "Ukraine"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -1146,6 +1179,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1318350806",
+              "title": "GERMAN → RUSSIAN : Arrest, detain, or charge with legal action (Germany)",
+              "title_en": "GERMAN → RUSSIAN : Arrest, detain, or charge with legal action (Germany)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: GERMAN / RUSSIAN. Location: Germany. Goldstein Scale: -5.0. Mentioned in 3 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: GERMAN / RUSSIAN. Location: Germany. Goldstein Scale: -5.0. Mentioned in 3 sources.",
+              "source": "gdelt",
+              "source_label": "techtimes.com",
+              "date": "2026-08-14",
+              "url": "https://www.techtimes.com/articles/324522/20260814/russia-delivers-first-production-pd-8-engines-crossing-sanctions-hardest-technical-line.htm",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 3,
+                "sources": 1,
+                "articles": 3,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1318350806",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "GERMAN",
+                "actor2": "RUSSIAN",
+                "actor1_country": "DEU",
+                "actor2_country": "RUS",
+                "geo_lat": 51.5,
+                "geo_lon": 10.5,
+                "geo_name": "Germany"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -1287,39 +1353,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1313806667",
-              "title": "TEXAS → SCHOOL : Use conventional military force, not specified below (Israel)",
-              "title_en": "TEXAS → SCHOOL : Use conventional military force, not specified below (Israel)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: TEXAS / SCHOOL. Location: Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: TEXAS / SCHOOL. Location: Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "source": "gdelt",
-              "source_label": "fox4news.com",
-              "date": "2026-07-15",
-              "url": "https://www.fox4news.com/news/fort-worth-isd-muslim-principal-sues-district",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 2,
-                "sources": 1,
-                "articles": 2,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1313806667",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "TEXAS",
-                "actor2": "SCHOOL",
-                "actor1_country": "USA",
-                "actor2_country": "nan",
-                "geo_lat": 31.5,
-                "geo_lon": 34.75,
-                "geo_name": "Israel"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1313981863",
               "title": "IRAN → nan : Employ aerial weapons (Israel)",
@@ -2590,72 +2623,6 @@
           "icon": "⚔️",
           "items": [
             {
-              "id": "gdelt_1313806696",
-              "title": "THE US → IRAN : Use conventional military force, not specified below (Kharg Island, Bushehr, Iran)",
-              "title_en": "THE US → IRAN : Use conventional military force, not specified below (Kharg Island, Bushehr, Iran)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: THE US / IRAN. Location: Kharg Island, Bushehr, Iran. Goldstein Scale: -10.0. Mentioned in 6 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: THE US / IRAN. Location: Kharg Island, Bushehr, Iran. Goldstein Scale: -10.0. Mentioned in 6 sources.",
-              "source": "gdelt",
-              "source_label": "kait8.com",
-              "date": "2026-07-15",
-              "url": "https://www.kait8.com/2026/07/15/us-reimposes-blockade-steps-up-strikes-iran-threatens-halt-mideast-energy-exports/",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 6,
-                "sources": 1,
-                "articles": 6,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1313806696",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "THE US",
-                "actor2": "IRAN",
-                "actor1_country": "USA",
-                "actor2_country": "IRN",
-                "geo_lat": 29.2458,
-                "geo_lon": 50.3158,
-                "geo_name": "Kharg Island, Bushehr, Iran"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1313806309",
-              "title": "IRAN → CIVILIAN : Engage in mass killings (United States)",
-              "title_en": "IRAN → CIVILIAN : Engage in mass killings (United States)",
-              "summary": "GDELT Event: Engage in mass killings. Actors: IRAN / CIVILIAN. Location: United States. Goldstein Scale: -10.0. Mentioned in 4 sources.",
-              "summary_en": "GDELT Event: Engage in mass killings. Actors: IRAN / CIVILIAN. Location: United States. Goldstein Scale: -10.0. Mentioned in 4 sources.",
-              "source": "gdelt",
-              "source_label": "truthout.org",
-              "date": "2026-07-15",
-              "url": "https://truthout.org/articles/trump-dismisses-responsibility-for-minab-massacre-saying-photo-evidence-is-ai/",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 4,
-                "sources": 1,
-                "articles": 4,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1313806309",
-                "event_code": "202",
-                "cameo_desc": "Engage in mass killings",
-                "actor1": "IRAN",
-                "actor2": "CIVILIAN",
-                "actor1_country": "IRN",
-                "actor2_country": "nan",
-                "geo_lat": 39.828175,
-                "geo_lon": -98.5795,
-                "geo_name": "United States"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
               "id": "gdelt_1313981962",
               "title": "AIR FORCE → IRAN : Employ aerial weapons (Bandar Abbas, Hormozgan, Iran)",
               "title_en": "AIR FORCE → IRAN : Employ aerial weapons (Bandar Abbas, Hormozgan, Iran)",
@@ -3718,39 +3685,6 @@
           "icon": "🕊️",
           "items": [
             {
-              "id": "gdelt_1313806318",
-              "title": "IRAN → AMERICAN : Arrest, detain, or charge with legal action (United States)",
-              "title_en": "IRAN → AMERICAN : Arrest, detain, or charge with legal action (United States)",
-              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: IRAN / AMERICAN. Location: United States. Goldstein Scale: -5.0. Mentioned in 10 sources.",
-              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: IRAN / AMERICAN. Location: United States. Goldstein Scale: -5.0. Mentioned in 10 sources.",
-              "source": "gdelt",
-              "source_label": "bnonews.com",
-              "date": "2026-07-15",
-              "url": "https://bnonews.com/index.php/2026/07/american-woman-detained-in-iran-since-2024-released-trump-says/",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 10,
-                "sources": 1,
-                "articles": 10,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1313806318",
-                "event_code": "173",
-                "cameo_desc": "Arrest, detain, or charge with legal action",
-                "actor1": "IRAN",
-                "actor2": "AMERICAN",
-                "actor1_country": "IRN",
-                "actor2_country": "USA",
-                "geo_lat": 39.828175,
-                "geo_lon": -98.5795,
-                "geo_name": "United States"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
               "id": "gdelt_1313981866",
               "title": "IRAN → PRESIDENT : Impose administrative sanctions, not specified below (Iran)",
               "title_en": "IRAN → PRESIDENT : Impose administrative sanctions, not specified below (Iran)",
@@ -4643,13 +4577,13 @@
     }
   },
   "stats": {
-    "total_items": 128,
+    "total_items": 126,
     "sources": {
-      "gdelt": 128
+      "gdelt": 126
     },
     "date_range": {
-      "from": "2026-07-15",
-      "to": "2026-08-13"
+      "from": "2026-07-16",
+      "to": "2026-08-14"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",

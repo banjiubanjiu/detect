@@ -5,8 +5,18 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 14 Aug 2026 07:33:46 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 06:47:04 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[美伊对峙] KURDISTAN → nan : Use conventional military force, not specified below (Sulaymaniyah, As Sulaymaniyah, Iraq)</title>
+      <link>https://www.opednews.com/populum/page.php?f=U-S-Withdrawal-from-Iraq-Iraq_Iraq-Green-Zone_Iraq-Militias_Iraq-Occupation-Strategy-260813-222.html</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: KURDISTAN / nan. Location: Sulaymaniyah, As Sulaymaniyah, Iraq. Goldstein Scale: -10.0. Mentioned in 5 sources.</description>
+      <guid isPermaLink="true">https://www.opednews.com/populum/page.php?f=U-S-Withdrawal-from-Iraq-Iraq_Iraq-Green-Zone_Iraq-Militias_Iraq-Occupation-Strategy-260813-222.html</guid>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://www.opednews.com/populum/page.php?f=U-S-Withdrawal-from-Iraq-Iraq_Iraq-Green-Zone_Iraq-Militias_Iraq-Occupation-Strategy-260813-222.html">opednews.com</source>
+    </item>
     <item>
       <title>[俄乌战争] PRISON → RUSSIA : Arrest, detain, or charge with legal action (Moscow, Moskva, Russia)</title>
       <link>https://www.foreignpolicyjournal.com/2026/08/12/marine-veteran-robert-gilman-returns-home-after-1666-days-in-russian-prison-with-no-prisoner-swap-required/</link>
@@ -496,16 +506,6 @@
       <category>俄乌战争</category>
       <category>外交谈判</category>
       <source url="https://www.nbcchicago.com/news/local/backpack-full-of-molotov-cocktails-found-on-man-after-arrest-in-southwest-suburb/3970653/">nbcchicago.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] PSKOV → EUROPE : Demonstrate or rally (Pskov, Pskovskaya Oblast', Russia)</title>
-      <link>https://www.ancient-origins.net/news-history-archaeology/medieval-ring-traveled-1300-miles-reach-russian-city-00103055</link>
-      <description>GDELT Event: Demonstrate or rally. Actors: PSKOV / EUROPE. Location: Pskov, Pskovskaya Oblast', Russia. Goldstein Scale: -6.5. Mentioned in 16 sources.</description>
-      <guid isPermaLink="true">https://www.ancient-origins.net/news-history-archaeology/medieval-ring-traveled-1300-miles-reach-russian-city-00103055</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>舆论热点</category>
-      <source url="https://www.ancient-origins.net/news-history-archaeology/medieval-ring-traveled-1300-miles-reach-russian-city-00103055">ancient-origins.net</source>
     </item>
   </channel>
 </rss>
