@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-15T06:47:19+00:00Z",
+  "updated_at": "2026-08-16T06:48:57+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -752,39 +752,6 @@
           "icon": "🕊️",
           "items": [
             {
-              "id": "gdelt_1313982044",
-              "title": "RUSSIA → TERRORIST ORGANIZATION : Impose administrative sanctions, not specified below (Stavropol, Stavropol'skiy Kray, Russia)",
-              "title_en": "RUSSIA → TERRORIST ORGANIZATION : Impose administrative sanctions, not specified below (Stavropol, Stavropol'skiy Kray, Russia)",
-              "summary": "GDELT Event: Impose administrative sanctions, not specified below. Actors: RUSSIA / TERRORIST ORGANIZATION. Location: Stavropol, Stavropol'skiy Kray, Russia. Goldstein Scale: -5.0. Mentioned in 10 sources.",
-              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: RUSSIA / TERRORIST ORGANIZATION. Location: Stavropol, Stavropol'skiy Kray, Russia. Goldstein Scale: -5.0. Mentioned in 10 sources.",
-              "source": "gdelt",
-              "source_label": "eng.kavkaz-uzel.eu",
-              "date": "2026-07-16",
-              "url": "https://www.eng.kavkaz-uzel.eu/articles/76985",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 10,
-                "sources": 1,
-                "articles": 10,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1313982044",
-                "event_code": "172",
-                "cameo_desc": "Impose administrative sanctions, not specified below",
-                "actor1": "RUSSIA",
-                "actor2": "TERRORIST ORGANIZATION",
-                "actor1_country": "RUS",
-                "actor2_country": "nan",
-                "geo_lat": 45.0428,
-                "geo_lon": 41.9734,
-                "geo_name": "Stavropol, Stavropol'skiy Kray, Russia"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
               "id": "gdelt_1314249918",
               "title": "nan → KRASNODAR : Arrest, detain, or charge with legal action (nan)",
               "title_en": "nan → KRASNODAR : Arrest, detain, or charge with legal action (nan)",
@@ -1220,39 +1187,6 @@
           "icon": "💬",
           "items": [
             {
-              "id": "gdelt_1313982060",
-              "title": "UKRAINE → DEPUTY : Engage in popular protest, not specified below (Donbass, Ukraine (general), Ukraine)",
-              "title_en": "UKRAINE → DEPUTY : Engage in popular protest, not specified below (Donbass, Ukraine (general), Ukraine)",
-              "summary": "GDELT Event: Engage in popular protest, not specified below. Actors: UKRAINE / DEPUTY. Location: Donbass, Ukraine (general), Ukraine. Goldstein Scale: -6.5. Mentioned in 8 sources.",
-              "summary_en": "GDELT Event: Engage in popular protest, not specified below. Actors: UKRAINE / DEPUTY. Location: Donbass, Ukraine (general), Ukraine. Goldstein Scale: -6.5. Mentioned in 8 sources.",
-              "source": "gdelt",
-              "source_label": "yourdemocracy.net",
-              "date": "2026-07-16",
-              "url": "https://yourdemocracy.net/drupal/node/60467",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 8,
-                "sources": 2,
-                "articles": 8,
-                "goldstein": -6.5
-              },
-              "gdelt_meta": {
-                "event_id": "1313982060",
-                "event_code": "140",
-                "cameo_desc": "Engage in popular protest, not specified below",
-                "actor1": "UKRAINE",
-                "actor2": "DEPUTY",
-                "actor1_country": "UKR",
-                "actor2_country": "nan",
-                "geo_lat": 48.5,
-                "geo_lon": 38.5,
-                "geo_name": "Donbass, Ukraine (general), Ukraine"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
               "id": "gdelt_1314668293",
               "title": "nan → UKRAINE : Engage in popular protest, not specified below (Kyiv, Kyyiv, Misto, Ukraine)",
               "title_en": "nan → UKRAINE : Engage in popular protest, not specified below (Kyiv, Kyyiv, Misto, Ukraine)",
@@ -1353,39 +1287,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1313981863",
-              "title": "IRAN → nan : Employ aerial weapons (Israel)",
-              "title_en": "IRAN → nan : Employ aerial weapons (Israel)",
-              "summary": "GDELT Event: Employ aerial weapons. Actors: IRAN / nan. Location: Israel. Goldstein Scale: -10.0. Mentioned in 4 sources.",
-              "summary_en": "GDELT Event: Employ aerial weapons. Actors: IRAN / nan. Location: Israel. Goldstein Scale: -10.0. Mentioned in 4 sources.",
-              "source": "gdelt",
-              "source_label": "odnako.org",
-              "date": "2026-07-16",
-              "url": "https://www.odnako.org/us-iran-escalation-over-hormuz-new-raids-anti-aircraft-fire-in-tehran-and-the-iranian-threat-to-gulf-infrastructure/",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 4,
-                "sources": 1,
-                "articles": 4,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1313981863",
-                "event_code": "195",
-                "cameo_desc": "Employ aerial weapons",
-                "actor1": "IRAN",
-                "actor2": "nan",
-                "actor1_country": "IRN",
-                "actor2_country": "nan",
-                "geo_lat": 31.5,
-                "geo_lon": 34.75,
-                "geo_name": "Israel"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1314249922",
               "title": "nan → CORNISH : Use conventional military force, not specified below (Israel)",
@@ -2243,6 +2144,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1318458030",
+              "title": "COLONIST → PALESTINIAN : Use unconventional violence, not specified below (Israel)",
+              "title_en": "COLONIST → PALESTINIAN : Use unconventional violence, not specified below (Israel)",
+              "summary": "GDELT Event: Use unconventional violence, not specified below. Actors: COLONIST / PALESTINIAN. Location: Israel. Goldstein Scale: -9.0. Mentioned in 15 sources.",
+              "summary_en": "GDELT Event: Use unconventional violence, not specified below. Actors: COLONIST / PALESTINIAN. Location: Israel. Goldstein Scale: -9.0. Mentioned in 15 sources.",
+              "source": "gdelt",
+              "source_label": "english.wafa.ps",
+              "date": "2026-08-15",
+              "url": "https://english.wafa.ps/Pages/Details/173652",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 15,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -9.0
+              },
+              "gdelt_meta": {
+                "event_id": "1318458030",
+                "event_code": "180",
+                "cameo_desc": "Use unconventional violence, not specified below",
+                "actor1": "COLONIST",
+                "actor2": "PALESTINIAN",
+                "actor1_country": "nan",
+                "actor2_country": "PSE",
+                "geo_lat": 31.5,
+                "geo_lon": 34.75,
+                "geo_name": "Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -2250,39 +2184,6 @@
           "label": "外交谈判",
           "icon": "🕊️",
           "items": [
-            {
-              "id": "gdelt_1313981885",
-              "title": "ISRAEL → PRIME MINISTER : Arrest, detain, or charge with legal action (Gaza, Israel (general), Israel)",
-              "title_en": "ISRAEL → PRIME MINISTER : Arrest, detain, or charge with legal action (Gaza, Israel (general), Israel)",
-              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: ISRAEL / PRIME MINISTER. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 8 sources.",
-              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: ISRAEL / PRIME MINISTER. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 8 sources.",
-              "source": "gdelt",
-              "source_label": "aljazeera.com",
-              "date": "2026-07-16",
-              "url": "https://www.aljazeera.com/news/2026/7/16/ilhan-omar-renews-push-for-us-to-join-icc-amid-trump-pressure",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 8,
-                "sources": 1,
-                "articles": 8,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1313981885",
-                "event_code": "173",
-                "cameo_desc": "Arrest, detain, or charge with legal action",
-                "actor1": "ISRAEL",
-                "actor2": "PRIME MINISTER",
-                "actor1_country": "ISR",
-                "actor2_country": "nan",
-                "geo_lat": 31.4167,
-                "geo_lon": 34.3333,
-                "geo_name": "Gaza, Israel (general), Israel"
-              },
-              "admiralty_source": "B",
-              "admiralty_info": 3,
-              "admiralty_code": "B3"
-            },
             {
               "id": "gdelt_1314493447",
               "title": "ISRAEL → PRESIDENT : Arrest, detain, or charge with legal action (New York, United States)",
@@ -2622,105 +2523,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1313981962",
-              "title": "AIR FORCE → IRAN : Employ aerial weapons (Bandar Abbas, Hormozgan, Iran)",
-              "title_en": "AIR FORCE → IRAN : Employ aerial weapons (Bandar Abbas, Hormozgan, Iran)",
-              "summary": "GDELT Event: Employ aerial weapons. Actors: AIR FORCE / IRAN. Location: Bandar Abbas, Hormozgan, Iran. Goldstein Scale: -10.0. Mentioned in 20 sources.",
-              "summary_en": "GDELT Event: Employ aerial weapons. Actors: AIR FORCE / IRAN. Location: Bandar Abbas, Hormozgan, Iran. Goldstein Scale: -10.0. Mentioned in 20 sources.",
-              "source": "gdelt",
-              "source_label": "mirror.co.uk",
-              "date": "2026-07-16",
-              "url": "https://www.mirror.co.uk/news/us-news/us-fighter-jet-emergency-code-37442236",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 20,
-                "sources": 1,
-                "articles": 10,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1313981962",
-                "event_code": "195",
-                "cameo_desc": "Employ aerial weapons",
-                "actor1": "AIR FORCE",
-                "actor2": "IRAN",
-                "actor1_country": "nan",
-                "actor2_country": "IRN",
-                "geo_lat": 27.1865,
-                "geo_lon": 56.2808,
-                "geo_name": "Bandar Abbas, Hormozgan, Iran"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1313981933",
-              "title": "LIBERIAN → OMANI : Employ aerial weapons (Qeshm, Kordestan, Iran)",
-              "title_en": "LIBERIAN → OMANI : Employ aerial weapons (Qeshm, Kordestan, Iran)",
-              "summary": "GDELT Event: Employ aerial weapons. Actors: LIBERIAN / OMANI. Location: Qeshm, Kordestan, Iran. Goldstein Scale: -10.0. Mentioned in 5 sources.",
-              "summary_en": "GDELT Event: Employ aerial weapons. Actors: LIBERIAN / OMANI. Location: Qeshm, Kordestan, Iran. Goldstein Scale: -10.0. Mentioned in 5 sources.",
-              "source": "gdelt",
-              "source_label": "shtfplan.com",
-              "date": "2026-07-16",
-              "url": "https://www.shtfplan.com/war/the-battle-for-the-strait-of-hormuz-can-the-world-survive-without-oil-from-the-persian-gulf",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 5,
-                "sources": 1,
-                "articles": 5,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1313981933",
-                "event_code": "195",
-                "cameo_desc": "Employ aerial weapons",
-                "actor1": "LIBERIAN",
-                "actor2": "OMANI",
-                "actor1_country": "LBR",
-                "actor2_country": "OMN",
-                "geo_lat": 35.4421,
-                "geo_lon": 47.3506,
-                "geo_name": "Qeshm, Kordestan, Iran"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1313981905",
-              "title": "JORDANIAN → HOSPITAL : Use conventional military force, not specified below (Ahvaz, Khuzestan, Iran)",
-              "title_en": "JORDANIAN → HOSPITAL : Use conventional military force, not specified below (Ahvaz, Khuzestan, Iran)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: JORDANIAN / HOSPITAL. Location: Ahvaz, Khuzestan, Iran. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: JORDANIAN / HOSPITAL. Location: Ahvaz, Khuzestan, Iran. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "source": "gdelt",
-              "source_label": "rnz.co.nz",
-              "date": "2026-07-16",
-              "url": "https://www.rnz.co.nz/news/world/728857/iran-and-us-step-up-attacks-though-release-of-american-may-signal-path-to-climbdown",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 2,
-                "sources": 1,
-                "articles": 2,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1313981905",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "JORDANIAN",
-                "actor2": "HOSPITAL",
-                "actor1_country": "JOR",
-                "actor2_country": "nan",
-                "geo_lat": 31.3203,
-                "geo_lon": 48.6693,
-                "geo_name": "Ahvaz, Khuzestan, Iran"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1314142611",
               "title": "IRAN → nan : Fight with artillery and tanks (China)",
@@ -3677,38 +3479,32 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
-            }
-          ]
-        },
-        "diplomacy": {
-          "label": "外交谈判",
-          "icon": "🕊️",
-          "items": [
+            },
             {
-              "id": "gdelt_1313981866",
-              "title": "IRAN → PRESIDENT : Impose administrative sanctions, not specified below (Iran)",
-              "title_en": "IRAN → PRESIDENT : Impose administrative sanctions, not specified below (Iran)",
-              "summary": "GDELT Event: Impose administrative sanctions, not specified below. Actors: IRAN / PRESIDENT. Location: Iran. Goldstein Scale: -5.0. Mentioned in 4 sources.",
-              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: IRAN / PRESIDENT. Location: Iran. Goldstein Scale: -5.0. Mentioned in 4 sources.",
+              "id": "gdelt_1318458101",
+              "title": "IRANIAN → IRANIAN : Use conventional military force, not specified below (Iran)",
+              "title_en": "IRANIAN → IRANIAN : Use conventional military force, not specified below (Iran)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: IRANIAN / IRANIAN. Location: Iran. Goldstein Scale: -10.0. Mentioned in 7 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: IRANIAN / IRANIAN. Location: Iran. Goldstein Scale: -10.0. Mentioned in 7 sources.",
               "source": "gdelt",
-              "source_label": "radaronline.com",
-              "date": "2026-07-16",
-              "url": "https://radaronline.com/p/donald-trump-plot-twists-scandals-claims-second-president-term/",
+              "source_label": "theepochtimes.com",
+              "date": "2026-08-15",
+              "url": "https://www.theepochtimes.com/world/iran-accuses-qatar-of-holding-3-of-its-military-pilots-captive-6075596",
               "primary_conflict": "us-iran",
               "metrics": {
-                "mentions": 4,
+                "mentions": 7,
                 "sources": 1,
-                "articles": 4,
-                "goldstein": -5.0
+                "articles": 7,
+                "goldstein": -10.0
               },
               "gdelt_meta": {
-                "event_id": "1313981866",
-                "event_code": "172",
-                "cameo_desc": "Impose administrative sanctions, not specified below",
-                "actor1": "IRAN",
-                "actor2": "PRESIDENT",
+                "event_id": "1318458101",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "IRANIAN",
+                "actor2": "IRANIAN",
                 "actor1_country": "IRN",
-                "actor2_country": "nan",
+                "actor2_country": "IRN",
                 "geo_lat": 32.0,
                 "geo_lon": 53.0,
                 "geo_name": "Iran"
@@ -3716,7 +3512,13 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
-            },
+            }
+          ]
+        },
+        "diplomacy": {
+          "label": "外交谈判",
+          "icon": "🕊️",
+          "items": [
             {
               "id": "gdelt_1315035773",
               "title": "IRAN → CHRISTIAN : Impose administrative sanctions, not specified below (Iran)",
@@ -4577,13 +4379,13 @@
     }
   },
   "stats": {
-    "total_items": 126,
+    "total_items": 120,
     "sources": {
-      "gdelt": 126
+      "gdelt": 120
     },
     "date_range": {
-      "from": "2026-07-16",
-      "to": "2026-08-14"
+      "from": "2026-07-17",
+      "to": "2026-08-15"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
