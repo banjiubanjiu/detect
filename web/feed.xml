@@ -5,8 +5,28 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 16 Aug 2026 06:48:41 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 07:04:54 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[巴以冲突] COLONIST → PALESTINIAN : Use unconventional violence, not specified below (Israel)</title>
+      <link>https://english.wafa.ps/Pages/Details/173652</link>
+      <description>GDELT Event: Use unconventional violence, not specified below. Actors: COLONIST / PALESTINIAN. Location: Israel. Goldstein Scale: -9.0. Mentioned in 15 sources.</description>
+      <guid isPermaLink="true">https://english.wafa.ps/Pages/Details/173652</guid>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://english.wafa.ps/Pages/Details/173652">english.wafa.ps</source>
+    </item>
+    <item>
+      <title>[美伊对峙] IRANIAN → IRANIAN : Use conventional military force, not specified below (Iran)</title>
+      <link>https://www.theepochtimes.com/world/iran-accuses-qatar-of-holding-3-of-its-military-pilots-captive-6075596</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: IRANIAN / IRANIAN. Location: Iran. Goldstein Scale: -10.0. Mentioned in 7 sources.</description>
+      <guid isPermaLink="true">https://www.theepochtimes.com/world/iran-accuses-qatar-of-holding-3-of-its-military-pilots-captive-6075596</guid>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://www.theepochtimes.com/world/iran-accuses-qatar-of-holding-3-of-its-military-pilots-captive-6075596">theepochtimes.com</source>
+    </item>
     <item>
       <title>[俄乌战争] THE US → nan : Use conventional military force, not specified below (Ukraine)</title>
       <link>https://www.techradar.com/pro/ukrainian-drones-disabled-us-armor-brigade-in-simulated-warfare-so-quickly-that-they-had-to-respawn-the-equipment</link>
@@ -486,26 +506,6 @@
       <category>俄乌战争</category>
       <category>外交谈判</category>
       <source url="https://www.eng.kavkaz-uzel.eu/articles/77504">eng.kavkaz-uzel.eu</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ASSAILANT → ISRAELI : Fight with small arms and light weapons (Gaza, Israel (general), Israel)</title>
-      <link>https://www.al-monitor.com/originals/2026/08/aipac-oppose-el-sayed-after-major-michigan-primary-victory</link>
-      <description>GDELT Event: Fight with small arms and light weapons. Actors: ASSAILANT / ISRAELI. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 5 sources.</description>
-      <guid isPermaLink="true">https://www.al-monitor.com/originals/2026/08/aipac-oppose-el-sayed-after-major-michigan-primary-victory</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.al-monitor.com/originals/2026/08/aipac-oppose-el-sayed-after-major-michigan-primary-victory">al-monitor.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] NEIGHBORHOOD → VENEZUELA : Assassinate (Gaza, Israel (general), Israel)</title>
-      <link>https://venezuelanalysis.com/news/venezuela-leftist-groups-rally-against-imperialist-plundering/</link>
-      <description>GDELT Event: Assassinate. Actors: NEIGHBORHOOD / VENEZUELA. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
-      <guid isPermaLink="true">https://venezuelanalysis.com/news/venezuela-leftist-groups-rally-against-imperialist-plundering/</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://venezuelanalysis.com/news/venezuela-leftist-groups-rally-against-imperialist-plundering/">venezuelanalysis.com</source>
     </item>
   </channel>
 </rss>
