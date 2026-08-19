@@ -5,8 +5,48 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 18 Aug 2026 06:52:19 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 06:52:30 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] UKRAINIAN → UNITED KINGDOM : Use conventional military force, not specified below (Moscow, Moskva, Russia)</title>
+      <link>https://www.yahoo.com/news/politics/articles/russia-warns-uk-pay-price-203452587.html</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: UKRAINIAN / UNITED KINGDOM. Location: Moscow, Moskva, Russia. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.yahoo.com/news/politics/articles/russia-warns-uk-pay-price-203452587.html</guid>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.yahoo.com/news/politics/articles/russia-warns-uk-pay-price-203452587.html">yahoo.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAEL → UNITED STATES : Impose administrative sanctions, not specified below (United States)</title>
+      <link>https://www.thenation.com/article/politics/israel-lobby-clifton-lustick-middle-east-us-foreign-policy/</link>
+      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: ISRAEL / UNITED STATES. Location: United States. Goldstein Scale: -5.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.thenation.com/article/politics/israel-lobby-clifton-lustick-middle-east-us-foreign-policy/</guid>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>外交谈判</category>
+      <source url="https://www.thenation.com/article/politics/israel-lobby-clifton-lustick-middle-east-us-foreign-policy/">thenation.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] INVESTOR → nan : Impose administrative sanctions, not specified below (Iran)</title>
+      <link>https://tribune.com.pk/story/2624447/sbp-injects-rs116tr-into-banking-system</link>
+      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: INVESTOR / nan. Location: Iran. Goldstein Scale: -5.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://tribune.com.pk/story/2624447/sbp-injects-rs116tr-into-banking-system</guid>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>外交谈判</category>
+      <source url="https://tribune.com.pk/story/2624447/sbp-injects-rs116tr-into-banking-system">tribune.com.pk</source>
+    </item>
+    <item>
+      <title>[叙利亚局势] nan → POLICE : Use unconventional violence, not specified below (Syria)</title>
+      <link>https://www.newcastleherald.com.au/story/9332186/hunter-man-32-charged-after-alleged-hamilton-south-assault/</link>
+      <description>GDELT Event: Use unconventional violence, not specified below. Actors: nan / POLICE. Location: Syria. Goldstein Scale: -9.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.newcastleherald.com.au/story/9332186/hunter-man-32-charged-after-alleged-hamilton-south-assault/</guid>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <category>叙利亚局势</category>
+      <category>军事动态</category>
+      <source url="https://www.newcastleherald.com.au/story/9332186/hunter-man-32-charged-after-alleged-hamilton-south-assault/">newcastleherald.com.au</source>
+    </item>
     <item>
       <title>[巴以冲突] JERUSALEM → COLONIST : Physically assault, not specified below (Jerusalem, Israel (general), Israel)</title>
       <link>https://english.wafa.ps/Pages/Details/173726</link>
@@ -466,46 +506,6 @@
       <category>巴以冲突</category>
       <category>军事动态</category>
       <source url="https://imemc.org/article/thursday-ongoing-invasions-abductions-and-violations/">imemc.org</source>
-    </item>
-    <item>
-      <title>[巴以冲突] PALESTINIAN → nan : Occupy territory (Jerusalem, Israel (general), Israel)</title>
-      <link>https://imemc.org/article/new-military-israeli-order-targets-jaba-lands/</link>
-      <description>GDELT Event: Occupy territory. Actors: PALESTINIAN / nan. Location: Jerusalem, Israel (general), Israel. Goldstein Scale: -9.5. Mentioned in 1 sources.</description>
-      <guid isPermaLink="true">https://imemc.org/article/new-military-israeli-order-targets-jaba-lands/</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://imemc.org/article/new-military-israeli-order-targets-jaba-lands/">imemc.org</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAEL → SALVADORAN : Arrest, detain, or charge with legal action (El Salvador)</title>
-      <link>https://www.foxnews.com/us/ice-asks-north-carolina-hold-illegal-immigrant-accused-toddlers-bathtub-death</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: ISRAEL / SALVADORAN. Location: El Salvador. Goldstein Scale: -5.0. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://www.foxnews.com/us/ice-asks-north-carolina-hold-illegal-immigrant-accused-toddlers-bathtub-death</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>外交谈判</category>
-      <source url="https://www.foxnews.com/us/ice-asks-north-carolina-hold-illegal-immigrant-accused-toddlers-bathtub-death">foxnews.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] SAUDI ARABIA → IRAN : Fight with artillery and tanks (Iran)</title>
-      <link>https://www.cnn.com/2026/08/06/middleeast/saudi-houthi-iran-iraq-attack-latam-intl</link>
-      <description>GDELT Event: Fight with artillery and tanks. Actors: SAUDI ARABIA / IRAN. Location: Iran. Goldstein Scale: -10.0. Mentioned in 16 sources.</description>
-      <guid isPermaLink="true">https://www.cnn.com/2026/08/06/middleeast/saudi-houthi-iran-iraq-attack-latam-intl</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://www.cnn.com/2026/08/06/middleeast/saudi-houthi-iran-iraq-attack-latam-intl">cnn.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] IRAN → YEMEN : Use conventional military force, not specified below (Iran)</title>
-      <link>https://www.channelnewsasia.com/world/houthi-rebels-yemen-kill-government-troops-6304816</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: IRAN / YEMEN. Location: Iran. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://www.channelnewsasia.com/world/houthi-rebels-yemen-kill-government-troops-6304816</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://www.channelnewsasia.com/world/houthi-rebels-yemen-kill-government-troops-6304816">channelnewsasia.com</source>
     </item>
   </channel>
 </rss>
