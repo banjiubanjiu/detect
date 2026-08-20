@@ -5,8 +5,88 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 19 Aug 2026 06:52:30 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 06:55:41 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] RUSSIAN → UKRAINIAN : Use conventional military force, not specified below (Russia)</title>
+      <link>https://www.techradar.com/pro/ubiquiti-sued-by-ukrainian-families-over-claims-its-tech-powered-russian-battlefield-drones</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: RUSSIAN / UKRAINIAN. Location: Russia. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
+      <guid isPermaLink="true">https://www.techradar.com/pro/ubiquiti-sued-by-ukrainian-families-over-claims-its-tech-powered-russian-battlefield-drones</guid>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.techradar.com/pro/ubiquiti-sued-by-ukrainian-families-over-claims-its-tech-powered-russian-battlefield-drones">techradar.com</source>
+    </item>
+    <item>
+      <title>[俄乌战争] VILLAGER → nan : Use conventional military force, not specified below (Sumy, Sums'ka Oblast', Ukraine)</title>
+      <link>https://albaniandailynews.com/news/russia-warns-uk-will-pay-for-supplying-drones-to-ukraine</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: VILLAGER / nan. Location: Sumy, Sums'ka Oblast', Ukraine. Goldstein Scale: -10.0. Mentioned in 5 sources.</description>
+      <guid isPermaLink="true">https://albaniandailynews.com/news/russia-warns-uk-will-pay-for-supplying-drones-to-ukraine</guid>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://albaniandailynews.com/news/russia-warns-uk-will-pay-for-supplying-drones-to-ukraine">albaniandailynews.com</source>
+    </item>
+    <item>
+      <title>[俄乌战争] RUSSIA → nan : Impose administrative sanctions, not specified below (Poland)</title>
+      <link>http://www.centralasiatimes.com/news/279249598/belarus-criminal-cases-against-exiled-religious-freedom-defenders</link>
+      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: RUSSIA / nan. Location: Poland. Goldstein Scale: -5.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">http://www.centralasiatimes.com/news/279249598/belarus-criminal-cases-against-exiled-religious-freedom-defenders</guid>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>外交谈判</category>
+      <source url="http://www.centralasiatimes.com/news/279249598/belarus-criminal-cases-against-exiled-religious-freedom-defenders">centralasiatimes.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAEL → UNITED STATES : Use conventional military force, not specified below (World Trade Center, Illinois, United States)</title>
+      <link>https://www.breitbart.com/politics/2026/08/18/election-night-livewire-byron-donalds-eyes-governors-mansion-as-scandals-plague-races-across-country/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / UNITED STATES. Location: World Trade Center, Illinois, United States. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.breitbart.com/politics/2026/08/18/election-night-livewire-byron-donalds-eyes-governors-mansion-as-scandals-plague-races-across-country/</guid>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.breitbart.com/politics/2026/08/18/election-night-livewire-byron-donalds-eyes-governors-mansion-as-scandals-plague-races-across-country/">breitbart.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] PROSECUTOR → ISRAEL : Use unconventional violence, not specified below (Gaza, Israel (general), Israel)</title>
+      <link>https://truthout.org/articles/us-sanctioning-icc-prosecutor-who-reportedly-worked-on-warrant-for-netanyahu/</link>
+      <description>GDELT Event: Use unconventional violence, not specified below. Actors: PROSECUTOR / ISRAEL. Location: Gaza, Israel (general), Israel. Goldstein Scale: -9.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://truthout.org/articles/us-sanctioning-icc-prosecutor-who-reportedly-worked-on-warrant-for-netanyahu/</guid>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://truthout.org/articles/us-sanctioning-icc-prosecutor-who-reportedly-worked-on-warrant-for-netanyahu/">truthout.org</source>
+    </item>
+    <item>
+      <title>[巴以冲突] SETTLER → WEST BANK : Destroy property (Qusra, West Bank (general), West Bank)</title>
+      <link>https://wrp.org.uk/news/israel-must-stop-bombing-gaza-says-hamas/</link>
+      <description>GDELT Event: Destroy property. Actors: SETTLER / WEST BANK. Location: Qusra, West Bank (general), West Bank. Goldstein Scale: -9.2. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://wrp.org.uk/news/israel-must-stop-bombing-gaza-says-hamas/</guid>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>外交谈判</category>
+      <source url="https://wrp.org.uk/news/israel-must-stop-bombing-gaza-says-hamas/">wrp.org.uk</source>
+    </item>
+    <item>
+      <title>[美伊对峙] UNITED ARAB EMIRATES → IRAN : Fight with artillery and tanks (Tehran, Tehran, Iran)</title>
+      <link>http://www.iranherald.com/news/279250144/iran-rejects-uae-claim-of-missile-launch-calls-accusations-baseless</link>
+      <description>GDELT Event: Fight with artillery and tanks. Actors: UNITED ARAB EMIRATES / IRAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">http://www.iranherald.com/news/279250144/iran-rejects-uae-claim-of-missile-launch-calls-accusations-baseless</guid>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="http://www.iranherald.com/news/279250144/iran-rejects-uae-claim-of-missile-launch-calls-accusations-baseless">iranherald.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] DUBAI → IRAN : Fight with artillery and tanks (Iran)</title>
+      <link>https://www.aol.co.uk/articles/dubai-residents-sent-missile-alert-224438000.html</link>
+      <description>GDELT Event: Fight with artillery and tanks. Actors: DUBAI / IRAN. Location: Iran. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.aol.co.uk/articles/dubai-residents-sent-missile-alert-224438000.html</guid>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://www.aol.co.uk/articles/dubai-residents-sent-missile-alert-224438000.html">aol.co.uk</source>
+    </item>
     <item>
       <title>[俄乌战争] UKRAINIAN → UNITED KINGDOM : Use conventional military force, not specified below (Moscow, Moskva, Russia)</title>
       <link>https://www.yahoo.com/news/politics/articles/russia-warns-uk-pay-price-203452587.html</link>
@@ -426,86 +506,6 @@
       <category>巴以冲突</category>
       <category>军事动态</category>
       <source url="https://www.middleeasteye.net/live-blog/live-blog-update/israeli-forces-shell-gaza-areas-raid-several-west-bank-towns-and">middleeasteye.net</source>
-    </item>
-    <item>
-      <title>[巴以冲突] SAUDI ARABIA → HAMAS : Use conventional military force, not specified below (Israel)</title>
-      <link>https://www.thehindu.com/news/international/mecca-agreement-a-new-triple-alliance-in-west-asia/article71322635.ece</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: SAUDI ARABIA / HAMAS. Location: Israel. Goldstein Scale: -10.0. Mentioned in 5 sources.</description>
-      <guid isPermaLink="true">https://www.thehindu.com/news/international/mecca-agreement-a-new-triple-alliance-in-west-asia/article71322635.ece</guid>
-      <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.thehindu.com/news/international/mecca-agreement-a-new-triple-alliance-in-west-asia/article71322635.ece">thehindu.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] EUROPE → SPAIN : Expel or deport individuals (Gaza, Israel (general), Israel)</title>
-      <link>https://www.yourdemocracy.net.au/drupal/node/60735</link>
-      <description>GDELT Event: Expel or deport individuals. Actors: EUROPE / SPAIN. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 1 sources.</description>
-      <guid isPermaLink="true">https://www.yourdemocracy.net.au/drupal/node/60735</guid>
-      <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>外交谈判</category>
-      <source url="https://www.yourdemocracy.net.au/drupal/node/60735">yourdemocracy.net.au</source>
-    </item>
-    <item>
-      <title>[美伊对峙] PERSEPOLIS → MEDIA : Occupy territory (Paris, France (general), France)</title>
-      <link>http://www.awn.com/animationworld/disarming-legacy-persepolis-author-and-director-marjane-satrapi</link>
-      <description>GDELT Event: Occupy territory. Actors: PERSEPOLIS / MEDIA. Location: Paris, France (general), France. Goldstein Scale: -9.5. Mentioned in 6 sources.</description>
-      <guid isPermaLink="true">http://www.awn.com/animationworld/disarming-legacy-persepolis-author-and-director-marjane-satrapi</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="http://www.awn.com/animationworld/disarming-legacy-persepolis-author-and-director-marjane-satrapi">awn.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] IRAN → UKRAINE : Use conventional military force, not specified below (Tehran, Tehran, Iran)</title>
-      <link>https://themedialine.org/top-stories/wars-collide-in-the-caspian-ukraine-strike-exposes-the-iran-russia-connection/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: IRAN / UKRAINE. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 26 sources.</description>
-      <guid isPermaLink="true">https://themedialine.org/top-stories/wars-collide-in-the-caspian-ukraine-strike-exposes-the-iran-russia-connection/</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://themedialine.org/top-stories/wars-collide-in-the-caspian-ukraine-strike-exposes-the-iran-russia-connection/">themedialine.org</source>
-    </item>
-    <item>
-      <title>[俄乌战争] RUSSIA → REUTERS : Arrest, detain, or charge with legal action (North Korea)</title>
-      <link>https://www.yahoo.com/news/us/articles/former-us-marine-robert-gilman-202958047.html</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: RUSSIA / REUTERS. Location: North Korea. Goldstein Scale: -5.0. Mentioned in 3 sources.</description>
-      <guid isPermaLink="true">https://www.yahoo.com/news/us/articles/former-us-marine-robert-gilman-202958047.html</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>外交谈判</category>
-      <source url="https://www.yahoo.com/news/us/articles/former-us-marine-robert-gilman-202958047.html">yahoo.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] ATTORNEY → ISRAEL : Arrest, detain, or charge with legal action (Russia)</title>
-      <link>https://pjmedia.com/david-manney/2026/08/06/why-are-thune-and-cotton-blocking-brennans-records-n4955884</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: ATTORNEY / ISRAEL. Location: Russia. Goldstein Scale: -5.0. Mentioned in 1 sources.</description>
-      <guid isPermaLink="true">https://pjmedia.com/david-manney/2026/08/06/why-are-thune-and-cotton-blocking-brennans-records-n4955884</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>外交谈判</category>
-      <source url="https://pjmedia.com/david-manney/2026/08/06/why-are-thune-and-cotton-blocking-brennans-records-n4955884">pjmedia.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] RESIDENTS → nan : Use unconventional violence, not specified below (Ramallah, West Bank (general), West Bank)</title>
-      <link>https://imemc.org/article/colonizer-attacks-escalate-near-ramallah-and-hebron/</link>
-      <description>GDELT Event: Use unconventional violence, not specified below. Actors: RESIDENTS / nan. Location: Ramallah, West Bank (general), West Bank. Goldstein Scale: -9.0. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">https://imemc.org/article/colonizer-attacks-escalate-near-ramallah-and-hebron/</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://imemc.org/article/colonizer-attacks-escalate-near-ramallah-and-hebron/">imemc.org</source>
-    </item>
-    <item>
-      <title>[巴以冲突] nan → JOURNALIST : Use conventional military force, not specified below (Kafr Aqab, West Bank (general), West Bank)</title>
-      <link>https://imemc.org/article/thursday-ongoing-invasions-abductions-and-violations/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: nan / JOURNALIST. Location: Kafr Aqab, West Bank (general), West Bank. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">https://imemc.org/article/thursday-ongoing-invasions-abductions-and-violations/</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://imemc.org/article/thursday-ongoing-invasions-abductions-and-violations/">imemc.org</source>
     </item>
   </channel>
 </rss>
