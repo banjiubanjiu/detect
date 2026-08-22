@@ -5,8 +5,78 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 21 Aug 2026 06:57:13 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 06:49:18 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] FARMER → nan : Occupy territory (Ukraine)</title>
+      <link>https://www.fwi.co.uk/business/business-management/how-vulnerable-is-britains-food-system-to-cyberattack</link>
+      <description>GDELT Event: Occupy territory. Actors: FARMER / nan. Location: Ukraine. Goldstein Scale: -9.5. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.fwi.co.uk/business/business-management/how-vulnerable-is-britains-food-system-to-cyberattack</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.fwi.co.uk/business/business-management/how-vulnerable-is-britains-food-system-to-cyberattack">fwi.co.uk</source>
+    </item>
+    <item>
+      <title>[俄乌战争] RUSSIA → UNITED STATES : Impose administrative sanctions, not specified below (Russian River, California, United States)</title>
+      <link>https://www.sonomanews.com/2026/08/20/sonoma-county-vineyard-rules-crop-swaps/</link>
+      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: RUSSIA / UNITED STATES. Location: Russian River, California, United States. Goldstein Scale: -5.0. Mentioned in 6 sources.</description>
+      <guid isPermaLink="true">https://www.sonomanews.com/2026/08/20/sonoma-county-vineyard-rules-crop-swaps/</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>外交谈判</category>
+      <source url="https://www.sonomanews.com/2026/08/20/sonoma-county-vineyard-rules-crop-swaps/">sonomanews.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAEL → WEST BANK : Fight with small arms and light weapons (Israel)</title>
+      <link>https://www.middleeasteye.net/live-blog/live-blog-update/israeli-forces-block-ramallah-governor-following-slain-teens-funeral</link>
+      <description>GDELT Event: Fight with small arms and light weapons. Actors: ISRAEL / WEST BANK. Location: Israel. Goldstein Scale: -10.0. Mentioned in 5 sources.</description>
+      <guid isPermaLink="true">https://www.middleeasteye.net/live-blog/live-blog-update/israeli-forces-block-ramallah-governor-following-slain-teens-funeral</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.middleeasteye.net/live-blog/live-blog-update/israeli-forces-block-ramallah-governor-following-slain-teens-funeral">middleeasteye.net</source>
+    </item>
+    <item>
+      <title>[巴以冲突] JEWISH → EXTREMIST : Use conventional military force, not specified below (Israel)</title>
+      <link>https://www.dailymail.com/news/article-16067767/Transgender-Green-activist-elected-female-rep.html</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: JEWISH / EXTREMIST. Location: Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.dailymail.com/news/article-16067767/Transgender-Green-activist-elected-female-rep.html</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.dailymail.com/news/article-16067767/Transgender-Green-activist-elected-female-rep.html">dailymail.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] LEBANON → nan : Expel or deport individuals (Beirut, Beyrouth, Lebanon)</title>
+      <link>https://www.jpost.com/middle-east/article-906172</link>
+      <description>GDELT Event: Expel or deport individuals. Actors: LEBANON / nan. Location: Beirut, Beyrouth, Lebanon. Goldstein Scale: -5.0. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://www.jpost.com/middle-east/article-906172</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>外交谈判</category>
+      <source url="https://www.jpost.com/middle-east/article-906172">jpost.com</source>
+    </item>
+    <item>
+      <title>[台海局势] TAIWAN → REGIME : Occupy territory (Taipei, T'ai-pei, Taiwan)</title>
+      <link>https://www.storm.mg/article/11157531</link>
+      <description>GDELT Event: Occupy territory. Actors: TAIWAN / REGIME. Location: Taipei, T'ai-pei, Taiwan. Goldstein Scale: -9.5. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.storm.mg/article/11157531</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <category>台海局势</category>
+      <category>军事动态</category>
+      <source url="https://www.storm.mg/article/11157531">storm.mg</source>
+    </item>
+    <item>
+      <title>[台海局势] MILITARY → BEIJING : Use conventional military force, not specified below (Taiwan Strait, Taiwan (general), Taiwan)</title>
+      <link>https://www.theepochtimes.com/china/us-south-korean-joint-drills-highlight-first-island-chain-security-aiming-at-china-and-its-allies-analysts-6077742</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: MILITARY / BEIJING. Location: Taiwan Strait, Taiwan (general), Taiwan. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">https://www.theepochtimes.com/china/us-south-korean-joint-drills-highlight-first-island-chain-security-aiming-at-china-and-its-allies-analysts-6077742</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <category>台海局势</category>
+      <category>军事动态</category>
+      <source url="https://www.theepochtimes.com/china/us-south-korean-joint-drills-highlight-first-island-chain-security-aiming-at-china-and-its-allies-analysts-6077742">theepochtimes.com</source>
+    </item>
     <item>
       <title>[俄乌战争] UKRAINIAN → RUSSIA : Use conventional military force, not specified below (Starobelsk, Luhans'ka Oblast', Ukraine)</title>
       <link>https://www.naturalnews.com/2026-08-19-russia-warns-uk-consequences-drone-strikes.html</link>
@@ -436,76 +506,6 @@
       <category>俄乌战争</category>
       <category>军事动态</category>
       <source url="https://www.rigzone.com/news/wire/oil_extends_gains_on_hormuz_uncertainty-11-aug-2026-184351-article/">rigzone.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] RUSSIA → UNITED STATES : Torture (Massachusetts, United States)</title>
-      <link>https://www.bostonherald.com/2026/08/11/former-us-marine-released-from-russia-after-over-4-year-incarceration-on-disputed-charges/</link>
-      <description>GDELT Event: Torture. Actors: RUSSIA / UNITED STATES. Location: Massachusetts, United States. Goldstein Scale: -9.0. Mentioned in 1 sources.</description>
-      <guid isPermaLink="true">https://www.bostonherald.com/2026/08/11/former-us-marine-released-from-russia-after-over-4-year-incarceration-on-disputed-charges/</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://www.bostonherald.com/2026/08/11/former-us-marine-released-from-russia-after-over-4-year-incarceration-on-disputed-charges/">bostonherald.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] LAWMAKER → RUSSIAN : Arrest, detain, or charge with legal action (Kremlin, Moskva, Russia)</title>
-      <link>https://www.ynetnews.com/article/hksc001tize</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: LAWMAKER / RUSSIAN. Location: Kremlin, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 7 sources.</description>
-      <guid isPermaLink="true">https://www.ynetnews.com/article/hksc001tize</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>外交谈判</category>
-      <source url="https://www.ynetnews.com/article/hksc001tize">ynetnews.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] nan → RUSSIA : Arrest, detain, or charge with legal action (Livingston Parish, Louisiana, United States)</title>
-      <link>https://www.knoe.com/2026/08/11/russian-national-arrested-after-over-700-pounds-meth-found-18-wheeler-sheriff-say/</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: nan / RUSSIA. Location: Livingston Parish, Louisiana, United States. Goldstein Scale: -5.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.knoe.com/2026/08/11/russian-national-arrested-after-over-700-pounds-meth-found-18-wheeler-sheriff-say/</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>外交谈判</category>
-      <source url="https://www.knoe.com/2026/08/11/russian-national-arrested-after-over-700-pounds-meth-found-18-wheeler-sheriff-say/">knoe.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] NAVY → IRAN : Employ aerial weapons (Tehran, Tehran, Iran)</title>
-      <link>https://www.argusmedia.com/en/news-and-insights/latest-market-news/2864029-hormuz-traffic-still-low-iran-seeks-concessions</link>
-      <description>GDELT Event: Employ aerial weapons. Actors: NAVY / IRAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.argusmedia.com/en/news-and-insights/latest-market-news/2864029-hormuz-traffic-still-low-iran-seeks-concessions</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://www.argusmedia.com/en/news-and-insights/latest-market-news/2864029-hormuz-traffic-still-low-iran-seeks-concessions">argusmedia.com</source>
-    </item>
-    <item>
-      <title>[也门/胡塞武装] YEMEN → YEMENI : Fight with artillery and tanks (Saudi Arabia)</title>
-      <link>https://www.kurv.com/iranian-backed-houthis-kill-6-in-attack-on-vessel-and-other-developments-in-the-mideast/</link>
-      <description>GDELT Event: Fight with artillery and tanks. Actors: YEMEN / YEMENI. Location: Saudi Arabia. Goldstein Scale: -10.0. Mentioned in 7 sources.</description>
-      <guid isPermaLink="true">https://www.kurv.com/iranian-backed-houthis-kill-6-in-attack-on-vessel-and-other-developments-in-the-mideast/</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-      <category>也门/胡塞武装</category>
-      <category>军事动态</category>
-      <source url="https://www.kurv.com/iranian-backed-houthis-kill-6-in-attack-on-vessel-and-other-developments-in-the-mideast/">kurv.com</source>
-    </item>
-    <item>
-      <title>[也门/胡塞武装] CARGO VESSEL → YEMEN : Use conventional military force, not specified below (Tihamah, Ma'rib, Yemen)</title>
-      <link>https://www.businesstimes.com.sg/international/global/new-attacks-shipping-us-iran-talks-hit-fresh-impasse</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: CARGO VESSEL / YEMEN. Location: Tihamah, Ma'rib, Yemen. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.businesstimes.com.sg/international/global/new-attacks-shipping-us-iran-talks-hit-fresh-impasse</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-      <category>也门/胡塞武装</category>
-      <category>军事动态</category>
-      <source url="https://www.businesstimes.com.sg/international/global/new-attacks-shipping-us-iran-talks-hit-fresh-impasse">businesstimes.com.sg</source>
-    </item>
-    <item>
-      <title>[台海局势] TAIWAN → nan : Fight with small arms and light weapons (Taiwan)</title>
-      <link>https://blog.udn.com:443/kkuo0810/192011913</link>
-      <description>GDELT Event: Fight with small arms and light weapons. Actors: TAIWAN / nan. Location: Taiwan. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://blog.udn.com:443/kkuo0810/192011913</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-      <category>台海局势</category>
-      <category>军事动态</category>
-      <source url="https://blog.udn.com:443/kkuo0810/192011913">blog.udn.com:443</source>
     </item>
   </channel>
 </rss>
