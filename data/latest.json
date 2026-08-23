@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T06:49:35+00:00Z",
+  "updated_at": "2026-08-23T06:49:56+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -785,39 +785,6 @@
           "icon": "🕊️",
           "items": [
             {
-              "id": "gdelt_1315035959",
-              "title": "UKRAINE → GHANAIAN : Arrest, detain, or charge with legal action (Ghana)",
-              "title_en": "UKRAINE → GHANAIAN : Arrest, detain, or charge with legal action (Ghana)",
-              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: UKRAINE / GHANAIAN. Location: Ghana. Goldstein Scale: -5.0. Mentioned in 10 sources.",
-              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: UKRAINE / GHANAIAN. Location: Ghana. Goldstein Scale: -5.0. Mentioned in 10 sources.",
-              "source": "gdelt",
-              "source_label": "ghanamma.com",
-              "date": "2026-07-23",
-              "url": "https://www.ghanamma.com/2026/07/23/ghanas-85-war-dead-exposing-the-dark-truth-behind-russias-african-recruitment-pipeline/",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 10,
-                "sources": 1,
-                "articles": 10,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1315035959",
-                "event_code": "173",
-                "cameo_desc": "Arrest, detain, or charge with legal action",
-                "actor1": "UKRAINE",
-                "actor2": "GHANAIAN",
-                "actor1_country": "UKR",
-                "actor2_country": "GHA",
-                "geo_lat": 8.0,
-                "geo_lon": -2.0,
-                "geo_name": "Ghana"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
               "id": "gdelt_1315594371",
               "title": "COUNCIL OF EUROPE → UKRAINE : Arrest, detain, or charge with legal action (Ukraine)",
               "title_en": "COUNCIL OF EUROPE → UKRAINE : Arrest, detain, or charge with legal action (Ukraine)",
@@ -1254,39 +1221,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1315035597",
-              "title": "COMMUNITY → NURSE : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
-              "title_en": "COMMUNITY → NURSE : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: COMMUNITY / NURSE. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 8 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: COMMUNITY / NURSE. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 8 sources.",
-              "source": "gdelt",
-              "source_label": "fox23maine.com",
-              "date": "2026-07-23",
-              "url": "https://fox23maine.com/newsletter-daily/maine-nurses-protest-mainehealths-ties-to-ai-software-company-palantir-artificial-intelligence-data-ice-imigration-customs-enforcement",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 8,
-                "sources": 2,
-                "articles": 8,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1315035597",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "COMMUNITY",
-                "actor2": "NURSE",
-                "actor1_country": "nan",
-                "actor2_country": "nan",
-                "geo_lat": 31.4167,
-                "geo_lon": 34.3333,
-                "geo_name": "Gaza, Israel (general), Israel"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1315211723",
               "title": "IRANIAN → ISRAELI : Use conventional military force, not specified below (Beersheba, HaDarom, Israel)",
@@ -2338,6 +2272,39 @@
                 "geo_lat": 31.5,
                 "geo_lon": 34.75,
                 "geo_name": "Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1319503692",
+              "title": "nan → ISRAEL : Use conventional military force, not specified below (Shuva, HaDarom, Israel)",
+              "title_en": "nan → ISRAEL : Use conventional military force, not specified below (Shuva, HaDarom, Israel)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: nan / ISRAEL. Location: Shuva, HaDarom, Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: nan / ISRAEL. Location: Shuva, HaDarom, Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "theyeshivaworld.com",
+              "date": "2026-08-22",
+              "url": "https://www.theyeshivaworld.com/news/israel-news/2588602/return-to-terror-kites-multiple-kites-found-in-gaza-border-yishuvim.html",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1319503692",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "nan",
+                "actor2": "ISRAEL",
+                "actor1_country": "nan",
+                "actor2_country": "ISR",
+                "geo_lat": 31.4509,
+                "geo_lon": 34.544,
+                "geo_name": "Shuva, HaDarom, Israel"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -3487,39 +3454,6 @@
           "icon": "🕊️",
           "items": [
             {
-              "id": "gdelt_1315035773",
-              "title": "IRAN → CHRISTIAN : Impose administrative sanctions, not specified below (Iran)",
-              "title_en": "IRAN → CHRISTIAN : Impose administrative sanctions, not specified below (Iran)",
-              "summary": "GDELT Event: Impose administrative sanctions, not specified below. Actors: IRAN / CHRISTIAN. Location: Iran. Goldstein Scale: -5.0. Mentioned in 10 sources.",
-              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: IRAN / CHRISTIAN. Location: Iran. Goldstein Scale: -5.0. Mentioned in 10 sources.",
-              "source": "gdelt",
-              "source_label": "news.crossmap.com",
-              "date": "2026-07-23",
-              "url": "https://news.crossmap.com/2026/07/23/iran-bans-christian-tv-broadcasters-threatens-prosecution/",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 10,
-                "sources": 1,
-                "articles": 10,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1315035773",
-                "event_code": "172",
-                "cameo_desc": "Impose administrative sanctions, not specified below",
-                "actor1": "IRAN",
-                "actor2": "CHRISTIAN",
-                "actor1_country": "IRN",
-                "actor2_country": "nan",
-                "geo_lat": 32.0,
-                "geo_lon": 53.0,
-                "geo_name": "Iran"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
               "id": "gdelt_1315432322",
               "title": "BRAZILIAN → THIEF : Arrest, detain, or charge with legal action (Ipiranga, Minas Gerais, Brazil)",
               "title_en": "BRAZILIAN → THIEF : Arrest, detain, or charge with legal action (Ipiranga, Minas Gerais, Brazil)",
@@ -4447,13 +4381,13 @@
     }
   },
   "stats": {
-    "total_items": 122,
+    "total_items": 120,
     "sources": {
-      "gdelt": 122
+      "gdelt": 120
     },
     "date_range": {
-      "from": "2026-07-23",
-      "to": "2026-08-21"
+      "from": "2026-07-24",
+      "to": "2026-08-22"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",

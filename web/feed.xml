@@ -5,8 +5,48 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 22 Aug 2026 06:49:18 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 06:49:41 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] POLICE OFFICER → nan : Fight with small arms and light weapons (Lviv, L'vivs'ka Oblast', Ukraine)</title>
+      <link>http://www.bignewsnetwork.com/news/279257285/draft-officer-fatally-stabbed-in-ukraine</link>
+      <description>GDELT Event: Fight with small arms and light weapons. Actors: POLICE OFFICER / nan. Location: Lviv, L'vivs'ka Oblast', Ukraine. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">http://www.bignewsnetwork.com/news/279257285/draft-officer-fatally-stabbed-in-ukraine</guid>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="http://www.bignewsnetwork.com/news/279257285/draft-officer-fatally-stabbed-in-ukraine">bignewsnetwork.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] SECURITY OFFICIAL → PALESTINIAN : Fight with small arms and light weapons (Israel)</title>
+      <link>https://www.theyeshivaworld.com/news/israel-news/2588479/deadly-clash-palestinian-teen-killed-after-chareidi-hikers-attacked-with-rocks-near-chevron.html</link>
+      <description>GDELT Event: Fight with small arms and light weapons. Actors: SECURITY OFFICIAL / PALESTINIAN. Location: Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.theyeshivaworld.com/news/israel-news/2588479/deadly-clash-palestinian-teen-killed-after-chareidi-hikers-attacked-with-rocks-near-chevron.html</guid>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.theyeshivaworld.com/news/israel-news/2588479/deadly-clash-palestinian-teen-killed-after-chareidi-hikers-attacked-with-rocks-near-chevron.html">theyeshivaworld.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAEL → nan : Fight with small arms and light weapons (nan)</title>
+      <link>https://komonews.com/news/local/seattle-mass-shooting-911-recordings-capture-panic-during-bite-of-seattle-shooting-at-seattle-center-police-response-victims-public-safety-paramedic</link>
+      <description>GDELT Event: Fight with small arms and light weapons. Actors: ISRAEL / nan. Location: nan. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://komonews.com/news/local/seattle-mass-shooting-911-recordings-capture-panic-during-bite-of-seattle-shooting-at-seattle-center-police-response-victims-public-safety-paramedic</guid>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://komonews.com/news/local/seattle-mass-shooting-911-recordings-capture-panic-during-bite-of-seattle-shooting-at-seattle-center-police-response-victims-public-safety-paramedic">komonews.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] nan → TERRORIST : Occupy territory (Israel)</title>
+      <link>https://www.theyeshivaworld.com/news/israel-news/2588491/terrorist-eliminated-knife-wielding-terrorist-charges-idf-paratroopers-in-jenin.html</link>
+      <description>GDELT Event: Occupy territory. Actors: nan / TERRORIST. Location: Israel. Goldstein Scale: -9.5. Mentioned in 5 sources.</description>
+      <guid isPermaLink="true">https://www.theyeshivaworld.com/news/israel-news/2588491/terrorist-eliminated-knife-wielding-terrorist-charges-idf-paratroopers-in-jenin.html</guid>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.theyeshivaworld.com/news/israel-news/2588491/terrorist-eliminated-knife-wielding-terrorist-charges-idf-paratroopers-in-jenin.html">theyeshivaworld.com</source>
+    </item>
     <item>
       <title>[俄乌战争] FARMER → nan : Occupy territory (Ukraine)</title>
       <link>https://www.fwi.co.uk/business/business-management/how-vulnerable-is-britains-food-system-to-cyberattack</link>
@@ -466,46 +506,6 @@
       <category>巴以冲突</category>
       <category>外交谈判</category>
       <source url="https://www.algemeiner.com/2026/08/19/mossad-chief-syrian-foreign-minister-discussed-turkish-military-deployments-before-strikes-sources-say/">algemeiner.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] THE US → IRAN : Use conventional military force, not specified below (Paris, France (general), France)</title>
-      <link>https://www.businesstimes.com.sg/companies-markets/energy-commodities/oil-prices-edge-investors-weigh-us-iran-talks-deadlock-against-lower-demand</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: THE US / IRAN. Location: Paris, France (general), France. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://www.businesstimes.com.sg/companies-markets/energy-commodities/oil-prices-edge-investors-weigh-us-iran-talks-deadlock-against-lower-demand</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://www.businesstimes.com.sg/companies-markets/energy-commodities/oil-prices-edge-investors-weigh-us-iran-talks-deadlock-against-lower-demand">businesstimes.com.sg</source>
-    </item>
-    <item>
-      <title>[也门/胡塞武装] CARGO VESSEL → YEMEN : Use conventional military force, not specified below (Yemen)</title>
-      <link>https://www.businesstimes.com.sg/international/global/iran-says-no-progress-reviving-interim-peace-deal-us</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: CARGO VESSEL / YEMEN. Location: Yemen. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://www.businesstimes.com.sg/international/global/iran-says-no-progress-reviving-interim-peace-deal-us</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
-      <category>也门/胡塞武装</category>
-      <category>军事动态</category>
-      <source url="https://www.businesstimes.com.sg/international/global/iran-says-no-progress-reviving-interim-peace-deal-us">businesstimes.com.sg</source>
-    </item>
-    <item>
-      <title>[也门/胡塞武装] YEMEN → SAUDI ARABIA : Fight with artillery and tanks (Tihama, Makkah, Saudi Arabia)</title>
-      <link>https://themedialine.org/top-stories/as-houthi-attacks-spread-saudi-arabia-weighs-a-new-yemen-campaign/</link>
-      <description>GDELT Event: Fight with artillery and tanks. Actors: YEMEN / SAUDI ARABIA. Location: Tihama, Makkah, Saudi Arabia. Goldstein Scale: -10.0. Mentioned in 3 sources.</description>
-      <guid isPermaLink="true">https://themedialine.org/top-stories/as-houthi-attacks-spread-saudi-arabia-weighs-a-new-yemen-campaign/</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
-      <category>也门/胡塞武装</category>
-      <category>军事动态</category>
-      <source url="https://themedialine.org/top-stories/as-houthi-attacks-spread-saudi-arabia-weighs-a-new-yemen-campaign/">themedialine.org</source>
-    </item>
-    <item>
-      <title>[俄乌战争] NAVY → PANAMA : Employ aerial weapons (Ukraine)</title>
-      <link>https://www.rigzone.com/news/wire/oil_extends_gains_on_hormuz_uncertainty-11-aug-2026-184351-article/</link>
-      <description>GDELT Event: Employ aerial weapons. Actors: NAVY / PANAMA. Location: Ukraine. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.rigzone.com/news/wire/oil_extends_gains_on_hormuz_uncertainty-11-aug-2026-184351-article/</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://www.rigzone.com/news/wire/oil_extends_gains_on_hormuz_uncertainty-11-aug-2026-184351-article/">rigzone.com</source>
     </item>
   </channel>
 </rss>
