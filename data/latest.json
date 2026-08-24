@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T06:49:56+00:00Z",
+  "updated_at": "2026-08-24T07:08:21+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -1146,6 +1146,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1319602412",
+              "title": "FOREIGN NATIONAL → MURMANSK : Arrest, detain, or charge with legal action (Moscow, Moskva, Russia)",
+              "title_en": "FOREIGN NATIONAL → MURMANSK : Arrest, detain, or charge with legal action (Moscow, Moskva, Russia)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: FOREIGN NATIONAL / MURMANSK. Location: Moscow, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: FOREIGN NATIONAL / MURMANSK. Location: Moscow, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "naturalnews.com",
+              "date": "2026-08-23",
+              "url": "https://www.naturalnews.com/2026-08-23-fsb-thwarts-drone-attack-moscow-defense-plant.html",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1319602412",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "FOREIGN NATIONAL",
+                "actor2": "MURMANSK",
+                "actor1_country": "nan",
+                "actor2_country": "RUS",
+                "geo_lat": 55.7522,
+                "geo_lon": 37.6156,
+                "geo_name": "Moscow, Moskva, Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -1221,105 +1254,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1315211723",
-              "title": "IRANIAN → ISRAELI : Use conventional military force, not specified below (Beersheba, HaDarom, Israel)",
-              "title_en": "IRANIAN → ISRAELI : Use conventional military force, not specified below (Beersheba, HaDarom, Israel)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: IRANIAN / ISRAELI. Location: Beersheba, HaDarom, Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: IRANIAN / ISRAELI. Location: Beersheba, HaDarom, Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.",
-              "source": "gdelt",
-              "source_label": "jpost.com",
-              "date": "2026-07-24",
-              "url": "https://www.jpost.com/israel-news/article-903585",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 6,
-                "sources": 1,
-                "articles": 6,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1315211723",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "IRANIAN",
-                "actor2": "ISRAELI",
-                "actor1_country": "IRN",
-                "actor2_country": "ISR",
-                "geo_lat": 31.2516,
-                "geo_lon": 34.7863,
-                "geo_name": "Beersheba, HaDarom, Israel"
-              },
-              "admiralty_source": "B",
-              "admiralty_info": 3,
-              "admiralty_code": "B3"
-            },
-            {
-              "id": "gdelt_1315211820",
-              "title": "LEBANON → LEBANON : Physically assault, not specified below (Lebanon)",
-              "title_en": "LEBANON → LEBANON : Physically assault, not specified below (Lebanon)",
-              "summary": "GDELT Event: Physically assault, not specified below. Actors: LEBANON / LEBANON. Location: Lebanon. Goldstein Scale: -9.5. Mentioned in 4 sources.",
-              "summary_en": "GDELT Event: Physically assault, not specified below. Actors: LEBANON / LEBANON. Location: Lebanon. Goldstein Scale: -9.5. Mentioned in 4 sources.",
-              "source": "gdelt",
-              "source_label": "english.news.cn",
-              "date": "2026-07-24",
-              "url": "https://english.news.cn/20260725/0948a75e7213415386f7fbb2512a78a6/c.html",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 4,
-                "sources": 1,
-                "articles": 4,
-                "goldstein": -9.5
-              },
-              "gdelt_meta": {
-                "event_id": "1315211820",
-                "event_code": "182",
-                "cameo_desc": "Physically assault, not specified below",
-                "actor1": "LEBANON",
-                "actor2": "LEBANON",
-                "actor1_country": "LBN",
-                "actor2_country": "LBN",
-                "geo_lat": 33.833333,
-                "geo_lon": 35.833333,
-                "geo_name": "Lebanon"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1315211424",
-              "title": "SANTIAGO → ISRAEL : Kill by physical assault (Saint-Jean-Pied-De-Port, Aquitaine, France)",
-              "title_en": "SANTIAGO → ISRAEL : Kill by physical assault (Saint-Jean-Pied-De-Port, Aquitaine, France)",
-              "summary": "GDELT Event: Kill by physical assault. Actors: SANTIAGO / ISRAEL. Location: Saint-Jean-Pied-De-Port, Aquitaine, France. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "summary_en": "GDELT Event: Kill by physical assault. Actors: SANTIAGO / ISRAEL. Location: Saint-Jean-Pied-De-Port, Aquitaine, France. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "source": "gdelt",
-              "source_label": "ncregister.com",
-              "date": "2026-07-24",
-              "url": "https://www.ncregister.com/features/encountering-christ-on-the-camino",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 2,
-                "sources": 1,
-                "articles": 2,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1315211424",
-                "event_code": "1823",
-                "cameo_desc": "Kill by physical assault",
-                "actor1": "SANTIAGO",
-                "actor2": "ISRAEL",
-                "actor1_country": "CHL",
-                "actor2_country": "ISR",
-                "geo_lat": 43.1636,
-                "geo_lon": -1.23738,
-                "geo_name": "Saint-Jean-Pied-De-Port, Aquitaine, France"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1315432585",
               "title": "PALESTINIAN → REFUGEE : Use conventional military force, not specified below (Jerusalem, Israel (general), Israel)",
@@ -2344,39 +2278,6 @@
                 "geo_lat": 34.0058,
                 "geo_lon": 36.2181,
                 "geo_name": "Baalbek, Mohafazat Baalbek-Hermel, Lebanon"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1315211746",
-              "title": "ITALY → ISRAELI : Arrest, detain, or charge with legal action (Israel)",
-              "title_en": "ITALY → ISRAELI : Arrest, detain, or charge with legal action (Israel)",
-              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: ITALY / ISRAELI. Location: Israel. Goldstein Scale: -5.0. Mentioned in 2 sources.",
-              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: ITALY / ISRAELI. Location: Israel. Goldstein Scale: -5.0. Mentioned in 2 sources.",
-              "source": "gdelt",
-              "source_label": "english.news.cn",
-              "date": "2026-07-24",
-              "url": "https://english.news.cn/20260725/dc463ce99ee3416dbb6449f7a5fdc566/c.html",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 2,
-                "sources": 1,
-                "articles": 2,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1315211746",
-                "event_code": "173",
-                "cameo_desc": "Arrest, detain, or charge with legal action",
-                "actor1": "ITALY",
-                "actor2": "ISRAELI",
-                "actor1_country": "ITA",
-                "actor2_country": "ISR",
-                "geo_lat": 31.5,
-                "geo_lon": 34.75,
-                "geo_name": "Israel"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -3748,40 +3649,6 @@
           "icon": "⚔️",
           "items": [
             {
-              "id": "gdelt_1315211806",
-              "title": "WORKER → TELEVISION : Physically assault, not specified below (Hodeida, Al ?udaydah, Yemen)",
-              "title_en": "WORKER → TELEVISION : Physically assault, not specified below (Hodeida, Al ?udaydah, Yemen)",
-              "summary": "GDELT Event: Physically assault, not specified below. Actors: WORKER / TELEVISION. Location: Hodeida, Al ?udaydah, Yemen. Goldstein Scale: -9.5. Mentioned in 6 sources.",
-              "summary_en": "GDELT Event: Physically assault, not specified below. Actors: WORKER / TELEVISION. Location: Hodeida, Al ?udaydah, Yemen. Goldstein Scale: -9.5. Mentioned in 6 sources.",
-              "source": "gdelt",
-              "source_label": "hindustantimes.com",
-              "date": "2026-07-24",
-              "url": "https://www.hindustantimes.com/world-news/us-news/saudi-strikes-houthi-sites-in-yemen-as-conflict-flares-101784931476189.html",
-              "primary_conflict": "yemen-houthi",
-              "metrics": {
-                "mentions": 6,
-                "sources": 1,
-                "articles": 6,
-                "goldstein": -9.5
-              },
-              "gdelt_meta": {
-                "event_id": "1315211806",
-                "event_code": "182",
-                "cameo_desc": "Physically assault, not specified below",
-                "actor1": "WORKER",
-                "actor2": "TELEVISION",
-                "actor1_country": "nan",
-                "actor2_country": "nan",
-                "geo_lat": 14.7978,
-                "geo_lon": 42.9545,
-                "geo_name": "Hodeida, Al ?udaydah, Yemen"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3",
-              "criticality": "background"
-            },
-            {
               "id": "gdelt_1317169595",
               "title": "SAUDI → GOVERNMENT : Violate ceasefire (Sanaa, Sana', Yemen)",
               "title_en": "SAUDI → GOVERNMENT : Violate ceasefire (Sanaa, Sana', Yemen)",
@@ -4322,6 +4189,40 @@
               "admiralty_info": 3,
               "admiralty_code": "C3",
               "criticality": "background"
+            },
+            {
+              "id": "gdelt_1319602544",
+              "title": "TAIWAN → MILITARY : Use unconventional violence, not specified below (Taiwan Strait, Taiwan (general), Taiwan)",
+              "title_en": "TAIWAN → MILITARY : Use unconventional violence, not specified below (Taiwan Strait, Taiwan (general), Taiwan)",
+              "summary": "GDELT Event: Use unconventional violence, not specified below. Actors: TAIWAN / MILITARY. Location: Taiwan Strait, Taiwan (general), Taiwan. Goldstein Scale: -9.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Use unconventional violence, not specified below. Actors: TAIWAN / MILITARY. Location: Taiwan Strait, Taiwan (general), Taiwan. Goldstein Scale: -9.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "yourdemocracy.net",
+              "date": "2026-08-23",
+              "url": "https://yourdemocracy.net/drupal/node/60899",
+              "primary_conflict": "taiwan-strait",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -9.0
+              },
+              "gdelt_meta": {
+                "event_id": "1319602544",
+                "event_code": "180",
+                "cameo_desc": "Use unconventional violence, not specified below",
+                "actor1": "TAIWAN",
+                "actor2": "MILITARY",
+                "actor1_country": "TWN",
+                "actor2_country": "nan",
+                "geo_lat": 24.0,
+                "geo_lon": 119.0,
+                "geo_name": "Taiwan Strait, Taiwan (general), Taiwan"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3",
+              "criticality": "background"
             }
           ]
         },
@@ -4381,13 +4282,13 @@
     }
   },
   "stats": {
-    "total_items": 120,
+    "total_items": 117,
     "sources": {
-      "gdelt": 120
+      "gdelt": 117
     },
     "date_range": {
-      "from": "2026-07-24",
-      "to": "2026-08-22"
+      "from": "2026-07-25",
+      "to": "2026-08-23"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",

@@ -5,8 +5,18 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 23 Aug 2026 06:49:41 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 07:08:05 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[巴以冲突] nan → ISRAEL : Use conventional military force, not specified below (Shuva, HaDarom, Israel)</title>
+      <link>https://www.theyeshivaworld.com/news/israel-news/2588602/return-to-terror-kites-multiple-kites-found-in-gaza-border-yishuvim.html</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: nan / ISRAEL. Location: Shuva, HaDarom, Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.</description>
+      <guid isPermaLink="true">https://www.theyeshivaworld.com/news/israel-news/2588602/return-to-terror-kites-multiple-kites-found-in-gaza-border-yishuvim.html</guid>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.theyeshivaworld.com/news/israel-news/2588602/return-to-terror-kites-multiple-kites-found-in-gaza-border-yishuvim.html">theyeshivaworld.com</source>
+    </item>
     <item>
       <title>[俄乌战争] POLICE OFFICER → nan : Fight with small arms and light weapons (Lviv, L'vivs'ka Oblast', Ukraine)</title>
       <link>http://www.bignewsnetwork.com/news/279257285/draft-officer-fatally-stabbed-in-ukraine</link>
@@ -496,16 +506,6 @@
       <category>巴以冲突</category>
       <category>外交谈判</category>
       <source url="https://www.jpost.com/israel-news/defense-news/article-906044">jpost.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAEL → SYRIA : Arrest, detain, or charge with legal action (Washington, District of Columbia, United States)</title>
-      <link>https://www.algemeiner.com/2026/08/19/mossad-chief-syrian-foreign-minister-discussed-turkish-military-deployments-before-strikes-sources-say/</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: ISRAEL / SYRIA. Location: Washington, District of Columbia, United States. Goldstein Scale: -5.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.algemeiner.com/2026/08/19/mossad-chief-syrian-foreign-minister-discussed-turkish-military-deployments-before-strikes-sources-say/</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>外交谈判</category>
-      <source url="https://www.algemeiner.com/2026/08/19/mossad-chief-syrian-foreign-minister-discussed-turkish-military-deployments-before-strikes-sources-say/">algemeiner.com</source>
     </item>
   </channel>
 </rss>
