@@ -5,8 +5,28 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 24 Aug 2026 07:08:05 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 06:58:06 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] FOREIGN NATIONAL → MURMANSK : Arrest, detain, or charge with legal action (Moscow, Moskva, Russia)</title>
+      <link>https://www.naturalnews.com/2026-08-23-fsb-thwarts-drone-attack-moscow-defense-plant.html</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: FOREIGN NATIONAL / MURMANSK. Location: Moscow, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.naturalnews.com/2026-08-23-fsb-thwarts-drone-attack-moscow-defense-plant.html</guid>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>外交谈判</category>
+      <source url="https://www.naturalnews.com/2026-08-23-fsb-thwarts-drone-attack-moscow-defense-plant.html">naturalnews.com</source>
+    </item>
+    <item>
+      <title>[台海局势] TAIWAN → MILITARY : Use unconventional violence, not specified below (Taiwan Strait, Taiwan (general), Taiwan)</title>
+      <link>https://yourdemocracy.net/drupal/node/60899</link>
+      <description>GDELT Event: Use unconventional violence, not specified below. Actors: TAIWAN / MILITARY. Location: Taiwan Strait, Taiwan (general), Taiwan. Goldstein Scale: -9.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://yourdemocracy.net/drupal/node/60899</guid>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <category>台海局势</category>
+      <category>军事动态</category>
+      <source url="https://yourdemocracy.net/drupal/node/60899">yourdemocracy.net</source>
+    </item>
     <item>
       <title>[巴以冲突] nan → ISRAEL : Use conventional military force, not specified below (Shuva, HaDarom, Israel)</title>
       <link>https://www.theyeshivaworld.com/news/israel-news/2588602/return-to-terror-kites-multiple-kites-found-in-gaza-border-yishuvim.html</link>
@@ -486,26 +506,6 @@
       <category>巴以冲突</category>
       <category>军事动态</category>
       <source url="https://www.wdrb.com/news/national/israel-says-gaza-drone-strike-targeted-a-hamas-commander-and-other-developments-in-the-mideast/article_deead9bf-b8f9-5c96-b4ce-d4b7fb28714e.html">wdrb.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAELI → WEST BANK : Use conventional military force, not specified below (Gaza, Israel (general), Israel)</title>
-      <link>https://www.sbs.com.au/news/article/settlers-seige-palestinian-homes-in-west-bank/iuq0fhfh8</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAELI / WEST BANK. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.</description>
-      <guid isPermaLink="true">https://www.sbs.com.au/news/article/settlers-seige-palestinian-homes-in-west-bank/iuq0fhfh8</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.sbs.com.au/news/article/settlers-seige-palestinian-homes-in-west-bank/iuq0fhfh8">sbs.com.au</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAEL → SYRIA : Arrest, detain, or charge with legal action (Israel)</title>
-      <link>https://www.jpost.com/israel-news/defense-news/article-906044</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: ISRAEL / SYRIA. Location: Israel. Goldstein Scale: -5.0. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">https://www.jpost.com/israel-news/defense-news/article-906044</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>外交谈判</category>
-      <source url="https://www.jpost.com/israel-news/defense-news/article-906044">jpost.com</source>
     </item>
   </channel>
 </rss>

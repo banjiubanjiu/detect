@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T07:08:21+00:00Z",
+  "updated_at": "2026-08-25T06:58:22+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -19,105 +19,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1315328644",
-              "title": "nan → IRAN : Fight with artillery and tanks (Ukraine)",
-              "title_en": "nan → IRAN : Fight with artillery and tanks (Ukraine)",
-              "summary": "GDELT Event: Fight with artillery and tanks. Actors: nan / IRAN. Location: Ukraine. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "summary_en": "GDELT Event: Fight with artillery and tanks. Actors: nan / IRAN. Location: Ukraine. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "source": "gdelt",
-              "source_label": "iranherald.com",
-              "date": "2026-07-25",
-              "url": "http://www.iranherald.com/news/279206186/lockheed-rtx-see-growth-as-pentagon-rebuilds-weapons-stocks",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 10,
-                "sources": 5,
-                "articles": 10,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1315328644",
-                "event_code": "194",
-                "cameo_desc": "Fight with artillery and tanks",
-                "actor1": "nan",
-                "actor2": "IRAN",
-                "actor1_country": "nan",
-                "actor2_country": "IRN",
-                "geo_lat": 49.0,
-                "geo_lon": 32.0,
-                "geo_name": "Ukraine"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1315328780",
-              "title": "IRAN → IRANIAN : Use conventional military force, not specified below (Ukraine)",
-              "title_en": "IRAN → IRANIAN : Use conventional military force, not specified below (Ukraine)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: IRAN / IRANIAN. Location: Ukraine. Goldstein Scale: -10.0. Mentioned in 6 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: IRAN / IRANIAN. Location: Ukraine. Goldstein Scale: -10.0. Mentioned in 6 sources.",
-              "source": "gdelt",
-              "source_label": "brisbanetimes.com.au",
-              "date": "2026-07-25",
-              "url": "https://www.brisbanetimes.com.au/world/middle-east/iran-war-spreads-to-red-sea-and-caspian-gulf-quiet-as-us-forgoes-strikes-20260726-p60ile.html",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 6,
-                "sources": 2,
-                "articles": 6,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1315328780",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "IRAN",
-                "actor2": "IRANIAN",
-                "actor1_country": "IRN",
-                "actor2_country": "IRN",
-                "geo_lat": 49.0,
-                "geo_lon": 32.0,
-                "geo_name": "Ukraine"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1315328845",
-              "title": "THAI → SOUTH KOREA : Employ aerial weapons (Russia)",
-              "title_en": "THAI → SOUTH KOREA : Employ aerial weapons (Russia)",
-              "summary": "GDELT Event: Employ aerial weapons. Actors: THAI / SOUTH KOREA. Location: Russia. Goldstein Scale: -10.0. Mentioned in 1 sources.",
-              "summary_en": "GDELT Event: Employ aerial weapons. Actors: THAI / SOUTH KOREA. Location: Russia. Goldstein Scale: -10.0. Mentioned in 1 sources.",
-              "source": "gdelt",
-              "source_label": "slashgear.com",
-              "date": "2026-07-25",
-              "url": "https://www.slashgear.com/2221051/has-gripen-fighter-jet-ever-seen-combat-history-of-saab-jas-39/",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 1,
-                "sources": 1,
-                "articles": 1,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1315328845",
-                "event_code": "195",
-                "cameo_desc": "Employ aerial weapons",
-                "actor1": "THAI",
-                "actor2": "SOUTH KOREA",
-                "actor1_country": "THA",
-                "actor2_country": "KOR",
-                "geo_lat": 60.0,
-                "geo_lon": 100.0,
-                "geo_name": "Russia"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1315594494",
               "title": "MILITARY → NATIVES : Use conventional military force, not specified below (Lesken, Severnaya Osetiya-Alaniya, Russia)",
@@ -777,6 +678,105 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1319760928",
+              "title": "RUSSIA → MANUFACTURER : Use conventional military force, not specified below (Kremlin, Moskva, Russia)",
+              "title_en": "RUSSIA → MANUFACTURER : Use conventional military force, not specified below (Kremlin, Moskva, Russia)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: RUSSIA / MANUFACTURER. Location: Kremlin, Moskva, Russia. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: RUSSIA / MANUFACTURER. Location: Kremlin, Moskva, Russia. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "source": "gdelt",
+              "source_label": "dailymail.com",
+              "date": "2026-08-24",
+              "url": "https://www.dailymail.com/news/article-16077007/Ukraine-hands-UK-secret-intelligence-Putin.html",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 3,
+                "sources": 1,
+                "articles": 3,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1319760928",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "RUSSIA",
+                "actor2": "MANUFACTURER",
+                "actor1_country": "RUS",
+                "actor2_country": "nan",
+                "geo_lat": 55.7522,
+                "geo_lon": 37.6156,
+                "geo_name": "Kremlin, Moskva, Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1319760621",
+              "title": "CRIMINAL → ARMY : Use unconventional violence, not specified below (Kremlin, Moskva, Russia)",
+              "title_en": "CRIMINAL → ARMY : Use unconventional violence, not specified below (Kremlin, Moskva, Russia)",
+              "summary": "GDELT Event: Use unconventional violence, not specified below. Actors: CRIMINAL / ARMY. Location: Kremlin, Moskva, Russia. Goldstein Scale: -9.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Use unconventional violence, not specified below. Actors: CRIMINAL / ARMY. Location: Kremlin, Moskva, Russia. Goldstein Scale: -9.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "dailymail.com",
+              "date": "2026-08-24",
+              "url": "https://www.dailymail.com/news/article-16076165/mother-Brit-die-fighting-Putin-Ukraine-speaks-out.html",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -9.0
+              },
+              "gdelt_meta": {
+                "event_id": "1319760621",
+                "event_code": "180",
+                "cameo_desc": "Use unconventional violence, not specified below",
+                "actor1": "CRIMINAL",
+                "actor2": "ARMY",
+                "actor1_country": "nan",
+                "actor2_country": "nan",
+                "geo_lat": 55.7522,
+                "geo_lon": 37.6156,
+                "geo_name": "Kremlin, Moskva, Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1319760937",
+              "title": "RUSSIA → UKRAINIAN : Fight with artillery and tanks (Kyiv, Kyyiv, Misto, Ukraine)",
+              "title_en": "RUSSIA → UKRAINIAN : Fight with artillery and tanks (Kyiv, Kyyiv, Misto, Ukraine)",
+              "summary": "GDELT Event: Fight with artillery and tanks. Actors: RUSSIA / UKRAINIAN. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Fight with artillery and tanks. Actors: RUSSIA / UKRAINIAN. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "gdnonline.com:443",
+              "date": "2026-08-24",
+              "url": "https://www.gdnonline.com:443/Details/1404390/UK,-France-pledge-stronger-support-as-Ukraine-marks-Independence-Day",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1319760937",
+                "event_code": "194",
+                "cameo_desc": "Fight with artillery and tanks",
+                "actor1": "RUSSIA",
+                "actor2": "UKRAINIAN",
+                "actor1_country": "RUS",
+                "actor2_country": "UKR",
+                "geo_lat": 50.4333,
+                "geo_lon": 30.5167,
+                "geo_name": "Kyiv, Kyyiv, Misto, Ukraine"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -1175,6 +1175,39 @@
                 "geo_lat": 55.7522,
                 "geo_lon": 37.6156,
                 "geo_name": "Moscow, Moskva, Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1319760939",
+              "title": "MOSCOW → ORGANIZED CRIME : Arrest, detain, or charge with legal action (Rostov, Rostovskaya Oblast', Russia)",
+              "title_en": "MOSCOW → ORGANIZED CRIME : Arrest, detain, or charge with legal action (Rostov, Rostovskaya Oblast', Russia)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: MOSCOW / ORGANIZED CRIME. Location: Rostov, Rostovskaya Oblast', Russia. Goldstein Scale: -5.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: MOSCOW / ORGANIZED CRIME. Location: Rostov, Rostovskaya Oblast', Russia. Goldstein Scale: -5.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "eng.kavkaz-uzel.eu",
+              "date": "2026-08-24",
+              "url": "https://www.eng.kavkaz-uzel.eu/articles/78011",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1319760939",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "MOSCOW",
+                "actor2": "ORGANIZED CRIME",
+                "actor1_country": "RUS",
+                "actor2_country": "nan",
+                "geo_lat": 47.2364,
+                "geo_lon": 39.7139,
+                "geo_name": "Rostov, Rostovskaya Oblast', Russia"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -2243,6 +2276,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1319760825",
+              "title": "ISRAELI → PALESTINIAN : Employ aerial weapons (Bureij, Yerushalayim, Israel)",
+              "title_en": "ISRAELI → PALESTINIAN : Employ aerial weapons (Bureij, Yerushalayim, Israel)",
+              "summary": "GDELT Event: Employ aerial weapons. Actors: ISRAELI / PALESTINIAN. Location: Bureij, Yerushalayim, Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Employ aerial weapons. Actors: ISRAELI / PALESTINIAN. Location: Bureij, Yerushalayim, Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "gdnonline.com:443",
+              "date": "2026-08-24",
+              "url": "https://www.gdnonline.com:443/Details/1404392/Israeli-strikes-kill-two-children-in-Gaza",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1319760825",
+                "event_code": "195",
+                "cameo_desc": "Employ aerial weapons",
+                "actor1": "ISRAELI",
+                "actor2": "PALESTINIAN",
+                "actor1_country": "ISR",
+                "actor2_country": "PSE",
+                "geo_lat": 31.7333,
+                "geo_lon": 34.9333,
+                "geo_name": "Bureij, Yerushalayim, Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -2250,39 +2316,6 @@
           "label": "外交谈判",
           "icon": "🕊️",
           "items": [
-            {
-              "id": "gdelt_1315328800",
-              "title": "LEBANON → JAPANESE RED ARMY : Arrest, detain, or charge with legal action (Baalbek, Mohafazat Baalbek-Hermel, Lebanon)",
-              "title_en": "LEBANON → JAPANESE RED ARMY : Arrest, detain, or charge with legal action (Baalbek, Mohafazat Baalbek-Hermel, Lebanon)",
-              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: LEBANON / JAPANESE RED ARMY. Location: Baalbek, Mohafazat Baalbek-Hermel, Lebanon. Goldstein Scale: -5.0. Mentioned in 8 sources.",
-              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: LEBANON / JAPANESE RED ARMY. Location: Baalbek, Mohafazat Baalbek-Hermel, Lebanon. Goldstein Scale: -5.0. Mentioned in 8 sources.",
-              "source": "gdelt",
-              "source_label": "wibailoutpeople.org",
-              "date": "2026-07-25",
-              "url": "https://wibailoutpeople.org/2026/07/25/our-dear-comrade-fusaku-shigenobu-saturday-25-july-2026-on-kozo-okamoto/",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 8,
-                "sources": 1,
-                "articles": 8,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1315328800",
-                "event_code": "173",
-                "cameo_desc": "Arrest, detain, or charge with legal action",
-                "actor1": "LEBANON",
-                "actor2": "JAPANESE RED ARMY",
-                "actor1_country": "LBN",
-                "actor2_country": "JPN",
-                "geo_lat": 34.0058,
-                "geo_lon": 36.2181,
-                "geo_name": "Baalbek, Mohafazat Baalbek-Hermel, Lebanon"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1317001140",
               "title": "GALILEE → COLOMBIA : Arrest, detain, or charge with legal action (Colombia)",
@@ -3452,6 +3485,72 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1319760894",
+              "title": "NAVY → THE US : Arrest, detain, or charge with legal action (Iran)",
+              "title_en": "NAVY → THE US : Arrest, detain, or charge with legal action (Iran)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: NAVY / THE US. Location: Iran. Goldstein Scale: -5.0. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: NAVY / THE US. Location: Iran. Goldstein Scale: -5.0. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "americanbazaaronline.com",
+              "date": "2026-08-24",
+              "url": "https://americanbazaaronline.com/2026/08/24/us-navy-sailors-father-detained-while-son-serves-in-middle-east-486943/",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1319760894",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "NAVY",
+                "actor2": "THE US",
+                "actor1_country": "nan",
+                "actor2_country": "USA",
+                "geo_lat": 32.0,
+                "geo_lon": 53.0,
+                "geo_name": "Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1319761016",
+              "title": "THE US → nan : Arrest, detain, or charge with legal action (Iran)",
+              "title_en": "THE US → nan : Arrest, detain, or charge with legal action (Iran)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: THE US / nan. Location: Iran. Goldstein Scale: -5.0. Mentioned in 3 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: THE US / nan. Location: Iran. Goldstein Scale: -5.0. Mentioned in 3 sources.",
+              "source": "gdelt",
+              "source_label": "attackofthefanboy.com",
+              "date": "2026-08-24",
+              "url": "https://attackofthefanboy.com/news/father-of-uss-abraham-lincoln-sailor-was-taken-into-ice-detention-while-son-is-on-a-nine-month-middle-east-deployment/",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 3,
+                "sources": 1,
+                "articles": 3,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1319761016",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "THE US",
+                "actor2": "nan",
+                "actor1_country": "USA",
+                "actor2_country": "nan",
+                "geo_lat": 32.0,
+                "geo_lon": 53.0,
+                "geo_name": "Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -4282,13 +4381,13 @@
     }
   },
   "stats": {
-    "total_items": 117,
+    "total_items": 120,
     "sources": {
-      "gdelt": 117
+      "gdelt": 120
     },
     "date_range": {
-      "from": "2026-07-25",
-      "to": "2026-08-23"
+      "from": "2026-07-26",
+      "to": "2026-08-24"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
