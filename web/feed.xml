@@ -5,8 +5,78 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 25 Aug 2026 06:58:06 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 06:59:10 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] RUSSIA → MANUFACTURER : Use conventional military force, not specified below (Kremlin, Moskva, Russia)</title>
+      <link>https://www.dailymail.com/news/article-16077007/Ukraine-hands-UK-secret-intelligence-Putin.html</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: RUSSIA / MANUFACTURER. Location: Kremlin, Moskva, Russia. Goldstein Scale: -10.0. Mentioned in 3 sources.</description>
+      <guid isPermaLink="true">https://www.dailymail.com/news/article-16077007/Ukraine-hands-UK-secret-intelligence-Putin.html</guid>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.dailymail.com/news/article-16077007/Ukraine-hands-UK-secret-intelligence-Putin.html">dailymail.com</source>
+    </item>
+    <item>
+      <title>[俄乌战争] CRIMINAL → ARMY : Use unconventional violence, not specified below (Kremlin, Moskva, Russia)</title>
+      <link>https://www.dailymail.com/news/article-16076165/mother-Brit-die-fighting-Putin-Ukraine-speaks-out.html</link>
+      <description>GDELT Event: Use unconventional violence, not specified below. Actors: CRIMINAL / ARMY. Location: Kremlin, Moskva, Russia. Goldstein Scale: -9.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.dailymail.com/news/article-16076165/mother-Brit-die-fighting-Putin-Ukraine-speaks-out.html</guid>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.dailymail.com/news/article-16076165/mother-Brit-die-fighting-Putin-Ukraine-speaks-out.html">dailymail.com</source>
+    </item>
+    <item>
+      <title>[俄乌战争] RUSSIA → UKRAINIAN : Fight with artillery and tanks (Kyiv, Kyyiv, Misto, Ukraine)</title>
+      <link>https://www.gdnonline.com:443/Details/1404390/UK,-France-pledge-stronger-support-as-Ukraine-marks-Independence-Day</link>
+      <description>GDELT Event: Fight with artillery and tanks. Actors: RUSSIA / UKRAINIAN. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.gdnonline.com:443/Details/1404390/UK,-France-pledge-stronger-support-as-Ukraine-marks-Independence-Day</guid>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.gdnonline.com:443/Details/1404390/UK,-France-pledge-stronger-support-as-Ukraine-marks-Independence-Day">gdnonline.com:443</source>
+    </item>
+    <item>
+      <title>[俄乌战争] MOSCOW → ORGANIZED CRIME : Arrest, detain, or charge with legal action (Rostov, Rostovskaya Oblast', Russia)</title>
+      <link>https://www.eng.kavkaz-uzel.eu/articles/78011</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: MOSCOW / ORGANIZED CRIME. Location: Rostov, Rostovskaya Oblast', Russia. Goldstein Scale: -5.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.eng.kavkaz-uzel.eu/articles/78011</guid>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>外交谈判</category>
+      <source url="https://www.eng.kavkaz-uzel.eu/articles/78011">eng.kavkaz-uzel.eu</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAELI → PALESTINIAN : Employ aerial weapons (Bureij, Yerushalayim, Israel)</title>
+      <link>https://www.gdnonline.com:443/Details/1404392/Israeli-strikes-kill-two-children-in-Gaza</link>
+      <description>GDELT Event: Employ aerial weapons. Actors: ISRAELI / PALESTINIAN. Location: Bureij, Yerushalayim, Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.gdnonline.com:443/Details/1404392/Israeli-strikes-kill-two-children-in-Gaza</guid>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.gdnonline.com:443/Details/1404392/Israeli-strikes-kill-two-children-in-Gaza">gdnonline.com:443</source>
+    </item>
+    <item>
+      <title>[美伊对峙] NAVY → THE US : Arrest, detain, or charge with legal action (Iran)</title>
+      <link>https://americanbazaaronline.com/2026/08/24/us-navy-sailors-father-detained-while-son-serves-in-middle-east-486943/</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: NAVY / THE US. Location: Iran. Goldstein Scale: -5.0. Mentioned in 6 sources.</description>
+      <guid isPermaLink="true">https://americanbazaaronline.com/2026/08/24/us-navy-sailors-father-detained-while-son-serves-in-middle-east-486943/</guid>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>外交谈判</category>
+      <source url="https://americanbazaaronline.com/2026/08/24/us-navy-sailors-father-detained-while-son-serves-in-middle-east-486943/">americanbazaaronline.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] THE US → nan : Arrest, detain, or charge with legal action (Iran)</title>
+      <link>https://attackofthefanboy.com/news/father-of-uss-abraham-lincoln-sailor-was-taken-into-ice-detention-while-son-is-on-a-nine-month-middle-east-deployment/</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: THE US / nan. Location: Iran. Goldstein Scale: -5.0. Mentioned in 3 sources.</description>
+      <guid isPermaLink="true">https://attackofthefanboy.com/news/father-of-uss-abraham-lincoln-sailor-was-taken-into-ice-detention-while-son-is-on-a-nine-month-middle-east-deployment/</guid>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>外交谈判</category>
+      <source url="https://attackofthefanboy.com/news/father-of-uss-abraham-lincoln-sailor-was-taken-into-ice-detention-while-son-is-on-a-nine-month-middle-east-deployment/">attackofthefanboy.com</source>
+    </item>
     <item>
       <title>[俄乌战争] FOREIGN NATIONAL → MURMANSK : Arrest, detain, or charge with legal action (Moscow, Moskva, Russia)</title>
       <link>https://www.naturalnews.com/2026-08-23-fsb-thwarts-drone-attack-moscow-defense-plant.html</link>
@@ -436,76 +506,6 @@
       <category>美伊对峙</category>
       <category>军事动态</category>
       <source url="https://www.theepochtimes.com/world/iran-accuses-qatar-of-holding-3-of-its-military-pilots-captive-6075596">theepochtimes.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] THE US → nan : Use conventional military force, not specified below (Ukraine)</title>
-      <link>https://www.techradar.com/pro/ukrainian-drones-disabled-us-armor-brigade-in-simulated-warfare-so-quickly-that-they-had-to-respawn-the-equipment</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: THE US / nan. Location: Ukraine. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://www.techradar.com/pro/ukrainian-drones-disabled-us-armor-brigade-in-simulated-warfare-so-quickly-that-they-had-to-respawn-the-equipment</guid>
-      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://www.techradar.com/pro/ukrainian-drones-disabled-us-armor-brigade-in-simulated-warfare-so-quickly-that-they-had-to-respawn-the-equipment">techradar.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] IRAN → UKRAINE : Use conventional military force, not specified below (Tehran, Tehran, Iran)</title>
-      <link>https://www.hellenicshippingnews.com/oil-climbs-on-tanker-attacks-us-iran-claims-about-hormuz-control/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: IRAN / UKRAINE. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.hellenicshippingnews.com/oil-climbs-on-tanker-attacks-us-iran-claims-about-hormuz-control/</guid>
-      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://www.hellenicshippingnews.com/oil-climbs-on-tanker-attacks-us-iran-claims-about-hormuz-control/">hellenicshippingnews.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] RUSSIA → TRADER : Use conventional military force, not specified below (Ukraine)</title>
-      <link>https://www.hellenicshippingnews.com/russian-grain-exports-disrupted-after-novorossiysk-terminals-attack/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: RUSSIA / TRADER. Location: Ukraine. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.hellenicshippingnews.com/russian-grain-exports-disrupted-after-novorossiysk-terminals-attack/</guid>
-      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://www.hellenicshippingnews.com/russian-grain-exports-disrupted-after-novorossiysk-terminals-attack/">hellenicshippingnews.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] GERMAN → RUSSIAN : Arrest, detain, or charge with legal action (Germany)</title>
-      <link>https://www.techtimes.com/articles/324522/20260814/russia-delivers-first-production-pd-8-engines-crossing-sanctions-hardest-technical-line.htm</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: GERMAN / RUSSIAN. Location: Germany. Goldstein Scale: -5.0. Mentioned in 3 sources.</description>
-      <guid isPermaLink="true">https://www.techtimes.com/articles/324522/20260814/russia-delivers-first-production-pd-8-engines-crossing-sanctions-hardest-technical-line.htm</guid>
-      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>外交谈判</category>
-      <source url="https://www.techtimes.com/articles/324522/20260814/russia-delivers-first-production-pd-8-engines-crossing-sanctions-hardest-technical-line.htm">techtimes.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] KURDISTAN → nan : Use conventional military force, not specified below (Sulaymaniyah, As Sulaymaniyah, Iraq)</title>
-      <link>https://www.opednews.com/populum/page.php?f=U-S-Withdrawal-from-Iraq-Iraq_Iraq-Green-Zone_Iraq-Militias_Iraq-Occupation-Strategy-260813-222.html</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: KURDISTAN / nan. Location: Sulaymaniyah, As Sulaymaniyah, Iraq. Goldstein Scale: -10.0. Mentioned in 5 sources.</description>
-      <guid isPermaLink="true">https://www.opednews.com/populum/page.php?f=U-S-Withdrawal-from-Iraq-Iraq_Iraq-Green-Zone_Iraq-Militias_Iraq-Occupation-Strategy-260813-222.html</guid>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://www.opednews.com/populum/page.php?f=U-S-Withdrawal-from-Iraq-Iraq_Iraq-Green-Zone_Iraq-Militias_Iraq-Occupation-Strategy-260813-222.html">opednews.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] PRISON → RUSSIA : Arrest, detain, or charge with legal action (Moscow, Moskva, Russia)</title>
-      <link>https://www.foreignpolicyjournal.com/2026/08/12/marine-veteran-robert-gilman-returns-home-after-1666-days-in-russian-prison-with-no-prisoner-swap-required/</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: PRISON / RUSSIA. Location: Moscow, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">https://www.foreignpolicyjournal.com/2026/08/12/marine-veteran-robert-gilman-returns-home-after-1666-days-in-russian-prison-with-no-prisoner-swap-required/</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>外交谈判</category>
-      <source url="https://www.foreignpolicyjournal.com/2026/08/12/marine-veteran-robert-gilman-returns-home-after-1666-days-in-russian-prison-with-no-prisoner-swap-required/">foreignpolicyjournal.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAEL → HAMAS : Use conventional military force, not specified below (Kuwait)</title>
-      <link>https://www.wdrb.com/news/national/israel-says-gaza-drone-strike-targeted-a-hamas-commander-and-other-developments-in-the-mideast/article_deead9bf-b8f9-5c96-b4ce-d4b7fb28714e.html</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / HAMAS. Location: Kuwait. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">https://www.wdrb.com/news/national/israel-says-gaza-drone-strike-targeted-a-hamas-commander-and-other-developments-in-the-mideast/article_deead9bf-b8f9-5c96-b4ce-d4b7fb28714e.html</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.wdrb.com/news/national/israel-says-gaza-drone-strike-targeted-a-hamas-commander-and-other-developments-in-the-mideast/article_deead9bf-b8f9-5c96-b4ce-d4b7fb28714e.html">wdrb.com</source>
     </item>
   </channel>
 </rss>

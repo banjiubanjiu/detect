@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T06:58:22+00:00Z",
+  "updated_at": "2026-08-26T06:59:26+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -1212,6 +1212,105 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1319931106",
+              "title": "SERVICEMEN → MILITANT : Arrest, detain, or charge with legal action (Moscow, Moskva, Russia)",
+              "title_en": "SERVICEMEN → MILITANT : Arrest, detain, or charge with legal action (Moscow, Moskva, Russia)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: SERVICEMEN / MILITANT. Location: Moscow, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: SERVICEMEN / MILITANT. Location: Moscow, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "bignewsnetwork.com",
+              "date": "2026-08-25",
+              "url": "http://www.bignewsnetwork.com/news/279265348/heat-and-shackles-russian-soldiers-freed-from-terrorist-captivity-in-mali-talk-to-rt",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1319931106",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "SERVICEMEN",
+                "actor2": "MILITANT",
+                "actor1_country": "nan",
+                "actor2_country": "nan",
+                "geo_lat": 55.7522,
+                "geo_lon": 37.6156,
+                "geo_name": "Moscow, Moskva, Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1319931230",
+              "title": "INTELLIGENCE → RUSSIA : Arrest, detain, or charge with legal action (Moscow, Moskva, Russia)",
+              "title_en": "INTELLIGENCE → RUSSIA : Arrest, detain, or charge with legal action (Moscow, Moskva, Russia)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: INTELLIGENCE / RUSSIA. Location: Moscow, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: INTELLIGENCE / RUSSIA. Location: Moscow, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "techtimes.com",
+              "date": "2026-08-25",
+              "url": "https://www.techtimes.com/articles/325483/20260825/cia-director-ratcliffe-lands-moscow-aboard-c-17-new-mobile-scif.htm",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1319931230",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "INTELLIGENCE",
+                "actor2": "RUSSIA",
+                "actor1_country": "nan",
+                "actor2_country": "RUS",
+                "geo_lat": 55.7522,
+                "geo_lon": 37.6156,
+                "geo_name": "Moscow, Moskva, Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1319931249",
+              "title": "UKRAINE → RUSSIA : Impose administrative sanctions, not specified below (Kyiv, Kyyiv, Misto, Ukraine)",
+              "title_en": "UKRAINE → RUSSIA : Impose administrative sanctions, not specified below (Kyiv, Kyyiv, Misto, Ukraine)",
+              "summary": "GDELT Event: Impose administrative sanctions, not specified below. Actors: UKRAINE / RUSSIA. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -5.0. Mentioned in 1 sources.",
+              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: UKRAINE / RUSSIA. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -5.0. Mentioned in 1 sources.",
+              "source": "gdelt",
+              "source_label": "defensenews.com",
+              "date": "2026-08-25",
+              "url": "https://www.defensenews.com/global/europe/2026/08/25/ukraine-needs-changes-to-avoid-losing-war-ousted-defense-minister-says/",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 1,
+                "sources": 1,
+                "articles": 1,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1319931249",
+                "event_code": "172",
+                "cameo_desc": "Impose administrative sanctions, not specified below",
+                "actor1": "UKRAINE",
+                "actor2": "RUSSIA",
+                "actor1_country": "UKR",
+                "actor2_country": "RUS",
+                "geo_lat": 50.4333,
+                "geo_lon": 30.5167,
+                "geo_name": "Kyiv, Kyyiv, Misto, Ukraine"
+              },
+              "admiralty_source": "B",
+              "admiralty_info": 3,
+              "admiralty_code": "B3"
             }
           ]
         },
@@ -1287,39 +1386,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1315432585",
-              "title": "PALESTINIAN → REFUGEE : Use conventional military force, not specified below (Jerusalem, Israel (general), Israel)",
-              "title_en": "PALESTINIAN → REFUGEE : Use conventional military force, not specified below (Jerusalem, Israel (general), Israel)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: PALESTINIAN / REFUGEE. Location: Jerusalem, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: PALESTINIAN / REFUGEE. Location: Jerusalem, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.",
-              "source": "gdelt",
-              "source_label": "english.wafa.ps",
-              "date": "2026-07-26",
-              "url": "https://english.wafa.ps/Pages/Details/172960",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 6,
-                "sources": 1,
-                "articles": 6,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1315432585",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "PALESTINIAN",
-                "actor2": "REFUGEE",
-                "actor1_country": "PSE",
-                "actor2_country": "nan",
-                "geo_lat": 31.7667,
-                "geo_lon": 35.2333,
-                "geo_name": "Jerusalem, Israel (general), Israel"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1315594537",
               "title": "PALESTINIAN → VILLAGER : Use conventional military force, not specified below (Israel)",
@@ -2821,39 +2887,6 @@
           "icon": "⚔️",
           "items": [
             {
-              "id": "gdelt_1315432683",
-              "title": "YEMEN → OIL TANKER : Use conventional military force, not specified below (Iran)",
-              "title_en": "YEMEN → OIL TANKER : Use conventional military force, not specified below (Iran)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: YEMEN / OIL TANKER. Location: Iran. Goldstein Scale: -10.0. Mentioned in 4 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: YEMEN / OIL TANKER. Location: Iran. Goldstein Scale: -10.0. Mentioned in 4 sources.",
-              "source": "gdelt",
-              "source_label": "yahoo.com",
-              "date": "2026-07-26",
-              "url": "https://www.yahoo.com/news/us/articles/fear-wee-families-home-heating-230019484.html",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 4,
-                "sources": 1,
-                "articles": 4,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1315432683",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "YEMEN",
-                "actor2": "OIL TANKER",
-                "actor1_country": "YEM",
-                "actor2_country": "nan",
-                "geo_lat": 32.0,
-                "geo_lon": 53.0,
-                "geo_name": "Iran"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
               "id": "gdelt_1317001459",
               "title": "THE US → IRAN : Use conventional military force, not specified below (Tehran, Tehran, Iran)",
               "title_en": "THE US → IRAN : Use conventional military force, not specified below (Tehran, Tehran, Iran)",
@@ -3388,39 +3421,6 @@
           "icon": "🕊️",
           "items": [
             {
-              "id": "gdelt_1315432322",
-              "title": "BRAZILIAN → THIEF : Arrest, detain, or charge with legal action (Ipiranga, Minas Gerais, Brazil)",
-              "title_en": "BRAZILIAN → THIEF : Arrest, detain, or charge with legal action (Ipiranga, Minas Gerais, Brazil)",
-              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: BRAZILIAN / THIEF. Location: Ipiranga, Minas Gerais, Brazil. Goldstein Scale: -5.0. Mentioned in 3 sources.",
-              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: BRAZILIAN / THIEF. Location: Ipiranga, Minas Gerais, Brazil. Goldstein Scale: -5.0. Mentioned in 3 sources.",
-              "source": "gdelt",
-              "source_label": "en.mercopress.com",
-              "date": "2026-07-26",
-              "url": "https://en.mercopress.com/2026/07/26/milei-backs-flavio-bolsonaro-s-candidacy-drawing-a-rebuke-from-brazil-s-governing-party",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 3,
-                "sources": 1,
-                "articles": 3,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1315432322",
-                "event_code": "173",
-                "cameo_desc": "Arrest, detain, or charge with legal action",
-                "actor1": "BRAZILIAN",
-                "actor2": "THIEF",
-                "actor1_country": "BRA",
-                "actor2_country": "nan",
-                "geo_lat": -22.551,
-                "geo_lon": -45.528,
-                "geo_name": "Ipiranga, Minas Gerais, Brazil"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
               "id": "gdelt_1317538739",
               "title": "UNITED STATES → UNITED STATES : Arrest, detain, or charge with legal action (Tehran, Tehran, Iran)",
               "title_en": "UNITED STATES → UNITED STATES : Arrest, detain, or charge with legal action (Tehran, Tehran, Iran)",
@@ -3543,6 +3543,39 @@
                 "actor1": "THE US",
                 "actor2": "nan",
                 "actor1_country": "USA",
+                "actor2_country": "nan",
+                "geo_lat": 32.0,
+                "geo_lon": 53.0,
+                "geo_name": "Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1319931097",
+              "title": "AIR FORCE → nan : Arrest, detain, or charge with legal action (Iran)",
+              "title_en": "AIR FORCE → nan : Arrest, detain, or charge with legal action (Iran)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: AIR FORCE / nan. Location: Iran. Goldstein Scale: -5.0. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: AIR FORCE / nan. Location: Iran. Goldstein Scale: -5.0. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "wcbi.com",
+              "date": "2026-08-25",
+              "url": "https://www.wcbi.com/u-s-airman-faces-charges-under-military-justice-system-for-criticizing-trump-over-iran-war/",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1319931097",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "AIR FORCE",
+                "actor2": "nan",
+                "actor1_country": "nan",
                 "actor2_country": "nan",
                 "geo_lat": 32.0,
                 "geo_lon": 53.0,
@@ -4381,13 +4414,13 @@
     }
   },
   "stats": {
-    "total_items": 120,
+    "total_items": 121,
     "sources": {
-      "gdelt": 120
+      "gdelt": 121
     },
     "date_range": {
-      "from": "2026-07-26",
-      "to": "2026-08-24"
+      "from": "2026-07-27",
+      "to": "2026-08-25"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
