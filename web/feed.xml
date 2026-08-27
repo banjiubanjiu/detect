@@ -5,8 +5,48 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 26 Aug 2026 06:59:10 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 17:32:57 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] SERVICEMEN → MILITANT : Arrest, detain, or charge with legal action (Moscow, Moskva, Russia)</title>
+      <link>http://www.bignewsnetwork.com/news/279265348/heat-and-shackles-russian-soldiers-freed-from-terrorist-captivity-in-mali-talk-to-rt</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: SERVICEMEN / MILITANT. Location: Moscow, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">http://www.bignewsnetwork.com/news/279265348/heat-and-shackles-russian-soldiers-freed-from-terrorist-captivity-in-mali-talk-to-rt</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>外交谈判</category>
+      <source url="http://www.bignewsnetwork.com/news/279265348/heat-and-shackles-russian-soldiers-freed-from-terrorist-captivity-in-mali-talk-to-rt">bignewsnetwork.com</source>
+    </item>
+    <item>
+      <title>[俄乌战争] INTELLIGENCE → RUSSIA : Arrest, detain, or charge with legal action (Moscow, Moskva, Russia)</title>
+      <link>https://www.techtimes.com/articles/325483/20260825/cia-director-ratcliffe-lands-moscow-aboard-c-17-new-mobile-scif.htm</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: INTELLIGENCE / RUSSIA. Location: Moscow, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 6 sources.</description>
+      <guid isPermaLink="true">https://www.techtimes.com/articles/325483/20260825/cia-director-ratcliffe-lands-moscow-aboard-c-17-new-mobile-scif.htm</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>外交谈判</category>
+      <source url="https://www.techtimes.com/articles/325483/20260825/cia-director-ratcliffe-lands-moscow-aboard-c-17-new-mobile-scif.htm">techtimes.com</source>
+    </item>
+    <item>
+      <title>[俄乌战争] UKRAINE → RUSSIA : Impose administrative sanctions, not specified below (Kyiv, Kyyiv, Misto, Ukraine)</title>
+      <link>https://www.defensenews.com/global/europe/2026/08/25/ukraine-needs-changes-to-avoid-losing-war-ousted-defense-minister-says/</link>
+      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: UKRAINE / RUSSIA. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -5.0. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">https://www.defensenews.com/global/europe/2026/08/25/ukraine-needs-changes-to-avoid-losing-war-ousted-defense-minister-says/</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>外交谈判</category>
+      <source url="https://www.defensenews.com/global/europe/2026/08/25/ukraine-needs-changes-to-avoid-losing-war-ousted-defense-minister-says/">defensenews.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] AIR FORCE → nan : Arrest, detain, or charge with legal action (Iran)</title>
+      <link>https://www.wcbi.com/u-s-airman-faces-charges-under-military-justice-system-for-criticizing-trump-over-iran-war/</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: AIR FORCE / nan. Location: Iran. Goldstein Scale: -5.0. Mentioned in 6 sources.</description>
+      <guid isPermaLink="true">https://www.wcbi.com/u-s-airman-faces-charges-under-military-justice-system-for-criticizing-trump-over-iran-war/</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>外交谈判</category>
+      <source url="https://www.wcbi.com/u-s-airman-faces-charges-under-military-justice-system-for-criticizing-trump-over-iran-war/">wcbi.com</source>
+    </item>
     <item>
       <title>[俄乌战争] RUSSIA → MANUFACTURER : Use conventional military force, not specified below (Kremlin, Moskva, Russia)</title>
       <link>https://www.dailymail.com/news/article-16077007/Ukraine-hands-UK-secret-intelligence-Putin.html</link>
@@ -466,46 +506,6 @@
       <category>巴以冲突</category>
       <category>军事动态</category>
       <source url="https://english.wafa.ps/Pages/Details/173725">english.wafa.ps</source>
-    </item>
-    <item>
-      <title>[美伊对峙] IRAN → YEMEN : Employ aerial weapons (Tehran, Tehran, Iran)</title>
-      <link>https://www.inquirer.com/news/nation-world/iran-us-war-gulf-state-leades-frustration-trump-diplomacy-20260816.html</link>
-      <description>GDELT Event: Employ aerial weapons. Actors: IRAN / YEMEN. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">https://www.inquirer.com/news/nation-world/iran-us-war-gulf-state-leades-frustration-trump-diplomacy-20260816.html</guid>
-      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://www.inquirer.com/news/nation-world/iran-us-war-gulf-state-leades-frustration-trump-diplomacy-20260816.html">inquirer.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] IRAN → IRAN : Assassinate (Karaj, Tehran, Iran)</title>
-      <link>https://www.haaretz.com/israel-news/israel-security/2026-08-17/ty-article-live/kushner-lands-in-israel-after-meeting-hamas-officials-in-bid-to-save-gaza-truce/000001a0-0c64-d88f-abbf-dcedc81e0000</link>
-      <description>GDELT Event: Assassinate. Actors: IRAN / IRAN. Location: Karaj, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
-      <guid isPermaLink="true">https://www.haaretz.com/israel-news/israel-security/2026-08-17/ty-article-live/kushner-lands-in-israel-after-meeting-hamas-officials-in-bid-to-save-gaza-truce/000001a0-0c64-d88f-abbf-dcedc81e0000</guid>
-      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://www.haaretz.com/israel-news/israel-security/2026-08-17/ty-article-live/kushner-lands-in-israel-after-meeting-hamas-officials-in-bid-to-save-gaza-truce/000001a0-0c64-d88f-abbf-dcedc81e0000">haaretz.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] COLONIST → PALESTINIAN : Use unconventional violence, not specified below (Israel)</title>
-      <link>https://english.wafa.ps/Pages/Details/173652</link>
-      <description>GDELT Event: Use unconventional violence, not specified below. Actors: COLONIST / PALESTINIAN. Location: Israel. Goldstein Scale: -9.0. Mentioned in 15 sources.</description>
-      <guid isPermaLink="true">https://english.wafa.ps/Pages/Details/173652</guid>
-      <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://english.wafa.ps/Pages/Details/173652">english.wafa.ps</source>
-    </item>
-    <item>
-      <title>[美伊对峙] IRANIAN → IRANIAN : Use conventional military force, not specified below (Iran)</title>
-      <link>https://www.theepochtimes.com/world/iran-accuses-qatar-of-holding-3-of-its-military-pilots-captive-6075596</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: IRANIAN / IRANIAN. Location: Iran. Goldstein Scale: -10.0. Mentioned in 7 sources.</description>
-      <guid isPermaLink="true">https://www.theepochtimes.com/world/iran-accuses-qatar-of-holding-3-of-its-military-pilots-captive-6075596</guid>
-      <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://www.theepochtimes.com/world/iran-accuses-qatar-of-holding-3-of-its-military-pilots-captive-6075596">theepochtimes.com</source>
     </item>
   </channel>
 </rss>
