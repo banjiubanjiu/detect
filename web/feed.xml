@@ -5,8 +5,58 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 27 Aug 2026 17:32:57 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 18:26:53 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] MOSCOW → COLLEGE : Use conventional military force, not specified below (Ada County, Idaho, United States)</title>
+      <link>https://www.usmagazine.com/crime-news/news/bryan-kohberger-granted-hearing-amid-guilty-plea-withdrawal/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: MOSCOW / COLLEGE. Location: Ada County, Idaho, United States. Goldstein Scale: -10.0. Mentioned in 6 sources.</description>
+      <guid isPermaLink="true">https://www.usmagazine.com/crime-news/news/bryan-kohberger-granted-hearing-amid-guilty-plea-withdrawal/</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.usmagazine.com/crime-news/news/bryan-kohberger-granted-hearing-amid-guilty-plea-withdrawal/">usmagazine.com</source>
+    </item>
+    <item>
+      <title>[俄乌战争] GOVERNMENT → LEIPZIG : Use conventional military force, not specified below (Moscow, Moskva, Russia)</title>
+      <link>https://whbl.com/2026/08/26/french-security-chief-sees-new-threats-after-leipzig-drone-attack/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: GOVERNMENT / LEIPZIG. Location: Moscow, Moskva, Russia. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://whbl.com/2026/08/26/french-security-chief-sees-new-threats-after-leipzig-drone-attack/</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://whbl.com/2026/08/26/french-security-chief-sees-new-threats-after-leipzig-drone-attack/">whbl.com</source>
+    </item>
+    <item>
+      <title>[俄乌战争] UKRAINE → nan : Impose administrative sanctions, not specified below (Kyiv, Kyyiv, Misto, Ukraine)</title>
+      <link>https://www.stockjournal.com.au/story/9338279/russia-ukraine-war-wheat-futures-jump-a23t-overnight/</link>
+      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: UKRAINE / nan. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -5.0. Mentioned in 20 sources.</description>
+      <guid isPermaLink="true">https://www.stockjournal.com.au/story/9338279/russia-ukraine-war-wheat-futures-jump-a23t-overnight/</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>外交谈判</category>
+      <source url="https://www.stockjournal.com.au/story/9338279/russia-ukraine-war-wheat-futures-jump-a23t-overnight/">stockjournal.com.au</source>
+    </item>
+    <item>
+      <title>[俄乌战争] CANADA → UKRAINE : Demonstrate or rally (United Kingdom)</title>
+      <link>https://www.bnnbloomberg.ca/business/technology/2026/08/26/canadian-army-looking-for-surveillance-cargo-drop-drone-suppliers/</link>
+      <description>GDELT Event: Demonstrate or rally. Actors: CANADA / UKRAINE. Location: United Kingdom. Goldstein Scale: -6.5. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.bnnbloomberg.ca/business/technology/2026/08/26/canadian-army-looking-for-surveillance-cargo-drop-drone-suppliers/</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>舆论热点</category>
+      <source url="https://www.bnnbloomberg.ca/business/technology/2026/08/26/canadian-army-looking-for-surveillance-cargo-drop-drone-suppliers/">bnnbloomberg.ca</source>
+    </item>
+    <item>
+      <title>[巴以冲突] CHIEF OF STAFF → KILLERS : Use conventional military force, not specified below (Gaza, Israel (general), Israel)</title>
+      <link>https://ejpress.org/another-government-with-ben-gvir-could-be-disastrous/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: CHIEF OF STAFF / KILLERS. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 3 sources.</description>
+      <guid isPermaLink="true">https://ejpress.org/another-government-with-ben-gvir-could-be-disastrous/</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://ejpress.org/another-government-with-ben-gvir-could-be-disastrous/">ejpress.org</source>
+    </item>
     <item>
       <title>[俄乌战争] SERVICEMEN → MILITANT : Arrest, detain, or charge with legal action (Moscow, Moskva, Russia)</title>
       <link>http://www.bignewsnetwork.com/news/279265348/heat-and-shackles-russian-soldiers-freed-from-terrorist-captivity-in-mali-talk-to-rt</link>
@@ -456,56 +506,6 @@
       <category>巴以冲突</category>
       <category>外交谈判</category>
       <source url="https://www.thenation.com/article/politics/israel-lobby-clifton-lustick-middle-east-us-foreign-policy/">thenation.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] INVESTOR → nan : Impose administrative sanctions, not specified below (Iran)</title>
-      <link>https://tribune.com.pk/story/2624447/sbp-injects-rs116tr-into-banking-system</link>
-      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: INVESTOR / nan. Location: Iran. Goldstein Scale: -5.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://tribune.com.pk/story/2624447/sbp-injects-rs116tr-into-banking-system</guid>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>外交谈判</category>
-      <source url="https://tribune.com.pk/story/2624447/sbp-injects-rs116tr-into-banking-system">tribune.com.pk</source>
-    </item>
-    <item>
-      <title>[叙利亚局势] nan → POLICE : Use unconventional violence, not specified below (Syria)</title>
-      <link>https://www.newcastleherald.com.au/story/9332186/hunter-man-32-charged-after-alleged-hamilton-south-assault/</link>
-      <description>GDELT Event: Use unconventional violence, not specified below. Actors: nan / POLICE. Location: Syria. Goldstein Scale: -9.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://www.newcastleherald.com.au/story/9332186/hunter-man-32-charged-after-alleged-hamilton-south-assault/</guid>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
-      <category>叙利亚局势</category>
-      <category>军事动态</category>
-      <source url="https://www.newcastleherald.com.au/story/9332186/hunter-man-32-charged-after-alleged-hamilton-south-assault/">newcastleherald.com.au</source>
-    </item>
-    <item>
-      <title>[巴以冲突] JERUSALEM → COLONIST : Physically assault, not specified below (Jerusalem, Israel (general), Israel)</title>
-      <link>https://english.wafa.ps/Pages/Details/173726</link>
-      <description>GDELT Event: Physically assault, not specified below. Actors: JERUSALEM / COLONIST. Location: Jerusalem, Israel (general), Israel. Goldstein Scale: -9.5. Mentioned in 7 sources.</description>
-      <guid isPermaLink="true">https://english.wafa.ps/Pages/Details/173726</guid>
-      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://english.wafa.ps/Pages/Details/173726">english.wafa.ps</source>
-    </item>
-    <item>
-      <title>[巴以冲突] POLICE → nan : Use conventional military force, not specified below (Israel)</title>
-      <link>https://www.haaretz.com/israel-news/2026-08-17/ty-article/.premium/we-came-to-a-wedding-why-did-we-all-have-to-lie-on-the-ground-for-30-minutes/000001a0-0c48-dbac-a5bc-8cfa273c0000</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: POLICE / nan. Location: Israel. Goldstein Scale: -10.0. Mentioned in 5 sources.</description>
-      <guid isPermaLink="true">https://www.haaretz.com/israel-news/2026-08-17/ty-article/.premium/we-came-to-a-wedding-why-did-we-all-have-to-lie-on-the-ground-for-30-minutes/000001a0-0c48-dbac-a5bc-8cfa273c0000</guid>
-      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.haaretz.com/israel-news/2026-08-17/ty-article/.premium/we-came-to-a-wedding-why-did-we-all-have-to-lie-on-the-ground-for-30-minutes/000001a0-0c48-dbac-a5bc-8cfa273c0000">haaretz.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] SETTLEMENT → ISRAEL : Use conventional military force, not specified below (Ramallah, West Bank (general), West Bank)</title>
-      <link>https://english.wafa.ps/Pages/Details/173725</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: SETTLEMENT / ISRAEL. Location: Ramallah, West Bank (general), West Bank. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://english.wafa.ps/Pages/Details/173725</guid>
-      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://english.wafa.ps/Pages/Details/173725">english.wafa.ps</source>
     </item>
   </channel>
 </rss>
