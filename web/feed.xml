@@ -5,8 +5,78 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 28 Aug 2026 18:26:53 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2026 12:35:25 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] PRISON → nan : Use conventional military force, not specified below (Russia)</title>
+      <link>https://www.dailynews.com/2026/08/27/prison-gang-associate-found-guilty-of-2-murders-in-lomita/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: PRISON / nan. Location: Russia. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.dailynews.com/2026/08/27/prison-gang-associate-found-guilty-of-2-murders-in-lomita/</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.dailynews.com/2026/08/27/prison-gang-associate-found-guilty-of-2-murders-in-lomita/">dailynews.com</source>
+    </item>
+    <item>
+      <title>[俄乌战争] FOREIGN MINIST → BRITISH : Use conventional military force, not specified below (Kiev, Ukraine (general), Ukraine)</title>
+      <link>https://thenewamerican.com/features/russia-is-threatening-britain-as-cia-chief-returns-from-moscow/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: FOREIGN MINIST / BRITISH. Location: Kiev, Ukraine (general), Ukraine. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
+      <guid isPermaLink="true">https://thenewamerican.com/features/russia-is-threatening-britain-as-cia-chief-returns-from-moscow/</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://thenewamerican.com/features/russia-is-threatening-britain-as-cia-chief-returns-from-moscow/">thenewamerican.com</source>
+    </item>
+    <item>
+      <title>[俄乌战争] KYIV → nan : Impose administrative sanctions, not specified below (Kremlin, Moskva, Russia)</title>
+      <link>https://www.newstatesman.com/international-politics/geopolitics/2026/08/ukraine-is-surrounded-by-false-friends</link>
+      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: KYIV / nan. Location: Kremlin, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 3 sources.</description>
+      <guid isPermaLink="true">https://www.newstatesman.com/international-politics/geopolitics/2026/08/ukraine-is-surrounded-by-false-friends</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>外交谈判</category>
+      <source url="https://www.newstatesman.com/international-politics/geopolitics/2026/08/ukraine-is-surrounded-by-false-friends">newstatesman.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAELI → ISRAEL : Fight with small arms and light weapons (Gaza, Israel (general), Israel)</title>
+      <link>https://www.dailygazette.com/ade/ap/business/regional-powers-seek-off-ramp-from-iran-war-and-other-middle-east-developments/article_032e5302-acf8-56b7-b3bf-5588c7b236d3.html</link>
+      <description>GDELT Event: Fight with small arms and light weapons. Actors: ISRAELI / ISRAEL. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.dailygazette.com/ade/ap/business/regional-powers-seek-off-ramp-from-iran-war-and-other-middle-east-developments/article_032e5302-acf8-56b7-b3bf-5588c7b236d3.html</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.dailygazette.com/ade/ap/business/regional-powers-seek-off-ramp-from-iran-war-and-other-middle-east-developments/article_032e5302-acf8-56b7-b3bf-5588c7b236d3.html">dailygazette.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] HAMAS → ISRAEL : Use conventional military force, not specified below (Gaza, Israel (general), Israel)</title>
+      <link>https://www.hngn.com/articles/272939/20260827/trumps-gaza-peace-body-breaks-israel-netanyahu-defies-us-border-demand-warns-full-war.htm</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: HAMAS / ISRAEL. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.hngn.com/articles/272939/20260827/trumps-gaza-peace-body-breaks-israel-netanyahu-defies-us-border-demand-warns-full-war.htm</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.hngn.com/articles/272939/20260827/trumps-gaza-peace-body-breaks-israel-netanyahu-defies-us-border-demand-warns-full-war.htm">hngn.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] AMERICAN → PALESTINIAN : Engage in popular protest, not specified below (Minnesota, United States)</title>
+      <link>https://thenewamerican.com/us/crime/cops-raid-home-of-anti-gun-democrat-omars-son-guns-ammo-found-roommate-arrested/</link>
+      <description>GDELT Event: Engage in popular protest, not specified below. Actors: AMERICAN / PALESTINIAN. Location: Minnesota, United States. Goldstein Scale: -6.5. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">https://thenewamerican.com/us/crime/cops-raid-home-of-anti-gun-democrat-omars-son-guns-ammo-found-roommate-arrested/</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>舆论热点</category>
+      <source url="https://thenewamerican.com/us/crime/cops-raid-home-of-anti-gun-democrat-omars-son-guns-ammo-found-roommate-arrested/">thenewamerican.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] IRAN → nan : Demonstrate or rally (Iran)</title>
+      <link>https://www.aol.com/articles/air-force-officer-faces-charges-213512000.html</link>
+      <description>GDELT Event: Demonstrate or rally. Actors: IRAN / nan. Location: Iran. Goldstein Scale: -6.5. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.aol.com/articles/air-force-officer-faces-charges-213512000.html</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>舆论热点</category>
+      <source url="https://www.aol.com/articles/air-force-officer-faces-charges-213512000.html">aol.com</source>
+    </item>
     <item>
       <title>[俄乌战争] MOSCOW → COLLEGE : Use conventional military force, not specified below (Ada County, Idaho, United States)</title>
       <link>https://www.usmagazine.com/crime-news/news/bryan-kohberger-granted-hearing-amid-guilty-plea-withdrawal/</link>
@@ -436,76 +506,6 @@
       <category>俄乌战争</category>
       <category>外交谈判</category>
       <source url="http://www.centralasiatimes.com/news/279249598/belarus-criminal-cases-against-exiled-religious-freedom-defenders">centralasiatimes.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAEL → UNITED STATES : Use conventional military force, not specified below (World Trade Center, Illinois, United States)</title>
-      <link>https://www.breitbart.com/politics/2026/08/18/election-night-livewire-byron-donalds-eyes-governors-mansion-as-scandals-plague-races-across-country/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / UNITED STATES. Location: World Trade Center, Illinois, United States. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.breitbart.com/politics/2026/08/18/election-night-livewire-byron-donalds-eyes-governors-mansion-as-scandals-plague-races-across-country/</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.breitbart.com/politics/2026/08/18/election-night-livewire-byron-donalds-eyes-governors-mansion-as-scandals-plague-races-across-country/">breitbart.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] PROSECUTOR → ISRAEL : Use unconventional violence, not specified below (Gaza, Israel (general), Israel)</title>
-      <link>https://truthout.org/articles/us-sanctioning-icc-prosecutor-who-reportedly-worked-on-warrant-for-netanyahu/</link>
-      <description>GDELT Event: Use unconventional violence, not specified below. Actors: PROSECUTOR / ISRAEL. Location: Gaza, Israel (general), Israel. Goldstein Scale: -9.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://truthout.org/articles/us-sanctioning-icc-prosecutor-who-reportedly-worked-on-warrant-for-netanyahu/</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://truthout.org/articles/us-sanctioning-icc-prosecutor-who-reportedly-worked-on-warrant-for-netanyahu/">truthout.org</source>
-    </item>
-    <item>
-      <title>[巴以冲突] SETTLER → WEST BANK : Destroy property (Qusra, West Bank (general), West Bank)</title>
-      <link>https://wrp.org.uk/news/israel-must-stop-bombing-gaza-says-hamas/</link>
-      <description>GDELT Event: Destroy property. Actors: SETTLER / WEST BANK. Location: Qusra, West Bank (general), West Bank. Goldstein Scale: -9.2. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://wrp.org.uk/news/israel-must-stop-bombing-gaza-says-hamas/</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>外交谈判</category>
-      <source url="https://wrp.org.uk/news/israel-must-stop-bombing-gaza-says-hamas/">wrp.org.uk</source>
-    </item>
-    <item>
-      <title>[美伊对峙] UNITED ARAB EMIRATES → IRAN : Fight with artillery and tanks (Tehran, Tehran, Iran)</title>
-      <link>http://www.iranherald.com/news/279250144/iran-rejects-uae-claim-of-missile-launch-calls-accusations-baseless</link>
-      <description>GDELT Event: Fight with artillery and tanks. Actors: UNITED ARAB EMIRATES / IRAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">http://www.iranherald.com/news/279250144/iran-rejects-uae-claim-of-missile-launch-calls-accusations-baseless</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="http://www.iranherald.com/news/279250144/iran-rejects-uae-claim-of-missile-launch-calls-accusations-baseless">iranherald.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] DUBAI → IRAN : Fight with artillery and tanks (Iran)</title>
-      <link>https://www.aol.co.uk/articles/dubai-residents-sent-missile-alert-224438000.html</link>
-      <description>GDELT Event: Fight with artillery and tanks. Actors: DUBAI / IRAN. Location: Iran. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.aol.co.uk/articles/dubai-residents-sent-missile-alert-224438000.html</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://www.aol.co.uk/articles/dubai-residents-sent-missile-alert-224438000.html">aol.co.uk</source>
-    </item>
-    <item>
-      <title>[俄乌战争] UKRAINIAN → UNITED KINGDOM : Use conventional military force, not specified below (Moscow, Moskva, Russia)</title>
-      <link>https://www.yahoo.com/news/politics/articles/russia-warns-uk-pay-price-203452587.html</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: UKRAINIAN / UNITED KINGDOM. Location: Moscow, Moskva, Russia. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.yahoo.com/news/politics/articles/russia-warns-uk-pay-price-203452587.html</guid>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://www.yahoo.com/news/politics/articles/russia-warns-uk-pay-price-203452587.html">yahoo.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAEL → UNITED STATES : Impose administrative sanctions, not specified below (United States)</title>
-      <link>https://www.thenation.com/article/politics/israel-lobby-clifton-lustick-middle-east-us-foreign-policy/</link>
-      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: ISRAEL / UNITED STATES. Location: United States. Goldstein Scale: -5.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.thenation.com/article/politics/israel-lobby-clifton-lustick-middle-east-us-foreign-policy/</guid>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>外交谈判</category>
-      <source url="https://www.thenation.com/article/politics/israel-lobby-clifton-lustick-middle-east-us-foreign-policy/">thenation.com</source>
     </item>
   </channel>
 </rss>
