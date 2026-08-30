@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29T12:35:42.648099+00:00",
+  "updated_at": "2026-08-30T11:35:53.347583+00:00",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -872,6 +872,39 @@
                 "geo_lat": 50.4333,
                 "geo_lon": 30.5167,
                 "geo_name": "Kiev, Ukraine (general), Ukraine"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1320556495",
+              "title": "UKRAINE → VLADIMIR PUTIN : Fight with artillery and tanks (Ukraine)",
+              "title_en": "UKRAINE → VLADIMIR PUTIN : Fight with artillery and tanks (Ukraine)",
+              "summary": "GDELT Event: Fight with artillery and tanks. Actors: UKRAINE / VLADIMIR PUTIN. Location: Ukraine. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Fight with artillery and tanks. Actors: UKRAINE / VLADIMIR PUTIN. Location: Ukraine. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "dailymail.com",
+              "date": "2026-08-29",
+              "url": "https://www.dailymail.com/news/article-16090147/Britains-defence-firms-supply-weapons-Ukraine-warned-Russian-spy-threat.html",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1320556495",
+                "event_code": "194",
+                "cameo_desc": "Fight with artillery and tanks",
+                "actor1": "UKRAINE",
+                "actor2": "VLADIMIR PUTIN",
+                "actor1_country": "UKR",
+                "actor2_country": "RUS",
+                "geo_lat": 49.0,
+                "geo_lon": 32.0,
+                "geo_name": "Ukraine"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -2635,6 +2668,72 @@
                 "geo_lat": 31.4167,
                 "geo_lon": 34.3333,
                 "geo_name": "Gaza, Israel (general), Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1320556379",
+              "title": "ISRAELI → PALESTINIAN : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
+              "title_en": "ISRAELI → PALESTINIAN : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAELI / PALESTINIAN. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAELI / PALESTINIAN. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "source": "gdelt",
+              "source_label": "durangoherald.com",
+              "date": "2026-08-29",
+              "url": "https://www.durangoherald.com/articles/associated-press/netanyahu-condemns-rioters-after-weeks-of-west-bank-settler-violence-and-other-middle-east-news/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 3,
+                "sources": 1,
+                "articles": 3,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1320556379",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "ISRAELI",
+                "actor2": "PALESTINIAN",
+                "actor1_country": "ISR",
+                "actor2_country": "PSE",
+                "geo_lat": 31.4167,
+                "geo_lon": 34.3333,
+                "geo_name": "Gaza, Israel (general), Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1320556378",
+              "title": "ISRAEL → ISRAEL : Physically assault, not specified below (Gaza City, Israel (general), Israel)",
+              "title_en": "ISRAEL → ISRAEL : Physically assault, not specified below (Gaza City, Israel (general), Israel)",
+              "summary": "GDELT Event: Physically assault, not specified below. Actors: ISRAEL / ISRAEL. Location: Gaza City, Israel (general), Israel. Goldstein Scale: -9.5. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Physically assault, not specified below. Actors: ISRAEL / ISRAEL. Location: Gaza City, Israel (general), Israel. Goldstein Scale: -9.5. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "freemalaysiatoday.com",
+              "date": "2026-08-29",
+              "url": "https://www.freemalaysiatoday.com/category/highlight/2026/08/30/israeli-army-says-struck-hamas-commander-in-gaza-hospital-compound",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -9.5
+              },
+              "gdelt_meta": {
+                "event_id": "1320556378",
+                "event_code": "182",
+                "cameo_desc": "Physically assault, not specified below",
+                "actor1": "ISRAEL",
+                "actor2": "ISRAEL",
+                "actor1_country": "ISR",
+                "actor2_country": "ISR",
+                "geo_lat": 31.4167,
+                "geo_lon": 34.3333,
+                "geo_name": "Gaza City, Israel (general), Israel"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -4742,13 +4841,13 @@
     }
   },
   "stats": {
-    "total_items": 131,
+    "total_items": 134,
     "sources": {
-      "gdelt": 131
+      "gdelt": 134
     },
     "date_range": {
-      "from": "2026-07-30",
-      "to": "2026-08-29"
+      "from": "2026-07-31",
+      "to": "2026-08-30"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",

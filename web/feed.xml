@@ -5,8 +5,38 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 29 Aug 2026 12:35:25 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2026 11:35:35 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] POLICE → RUSSIAN : Arrest, detain, or charge with legal action (Russia)</title>
+      <link>https://www.eng.kavkaz-uzel.eu/articles/78112</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: POLICE / RUSSIAN. Location: Russia. Goldstein Scale: -5.0. Mentioned in 8 sources.</description>
+      <guid isPermaLink="true">https://www.eng.kavkaz-uzel.eu/articles/78112</guid>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>外交谈判</category>
+      <source url="https://www.eng.kavkaz-uzel.eu/articles/78112">eng.kavkaz-uzel.eu</source>
+    </item>
+    <item>
+      <title>[美伊对峙] nan → VENEZUELA : Occupy territory (Tehran, Tehran, Iran)</title>
+      <link>http://www.goskagit.com/news/politics/the-latest-trump-says-us-will-take-control-of-65-billion-barrels-of-venezuela-s/article_57cd6bed-2def-5230-a2fe-f914a3223067.html</link>
+      <description>GDELT Event: Occupy territory. Actors: nan / VENEZUELA. Location: Tehran, Tehran, Iran. Goldstein Scale: -9.5. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">http://www.goskagit.com/news/politics/the-latest-trump-says-us-will-take-control-of-65-billion-barrels-of-venezuela-s/article_57cd6bed-2def-5230-a2fe-f914a3223067.html</guid>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="http://www.goskagit.com/news/politics/the-latest-trump-says-us-will-take-control-of-65-billion-barrels-of-venezuela-s/article_57cd6bed-2def-5230-a2fe-f914a3223067.html">goskagit.com</source>
+    </item>
+    <item>
+      <title>[台海局势] SOUTH KOREA → GWANGJU : Use conventional military force, not specified below (Taiwan)</title>
+      <link>https://www.artnews.com/art-news/news/china-pulls-artists-from-gwangju-biennale-as-taiwan-pavilion-moves-forward-1234796234/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: SOUTH KOREA / GWANGJU. Location: Taiwan. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">https://www.artnews.com/art-news/news/china-pulls-artists-from-gwangju-biennale-as-taiwan-pavilion-moves-forward-1234796234/</guid>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+      <category>台海局势</category>
+      <category>军事动态</category>
+      <source url="https://www.artnews.com/art-news/news/china-pulls-artists-from-gwangju-biennale-as-taiwan-pavilion-moves-forward-1234796234/">artnews.com</source>
+    </item>
     <item>
       <title>[俄乌战争] PRISON → nan : Use conventional military force, not specified below (Russia)</title>
       <link>https://www.dailynews.com/2026/08/27/prison-gang-associate-found-guilty-of-2-murders-in-lomita/</link>
@@ -476,36 +506,6 @@
       <category>美伊对峙</category>
       <category>舆论热点</category>
       <source url="https://www.ncr-iran.org/en/news/iran-resistance/the-1953-coup-and-its-warning-for-todays-iran/">ncr-iran.org</source>
-    </item>
-    <item>
-      <title>[俄乌战争] RUSSIAN → UKRAINIAN : Use conventional military force, not specified below (Russia)</title>
-      <link>https://www.techradar.com/pro/ubiquiti-sued-by-ukrainian-families-over-claims-its-tech-powered-russian-battlefield-drones</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: RUSSIAN / UKRAINIAN. Location: Russia. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">https://www.techradar.com/pro/ubiquiti-sued-by-ukrainian-families-over-claims-its-tech-powered-russian-battlefield-drones</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://www.techradar.com/pro/ubiquiti-sued-by-ukrainian-families-over-claims-its-tech-powered-russian-battlefield-drones">techradar.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] VILLAGER → nan : Use conventional military force, not specified below (Sumy, Sums'ka Oblast', Ukraine)</title>
-      <link>https://albaniandailynews.com/news/russia-warns-uk-will-pay-for-supplying-drones-to-ukraine</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: VILLAGER / nan. Location: Sumy, Sums'ka Oblast', Ukraine. Goldstein Scale: -10.0. Mentioned in 5 sources.</description>
-      <guid isPermaLink="true">https://albaniandailynews.com/news/russia-warns-uk-will-pay-for-supplying-drones-to-ukraine</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://albaniandailynews.com/news/russia-warns-uk-will-pay-for-supplying-drones-to-ukraine">albaniandailynews.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] RUSSIA → nan : Impose administrative sanctions, not specified below (Poland)</title>
-      <link>http://www.centralasiatimes.com/news/279249598/belarus-criminal-cases-against-exiled-religious-freedom-defenders</link>
-      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: RUSSIA / nan. Location: Poland. Goldstein Scale: -5.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">http://www.centralasiatimes.com/news/279249598/belarus-criminal-cases-against-exiled-religious-freedom-defenders</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>外交谈判</category>
-      <source url="http://www.centralasiatimes.com/news/279249598/belarus-criminal-cases-against-exiled-religious-freedom-defenders">centralasiatimes.com</source>
     </item>
   </channel>
 </rss>
