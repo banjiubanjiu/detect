@@ -5,8 +5,38 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 30 Aug 2026 11:35:35 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 13:06:18 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] UKRAINE → VLADIMIR PUTIN : Fight with artillery and tanks (Ukraine)</title>
+      <link>https://www.dailymail.com/news/article-16090147/Britains-defence-firms-supply-weapons-Ukraine-warned-Russian-spy-threat.html</link>
+      <description>GDELT Event: Fight with artillery and tanks. Actors: UKRAINE / VLADIMIR PUTIN. Location: Ukraine. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.dailymail.com/news/article-16090147/Britains-defence-firms-supply-weapons-Ukraine-warned-Russian-spy-threat.html</guid>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.dailymail.com/news/article-16090147/Britains-defence-firms-supply-weapons-Ukraine-warned-Russian-spy-threat.html">dailymail.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAELI → PALESTINIAN : Use conventional military force, not specified below (Gaza, Israel (general), Israel)</title>
+      <link>https://www.durangoherald.com/articles/associated-press/netanyahu-condemns-rioters-after-weeks-of-west-bank-settler-violence-and-other-middle-east-news/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAELI / PALESTINIAN. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 3 sources.</description>
+      <guid isPermaLink="true">https://www.durangoherald.com/articles/associated-press/netanyahu-condemns-rioters-after-weeks-of-west-bank-settler-violence-and-other-middle-east-news/</guid>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.durangoherald.com/articles/associated-press/netanyahu-condemns-rioters-after-weeks-of-west-bank-settler-violence-and-other-middle-east-news/">durangoherald.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAEL → ISRAEL : Physically assault, not specified below (Gaza City, Israel (general), Israel)</title>
+      <link>https://www.freemalaysiatoday.com/category/highlight/2026/08/30/israeli-army-says-struck-hamas-commander-in-gaza-hospital-compound</link>
+      <description>GDELT Event: Physically assault, not specified below. Actors: ISRAEL / ISRAEL. Location: Gaza City, Israel (general), Israel. Goldstein Scale: -9.5. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.freemalaysiatoday.com/category/highlight/2026/08/30/israeli-army-says-struck-hamas-commander-in-gaza-hospital-compound</guid>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.freemalaysiatoday.com/category/highlight/2026/08/30/israeli-army-says-struck-hamas-commander-in-gaza-hospital-compound">freemalaysiatoday.com</source>
+    </item>
     <item>
       <title>[俄乌战争] POLICE → RUSSIAN : Arrest, detain, or charge with legal action (Russia)</title>
       <link>https://www.eng.kavkaz-uzel.eu/articles/78112</link>
@@ -476,36 +506,6 @@
       <category>巴以冲突</category>
       <category>舆论热点</category>
       <source url="https://www.indiatimes.com/trending/sarah-j-maas-announces-new-acotar-books-but-old-breonna-taylor-post-and-zionism-accusations-resurface-amid-fan-backlash/articleshow/133357153.html">indiatimes.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] DEMONSTRATOR → ISRAELI : Protest violently, riot (United States)</title>
-      <link>https://www.algemeiner.com/2026/08/19/how-iran-extended-ideological-influence-pakistan-kashmir/</link>
-      <description>GDELT Event: Protest violently, riot. Actors: DEMONSTRATOR / ISRAELI. Location: United States. Goldstein Scale: -7.5. Mentioned in 6 sources.</description>
-      <guid isPermaLink="true">https://www.algemeiner.com/2026/08/19/how-iran-extended-ideological-influence-pakistan-kashmir/</guid>
-      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>舆论热点</category>
-      <source url="https://www.algemeiner.com/2026/08/19/how-iran-extended-ideological-influence-pakistan-kashmir/">algemeiner.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] EMIRATI → IRAN : Fight with artillery and tanks (Tehran, Tehran, Iran)</title>
-      <link>https://www.breitbart.com/national-security/2026/08/19/uae-suspends-all-trade-with-fellow-brics-member-iran-after-latest-missile-attack/</link>
-      <description>GDELT Event: Fight with artillery and tanks. Actors: EMIRATI / IRAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://www.breitbart.com/national-security/2026/08/19/uae-suspends-all-trade-with-fellow-brics-member-iran-after-latest-missile-attack/</guid>
-      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://www.breitbart.com/national-security/2026/08/19/uae-suspends-all-trade-with-fellow-brics-member-iran-after-latest-missile-attack/">breitbart.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] IRANIAN → IRAN : Demonstrate or rally (Tehran, Tehran, Iran)</title>
-      <link>https://www.ncr-iran.org/en/news/iran-resistance/the-1953-coup-and-its-warning-for-todays-iran/</link>
-      <description>GDELT Event: Demonstrate or rally. Actors: IRANIAN / IRAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -6.5. Mentioned in 6 sources.</description>
-      <guid isPermaLink="true">https://www.ncr-iran.org/en/news/iran-resistance/the-1953-coup-and-its-warning-for-todays-iran/</guid>
-      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>舆论热点</category>
-      <source url="https://www.ncr-iran.org/en/news/iran-resistance/the-1953-coup-and-its-warning-for-todays-iran/">ncr-iran.org</source>
     </item>
   </channel>
 </rss>

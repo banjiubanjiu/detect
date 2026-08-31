@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T11:35:53.347583+00:00",
+  "updated_at": "2026-08-31T13:06:34.657104+00:00",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -905,6 +905,105 @@
                 "geo_lat": 49.0,
                 "geo_lon": 32.0,
                 "geo_name": "Ukraine"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1320655736",
+              "title": "RUSSIA → AUTHORITIES : Fight with artillery and tanks (Ukraine)",
+              "title_en": "RUSSIA → AUTHORITIES : Fight with artillery and tanks (Ukraine)",
+              "summary": "GDELT Event: Fight with artillery and tanks. Actors: RUSSIA / AUTHORITIES. Location: Ukraine. Goldstein Scale: -10.0. Mentioned in 5 sources.",
+              "summary_en": "GDELT Event: Fight with artillery and tanks. Actors: RUSSIA / AUTHORITIES. Location: Ukraine. Goldstein Scale: -10.0. Mentioned in 5 sources.",
+              "source": "gdelt",
+              "source_label": "arabnews.com",
+              "date": "2026-08-30",
+              "url": "https://www.arabnews.com/node/2656379/world",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 5,
+                "sources": 1,
+                "articles": 5,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1320655736",
+                "event_code": "194",
+                "cameo_desc": "Fight with artillery and tanks",
+                "actor1": "RUSSIA",
+                "actor2": "AUTHORITIES",
+                "actor1_country": "RUS",
+                "actor2_country": "nan",
+                "geo_lat": 49.0,
+                "geo_lon": 32.0,
+                "geo_name": "Ukraine"
+              },
+              "admiralty_source": "B",
+              "admiralty_info": 3,
+              "admiralty_code": "B3"
+            },
+            {
+              "id": "gdelt_1320655738",
+              "title": "RUSSIAN → KIEV : Use conventional military force, not specified below (Myla, Komi, Russia)",
+              "title_en": "RUSSIAN → KIEV : Use conventional military force, not specified below (Myla, Komi, Russia)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: RUSSIAN / KIEV. Location: Myla, Komi, Russia. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: RUSSIAN / KIEV. Location: Myla, Komi, Russia. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "source": "gdelt",
+              "source_label": "sott.net",
+              "date": "2026-08-30",
+              "url": "https://www.sott.net/article/508155-Zelensky-passes-buck-over-civilian-deaths-after-drone-depot-blast",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 3,
+                "sources": 1,
+                "articles": 3,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1320655738",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "RUSSIAN",
+                "actor2": "KIEV",
+                "actor1_country": "RUS",
+                "actor2_country": "UKR",
+                "geo_lat": 65.423,
+                "geo_lon": 50.8783,
+                "geo_name": "Myla, Komi, Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1320655740",
+              "title": "UKRAINE → MILITARY : Use conventional military force, not specified below (Warsaw, (PL67), Poland)",
+              "title_en": "UKRAINE → MILITARY : Use conventional military force, not specified below (Warsaw, (PL67), Poland)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: UKRAINE / MILITARY. Location: Warsaw, (PL67), Poland. Goldstein Scale: -10.0. Mentioned in 1 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: UKRAINE / MILITARY. Location: Warsaw, (PL67), Poland. Goldstein Scale: -10.0. Mentioned in 1 sources.",
+              "source": "gdelt",
+              "source_label": "sott.net",
+              "date": "2026-08-30",
+              "url": "https://www.sott.net/article/508156-Polish-MEP-Kiev-spits-into-our-face-by-glorifying-Nazi-collaborators-behind-massacres-of-Poles",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 1,
+                "sources": 1,
+                "articles": 1,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1320655740",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "UKRAINE",
+                "actor2": "MILITARY",
+                "actor1_country": "UKR",
+                "actor2_country": "nan",
+                "geo_lat": 52.25,
+                "geo_lon": 21.0,
+                "geo_name": "Warsaw, (PL67), Poland"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -2738,6 +2837,72 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1320655634",
+              "title": "GOVERNMENT → ISRAELI : Engage in ethnic cleansing (Gaza, Israel (general), Israel)",
+              "title_en": "GOVERNMENT → ISRAELI : Engage in ethnic cleansing (Gaza, Israel (general), Israel)",
+              "summary": "GDELT Event: Engage in ethnic cleansing. Actors: GOVERNMENT / ISRAELI. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "summary_en": "GDELT Event: Engage in ethnic cleansing. Actors: GOVERNMENT / ISRAELI. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "source": "gdelt",
+              "source_label": "yourdemocracy.net",
+              "date": "2026-08-30",
+              "url": "https://yourdemocracy.net/drupal/node/60988",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 8,
+                "sources": 1,
+                "articles": 8,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1320655634",
+                "event_code": "203",
+                "cameo_desc": "Engage in ethnic cleansing",
+                "actor1": "GOVERNMENT",
+                "actor2": "ISRAELI",
+                "actor1_country": "nan",
+                "actor2_country": "ISR",
+                "geo_lat": 31.4167,
+                "geo_lon": 34.3333,
+                "geo_name": "Gaza, Israel (general), Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1320655673",
+              "title": "ISRAELI → LEBANON : Use conventional military force, not specified below (Tehran, Tehran, Iran)",
+              "title_en": "ISRAELI → LEBANON : Use conventional military force, not specified below (Tehran, Tehran, Iran)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAELI / LEBANON. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAELI / LEBANON. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "northerndailyleader.com.au",
+              "date": "2026-08-30",
+              "url": "https://www.northerndailyleader.com.au/story/9340235/us-strikes-iranian-rocket-launchers-in-strait-of-hormuz/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1320655673",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "ISRAELI",
+                "actor2": "LEBANON",
+                "actor1_country": "ISR",
+                "actor2_country": "LBN",
+                "geo_lat": 35.75,
+                "geo_lon": 51.5148,
+                "geo_name": "Tehran, Tehran, Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -3842,6 +4007,72 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1320655770",
+              "title": "THE US → IRAN : Use conventional military force, not specified below (Larak, Khorasan-e Janubi, Iran)",
+              "title_en": "THE US → IRAN : Use conventional military force, not specified below (Larak, Khorasan-e Janubi, Iran)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: THE US / IRAN. Location: Larak, Khorasan-e Janubi, Iran. Goldstein Scale: -10.0. Mentioned in 20 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: THE US / IRAN. Location: Larak, Khorasan-e Janubi, Iran. Goldstein Scale: -10.0. Mentioned in 20 sources.",
+              "source": "gdelt",
+              "source_label": "express.co.uk",
+              "date": "2026-08-30",
+              "url": "https://www.express.co.uk/news/world/2243960/uae-issues-warning-security-threat",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 20,
+                "sources": 2,
+                "articles": 20,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1320655770",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "THE US",
+                "actor2": "IRAN",
+                "actor1_country": "USA",
+                "actor2_country": "IRN",
+                "geo_lat": 31.8706,
+                "geo_lon": 59.9008,
+                "geo_name": "Larak, Khorasan-e Janubi, Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1320655664",
+              "title": "IRANIAN → MILITARY : Use conventional military force, not specified below (Tehran, Tehran, Iran)",
+              "title_en": "IRANIAN → MILITARY : Use conventional military force, not specified below (Tehran, Tehran, Iran)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: IRANIAN / MILITARY. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 5 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: IRANIAN / MILITARY. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 5 sources.",
+              "source": "gdelt",
+              "source_label": "upi.com",
+              "date": "2026-08-30",
+              "url": "https://www.upi.com/Top_News/US/2026/08/30/forces-strike-Iran-island-first-military-attack-in-weeks/5221788123787/",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 5,
+                "sources": 1,
+                "articles": 5,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1320655664",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "IRANIAN",
+                "actor2": "MILITARY",
+                "actor1_country": "IRN",
+                "actor2_country": "nan",
+                "geo_lat": 35.75,
+                "geo_lon": 51.5148,
+                "geo_name": "Tehran, Tehran, Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -4841,13 +5072,13 @@
     }
   },
   "stats": {
-    "total_items": 134,
+    "total_items": 141,
     "sources": {
-      "gdelt": 134
+      "gdelt": 141
     },
     "date_range": {
-      "from": "2026-07-31",
-      "to": "2026-08-30"
+      "from": "2026-08-01",
+      "to": "2026-08-31"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
