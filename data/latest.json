@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T13:06:34.657104+00:00",
+  "updated_at": "2026-09-01T11:24:24.017237+00:00",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -1004,6 +1004,72 @@
                 "geo_lat": 52.25,
                 "geo_lon": 21.0,
                 "geo_name": "Warsaw, (PL67), Poland"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1320816770",
+              "title": "RUSSIAN → UKRAINIAN : Employ aerial weapons (Kramatorsk, Donets'ka Oblast', Ukraine)",
+              "title_en": "RUSSIAN → UKRAINIAN : Employ aerial weapons (Kramatorsk, Donets'ka Oblast', Ukraine)",
+              "summary": "GDELT Event: Employ aerial weapons. Actors: RUSSIAN / UKRAINIAN. Location: Kramatorsk, Donets'ka Oblast', Ukraine. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "summary_en": "GDELT Event: Employ aerial weapons. Actors: RUSSIAN / UKRAINIAN. Location: Kramatorsk, Donets'ka Oblast', Ukraine. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "source": "gdelt",
+              "source_label": "dailymail.com",
+              "date": "2026-08-31",
+              "url": "https://www.dailymail.com/news/article-16093667/squirming-Putin-endless-war-end-India-Modi.html",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 3,
+                "sources": 1,
+                "articles": 3,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1320816770",
+                "event_code": "195",
+                "cameo_desc": "Employ aerial weapons",
+                "actor1": "RUSSIAN",
+                "actor2": "UKRAINIAN",
+                "actor1_country": "RUS",
+                "actor2_country": "UKR",
+                "geo_lat": 48.723,
+                "geo_lon": 37.5563,
+                "geo_name": "Kramatorsk, Donets'ka Oblast', Ukraine"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1320816820",
+              "title": "UKRAINE → RUSSIA : Use conventional military force, not specified below (Russia)",
+              "title_en": "UKRAINE → RUSSIA : Use conventional military force, not specified below (Russia)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: UKRAINE / RUSSIA. Location: Russia. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: UKRAINE / RUSSIA. Location: Russia. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "sott.net",
+              "date": "2026-08-31",
+              "url": "https://www.sott.net/article/508180-Ukrainian-Orthodox-Church-Kievs-soldiers-likely-behind-monks-murder",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1320816820",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "UKRAINE",
+                "actor2": "RUSSIA",
+                "actor1_country": "UKR",
+                "actor2_country": "RUS",
+                "geo_lat": 60.0,
+                "geo_lon": 100.0,
+                "geo_name": "Russia"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -2903,6 +2969,105 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1320816517",
+              "title": "ISRAELI → WEST BANK : Engage in ethnic cleansing (West Bank)",
+              "title_en": "ISRAELI → WEST BANK : Engage in ethnic cleansing (West Bank)",
+              "summary": "GDELT Event: Engage in ethnic cleansing. Actors: ISRAELI / WEST BANK. Location: West Bank. Goldstein Scale: -10.0. Mentioned in 7 sources.",
+              "summary_en": "GDELT Event: Engage in ethnic cleansing. Actors: ISRAELI / WEST BANK. Location: West Bank. Goldstein Scale: -10.0. Mentioned in 7 sources.",
+              "source": "gdelt",
+              "source_label": "dailysabah.com",
+              "date": "2026-08-31",
+              "url": "https://www.dailysabah.com/world/mid-east/ex-israeli-officials-call-west-bank-settler-violence-ethnic-cleansing",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 7,
+                "sources": 1,
+                "articles": 7,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1320816517",
+                "event_code": "203",
+                "cameo_desc": "Engage in ethnic cleansing",
+                "actor1": "ISRAELI",
+                "actor2": "WEST BANK",
+                "actor1_country": "ISR",
+                "actor2_country": "PSE",
+                "geo_lat": 31.666667,
+                "geo_lon": 35.25,
+                "geo_name": "West Bank"
+              },
+              "admiralty_source": "B",
+              "admiralty_info": 3,
+              "admiralty_code": "B3"
+            },
+            {
+              "id": "gdelt_1320816546",
+              "title": "JEWISH → ISRAEL : Use conventional military force, not specified below (Israel)",
+              "title_en": "JEWISH → ISRAEL : Use conventional military force, not specified below (Israel)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: JEWISH / ISRAEL. Location: Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: JEWISH / ISRAEL. Location: Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "algemeiner.com",
+              "date": "2026-08-31",
+              "url": "https://www.algemeiner.com/2026/08/31/el-sayed-attempts-mend-fences-jewish-voters-fundraiser-announces-hire-jewish-liaison/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1320816546",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "JEWISH",
+                "actor2": "ISRAEL",
+                "actor1_country": "nan",
+                "actor2_country": "ISR",
+                "geo_lat": 31.5,
+                "geo_lon": 34.75,
+                "geo_name": "Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1320816526",
+              "title": "ISRAEL → FEDERAL COURT : Use conventional military force, not specified below (Chicago, Illinois, United States)",
+              "title_en": "ISRAEL → FEDERAL COURT : Use conventional military force, not specified below (Chicago, Illinois, United States)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / FEDERAL COURT. Location: Chicago, Illinois, United States. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / FEDERAL COURT. Location: Chicago, Illinois, United States. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "source": "gdelt",
+              "source_label": "algemeiner.com",
+              "date": "2026-08-31",
+              "url": "https://www.algemeiner.com/2026/08/31/academics-who-supported-bds-before-oct-7-attack-more-likely-accuse-israel-genocide-now-new-study-finds/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 3,
+                "sources": 1,
+                "articles": 3,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1320816526",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "ISRAEL",
+                "actor2": "FEDERAL COURT",
+                "actor1_country": "ISR",
+                "actor2_country": "nan",
+                "geo_lat": 41.85,
+                "geo_lon": -87.6501,
+                "geo_name": "Chicago, Illinois, United States"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -3239,6 +3404,39 @@
               "admiralty_source": "B",
               "admiralty_info": 3,
               "admiralty_code": "B3"
+            },
+            {
+              "id": "gdelt_1320816518",
+              "title": "ISRAEL → TURKISH : Arrest, detain, or charge with legal action (Gaza, Israel (general), Israel)",
+              "title_en": "ISRAEL → TURKISH : Arrest, detain, or charge with legal action (Gaza, Israel (general), Israel)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: ISRAEL / TURKISH. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 1 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: ISRAEL / TURKISH. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 1 sources.",
+              "source": "gdelt",
+              "source_label": "algemeiner.com",
+              "date": "2026-08-31",
+              "url": "https://www.algemeiner.com/2026/08/31/israel-greece-sign-3-5-billion-air-defense-deal-tensions-turkey-continue-rise/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 1,
+                "sources": 1,
+                "articles": 1,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1320816518",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "ISRAEL",
+                "actor2": "TURKISH",
+                "actor1_country": "ISR",
+                "actor2_country": "TUR",
+                "geo_lat": 31.4167,
+                "geo_lon": 34.3333,
+                "geo_name": "Gaza, Israel (general), Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -4765,6 +4963,40 @@
               "admiralty_info": 3,
               "admiralty_code": "C3",
               "criticality": "background"
+            },
+            {
+              "id": "gdelt_1320816613",
+              "title": "PARLIAMENT → nan : Occupy territory (Damascus, Dimashq, Syria)",
+              "title_en": "PARLIAMENT → nan : Occupy territory (Damascus, Dimashq, Syria)",
+              "summary": "GDELT Event: Occupy territory. Actors: PARLIAMENT / nan. Location: Damascus, Dimashq, Syria. Goldstein Scale: -9.5. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Occupy territory. Actors: PARLIAMENT / nan. Location: Damascus, Dimashq, Syria. Goldstein Scale: -9.5. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "dailysabah.com",
+              "date": "2026-08-31",
+              "url": "https://www.dailysabah.com/opinion/columns/domestic-regional-nexus-behind-turkiyes-new-pkk-process",
+              "primary_conflict": "syria",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -9.5
+              },
+              "gdelt_meta": {
+                "event_id": "1320816613",
+                "event_code": "192",
+                "cameo_desc": "Occupy territory",
+                "actor1": "PARLIAMENT",
+                "actor2": "nan",
+                "actor1_country": "nan",
+                "actor2_country": "nan",
+                "geo_lat": 33.5,
+                "geo_lon": 36.3,
+                "geo_name": "Damascus, Dimashq, Syria"
+              },
+              "admiralty_source": "B",
+              "admiralty_info": 3,
+              "admiralty_code": "B3",
+              "criticality": "background"
             }
           ]
         },
@@ -5072,13 +5304,13 @@
     }
   },
   "stats": {
-    "total_items": 141,
+    "total_items": 148,
     "sources": {
-      "gdelt": 141
+      "gdelt": 148
     },
     "date_range": {
-      "from": "2026-08-01",
-      "to": "2026-08-31"
+      "from": "2026-08-02",
+      "to": "2026-09-01"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
