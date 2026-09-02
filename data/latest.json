@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T11:24:24.017237+00:00",
+  "updated_at": "2026-09-02T10:58:13.252289+00:00",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -3068,6 +3068,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1321002585",
+              "title": "UNITED STATES → COMMANDER : Use conventional military force, not specified below (Israel)",
+              "title_en": "UNITED STATES → COMMANDER : Use conventional military force, not specified below (Israel)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: UNITED STATES / COMMANDER. Location: Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: UNITED STATES / COMMANDER. Location: Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "nypost.com",
+              "date": "2026-09-01",
+              "url": "https://nypost.com/2026/09/01/opinion/democrats-are-selling-their-souls-by-accepting-abdul-el-sayed/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1321002585",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "UNITED STATES",
+                "actor2": "COMMANDER",
+                "actor1_country": "USA",
+                "actor2_country": "nan",
+                "geo_lat": 31.5,
+                "geo_lon": 34.75,
+                "geo_name": "Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -3433,6 +3466,39 @@
                 "geo_lat": 31.4167,
                 "geo_lon": 34.3333,
                 "geo_name": "Gaza, Israel (general), Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1321002528",
+              "title": "UNITED STATES → STUDENT : Arrest, detain, or charge with legal action (Israel)",
+              "title_en": "UNITED STATES → STUDENT : Arrest, detain, or charge with legal action (Israel)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: UNITED STATES / STUDENT. Location: Israel. Goldstein Scale: -5.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: UNITED STATES / STUDENT. Location: Israel. Goldstein Scale: -5.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "newsbusters.org",
+              "date": "2026-09-01",
+              "url": "https://newsbusters.org/blogs/nb/nicholas-spinnato/2026/08/31/cnns-goldberg-calls-out-medias-dsa-coverage-after-el-sayed",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1321002528",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "UNITED STATES",
+                "actor2": "STUDENT",
+                "actor1_country": "USA",
+                "actor2_country": "nan",
+                "geo_lat": 31.5,
+                "geo_lon": 34.75,
+                "geo_name": "Israel"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -4271,6 +4337,138 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1321002281",
+              "title": "IRAN → BAHRAIN : Use conventional military force, not specified below (Bahrain)",
+              "title_en": "IRAN → BAHRAIN : Use conventional military force, not specified below (Bahrain)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: IRAN / BAHRAIN. Location: Bahrain. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: IRAN / BAHRAIN. Location: Bahrain. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "middleeasteye.net",
+              "date": "2026-09-01",
+              "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-it-launched-drone-attacks-us-base-bahrain",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1321002281",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "IRAN",
+                "actor2": "BAHRAIN",
+                "actor1_country": "IRN",
+                "actor2_country": "BHR",
+                "geo_lat": 26.0,
+                "geo_lon": 50.5,
+                "geo_name": "Bahrain"
+              },
+              "admiralty_source": "B",
+              "admiralty_info": 3,
+              "admiralty_code": "B3"
+            },
+            {
+              "id": "gdelt_1321002314",
+              "title": "JORDANIAN → POPULATION : Use conventional military force, not specified below (Iran)",
+              "title_en": "JORDANIAN → POPULATION : Use conventional military force, not specified below (Iran)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: JORDANIAN / POPULATION. Location: Iran. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: JORDANIAN / POPULATION. Location: Iran. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "middleeasteye.net",
+              "date": "2026-09-01",
+              "url": "https://www.middleeasteye.net/live-blog/live-blog-update/no-us-casualties-reported-so-far-iran-attack-jordan-facilities-officials",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1321002314",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "JORDANIAN",
+                "actor2": "POPULATION",
+                "actor1_country": "JOR",
+                "actor2_country": "nan",
+                "geo_lat": 32.0,
+                "geo_lon": 53.0,
+                "geo_name": "Iran"
+              },
+              "admiralty_source": "B",
+              "admiralty_info": 3,
+              "admiralty_code": "B3"
+            },
+            {
+              "id": "gdelt_1321002293",
+              "title": "IRAN → FARS NEWS : Fight with artillery and tanks (Tehran, Tehran, Iran)",
+              "title_en": "IRAN → FARS NEWS : Fight with artillery and tanks (Tehran, Tehran, Iran)",
+              "summary": "GDELT Event: Fight with artillery and tanks. Actors: IRAN / FARS NEWS. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Fight with artillery and tanks. Actors: IRAN / FARS NEWS. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "dailysabah.com",
+              "date": "2026-09-01",
+              "url": "https://www.dailysabah.com/world/mid-east/us-iran-trade-strikes-as-renewed-fighting-fuels-gulf-tensions",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1321002293",
+                "event_code": "194",
+                "cameo_desc": "Fight with artillery and tanks",
+                "actor1": "IRAN",
+                "actor2": "FARS NEWS",
+                "actor1_country": "IRN",
+                "actor2_country": "IRN",
+                "geo_lat": 35.75,
+                "geo_lon": 51.5148,
+                "geo_name": "Tehran, Tehran, Iran"
+              },
+              "admiralty_source": "B",
+              "admiralty_info": 3,
+              "admiralty_code": "B3"
+            },
+            {
+              "id": "gdelt_1321002360",
+              "title": "MILITARY → IRAN : Use conventional military force, not specified below (Hormozgan Province, Hormozgan, Iran)",
+              "title_en": "MILITARY → IRAN : Use conventional military force, not specified below (Hormozgan Province, Hormozgan, Iran)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: MILITARY / IRAN. Location: Hormozgan Province, Hormozgan, Iran. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: MILITARY / IRAN. Location: Hormozgan Province, Hormozgan, Iran. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "postregister.com",
+              "date": "2026-09-01",
+              "url": "http://www.postregister.com/news/national/the-latest-us-and-iran-exchange-fire-after-abrupt-end-to-month-without-military-action/article_53bf3714-c1ff-5ef1-9eca-a28ddcf4fbfc.html",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 10,
+                "sources": 2,
+                "articles": 10,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1321002360",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "MILITARY",
+                "actor2": "IRAN",
+                "actor1_country": "nan",
+                "actor2_country": "IRN",
+                "geo_lat": 27.75,
+                "geo_lon": 56.5,
+                "geo_name": "Hormozgan Province, Hormozgan, Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -4438,6 +4636,39 @@
                 "geo_lat": 32.0,
                 "geo_lon": 53.0,
                 "geo_name": "Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1321002109",
+              "title": "PRISON → nan : Arrest, detain, or charge with legal action (Tehran, Tehran, Iran)",
+              "title_en": "PRISON → nan : Arrest, detain, or charge with legal action (Tehran, Tehran, Iran)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: PRISON / nan. Location: Tehran, Tehran, Iran. Goldstein Scale: -5.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: PRISON / nan. Location: Tehran, Tehran, Iran. Goldstein Scale: -5.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "whmi.com",
+              "date": "2026-09-01",
+              "url": "https://www.whmi.com/news/fox/one-glaring-issue-goes-unaddressed-un-chiefs-high-stakes-talks-irans-president",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1321002109",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "PRISON",
+                "actor2": "nan",
+                "actor1_country": "nan",
+                "actor2_country": "nan",
+                "geo_lat": 35.75,
+                "geo_lon": 51.5148,
+                "geo_name": "Tehran, Tehran, Iran"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -5304,13 +5535,13 @@
     }
   },
   "stats": {
-    "total_items": 148,
+    "total_items": 155,
     "sources": {
-      "gdelt": 148
+      "gdelt": 155
     },
     "date_range": {
-      "from": "2026-08-02",
-      "to": "2026-09-01"
+      "from": "2026-08-03",
+      "to": "2026-09-02"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
