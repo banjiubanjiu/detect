@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T10:58:13.252289+00:00",
+  "updated_at": "2026-09-03T10:58:33.535642+00:00",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -1070,6 +1070,105 @@
                 "geo_lat": 60.0,
                 "geo_lon": 100.0,
                 "geo_name": "Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1321194773",
+              "title": "RUSSIAN → UKRAINE : Use conventional military force, not specified below (Berlin, Berlin, Germany)",
+              "title_en": "RUSSIAN → UKRAINE : Use conventional military force, not specified below (Berlin, Berlin, Germany)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: RUSSIAN / UKRAINE. Location: Berlin, Berlin, Germany. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: RUSSIAN / UKRAINE. Location: Berlin, Berlin, Germany. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "kyivpost.com",
+              "date": "2026-09-02",
+              "url": "https://www.kyivpost.com/post/83609",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1321194773",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "RUSSIAN",
+                "actor2": "UKRAINE",
+                "actor1_country": "RUS",
+                "actor2_country": "UKR",
+                "geo_lat": 52.5167,
+                "geo_lon": 13.4,
+                "geo_name": "Berlin, Berlin, Germany"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1321194942",
+              "title": "UNITED STATES → UKRAINIAN : Abduct, hijack, or take hostage (Colombo, Western, Sri Lanka)",
+              "title_en": "UNITED STATES → UKRAINIAN : Abduct, hijack, or take hostage (Colombo, Western, Sri Lanka)",
+              "summary": "GDELT Event: Abduct, hijack, or take hostage. Actors: UNITED STATES / UKRAINIAN. Location: Colombo, Western, Sri Lanka. Goldstein Scale: -9.0. Mentioned in 1 sources.",
+              "summary_en": "GDELT Event: Abduct, hijack, or take hostage. Actors: UNITED STATES / UKRAINIAN. Location: Colombo, Western, Sri Lanka. Goldstein Scale: -9.0. Mentioned in 1 sources.",
+              "source": "gdelt",
+              "source_label": "foxnews.com",
+              "date": "2026-09-02",
+              "url": "https://www.foxnews.com/media/dhs-boss-reveals-oval-office-plan-withhold-funding-sanctuary-cities-aggressive-new-york-bust",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 1,
+                "sources": 1,
+                "articles": 1,
+                "goldstein": -9.0
+              },
+              "gdelt_meta": {
+                "event_id": "1321194942",
+                "event_code": "181",
+                "cameo_desc": "Abduct, hijack, or take hostage",
+                "actor1": "UNITED STATES",
+                "actor2": "UKRAINIAN",
+                "actor1_country": "USA",
+                "actor2_country": "UKR",
+                "geo_lat": 6.93194,
+                "geo_lon": 79.8478,
+                "geo_name": "Colombo, Western, Sri Lanka"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1321194944",
+              "title": "UNITED STATES → UKRAINIAN : Abduct, hijack, or take hostage (New York, United States)",
+              "title_en": "UNITED STATES → UKRAINIAN : Abduct, hijack, or take hostage (New York, United States)",
+              "summary": "GDELT Event: Abduct, hijack, or take hostage. Actors: UNITED STATES / UKRAINIAN. Location: New York, United States. Goldstein Scale: -9.0. Mentioned in 1 sources.",
+              "summary_en": "GDELT Event: Abduct, hijack, or take hostage. Actors: UNITED STATES / UKRAINIAN. Location: New York, United States. Goldstein Scale: -9.0. Mentioned in 1 sources.",
+              "source": "gdelt",
+              "source_label": "kotaradio.com",
+              "date": "2026-09-02",
+              "url": "https://www.kotaradio.com/2026/09/02/dhs-boss-reveals-oval-office-plan-to-withhold-funding-from-sanctuary-cities-after-aggressive-new-york-bust/",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 1,
+                "sources": 1,
+                "articles": 1,
+                "goldstein": -9.0
+              },
+              "gdelt_meta": {
+                "event_id": "1321194944",
+                "event_code": "181",
+                "cameo_desc": "Abduct, hijack, or take hostage",
+                "actor1": "UNITED STATES",
+                "actor2": "UKRAINIAN",
+                "actor1_country": "USA",
+                "actor2_country": "UKR",
+                "geo_lat": 42.1497,
+                "geo_lon": -74.9384,
+                "geo_name": "New York, United States"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -3101,6 +3200,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1321194478",
+              "title": "COMMUNITY → ISRAEL : Use conventional military force, not specified below (Shibli, Ha?afon, Israel)",
+              "title_en": "COMMUNITY → ISRAEL : Use conventional military force, not specified below (Shibli, Ha?afon, Israel)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: COMMUNITY / ISRAEL. Location: Shibli, Ha?afon, Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: COMMUNITY / ISRAEL. Location: Shibli, Ha?afon, Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "i24news.tv",
+              "date": "2026-09-02",
+              "url": "https://www.i24news.tv/en/news/israel/society/artc-three-murdered-in-nazareth-as-gangs-fight-for-power",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1321194478",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "COMMUNITY",
+                "actor2": "ISRAEL",
+                "actor1_country": "nan",
+                "actor2_country": "ISR",
+                "geo_lat": 32.6946,
+                "geo_lon": 35.3925,
+                "geo_name": "Shibli, Ha?afon, Israel"
+              },
+              "admiralty_source": "B",
+              "admiralty_info": 3,
+              "admiralty_code": "B3"
             }
           ]
         },
@@ -5516,6 +5648,40 @@
               "admiralty_info": 3,
               "admiralty_code": "C3",
               "criticality": "background"
+            },
+            {
+              "id": "gdelt_1321194408",
+              "title": "CHINESE → REGIME : Confiscate property (Taiwan)",
+              "title_en": "CHINESE → REGIME : Confiscate property (Taiwan)",
+              "summary": "GDELT Event: Confiscate property. Actors: CHINESE / REGIME. Location: Taiwan. Goldstein Scale: -9.2. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Confiscate property. Actors: CHINESE / REGIME. Location: Taiwan. Goldstein Scale: -9.2. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "theepochtimes.com",
+              "date": "2026-09-02",
+              "url": "https://www.theepochtimes.com/china/ccp-expands-national-defense-law-for-conscription-of-citizens-seizure-of-assets-6082666",
+              "primary_conflict": "taiwan-strait",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -9.2
+              },
+              "gdelt_meta": {
+                "event_id": "1321194408",
+                "event_code": "1711",
+                "cameo_desc": "Confiscate property",
+                "actor1": "CHINESE",
+                "actor2": "REGIME",
+                "actor1_country": "CHN",
+                "actor2_country": "nan",
+                "geo_lat": 24.0,
+                "geo_lon": 121.0,
+                "geo_name": "Taiwan"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3",
+              "criticality": "background"
             }
           ]
         },
@@ -5535,13 +5701,13 @@
     }
   },
   "stats": {
-    "total_items": 155,
+    "total_items": 160,
     "sources": {
-      "gdelt": 155
+      "gdelt": 160
     },
     "date_range": {
-      "from": "2026-08-03",
-      "to": "2026-09-02"
+      "from": "2026-08-04",
+      "to": "2026-09-03"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",

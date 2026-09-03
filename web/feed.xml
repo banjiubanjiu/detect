@@ -5,8 +5,78 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 02 Sep 2026 10:57:57 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 10:58:16 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[巴以冲突] UNITED STATES → COMMANDER : Use conventional military force, not specified below (Israel)</title>
+      <link>https://nypost.com/2026/09/01/opinion/democrats-are-selling-their-souls-by-accepting-abdul-el-sayed/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: UNITED STATES / COMMANDER. Location: Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://nypost.com/2026/09/01/opinion/democrats-are-selling-their-souls-by-accepting-abdul-el-sayed/</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://nypost.com/2026/09/01/opinion/democrats-are-selling-their-souls-by-accepting-abdul-el-sayed/">nypost.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] UNITED STATES → STUDENT : Arrest, detain, or charge with legal action (Israel)</title>
+      <link>https://newsbusters.org/blogs/nb/nicholas-spinnato/2026/08/31/cnns-goldberg-calls-out-medias-dsa-coverage-after-el-sayed</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: UNITED STATES / STUDENT. Location: Israel. Goldstein Scale: -5.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://newsbusters.org/blogs/nb/nicholas-spinnato/2026/08/31/cnns-goldberg-calls-out-medias-dsa-coverage-after-el-sayed</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>外交谈判</category>
+      <source url="https://newsbusters.org/blogs/nb/nicholas-spinnato/2026/08/31/cnns-goldberg-calls-out-medias-dsa-coverage-after-el-sayed">newsbusters.org</source>
+    </item>
+    <item>
+      <title>[美伊对峙] IRAN → BAHRAIN : Use conventional military force, not specified below (Bahrain)</title>
+      <link>https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-it-launched-drone-attacks-us-base-bahrain</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: IRAN / BAHRAIN. Location: Bahrain. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-it-launched-drone-attacks-us-base-bahrain</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-it-launched-drone-attacks-us-base-bahrain">middleeasteye.net</source>
+    </item>
+    <item>
+      <title>[美伊对峙] JORDANIAN → POPULATION : Use conventional military force, not specified below (Iran)</title>
+      <link>https://www.middleeasteye.net/live-blog/live-blog-update/no-us-casualties-reported-so-far-iran-attack-jordan-facilities-officials</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: JORDANIAN / POPULATION. Location: Iran. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.middleeasteye.net/live-blog/live-blog-update/no-us-casualties-reported-so-far-iran-attack-jordan-facilities-officials</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://www.middleeasteye.net/live-blog/live-blog-update/no-us-casualties-reported-so-far-iran-attack-jordan-facilities-officials">middleeasteye.net</source>
+    </item>
+    <item>
+      <title>[美伊对峙] IRAN → FARS NEWS : Fight with artillery and tanks (Tehran, Tehran, Iran)</title>
+      <link>https://www.dailysabah.com/world/mid-east/us-iran-trade-strikes-as-renewed-fighting-fuels-gulf-tensions</link>
+      <description>GDELT Event: Fight with artillery and tanks. Actors: IRAN / FARS NEWS. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.dailysabah.com/world/mid-east/us-iran-trade-strikes-as-renewed-fighting-fuels-gulf-tensions</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://www.dailysabah.com/world/mid-east/us-iran-trade-strikes-as-renewed-fighting-fuels-gulf-tensions">dailysabah.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] MILITARY → IRAN : Use conventional military force, not specified below (Hormozgan Province, Hormozgan, Iran)</title>
+      <link>http://www.postregister.com/news/national/the-latest-us-and-iran-exchange-fire-after-abrupt-end-to-month-without-military-action/article_53bf3714-c1ff-5ef1-9eca-a28ddcf4fbfc.html</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: MILITARY / IRAN. Location: Hormozgan Province, Hormozgan, Iran. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">http://www.postregister.com/news/national/the-latest-us-and-iran-exchange-fire-after-abrupt-end-to-month-without-military-action/article_53bf3714-c1ff-5ef1-9eca-a28ddcf4fbfc.html</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="http://www.postregister.com/news/national/the-latest-us-and-iran-exchange-fire-after-abrupt-end-to-month-without-military-action/article_53bf3714-c1ff-5ef1-9eca-a28ddcf4fbfc.html">postregister.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] PRISON → nan : Arrest, detain, or charge with legal action (Tehran, Tehran, Iran)</title>
+      <link>https://www.whmi.com/news/fox/one-glaring-issue-goes-unaddressed-un-chiefs-high-stakes-talks-irans-president</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: PRISON / nan. Location: Tehran, Tehran, Iran. Goldstein Scale: -5.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.whmi.com/news/fox/one-glaring-issue-goes-unaddressed-un-chiefs-high-stakes-talks-irans-president</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>外交谈判</category>
+      <source url="https://www.whmi.com/news/fox/one-glaring-issue-goes-unaddressed-un-chiefs-high-stakes-talks-irans-president">whmi.com</source>
+    </item>
     <item>
       <title>[俄乌战争] RUSSIAN → UKRAINIAN : Employ aerial weapons (Kramatorsk, Donets'ka Oblast', Ukraine)</title>
       <link>https://www.dailymail.com/news/article-16093667/squirming-Putin-endless-war-end-India-Modi.html</link>
@@ -436,76 +506,6 @@
       <category>美伊对峙</category>
       <category>外交谈判</category>
       <source url="https://attackofthefanboy.com/news/father-of-uss-abraham-lincoln-sailor-was-taken-into-ice-detention-while-son-is-on-a-nine-month-middle-east-deployment/">attackofthefanboy.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] FOREIGN NATIONAL → MURMANSK : Arrest, detain, or charge with legal action (Moscow, Moskva, Russia)</title>
-      <link>https://www.naturalnews.com/2026-08-23-fsb-thwarts-drone-attack-moscow-defense-plant.html</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: FOREIGN NATIONAL / MURMANSK. Location: Moscow, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://www.naturalnews.com/2026-08-23-fsb-thwarts-drone-attack-moscow-defense-plant.html</guid>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>外交谈判</category>
-      <source url="https://www.naturalnews.com/2026-08-23-fsb-thwarts-drone-attack-moscow-defense-plant.html">naturalnews.com</source>
-    </item>
-    <item>
-      <title>[台海局势] TAIWAN → MILITARY : Use unconventional violence, not specified below (Taiwan Strait, Taiwan (general), Taiwan)</title>
-      <link>https://yourdemocracy.net/drupal/node/60899</link>
-      <description>GDELT Event: Use unconventional violence, not specified below. Actors: TAIWAN / MILITARY. Location: Taiwan Strait, Taiwan (general), Taiwan. Goldstein Scale: -9.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://yourdemocracy.net/drupal/node/60899</guid>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <category>台海局势</category>
-      <category>军事动态</category>
-      <source url="https://yourdemocracy.net/drupal/node/60899">yourdemocracy.net</source>
-    </item>
-    <item>
-      <title>[巴以冲突] nan → ISRAEL : Use conventional military force, not specified below (Shuva, HaDarom, Israel)</title>
-      <link>https://www.theyeshivaworld.com/news/israel-news/2588602/return-to-terror-kites-multiple-kites-found-in-gaza-border-yishuvim.html</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: nan / ISRAEL. Location: Shuva, HaDarom, Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.</description>
-      <guid isPermaLink="true">https://www.theyeshivaworld.com/news/israel-news/2588602/return-to-terror-kites-multiple-kites-found-in-gaza-border-yishuvim.html</guid>
-      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.theyeshivaworld.com/news/israel-news/2588602/return-to-terror-kites-multiple-kites-found-in-gaza-border-yishuvim.html">theyeshivaworld.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] POLICE OFFICER → nan : Fight with small arms and light weapons (Lviv, L'vivs'ka Oblast', Ukraine)</title>
-      <link>http://www.bignewsnetwork.com/news/279257285/draft-officer-fatally-stabbed-in-ukraine</link>
-      <description>GDELT Event: Fight with small arms and light weapons. Actors: POLICE OFFICER / nan. Location: Lviv, L'vivs'ka Oblast', Ukraine. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">http://www.bignewsnetwork.com/news/279257285/draft-officer-fatally-stabbed-in-ukraine</guid>
-      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="http://www.bignewsnetwork.com/news/279257285/draft-officer-fatally-stabbed-in-ukraine">bignewsnetwork.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] SECURITY OFFICIAL → PALESTINIAN : Fight with small arms and light weapons (Israel)</title>
-      <link>https://www.theyeshivaworld.com/news/israel-news/2588479/deadly-clash-palestinian-teen-killed-after-chareidi-hikers-attacked-with-rocks-near-chevron.html</link>
-      <description>GDELT Event: Fight with small arms and light weapons. Actors: SECURITY OFFICIAL / PALESTINIAN. Location: Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://www.theyeshivaworld.com/news/israel-news/2588479/deadly-clash-palestinian-teen-killed-after-chareidi-hikers-attacked-with-rocks-near-chevron.html</guid>
-      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.theyeshivaworld.com/news/israel-news/2588479/deadly-clash-palestinian-teen-killed-after-chareidi-hikers-attacked-with-rocks-near-chevron.html">theyeshivaworld.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAEL → nan : Fight with small arms and light weapons (nan)</title>
-      <link>https://komonews.com/news/local/seattle-mass-shooting-911-recordings-capture-panic-during-bite-of-seattle-shooting-at-seattle-center-police-response-victims-public-safety-paramedic</link>
-      <description>GDELT Event: Fight with small arms and light weapons. Actors: ISRAEL / nan. Location: nan. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://komonews.com/news/local/seattle-mass-shooting-911-recordings-capture-panic-during-bite-of-seattle-shooting-at-seattle-center-police-response-victims-public-safety-paramedic</guid>
-      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://komonews.com/news/local/seattle-mass-shooting-911-recordings-capture-panic-during-bite-of-seattle-shooting-at-seattle-center-police-response-victims-public-safety-paramedic">komonews.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] nan → TERRORIST : Occupy territory (Israel)</title>
-      <link>https://www.theyeshivaworld.com/news/israel-news/2588491/terrorist-eliminated-knife-wielding-terrorist-charges-idf-paratroopers-in-jenin.html</link>
-      <description>GDELT Event: Occupy territory. Actors: nan / TERRORIST. Location: Israel. Goldstein Scale: -9.5. Mentioned in 5 sources.</description>
-      <guid isPermaLink="true">https://www.theyeshivaworld.com/news/israel-news/2588491/terrorist-eliminated-knife-wielding-terrorist-charges-idf-paratroopers-in-jenin.html</guid>
-      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.theyeshivaworld.com/news/israel-news/2588491/terrorist-eliminated-knife-wielding-terrorist-charges-idf-paratroopers-in-jenin.html">theyeshivaworld.com</source>
     </item>
   </channel>
 </rss>
