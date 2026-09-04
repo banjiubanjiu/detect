@@ -5,8 +5,58 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 03 Sep 2026 10:58:16 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 10:56:22 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] RUSSIAN → UKRAINE : Use conventional military force, not specified below (Berlin, Berlin, Germany)</title>
+      <link>https://www.kyivpost.com/post/83609</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: RUSSIAN / UKRAINE. Location: Berlin, Berlin, Germany. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.kyivpost.com/post/83609</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.kyivpost.com/post/83609">kyivpost.com</source>
+    </item>
+    <item>
+      <title>[俄乌战争] UNITED STATES → UKRAINIAN : Abduct, hijack, or take hostage (Colombo, Western, Sri Lanka)</title>
+      <link>https://www.foxnews.com/media/dhs-boss-reveals-oval-office-plan-withhold-funding-sanctuary-cities-aggressive-new-york-bust</link>
+      <description>GDELT Event: Abduct, hijack, or take hostage. Actors: UNITED STATES / UKRAINIAN. Location: Colombo, Western, Sri Lanka. Goldstein Scale: -9.0. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">https://www.foxnews.com/media/dhs-boss-reveals-oval-office-plan-withhold-funding-sanctuary-cities-aggressive-new-york-bust</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.foxnews.com/media/dhs-boss-reveals-oval-office-plan-withhold-funding-sanctuary-cities-aggressive-new-york-bust">foxnews.com</source>
+    </item>
+    <item>
+      <title>[俄乌战争] UNITED STATES → UKRAINIAN : Abduct, hijack, or take hostage (New York, United States)</title>
+      <link>https://www.kotaradio.com/2026/09/02/dhs-boss-reveals-oval-office-plan-to-withhold-funding-from-sanctuary-cities-after-aggressive-new-york-bust/</link>
+      <description>GDELT Event: Abduct, hijack, or take hostage. Actors: UNITED STATES / UKRAINIAN. Location: New York, United States. Goldstein Scale: -9.0. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">https://www.kotaradio.com/2026/09/02/dhs-boss-reveals-oval-office-plan-to-withhold-funding-from-sanctuary-cities-after-aggressive-new-york-bust/</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.kotaradio.com/2026/09/02/dhs-boss-reveals-oval-office-plan-to-withhold-funding-from-sanctuary-cities-after-aggressive-new-york-bust/">kotaradio.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] COMMUNITY → ISRAEL : Use conventional military force, not specified below (Shibli, Ha?afon, Israel)</title>
+      <link>https://www.i24news.tv/en/news/israel/society/artc-three-murdered-in-nazareth-as-gangs-fight-for-power</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: COMMUNITY / ISRAEL. Location: Shibli, Ha?afon, Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.i24news.tv/en/news/israel/society/artc-three-murdered-in-nazareth-as-gangs-fight-for-power</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.i24news.tv/en/news/israel/society/artc-three-murdered-in-nazareth-as-gangs-fight-for-power">i24news.tv</source>
+    </item>
+    <item>
+      <title>[台海局势] CHINESE → REGIME : Confiscate property (Taiwan)</title>
+      <link>https://www.theepochtimes.com/china/ccp-expands-national-defense-law-for-conscription-of-citizens-seizure-of-assets-6082666</link>
+      <description>GDELT Event: Confiscate property. Actors: CHINESE / REGIME. Location: Taiwan. Goldstein Scale: -9.2. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.theepochtimes.com/china/ccp-expands-national-defense-law-for-conscription-of-citizens-seizure-of-assets-6082666</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <category>台海局势</category>
+      <category>外交谈判</category>
+      <source url="https://www.theepochtimes.com/china/ccp-expands-national-defense-law-for-conscription-of-citizens-seizure-of-assets-6082666">theepochtimes.com</source>
+    </item>
     <item>
       <title>[巴以冲突] UNITED STATES → COMMANDER : Use conventional military force, not specified below (Israel)</title>
       <link>https://nypost.com/2026/09/01/opinion/democrats-are-selling-their-souls-by-accepting-abdul-el-sayed/</link>
@@ -456,56 +506,6 @@
       <category>俄乌战争</category>
       <category>军事动态</category>
       <source url="https://www.dailymail.com/news/article-16076165/mother-Brit-die-fighting-Putin-Ukraine-speaks-out.html">dailymail.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] RUSSIA → UKRAINIAN : Fight with artillery and tanks (Kyiv, Kyyiv, Misto, Ukraine)</title>
-      <link>https://www.gdnonline.com:443/Details/1404390/UK,-France-pledge-stronger-support-as-Ukraine-marks-Independence-Day</link>
-      <description>GDELT Event: Fight with artillery and tanks. Actors: RUSSIA / UKRAINIAN. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.gdnonline.com:443/Details/1404390/UK,-France-pledge-stronger-support-as-Ukraine-marks-Independence-Day</guid>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://www.gdnonline.com:443/Details/1404390/UK,-France-pledge-stronger-support-as-Ukraine-marks-Independence-Day">gdnonline.com:443</source>
-    </item>
-    <item>
-      <title>[俄乌战争] MOSCOW → ORGANIZED CRIME : Arrest, detain, or charge with legal action (Rostov, Rostovskaya Oblast', Russia)</title>
-      <link>https://www.eng.kavkaz-uzel.eu/articles/78011</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: MOSCOW / ORGANIZED CRIME. Location: Rostov, Rostovskaya Oblast', Russia. Goldstein Scale: -5.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://www.eng.kavkaz-uzel.eu/articles/78011</guid>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>外交谈判</category>
-      <source url="https://www.eng.kavkaz-uzel.eu/articles/78011">eng.kavkaz-uzel.eu</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAELI → PALESTINIAN : Employ aerial weapons (Bureij, Yerushalayim, Israel)</title>
-      <link>https://www.gdnonline.com:443/Details/1404392/Israeli-strikes-kill-two-children-in-Gaza</link>
-      <description>GDELT Event: Employ aerial weapons. Actors: ISRAELI / PALESTINIAN. Location: Bureij, Yerushalayim, Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.gdnonline.com:443/Details/1404392/Israeli-strikes-kill-two-children-in-Gaza</guid>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.gdnonline.com:443/Details/1404392/Israeli-strikes-kill-two-children-in-Gaza">gdnonline.com:443</source>
-    </item>
-    <item>
-      <title>[美伊对峙] NAVY → THE US : Arrest, detain, or charge with legal action (Iran)</title>
-      <link>https://americanbazaaronline.com/2026/08/24/us-navy-sailors-father-detained-while-son-serves-in-middle-east-486943/</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: NAVY / THE US. Location: Iran. Goldstein Scale: -5.0. Mentioned in 6 sources.</description>
-      <guid isPermaLink="true">https://americanbazaaronline.com/2026/08/24/us-navy-sailors-father-detained-while-son-serves-in-middle-east-486943/</guid>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>外交谈判</category>
-      <source url="https://americanbazaaronline.com/2026/08/24/us-navy-sailors-father-detained-while-son-serves-in-middle-east-486943/">americanbazaaronline.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] THE US → nan : Arrest, detain, or charge with legal action (Iran)</title>
-      <link>https://attackofthefanboy.com/news/father-of-uss-abraham-lincoln-sailor-was-taken-into-ice-detention-while-son-is-on-a-nine-month-middle-east-deployment/</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: THE US / nan. Location: Iran. Goldstein Scale: -5.0. Mentioned in 3 sources.</description>
-      <guid isPermaLink="true">https://attackofthefanboy.com/news/father-of-uss-abraham-lincoln-sailor-was-taken-into-ice-detention-while-son-is-on-a-nine-month-middle-east-deployment/</guid>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>外交谈判</category>
-      <source url="https://attackofthefanboy.com/news/father-of-uss-abraham-lincoln-sailor-was-taken-into-ice-detention-while-son-is-on-a-nine-month-middle-east-deployment/">attackofthefanboy.com</source>
     </item>
   </channel>
 </rss>
