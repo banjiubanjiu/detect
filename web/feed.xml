@@ -5,8 +5,68 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 04 Sep 2026 10:56:22 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 10:14:57 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] UKRAINE → UKRAINE : Use conventional military force, not specified below (Moscow, Moskva, Russia)</title>
+      <link>https://www.kyivpost.com/post/83704</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: UKRAINE / UKRAINE. Location: Moscow, Moskva, Russia. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
+      <guid isPermaLink="true">https://www.kyivpost.com/post/83704</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.kyivpost.com/post/83704">kyivpost.com</source>
+    </item>
+    <item>
+      <title>[俄乌战争] UKRAINIAN → nan : Arrest, detain, or charge with legal action (New York, United States)</title>
+      <link>https://nypost.com/2026/09/03/opinion/ice-just-made-ny-safer-despite-hochul-and-mamdanis-best-efforts-to-stop-it/</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: UKRAINIAN / nan. Location: New York, United States. Goldstein Scale: -5.0. Mentioned in 7 sources.</description>
+      <guid isPermaLink="true">https://nypost.com/2026/09/03/opinion/ice-just-made-ny-safer-despite-hochul-and-mamdanis-best-efforts-to-stop-it/</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>外交谈判</category>
+      <source url="https://nypost.com/2026/09/03/opinion/ice-just-made-ny-safer-despite-hochul-and-mamdanis-best-efforts-to-stop-it/">nypost.com</source>
+    </item>
+    <item>
+      <title>[俄乌战争] SVALBARD → PROFESSOR : Arrest, detain, or charge with legal action (Molchanov, Rostovskaya Oblast', Russia)</title>
+      <link>https://www.kyivpost.com/post/83707</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: SVALBARD / PROFESSOR. Location: Molchanov, Rostovskaya Oblast', Russia. Goldstein Scale: -5.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.kyivpost.com/post/83707</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>外交谈判</category>
+      <source url="https://www.kyivpost.com/post/83707">kyivpost.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] UNITED NATIONS → REGIME : Destroy property (Israel)</title>
+      <link>https://www.worthynews.com/117253-syria-begins-destroying-assad-era-chemical-weapons-materials</link>
+      <description>GDELT Event: Destroy property. Actors: UNITED NATIONS / REGIME. Location: Israel. Goldstein Scale: -9.2. Mentioned in 5 sources.</description>
+      <guid isPermaLink="true">https://www.worthynews.com/117253-syria-begins-destroying-assad-era-chemical-weapons-materials</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>外交谈判</category>
+      <source url="https://www.worthynews.com/117253-syria-begins-destroying-assad-era-chemical-weapons-materials">worthynews.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] nan → IRAN : Use conventional military force, not specified below (Toronto, Ontario, Canada)</title>
+      <link>https://www.orangeville.com/news/gas-diesel-prices-toronto-ontario/article_e758d6c3-c8cd-5442-a4ea-15b6402c8ab5.html</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: nan / IRAN. Location: Toronto, Ontario, Canada. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.orangeville.com/news/gas-diesel-prices-toronto-ontario/article_e758d6c3-c8cd-5442-a4ea-15b6402c8ab5.html</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://www.orangeville.com/news/gas-diesel-prices-toronto-ontario/article_e758d6c3-c8cd-5442-a4ea-15b6402c8ab5.html">orangeville.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] TEHRAN → JORDAN : Use conventional military force, not specified below (Tehran, Tehran, Iran)</title>
+      <link>https://www.citynewsokc.com/townnews/politics/iran-hits-us-targets-as-washington-says-probing-wedding-strike/article_3b51bd52-d4e8-5993-aef7-8e9423497a29.html</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: TEHRAN / JORDAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">https://www.citynewsokc.com/townnews/politics/iran-hits-us-targets-as-washington-says-probing-wedding-strike/article_3b51bd52-d4e8-5993-aef7-8e9423497a29.html</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://www.citynewsokc.com/townnews/politics/iran-hits-us-targets-as-washington-says-probing-wedding-strike/article_3b51bd52-d4e8-5993-aef7-8e9423497a29.html">citynewsokc.com</source>
+    </item>
     <item>
       <title>[俄乌战争] RUSSIAN → UKRAINE : Use conventional military force, not specified below (Berlin, Berlin, Germany)</title>
       <link>https://www.kyivpost.com/post/83609</link>
@@ -446,66 +506,6 @@
       <category>巴以冲突</category>
       <category>军事动态</category>
       <source url="https://ejpress.org/another-government-with-ben-gvir-could-be-disastrous/">ejpress.org</source>
-    </item>
-    <item>
-      <title>[俄乌战争] SERVICEMEN → MILITANT : Arrest, detain, or charge with legal action (Moscow, Moskva, Russia)</title>
-      <link>http://www.bignewsnetwork.com/news/279265348/heat-and-shackles-russian-soldiers-freed-from-terrorist-captivity-in-mali-talk-to-rt</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: SERVICEMEN / MILITANT. Location: Moscow, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">http://www.bignewsnetwork.com/news/279265348/heat-and-shackles-russian-soldiers-freed-from-terrorist-captivity-in-mali-talk-to-rt</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>外交谈判</category>
-      <source url="http://www.bignewsnetwork.com/news/279265348/heat-and-shackles-russian-soldiers-freed-from-terrorist-captivity-in-mali-talk-to-rt">bignewsnetwork.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] INTELLIGENCE → RUSSIA : Arrest, detain, or charge with legal action (Moscow, Moskva, Russia)</title>
-      <link>https://www.techtimes.com/articles/325483/20260825/cia-director-ratcliffe-lands-moscow-aboard-c-17-new-mobile-scif.htm</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: INTELLIGENCE / RUSSIA. Location: Moscow, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 6 sources.</description>
-      <guid isPermaLink="true">https://www.techtimes.com/articles/325483/20260825/cia-director-ratcliffe-lands-moscow-aboard-c-17-new-mobile-scif.htm</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>外交谈判</category>
-      <source url="https://www.techtimes.com/articles/325483/20260825/cia-director-ratcliffe-lands-moscow-aboard-c-17-new-mobile-scif.htm">techtimes.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] UKRAINE → RUSSIA : Impose administrative sanctions, not specified below (Kyiv, Kyyiv, Misto, Ukraine)</title>
-      <link>https://www.defensenews.com/global/europe/2026/08/25/ukraine-needs-changes-to-avoid-losing-war-ousted-defense-minister-says/</link>
-      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: UKRAINE / RUSSIA. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -5.0. Mentioned in 1 sources.</description>
-      <guid isPermaLink="true">https://www.defensenews.com/global/europe/2026/08/25/ukraine-needs-changes-to-avoid-losing-war-ousted-defense-minister-says/</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>外交谈判</category>
-      <source url="https://www.defensenews.com/global/europe/2026/08/25/ukraine-needs-changes-to-avoid-losing-war-ousted-defense-minister-says/">defensenews.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] AIR FORCE → nan : Arrest, detain, or charge with legal action (Iran)</title>
-      <link>https://www.wcbi.com/u-s-airman-faces-charges-under-military-justice-system-for-criticizing-trump-over-iran-war/</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: AIR FORCE / nan. Location: Iran. Goldstein Scale: -5.0. Mentioned in 6 sources.</description>
-      <guid isPermaLink="true">https://www.wcbi.com/u-s-airman-faces-charges-under-military-justice-system-for-criticizing-trump-over-iran-war/</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>外交谈判</category>
-      <source url="https://www.wcbi.com/u-s-airman-faces-charges-under-military-justice-system-for-criticizing-trump-over-iran-war/">wcbi.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] RUSSIA → MANUFACTURER : Use conventional military force, not specified below (Kremlin, Moskva, Russia)</title>
-      <link>https://www.dailymail.com/news/article-16077007/Ukraine-hands-UK-secret-intelligence-Putin.html</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: RUSSIA / MANUFACTURER. Location: Kremlin, Moskva, Russia. Goldstein Scale: -10.0. Mentioned in 3 sources.</description>
-      <guid isPermaLink="true">https://www.dailymail.com/news/article-16077007/Ukraine-hands-UK-secret-intelligence-Putin.html</guid>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://www.dailymail.com/news/article-16077007/Ukraine-hands-UK-secret-intelligence-Putin.html">dailymail.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] CRIMINAL → ARMY : Use unconventional violence, not specified below (Kremlin, Moskva, Russia)</title>
-      <link>https://www.dailymail.com/news/article-16076165/mother-Brit-die-fighting-Putin-Ukraine-speaks-out.html</link>
-      <description>GDELT Event: Use unconventional violence, not specified below. Actors: CRIMINAL / ARMY. Location: Kremlin, Moskva, Russia. Goldstein Scale: -9.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.dailymail.com/news/article-16076165/mother-Brit-die-fighting-Putin-Ukraine-speaks-out.html</guid>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://www.dailymail.com/news/article-16076165/mother-Brit-die-fighting-Putin-Ukraine-speaks-out.html">dailymail.com</source>
     </item>
   </channel>
 </rss>
