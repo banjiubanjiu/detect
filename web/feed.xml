@@ -5,8 +5,88 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 05 Sep 2026 10:14:57 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 10:35:44 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] RUSSIAN → CIVILIAN : Use conventional military force, not specified below (Russia)</title>
+      <link>https://www.kyivpost.com/post/83794</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: RUSSIAN / CIVILIAN. Location: Russia. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
+      <guid isPermaLink="true">https://www.kyivpost.com/post/83794</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.kyivpost.com/post/83794">kyivpost.com</source>
+    </item>
+    <item>
+      <title>[俄乌战争] UKRAINE → UKRAINE : Fight with small arms and light weapons (Kyiv, Kyyiv, Misto, Ukraine)</title>
+      <link>https://www.kyivpost.com/post/83801</link>
+      <description>GDELT Event: Fight with small arms and light weapons. Actors: UKRAINE / UKRAINE. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -10.0. Mentioned in 6 sources.</description>
+      <guid isPermaLink="true">https://www.kyivpost.com/post/83801</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.kyivpost.com/post/83801">kyivpost.com</source>
+    </item>
+    <item>
+      <title>[俄乌战争] UKRAINE → nan : Sexually assault (Burnham, Somerset, United Kingdom)</title>
+      <link>https://hotair.com/david-strom/2026/09/04/europe-is-sacrificing-its-citizens-for-an-ideology-n3818639</link>
+      <description>GDELT Event: Sexually assault. Actors: UKRAINE / nan. Location: Burnham, Somerset, United Kingdom. Goldstein Scale: -9.0. Mentioned in 5 sources.</description>
+      <guid isPermaLink="true">https://hotair.com/david-strom/2026/09/04/europe-is-sacrificing-its-citizens-for-an-ideology-n3818639</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://hotair.com/david-strom/2026/09/04/europe-is-sacrificing-its-citizens-for-an-ideology-n3818639">hotair.com</source>
+    </item>
+    <item>
+      <title>[俄乌战争] nan → PROSECUTOR GENERAL : Arrest, detain, or charge with legal action (Odesa, Odes'ka Oblast, Ukraine)</title>
+      <link>https://www.kyivpost.com/post/83793</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: nan / PROSECUTOR GENERAL. Location: Odesa, Odes'ka Oblast, Ukraine. Goldstein Scale: -5.0. Mentioned in 6 sources.</description>
+      <guid isPermaLink="true">https://www.kyivpost.com/post/83793</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>外交谈判</category>
+      <source url="https://www.kyivpost.com/post/83793">kyivpost.com</source>
+    </item>
+    <item>
+      <title>[俄乌战争] VLADIVOSTOK → BUSINESS : Arrest, detain, or charge with legal action (Russia)</title>
+      <link>http://europe.chinadaily.com.cn/a/202609/05/WS6a9af254e4b06d4aa055c739.html</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: VLADIVOSTOK / BUSINESS. Location: Russia. Goldstein Scale: -5.0. Mentioned in 5 sources.</description>
+      <guid isPermaLink="true">http://europe.chinadaily.com.cn/a/202609/05/WS6a9af254e4b06d4aa055c739.html</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>外交谈判</category>
+      <source url="http://europe.chinadaily.com.cn/a/202609/05/WS6a9af254e4b06d4aa055c739.html">europe.chinadaily.com.cn</source>
+    </item>
+    <item>
+      <title>[巴以冲突] LEBANON → PRESIDENT : Arrest, detain, or charge with legal action (Lebanon)</title>
+      <link>https://www.israelnationalnews.com/flashes/692991</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: LEBANON / PRESIDENT. Location: Lebanon. Goldstein Scale: -5.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.israelnationalnews.com/flashes/692991</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>外交谈判</category>
+      <source url="https://www.israelnationalnews.com/flashes/692991">israelnationalnews.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] ADMINISTRATION → IRAN : Use conventional military force, not specified below (Washington, District of Columbia, United States)</title>
+      <link>https://aninews.in/news/world/trump-backs-vp-vances-iran-conflict-not-a-war-remark-calls-it-small-potatoes20260905044037/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: ADMINISTRATION / IRAN. Location: Washington, District of Columbia, United States. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://aninews.in/news/world/trump-backs-vp-vances-iran-conflict-not-a-war-remark-calls-it-small-potatoes20260905044037/</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://aninews.in/news/world/trump-backs-vp-vances-iran-conflict-not-a-war-remark-calls-it-small-potatoes20260905044037/">aninews.in</source>
+    </item>
+    <item>
+      <title>[台海局势] CHINA → TAIWAN : Use conventional military force, not specified below (Beijing, Beijing, China)</title>
+      <link>https://www.manilatimes.net/2026/09/05/opinion/columns/seeing-through-the-davidson-deceit/2418823</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: CHINA / TAIWAN. Location: Beijing, Beijing, China. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.manilatimes.net/2026/09/05/opinion/columns/seeing-through-the-davidson-deceit/2418823</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+      <category>台海局势</category>
+      <category>军事动态</category>
+      <source url="https://www.manilatimes.net/2026/09/05/opinion/columns/seeing-through-the-davidson-deceit/2418823">manilatimes.net</source>
+    </item>
     <item>
       <title>[俄乌战争] UKRAINE → UKRAINE : Use conventional military force, not specified below (Moscow, Moskva, Russia)</title>
       <link>https://www.kyivpost.com/post/83704</link>
@@ -426,86 +506,6 @@
       <category>巴以冲突</category>
       <category>军事动态</category>
       <source url="https://www.dailygazette.com/ade/ap/business/regional-powers-seek-off-ramp-from-iran-war-and-other-middle-east-developments/article_032e5302-acf8-56b7-b3bf-5588c7b236d3.html">dailygazette.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] HAMAS → ISRAEL : Use conventional military force, not specified below (Gaza, Israel (general), Israel)</title>
-      <link>https://www.hngn.com/articles/272939/20260827/trumps-gaza-peace-body-breaks-israel-netanyahu-defies-us-border-demand-warns-full-war.htm</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: HAMAS / ISRAEL. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.hngn.com/articles/272939/20260827/trumps-gaza-peace-body-breaks-israel-netanyahu-defies-us-border-demand-warns-full-war.htm</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.hngn.com/articles/272939/20260827/trumps-gaza-peace-body-breaks-israel-netanyahu-defies-us-border-demand-warns-full-war.htm">hngn.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] AMERICAN → PALESTINIAN : Engage in popular protest, not specified below (Minnesota, United States)</title>
-      <link>https://thenewamerican.com/us/crime/cops-raid-home-of-anti-gun-democrat-omars-son-guns-ammo-found-roommate-arrested/</link>
-      <description>GDELT Event: Engage in popular protest, not specified below. Actors: AMERICAN / PALESTINIAN. Location: Minnesota, United States. Goldstein Scale: -6.5. Mentioned in 1 sources.</description>
-      <guid isPermaLink="true">https://thenewamerican.com/us/crime/cops-raid-home-of-anti-gun-democrat-omars-son-guns-ammo-found-roommate-arrested/</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>舆论热点</category>
-      <source url="https://thenewamerican.com/us/crime/cops-raid-home-of-anti-gun-democrat-omars-son-guns-ammo-found-roommate-arrested/">thenewamerican.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] IRAN → nan : Demonstrate or rally (Iran)</title>
-      <link>https://www.aol.com/articles/air-force-officer-faces-charges-213512000.html</link>
-      <description>GDELT Event: Demonstrate or rally. Actors: IRAN / nan. Location: Iran. Goldstein Scale: -6.5. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://www.aol.com/articles/air-force-officer-faces-charges-213512000.html</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>舆论热点</category>
-      <source url="https://www.aol.com/articles/air-force-officer-faces-charges-213512000.html">aol.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] MOSCOW → COLLEGE : Use conventional military force, not specified below (Ada County, Idaho, United States)</title>
-      <link>https://www.usmagazine.com/crime-news/news/bryan-kohberger-granted-hearing-amid-guilty-plea-withdrawal/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: MOSCOW / COLLEGE. Location: Ada County, Idaho, United States. Goldstein Scale: -10.0. Mentioned in 6 sources.</description>
-      <guid isPermaLink="true">https://www.usmagazine.com/crime-news/news/bryan-kohberger-granted-hearing-amid-guilty-plea-withdrawal/</guid>
-      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://www.usmagazine.com/crime-news/news/bryan-kohberger-granted-hearing-amid-guilty-plea-withdrawal/">usmagazine.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] GOVERNMENT → LEIPZIG : Use conventional military force, not specified below (Moscow, Moskva, Russia)</title>
-      <link>https://whbl.com/2026/08/26/french-security-chief-sees-new-threats-after-leipzig-drone-attack/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: GOVERNMENT / LEIPZIG. Location: Moscow, Moskva, Russia. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://whbl.com/2026/08/26/french-security-chief-sees-new-threats-after-leipzig-drone-attack/</guid>
-      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://whbl.com/2026/08/26/french-security-chief-sees-new-threats-after-leipzig-drone-attack/">whbl.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] UKRAINE → nan : Impose administrative sanctions, not specified below (Kyiv, Kyyiv, Misto, Ukraine)</title>
-      <link>https://www.stockjournal.com.au/story/9338279/russia-ukraine-war-wheat-futures-jump-a23t-overnight/</link>
-      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: UKRAINE / nan. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -5.0. Mentioned in 20 sources.</description>
-      <guid isPermaLink="true">https://www.stockjournal.com.au/story/9338279/russia-ukraine-war-wheat-futures-jump-a23t-overnight/</guid>
-      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>外交谈判</category>
-      <source url="https://www.stockjournal.com.au/story/9338279/russia-ukraine-war-wheat-futures-jump-a23t-overnight/">stockjournal.com.au</source>
-    </item>
-    <item>
-      <title>[俄乌战争] CANADA → UKRAINE : Demonstrate or rally (United Kingdom)</title>
-      <link>https://www.bnnbloomberg.ca/business/technology/2026/08/26/canadian-army-looking-for-surveillance-cargo-drop-drone-suppliers/</link>
-      <description>GDELT Event: Demonstrate or rally. Actors: CANADA / UKRAINE. Location: United Kingdom. Goldstein Scale: -6.5. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.bnnbloomberg.ca/business/technology/2026/08/26/canadian-army-looking-for-surveillance-cargo-drop-drone-suppliers/</guid>
-      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>舆论热点</category>
-      <source url="https://www.bnnbloomberg.ca/business/technology/2026/08/26/canadian-army-looking-for-surveillance-cargo-drop-drone-suppliers/">bnnbloomberg.ca</source>
-    </item>
-    <item>
-      <title>[巴以冲突] CHIEF OF STAFF → KILLERS : Use conventional military force, not specified below (Gaza, Israel (general), Israel)</title>
-      <link>https://ejpress.org/another-government-with-ben-gvir-could-be-disastrous/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: CHIEF OF STAFF / KILLERS. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 3 sources.</description>
-      <guid isPermaLink="true">https://ejpress.org/another-government-with-ben-gvir-could-be-disastrous/</guid>
-      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://ejpress.org/another-government-with-ben-gvir-could-be-disastrous/">ejpress.org</source>
     </item>
   </channel>
 </rss>
