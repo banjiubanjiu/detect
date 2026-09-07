@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T10:36:00+00:00Z",
+  "updated_at": "2026-09-07T11:58:10+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -3470,6 +3470,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1321768342",
+              "title": "INDONESIA → ISRAEL : Impose administrative sanctions, not specified below (Gaza, Israel (general), Israel)",
+              "title_en": "INDONESIA → ISRAEL : Impose administrative sanctions, not specified below (Gaza, Israel (general), Israel)",
+              "summary": "GDELT Event: Impose administrative sanctions, not specified below. Actors: INDONESIA / ISRAEL. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: INDONESIA / ISRAEL. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "i24news.tv",
+              "date": "2026-09-06",
+              "url": "https://www.i24news.tv/en/news/israel/society/artc-the-controversial-but-growing-israeli-presence-in-bali",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1321768342",
+                "event_code": "172",
+                "cameo_desc": "Impose administrative sanctions, not specified below",
+                "actor1": "INDONESIA",
+                "actor2": "ISRAEL",
+                "actor1_country": "IDN",
+                "actor2_country": "ISR",
+                "geo_lat": 31.4167,
+                "geo_lon": 34.3333,
+                "geo_name": "Gaza, Israel (general), Israel"
+              },
+              "admiralty_source": "B",
+              "admiralty_info": 3,
+              "admiralty_code": "B3"
             }
           ]
         },
@@ -3678,39 +3711,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1317332195",
-              "title": "PERSEPOLIS → MEDIA : Occupy territory (Paris, France (general), France)",
-              "title_en": "PERSEPOLIS → MEDIA : Occupy territory (Paris, France (general), France)",
-              "summary": "GDELT Event: Occupy territory. Actors: PERSEPOLIS / MEDIA. Location: Paris, France (general), France. Goldstein Scale: -9.5. Mentioned in 6 sources.",
-              "summary_en": "GDELT Event: Occupy territory. Actors: PERSEPOLIS / MEDIA. Location: Paris, France (general), France. Goldstein Scale: -9.5. Mentioned in 6 sources.",
-              "source": "gdelt",
-              "source_label": "awn.com",
-              "date": "2026-08-07",
-              "url": "http://www.awn.com/animationworld/disarming-legacy-persepolis-author-and-director-marjane-satrapi",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 6,
-                "sources": 1,
-                "articles": 6,
-                "goldstein": -9.5
-              },
-              "gdelt_meta": {
-                "event_id": "1317332195",
-                "event_code": "192",
-                "cameo_desc": "Occupy territory",
-                "actor1": "PERSEPOLIS",
-                "actor2": "MEDIA",
-                "actor1_country": "IRN",
-                "actor2_country": "nan",
-                "geo_lat": 48.8667,
-                "geo_lon": 2.33333,
-                "geo_name": "Paris, France (general), France"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1317686395",
               "title": "nan → NATIONAL SECURITY COUNCIL : Use conventional military force, not specified below (Basij, Fars, Iran)",
@@ -4370,6 +4370,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1321768376",
+              "title": "IRAN → THE US : Impose blockade, restrict movement (Tehran, Tehran, Iran)",
+              "title_en": "IRAN → THE US : Impose blockade, restrict movement (Tehran, Tehran, Iran)",
+              "summary": "GDELT Event: Impose blockade, restrict movement. Actors: IRAN / THE US. Location: Tehran, Tehran, Iran. Goldstein Scale: -9.5. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Impose blockade, restrict movement. Actors: IRAN / THE US. Location: Tehran, Tehran, Iran. Goldstein Scale: -9.5. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "aa.com.tr",
+              "date": "2026-09-06",
+              "url": "https://aa.com.tr/en/middle-east/iran-to-declare-restricted-maritime-zone-beyond-strait-of-hormuz-top-security-official/4049165",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -9.5
+              },
+              "gdelt_meta": {
+                "event_id": "1321768376",
+                "event_code": "191",
+                "cameo_desc": "Impose blockade, restrict movement",
+                "actor1": "IRAN",
+                "actor2": "THE US",
+                "actor1_country": "IRN",
+                "actor2_country": "USA",
+                "geo_lat": 35.75,
+                "geo_lon": 51.5148,
+                "geo_name": "Tehran, Tehran, Iran"
+              },
+              "admiralty_source": "B",
+              "admiralty_info": 3,
+              "admiralty_code": "B3"
             }
           ]
         },
@@ -4679,7 +4712,42 @@
         "military": {
           "label": "军事动态",
           "icon": "⚔️",
-          "items": []
+          "items": [
+            {
+              "id": "gdelt_1321768235",
+              "title": "NILE → DARFUR : Use conventional military force, not specified below (Darfur, Gharb Darfur, Sudan)",
+              "title_en": "NILE → DARFUR : Use conventional military force, not specified below (Darfur, Gharb Darfur, Sudan)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: NILE / DARFUR. Location: Darfur, Gharb Darfur, Sudan. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: NILE / DARFUR. Location: Darfur, Gharb Darfur, Sudan. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "aa.com.tr",
+              "date": "2026-09-06",
+              "url": "https://aa.com.tr/en/middle-east/insecurity-displaces-nearly-1-700-people-in-sudan-s-blue-nile-un-migration-agency/4048979",
+              "primary_conflict": "sudan",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1321768235",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "NILE",
+                "actor2": "DARFUR",
+                "actor1_country": "EGY",
+                "actor2_country": "SDN",
+                "geo_lat": 13.5,
+                "geo_lon": 23.5,
+                "geo_name": "Darfur, Gharb Darfur, Sudan"
+              },
+              "admiralty_source": "B",
+              "admiralty_info": 3,
+              "admiralty_code": "B3",
+              "criticality": "background"
+            }
+          ]
         },
         "diplomacy": {
           "label": "外交谈判",
@@ -5401,13 +5469,13 @@
     }
   },
   "stats": {
-    "total_items": 151,
+    "total_items": 153,
     "sources": {
-      "gdelt": 151
+      "gdelt": 153
     },
     "date_range": {
-      "from": "2026-08-07",
-      "to": "2026-09-05"
+      "from": "2026-08-08",
+      "to": "2026-09-06"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",

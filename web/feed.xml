@@ -5,8 +5,38 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 06 Sep 2026 10:35:44 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 11:57:54 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] RUSSIAN → UKRAINE : Use conventional military force, not specified below (Kyiv, Kyyiv, Misto, Ukraine)</title>
+      <link>https://www.aol.co.uk/articles/ukraine-war-breakthrough-putin-meets-231900000.html</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: RUSSIAN / UKRAINE. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">https://www.aol.co.uk/articles/ukraine-war-breakthrough-putin-meets-231900000.html</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.aol.co.uk/articles/ukraine-war-breakthrough-putin-meets-231900000.html">aol.co.uk</source>
+    </item>
+    <item>
+      <title>[俄乌战争] INTERNATIONAL CRIMINAL COURT → ISRAELI : Coerce, not specified below (Moscow, Moskva, Russia)</title>
+      <link>https://www.middleeasteye.net/news/israel-deepens-ties-bosnian-serb-separatists-through-banja-luka-trade-office</link>
+      <description>GDELT Event: Coerce, not specified below. Actors: INTERNATIONAL CRIMINAL COURT / ISRAELI. Location: Moscow, Moskva, Russia. Goldstein Scale: -7.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.middleeasteye.net/news/israel-deepens-ties-bosnian-serb-separatists-through-banja-luka-trade-office</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>外交谈判</category>
+      <source url="https://www.middleeasteye.net/news/israel-deepens-ties-bosnian-serb-separatists-through-banja-luka-trade-office">middleeasteye.net</source>
+    </item>
+    <item>
+      <title>[叙利亚局势] nan → AIR FORCE : Employ aerial weapons (Syria)</title>
+      <link>https://www.ynetnews.com/article/rjrrykc00ge</link>
+      <description>GDELT Event: Employ aerial weapons. Actors: nan / AIR FORCE. Location: Syria. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.ynetnews.com/article/rjrrykc00ge</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <category>叙利亚局势</category>
+      <category>军事动态</category>
+      <source url="https://www.ynetnews.com/article/rjrrykc00ge">ynetnews.com</source>
+    </item>
     <item>
       <title>[俄乌战争] RUSSIAN → CIVILIAN : Use conventional military force, not specified below (Russia)</title>
       <link>https://www.kyivpost.com/post/83794</link>
@@ -476,36 +506,6 @@
       <category>俄乌战争</category>
       <category>军事动态</category>
       <source url="https://www.dailynews.com/2026/08/27/prison-gang-associate-found-guilty-of-2-murders-in-lomita/">dailynews.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] FOREIGN MINIST → BRITISH : Use conventional military force, not specified below (Kiev, Ukraine (general), Ukraine)</title>
-      <link>https://thenewamerican.com/features/russia-is-threatening-britain-as-cia-chief-returns-from-moscow/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: FOREIGN MINIST / BRITISH. Location: Kiev, Ukraine (general), Ukraine. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">https://thenewamerican.com/features/russia-is-threatening-britain-as-cia-chief-returns-from-moscow/</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://thenewamerican.com/features/russia-is-threatening-britain-as-cia-chief-returns-from-moscow/">thenewamerican.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] KYIV → nan : Impose administrative sanctions, not specified below (Kremlin, Moskva, Russia)</title>
-      <link>https://www.newstatesman.com/international-politics/geopolitics/2026/08/ukraine-is-surrounded-by-false-friends</link>
-      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: KYIV / nan. Location: Kremlin, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 3 sources.</description>
-      <guid isPermaLink="true">https://www.newstatesman.com/international-politics/geopolitics/2026/08/ukraine-is-surrounded-by-false-friends</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>外交谈判</category>
-      <source url="https://www.newstatesman.com/international-politics/geopolitics/2026/08/ukraine-is-surrounded-by-false-friends">newstatesman.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAELI → ISRAEL : Fight with small arms and light weapons (Gaza, Israel (general), Israel)</title>
-      <link>https://www.dailygazette.com/ade/ap/business/regional-powers-seek-off-ramp-from-iran-war-and-other-middle-east-developments/article_032e5302-acf8-56b7-b3bf-5588c7b236d3.html</link>
-      <description>GDELT Event: Fight with small arms and light weapons. Actors: ISRAELI / ISRAEL. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.dailygazette.com/ade/ap/business/regional-powers-seek-off-ramp-from-iran-war-and-other-middle-east-developments/article_032e5302-acf8-56b7-b3bf-5588c7b236d3.html</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.dailygazette.com/ade/ap/business/regional-powers-seek-off-ramp-from-iran-war-and-other-middle-east-developments/article_032e5302-acf8-56b7-b3bf-5588c7b236d3.html">dailygazette.com</source>
     </item>
   </channel>
 </rss>
