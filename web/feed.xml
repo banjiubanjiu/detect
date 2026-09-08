@@ -5,8 +5,38 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 07 Sep 2026 11:57:54 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 10:55:48 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[巴以冲突] INDONESIA → ISRAEL : Impose administrative sanctions, not specified below (Gaza, Israel (general), Israel)</title>
+      <link>https://www.i24news.tv/en/news/israel/society/artc-the-controversial-but-growing-israeli-presence-in-bali</link>
+      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: INDONESIA / ISRAEL. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.i24news.tv/en/news/israel/society/artc-the-controversial-but-growing-israeli-presence-in-bali</guid>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>外交谈判</category>
+      <source url="https://www.i24news.tv/en/news/israel/society/artc-the-controversial-but-growing-israeli-presence-in-bali">i24news.tv</source>
+    </item>
+    <item>
+      <title>[美伊对峙] IRAN → THE US : Impose blockade, restrict movement (Tehran, Tehran, Iran)</title>
+      <link>https://aa.com.tr/en/middle-east/iran-to-declare-restricted-maritime-zone-beyond-strait-of-hormuz-top-security-official/4049165</link>
+      <description>GDELT Event: Impose blockade, restrict movement. Actors: IRAN / THE US. Location: Tehran, Tehran, Iran. Goldstein Scale: -9.5. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://aa.com.tr/en/middle-east/iran-to-declare-restricted-maritime-zone-beyond-strait-of-hormuz-top-security-official/4049165</guid>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://aa.com.tr/en/middle-east/iran-to-declare-restricted-maritime-zone-beyond-strait-of-hormuz-top-security-official/4049165">aa.com.tr</source>
+    </item>
+    <item>
+      <title>[苏丹内战] NILE → DARFUR : Use conventional military force, not specified below (Darfur, Gharb Darfur, Sudan)</title>
+      <link>https://aa.com.tr/en/middle-east/insecurity-displaces-nearly-1-700-people-in-sudan-s-blue-nile-un-migration-agency/4048979</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: NILE / DARFUR. Location: Darfur, Gharb Darfur, Sudan. Goldstein Scale: -10.0. Mentioned in 6 sources.</description>
+      <guid isPermaLink="true">https://aa.com.tr/en/middle-east/insecurity-displaces-nearly-1-700-people-in-sudan-s-blue-nile-un-migration-agency/4048979</guid>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
+      <category>苏丹内战</category>
+      <category>军事动态</category>
+      <source url="https://aa.com.tr/en/middle-east/insecurity-displaces-nearly-1-700-people-in-sudan-s-blue-nile-un-migration-agency/4048979">aa.com.tr</source>
+    </item>
     <item>
       <title>[俄乌战争] RUSSIAN → UKRAINE : Use conventional military force, not specified below (Kyiv, Kyyiv, Misto, Ukraine)</title>
       <link>https://www.aol.co.uk/articles/ukraine-war-breakthrough-putin-meets-231900000.html</link>
@@ -476,36 +506,6 @@
       <category>俄乌战争</category>
       <category>外交谈判</category>
       <source url="https://www.eng.kavkaz-uzel.eu/articles/78112">eng.kavkaz-uzel.eu</source>
-    </item>
-    <item>
-      <title>[美伊对峙] nan → VENEZUELA : Occupy territory (Tehran, Tehran, Iran)</title>
-      <link>http://www.goskagit.com/news/politics/the-latest-trump-says-us-will-take-control-of-65-billion-barrels-of-venezuela-s/article_57cd6bed-2def-5230-a2fe-f914a3223067.html</link>
-      <description>GDELT Event: Occupy territory. Actors: nan / VENEZUELA. Location: Tehran, Tehran, Iran. Goldstein Scale: -9.5. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">http://www.goskagit.com/news/politics/the-latest-trump-says-us-will-take-control-of-65-billion-barrels-of-venezuela-s/article_57cd6bed-2def-5230-a2fe-f914a3223067.html</guid>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="http://www.goskagit.com/news/politics/the-latest-trump-says-us-will-take-control-of-65-billion-barrels-of-venezuela-s/article_57cd6bed-2def-5230-a2fe-f914a3223067.html">goskagit.com</source>
-    </item>
-    <item>
-      <title>[台海局势] SOUTH KOREA → GWANGJU : Use conventional military force, not specified below (Taiwan)</title>
-      <link>https://www.artnews.com/art-news/news/china-pulls-artists-from-gwangju-biennale-as-taiwan-pavilion-moves-forward-1234796234/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: SOUTH KOREA / GWANGJU. Location: Taiwan. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
-      <guid isPermaLink="true">https://www.artnews.com/art-news/news/china-pulls-artists-from-gwangju-biennale-as-taiwan-pavilion-moves-forward-1234796234/</guid>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-      <category>台海局势</category>
-      <category>军事动态</category>
-      <source url="https://www.artnews.com/art-news/news/china-pulls-artists-from-gwangju-biennale-as-taiwan-pavilion-moves-forward-1234796234/">artnews.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] PRISON → nan : Use conventional military force, not specified below (Russia)</title>
-      <link>https://www.dailynews.com/2026/08/27/prison-gang-associate-found-guilty-of-2-murders-in-lomita/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: PRISON / nan. Location: Russia. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://www.dailynews.com/2026/08/27/prison-gang-associate-found-guilty-of-2-murders-in-lomita/</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://www.dailynews.com/2026/08/27/prison-gang-associate-found-guilty-of-2-murders-in-lomita/">dailynews.com</source>
     </item>
   </channel>
 </rss>
