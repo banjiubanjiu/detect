@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T10:58:53+00:00Z",
+  "updated_at": "2026-09-11T10:54:45+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -19,72 +19,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1317855179",
-              "title": "NAVY → PANAMA : Employ aerial weapons (Ukraine)",
-              "title_en": "NAVY → PANAMA : Employ aerial weapons (Ukraine)",
-              "summary": "GDELT Event: Employ aerial weapons. Actors: NAVY / PANAMA. Location: Ukraine. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "summary_en": "GDELT Event: Employ aerial weapons. Actors: NAVY / PANAMA. Location: Ukraine. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "source": "gdelt",
-              "source_label": "rigzone.com",
-              "date": "2026-08-11",
-              "url": "https://www.rigzone.com/news/wire/oil_extends_gains_on_hormuz_uncertainty-11-aug-2026-184351-article/",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 2,
-                "sources": 1,
-                "articles": 2,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1317855179",
-                "event_code": "195",
-                "cameo_desc": "Employ aerial weapons",
-                "actor1": "NAVY",
-                "actor2": "PANAMA",
-                "actor1_country": "nan",
-                "actor2_country": "PAN",
-                "geo_lat": 49.0,
-                "geo_lon": 32.0,
-                "geo_name": "Ukraine"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1317855261",
-              "title": "RUSSIA → UNITED STATES : Torture (Massachusetts, United States)",
-              "title_en": "RUSSIA → UNITED STATES : Torture (Massachusetts, United States)",
-              "summary": "GDELT Event: Torture. Actors: RUSSIA / UNITED STATES. Location: Massachusetts, United States. Goldstein Scale: -9.0. Mentioned in 1 sources.",
-              "summary_en": "GDELT Event: Torture. Actors: RUSSIA / UNITED STATES. Location: Massachusetts, United States. Goldstein Scale: -9.0. Mentioned in 1 sources.",
-              "source": "gdelt",
-              "source_label": "bostonherald.com",
-              "date": "2026-08-11",
-              "url": "https://www.bostonherald.com/2026/08/11/former-us-marine-released-from-russia-after-over-4-year-incarceration-on-disputed-charges/",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 1,
-                "sources": 1,
-                "articles": 1,
-                "goldstein": -9.0
-              },
-              "gdelt_meta": {
-                "event_id": "1317855261",
-                "event_code": "1822",
-                "cameo_desc": "Torture",
-                "actor1": "RUSSIA",
-                "actor2": "UNITED STATES",
-                "actor1_country": "RUS",
-                "actor2_country": "USA",
-                "geo_lat": 42.2373,
-                "geo_lon": -71.5314,
-                "geo_name": "Massachusetts, United States"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1318351153",
               "title": "THE US → nan : Use conventional military force, not specified below (Ukraine)",
@@ -1206,6 +1140,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1322477035",
+              "title": "nan → EUROPEAN : Use conventional military force, not specified below (Moscow, Moskva, Russia)",
+              "title_en": "nan → EUROPEAN : Use conventional military force, not specified below (Moscow, Moskva, Russia)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: nan / EUROPEAN. Location: Moscow, Moskva, Russia. Goldstein Scale: -10.0. Mentioned in 5 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: nan / EUROPEAN. Location: Moscow, Moskva, Russia. Goldstein Scale: -10.0. Mentioned in 5 sources.",
+              "source": "gdelt",
+              "source_label": "techradar.com",
+              "date": "2026-09-10",
+              "url": "https://www.techradar.com/pro/ukraine-starts-building-jet-powered-drone-with-a-range-of-over-1-000-kilometers",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 5,
+                "sources": 1,
+                "articles": 5,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1322477035",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "nan",
+                "actor2": "EUROPEAN",
+                "actor1_country": "nan",
+                "actor2_country": "EUR",
+                "geo_lat": 55.7522,
+                "geo_lon": 37.6156,
+                "geo_name": "Moscow, Moskva, Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -1213,72 +1180,6 @@
           "label": "外交谈判",
           "icon": "🕊️",
           "items": [
-            {
-              "id": "gdelt_1317855154",
-              "title": "LAWMAKER → RUSSIAN : Arrest, detain, or charge with legal action (Kremlin, Moskva, Russia)",
-              "title_en": "LAWMAKER → RUSSIAN : Arrest, detain, or charge with legal action (Kremlin, Moskva, Russia)",
-              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: LAWMAKER / RUSSIAN. Location: Kremlin, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 7 sources.",
-              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: LAWMAKER / RUSSIAN. Location: Kremlin, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 7 sources.",
-              "source": "gdelt",
-              "source_label": "ynetnews.com",
-              "date": "2026-08-11",
-              "url": "https://www.ynetnews.com/article/hksc001tize",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 7,
-                "sources": 1,
-                "articles": 7,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1317855154",
-                "event_code": "173",
-                "cameo_desc": "Arrest, detain, or charge with legal action",
-                "actor1": "LAWMAKER",
-                "actor2": "RUSSIAN",
-                "actor1_country": "nan",
-                "actor2_country": "RUS",
-                "geo_lat": 55.7522,
-                "geo_lon": 37.6156,
-                "geo_name": "Kremlin, Moskva, Russia"
-              },
-              "admiralty_source": "B",
-              "admiralty_info": 3,
-              "admiralty_code": "B3"
-            },
-            {
-              "id": "gdelt_1317854786",
-              "title": "nan → RUSSIA : Arrest, detain, or charge with legal action (Livingston Parish, Louisiana, United States)",
-              "title_en": "nan → RUSSIA : Arrest, detain, or charge with legal action (Livingston Parish, Louisiana, United States)",
-              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: nan / RUSSIA. Location: Livingston Parish, Louisiana, United States. Goldstein Scale: -5.0. Mentioned in 2 sources.",
-              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: nan / RUSSIA. Location: Livingston Parish, Louisiana, United States. Goldstein Scale: -5.0. Mentioned in 2 sources.",
-              "source": "gdelt",
-              "source_label": "knoe.com",
-              "date": "2026-08-11",
-              "url": "https://www.knoe.com/2026/08/11/russian-national-arrested-after-over-700-pounds-meth-found-18-wheeler-sheriff-say/",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 2,
-                "sources": 1,
-                "articles": 2,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1317854786",
-                "event_code": "173",
-                "cameo_desc": "Arrest, detain, or charge with legal action",
-                "actor1": "nan",
-                "actor2": "RUSSIA",
-                "actor1_country": "nan",
-                "actor2_country": "RUS",
-                "geo_lat": 30.4502,
-                "geo_lon": -90.7668,
-                "geo_name": "Livingston Parish, Louisiana, United States"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1318022918",
               "title": "PRISON → RUSSIA : Arrest, detain, or charge with legal action (Moscow, Moskva, Russia)",
@@ -1868,6 +1769,39 @@
                 "geo_lat": 43.0,
                 "geo_lon": 47.0,
                 "geo_name": "Dagestan, Dagestan, Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1322477803",
+              "title": "UNITED STATES → RUSSIA : Destroy property (Washington, District of Columbia, United States)",
+              "title_en": "UNITED STATES → RUSSIA : Destroy property (Washington, District of Columbia, United States)",
+              "summary": "GDELT Event: Destroy property. Actors: UNITED STATES / RUSSIA. Location: Washington, District of Columbia, United States. Goldstein Scale: -9.2. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Destroy property. Actors: UNITED STATES / RUSSIA. Location: Washington, District of Columbia, United States. Goldstein Scale: -9.2. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "news8000.com",
+              "date": "2026-09-10",
+              "url": "https://www.news8000.com/news/national-world/us-prosecutor-overseeing-probe-of-trump-foes-resigns/article_5f9e5a3a-081a-5997-a50d-66737502cf04.html",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -9.2
+              },
+              "gdelt_meta": {
+                "event_id": "1322477803",
+                "event_code": "1712",
+                "cameo_desc": "Destroy property",
+                "actor1": "UNITED STATES",
+                "actor2": "RUSSIA",
+                "actor1_country": "USA",
+                "actor2_country": "RUS",
+                "geo_lat": 38.8951,
+                "geo_lon": -77.0364,
+                "geo_name": "Washington, District of Columbia, United States"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -3101,6 +3035,105 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1322477481",
+              "title": "ISRAELI → nan : Fight with artillery and tanks (Dallas, Texas, United States)",
+              "title_en": "ISRAELI → nan : Fight with artillery and tanks (Dallas, Texas, United States)",
+              "summary": "GDELT Event: Fight with artillery and tanks. Actors: ISRAELI / nan. Location: Dallas, Texas, United States. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "summary_en": "GDELT Event: Fight with artillery and tanks. Actors: ISRAELI / nan. Location: Dallas, Texas, United States. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "source": "gdelt",
+              "source_label": "freerepublic.com",
+              "date": "2026-09-10",
+              "url": "https://freerepublic.com/tag/*/index?more=4395015",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 3,
+                "sources": 1,
+                "articles": 3,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1322477481",
+                "event_code": "194",
+                "cameo_desc": "Fight with artillery and tanks",
+                "actor1": "ISRAELI",
+                "actor2": "nan",
+                "actor1_country": "ISR",
+                "actor2_country": "nan",
+                "geo_lat": 32.7831,
+                "geo_lon": -96.8067,
+                "geo_name": "Dallas, Texas, United States"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1322477590",
+              "title": "AIR FORCE → IRAN : Fight with artillery and tanks (Lebanon)",
+              "title_en": "AIR FORCE → IRAN : Fight with artillery and tanks (Lebanon)",
+              "summary": "GDELT Event: Fight with artillery and tanks. Actors: AIR FORCE / IRAN. Location: Lebanon. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Fight with artillery and tanks. Actors: AIR FORCE / IRAN. Location: Lebanon. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "ynetnews.com",
+              "date": "2026-09-10",
+              "url": "https://www.ynetnews.com/article/s1aoocxkze",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1322477590",
+                "event_code": "194",
+                "cameo_desc": "Fight with artillery and tanks",
+                "actor1": "AIR FORCE",
+                "actor2": "IRAN",
+                "actor1_country": "nan",
+                "actor2_country": "IRN",
+                "geo_lat": 33.833333,
+                "geo_lon": 35.833333,
+                "geo_name": "Lebanon"
+              },
+              "admiralty_source": "B",
+              "admiralty_info": 3,
+              "admiralty_code": "B3"
+            },
+            {
+              "id": "gdelt_1322477675",
+              "title": "OPERATIVE → ISRAEL : Use conventional military force, not specified below (Iran)",
+              "title_en": "OPERATIVE → ISRAEL : Use conventional military force, not specified below (Iran)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: OPERATIVE / ISRAEL. Location: Iran. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: OPERATIVE / ISRAEL. Location: Iran. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "ynetnews.com",
+              "date": "2026-09-10",
+              "url": "https://www.ynetnews.com/article/hy11gvyeffe",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1322477675",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "OPERATIVE",
+                "actor2": "ISRAEL",
+                "actor1_country": "nan",
+                "actor2_country": "ISR",
+                "geo_lat": 32.0,
+                "geo_lon": 53.0,
+                "geo_name": "Iran"
+              },
+              "admiralty_source": "B",
+              "admiralty_info": 3,
+              "admiralty_code": "B3"
             }
           ]
         },
@@ -3536,6 +3569,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1322477642",
+              "title": "PALESTINIAN → SETTLER : Destroy property (Nablus, West Bank (general), West Bank)",
+              "title_en": "PALESTINIAN → SETTLER : Destroy property (Nablus, West Bank (general), West Bank)",
+              "summary": "GDELT Event: Destroy property. Actors: PALESTINIAN / SETTLER. Location: Nablus, West Bank (general), West Bank. Goldstein Scale: -9.2. Mentioned in 8 sources.",
+              "summary_en": "GDELT Event: Destroy property. Actors: PALESTINIAN / SETTLER. Location: Nablus, West Bank (general), West Bank. Goldstein Scale: -9.2. Mentioned in 8 sources.",
+              "source": "gdelt",
+              "source_label": "english.news.cn",
+              "date": "2026-09-10",
+              "url": "https://english.news.cn/20260911/f861f7d5f36e46f3a30939f34c5fc9e2/c.html",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 8,
+                "sources": 1,
+                "articles": 8,
+                "goldstein": -9.2
+              },
+              "gdelt_meta": {
+                "event_id": "1322477642",
+                "event_code": "1712",
+                "cameo_desc": "Destroy property",
+                "actor1": "PALESTINIAN",
+                "actor2": "SETTLER",
+                "actor1_country": "PSE",
+                "actor2_country": "nan",
+                "geo_lat": 32.2199,
+                "geo_lon": 35.2636,
+                "geo_name": "Nablus, West Bank (general), West Bank"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -3744,39 +3810,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1317855175",
-              "title": "NAVY → IRAN : Employ aerial weapons (Tehran, Tehran, Iran)",
-              "title_en": "NAVY → IRAN : Employ aerial weapons (Tehran, Tehran, Iran)",
-              "summary": "GDELT Event: Employ aerial weapons. Actors: NAVY / IRAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "summary_en": "GDELT Event: Employ aerial weapons. Actors: NAVY / IRAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "source": "gdelt",
-              "source_label": "argusmedia.com",
-              "date": "2026-08-11",
-              "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2864029-hormuz-traffic-still-low-iran-seeks-concessions",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 2,
-                "sources": 1,
-                "articles": 2,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1317855175",
-                "event_code": "195",
-                "cameo_desc": "Employ aerial weapons",
-                "actor1": "NAVY",
-                "actor2": "IRAN",
-                "actor1_country": "nan",
-                "actor2_country": "IRN",
-                "geo_lat": 35.75,
-                "geo_lon": 51.5148,
-                "geo_name": "Tehran, Tehran, Iran"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1318023409",
               "title": "THE US → IRAN : Use conventional military force, not specified below (Paris, France (general), France)",
@@ -4601,6 +4634,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1322477378",
+              "title": "GOVERNMENT → nan : Use conventional military force, not specified below (Tehran, Tehran, Iran)",
+              "title_en": "GOVERNMENT → nan : Use conventional military force, not specified below (Tehran, Tehran, Iran)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: GOVERNMENT / nan. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: GOVERNMENT / nan. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "source": "gdelt",
+              "source_label": "eurasiareview.com",
+              "date": "2026-09-10",
+              "url": "https://www.eurasiareview.com/11092026-the-need-to-support-yemen-to-stop-the-houthis-march-toward-bab-al-mandab-oped/",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 8,
+                "sources": 1,
+                "articles": 8,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1322477378",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "GOVERNMENT",
+                "actor2": "nan",
+                "actor1_country": "nan",
+                "actor2_country": "nan",
+                "geo_lat": 35.75,
+                "geo_lon": 51.5148,
+                "geo_name": "Tehran, Tehran, Iran"
+              },
+              "admiralty_source": "B",
+              "admiralty_info": 3,
+              "admiralty_code": "B3"
             }
           ]
         },
@@ -5069,74 +5135,6 @@
           "icon": "⚔️",
           "items": [
             {
-              "id": "gdelt_1317855440",
-              "title": "YEMEN → YEMENI : Fight with artillery and tanks (Saudi Arabia)",
-              "title_en": "YEMEN → YEMENI : Fight with artillery and tanks (Saudi Arabia)",
-              "summary": "GDELT Event: Fight with artillery and tanks. Actors: YEMEN / YEMENI. Location: Saudi Arabia. Goldstein Scale: -10.0. Mentioned in 7 sources.",
-              "summary_en": "GDELT Event: Fight with artillery and tanks. Actors: YEMEN / YEMENI. Location: Saudi Arabia. Goldstein Scale: -10.0. Mentioned in 7 sources.",
-              "source": "gdelt",
-              "source_label": "kurv.com",
-              "date": "2026-08-11",
-              "url": "https://www.kurv.com/iranian-backed-houthis-kill-6-in-attack-on-vessel-and-other-developments-in-the-mideast/",
-              "primary_conflict": "yemen-houthi",
-              "metrics": {
-                "mentions": 7,
-                "sources": 1,
-                "articles": 7,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1317855440",
-                "event_code": "194",
-                "cameo_desc": "Fight with artillery and tanks",
-                "actor1": "YEMEN",
-                "actor2": "YEMENI",
-                "actor1_country": "YEM",
-                "actor2_country": "YEM",
-                "geo_lat": 25.0,
-                "geo_lon": 45.0,
-                "geo_name": "Saudi Arabia"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3",
-              "criticality": "background"
-            },
-            {
-              "id": "gdelt_1317854882",
-              "title": "CARGO VESSEL → YEMEN : Use conventional military force, not specified below (Tihamah, Ma'rib, Yemen)",
-              "title_en": "CARGO VESSEL → YEMEN : Use conventional military force, not specified below (Tihamah, Ma'rib, Yemen)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: CARGO VESSEL / YEMEN. Location: Tihamah, Ma'rib, Yemen. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: CARGO VESSEL / YEMEN. Location: Tihamah, Ma'rib, Yemen. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "source": "gdelt",
-              "source_label": "businesstimes.com.sg",
-              "date": "2026-08-11",
-              "url": "https://www.businesstimes.com.sg/international/global/new-attacks-shipping-us-iran-talks-hit-fresh-impasse",
-              "primary_conflict": "yemen-houthi",
-              "metrics": {
-                "mentions": 2,
-                "sources": 1,
-                "articles": 2,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1317854882",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "CARGO VESSEL",
-                "actor2": "YEMEN",
-                "actor1_country": "nan",
-                "actor2_country": "YEM",
-                "geo_lat": 15.4133,
-                "geo_lon": 44.8751,
-                "geo_name": "Tihamah, Ma'rib, Yemen"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3",
-              "criticality": "background"
-            },
-            {
               "id": "gdelt_1318022838",
               "title": "CARGO VESSEL → YEMEN : Use conventional military force, not specified below (Yemen)",
               "title_en": "CARGO VESSEL → YEMEN : Use conventional military force, not specified below (Yemen)",
@@ -5474,40 +5472,6 @@
           "icon": "⚔️",
           "items": [
             {
-              "id": "gdelt_1317855277",
-              "title": "TAIWAN → nan : Fight with small arms and light weapons (Taiwan)",
-              "title_en": "TAIWAN → nan : Fight with small arms and light weapons (Taiwan)",
-              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: TAIWAN / nan. Location: Taiwan. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: TAIWAN / nan. Location: Taiwan. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "source": "gdelt",
-              "source_label": "blog.udn.com:443",
-              "date": "2026-08-11",
-              "url": "https://blog.udn.com:443/kkuo0810/192011913",
-              "primary_conflict": "taiwan-strait",
-              "metrics": {
-                "mentions": 10,
-                "sources": 1,
-                "articles": 10,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1317855277",
-                "event_code": "193",
-                "cameo_desc": "Fight with small arms and light weapons",
-                "actor1": "TAIWAN",
-                "actor2": "nan",
-                "actor1_country": "TWN",
-                "actor2_country": "nan",
-                "geo_lat": 24.0,
-                "geo_lon": 121.0,
-                "geo_name": "Taiwan"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3",
-              "criticality": "background"
-            },
-            {
               "id": "gdelt_1319234677",
               "title": "TAIWAN → REGIME : Occupy territory (Taipei, T'ai-pei, Taiwan)",
               "title_en": "TAIWAN → REGIME : Occupy territory (Taipei, T'ai-pei, Taiwan)",
@@ -5735,13 +5699,13 @@
     }
   },
   "stats": {
-    "total_items": 161,
+    "total_items": 160,
     "sources": {
-      "gdelt": 161
+      "gdelt": 160
     },
     "date_range": {
-      "from": "2026-08-11",
-      "to": "2026-09-09"
+      "from": "2026-08-12",
+      "to": "2026-09-10"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
