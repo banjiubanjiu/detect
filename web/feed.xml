@@ -5,8 +5,38 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 12 Sep 2026 10:23:51 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 13 Sep 2026 11:23:25 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[美伊对峙] nan → IRAN : Occupy territory (United States)</title>
+      <link>https://www.jns.org/houthis-take-control-of-key-island-in-bab-al-mandeb-strait</link>
+      <description>GDELT Event: Occupy territory. Actors: nan / IRAN. Location: United States. Goldstein Scale: -9.5. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://www.jns.org/houthis-take-control-of-key-island-in-bab-al-mandeb-strait</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://www.jns.org/houthis-take-control-of-key-island-in-bab-al-mandeb-strait">jns.org</source>
+    </item>
+    <item>
+      <title>[美伊对峙] UNITED STATES → IRANIAN : Fight with artillery and tanks (Saudi Arabia)</title>
+      <link>http://www.dailyadvance.com/news/world/saudi-arabia-shuts-down-a-pipeline-as-houthis-seize-an-island-opening-a-new-front/article_832ebd73-973b-5aac-a974-f5caf0b258f4.html</link>
+      <description>GDELT Event: Fight with artillery and tanks. Actors: UNITED STATES / IRANIAN. Location: Saudi Arabia. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">http://www.dailyadvance.com/news/world/saudi-arabia-shuts-down-a-pipeline-as-houthis-seize-an-island-opening-a-new-front/article_832ebd73-973b-5aac-a974-f5caf0b258f4.html</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="http://www.dailyadvance.com/news/world/saudi-arabia-shuts-down-a-pipeline-as-houthis-seize-an-island-opening-a-new-front/article_832ebd73-973b-5aac-a974-f5caf0b258f4.html">dailyadvance.com</source>
+    </item>
+    <item>
+      <title>[也门/胡塞武装] CIVILIAN → nan : Use conventional military force, not specified below (Hudaydah, Al ?udaydah, Yemen)</title>
+      <link>https://www.greanvillepost.com/yemen-saudi-war-heats-up-us-involved-again/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: CIVILIAN / nan. Location: Hudaydah, Al ?udaydah, Yemen. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.greanvillepost.com/yemen-saudi-war-heats-up-us-involved-again/</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <category>也门/胡塞武装</category>
+      <category>军事动态</category>
+      <source url="https://www.greanvillepost.com/yemen-saudi-war-heats-up-us-involved-again/">greanvillepost.com</source>
+    </item>
     <item>
       <title>[俄乌战争] nan → EUROPEAN : Use conventional military force, not specified below (Moscow, Moskva, Russia)</title>
       <link>https://www.techradar.com/pro/ukraine-starts-building-jet-powered-drone-with-a-range-of-over-1-000-kilometers</link>
@@ -476,36 +506,6 @@
       <category>巴以冲突</category>
       <category>外交谈判</category>
       <source url="https://www.worthynews.com/117253-syria-begins-destroying-assad-era-chemical-weapons-materials">worthynews.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] nan → IRAN : Use conventional military force, not specified below (Toronto, Ontario, Canada)</title>
-      <link>https://www.orangeville.com/news/gas-diesel-prices-toronto-ontario/article_e758d6c3-c8cd-5442-a4ea-15b6402c8ab5.html</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: nan / IRAN. Location: Toronto, Ontario, Canada. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://www.orangeville.com/news/gas-diesel-prices-toronto-ontario/article_e758d6c3-c8cd-5442-a4ea-15b6402c8ab5.html</guid>
-      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://www.orangeville.com/news/gas-diesel-prices-toronto-ontario/article_e758d6c3-c8cd-5442-a4ea-15b6402c8ab5.html">orangeville.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] TEHRAN → JORDAN : Use conventional military force, not specified below (Tehran, Tehran, Iran)</title>
-      <link>https://www.citynewsokc.com/townnews/politics/iran-hits-us-targets-as-washington-says-probing-wedding-strike/article_3b51bd52-d4e8-5993-aef7-8e9423497a29.html</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: TEHRAN / JORDAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
-      <guid isPermaLink="true">https://www.citynewsokc.com/townnews/politics/iran-hits-us-targets-as-washington-says-probing-wedding-strike/article_3b51bd52-d4e8-5993-aef7-8e9423497a29.html</guid>
-      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://www.citynewsokc.com/townnews/politics/iran-hits-us-targets-as-washington-says-probing-wedding-strike/article_3b51bd52-d4e8-5993-aef7-8e9423497a29.html">citynewsokc.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] RUSSIAN → UKRAINE : Use conventional military force, not specified below (Berlin, Berlin, Germany)</title>
-      <link>https://www.kyivpost.com/post/83609</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: RUSSIAN / UKRAINE. Location: Berlin, Berlin, Germany. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://www.kyivpost.com/post/83609</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://www.kyivpost.com/post/83609">kyivpost.com</source>
     </item>
   </channel>
 </rss>

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T10:24:07+00:00Z",
+  "updated_at": "2026-09-13T11:23:41+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -1769,6 +1769,39 @@
                 "geo_lat": 38.8951,
                 "geo_lon": -77.0364,
                 "geo_name": "Washington, District of Columbia, United States"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1322780062",
+              "title": "SAKHALIN → nan : Impose administrative sanctions, not specified below (Netherlands)",
+              "title_en": "SAKHALIN → nan : Impose administrative sanctions, not specified below (Netherlands)",
+              "summary": "GDELT Event: Impose administrative sanctions, not specified below. Actors: SAKHALIN / nan. Location: Netherlands. Goldstein Scale: -5.0. Mentioned in 3 sources.",
+              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: SAKHALIN / nan. Location: Netherlands. Goldstein Scale: -5.0. Mentioned in 3 sources.",
+              "source": "gdelt",
+              "source_label": "royaldutchshellplc.com",
+              "date": "2026-09-12",
+              "url": "https://royaldutchshellplc.com/2026/09/12/the-shell-leaks-files-12-september-2026/",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 3,
+                "sources": 1,
+                "articles": 3,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1322780062",
+                "event_code": "172",
+                "cameo_desc": "Impose administrative sanctions, not specified below",
+                "actor1": "SAKHALIN",
+                "actor2": "nan",
+                "actor1_country": "RUS",
+                "actor2_country": "nan",
+                "geo_lat": 52.5,
+                "geo_lon": 5.75,
+                "geo_name": "Netherlands"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -3646,39 +3679,6 @@
           "icon": "⚔️",
           "items": [
             {
-              "id": "gdelt_1318189519",
-              "title": "KURDISTAN → nan : Use conventional military force, not specified below (Sulaymaniyah, As Sulaymaniyah, Iraq)",
-              "title_en": "KURDISTAN → nan : Use conventional military force, not specified below (Sulaymaniyah, As Sulaymaniyah, Iraq)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: KURDISTAN / nan. Location: Sulaymaniyah, As Sulaymaniyah, Iraq. Goldstein Scale: -10.0. Mentioned in 5 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: KURDISTAN / nan. Location: Sulaymaniyah, As Sulaymaniyah, Iraq. Goldstein Scale: -10.0. Mentioned in 5 sources.",
-              "source": "gdelt",
-              "source_label": "opednews.com",
-              "date": "2026-08-13",
-              "url": "https://www.opednews.com/populum/page.php?f=U-S-Withdrawal-from-Iraq-Iraq_Iraq-Green-Zone_Iraq-Militias_Iraq-Occupation-Strategy-260813-222.html",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 5,
-                "sources": 1,
-                "articles": 5,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1318189519",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "KURDISTAN",
-                "actor2": "nan",
-                "actor1_country": "IRN",
-                "actor2_country": "nan",
-                "geo_lat": 35.565,
-                "geo_lon": 45.4329,
-                "geo_name": "Sulaymaniyah, As Sulaymaniyah, Iraq"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
               "id": "gdelt_1318458101",
               "title": "IRANIAN → IRANIAN : Use conventional military force, not specified below (Iran)",
               "title_en": "IRANIAN → IRANIAN : Use conventional military force, not specified below (Iran)",
@@ -5538,8 +5538,8 @@
       "gdelt": 155
     },
     "date_range": {
-      "from": "2026-08-13",
-      "to": "2026-09-11"
+      "from": "2026-08-14",
+      "to": "2026-09-12"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
