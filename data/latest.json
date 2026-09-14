@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T11:23:41+00:00Z",
+  "updated_at": "2026-09-14T12:13:10+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -19,105 +19,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1318351153",
-              "title": "THE US → nan : Use conventional military force, not specified below (Ukraine)",
-              "title_en": "THE US → nan : Use conventional military force, not specified below (Ukraine)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: THE US / nan. Location: Ukraine. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: THE US / nan. Location: Ukraine. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "source": "gdelt",
-              "source_label": "techradar.com",
-              "date": "2026-08-14",
-              "url": "https://www.techradar.com/pro/ukrainian-drones-disabled-us-armor-brigade-in-simulated-warfare-so-quickly-that-they-had-to-respawn-the-equipment",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 10,
-                "sources": 1,
-                "articles": 10,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1318351153",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "THE US",
-                "actor2": "nan",
-                "actor1_country": "USA",
-                "actor2_country": "nan",
-                "geo_lat": 49.0,
-                "geo_lon": 32.0,
-                "geo_name": "Ukraine"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1318350934",
-              "title": "IRAN → UKRAINE : Use conventional military force, not specified below (Tehran, Tehran, Iran)",
-              "title_en": "IRAN → UKRAINE : Use conventional military force, not specified below (Tehran, Tehran, Iran)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: IRAN / UKRAINE. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: IRAN / UKRAINE. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "source": "gdelt",
-              "source_label": "hellenicshippingnews.com",
-              "date": "2026-08-14",
-              "url": "https://www.hellenicshippingnews.com/oil-climbs-on-tanker-attacks-us-iran-claims-about-hormuz-control/",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 2,
-                "sources": 1,
-                "articles": 2,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1318350934",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "IRAN",
-                "actor2": "UKRAINE",
-                "actor1_country": "IRN",
-                "actor2_country": "UKR",
-                "geo_lat": 35.75,
-                "geo_lon": 51.5148,
-                "geo_name": "Tehran, Tehran, Iran"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1318351073",
-              "title": "RUSSIA → TRADER : Use conventional military force, not specified below (Ukraine)",
-              "title_en": "RUSSIA → TRADER : Use conventional military force, not specified below (Ukraine)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: RUSSIA / TRADER. Location: Ukraine. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: RUSSIA / TRADER. Location: Ukraine. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "source": "gdelt",
-              "source_label": "hellenicshippingnews.com",
-              "date": "2026-08-14",
-              "url": "https://www.hellenicshippingnews.com/russian-grain-exports-disrupted-after-novorossiysk-terminals-attack/",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 2,
-                "sources": 1,
-                "articles": 2,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1318351073",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "RUSSIA",
-                "actor2": "TRADER",
-                "actor1_country": "RUS",
-                "actor2_country": "nan",
-                "geo_lat": 49.0,
-                "geo_lon": 32.0,
-                "geo_name": "Ukraine"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1318712144",
               "title": "UKRAINIAN → UNITED KINGDOM : Use conventional military force, not specified below (Moscow, Moskva, Russia)",
@@ -1173,6 +1074,105 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1322883131",
+              "title": "ISRAELI → nan : Fight with artillery and tanks (Russia)",
+              "title_en": "ISRAELI → nan : Fight with artillery and tanks (Russia)",
+              "summary": "GDELT Event: Fight with artillery and tanks. Actors: ISRAELI / nan. Location: Russia. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "summary_en": "GDELT Event: Fight with artillery and tanks. Actors: ISRAELI / nan. Location: Russia. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "source": "gdelt",
+              "source_label": "newsbusters.org",
+              "date": "2026-09-13",
+              "url": "https://www.newsbusters.org/blogs/nb/tom-blumer/2014/07/18/world-tensions-mount-state-depts-psaki-tweets-being-smart-savvy-and",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 8,
+                "sources": 1,
+                "articles": 8,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1322883131",
+                "event_code": "194",
+                "cameo_desc": "Fight with artillery and tanks",
+                "actor1": "ISRAELI",
+                "actor2": "nan",
+                "actor1_country": "ISR",
+                "actor2_country": "nan",
+                "geo_lat": 60.0,
+                "geo_lon": 100.0,
+                "geo_name": "Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1322883085",
+              "title": "PRESIDENT → RUSSIAN : Employ aerial weapons (India)",
+              "title_en": "PRESIDENT → RUSSIAN : Employ aerial weapons (India)",
+              "summary": "GDELT Event: Employ aerial weapons. Actors: PRESIDENT / RUSSIAN. Location: India. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Employ aerial weapons. Actors: PRESIDENT / RUSSIAN. Location: India. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "smh.com.au",
+              "date": "2026-09-13",
+              "url": "https://www.smh.com.au/world/europe/australia-exposed-to-growing-risk-from-deepening-china-russia-north-korea-alliance-20260914-p60wzo.html",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1322883085",
+                "event_code": "195",
+                "cameo_desc": "Employ aerial weapons",
+                "actor1": "PRESIDENT",
+                "actor2": "RUSSIAN",
+                "actor1_country": "nan",
+                "actor2_country": "RUS",
+                "geo_lat": 20.0,
+                "geo_lon": 77.0,
+                "geo_name": "India"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1322883216",
+              "title": "RUSSIA → UKRAINE : Use conventional military force, not specified below (United Kingdom)",
+              "title_en": "RUSSIA → UKRAINE : Use conventional military force, not specified below (United Kingdom)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: RUSSIA / UKRAINE. Location: United Kingdom. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: RUSSIA / UKRAINE. Location: United Kingdom. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "freerepublic.com",
+              "date": "2026-09-13",
+              "url": "https://freerepublic.com/tag/*/index?more=4395392",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1322883216",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "RUSSIA",
+                "actor2": "UKRAINE",
+                "actor1_country": "RUS",
+                "actor2_country": "UKR",
+                "geo_lat": 54.0,
+                "geo_lon": -4.0,
+                "geo_name": "United Kingdom"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -1180,39 +1180,6 @@
           "label": "外交谈判",
           "icon": "🕊️",
           "items": [
-            {
-              "id": "gdelt_1318350806",
-              "title": "GERMAN → RUSSIAN : Arrest, detain, or charge with legal action (Germany)",
-              "title_en": "GERMAN → RUSSIAN : Arrest, detain, or charge with legal action (Germany)",
-              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: GERMAN / RUSSIAN. Location: Germany. Goldstein Scale: -5.0. Mentioned in 3 sources.",
-              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: GERMAN / RUSSIAN. Location: Germany. Goldstein Scale: -5.0. Mentioned in 3 sources.",
-              "source": "gdelt",
-              "source_label": "techtimes.com",
-              "date": "2026-08-14",
-              "url": "https://www.techtimes.com/articles/324522/20260814/russia-delivers-first-production-pd-8-engines-crossing-sanctions-hardest-technical-line.htm",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 3,
-                "sources": 1,
-                "articles": 3,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1318350806",
-                "event_code": "173",
-                "cameo_desc": "Arrest, detain, or charge with legal action",
-                "actor1": "GERMAN",
-                "actor2": "RUSSIAN",
-                "actor1_country": "DEU",
-                "actor2_country": "RUS",
-                "geo_lat": 51.5,
-                "geo_lon": 10.5,
-                "geo_name": "Germany"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1318883384",
               "title": "RUSSIA → nan : Impose administrative sanctions, not specified below (Poland)",
@@ -4535,6 +4502,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1322883311",
+              "title": "YEMEN → IRAN : Use conventional military force, not specified below (Qeshm, Kordestan, Iran)",
+              "title_en": "YEMEN → IRAN : Use conventional military force, not specified below (Qeshm, Kordestan, Iran)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: YEMEN / IRAN. Location: Qeshm, Kordestan, Iran. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: YEMEN / IRAN. Location: Qeshm, Kordestan, Iran. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "source": "gdelt",
+              "source_label": "journalgazette.net",
+              "date": "2026-09-13",
+              "url": "https://www.journalgazette.net/news/world/iranian-cargo-ship-is-struck-and-talks-between-tehran-and-its-neighbors-are-postponed/article_8de5ccfb-c264-5c4f-a984-2ae1f0d7afc6.html",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 8,
+                "sources": 1,
+                "articles": 8,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1322883311",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "YEMEN",
+                "actor2": "IRAN",
+                "actor1_country": "YEM",
+                "actor2_country": "IRN",
+                "geo_lat": 35.4421,
+                "geo_lon": 47.3506,
+                "geo_name": "Qeshm, Kordestan, Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -5538,8 +5538,8 @@
       "gdelt": 155
     },
     "date_range": {
-      "from": "2026-08-14",
-      "to": "2026-09-12"
+      "from": "2026-08-15",
+      "to": "2026-09-13"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
