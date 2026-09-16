@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T11:26:04+00:00Z",
+  "updated_at": "2026-09-16T11:08:24+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -1981,105 +1981,6 @@
           "icon": "⚔️",
           "items": [
             {
-              "id": "gdelt_1318555514",
-              "title": "JERUSALEM → COLONIST : Physically assault, not specified below (Jerusalem, Israel (general), Israel)",
-              "title_en": "JERUSALEM → COLONIST : Physically assault, not specified below (Jerusalem, Israel (general), Israel)",
-              "summary": "GDELT Event: Physically assault, not specified below. Actors: JERUSALEM / COLONIST. Location: Jerusalem, Israel (general), Israel. Goldstein Scale: -9.5. Mentioned in 7 sources.",
-              "summary_en": "GDELT Event: Physically assault, not specified below. Actors: JERUSALEM / COLONIST. Location: Jerusalem, Israel (general), Israel. Goldstein Scale: -9.5. Mentioned in 7 sources.",
-              "source": "gdelt",
-              "source_label": "english.wafa.ps",
-              "date": "2026-08-16",
-              "url": "https://english.wafa.ps/Pages/Details/173726",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 7,
-                "sources": 1,
-                "articles": 7,
-                "goldstein": -9.5
-              },
-              "gdelt_meta": {
-                "event_id": "1318555514",
-                "event_code": "182",
-                "cameo_desc": "Physically assault, not specified below",
-                "actor1": "JERUSALEM",
-                "actor2": "COLONIST",
-                "actor1_country": "ISR",
-                "actor2_country": "nan",
-                "geo_lat": 31.7667,
-                "geo_lon": 35.2333,
-                "geo_name": "Jerusalem, Israel (general), Israel"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1318555371",
-              "title": "POLICE → nan : Use conventional military force, not specified below (Israel)",
-              "title_en": "POLICE → nan : Use conventional military force, not specified below (Israel)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: POLICE / nan. Location: Israel. Goldstein Scale: -10.0. Mentioned in 5 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: POLICE / nan. Location: Israel. Goldstein Scale: -10.0. Mentioned in 5 sources.",
-              "source": "gdelt",
-              "source_label": "haaretz.com",
-              "date": "2026-08-16",
-              "url": "https://www.haaretz.com/israel-news/2026-08-17/ty-article/.premium/we-came-to-a-wedding-why-did-we-all-have-to-lie-on-the-ground-for-30-minutes/000001a0-0c48-dbac-a5bc-8cfa273c0000",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 5,
-                "sources": 1,
-                "articles": 5,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1318555371",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "POLICE",
-                "actor2": "nan",
-                "actor1_country": "nan",
-                "actor2_country": "nan",
-                "geo_lat": 31.5,
-                "geo_lon": 34.75,
-                "geo_name": "Israel"
-              },
-              "admiralty_source": "B",
-              "admiralty_info": 3,
-              "admiralty_code": "B3"
-            },
-            {
-              "id": "gdelt_1318555410",
-              "title": "SETTLEMENT → ISRAEL : Use conventional military force, not specified below (Ramallah, West Bank (general), West Bank)",
-              "title_en": "SETTLEMENT → ISRAEL : Use conventional military force, not specified below (Ramallah, West Bank (general), West Bank)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: SETTLEMENT / ISRAEL. Location: Ramallah, West Bank (general), West Bank. Goldstein Scale: -10.0. Mentioned in 4 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: SETTLEMENT / ISRAEL. Location: Ramallah, West Bank (general), West Bank. Goldstein Scale: -10.0. Mentioned in 4 sources.",
-              "source": "gdelt",
-              "source_label": "english.wafa.ps",
-              "date": "2026-08-16",
-              "url": "https://english.wafa.ps/Pages/Details/173725",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 4,
-                "sources": 1,
-                "articles": 4,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1318555410",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "SETTLEMENT",
-                "actor2": "ISRAEL",
-                "actor1_country": "nan",
-                "actor2_country": "ISR",
-                "geo_lat": 31.9026,
-                "geo_lon": 35.1955,
-                "geo_name": "Ramallah, West Bank (general), West Bank"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
               "id": "gdelt_1318883196",
               "title": "ISRAEL → UNITED STATES : Use conventional military force, not specified below (World Trade Center, Illinois, United States)",
               "title_en": "ISRAEL → UNITED STATES : Use conventional military force, not specified below (World Trade Center, Illinois, United States)",
@@ -3266,6 +3167,72 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1323234113",
+              "title": "UNITED STATES → UNITED STATES : Fight with small arms and light weapons (Israel)",
+              "title_en": "UNITED STATES → UNITED STATES : Fight with small arms and light weapons (Israel)",
+              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: UNITED STATES / UNITED STATES. Location: Israel. Goldstein Scale: -10.0. Mentioned in 4 sources.",
+              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: UNITED STATES / UNITED STATES. Location: Israel. Goldstein Scale: -10.0. Mentioned in 4 sources.",
+              "source": "gdelt",
+              "source_label": "nhpr.org",
+              "date": "2026-09-15",
+              "url": "https://www.nhpr.org/2026-09-15/jason-eaton-trail-prosecution-rests-case",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 4,
+                "sources": 1,
+                "articles": 4,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1323234113",
+                "event_code": "193",
+                "cameo_desc": "Fight with small arms and light weapons",
+                "actor1": "UNITED STATES",
+                "actor2": "UNITED STATES",
+                "actor1_country": "USA",
+                "actor2_country": "USA",
+                "geo_lat": 31.5,
+                "geo_lon": 34.75,
+                "geo_name": "Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1323233870",
+              "title": "COMMANDER → nan : Use conventional military force, not specified below (Khan Yunis, Gaza Strip (general), Gaza Strip)",
+              "title_en": "COMMANDER → nan : Use conventional military force, not specified below (Khan Yunis, Gaza Strip (general), Gaza Strip)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: COMMANDER / nan. Location: Khan Yunis, Gaza Strip (general), Gaza Strip. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: COMMANDER / nan. Location: Khan Yunis, Gaza Strip (general), Gaza Strip. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "source": "gdelt",
+              "source_label": "yahoo.com",
+              "date": "2026-09-15",
+              "url": "https://www.yahoo.com/news/world/articles/idf-kills-senior-hamas-rafah-225339247.html",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 3,
+                "sources": 1,
+                "articles": 3,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1323233870",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "COMMANDER",
+                "actor2": "nan",
+                "actor1_country": "nan",
+                "actor2_country": "nan",
+                "geo_lat": 31.3402,
+                "geo_lon": 34.3063,
+                "geo_name": "Khan Yunis, Gaza Strip (general), Gaza Strip"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -3909,72 +3876,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1318555509",
-              "title": "IRAN → YEMEN : Employ aerial weapons (Tehran, Tehran, Iran)",
-              "title_en": "IRAN → YEMEN : Employ aerial weapons (Tehran, Tehran, Iran)",
-              "summary": "GDELT Event: Employ aerial weapons. Actors: IRAN / YEMEN. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 8 sources.",
-              "summary_en": "GDELT Event: Employ aerial weapons. Actors: IRAN / YEMEN. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 8 sources.",
-              "source": "gdelt",
-              "source_label": "inquirer.com",
-              "date": "2026-08-16",
-              "url": "https://www.inquirer.com/news/nation-world/iran-us-war-gulf-state-leades-frustration-trump-diplomacy-20260816.html",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 8,
-                "sources": 1,
-                "articles": 8,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1318555509",
-                "event_code": "195",
-                "cameo_desc": "Employ aerial weapons",
-                "actor1": "IRAN",
-                "actor2": "YEMEN",
-                "actor1_country": "IRN",
-                "actor2_country": "YEM",
-                "geo_lat": 35.75,
-                "geo_lon": 51.5148,
-                "geo_name": "Tehran, Tehran, Iran"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1318555510",
-              "title": "IRAN → IRAN : Assassinate (Karaj, Tehran, Iran)",
-              "title_en": "IRAN → IRAN : Assassinate (Karaj, Tehran, Iran)",
-              "summary": "GDELT Event: Assassinate. Actors: IRAN / IRAN. Location: Karaj, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 1 sources.",
-              "summary_en": "GDELT Event: Assassinate. Actors: IRAN / IRAN. Location: Karaj, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 1 sources.",
-              "source": "gdelt",
-              "source_label": "haaretz.com",
-              "date": "2026-08-16",
-              "url": "https://www.haaretz.com/israel-news/israel-security/2026-08-17/ty-article-live/kushner-lands-in-israel-after-meeting-hamas-officials-in-bid-to-save-gaza-truce/000001a0-0c64-d88f-abbf-dcedc81e0000",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 1,
-                "sources": 1,
-                "articles": 1,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1318555510",
-                "event_code": "186",
-                "cameo_desc": "Assassinate",
-                "actor1": "IRAN",
-                "actor2": "IRAN",
-                "actor1_country": "IRN",
-                "actor2_country": "IRN",
-                "geo_lat": 35.8355,
-                "geo_lon": 51.0103,
-                "geo_name": "Karaj, Tehran, Iran"
-              },
-              "admiralty_source": "B",
-              "admiralty_info": 3,
-              "admiralty_code": "B3"
-            },
             {
               "id": "gdelt_1318882773",
               "title": "UNITED ARAB EMIRATES → IRAN : Fight with artillery and tanks (Tehran, Tehran, Iran)",
@@ -4766,6 +4667,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1323234119",
+              "title": "UNITED STATES → THE US : Fight with small arms and light weapons (Iran)",
+              "title_en": "UNITED STATES → THE US : Fight with small arms and light weapons (Iran)",
+              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: UNITED STATES / THE US. Location: Iran. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: UNITED STATES / THE US. Location: Iran. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "aljazeera.com",
+              "date": "2026-09-15",
+              "url": "https://www.aljazeera.com/news/2026/9/15/republican-congressman-calls-to-impeach-us-defence-secretary-pete-hegseth",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1323234119",
+                "event_code": "193",
+                "cameo_desc": "Fight with small arms and light weapons",
+                "actor1": "UNITED STATES",
+                "actor2": "THE US",
+                "actor1_country": "USA",
+                "actor2_country": "USA",
+                "geo_lat": 32.0,
+                "geo_lon": 53.0,
+                "geo_name": "Iran"
+              },
+              "admiralty_source": "B",
+              "admiralty_info": 3,
+              "admiralty_code": "B3"
             }
           ]
         },
@@ -5349,12 +5283,82 @@
         "diplomacy": {
           "label": "外交谈判",
           "icon": "🕊️",
-          "items": []
+          "items": [
+            {
+              "id": "gdelt_1323233497",
+              "title": "POLICE → CONGO : Use violent repression (Congo)",
+              "title_en": "POLICE → CONGO : Use violent repression (Congo)",
+              "summary": "GDELT Event: Use violent repression. Actors: POLICE / CONGO. Location: Congo. Goldstein Scale: -9.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Use violent repression. Actors: POLICE / CONGO. Location: Congo. Goldstein Scale: -9.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "isp.netscape.com:443",
+              "date": "2026-09-15",
+              "url": "https://isp.netscape.com:443/news/world/story/0001/20260915/722684d7da7ffe1d49c44dd03db82904",
+              "primary_conflict": "congo-drc",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -9.0
+              },
+              "gdelt_meta": {
+                "event_id": "1323233497",
+                "event_code": "175",
+                "cameo_desc": "Use violent repression",
+                "actor1": "POLICE",
+                "actor2": "CONGO",
+                "actor1_country": "nan",
+                "actor2_country": "COG",
+                "geo_lat": -1.0,
+                "geo_lon": 15.0,
+                "geo_name": "Congo"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3",
+              "criticality": "background"
+            }
+          ]
         },
         "opinion": {
           "label": "舆论热点",
           "icon": "💬",
-          "items": []
+          "items": [
+            {
+              "id": "gdelt_1323233496",
+              "title": "POLICE → DR CONGO : Demonstrate or rally (Congo)",
+              "title_en": "POLICE → DR CONGO : Demonstrate or rally (Congo)",
+              "summary": "GDELT Event: Demonstrate or rally. Actors: POLICE / DR CONGO. Location: Congo. Goldstein Scale: -6.5. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Demonstrate or rally. Actors: POLICE / DR CONGO. Location: Congo. Goldstein Scale: -6.5. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "sundayexpress.co.ls",
+              "date": "2026-09-15",
+              "url": "https://sundayexpress.co.ls/?p=36547",
+              "primary_conflict": "congo-drc",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -6.5
+              },
+              "gdelt_meta": {
+                "event_id": "1323233496",
+                "event_code": "141",
+                "cameo_desc": "Demonstrate or rally",
+                "actor1": "POLICE",
+                "actor2": "DR CONGO",
+                "actor1_country": "nan",
+                "actor2_country": "COD",
+                "geo_lat": -1.0,
+                "geo_lon": 15.0,
+                "geo_name": "Congo"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3",
+              "criticality": "background"
+            }
+          ]
         },
         "video": {
           "label": "视频报道",
@@ -5490,6 +5494,40 @@
               "admiralty_source": "B",
               "admiralty_info": 3,
               "admiralty_code": "B3",
+              "criticality": "background"
+            },
+            {
+              "id": "gdelt_1323234090",
+              "title": "CLEVELAND → SYRIA : Physically assault, not specified below (Cleveland, Ohio, United States)",
+              "title_en": "CLEVELAND → SYRIA : Physically assault, not specified below (Cleveland, Ohio, United States)",
+              "summary": "GDELT Event: Physically assault, not specified below. Actors: CLEVELAND / SYRIA. Location: Cleveland, Ohio, United States. Goldstein Scale: -9.5. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Physically assault, not specified below. Actors: CLEVELAND / SYRIA. Location: Cleveland, Ohio, United States. Goldstein Scale: -9.5. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "leadertelegram.com",
+              "date": "2026-09-15",
+              "url": "http://www.leadertelegram.com/news/nation-world/browns-place-running-back-dylan-sampson-on-injured-reserve/article_cf7d5f3a-b589-5c60-8e9f-32ecd289f584.html",
+              "primary_conflict": "syria",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -9.5
+              },
+              "gdelt_meta": {
+                "event_id": "1323234090",
+                "event_code": "182",
+                "cameo_desc": "Physically assault, not specified below",
+                "actor1": "CLEVELAND",
+                "actor2": "SYRIA",
+                "actor1_country": "USA",
+                "actor2_country": "SYR",
+                "geo_lat": 41.4995,
+                "geo_lon": -81.6954,
+                "geo_name": "Cleveland, Ohio, United States"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3",
               "criticality": "background"
             }
           ]
@@ -5799,13 +5837,13 @@
     }
   },
   "stats": {
-    "total_items": 163,
+    "total_items": 164,
     "sources": {
-      "gdelt": 163
+      "gdelt": 164
     },
     "date_range": {
-      "from": "2026-08-16",
-      "to": "2026-09-14"
+      "from": "2026-08-17",
+      "to": "2026-09-15"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
