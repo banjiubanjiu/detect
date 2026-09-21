@@ -5,8 +5,28 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 20 Sep 2026 10:57:41 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 12:22:08 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[巴以冲突] ISRAEL → IRAN : Use conventional military force, not specified below (Riyadh, Ar Riya?, Saudi Arabia)</title>
+      <link>https://www.smh.com.au/world/middle-east/flames-smoke-seen-near-riyadh-airport-houthis-claim-attacks-on-saudi-capital-20260920-p60yve.html</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / IRAN. Location: Riyadh, Ar Riya?, Saudi Arabia. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">https://www.smh.com.au/world/middle-east/flames-smoke-seen-near-riyadh-airport-houthis-claim-attacks-on-saudi-capital-20260920-p60yve.html</guid>
+      <pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.smh.com.au/world/middle-east/flames-smoke-seen-near-riyadh-airport-houthis-claim-attacks-on-saudi-capital-20260920-p60yve.html">smh.com.au</source>
+    </item>
+    <item>
+      <title>[美伊对峙] IRAN → nan : Use unconventional violence, not specified below (Iran)</title>
+      <link>https://www.sott.net/article/508470-Reasonable-grounds-to-believe-US-committed-war-crimes-in-Iran-UN</link>
+      <description>GDELT Event: Use unconventional violence, not specified below. Actors: IRAN / nan. Location: Iran. Goldstein Scale: -9.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.sott.net/article/508470-Reasonable-grounds-to-believe-US-committed-war-crimes-in-Iran-UN</guid>
+      <pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://www.sott.net/article/508470-Reasonable-grounds-to-believe-US-committed-war-crimes-in-Iran-UN">sott.net</source>
+    </item>
     <item>
       <title>[俄乌战争] CIVILIAN → UKRAINIAN : Use conventional military force, not specified below (Kyiv, Kyyiv, Misto, Ukraine)</title>
       <link>https://www.watoday.com.au/world/europe/total-war-the-human-face-of-the-assault-on-ukraine-20260919-p60yf2.html</link>
@@ -486,26 +506,6 @@
       <category>巴以冲突</category>
       <category>军事动态</category>
       <source url="https://www.ynetnews.com/article/s1aoocxkze">ynetnews.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] OPERATIVE → ISRAEL : Use conventional military force, not specified below (Iran)</title>
-      <link>https://www.ynetnews.com/article/hy11gvyeffe</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: OPERATIVE / ISRAEL. Location: Iran. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.ynetnews.com/article/hy11gvyeffe</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.ynetnews.com/article/hy11gvyeffe">ynetnews.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] PALESTINIAN → SETTLER : Destroy property (Nablus, West Bank (general), West Bank)</title>
-      <link>https://english.news.cn/20260911/f861f7d5f36e46f3a30939f34c5fc9e2/c.html</link>
-      <description>GDELT Event: Destroy property. Actors: PALESTINIAN / SETTLER. Location: Nablus, West Bank (general), West Bank. Goldstein Scale: -9.2. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">https://english.news.cn/20260911/f861f7d5f36e46f3a30939f34c5fc9e2/c.html</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>外交谈判</category>
-      <source url="https://english.news.cn/20260911/f861f7d5f36e46f3a30939f34c5fc9e2/c.html">english.news.cn</source>
     </item>
   </channel>
 </rss>

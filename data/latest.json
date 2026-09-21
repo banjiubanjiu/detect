@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T10:57:57+00:00Z",
+  "updated_at": "2026-09-21T12:22:24+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -19,39 +19,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1319397204",
-              "title": "POLICE OFFICER → nan : Fight with small arms and light weapons (Lviv, L'vivs'ka Oblast', Ukraine)",
-              "title_en": "POLICE OFFICER → nan : Fight with small arms and light weapons (Lviv, L'vivs'ka Oblast', Ukraine)",
-              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: POLICE OFFICER / nan. Location: Lviv, L'vivs'ka Oblast', Ukraine. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: POLICE OFFICER / nan. Location: Lviv, L'vivs'ka Oblast', Ukraine. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "source": "gdelt",
-              "source_label": "bignewsnetwork.com",
-              "date": "2026-08-21",
-              "url": "http://www.bignewsnetwork.com/news/279257285/draft-officer-fatally-stabbed-in-ukraine",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 10,
-                "sources": 2,
-                "articles": 10,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1319397204",
-                "event_code": "193",
-                "cameo_desc": "Fight with small arms and light weapons",
-                "actor1": "POLICE OFFICER",
-                "actor2": "nan",
-                "actor1_country": "nan",
-                "actor2_country": "nan",
-                "geo_lat": 49.8407,
-                "geo_lon": 24.0305,
-                "geo_name": "Lviv, L'vivs'ka Oblast', Ukraine"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1319760928",
               "title": "RUSSIA → MANUFACTURER : Use conventional military force, not specified below (Kremlin, Moskva, Russia)",
@@ -1206,6 +1173,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1323999899",
+              "title": "MOSCOW → CIVILIAN : Use conventional military force, not specified below (Moscow, Moskva, Russia)",
+              "title_en": "MOSCOW → CIVILIAN : Use conventional military force, not specified below (Moscow, Moskva, Russia)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: MOSCOW / CIVILIAN. Location: Moscow, Moskva, Russia. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: MOSCOW / CIVILIAN. Location: Moscow, Moskva, Russia. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "source": "gdelt",
+              "source_label": "politico.eu",
+              "date": "2026-09-20",
+              "url": "https://www.politico.eu/article/russias-secret-plan-to-supercharge-kamikaze-drone-production/",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 8,
+                "sources": 1,
+                "articles": 8,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1323999899",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "MOSCOW",
+                "actor2": "CIVILIAN",
+                "actor1_country": "RUS",
+                "actor2_country": "nan",
+                "geo_lat": 55.7522,
+                "geo_lon": 37.6156,
+                "geo_name": "Moscow, Moskva, Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -1947,105 +1947,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1319397212",
-              "title": "SECURITY OFFICIAL → PALESTINIAN : Fight with small arms and light weapons (Israel)",
-              "title_en": "SECURITY OFFICIAL → PALESTINIAN : Fight with small arms and light weapons (Israel)",
-              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: SECURITY OFFICIAL / PALESTINIAN. Location: Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: SECURITY OFFICIAL / PALESTINIAN. Location: Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "source": "gdelt",
-              "source_label": "theyeshivaworld.com",
-              "date": "2026-08-21",
-              "url": "https://www.theyeshivaworld.com/news/israel-news/2588479/deadly-clash-palestinian-teen-killed-after-chareidi-hikers-attacked-with-rocks-near-chevron.html",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 10,
-                "sources": 1,
-                "articles": 10,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1319397212",
-                "event_code": "193",
-                "cameo_desc": "Fight with small arms and light weapons",
-                "actor1": "SECURITY OFFICIAL",
-                "actor2": "PALESTINIAN",
-                "actor1_country": "nan",
-                "actor2_country": "PSE",
-                "geo_lat": 31.5,
-                "geo_lon": 34.75,
-                "geo_name": "Israel"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1319397362",
-              "title": "ISRAEL → nan : Fight with small arms and light weapons (nan)",
-              "title_en": "ISRAEL → nan : Fight with small arms and light weapons (nan)",
-              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: ISRAEL / nan. Location: nan. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: ISRAEL / nan. Location: nan. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "source": "gdelt",
-              "source_label": "komonews.com",
-              "date": "2026-08-21",
-              "url": "https://komonews.com/news/local/seattle-mass-shooting-911-recordings-capture-panic-during-bite-of-seattle-shooting-at-seattle-center-police-response-victims-public-safety-paramedic",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 10,
-                "sources": 1,
-                "articles": 10,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1319397362",
-                "event_code": "193",
-                "cameo_desc": "Fight with small arms and light weapons",
-                "actor1": "ISRAEL",
-                "actor2": "nan",
-                "actor1_country": "ISR",
-                "actor2_country": "nan",
-                "geo_lat": NaN,
-                "geo_lon": NaN,
-                "geo_name": "nan"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1319397124",
-              "title": "nan → TERRORIST : Occupy territory (Israel)",
-              "title_en": "nan → TERRORIST : Occupy territory (Israel)",
-              "summary": "GDELT Event: Occupy territory. Actors: nan / TERRORIST. Location: Israel. Goldstein Scale: -9.5. Mentioned in 5 sources.",
-              "summary_en": "GDELT Event: Occupy territory. Actors: nan / TERRORIST. Location: Israel. Goldstein Scale: -9.5. Mentioned in 5 sources.",
-              "source": "gdelt",
-              "source_label": "theyeshivaworld.com",
-              "date": "2026-08-21",
-              "url": "https://www.theyeshivaworld.com/news/israel-news/2588491/terrorist-eliminated-knife-wielding-terrorist-charges-idf-paratroopers-in-jenin.html",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 5,
-                "sources": 1,
-                "articles": 5,
-                "goldstein": -9.5
-              },
-              "gdelt_meta": {
-                "event_id": "1319397124",
-                "event_code": "192",
-                "cameo_desc": "Occupy territory",
-                "actor1": "nan",
-                "actor2": "TERRORIST",
-                "actor1_country": "nan",
-                "actor2_country": "nan",
-                "geo_lat": 31.5,
-                "geo_lon": 34.75,
-                "geo_name": "Israel"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1319503692",
               "title": "nan → ISRAEL : Use conventional military force, not specified below (Shuva, HaDarom, Israel)",
@@ -3130,6 +3031,39 @@
                 "geo_lat": 24.6408,
                 "geo_lon": 46.7728,
                 "geo_name": "Riyadh, Ar Riya?, Saudi Arabia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1323999877",
+              "title": "WEST BANK → ISRAELI : Fight with small arms and light weapons (West Bank)",
+              "title_en": "WEST BANK → ISRAELI : Fight with small arms and light weapons (West Bank)",
+              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: WEST BANK / ISRAELI. Location: West Bank. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: WEST BANK / ISRAELI. Location: West Bank. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "theamericanconservative.com",
+              "date": "2026-09-20",
+              "url": "https://www.theamericanconservative.com/iran-war-day-205-u-s-puts-embassies-on-alert-as-trump-says-hes-in-a-deciding-mode-on-iran/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1323999877",
+                "event_code": "193",
+                "cameo_desc": "Fight with small arms and light weapons",
+                "actor1": "WEST BANK",
+                "actor2": "ISRAELI",
+                "actor1_country": "PSE",
+                "actor2_country": "ISR",
+                "geo_lat": 31.666667,
+                "geo_lon": 35.25,
+                "geo_name": "West Bank"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -4535,6 +4469,72 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1323999698",
+              "title": "ALGERIAN → FRANCE : Fight with small arms and light weapons (Tehran, Tehran, Iran)",
+              "title_en": "ALGERIAN → FRANCE : Fight with small arms and light weapons (Tehran, Tehran, Iran)",
+              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: ALGERIAN / FRANCE. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 1 sources.",
+              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: ALGERIAN / FRANCE. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 1 sources.",
+              "source": "gdelt",
+              "source_label": "haaretz.com",
+              "date": "2026-09-20",
+              "url": "https://www.haaretz.com/israel-news/israel-security/2026-09-21/ty-article-live/houthis-warn-countries-against-joining-saudi-arabia-in-renewed-yemen-fighting/000001a0-c0b5-d9a4-adf9-f1fd79c00000",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 1,
+                "sources": 1,
+                "articles": 1,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1323999698",
+                "event_code": "193",
+                "cameo_desc": "Fight with small arms and light weapons",
+                "actor1": "ALGERIAN",
+                "actor2": "FRANCE",
+                "actor1_country": "DZA",
+                "actor2_country": "FRA",
+                "geo_lat": 35.75,
+                "geo_lon": 51.5148,
+                "geo_name": "Tehran, Tehran, Iran"
+              },
+              "admiralty_source": "B",
+              "admiralty_info": 3,
+              "admiralty_code": "B3"
+            },
+            {
+              "id": "gdelt_1323999802",
+              "title": "IRAN → ALGERIA : Fight with small arms and light weapons (Paris, France (general), France)",
+              "title_en": "IRAN → ALGERIA : Fight with small arms and light weapons (Paris, France (general), France)",
+              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: IRAN / ALGERIA. Location: Paris, France (general), France. Goldstein Scale: -10.0. Mentioned in 1 sources.",
+              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: IRAN / ALGERIA. Location: Paris, France (general), France. Goldstein Scale: -10.0. Mentioned in 1 sources.",
+              "source": "gdelt",
+              "source_label": "whbl.com",
+              "date": "2026-09-20",
+              "url": "https://whbl.com/2026/09/20/france-vows-response-after-iran-closes-language-centre-in-tehran/",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 1,
+                "sources": 1,
+                "articles": 1,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1323999802",
+                "event_code": "193",
+                "cameo_desc": "Fight with small arms and light weapons",
+                "actor1": "IRAN",
+                "actor2": "ALGERIA",
+                "actor1_country": "IRN",
+                "actor2_country": "DZA",
+                "geo_lat": 48.8667,
+                "geo_lon": 2.33333,
+                "geo_name": "Paris, France (general), France"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -5645,8 +5645,8 @@
       "gdelt": 158
     },
     "date_range": {
-      "from": "2026-08-21",
-      "to": "2026-09-19"
+      "from": "2026-08-22",
+      "to": "2026-09-20"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
