@@ -5,8 +5,48 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 21 Sep 2026 12:22:08 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 11:15:56 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] MOSCOW → CIVILIAN : Use conventional military force, not specified below (Moscow, Moskva, Russia)</title>
+      <link>https://www.politico.eu/article/russias-secret-plan-to-supercharge-kamikaze-drone-production/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: MOSCOW / CIVILIAN. Location: Moscow, Moskva, Russia. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
+      <guid isPermaLink="true">https://www.politico.eu/article/russias-secret-plan-to-supercharge-kamikaze-drone-production/</guid>
+      <pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.politico.eu/article/russias-secret-plan-to-supercharge-kamikaze-drone-production/">politico.eu</source>
+    </item>
+    <item>
+      <title>[巴以冲突] WEST BANK → ISRAELI : Fight with small arms and light weapons (West Bank)</title>
+      <link>https://www.theamericanconservative.com/iran-war-day-205-u-s-puts-embassies-on-alert-as-trump-says-hes-in-a-deciding-mode-on-iran/</link>
+      <description>GDELT Event: Fight with small arms and light weapons. Actors: WEST BANK / ISRAELI. Location: West Bank. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.theamericanconservative.com/iran-war-day-205-u-s-puts-embassies-on-alert-as-trump-says-hes-in-a-deciding-mode-on-iran/</guid>
+      <pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.theamericanconservative.com/iran-war-day-205-u-s-puts-embassies-on-alert-as-trump-says-hes-in-a-deciding-mode-on-iran/">theamericanconservative.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] ALGERIAN → FRANCE : Fight with small arms and light weapons (Tehran, Tehran, Iran)</title>
+      <link>https://www.haaretz.com/israel-news/israel-security/2026-09-21/ty-article-live/houthis-warn-countries-against-joining-saudi-arabia-in-renewed-yemen-fighting/000001a0-c0b5-d9a4-adf9-f1fd79c00000</link>
+      <description>GDELT Event: Fight with small arms and light weapons. Actors: ALGERIAN / FRANCE. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">https://www.haaretz.com/israel-news/israel-security/2026-09-21/ty-article-live/houthis-warn-countries-against-joining-saudi-arabia-in-renewed-yemen-fighting/000001a0-c0b5-d9a4-adf9-f1fd79c00000</guid>
+      <pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://www.haaretz.com/israel-news/israel-security/2026-09-21/ty-article-live/houthis-warn-countries-against-joining-saudi-arabia-in-renewed-yemen-fighting/000001a0-c0b5-d9a4-adf9-f1fd79c00000">haaretz.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] IRAN → ALGERIA : Fight with small arms and light weapons (Paris, France (general), France)</title>
+      <link>https://whbl.com/2026/09/20/france-vows-response-after-iran-closes-language-centre-in-tehran/</link>
+      <description>GDELT Event: Fight with small arms and light weapons. Actors: IRAN / ALGERIA. Location: Paris, France (general), France. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">https://whbl.com/2026/09/20/france-vows-response-after-iran-closes-language-centre-in-tehran/</guid>
+      <pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://whbl.com/2026/09/20/france-vows-response-after-iran-closes-language-centre-in-tehran/">whbl.com</source>
+    </item>
     <item>
       <title>[巴以冲突] ISRAEL → IRAN : Use conventional military force, not specified below (Riyadh, Ar Riya?, Saudi Arabia)</title>
       <link>https://www.smh.com.au/world/middle-east/flames-smoke-seen-near-riyadh-airport-houthis-claim-attacks-on-saudi-capital-20260920-p60yve.html</link>
@@ -466,46 +506,6 @@
       <category>也门/胡塞武装</category>
       <category>军事动态</category>
       <source url="https://www.greanvillepost.com/yemen-saudi-war-heats-up-us-involved-again/">greanvillepost.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] nan → EUROPEAN : Use conventional military force, not specified below (Moscow, Moskva, Russia)</title>
-      <link>https://www.techradar.com/pro/ukraine-starts-building-jet-powered-drone-with-a-range-of-over-1-000-kilometers</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: nan / EUROPEAN. Location: Moscow, Moskva, Russia. Goldstein Scale: -10.0. Mentioned in 5 sources.</description>
-      <guid isPermaLink="true">https://www.techradar.com/pro/ukraine-starts-building-jet-powered-drone-with-a-range-of-over-1-000-kilometers</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://www.techradar.com/pro/ukraine-starts-building-jet-powered-drone-with-a-range-of-over-1-000-kilometers">techradar.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] UNITED STATES → RUSSIA : Destroy property (Washington, District of Columbia, United States)</title>
-      <link>https://www.news8000.com/news/national-world/us-prosecutor-overseeing-probe-of-trump-foes-resigns/article_5f9e5a3a-081a-5997-a50d-66737502cf04.html</link>
-      <description>GDELT Event: Destroy property. Actors: UNITED STATES / RUSSIA. Location: Washington, District of Columbia, United States. Goldstein Scale: -9.2. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.news8000.com/news/national-world/us-prosecutor-overseeing-probe-of-trump-foes-resigns/article_5f9e5a3a-081a-5997-a50d-66737502cf04.html</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>外交谈判</category>
-      <source url="https://www.news8000.com/news/national-world/us-prosecutor-overseeing-probe-of-trump-foes-resigns/article_5f9e5a3a-081a-5997-a50d-66737502cf04.html">news8000.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAELI → nan : Fight with artillery and tanks (Dallas, Texas, United States)</title>
-      <link>https://freerepublic.com/tag/*/index?more=4395015</link>
-      <description>GDELT Event: Fight with artillery and tanks. Actors: ISRAELI / nan. Location: Dallas, Texas, United States. Goldstein Scale: -10.0. Mentioned in 3 sources.</description>
-      <guid isPermaLink="true">https://freerepublic.com/tag/*/index?more=4395015</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://freerepublic.com/tag/*/index?more=4395015">freerepublic.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] AIR FORCE → IRAN : Fight with artillery and tanks (Lebanon)</title>
-      <link>https://www.ynetnews.com/article/s1aoocxkze</link>
-      <description>GDELT Event: Fight with artillery and tanks. Actors: AIR FORCE / IRAN. Location: Lebanon. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.ynetnews.com/article/s1aoocxkze</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.ynetnews.com/article/s1aoocxkze">ynetnews.com</source>
     </item>
   </channel>
 </rss>
