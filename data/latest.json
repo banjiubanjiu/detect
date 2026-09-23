@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T11:16:12+00:00Z",
+  "updated_at": "2026-09-23T11:06:14+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -1272,38 +1272,32 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
-            }
-          ]
-        },
-        "diplomacy": {
-          "label": "外交谈判",
-          "icon": "🕊️",
-          "items": [
+            },
             {
-              "id": "gdelt_1319602412",
-              "title": "FOREIGN NATIONAL → MURMANSK : Arrest, detain, or charge with legal action (Moscow, Moskva, Russia)",
-              "title_en": "FOREIGN NATIONAL → MURMANSK : Arrest, detain, or charge with legal action (Moscow, Moskva, Russia)",
-              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: FOREIGN NATIONAL / MURMANSK. Location: Moscow, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 10 sources.",
-              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: FOREIGN NATIONAL / MURMANSK. Location: Moscow, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 10 sources.",
+              "id": "gdelt_1324367940",
+              "title": "ESTONIA → COMPANY : Use unconventional violence, not specified below (Moscow, Moskva, Russia)",
+              "title_en": "ESTONIA → COMPANY : Use unconventional violence, not specified below (Moscow, Moskva, Russia)",
+              "summary": "GDELT Event: Use unconventional violence, not specified below. Actors: ESTONIA / COMPANY. Location: Moscow, Moskva, Russia. Goldstein Scale: -9.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Use unconventional violence, not specified below. Actors: ESTONIA / COMPANY. Location: Moscow, Moskva, Russia. Goldstein Scale: -9.0. Mentioned in 2 sources.",
               "source": "gdelt",
-              "source_label": "naturalnews.com",
-              "date": "2026-08-23",
-              "url": "https://www.naturalnews.com/2026-08-23-fsb-thwarts-drone-attack-moscow-defense-plant.html",
+              "source_label": "fortmorgantimes.com",
+              "date": "2026-09-22",
+              "url": "https://www.fortmorgantimes.com/2026/09/22/nato-europe-russia-threat/",
               "primary_conflict": "russia-ukraine",
               "metrics": {
-                "mentions": 10,
+                "mentions": 2,
                 "sources": 1,
-                "articles": 10,
-                "goldstein": -5.0
+                "articles": 2,
+                "goldstein": -9.0
               },
               "gdelt_meta": {
-                "event_id": "1319602412",
-                "event_code": "173",
-                "cameo_desc": "Arrest, detain, or charge with legal action",
-                "actor1": "FOREIGN NATIONAL",
-                "actor2": "MURMANSK",
-                "actor1_country": "nan",
-                "actor2_country": "RUS",
+                "event_id": "1324367940",
+                "event_code": "180",
+                "cameo_desc": "Use unconventional violence, not specified below",
+                "actor1": "ESTONIA",
+                "actor2": "COMPANY",
+                "actor1_country": "EST",
+                "actor2_country": "nan",
                 "geo_lat": 55.7522,
                 "geo_lon": 37.6156,
                 "geo_name": "Moscow, Moskva, Russia"
@@ -1311,7 +1305,13 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
-            },
+            }
+          ]
+        },
+        "diplomacy": {
+          "label": "外交谈判",
+          "icon": "🕊️",
+          "items": [
             {
               "id": "gdelt_1319760939",
               "title": "MOSCOW → ORGANIZED CRIME : Arrest, detain, or charge with legal action (Rostov, Rostovskaya Oblast', Russia)",
@@ -1901,6 +1901,39 @@
                 "geo_lat": 38.8951,
                 "geo_lon": -77.0364,
                 "geo_name": "White House, District of Columbia, United States"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1324368024",
+              "title": "TREASURY SECRETARY → UKRAINE : Impose administrative sanctions, not specified below (Ukraine)",
+              "title_en": "TREASURY SECRETARY → UKRAINE : Impose administrative sanctions, not specified below (Ukraine)",
+              "summary": "GDELT Event: Impose administrative sanctions, not specified below. Actors: TREASURY SECRETARY / UKRAINE. Location: Ukraine. Goldstein Scale: -5.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: TREASURY SECRETARY / UKRAINE. Location: Ukraine. Goldstein Scale: -5.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "ibtimes.com",
+              "date": "2026-09-22",
+              "url": "https://www.ibtimes.com/diesel-prices-have-hit-record-highs-trump-admin-considering-export-ban-3807757",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1324368024",
+                "event_code": "172",
+                "cameo_desc": "Impose administrative sanctions, not specified below",
+                "actor1": "TREASURY SECRETARY",
+                "actor2": "UKRAINE",
+                "actor1_country": "nan",
+                "actor2_country": "UKR",
+                "geo_lat": 49.0,
+                "geo_lon": 32.0,
+                "geo_name": "Ukraine"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -3167,6 +3200,171 @@
               "admiralty_source": "B",
               "admiralty_info": 3,
               "admiralty_code": "B3"
+            },
+            {
+              "id": "gdelt_1324368391",
+              "title": "WEST BANK → STUDENT : Use conventional military force, not specified below (Birzeit, West Bank (general), West Bank)",
+              "title_en": "WEST BANK → STUDENT : Use conventional military force, not specified below (Birzeit, West Bank (general), West Bank)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: WEST BANK / STUDENT. Location: Birzeit, West Bank (general), West Bank. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: WEST BANK / STUDENT. Location: Birzeit, West Bank (general), West Bank. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "honisoit.com",
+              "date": "2026-09-22",
+              "url": "https://honisoit.com/2026/09/can-you-get-to-class/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1324368391",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "WEST BANK",
+                "actor2": "STUDENT",
+                "actor1_country": "PSE",
+                "actor2_country": "nan",
+                "geo_lat": 31.9696,
+                "geo_lon": 35.1941,
+                "geo_name": "Birzeit, West Bank (general), West Bank"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1324368010",
+              "title": "GOVERNMENT → MILITARY : Occupy territory (Hebron, Israel (general), Israel)",
+              "title_en": "GOVERNMENT → MILITARY : Occupy territory (Hebron, Israel (general), Israel)",
+              "summary": "GDELT Event: Occupy territory. Actors: GOVERNMENT / MILITARY. Location: Hebron, Israel (general), Israel. Goldstein Scale: -9.5. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Occupy territory. Actors: GOVERNMENT / MILITARY. Location: Hebron, Israel (general), Israel. Goldstein Scale: -9.5. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "therecord.com",
+              "date": "2026-09-22",
+              "url": "https://www.therecord.com/politics/political-opinion/removing-settlers-from-the-west-bank-won-t-guarantee-peace-but-it-would-be-a-good-start/article_eac1fc6b-da0d-56bb-ae34-be1f9c786c1c.html",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -9.5
+              },
+              "gdelt_meta": {
+                "event_id": "1324368010",
+                "event_code": "192",
+                "cameo_desc": "Occupy territory",
+                "actor1": "GOVERNMENT",
+                "actor2": "MILITARY",
+                "actor1_country": "nan",
+                "actor2_country": "nan",
+                "geo_lat": 31.5333,
+                "geo_lon": 35.1,
+                "geo_name": "Hebron, Israel (general), Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1324368381",
+              "title": "PALESTINIAN → ISRAEL : Use conventional military force, not specified below (Al-Mawasi, Gaza Strip (general), Gaza Strip)",
+              "title_en": "PALESTINIAN → ISRAEL : Use conventional military force, not specified below (Al-Mawasi, Gaza Strip (general), Gaza Strip)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: PALESTINIAN / ISRAEL. Location: Al-Mawasi, Gaza Strip (general), Gaza Strip. Goldstein Scale: -10.0. Mentioned in 5 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: PALESTINIAN / ISRAEL. Location: Al-Mawasi, Gaza Strip (general), Gaza Strip. Goldstein Scale: -10.0. Mentioned in 5 sources.",
+              "source": "gdelt",
+              "source_label": "imemc.org",
+              "date": "2026-09-22",
+              "url": "https://imemc.org/article/amid-ceasefire-violations-israel-kills-three-palestinians-in-gaza/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 5,
+                "sources": 1,
+                "articles": 5,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1324368381",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "PALESTINIAN",
+                "actor2": "ISRAEL",
+                "actor1_country": "PSE",
+                "actor2_country": "ISR",
+                "geo_lat": 31.3292,
+                "geo_lon": 34.2311,
+                "geo_name": "Al-Mawasi, Gaza Strip (general), Gaza Strip"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1324368108",
+              "title": "ISRAEL → nan : Assassinate (Gaza, Israel (general), Israel)",
+              "title_en": "ISRAEL → nan : Assassinate (Gaza, Israel (general), Israel)",
+              "summary": "GDELT Event: Assassinate. Actors: ISRAEL / nan. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 4 sources.",
+              "summary_en": "GDELT Event: Assassinate. Actors: ISRAEL / nan. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 4 sources.",
+              "source": "gdelt",
+              "source_label": "honisoit.com",
+              "date": "2026-09-22",
+              "url": "https://honisoit.com/2026/09/introducing-john-berger/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 4,
+                "sources": 1,
+                "articles": 4,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1324368108",
+                "event_code": "186",
+                "cameo_desc": "Assassinate",
+                "actor1": "ISRAEL",
+                "actor2": "nan",
+                "actor1_country": "ISR",
+                "actor2_country": "nan",
+                "geo_lat": 31.4167,
+                "geo_lon": 34.3333,
+                "geo_name": "Gaza, Israel (general), Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1324368122",
+              "title": "ISRAELI → PALESTINIAN : Abduct, hijack, or take hostage (West Bank)",
+              "title_en": "ISRAELI → PALESTINIAN : Abduct, hijack, or take hostage (West Bank)",
+              "summary": "GDELT Event: Abduct, hijack, or take hostage. Actors: ISRAELI / PALESTINIAN. Location: West Bank. Goldstein Scale: -9.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Abduct, hijack, or take hostage. Actors: ISRAELI / PALESTINIAN. Location: West Bank. Goldstein Scale: -9.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "imemc.org",
+              "date": "2026-09-22",
+              "url": "https://imemc.org/article/2026/09/23/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -9.0
+              },
+              "gdelt_meta": {
+                "event_id": "1324368122",
+                "event_code": "181",
+                "cameo_desc": "Abduct, hijack, or take hostage",
+                "actor1": "ISRAELI",
+                "actor2": "PALESTINIAN",
+                "actor1_country": "ISR",
+                "actor2_country": "PSE",
+                "geo_lat": 31.666667,
+                "geo_lon": 35.25,
+                "geo_name": "West Bank"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -3664,6 +3862,39 @@
                 "geo_lat": 31.5,
                 "geo_lon": 34.75,
                 "geo_name": "Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1324368613",
+              "title": "WASHINGTON → PALESTINIAN : Impose administrative sanctions, not specified below (Gaza, Israel (general), Israel)",
+              "title_en": "WASHINGTON → PALESTINIAN : Impose administrative sanctions, not specified below (Gaza, Israel (general), Israel)",
+              "summary": "GDELT Event: Impose administrative sanctions, not specified below. Actors: WASHINGTON / PALESTINIAN. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 3 sources.",
+              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: WASHINGTON / PALESTINIAN. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 3 sources.",
+              "source": "gdelt",
+              "source_label": "naturalnews.com",
+              "date": "2026-09-22",
+              "url": "https://www.naturalnews.com/2026-09-22-us-refuses-visas-members-iranian-president-delegation.html",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 3,
+                "sources": 1,
+                "articles": 3,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1324368613",
+                "event_code": "172",
+                "cameo_desc": "Impose administrative sanctions, not specified below",
+                "actor1": "WASHINGTON",
+                "actor2": "PALESTINIAN",
+                "actor1_country": "USA",
+                "actor2_country": "PSE",
+                "geo_lat": 31.4167,
+                "geo_lon": 34.3333,
+                "geo_name": "Gaza, Israel (general), Israel"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -5310,6 +5541,40 @@
               "admiralty_info": 3,
               "admiralty_code": "C3",
               "criticality": "background"
+            },
+            {
+              "id": "gdelt_1324367536",
+              "title": "nan → DJIBOUTI : Arrest, detain, or charge with legal action (Red Sea, Djibouti (general), Djibouti)",
+              "title_en": "nan → DJIBOUTI : Arrest, detain, or charge with legal action (Red Sea, Djibouti (general), Djibouti)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: nan / DJIBOUTI. Location: Red Sea, Djibouti (general), Djibouti. Goldstein Scale: -5.0. Mentioned in 4 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: nan / DJIBOUTI. Location: Red Sea, Djibouti (general), Djibouti. Goldstein Scale: -5.0. Mentioned in 4 sources.",
+              "source": "gdelt",
+              "source_label": "riotimesonline.com",
+              "date": "2026-09-22",
+              "url": "https://www.riotimesonline.com/micah-reddy-released-djibouti-custody-2026/",
+              "primary_conflict": "yemen-houthi",
+              "metrics": {
+                "mentions": 4,
+                "sources": 1,
+                "articles": 4,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1324367536",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "nan",
+                "actor2": "DJIBOUTI",
+                "actor1_country": "nan",
+                "actor2_country": "DJI",
+                "geo_lat": 19.0,
+                "geo_lon": 39.5,
+                "geo_name": "Red Sea, Djibouti (general), Djibouti"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3",
+              "criticality": "background"
             }
           ]
         },
@@ -5647,40 +5912,6 @@
           "icon": "⚔️",
           "items": [
             {
-              "id": "gdelt_1319602544",
-              "title": "TAIWAN → MILITARY : Use unconventional violence, not specified below (Taiwan Strait, Taiwan (general), Taiwan)",
-              "title_en": "TAIWAN → MILITARY : Use unconventional violence, not specified below (Taiwan Strait, Taiwan (general), Taiwan)",
-              "summary": "GDELT Event: Use unconventional violence, not specified below. Actors: TAIWAN / MILITARY. Location: Taiwan Strait, Taiwan (general), Taiwan. Goldstein Scale: -9.0. Mentioned in 10 sources.",
-              "summary_en": "GDELT Event: Use unconventional violence, not specified below. Actors: TAIWAN / MILITARY. Location: Taiwan Strait, Taiwan (general), Taiwan. Goldstein Scale: -9.0. Mentioned in 10 sources.",
-              "source": "gdelt",
-              "source_label": "yourdemocracy.net",
-              "date": "2026-08-23",
-              "url": "https://yourdemocracy.net/drupal/node/60899",
-              "primary_conflict": "taiwan-strait",
-              "metrics": {
-                "mentions": 10,
-                "sources": 1,
-                "articles": 10,
-                "goldstein": -9.0
-              },
-              "gdelt_meta": {
-                "event_id": "1319602544",
-                "event_code": "180",
-                "cameo_desc": "Use unconventional violence, not specified below",
-                "actor1": "TAIWAN",
-                "actor2": "MILITARY",
-                "actor1_country": "TWN",
-                "actor2_country": "nan",
-                "geo_lat": 24.0,
-                "geo_lon": 119.0,
-                "geo_name": "Taiwan Strait, Taiwan (general), Taiwan"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3",
-              "criticality": "background"
-            },
-            {
               "id": "gdelt_1320447187",
               "title": "SOUTH KOREA → GWANGJU : Use conventional military force, not specified below (Taiwan)",
               "title_en": "SOUTH KOREA → GWANGJU : Use conventional military force, not specified below (Taiwan)",
@@ -5806,13 +6037,13 @@
     }
   },
   "stats": {
-    "total_items": 163,
+    "total_items": 170,
     "sources": {
-      "gdelt": 163
+      "gdelt": 170
     },
     "date_range": {
-      "from": "2026-08-23",
-      "to": "2026-09-21"
+      "from": "2026-08-24",
+      "to": "2026-09-22"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
