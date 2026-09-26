@@ -5,8 +5,68 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 25 Sep 2026 11:30:41 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 11:06:17 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] UKRAINE → CIVILIAN : Use conventional military force, not specified below (Odesa, Odes'ka Oblast, Ukraine)</title>
+      <link>https://www.theyeshivaworld.com/news/general/2602763/russian-strikes-kill-8-in-ukraine-as-the-un-debates-how-to-end-the-war.html</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: UKRAINE / CIVILIAN. Location: Odesa, Odes'ka Oblast, Ukraine. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">https://www.theyeshivaworld.com/news/general/2602763/russian-strikes-kill-8-in-ukraine-as-the-un-debates-how-to-end-the-war.html</guid>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.theyeshivaworld.com/news/general/2602763/russian-strikes-kill-8-in-ukraine-as-the-un-debates-how-to-end-the-war.html">theyeshivaworld.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] HAMAS → INTELLIGENCE : Use unconventional violence, not specified below (Gaza, Israel (general), Israel)</title>
+      <link>https://www.theyeshivaworld.com/news/israel-news/2602660/idf-probe-systemic-failures-cited-in-oct-7-battle-at-pega-18-fallen-22-wounded-2-kidnapped.html</link>
+      <description>GDELT Event: Use unconventional violence, not specified below. Actors: HAMAS / INTELLIGENCE. Location: Gaza, Israel (general), Israel. Goldstein Scale: -9.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.theyeshivaworld.com/news/israel-news/2602660/idf-probe-systemic-failures-cited-in-oct-7-battle-at-pega-18-fallen-22-wounded-2-kidnapped.html</guid>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.theyeshivaworld.com/news/israel-news/2602660/idf-probe-systemic-failures-cited-in-oct-7-battle-at-pega-18-fallen-22-wounded-2-kidnapped.html">theyeshivaworld.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] SPOKESMAN → TAIF : Fight with artillery and tanks (Tehran, Tehran, Iran)</title>
+      <link>https://www.hngn.com/articles/273348/20260924/france-send-troops-saudi-oil-port-80-nations-press-iran.htm</link>
+      <description>GDELT Event: Fight with artillery and tanks. Actors: SPOKESMAN / TAIF. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
+      <guid isPermaLink="true">https://www.hngn.com/articles/273348/20260924/france-send-troops-saudi-oil-port-80-nations-press-iran.htm</guid>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://www.hngn.com/articles/273348/20260924/france-send-troops-saudi-oil-port-80-nations-press-iran.htm">hngn.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] nan → THE UN : Arrest, detain, or charge with legal action (Iran)</title>
+      <link>https://thedailyblog.co.nz/netanyahu-should-have-been-arrested-at-the-un-for-war-crimes-not-able-to-give-a-speech-defending-his-war-crimes/</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: nan / THE UN. Location: Iran. Goldstein Scale: -5.0. Mentioned in 15 sources.</description>
+      <guid isPermaLink="true">https://thedailyblog.co.nz/netanyahu-should-have-been-arrested-at-the-un-for-war-crimes-not-able-to-give-a-speech-defending-his-war-crimes/</guid>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>外交谈判</category>
+      <source url="https://thedailyblog.co.nz/netanyahu-should-have-been-arrested-at-the-un-for-war-crimes-not-able-to-give-a-speech-defending-his-war-crimes/">thedailyblog.co.nz</source>
+    </item>
+    <item>
+      <title>[也门/胡塞武装] SAUDI ARABIA → YEMEN : Use conventional military force, not specified below (France)</title>
+      <link>http://www.heraldglobe.com/news/279329872/macron-to-send-french-troops-to-saudi-arabia</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: SAUDI ARABIA / YEMEN. Location: France. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">http://www.heraldglobe.com/news/279329872/macron-to-send-french-troops-to-saudi-arabia</guid>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <category>也门/胡塞武装</category>
+      <category>军事动态</category>
+      <source url="http://www.heraldglobe.com/news/279329872/macron-to-send-french-troops-to-saudi-arabia">heraldglobe.com</source>
+    </item>
+    <item>
+      <title>[也门/胡塞武装] GERMAN → nan : Demonstrate or rally (Merkelbach, Baden-Wüberg, Germany)</title>
+      <link>http://www.philippinetimes.com/news/279329199/bremen-and-gaza-longstanding-solidarity</link>
+      <description>GDELT Event: Demonstrate or rally. Actors: GERMAN / nan. Location: Merkelbach, Baden-Wüberg, Germany. Goldstein Scale: -6.5. Mentioned in 5 sources.</description>
+      <guid isPermaLink="true">http://www.philippinetimes.com/news/279329199/bremen-and-gaza-longstanding-solidarity</guid>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <category>也门/胡塞武装</category>
+      <category>舆论热点</category>
+      <source url="http://www.philippinetimes.com/news/279329199/bremen-and-gaza-longstanding-solidarity">philippinetimes.com</source>
+    </item>
     <item>
       <title>[俄乌战争] CANADA → UKRAINE : Use unconventional violence, not specified below (Moscow, Moskva, Russia)</title>
       <link>https://www.theglobeandmail.com/politics/article-european-lawmakers-canada-china-russia-ukraine-war/</link>
@@ -446,66 +506,6 @@
       <category>美伊对峙</category>
       <category>外交谈判</category>
       <source url="https://www.foxnews.com/politics/lawmakers-standing-gates-against-trojan-horses-promoting-malign-foreign-interests">foxnews.com</source>
-    </item>
-    <item>
-      <title>[也门/胡塞武装] MEDIA → nan : Use conventional military force, not specified below (Marib, Ma'rib, Yemen)</title>
-      <link>https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-government-forces-claim-attacks-houthis-mocha-marib</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: MEDIA / nan. Location: Marib, Ma'rib, Yemen. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-government-forces-claim-attacks-houthis-mocha-marib</guid>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
-      <category>也门/胡塞武装</category>
-      <category>军事动态</category>
-      <source url="https://www.middleeasteye.net/live-blog/live-blog-update/yemeni-government-forces-claim-attacks-houthis-mocha-marib">middleeasteye.net</source>
-    </item>
-    <item>
-      <title>[巴以冲突] UNITED STATES → UNITED STATES : Fight with small arms and light weapons (Israel)</title>
-      <link>https://www.nhpr.org/2026-09-15/jason-eaton-trail-prosecution-rests-case</link>
-      <description>GDELT Event: Fight with small arms and light weapons. Actors: UNITED STATES / UNITED STATES. Location: Israel. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://www.nhpr.org/2026-09-15/jason-eaton-trail-prosecution-rests-case</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.nhpr.org/2026-09-15/jason-eaton-trail-prosecution-rests-case">nhpr.org</source>
-    </item>
-    <item>
-      <title>[巴以冲突] COMMANDER → nan : Use conventional military force, not specified below (Khan Yunis, Gaza Strip (general), Gaza Strip)</title>
-      <link>https://www.yahoo.com/news/world/articles/idf-kills-senior-hamas-rafah-225339247.html</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: COMMANDER / nan. Location: Khan Yunis, Gaza Strip (general), Gaza Strip. Goldstein Scale: -10.0. Mentioned in 3 sources.</description>
-      <guid isPermaLink="true">https://www.yahoo.com/news/world/articles/idf-kills-senior-hamas-rafah-225339247.html</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.yahoo.com/news/world/articles/idf-kills-senior-hamas-rafah-225339247.html">yahoo.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] UNITED STATES → THE US : Fight with small arms and light weapons (Iran)</title>
-      <link>https://www.aljazeera.com/news/2026/9/15/republican-congressman-calls-to-impeach-us-defence-secretary-pete-hegseth</link>
-      <description>GDELT Event: Fight with small arms and light weapons. Actors: UNITED STATES / THE US. Location: Iran. Goldstein Scale: -10.0. Mentioned in 6 sources.</description>
-      <guid isPermaLink="true">https://www.aljazeera.com/news/2026/9/15/republican-congressman-calls-to-impeach-us-defence-secretary-pete-hegseth</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://www.aljazeera.com/news/2026/9/15/republican-congressman-calls-to-impeach-us-defence-secretary-pete-hegseth">aljazeera.com</source>
-    </item>
-    <item>
-      <title>[刚果(金)冲突] POLICE → CONGO : Use violent repression (Congo)</title>
-      <link>https://isp.netscape.com:443/news/world/story/0001/20260915/722684d7da7ffe1d49c44dd03db82904</link>
-      <description>GDELT Event: Use violent repression. Actors: POLICE / CONGO. Location: Congo. Goldstein Scale: -9.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://isp.netscape.com:443/news/world/story/0001/20260915/722684d7da7ffe1d49c44dd03db82904</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-      <category>刚果(金)冲突</category>
-      <category>外交谈判</category>
-      <source url="https://isp.netscape.com:443/news/world/story/0001/20260915/722684d7da7ffe1d49c44dd03db82904">isp.netscape.com:443</source>
-    </item>
-    <item>
-      <title>[刚果(金)冲突] POLICE → DR CONGO : Demonstrate or rally (Congo)</title>
-      <link>https://sundayexpress.co.ls/?p=36547</link>
-      <description>GDELT Event: Demonstrate or rally. Actors: POLICE / DR CONGO. Location: Congo. Goldstein Scale: -6.5. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://sundayexpress.co.ls/?p=36547</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-      <category>刚果(金)冲突</category>
-      <category>舆论热点</category>
-      <source url="https://sundayexpress.co.ls/?p=36547">sundayexpress.co.ls</source>
     </item>
   </channel>
 </rss>

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T11:30:59+00:00Z",
+  "updated_at": "2026-09-26T11:06:33+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -19,72 +19,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1320105272",
-              "title": "MOSCOW → COLLEGE : Use conventional military force, not specified below (Ada County, Idaho, United States)",
-              "title_en": "MOSCOW → COLLEGE : Use conventional military force, not specified below (Ada County, Idaho, United States)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: MOSCOW / COLLEGE. Location: Ada County, Idaho, United States. Goldstein Scale: -10.0. Mentioned in 6 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: MOSCOW / COLLEGE. Location: Ada County, Idaho, United States. Goldstein Scale: -10.0. Mentioned in 6 sources.",
-              "source": "gdelt",
-              "source_label": "usmagazine.com",
-              "date": "2026-08-26",
-              "url": "https://www.usmagazine.com/crime-news/news/bryan-kohberger-granted-hearing-amid-guilty-plea-withdrawal/",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 6,
-                "sources": 1,
-                "articles": 6,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1320105272",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "MOSCOW",
-                "actor2": "COLLEGE",
-                "actor1_country": "RUS",
-                "actor2_country": "nan",
-                "geo_lat": 43.4166,
-                "geo_lon": -116.126,
-                "geo_name": "Ada County, Idaho, United States"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1320104986",
-              "title": "GOVERNMENT → LEIPZIG : Use conventional military force, not specified below (Moscow, Moskva, Russia)",
-              "title_en": "GOVERNMENT → LEIPZIG : Use conventional military force, not specified below (Moscow, Moskva, Russia)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: GOVERNMENT / LEIPZIG. Location: Moscow, Moskva, Russia. Goldstein Scale: -10.0. Mentioned in 4 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: GOVERNMENT / LEIPZIG. Location: Moscow, Moskva, Russia. Goldstein Scale: -10.0. Mentioned in 4 sources.",
-              "source": "gdelt",
-              "source_label": "whbl.com",
-              "date": "2026-08-26",
-              "url": "https://whbl.com/2026/08/26/french-security-chief-sees-new-threats-after-leipzig-drone-attack/",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 4,
-                "sources": 1,
-                "articles": 4,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1320104986",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "GOVERNMENT",
-                "actor2": "LEIPZIG",
-                "actor1_country": "nan",
-                "actor2_country": "DEU",
-                "geo_lat": 55.7522,
-                "geo_lon": 37.6156,
-                "geo_name": "Moscow, Moskva, Russia"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1320282938",
               "title": "PRISON → nan : Use conventional military force, not specified below (Russia)",
@@ -1280,39 +1214,6 @@
           "icon": "🕊️",
           "items": [
             {
-              "id": "gdelt_1320105286",
-              "title": "UKRAINE → nan : Impose administrative sanctions, not specified below (Kyiv, Kyyiv, Misto, Ukraine)",
-              "title_en": "UKRAINE → nan : Impose administrative sanctions, not specified below (Kyiv, Kyyiv, Misto, Ukraine)",
-              "summary": "GDELT Event: Impose administrative sanctions, not specified below. Actors: UKRAINE / nan. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -5.0. Mentioned in 20 sources.",
-              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: UKRAINE / nan. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -5.0. Mentioned in 20 sources.",
-              "source": "gdelt",
-              "source_label": "stockjournal.com.au",
-              "date": "2026-08-26",
-              "url": "https://www.stockjournal.com.au/story/9338279/russia-ukraine-war-wheat-futures-jump-a23t-overnight/",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 20,
-                "sources": 2,
-                "articles": 20,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1320105286",
-                "event_code": "172",
-                "cameo_desc": "Impose administrative sanctions, not specified below",
-                "actor1": "UKRAINE",
-                "actor2": "nan",
-                "actor1_country": "UKR",
-                "actor2_country": "nan",
-                "geo_lat": 50.4333,
-                "geo_lon": 30.5167,
-                "geo_name": "Kyiv, Kyyiv, Misto, Ukraine"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
               "id": "gdelt_1320283276",
               "title": "KYIV → nan : Impose administrative sanctions, not specified below (Kremlin, Moskva, Russia)",
               "title_en": "KYIV → nan : Impose administrative sanctions, not specified below (Kremlin, Moskva, Russia)",
@@ -1781,39 +1682,6 @@
           "icon": "💬",
           "items": [
             {
-              "id": "gdelt_1320104697",
-              "title": "CANADA → UKRAINE : Demonstrate or rally (United Kingdom)",
-              "title_en": "CANADA → UKRAINE : Demonstrate or rally (United Kingdom)",
-              "summary": "GDELT Event: Demonstrate or rally. Actors: CANADA / UKRAINE. Location: United Kingdom. Goldstein Scale: -6.5. Mentioned in 2 sources.",
-              "summary_en": "GDELT Event: Demonstrate or rally. Actors: CANADA / UKRAINE. Location: United Kingdom. Goldstein Scale: -6.5. Mentioned in 2 sources.",
-              "source": "gdelt",
-              "source_label": "bnnbloomberg.ca",
-              "date": "2026-08-26",
-              "url": "https://www.bnnbloomberg.ca/business/technology/2026/08/26/canadian-army-looking-for-surveillance-cargo-drop-drone-suppliers/",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 2,
-                "sources": 1,
-                "articles": 2,
-                "goldstein": -6.5
-              },
-              "gdelt_meta": {
-                "event_id": "1320104697",
-                "event_code": "141",
-                "cameo_desc": "Demonstrate or rally",
-                "actor1": "CANADA",
-                "actor2": "UKRAINE",
-                "actor1_country": "CAN",
-                "actor2_country": "UKR",
-                "geo_lat": 54.0,
-                "geo_lon": -4.0,
-                "geo_name": "United Kingdom"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
               "id": "gdelt_1322292929",
               "title": "UKRAINE → RUSSIAN : Conduct strike or boycott, not specified below (Kyiv, Kyyiv, Misto, Ukraine)",
               "title_en": "UKRAINE → RUSSIAN : Conduct strike or boycott, not specified below (Kyiv, Kyyiv, Misto, Ukraine)",
@@ -1914,39 +1782,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1320105020",
-              "title": "CHIEF OF STAFF → KILLERS : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
-              "title_en": "CHIEF OF STAFF → KILLERS : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: CHIEF OF STAFF / KILLERS. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 3 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: CHIEF OF STAFF / KILLERS. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 3 sources.",
-              "source": "gdelt",
-              "source_label": "ejpress.org",
-              "date": "2026-08-26",
-              "url": "https://ejpress.org/another-government-with-ben-gvir-could-be-disastrous/",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 3,
-                "sources": 1,
-                "articles": 3,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1320105020",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "CHIEF OF STAFF",
-                "actor2": "KILLERS",
-                "actor1_country": "nan",
-                "actor2_country": "nan",
-                "geo_lat": 31.4167,
-                "geo_lon": 34.3333,
-                "geo_name": "Gaza, Israel (general), Israel"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1320283105",
               "title": "ISRAELI → ISRAEL : Fight with small arms and light weapons (Gaza, Israel (general), Israel)",
@@ -3196,6 +3031,105 @@
                 "geo_lat": 31.4167,
                 "geo_lon": 34.3333,
                 "geo_name": "Gaza, Israel (general), Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1324962199",
+              "title": "RADIO STATION → HAMAS : Use conventional military force, not specified below (New York, United States)",
+              "title_en": "RADIO STATION → HAMAS : Use conventional military force, not specified below (New York, United States)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: RADIO STATION / HAMAS. Location: New York, United States. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: RADIO STATION / HAMAS. Location: New York, United States. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "source": "gdelt",
+              "source_label": "clevelandjewishnews.com",
+              "date": "2026-09-25",
+              "url": "https://www.clevelandjewishnews.com/jta/ny-jewish-democrats-defend-mamdani-after-netanyahu-calls-him-a-hamas-supporter/article_595aff77-6211-5069-94f4-ea022291921d.html",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 3,
+                "sources": 1,
+                "articles": 3,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1324962199",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "RADIO STATION",
+                "actor2": "HAMAS",
+                "actor1_country": "nan",
+                "actor2_country": "PSE",
+                "geo_lat": 42.1497,
+                "geo_lon": -74.9384,
+                "geo_name": "New York, United States"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1324962278",
+              "title": "SETTLER → nan : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
+              "title_en": "SETTLER → nan : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: SETTLER / nan. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: SETTLER / nan. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "wrp.org.uk",
+              "date": "2026-09-25",
+              "url": "https://wrp.org.uk/editorials/trade-unions-must-take-action-and-call-a-general-strike-to-give-full-support-to-the-state-of-palestine/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1324962278",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "SETTLER",
+                "actor2": "nan",
+                "actor1_country": "nan",
+                "actor2_country": "nan",
+                "geo_lat": 31.4167,
+                "geo_lon": 34.3333,
+                "geo_name": "Gaza, Israel (general), Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1324962265",
+              "title": "GAZA → ISRAEL : Use conventional military force, not specified below (Sanaa, Sana', Yemen)",
+              "title_en": "GAZA → ISRAEL : Use conventional military force, not specified below (Sanaa, Sana', Yemen)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: GAZA / ISRAEL. Location: Sanaa, Sana', Yemen. Goldstein Scale: -10.0. Mentioned in 1 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: GAZA / ISRAEL. Location: Sanaa, Sana', Yemen. Goldstein Scale: -10.0. Mentioned in 1 sources.",
+              "source": "gdelt",
+              "source_label": "cp24.com",
+              "date": "2026-09-25",
+              "url": "https://www.cp24.com/news/world/2026/09/25/top-saudi-cleric-urges-troops-to-defend-against-the-houthis-and-other-mideast-developments/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 1,
+                "sources": 1,
+                "articles": 1,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1324962265",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "GAZA",
+                "actor2": "ISRAEL",
+                "actor1_country": "PSE",
+                "actor2_country": "ISR",
+                "geo_lat": 15.3547,
+                "geo_lon": 44.2067,
+                "geo_name": "Sanaa, Sana', Yemen"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -5003,6 +4937,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1324962282",
+              "title": "TURKEY → IRAN : Impose administrative sanctions, not specified below (Tehran, Tehran, Iran)",
+              "title_en": "TURKEY → IRAN : Impose administrative sanctions, not specified below (Tehran, Tehran, Iran)",
+              "summary": "GDELT Event: Impose administrative sanctions, not specified below. Actors: TURKEY / IRAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -5.0. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: TURKEY / IRAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -5.0. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "yalibnan.com",
+              "date": "2026-09-25",
+              "url": "https://yalibnan.com/2026/09/26/new-us-sanctions-shut-down-iranian-flights-and-deepen-irans-isolation/",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1324962282",
+                "event_code": "172",
+                "cameo_desc": "Impose administrative sanctions, not specified below",
+                "actor1": "TURKEY",
+                "actor2": "IRAN",
+                "actor1_country": "TUR",
+                "actor2_country": "IRN",
+                "geo_lat": 35.75,
+                "geo_lon": 51.5148,
+                "geo_name": "Tehran, Tehran, Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -6007,13 +5974,13 @@
     }
   },
   "stats": {
-    "total_items": 169,
+    "total_items": 168,
     "sources": {
-      "gdelt": 169
+      "gdelt": 168
     },
     "date_range": {
-      "from": "2026-08-26",
-      "to": "2026-09-24"
+      "from": "2026-08-27",
+      "to": "2026-09-25"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
