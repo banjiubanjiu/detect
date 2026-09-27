@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T11:06:33+00:00Z",
+  "updated_at": "2026-09-27T11:44:00+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -19,72 +19,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1320282938",
-              "title": "PRISON → nan : Use conventional military force, not specified below (Russia)",
-              "title_en": "PRISON → nan : Use conventional military force, not specified below (Russia)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: PRISON / nan. Location: Russia. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: PRISON / nan. Location: Russia. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "source": "gdelt",
-              "source_label": "dailynews.com",
-              "date": "2026-08-27",
-              "url": "https://www.dailynews.com/2026/08/27/prison-gang-associate-found-guilty-of-2-murders-in-lomita/",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 10,
-                "sources": 1,
-                "articles": 10,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1320282938",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "PRISON",
-                "actor2": "nan",
-                "actor1_country": "nan",
-                "actor2_country": "nan",
-                "geo_lat": 60.0,
-                "geo_lon": 100.0,
-                "geo_name": "Russia"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1320283056",
-              "title": "FOREIGN MINIST → BRITISH : Use conventional military force, not specified below (Kiev, Ukraine (general), Ukraine)",
-              "title_en": "FOREIGN MINIST → BRITISH : Use conventional military force, not specified below (Kiev, Ukraine (general), Ukraine)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: FOREIGN MINIST / BRITISH. Location: Kiev, Ukraine (general), Ukraine. Goldstein Scale: -10.0. Mentioned in 8 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: FOREIGN MINIST / BRITISH. Location: Kiev, Ukraine (general), Ukraine. Goldstein Scale: -10.0. Mentioned in 8 sources.",
-              "source": "gdelt",
-              "source_label": "thenewamerican.com",
-              "date": "2026-08-27",
-              "url": "https://thenewamerican.com/features/russia-is-threatening-britain-as-cia-chief-returns-from-moscow/",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 8,
-                "sources": 1,
-                "articles": 8,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1320283056",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "FOREIGN MINIST",
-                "actor2": "BRITISH",
-                "actor1_country": "nan",
-                "actor2_country": "GBR",
-                "geo_lat": 50.4333,
-                "geo_lon": 30.5167,
-                "geo_name": "Kiev, Ukraine (general), Ukraine"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1320556495",
               "title": "UKRAINE → VLADIMIR PUTIN : Fight with artillery and tanks (Ukraine)",
@@ -1206,6 +1140,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1325079092",
+              "title": "ISRAEL → RUSSIA : Assassinate (Russia)",
+              "title_en": "ISRAEL → RUSSIA : Assassinate (Russia)",
+              "summary": "GDELT Event: Assassinate. Actors: ISRAEL / RUSSIA. Location: Russia. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Assassinate. Actors: ISRAEL / RUSSIA. Location: Russia. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "presstv.co.uk",
+              "date": "2026-09-26",
+              "url": "https://www.presstv.co.uk/Detail/2026/09/26/777079/Russia-Iran-Lavrov-Khamenei",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1325079092",
+                "event_code": "186",
+                "cameo_desc": "Assassinate",
+                "actor1": "ISRAEL",
+                "actor2": "RUSSIA",
+                "actor1_country": "ISR",
+                "actor2_country": "RUS",
+                "geo_lat": 60.0,
+                "geo_lon": 100.0,
+                "geo_name": "Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -1213,39 +1180,6 @@
           "label": "外交谈判",
           "icon": "🕊️",
           "items": [
-            {
-              "id": "gdelt_1320283276",
-              "title": "KYIV → nan : Impose administrative sanctions, not specified below (Kremlin, Moskva, Russia)",
-              "title_en": "KYIV → nan : Impose administrative sanctions, not specified below (Kremlin, Moskva, Russia)",
-              "summary": "GDELT Event: Impose administrative sanctions, not specified below. Actors: KYIV / nan. Location: Kremlin, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 3 sources.",
-              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: KYIV / nan. Location: Kremlin, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 3 sources.",
-              "source": "gdelt",
-              "source_label": "newstatesman.com",
-              "date": "2026-08-27",
-              "url": "https://www.newstatesman.com/international-politics/geopolitics/2026/08/ukraine-is-surrounded-by-false-friends",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 3,
-                "sources": 1,
-                "articles": 3,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1320283276",
-                "event_code": "172",
-                "cameo_desc": "Impose administrative sanctions, not specified below",
-                "actor1": "KYIV",
-                "actor2": "nan",
-                "actor1_country": "UKR",
-                "actor2_country": "nan",
-                "geo_lat": 55.7522,
-                "geo_lon": 37.6156,
-                "geo_name": "Kremlin, Moskva, Russia"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1320446948",
               "title": "POLICE → RUSSIAN : Arrest, detain, or charge with legal action (Russia)",
@@ -1782,72 +1716,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1320283105",
-              "title": "ISRAELI → ISRAEL : Fight with small arms and light weapons (Gaza, Israel (general), Israel)",
-              "title_en": "ISRAELI → ISRAEL : Fight with small arms and light weapons (Gaza, Israel (general), Israel)",
-              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: ISRAELI / ISRAEL. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: ISRAELI / ISRAEL. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "source": "gdelt",
-              "source_label": "dailygazette.com",
-              "date": "2026-08-27",
-              "url": "https://www.dailygazette.com/ade/ap/business/regional-powers-seek-off-ramp-from-iran-war-and-other-middle-east-developments/article_032e5302-acf8-56b7-b3bf-5588c7b236d3.html",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 2,
-                "sources": 1,
-                "articles": 2,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1320283105",
-                "event_code": "193",
-                "cameo_desc": "Fight with small arms and light weapons",
-                "actor1": "ISRAELI",
-                "actor2": "ISRAEL",
-                "actor1_country": "ISR",
-                "actor2_country": "ISR",
-                "geo_lat": 31.4167,
-                "geo_lon": 34.3333,
-                "geo_name": "Gaza, Israel (general), Israel"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1320283248",
-              "title": "HAMAS → ISRAEL : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
-              "title_en": "HAMAS → ISRAEL : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: HAMAS / ISRAEL. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: HAMAS / ISRAEL. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "source": "gdelt",
-              "source_label": "hngn.com",
-              "date": "2026-08-27",
-              "url": "https://www.hngn.com/articles/272939/20260827/trumps-gaza-peace-body-breaks-israel-netanyahu-defies-us-border-demand-warns-full-war.htm",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 2,
-                "sources": 1,
-                "articles": 2,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1320283248",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "HAMAS",
-                "actor2": "ISRAEL",
-                "actor1_country": "PSE",
-                "actor2_country": "ISR",
-                "geo_lat": 31.4167,
-                "geo_lon": 34.3333,
-                "geo_name": "Gaza, Israel (general), Israel"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1320556379",
               "title": "ISRAELI → PALESTINIAN : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
@@ -3134,6 +3002,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1325079104",
+              "title": "HASSAN → nan : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
+              "title_en": "HASSAN → nan : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: HASSAN / nan. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: HASSAN / nan. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "source": "gdelt",
+              "source_label": "presstv.co.uk",
+              "date": "2026-09-26",
+              "url": "https://www.presstv.co.uk/Detail/2026/09/26/777069/Lebanon-Hezbollah-Nasrallah-martyrdom-anniversary-Islamic-Jihad-praises-legacy-resistance",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 3,
+                "sources": 1,
+                "articles": 3,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1325079104",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "HASSAN",
+                "actor2": "nan",
+                "actor1_country": "JOR",
+                "actor2_country": "nan",
+                "geo_lat": 31.4167,
+                "geo_lon": 34.3333,
+                "geo_name": "Gaza, Israel (general), Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -3668,6 +3569,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1325079089",
+              "title": "ISRAEL → GAZA : Impose administrative sanctions, not specified below (Gaza, Israel (general), Israel)",
+              "title_en": "ISRAEL → GAZA : Impose administrative sanctions, not specified below (Gaza, Israel (general), Israel)",
+              "summary": "GDELT Event: Impose administrative sanctions, not specified below. Actors: ISRAEL / GAZA. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: ISRAEL / GAZA. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "presstv.co.uk",
+              "date": "2026-09-26",
+              "url": "https://www.presstv.co.uk/Detail/2026/09/26/777062/Hamas-Board-of-Peace-UNRWA-hostile-stance-aligns-with-Israel",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1325079089",
+                "event_code": "172",
+                "cameo_desc": "Impose administrative sanctions, not specified below",
+                "actor1": "ISRAEL",
+                "actor2": "GAZA",
+                "actor1_country": "ISR",
+                "actor2_country": "PSE",
+                "geo_lat": 31.4167,
+                "geo_lon": 34.3333,
+                "geo_name": "Gaza, Israel (general), Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -3675,39 +3609,6 @@
           "label": "舆论热点",
           "icon": "💬",
           "items": [
-            {
-              "id": "gdelt_1320283422",
-              "title": "AMERICAN → PALESTINIAN : Engage in popular protest, not specified below (Minnesota, United States)",
-              "title_en": "AMERICAN → PALESTINIAN : Engage in popular protest, not specified below (Minnesota, United States)",
-              "summary": "GDELT Event: Engage in popular protest, not specified below. Actors: AMERICAN / PALESTINIAN. Location: Minnesota, United States. Goldstein Scale: -6.5. Mentioned in 1 sources.",
-              "summary_en": "GDELT Event: Engage in popular protest, not specified below. Actors: AMERICAN / PALESTINIAN. Location: Minnesota, United States. Goldstein Scale: -6.5. Mentioned in 1 sources.",
-              "source": "gdelt",
-              "source_label": "thenewamerican.com",
-              "date": "2026-08-27",
-              "url": "https://thenewamerican.com/us/crime/cops-raid-home-of-anti-gun-democrat-omars-son-guns-ammo-found-roommate-arrested/",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 1,
-                "sources": 1,
-                "articles": 1,
-                "goldstein": -6.5
-              },
-              "gdelt_meta": {
-                "event_id": "1320283422",
-                "event_code": "140",
-                "cameo_desc": "Engage in popular protest, not specified below",
-                "actor1": "AMERICAN",
-                "actor2": "PALESTINIAN",
-                "actor1_country": "USA",
-                "actor2_country": "PSE",
-                "geo_lat": 45.7326,
-                "geo_lon": -93.9196,
-                "geo_name": "Minnesota, United States"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1322292574",
               "title": "EUROPE → nan : Demonstrate or rally (Jerusalem, Israel (general), Israel)",
@@ -4976,41 +4877,7 @@
         "opinion": {
           "label": "舆论热点",
           "icon": "💬",
-          "items": [
-            {
-              "id": "gdelt_1320283093",
-              "title": "IRAN → nan : Demonstrate or rally (Iran)",
-              "title_en": "IRAN → nan : Demonstrate or rally (Iran)",
-              "summary": "GDELT Event: Demonstrate or rally. Actors: IRAN / nan. Location: Iran. Goldstein Scale: -6.5. Mentioned in 10 sources.",
-              "summary_en": "GDELT Event: Demonstrate or rally. Actors: IRAN / nan. Location: Iran. Goldstein Scale: -6.5. Mentioned in 10 sources.",
-              "source": "gdelt",
-              "source_label": "aol.com",
-              "date": "2026-08-27",
-              "url": "https://www.aol.com/articles/air-force-officer-faces-charges-213512000.html",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 10,
-                "sources": 1,
-                "articles": 10,
-                "goldstein": -6.5
-              },
-              "gdelt_meta": {
-                "event_id": "1320283093",
-                "event_code": "141",
-                "cameo_desc": "Demonstrate or rally",
-                "actor1": "IRAN",
-                "actor2": "nan",
-                "actor1_country": "IRN",
-                "actor2_country": "nan",
-                "geo_lat": 32.0,
-                "geo_lon": 53.0,
-                "geo_name": "Iran"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            }
-          ]
+          "items": []
         },
         "video": {
           "label": "视频报道",
@@ -5974,13 +5841,13 @@
     }
   },
   "stats": {
-    "total_items": 168,
+    "total_items": 164,
     "sources": {
-      "gdelt": 168
+      "gdelt": 164
     },
     "date_range": {
-      "from": "2026-08-27",
-      "to": "2026-09-25"
+      "from": "2026-08-28",
+      "to": "2026-09-26"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",

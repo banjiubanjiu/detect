@@ -5,8 +5,48 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 26 Sep 2026 11:06:17 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 11:43:43 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[巴以冲突] RADIO STATION → HAMAS : Use conventional military force, not specified below (New York, United States)</title>
+      <link>https://www.clevelandjewishnews.com/jta/ny-jewish-democrats-defend-mamdani-after-netanyahu-calls-him-a-hamas-supporter/article_595aff77-6211-5069-94f4-ea022291921d.html</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: RADIO STATION / HAMAS. Location: New York, United States. Goldstein Scale: -10.0. Mentioned in 3 sources.</description>
+      <guid isPermaLink="true">https://www.clevelandjewishnews.com/jta/ny-jewish-democrats-defend-mamdani-after-netanyahu-calls-him-a-hamas-supporter/article_595aff77-6211-5069-94f4-ea022291921d.html</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.clevelandjewishnews.com/jta/ny-jewish-democrats-defend-mamdani-after-netanyahu-calls-him-a-hamas-supporter/article_595aff77-6211-5069-94f4-ea022291921d.html">clevelandjewishnews.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] SETTLER → nan : Use conventional military force, not specified below (Gaza, Israel (general), Israel)</title>
+      <link>https://wrp.org.uk/editorials/trade-unions-must-take-action-and-call-a-general-strike-to-give-full-support-to-the-state-of-palestine/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: SETTLER / nan. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://wrp.org.uk/editorials/trade-unions-must-take-action-and-call-a-general-strike-to-give-full-support-to-the-state-of-palestine/</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://wrp.org.uk/editorials/trade-unions-must-take-action-and-call-a-general-strike-to-give-full-support-to-the-state-of-palestine/">wrp.org.uk</source>
+    </item>
+    <item>
+      <title>[巴以冲突] GAZA → ISRAEL : Use conventional military force, not specified below (Sanaa, Sana', Yemen)</title>
+      <link>https://www.cp24.com/news/world/2026/09/25/top-saudi-cleric-urges-troops-to-defend-against-the-houthis-and-other-mideast-developments/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: GAZA / ISRAEL. Location: Sanaa, Sana', Yemen. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">https://www.cp24.com/news/world/2026/09/25/top-saudi-cleric-urges-troops-to-defend-against-the-houthis-and-other-mideast-developments/</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.cp24.com/news/world/2026/09/25/top-saudi-cleric-urges-troops-to-defend-against-the-houthis-and-other-mideast-developments/">cp24.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] TURKEY → IRAN : Impose administrative sanctions, not specified below (Tehran, Tehran, Iran)</title>
+      <link>https://yalibnan.com/2026/09/26/new-us-sanctions-shut-down-iranian-flights-and-deepen-irans-isolation/</link>
+      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: TURKEY / IRAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -5.0. Mentioned in 6 sources.</description>
+      <guid isPermaLink="true">https://yalibnan.com/2026/09/26/new-us-sanctions-shut-down-iranian-flights-and-deepen-irans-isolation/</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>外交谈判</category>
+      <source url="https://yalibnan.com/2026/09/26/new-us-sanctions-shut-down-iranian-flights-and-deepen-irans-isolation/">yalibnan.com</source>
+    </item>
     <item>
       <title>[俄乌战争] UKRAINE → CIVILIAN : Use conventional military force, not specified below (Odesa, Odes'ka Oblast, Ukraine)</title>
       <link>https://www.theyeshivaworld.com/news/general/2602763/russian-strikes-kill-8-in-ukraine-as-the-un-debates-how-to-end-the-war.html</link>
@@ -466,46 +506,6 @@
       <category>巴以冲突</category>
       <category>军事动态</category>
       <source url="https://www.middleeasteye.net/live-blog/live-blog-update/palestinian-prisoner-dies-israeli-detention-youth-injured-israeli">middleeasteye.net</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAELI → SCHOOL : Fight with small arms and light weapons (Gaza City, Israel (general), Israel)</title>
-      <link>https://english.wafa.ps/Pages/Details/174796</link>
-      <description>GDELT Event: Fight with small arms and light weapons. Actors: ISRAELI / SCHOOL. Location: Gaza City, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 3 sources.</description>
-      <guid isPermaLink="true">https://english.wafa.ps/Pages/Details/174796</guid>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://english.wafa.ps/Pages/Details/174796">english.wafa.ps</source>
-    </item>
-    <item>
-      <title>[巴以冲突] JOURNALIST → MILITARY : Arrest, detain, or charge with legal action (Hebron, Israel (general), Israel)</title>
-      <link>https://english.wafa.ps/Pages/Details/174794</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: JOURNALIST / MILITARY. Location: Hebron, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 3 sources.</description>
-      <guid isPermaLink="true">https://english.wafa.ps/Pages/Details/174794</guid>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>外交谈判</category>
-      <source url="https://english.wafa.ps/Pages/Details/174794">english.wafa.ps</source>
-    </item>
-    <item>
-      <title>[美伊对峙] nan → IRAN : Use conventional military force, not specified below (Toronto, Ontario, Canada)</title>
-      <link>https://www.northumberlandnews.com/news/ontario-gas-price-prediction-for-sept-17-18/article_122253bd-f871-5bd9-9aca-d07a4de1c70f.html</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: nan / IRAN. Location: Toronto, Ontario, Canada. Goldstein Scale: -10.0. Mentioned in 20 sources.</description>
-      <guid isPermaLink="true">https://www.northumberlandnews.com/news/ontario-gas-price-prediction-for-sept-17-18/article_122253bd-f871-5bd9-9aca-d07a4de1c70f.html</guid>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://www.northumberlandnews.com/news/ontario-gas-price-prediction-for-sept-17-18/article_122253bd-f871-5bd9-9aca-d07a4de1c70f.html">northumberlandnews.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] LAWMAKER → ACTIVIST : Expel or deport individuals (Iran)</title>
-      <link>https://www.foxnews.com/politics/lawmakers-standing-gates-against-trojan-horses-promoting-malign-foreign-interests</link>
-      <description>GDELT Event: Expel or deport individuals. Actors: LAWMAKER / ACTIVIST. Location: Iran. Goldstein Scale: -5.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://www.foxnews.com/politics/lawmakers-standing-gates-against-trojan-horses-promoting-malign-foreign-interests</guid>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>外交谈判</category>
-      <source url="https://www.foxnews.com/politics/lawmakers-standing-gates-against-trojan-horses-promoting-malign-foreign-interests">foxnews.com</source>
     </item>
   </channel>
 </rss>
