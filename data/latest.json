@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T11:44:00+00:00Z",
+  "updated_at": "2026-09-28T13:18:02+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -1180,39 +1180,6 @@
           "label": "外交谈判",
           "icon": "🕊️",
           "items": [
-            {
-              "id": "gdelt_1320446948",
-              "title": "POLICE → RUSSIAN : Arrest, detain, or charge with legal action (Russia)",
-              "title_en": "POLICE → RUSSIAN : Arrest, detain, or charge with legal action (Russia)",
-              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: POLICE / RUSSIAN. Location: Russia. Goldstein Scale: -5.0. Mentioned in 8 sources.",
-              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: POLICE / RUSSIAN. Location: Russia. Goldstein Scale: -5.0. Mentioned in 8 sources.",
-              "source": "gdelt",
-              "source_label": "eng.kavkaz-uzel.eu",
-              "date": "2026-08-28",
-              "url": "https://www.eng.kavkaz-uzel.eu/articles/78112",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 8,
-                "sources": 1,
-                "articles": 8,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1320446948",
-                "event_code": "173",
-                "cameo_desc": "Arrest, detain, or charge with legal action",
-                "actor1": "POLICE",
-                "actor2": "RUSSIAN",
-                "actor1_country": "nan",
-                "actor2_country": "RUS",
-                "geo_lat": 60.0,
-                "geo_lon": 100.0,
-                "geo_name": "Russia"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1321381640",
               "title": "UKRAINIAN → nan : Arrest, detain, or charge with legal action (New York, United States)",
@@ -3035,6 +3002,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1325185664",
+              "title": "ISRAELI → LEBANON : Use conventional military force, not specified below (Israel)",
+              "title_en": "ISRAELI → LEBANON : Use conventional military force, not specified below (Israel)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAELI / LEBANON. Location: Israel. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAELI / LEBANON. Location: Israel. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "source": "gdelt",
+              "source_label": "news.antiwar.com",
+              "date": "2026-09-27",
+              "url": "https://news.antiwar.com/2026/09/27/israeli-strikes-surge-across-southern-lebanon-in-latest-escalation/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 8,
+                "sources": 1,
+                "articles": 8,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1325185664",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "ISRAELI",
+                "actor2": "LEBANON",
+                "actor1_country": "ISR",
+                "actor2_country": "LBN",
+                "geo_lat": 31.5,
+                "geo_lon": 34.75,
+                "geo_name": "Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -3602,6 +3602,72 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1325185667",
+              "title": "ISRAEL → WEST BANK : Destroy property (Gaza, Israel (general), Israel)",
+              "title_en": "ISRAEL → WEST BANK : Destroy property (Gaza, Israel (general), Israel)",
+              "summary": "GDELT Event: Destroy property. Actors: ISRAEL / WEST BANK. Location: Gaza, Israel (general), Israel. Goldstein Scale: -9.2. Mentioned in 4 sources.",
+              "summary_en": "GDELT Event: Destroy property. Actors: ISRAEL / WEST BANK. Location: Gaza, Israel (general), Israel. Goldstein Scale: -9.2. Mentioned in 4 sources.",
+              "source": "gdelt",
+              "source_label": "news.antiwar.com",
+              "date": "2026-09-27",
+              "url": "https://news.antiwar.com/2026/09/27/smotrich-calls-for-israel-to-do-in-the-west-bank-what-we-did-in-gaza-as-idf-imposes-week-long-closure/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 4,
+                "sources": 1,
+                "articles": 4,
+                "goldstein": -9.2
+              },
+              "gdelt_meta": {
+                "event_id": "1325185667",
+                "event_code": "1712",
+                "cameo_desc": "Destroy property",
+                "actor1": "ISRAEL",
+                "actor2": "WEST BANK",
+                "actor1_country": "ISR",
+                "actor2_country": "PSE",
+                "geo_lat": 31.4167,
+                "geo_lon": 34.3333,
+                "geo_name": "Gaza, Israel (general), Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1325185556",
+              "title": "NASSER → ISRAEL : Arrest, detain, or charge with legal action (Gaza, Israel (general), Israel)",
+              "title_en": "NASSER → ISRAEL : Arrest, detain, or charge with legal action (Gaza, Israel (general), Israel)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: NASSER / ISRAEL. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: NASSER / ISRAEL. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "news.antiwar.com",
+              "date": "2026-09-27",
+              "url": "https://news.antiwar.com/2026/09/27/israeli-strikes-in-gaza-kill-at-least-eight-palestinians-over-three-days-as-relentless-attacks-continue/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1325185556",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "NASSER",
+                "actor2": "ISRAEL",
+                "actor1_country": "EGY",
+                "actor2_country": "ISR",
+                "geo_lat": 31.4167,
+                "geo_lon": 34.3333,
+                "geo_name": "Gaza, Israel (general), Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -3744,39 +3810,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1320446867",
-              "title": "nan → VENEZUELA : Occupy territory (Tehran, Tehran, Iran)",
-              "title_en": "nan → VENEZUELA : Occupy territory (Tehran, Tehran, Iran)",
-              "summary": "GDELT Event: Occupy territory. Actors: nan / VENEZUELA. Location: Tehran, Tehran, Iran. Goldstein Scale: -9.5. Mentioned in 2 sources.",
-              "summary_en": "GDELT Event: Occupy territory. Actors: nan / VENEZUELA. Location: Tehran, Tehran, Iran. Goldstein Scale: -9.5. Mentioned in 2 sources.",
-              "source": "gdelt",
-              "source_label": "goskagit.com",
-              "date": "2026-08-28",
-              "url": "http://www.goskagit.com/news/politics/the-latest-trump-says-us-will-take-control-of-65-billion-barrels-of-venezuela-s/article_57cd6bed-2def-5230-a2fe-f914a3223067.html",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 2,
-                "sources": 1,
-                "articles": 2,
-                "goldstein": -9.5
-              },
-              "gdelt_meta": {
-                "event_id": "1320446867",
-                "event_code": "192",
-                "cameo_desc": "Occupy territory",
-                "actor1": "nan",
-                "actor2": "VENEZUELA",
-                "actor1_country": "nan",
-                "actor2_country": "VEN",
-                "geo_lat": 35.75,
-                "geo_lon": 51.5148,
-                "geo_name": "Tehran, Tehran, Iran"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1320655770",
               "title": "THE US → IRAN : Use conventional military force, not specified below (Larak, Khorasan-e Janubi, Iran)",
@@ -4871,6 +4904,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1325185659",
+              "title": "IRAN → UNITED KINGDOM : Arrest, detain, or charge with legal action (Fairford, Gloucestershire, United Kingdom)",
+              "title_en": "IRAN → UNITED KINGDOM : Arrest, detain, or charge with legal action (Fairford, Gloucestershire, United Kingdom)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: IRAN / UNITED KINGDOM. Location: Fairford, Gloucestershire, United Kingdom. Goldstein Scale: -5.0. Mentioned in 8 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: IRAN / UNITED KINGDOM. Location: Fairford, Gloucestershire, United Kingdom. Goldstein Scale: -5.0. Mentioned in 8 sources.",
+              "source": "gdelt",
+              "source_label": "mirror.co.uk",
+              "date": "2026-09-27",
+              "url": "https://www.mirror.co.uk/news/uk-news/raf-fairford-arrests-serve-warning-37707860",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 8,
+                "sources": 1,
+                "articles": 8,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1325185659",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "IRAN",
+                "actor2": "UNITED KINGDOM",
+                "actor1_country": "IRN",
+                "actor2_country": "GBR",
+                "geo_lat": 51.7,
+                "geo_lon": -1.78333,
+                "geo_name": "Fairford, Gloucestershire, United Kingdom"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -5716,40 +5782,6 @@
           "icon": "⚔️",
           "items": [
             {
-              "id": "gdelt_1320447187",
-              "title": "SOUTH KOREA → GWANGJU : Use conventional military force, not specified below (Taiwan)",
-              "title_en": "SOUTH KOREA → GWANGJU : Use conventional military force, not specified below (Taiwan)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: SOUTH KOREA / GWANGJU. Location: Taiwan. Goldstein Scale: -10.0. Mentioned in 1 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: SOUTH KOREA / GWANGJU. Location: Taiwan. Goldstein Scale: -10.0. Mentioned in 1 sources.",
-              "source": "gdelt",
-              "source_label": "artnews.com",
-              "date": "2026-08-28",
-              "url": "https://www.artnews.com/art-news/news/china-pulls-artists-from-gwangju-biennale-as-taiwan-pavilion-moves-forward-1234796234/",
-              "primary_conflict": "taiwan-strait",
-              "metrics": {
-                "mentions": 1,
-                "sources": 1,
-                "articles": 1,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1320447187",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "SOUTH KOREA",
-                "actor2": "GWANGJU",
-                "actor1_country": "KOR",
-                "actor2_country": "KOR",
-                "geo_lat": 24.0,
-                "geo_lon": 121.0,
-                "geo_name": "Taiwan"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3",
-              "criticality": "background"
-            },
-            {
               "id": "gdelt_1321553558",
               "title": "CHINA → TAIWAN : Use conventional military force, not specified below (Beijing, Beijing, China)",
               "title_en": "CHINA → TAIWAN : Use conventional military force, not specified below (Beijing, Beijing, China)",
@@ -5841,13 +5873,13 @@
     }
   },
   "stats": {
-    "total_items": 164,
+    "total_items": 165,
     "sources": {
-      "gdelt": 164
+      "gdelt": 165
     },
     "date_range": {
-      "from": "2026-08-28",
-      "to": "2026-09-26"
+      "from": "2026-08-29",
+      "to": "2026-09-27"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
