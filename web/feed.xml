@@ -5,8 +5,48 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 28 Sep 2026 13:17:46 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 12:27:15 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[巴以冲突] ISRAELI → LEBANON : Use conventional military force, not specified below (Israel)</title>
+      <link>https://news.antiwar.com/2026/09/27/israeli-strikes-surge-across-southern-lebanon-in-latest-escalation/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAELI / LEBANON. Location: Israel. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
+      <guid isPermaLink="true">https://news.antiwar.com/2026/09/27/israeli-strikes-surge-across-southern-lebanon-in-latest-escalation/</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://news.antiwar.com/2026/09/27/israeli-strikes-surge-across-southern-lebanon-in-latest-escalation/">news.antiwar.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAEL → WEST BANK : Destroy property (Gaza, Israel (general), Israel)</title>
+      <link>https://news.antiwar.com/2026/09/27/smotrich-calls-for-israel-to-do-in-the-west-bank-what-we-did-in-gaza-as-idf-imposes-week-long-closure/</link>
+      <description>GDELT Event: Destroy property. Actors: ISRAEL / WEST BANK. Location: Gaza, Israel (general), Israel. Goldstein Scale: -9.2. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://news.antiwar.com/2026/09/27/smotrich-calls-for-israel-to-do-in-the-west-bank-what-we-did-in-gaza-as-idf-imposes-week-long-closure/</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>外交谈判</category>
+      <source url="https://news.antiwar.com/2026/09/27/smotrich-calls-for-israel-to-do-in-the-west-bank-what-we-did-in-gaza-as-idf-imposes-week-long-closure/">news.antiwar.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] NASSER → ISRAEL : Arrest, detain, or charge with legal action (Gaza, Israel (general), Israel)</title>
+      <link>https://news.antiwar.com/2026/09/27/israeli-strikes-in-gaza-kill-at-least-eight-palestinians-over-three-days-as-relentless-attacks-continue/</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: NASSER / ISRAEL. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://news.antiwar.com/2026/09/27/israeli-strikes-in-gaza-kill-at-least-eight-palestinians-over-three-days-as-relentless-attacks-continue/</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>外交谈判</category>
+      <source url="https://news.antiwar.com/2026/09/27/israeli-strikes-in-gaza-kill-at-least-eight-palestinians-over-three-days-as-relentless-attacks-continue/">news.antiwar.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] IRAN → UNITED KINGDOM : Arrest, detain, or charge with legal action (Fairford, Gloucestershire, United Kingdom)</title>
+      <link>https://www.mirror.co.uk/news/uk-news/raf-fairford-arrests-serve-warning-37707860</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: IRAN / UNITED KINGDOM. Location: Fairford, Gloucestershire, United Kingdom. Goldstein Scale: -5.0. Mentioned in 8 sources.</description>
+      <guid isPermaLink="true">https://www.mirror.co.uk/news/uk-news/raf-fairford-arrests-serve-warning-37707860</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>外交谈判</category>
+      <source url="https://www.mirror.co.uk/news/uk-news/raf-fairford-arrests-serve-warning-37707860">mirror.co.uk</source>
+    </item>
     <item>
       <title>[俄乌战争] ISRAEL → RUSSIA : Assassinate (Russia)</title>
       <link>https://www.presstv.co.uk/Detail/2026/09/26/777079/Russia-Iran-Lavrov-Khamenei</link>
@@ -466,46 +506,6 @@
       <category>巴以冲突</category>
       <category>军事动态</category>
       <source url="https://imemc.org/article/israeli-forces-colonizers-attack-across-west-bank/">imemc.org</source>
-    </item>
-    <item>
-      <title>[巴以冲突] BACKPACKER → nan : Arrest, detain, or charge with legal action (Israel)</title>
-      <link>https://www.abc.net.au/listen/programs/abc-news-top-stories/coalition-slams-labor-s-planned-clampdown-on-backpackers/107167438</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: BACKPACKER / nan. Location: Israel. Goldstein Scale: -5.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://www.abc.net.au/listen/programs/abc-news-top-stories/coalition-slams-labor-s-planned-clampdown-on-backpackers/107167438</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>外交谈判</category>
-      <source url="https://www.abc.net.au/listen/programs/abc-news-top-stories/coalition-slams-labor-s-planned-clampdown-on-backpackers/107167438">abc.net.au</source>
-    </item>
-    <item>
-      <title>[巴以冲突] AUSTRALIAN → ISRAELI : Impose administrative sanctions, not specified below (Gaza, Israel (general), Israel)</title>
-      <link>https://www.abc.net.au/listen/programs/am/israel-blocks-wheelchairs-bound-for-gaza/107167100</link>
-      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: AUSTRALIAN / ISRAELI. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.abc.net.au/listen/programs/am/israel-blocks-wheelchairs-bound-for-gaza/107167100</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>外交谈判</category>
-      <source url="https://www.abc.net.au/listen/programs/am/israel-blocks-wheelchairs-bound-for-gaza/107167100">abc.net.au</source>
-    </item>
-    <item>
-      <title>[也门/胡塞武装] CAIRO → SAUDI ARABIA : Use conventional military force, not specified below (Mokha, Taizz, Yemen)</title>
-      <link>https://www.dailyexcelsior.com/saudi-civil-defence-says-falling-debris-from-intercepted-houthi-drone-kills-1/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: CAIRO / SAUDI ARABIA. Location: Mokha, Taizz, Yemen. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.dailyexcelsior.com/saudi-civil-defence-says-falling-debris-from-intercepted-houthi-drone-kills-1/</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <category>也门/胡塞武装</category>
-      <category>军事动态</category>
-      <source url="https://www.dailyexcelsior.com/saudi-civil-defence-says-falling-debris-from-intercepted-houthi-drone-kills-1/">dailyexcelsior.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] UNITED KINGDOM → nan : Use conventional military force, not specified below (Russia)</title>
-      <link>https://www.theepochtimes.com/bright/slow-horses-season-six-more-of-a-motley-crew-of-mess-ups-6087242</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: UNITED KINGDOM / nan. Location: Russia. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://www.theepochtimes.com/bright/slow-horses-season-six-more-of-a-motley-crew-of-mess-ups-6087242</guid>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://www.theepochtimes.com/bright/slow-horses-season-six-more-of-a-motley-crew-of-mess-ups-6087242">theepochtimes.com</source>
     </item>
   </channel>
 </rss>
