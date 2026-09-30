@@ -5,8 +5,58 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 29 Sep 2026 12:27:15 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 12:12:55 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[巴以冲突] PALESTINIAN → ISRAEL : Physically assault, not specified below (Gaza, Israel (general), Israel)</title>
+      <link>https://news.antiwar.com/2026/09/28/israeli-forces-kill-two-women-in-separate-attacks-in-gaza/</link>
+      <description>GDELT Event: Physically assault, not specified below. Actors: PALESTINIAN / ISRAEL. Location: Gaza, Israel (general), Israel. Goldstein Scale: -9.5. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://news.antiwar.com/2026/09/28/israeli-forces-kill-two-women-in-separate-attacks-in-gaza/</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://news.antiwar.com/2026/09/28/israeli-forces-kill-two-women-in-separate-attacks-in-gaza/">news.antiwar.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] UNITED KINGDOM → nan : Use conventional military force, not specified below (Israel)</title>
+      <link>https://www.brisbanetimes.com.au/world/europe/exclude-her-british-jews-urge-uk-to-bar-entry-for-australian-author-over-october-7-remarks-20260929-p61189.html</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: UNITED KINGDOM / nan. Location: Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.brisbanetimes.com.au/world/europe/exclude-her-british-jews-urge-uk-to-bar-entry-for-australian-author-over-october-7-remarks-20260929-p61189.html</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.brisbanetimes.com.au/world/europe/exclude-her-british-jews-urge-uk-to-bar-entry-for-australian-author-over-october-7-remarks-20260929-p61189.html">brisbanetimes.com.au</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAEL → ISRAEL : Use conventional military force, not specified below (Gaza City, Israel (general), Israel)</title>
+      <link>https://www.perthnow.com.au/news/conflict/israeli-strikes-kill-at-least-two-in-gaza-officials-c-22939650</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / ISRAEL. Location: Gaza City, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.perthnow.com.au/news/conflict/israeli-strikes-kill-at-least-two-in-gaza-officials-c-22939650</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.perthnow.com.au/news/conflict/israeli-strikes-kill-at-least-two-in-gaza-officials-c-22939650">perthnow.com.au</source>
+    </item>
+    <item>
+      <title>[也门/胡塞武装] nan → HEALTH MINIST : Use conventional military force, not specified below (Hajjah, ?ajjah, Yemen)</title>
+      <link>https://news.antiwar.com/2026/09/28/saudi-airstrike-on-civilian-home-in-yemen-kills-four-yemeni-health-ministry/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: nan / HEALTH MINIST. Location: Hajjah, ?ajjah, Yemen. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://news.antiwar.com/2026/09/28/saudi-airstrike-on-civilian-home-in-yemen-kills-four-yemeni-health-ministry/</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <category>也门/胡塞武装</category>
+      <category>军事动态</category>
+      <source url="https://news.antiwar.com/2026/09/28/saudi-airstrike-on-civilian-home-in-yemen-kills-four-yemeni-health-ministry/">news.antiwar.com</source>
+    </item>
+    <item>
+      <title>[叙利亚局势] TURKEY → SYRIA : Occupy territory (Syria)</title>
+      <link>https://www.hometownregister.com/news/national/muslim-man-sentenced-in-the-us-on-terrorism-charges-supporting-isis/article_11594901-08f7-519e-b59c-d4a4c076c2ba.html</link>
+      <description>GDELT Event: Occupy territory. Actors: TURKEY / SYRIA. Location: Syria. Goldstein Scale: -9.5. Mentioned in 8 sources.</description>
+      <guid isPermaLink="true">https://www.hometownregister.com/news/national/muslim-man-sentenced-in-the-us-on-terrorism-charges-supporting-isis/article_11594901-08f7-519e-b59c-d4a4c076c2ba.html</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <category>叙利亚局势</category>
+      <category>军事动态</category>
+      <source url="https://www.hometownregister.com/news/national/muslim-man-sentenced-in-the-us-on-terrorism-charges-supporting-isis/article_11594901-08f7-519e-b59c-d4a4c076c2ba.html">hometownregister.com</source>
+    </item>
     <item>
       <title>[巴以冲突] ISRAELI → LEBANON : Use conventional military force, not specified below (Israel)</title>
       <link>https://news.antiwar.com/2026/09/27/israeli-strikes-surge-across-southern-lebanon-in-latest-escalation/</link>
@@ -456,56 +506,6 @@
       <category>也门/胡塞武装</category>
       <category>外交谈判</category>
       <source url="https://english.news.cn/20260919/c5a6ab045e8a47e5a31b38a07ee2b88b/c.html">english.news.cn</source>
-    </item>
-    <item>
-      <title>[俄乌战争] UKRAINIAN → RUSSIA : Use conventional military force, not specified below (Kyiv, Kyyiv, Misto, Ukraine)</title>
-      <link>https://jamestown.org/ukraines-drone-campaign-reaches-the-russian-arctic/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: UKRAINIAN / RUSSIA. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -10.0. Mentioned in 6 sources.</description>
-      <guid isPermaLink="true">https://jamestown.org/ukraines-drone-campaign-reaches-the-russian-arctic/</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://jamestown.org/ukraines-drone-campaign-reaches-the-russian-arctic/">jamestown.org</source>
-    </item>
-    <item>
-      <title>[俄乌战争] RUSSIA → MOLDOVA : Occupy territory (Moscow, Moskva, Russia)</title>
-      <link>https://jamestown.org/gagauzia-angry-at-chisinau-risks-becoming-a-target-of-russian-subversion/</link>
-      <description>GDELT Event: Occupy territory. Actors: RUSSIA / MOLDOVA. Location: Moscow, Moskva, Russia. Goldstein Scale: -9.5. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://jamestown.org/gagauzia-angry-at-chisinau-risks-becoming-a-target-of-russian-subversion/</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://jamestown.org/gagauzia-angry-at-chisinau-risks-becoming-a-target-of-russian-subversion/">jamestown.org</source>
-    </item>
-    <item>
-      <title>[俄乌战争] UKRAINE → RUSSIA : Use conventional military force, not specified below (Russia)</title>
-      <link>https://www.acadiananewsfirst.com/2026/09/17/rising-gas-prices-put-pressure-lafayette-rideshare-drivers-customers/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: UKRAINE / RUSSIA. Location: Russia. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.acadiananewsfirst.com/2026/09/17/rising-gas-prices-put-pressure-lafayette-rideshare-drivers-customers/</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://www.acadiananewsfirst.com/2026/09/17/rising-gas-prices-put-pressure-lafayette-rideshare-drivers-customers/">acadiananewsfirst.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] MINISTRY → nan : Use conventional military force, not specified below (Gaza, Israel (general), Israel)</title>
-      <link>https://imemc.org/article/israeli-fire-kills-two-palestinians-wounds-several-in-gaza/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: MINISTRY / nan. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 5 sources.</description>
-      <guid isPermaLink="true">https://imemc.org/article/israeli-fire-kills-two-palestinians-wounds-several-in-gaza/</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://imemc.org/article/israeli-fire-kills-two-palestinians-wounds-several-in-gaza/">imemc.org</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAEL → WEST BANK : Use unconventional violence, not specified below (Jerusalem, Israel (general), Israel)</title>
-      <link>https://imemc.org/article/israeli-forces-colonizers-attack-across-west-bank/</link>
-      <description>GDELT Event: Use unconventional violence, not specified below. Actors: ISRAEL / WEST BANK. Location: Jerusalem, Israel (general), Israel. Goldstein Scale: -9.0. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://imemc.org/article/israeli-forces-colonizers-attack-across-west-bank/</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://imemc.org/article/israeli-forces-colonizers-attack-across-west-bank/">imemc.org</source>
     </item>
   </channel>
 </rss>
