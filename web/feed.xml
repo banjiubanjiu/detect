@@ -5,8 +5,48 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 30 Sep 2026 12:12:55 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 12:46:05 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] THE EU → RUSSIAN : Confiscate property (Moscow, Moskva, Russia)</title>
+      <link>https://english.pravda.ru/russia/169380-russia-western-assets-control/</link>
+      <description>GDELT Event: Confiscate property. Actors: THE EU / RUSSIAN. Location: Moscow, Moskva, Russia. Goldstein Scale: -9.2. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://english.pravda.ru/russia/169380-russia-western-assets-control/</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>外交谈判</category>
+      <source url="https://english.pravda.ru/russia/169380-russia-western-assets-control/">english.pravda.ru</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAEL → nan : Fight with artillery and tanks (Gaza, Israel (general), Israel)</title>
+      <link>https://www.arabnews.com/middle-east/rival-says-netanyahu-fear-mongering-over-warning-of-pre-vote-attack-3003829</link>
+      <description>GDELT Event: Fight with artillery and tanks. Actors: ISRAEL / nan. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.arabnews.com/middle-east/rival-says-netanyahu-fear-mongering-over-warning-of-pre-vote-attack-3003829</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.arabnews.com/middle-east/rival-says-netanyahu-fear-mongering-over-warning-of-pre-vote-attack-3003829">arabnews.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAEL → nan : Use conventional military force, not specified below (Edinburgh, Edinburgh, City of, United Kingdom)</title>
+      <link>https://www.dailymail.com/news/article-16168889/Antisemitic-incidents-British-unis-significantly-higher-october-7.html</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / nan. Location: Edinburgh, Edinburgh, City of, United Kingdom. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://www.dailymail.com/news/article-16168889/Antisemitic-incidents-British-unis-significantly-higher-october-7.html</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.dailymail.com/news/article-16168889/Antisemitic-incidents-British-unis-significantly-higher-october-7.html">dailymail.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] UNITED KINGDOM → POLICE : Arrest, detain, or charge with legal action (Tehran, Tehran, Iran)</title>
+      <link>https://www.dailymail.com/news/article-16170977/Rebecca-Camber-unanswered-questions-RAF-bomb-plot.html</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: UNITED KINGDOM / POLICE. Location: Tehran, Tehran, Iran. Goldstein Scale: -5.0. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://www.dailymail.com/news/article-16170977/Rebecca-Camber-unanswered-questions-RAF-bomb-plot.html</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>外交谈判</category>
+      <source url="https://www.dailymail.com/news/article-16170977/Rebecca-Camber-unanswered-questions-RAF-bomb-plot.html">dailymail.com</source>
+    </item>
     <item>
       <title>[巴以冲突] PALESTINIAN → ISRAEL : Physically assault, not specified below (Gaza, Israel (general), Israel)</title>
       <link>https://news.antiwar.com/2026/09/28/israeli-forces-kill-two-women-in-separate-attacks-in-gaza/</link>
@@ -466,46 +506,6 @@
       <category>巴以冲突</category>
       <category>军事动态</category>
       <source url="https://www.smh.com.au/world/middle-east/flames-smoke-seen-near-riyadh-airport-houthis-claim-attacks-on-saudi-capital-20260920-p60yve.html">smh.com.au</source>
-    </item>
-    <item>
-      <title>[美伊对峙] IRAN → nan : Use unconventional violence, not specified below (Iran)</title>
-      <link>https://www.sott.net/article/508470-Reasonable-grounds-to-believe-US-committed-war-crimes-in-Iran-UN</link>
-      <description>GDELT Event: Use unconventional violence, not specified below. Actors: IRAN / nan. Location: Iran. Goldstein Scale: -9.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://www.sott.net/article/508470-Reasonable-grounds-to-believe-US-committed-war-crimes-in-Iran-UN</guid>
-      <pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://www.sott.net/article/508470-Reasonable-grounds-to-believe-US-committed-war-crimes-in-Iran-UN">sott.net</source>
-    </item>
-    <item>
-      <title>[俄乌战争] CIVILIAN → UKRAINIAN : Use conventional military force, not specified below (Kyiv, Kyyiv, Misto, Ukraine)</title>
-      <link>https://www.watoday.com.au/world/europe/total-war-the-human-face-of-the-assault-on-ukraine-20260919-p60yf2.html</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: CIVILIAN / UKRAINIAN. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://www.watoday.com.au/world/europe/total-war-the-human-face-of-the-assault-on-ukraine-20260919-p60yf2.html</guid>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://www.watoday.com.au/world/europe/total-war-the-human-face-of-the-assault-on-ukraine-20260919-p60yf2.html">watoday.com.au</source>
-    </item>
-    <item>
-      <title>[巴以冲突] PALESTINE → nan : Arrest, detain, or charge with legal action (Gaza, Israel (general), Israel)</title>
-      <link>https://news.az/news/four-palestine-action-activists-appeal-terrorism-sentences</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: PALESTINE / nan. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 6 sources.</description>
-      <guid isPermaLink="true">https://news.az/news/four-palestine-action-activists-appeal-terrorism-sentences</guid>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>外交谈判</category>
-      <source url="https://news.az/news/four-palestine-action-activists-appeal-terrorism-sentences">news.az</source>
-    </item>
-    <item>
-      <title>[也门/胡塞武装] MILITARY → MEDIA : Impose restrictions on freedoms of speech and expression (Sanaa, Sana', Yemen)</title>
-      <link>https://english.news.cn/20260919/c5a6ab045e8a47e5a31b38a07ee2b88b/c.html</link>
-      <description>GDELT Event: Impose restrictions on freedoms of speech and expression. Actors: MILITARY / MEDIA. Location: Sanaa, Sana', Yemen. Goldstein Scale: -5.0. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">https://english.news.cn/20260919/c5a6ab045e8a47e5a31b38a07ee2b88b/c.html</guid>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
-      <category>也门/胡塞武装</category>
-      <category>外交谈判</category>
-      <source url="https://english.news.cn/20260919/c5a6ab045e8a47e5a31b38a07ee2b88b/c.html">english.news.cn</source>
     </item>
   </channel>
 </rss>
