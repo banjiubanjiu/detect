@@ -19,8 +19,9 @@ import subprocess
 import sys
 import tempfile
 import time
+import urllib.error
 import urllib.request
-from concurrent.futures import ThreadPoolExecutor, as_completed
+from concurrent.futures import CancelledError, ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta
 from pathlib import Path
 
@@ -288,8 +289,14 @@ def fetch_aljazeera(url, out_dir):
         return None
 
 
-def translate_file(src_path):
+class TranslationPaymentRequired(RuntimeError):
+    """The translation account requires attention before more requests can succeed."""
+
+
+def translate_file(src_path, stop_event=None):
     """Translate a source markdown file to Chinese using DeepSeek, save as .zh.md."""
+    if stop_event is not None and stop_event.is_set():
+        raise CancelledError()
     src = Path(src_path)
     zh_path = src.with_suffix('.zh.md')
 
@@ -353,6 +360,8 @@ def translate_file(src_path):
                 "User-Agent": "ConflictTracker/1.0"
             }
         )
+        if stop_event is not None and stop_event.is_set():
+            raise CancelledError()
         with urllib.request.urlopen(req, timeout=120) as resp:
             result = json.loads(resp.read().decode())
         translated = result.get("choices", [{}])[0].get("message", {}).get("content", "")
@@ -362,10 +371,22 @@ def translate_file(src_path):
                 f.write(translated)
             time.sleep(1)  # rate limit
             return
+    except CancelledError:
+        raise
     except Exception as e:
+        if isinstance(e, urllib.error.HTTPError) and e.code == 402:
+            if stop_event is not None:
+                stop_event.set()
+            raise TranslationPaymentRequired(
+                "OpenRouter returned HTTP 402 Payment Required. "
+                "Translation batch stopped; check the account's credits/billing "
+                "for OPENROUTER_API_KEY, then rerun the workflow."
+            ) from e
         print(f"    [translate_file] AI error for {src.name}: {e}", file=sys.stderr)
 
     # Fallback: translate-shell
+    if stop_event is not None and stop_event.is_set():
+        raise CancelledError()
     trans_bin = Path.home() / "bin" / "trans"
     if trans_bin.exists():
         try:
