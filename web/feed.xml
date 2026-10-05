@@ -5,8 +5,78 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 04 Oct 2026 12:02:54 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 14:00:54 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] RUSSIA → UKRAINE : Use conventional military force, not specified below (Kyiv, Kyyiv, Misto, Ukraine)</title>
+      <link>https://aa.com.tr/en/eurasia/russia-again-urges-foreign-diplomats-to-leave-kyiv/4077330</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: RUSSIA / UKRAINE. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://aa.com.tr/en/eurasia/russia-again-urges-foreign-diplomats-to-leave-kyiv/4077330</guid>
+      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://aa.com.tr/en/eurasia/russia-again-urges-foreign-diplomats-to-leave-kyiv/4077330">aa.com.tr</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ARMY → ISRAELI : Use conventional military force, not specified below (Gaza, Israel (general), Israel)</title>
+      <link>https://www.wsbradio.com/news/world/co-pilot-flydubai/PXEALLYOWU6HBKGOGMNNA5INY4/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: ARMY / ISRAELI. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.</description>
+      <guid isPermaLink="true">https://www.wsbradio.com/news/world/co-pilot-flydubai/PXEALLYOWU6HBKGOGMNNA5INY4/</guid>
+      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.wsbradio.com/news/world/co-pilot-flydubai/PXEALLYOWU6HBKGOGMNNA5INY4/">wsbradio.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] nan → LEBANON : Use conventional military force, not specified below (Israel)</title>
+      <link>https://aa.com.tr/en/middle-east/israeli-army-blows-up-school-shells-towns-in-southern-lebanon-despite-ceasefire-report/4077288</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: nan / LEBANON. Location: Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://aa.com.tr/en/middle-east/israeli-army-blows-up-school-shells-towns-in-southern-lebanon-despite-ceasefire-report/4077288</guid>
+      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://aa.com.tr/en/middle-east/israeli-army-blows-up-school-shells-towns-in-southern-lebanon-despite-ceasefire-report/4077288">aa.com.tr</source>
+    </item>
+    <item>
+      <title>[美伊对峙] REUTERS → IRAN : Use conventional military force, not specified below (Iran)</title>
+      <link>https://whbl.com/2026/10/03/yemens-armed-forces-say-it-is-conducting-strikes-against-houthis-in-sanaa/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: REUTERS / IRAN. Location: Iran. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://whbl.com/2026/10/03/yemens-armed-forces-say-it-is-conducting-strikes-against-houthis-in-sanaa/</guid>
+      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://whbl.com/2026/10/03/yemens-armed-forces-say-it-is-conducting-strikes-against-houthis-in-sanaa/">whbl.com</source>
+    </item>
+    <item>
+      <title>[也门/胡塞武装] nan → YEMENI : Use conventional military force, not specified below (Al-Jawf, Al Bay?a', Yemen)</title>
+      <link>https://aa.com.tr/en/middle-east/yemeni-forces-capture-samea-fortress-in-taiz-after-fierce-clashes-with-houthis/4077217</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: nan / YEMENI. Location: Al-Jawf, Al Bay?a', Yemen. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://aa.com.tr/en/middle-east/yemeni-forces-capture-samea-fortress-in-taiz-after-fierce-clashes-with-houthis/4077217</guid>
+      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
+      <category>也门/胡塞武装</category>
+      <category>军事动态</category>
+      <source url="https://aa.com.tr/en/middle-east/yemeni-forces-capture-samea-fortress-in-taiz-after-fierce-clashes-with-houthis/4077217">aa.com.tr</source>
+    </item>
+    <item>
+      <title>[也门/胡塞武装] COMPANY → YEMENI : Fight with artillery and tanks (Sanaa, Sana', Yemen)</title>
+      <link>https://aa.com.tr/en/world/houthis-claim-missile-drone-attack-on-saudi-aramco-in-riyadh/4077303</link>
+      <description>GDELT Event: Fight with artillery and tanks. Actors: COMPANY / YEMENI. Location: Sanaa, Sana', Yemen. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
+      <guid isPermaLink="true">https://aa.com.tr/en/world/houthis-claim-missile-drone-attack-on-saudi-aramco-in-riyadh/4077303</guid>
+      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
+      <category>也门/胡塞武装</category>
+      <category>军事动态</category>
+      <source url="https://aa.com.tr/en/world/houthis-claim-missile-drone-attack-on-saudi-aramco-in-riyadh/4077303">aa.com.tr</source>
+    </item>
+    <item>
+      <title>[也门/胡塞武装] ADDIS ABABA → ERITREA : Impose curfew (Red Sea, Djibouti (general), Djibouti)</title>
+      <link>https://www.riotimesonline.com/au-calls-restraint-ethiopia-eritrea-egypt-tensions-2026/</link>
+      <description>GDELT Event: Impose curfew. Actors: ADDIS ABABA / ERITREA. Location: Red Sea, Djibouti (general), Djibouti. Goldstein Scale: -5.0. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">https://www.riotimesonline.com/au-calls-restraint-ethiopia-eritrea-egypt-tensions-2026/</guid>
+      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
+      <category>也门/胡塞武装</category>
+      <category>外交谈判</category>
+      <source url="https://www.riotimesonline.com/au-calls-restraint-ethiopia-eritrea-egypt-tensions-2026/">riotimesonline.com</source>
+    </item>
     <item>
       <title>[美伊对峙] nan → IRAN : Use conventional military force, not specified below (Toronto, Ontario, Canada)</title>
       <link>https://www.simcoe.com/news/ontario-gas-prices-drop-oct-4/article_cfda3b45-96ec-50d1-98d0-bc8b265eb8c3.html</link>
@@ -436,76 +506,6 @@
       <category>巴以冲突</category>
       <category>军事动态</category>
       <source url="https://www.clevelandjewishnews.com/jta/ny-jewish-democrats-defend-mamdani-after-netanyahu-calls-him-a-hamas-supporter/article_595aff77-6211-5069-94f4-ea022291921d.html">clevelandjewishnews.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] SETTLER → nan : Use conventional military force, not specified below (Gaza, Israel (general), Israel)</title>
-      <link>https://wrp.org.uk/editorials/trade-unions-must-take-action-and-call-a-general-strike-to-give-full-support-to-the-state-of-palestine/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: SETTLER / nan. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://wrp.org.uk/editorials/trade-unions-must-take-action-and-call-a-general-strike-to-give-full-support-to-the-state-of-palestine/</guid>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://wrp.org.uk/editorials/trade-unions-must-take-action-and-call-a-general-strike-to-give-full-support-to-the-state-of-palestine/">wrp.org.uk</source>
-    </item>
-    <item>
-      <title>[巴以冲突] GAZA → ISRAEL : Use conventional military force, not specified below (Sanaa, Sana', Yemen)</title>
-      <link>https://www.cp24.com/news/world/2026/09/25/top-saudi-cleric-urges-troops-to-defend-against-the-houthis-and-other-mideast-developments/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: GAZA / ISRAEL. Location: Sanaa, Sana', Yemen. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
-      <guid isPermaLink="true">https://www.cp24.com/news/world/2026/09/25/top-saudi-cleric-urges-troops-to-defend-against-the-houthis-and-other-mideast-developments/</guid>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.cp24.com/news/world/2026/09/25/top-saudi-cleric-urges-troops-to-defend-against-the-houthis-and-other-mideast-developments/">cp24.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] TURKEY → IRAN : Impose administrative sanctions, not specified below (Tehran, Tehran, Iran)</title>
-      <link>https://yalibnan.com/2026/09/26/new-us-sanctions-shut-down-iranian-flights-and-deepen-irans-isolation/</link>
-      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: TURKEY / IRAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -5.0. Mentioned in 6 sources.</description>
-      <guid isPermaLink="true">https://yalibnan.com/2026/09/26/new-us-sanctions-shut-down-iranian-flights-and-deepen-irans-isolation/</guid>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>外交谈判</category>
-      <source url="https://yalibnan.com/2026/09/26/new-us-sanctions-shut-down-iranian-flights-and-deepen-irans-isolation/">yalibnan.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] UKRAINE → CIVILIAN : Use conventional military force, not specified below (Odesa, Odes'ka Oblast, Ukraine)</title>
-      <link>https://www.theyeshivaworld.com/news/general/2602763/russian-strikes-kill-8-in-ukraine-as-the-un-debates-how-to-end-the-war.html</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: UKRAINE / CIVILIAN. Location: Odesa, Odes'ka Oblast, Ukraine. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
-      <guid isPermaLink="true">https://www.theyeshivaworld.com/news/general/2602763/russian-strikes-kill-8-in-ukraine-as-the-un-debates-how-to-end-the-war.html</guid>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://www.theyeshivaworld.com/news/general/2602763/russian-strikes-kill-8-in-ukraine-as-the-un-debates-how-to-end-the-war.html">theyeshivaworld.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] HAMAS → INTELLIGENCE : Use unconventional violence, not specified below (Gaza, Israel (general), Israel)</title>
-      <link>https://www.theyeshivaworld.com/news/israel-news/2602660/idf-probe-systemic-failures-cited-in-oct-7-battle-at-pega-18-fallen-22-wounded-2-kidnapped.html</link>
-      <description>GDELT Event: Use unconventional violence, not specified below. Actors: HAMAS / INTELLIGENCE. Location: Gaza, Israel (general), Israel. Goldstein Scale: -9.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://www.theyeshivaworld.com/news/israel-news/2602660/idf-probe-systemic-failures-cited-in-oct-7-battle-at-pega-18-fallen-22-wounded-2-kidnapped.html</guid>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.theyeshivaworld.com/news/israel-news/2602660/idf-probe-systemic-failures-cited-in-oct-7-battle-at-pega-18-fallen-22-wounded-2-kidnapped.html">theyeshivaworld.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] SPOKESMAN → TAIF : Fight with artillery and tanks (Tehran, Tehran, Iran)</title>
-      <link>https://www.hngn.com/articles/273348/20260924/france-send-troops-saudi-oil-port-80-nations-press-iran.htm</link>
-      <description>GDELT Event: Fight with artillery and tanks. Actors: SPOKESMAN / TAIF. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">https://www.hngn.com/articles/273348/20260924/france-send-troops-saudi-oil-port-80-nations-press-iran.htm</guid>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://www.hngn.com/articles/273348/20260924/france-send-troops-saudi-oil-port-80-nations-press-iran.htm">hngn.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] nan → THE UN : Arrest, detain, or charge with legal action (Iran)</title>
-      <link>https://thedailyblog.co.nz/netanyahu-should-have-been-arrested-at-the-un-for-war-crimes-not-able-to-give-a-speech-defending-his-war-crimes/</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: nan / THE UN. Location: Iran. Goldstein Scale: -5.0. Mentioned in 15 sources.</description>
-      <guid isPermaLink="true">https://thedailyblog.co.nz/netanyahu-should-have-been-arrested-at-the-un-for-war-crimes-not-able-to-give-a-speech-defending-his-war-crimes/</guid>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>外交谈判</category>
-      <source url="https://thedailyblog.co.nz/netanyahu-should-have-been-arrested-at-the-un-for-war-crimes-not-able-to-give-a-speech-defending-his-war-crimes/">thedailyblog.co.nz</source>
     </item>
   </channel>
 </rss>
