@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T14:01:11+00:00Z",
+  "updated_at": "2026-10-06T13:04:15+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -19,39 +19,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1321665844",
-              "title": "RUSSIAN → UKRAINE : Use conventional military force, not specified below (Kyiv, Kyyiv, Misto, Ukraine)",
-              "title_en": "RUSSIAN → UKRAINE : Use conventional military force, not specified below (Kyiv, Kyyiv, Misto, Ukraine)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: RUSSIAN / UKRAINE. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -10.0. Mentioned in 1 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: RUSSIAN / UKRAINE. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -10.0. Mentioned in 1 sources.",
-              "source": "gdelt",
-              "source_label": "aol.co.uk",
-              "date": "2026-09-05",
-              "url": "https://www.aol.co.uk/articles/ukraine-war-breakthrough-putin-meets-231900000.html",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 1,
-                "sources": 1,
-                "articles": 1,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1321665844",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "RUSSIAN",
-                "actor2": "UKRAINE",
-                "actor1_country": "RUS",
-                "actor2_country": "UKR",
-                "geo_lat": 50.4333,
-                "geo_lon": 30.5167,
-                "geo_name": "Kyiv, Kyyiv, Misto, Ukraine"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1321915812",
               "title": "UKRAINE → DAGESTAN : Use conventional military force, not specified below (Dagestan, Dagestan, Russia)",
@@ -950,39 +917,6 @@
           "icon": "🕊️",
           "items": [
             {
-              "id": "gdelt_1321665730",
-              "title": "INTERNATIONAL CRIMINAL COURT → ISRAELI : Coerce, not specified below (Moscow, Moskva, Russia)",
-              "title_en": "INTERNATIONAL CRIMINAL COURT → ISRAELI : Coerce, not specified below (Moscow, Moskva, Russia)",
-              "summary": "GDELT Event: Coerce, not specified below. Actors: INTERNATIONAL CRIMINAL COURT / ISRAELI. Location: Moscow, Moskva, Russia. Goldstein Scale: -7.0. Mentioned in 2 sources.",
-              "summary_en": "GDELT Event: Coerce, not specified below. Actors: INTERNATIONAL CRIMINAL COURT / ISRAELI. Location: Moscow, Moskva, Russia. Goldstein Scale: -7.0. Mentioned in 2 sources.",
-              "source": "gdelt",
-              "source_label": "middleeasteye.net",
-              "date": "2026-09-05",
-              "url": "https://www.middleeasteye.net/news/israel-deepens-ties-bosnian-serb-separatists-through-banja-luka-trade-office",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 2,
-                "sources": 1,
-                "articles": 2,
-                "goldstein": -7.0
-              },
-              "gdelt_meta": {
-                "event_id": "1321665730",
-                "event_code": "170",
-                "cameo_desc": "Coerce, not specified below",
-                "actor1": "INTERNATIONAL CRIMINAL COURT",
-                "actor2": "ISRAELI",
-                "actor1_country": "nan",
-                "actor2_country": "ISR",
-                "geo_lat": 55.7522,
-                "geo_lon": 37.6156,
-                "geo_name": "Moscow, Moskva, Russia"
-              },
-              "admiralty_source": "B",
-              "admiralty_info": 3,
-              "admiralty_code": "B3"
-            },
-            {
               "id": "gdelt_1322292927",
               "title": "TERRORIST → nan : Arrest, detain, or charge with legal action (Dagestan, Dagestan, Russia)",
               "title_en": "TERRORIST → nan : Arrest, detain, or charge with legal action (Dagestan, Dagestan, Russia)",
@@ -1274,6 +1208,39 @@
                 "geo_lat": 55.7522,
                 "geo_lon": 37.6156,
                 "geo_name": "Moscow, Moskva, Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1326461200",
+              "title": "RUSSIA → nan : Destroy property (Los Angeles, California, United States)",
+              "title_en": "RUSSIA → nan : Destroy property (Los Angeles, California, United States)",
+              "summary": "GDELT Event: Destroy property. Actors: RUSSIA / nan. Location: Los Angeles, California, United States. Goldstein Scale: -9.2. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Destroy property. Actors: RUSSIA / nan. Location: Los Angeles, California, United States. Goldstein Scale: -9.2. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "townhall.com",
+              "date": "2026-10-05",
+              "url": "https://townhall.com/news/amy-curtis/2026/10/05/la-mansion-tax-lost-houses-and-jobs-n2684112",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -9.2
+              },
+              "gdelt_meta": {
+                "event_id": "1326461200",
+                "event_code": "1712",
+                "cameo_desc": "Destroy property",
+                "actor1": "RUSSIA",
+                "actor2": "nan",
+                "actor1_country": "RUS",
+                "actor2_country": "nan",
+                "geo_lat": 34.0522,
+                "geo_lon": -118.244,
+                "geo_name": "Los Angeles, California, United States"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -3035,6 +3002,39 @@
               "admiralty_source": "B",
               "admiralty_info": 3,
               "admiralty_code": "B3"
+            },
+            {
+              "id": "gdelt_1326460396",
+              "title": "nan → TEL AVIV : Use conventional military force, not specified below (Tabuk, Tabuk, Saudi Arabia)",
+              "title_en": "nan → TEL AVIV : Use conventional military force, not specified below (Tabuk, Tabuk, Saudi Arabia)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: nan / TEL AVIV. Location: Tabuk, Tabuk, Saudi Arabia. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: nan / TEL AVIV. Location: Tabuk, Tabuk, Saudi Arabia. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "humanevents.com",
+              "date": "2026-10-05",
+              "url": "https://humanevents.com/2026/10/05/flydubai-crew-allegedly-told-passengers-release-terrorist-co-pilot-after-they-prevented-hijacking-report",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1326460396",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "nan",
+                "actor2": "TEL AVIV",
+                "actor1_country": "nan",
+                "actor2_country": "ISR",
+                "geo_lat": 28.3998,
+                "geo_lon": 36.5715,
+                "geo_name": "Tabuk, Tabuk, Saudi Arabia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -4535,6 +4535,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1326460953",
+              "title": "IRAN → nan : Occupy territory (Iran)",
+              "title_en": "IRAN → nan : Occupy territory (Iran)",
+              "summary": "GDELT Event: Occupy territory. Actors: IRAN / nan. Location: Iran. Goldstein Scale: -9.5. Mentioned in 4 sources.",
+              "summary_en": "GDELT Event: Occupy territory. Actors: IRAN / nan. Location: Iran. Goldstein Scale: -9.5. Mentioned in 4 sources.",
+              "source": "gdelt",
+              "source_label": "vanityfair.com",
+              "date": "2026-10-05",
+              "url": "https://www.vanityfair.com/story/new-york-daily-news-tonight-book",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 4,
+                "sources": 1,
+                "articles": 4,
+                "goldstein": -9.5
+              },
+              "gdelt_meta": {
+                "event_id": "1326460953",
+                "event_code": "192",
+                "cameo_desc": "Occupy territory",
+                "actor1": "IRAN",
+                "actor2": "nan",
+                "actor1_country": "IRN",
+                "actor2_country": "nan",
+                "geo_lat": 32.0,
+                "geo_lon": 53.0,
+                "geo_name": "Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -5509,6 +5542,74 @@
               "admiralty_info": 3,
               "admiralty_code": "B3",
               "criticality": "background"
+            },
+            {
+              "id": "gdelt_1326461532",
+              "title": "YEMEN → MILITARY : Use conventional military force, not specified below (Yemen)",
+              "title_en": "YEMEN → MILITARY : Use conventional military force, not specified below (Yemen)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: YEMEN / MILITARY. Location: Yemen. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: YEMEN / MILITARY. Location: Yemen. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "english.aawsat.com",
+              "date": "2026-10-05",
+              "url": "https://english.aawsat.com/arab-world/5326387-coalition-carries-out-military-operation-yemen%E2%80%99s-hodeidah-protect-marine",
+              "primary_conflict": "yemen-houthi",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1326461532",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "YEMEN",
+                "actor2": "MILITARY",
+                "actor1_country": "YEM",
+                "actor2_country": "nan",
+                "geo_lat": 15.5,
+                "geo_lon": 47.5,
+                "geo_name": "Yemen"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3",
+              "criticality": "background"
+            },
+            {
+              "id": "gdelt_1326461068",
+              "title": "AIR FORCE → nan : Employ aerial weapons (Sanaa, Sana', Yemen)",
+              "title_en": "AIR FORCE → nan : Employ aerial weapons (Sanaa, Sana', Yemen)",
+              "summary": "GDELT Event: Employ aerial weapons. Actors: AIR FORCE / nan. Location: Sanaa, Sana', Yemen. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "summary_en": "GDELT Event: Employ aerial weapons. Actors: AIR FORCE / nan. Location: Sanaa, Sana', Yemen. Goldstein Scale: -10.0. Mentioned in 8 sources.",
+              "source": "gdelt",
+              "source_label": "english.aawsat.com",
+              "date": "2026-10-05",
+              "url": "https://english.aawsat.com/arab-world/5326394-eryani-yemen-dawn-operation-will-restore-state-new-battlefronts-will-be-opened",
+              "primary_conflict": "yemen-houthi",
+              "metrics": {
+                "mentions": 8,
+                "sources": 1,
+                "articles": 8,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1326461068",
+                "event_code": "195",
+                "cameo_desc": "Employ aerial weapons",
+                "actor1": "AIR FORCE",
+                "actor2": "nan",
+                "actor1_country": "nan",
+                "actor2_country": "nan",
+                "geo_lat": 15.3547,
+                "geo_lon": 44.2067,
+                "geo_name": "Sanaa, Sana', Yemen"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3",
+              "criticality": "background"
             }
           ]
         },
@@ -5808,40 +5909,6 @@
           "icon": "⚔️",
           "items": [
             {
-              "id": "gdelt_1321665625",
-              "title": "nan → AIR FORCE : Employ aerial weapons (Syria)",
-              "title_en": "nan → AIR FORCE : Employ aerial weapons (Syria)",
-              "summary": "GDELT Event: Employ aerial weapons. Actors: nan / AIR FORCE. Location: Syria. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "summary_en": "GDELT Event: Employ aerial weapons. Actors: nan / AIR FORCE. Location: Syria. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "source": "gdelt",
-              "source_label": "ynetnews.com",
-              "date": "2026-09-05",
-              "url": "https://www.ynetnews.com/article/rjrrykc00ge",
-              "primary_conflict": "syria",
-              "metrics": {
-                "mentions": 2,
-                "sources": 1,
-                "articles": 2,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1321665625",
-                "event_code": "195",
-                "cameo_desc": "Employ aerial weapons",
-                "actor1": "nan",
-                "actor2": "AIR FORCE",
-                "actor1_country": "nan",
-                "actor2_country": "nan",
-                "geo_lat": 35.0,
-                "geo_lon": 38.0,
-                "geo_name": "Syria"
-              },
-              "admiralty_source": "B",
-              "admiralty_info": 3,
-              "admiralty_code": "B3",
-              "criticality": "background"
-            },
-            {
               "id": "gdelt_1323234090",
               "title": "CLEVELAND → SYRIA : Physically assault, not specified below (Cleveland, Ohio, United States)",
               "title_en": "CLEVELAND → SYRIA : Physically assault, not specified below (Cleveland, Ohio, United States)",
@@ -6010,13 +6077,13 @@
     }
   },
   "stats": {
-    "total_items": 169,
+    "total_items": 171,
     "sources": {
-      "gdelt": 169
+      "gdelt": 171
     },
     "date_range": {
-      "from": "2026-09-05",
-      "to": "2026-10-04"
+      "from": "2026-09-06",
+      "to": "2026-10-05"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
