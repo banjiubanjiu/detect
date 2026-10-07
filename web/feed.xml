@@ -5,8 +5,58 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 06 Oct 2026 13:03:58 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 12:57:54 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] RUSSIA → nan : Destroy property (Los Angeles, California, United States)</title>
+      <link>https://townhall.com/news/amy-curtis/2026/10/05/la-mansion-tax-lost-houses-and-jobs-n2684112</link>
+      <description>GDELT Event: Destroy property. Actors: RUSSIA / nan. Location: Los Angeles, California, United States. Goldstein Scale: -9.2. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://townhall.com/news/amy-curtis/2026/10/05/la-mansion-tax-lost-houses-and-jobs-n2684112</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>外交谈判</category>
+      <source url="https://townhall.com/news/amy-curtis/2026/10/05/la-mansion-tax-lost-houses-and-jobs-n2684112">townhall.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] nan → TEL AVIV : Use conventional military force, not specified below (Tabuk, Tabuk, Saudi Arabia)</title>
+      <link>https://humanevents.com/2026/10/05/flydubai-crew-allegedly-told-passengers-release-terrorist-co-pilot-after-they-prevented-hijacking-report</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: nan / TEL AVIV. Location: Tabuk, Tabuk, Saudi Arabia. Goldstein Scale: -10.0. Mentioned in 6 sources.</description>
+      <guid isPermaLink="true">https://humanevents.com/2026/10/05/flydubai-crew-allegedly-told-passengers-release-terrorist-co-pilot-after-they-prevented-hijacking-report</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://humanevents.com/2026/10/05/flydubai-crew-allegedly-told-passengers-release-terrorist-co-pilot-after-they-prevented-hijacking-report">humanevents.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] IRAN → nan : Occupy territory (Iran)</title>
+      <link>https://www.vanityfair.com/story/new-york-daily-news-tonight-book</link>
+      <description>GDELT Event: Occupy territory. Actors: IRAN / nan. Location: Iran. Goldstein Scale: -9.5. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://www.vanityfair.com/story/new-york-daily-news-tonight-book</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://www.vanityfair.com/story/new-york-daily-news-tonight-book">vanityfair.com</source>
+    </item>
+    <item>
+      <title>[也门/胡塞武装] YEMEN → MILITARY : Use conventional military force, not specified below (Yemen)</title>
+      <link>https://english.aawsat.com/arab-world/5326387-coalition-carries-out-military-operation-yemen%E2%80%99s-hodeidah-protect-marine</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: YEMEN / MILITARY. Location: Yemen. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://english.aawsat.com/arab-world/5326387-coalition-carries-out-military-operation-yemen%E2%80%99s-hodeidah-protect-marine</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>也门/胡塞武装</category>
+      <category>军事动态</category>
+      <source url="https://english.aawsat.com/arab-world/5326387-coalition-carries-out-military-operation-yemen%E2%80%99s-hodeidah-protect-marine">english.aawsat.com</source>
+    </item>
+    <item>
+      <title>[也门/胡塞武装] AIR FORCE → nan : Employ aerial weapons (Sanaa, Sana', Yemen)</title>
+      <link>https://english.aawsat.com/arab-world/5326394-eryani-yemen-dawn-operation-will-restore-state-new-battlefronts-will-be-opened</link>
+      <description>GDELT Event: Employ aerial weapons. Actors: AIR FORCE / nan. Location: Sanaa, Sana', Yemen. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
+      <guid isPermaLink="true">https://english.aawsat.com/arab-world/5326394-eryani-yemen-dawn-operation-will-restore-state-new-battlefronts-will-be-opened</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>也门/胡塞武装</category>
+      <category>军事动态</category>
+      <source url="https://english.aawsat.com/arab-world/5326394-eryani-yemen-dawn-operation-will-restore-state-new-battlefronts-will-be-opened">english.aawsat.com</source>
+    </item>
     <item>
       <title>[俄乌战争] RUSSIA → KYIV : Use conventional military force, not specified below (Germany)</title>
       <link>https://www.watoday.com.au/world/europe/russian-drones-attack-kyiv-as-merz-meets-zelensky-20261005-p612t7.html</link>
@@ -456,56 +506,6 @@
       <category>也门/胡塞武装</category>
       <category>军事动态</category>
       <source url="https://news.antiwar.com/2026/09/28/saudi-airstrike-on-civilian-home-in-yemen-kills-four-yemeni-health-ministry/">news.antiwar.com</source>
-    </item>
-    <item>
-      <title>[叙利亚局势] TURKEY → SYRIA : Occupy territory (Syria)</title>
-      <link>https://www.hometownregister.com/news/national/muslim-man-sentenced-in-the-us-on-terrorism-charges-supporting-isis/article_11594901-08f7-519e-b59c-d4a4c076c2ba.html</link>
-      <description>GDELT Event: Occupy territory. Actors: TURKEY / SYRIA. Location: Syria. Goldstein Scale: -9.5. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">https://www.hometownregister.com/news/national/muslim-man-sentenced-in-the-us-on-terrorism-charges-supporting-isis/article_11594901-08f7-519e-b59c-d4a4c076c2ba.html</guid>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
-      <category>叙利亚局势</category>
-      <category>军事动态</category>
-      <source url="https://www.hometownregister.com/news/national/muslim-man-sentenced-in-the-us-on-terrorism-charges-supporting-isis/article_11594901-08f7-519e-b59c-d4a4c076c2ba.html">hometownregister.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAELI → LEBANON : Use conventional military force, not specified below (Israel)</title>
-      <link>https://news.antiwar.com/2026/09/27/israeli-strikes-surge-across-southern-lebanon-in-latest-escalation/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAELI / LEBANON. Location: Israel. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">https://news.antiwar.com/2026/09/27/israeli-strikes-surge-across-southern-lebanon-in-latest-escalation/</guid>
-      <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://news.antiwar.com/2026/09/27/israeli-strikes-surge-across-southern-lebanon-in-latest-escalation/">news.antiwar.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAEL → WEST BANK : Destroy property (Gaza, Israel (general), Israel)</title>
-      <link>https://news.antiwar.com/2026/09/27/smotrich-calls-for-israel-to-do-in-the-west-bank-what-we-did-in-gaza-as-idf-imposes-week-long-closure/</link>
-      <description>GDELT Event: Destroy property. Actors: ISRAEL / WEST BANK. Location: Gaza, Israel (general), Israel. Goldstein Scale: -9.2. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://news.antiwar.com/2026/09/27/smotrich-calls-for-israel-to-do-in-the-west-bank-what-we-did-in-gaza-as-idf-imposes-week-long-closure/</guid>
-      <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>外交谈判</category>
-      <source url="https://news.antiwar.com/2026/09/27/smotrich-calls-for-israel-to-do-in-the-west-bank-what-we-did-in-gaza-as-idf-imposes-week-long-closure/">news.antiwar.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] NASSER → ISRAEL : Arrest, detain, or charge with legal action (Gaza, Israel (general), Israel)</title>
-      <link>https://news.antiwar.com/2026/09/27/israeli-strikes-in-gaza-kill-at-least-eight-palestinians-over-three-days-as-relentless-attacks-continue/</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: NASSER / ISRAEL. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://news.antiwar.com/2026/09/27/israeli-strikes-in-gaza-kill-at-least-eight-palestinians-over-three-days-as-relentless-attacks-continue/</guid>
-      <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>外交谈判</category>
-      <source url="https://news.antiwar.com/2026/09/27/israeli-strikes-in-gaza-kill-at-least-eight-palestinians-over-three-days-as-relentless-attacks-continue/">news.antiwar.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] IRAN → UNITED KINGDOM : Arrest, detain, or charge with legal action (Fairford, Gloucestershire, United Kingdom)</title>
-      <link>https://www.mirror.co.uk/news/uk-news/raf-fairford-arrests-serve-warning-37707860</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: IRAN / UNITED KINGDOM. Location: Fairford, Gloucestershire, United Kingdom. Goldstein Scale: -5.0. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">https://www.mirror.co.uk/news/uk-news/raf-fairford-arrests-serve-warning-37707860</guid>
-      <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>外交谈判</category>
-      <source url="https://www.mirror.co.uk/news/uk-news/raf-fairford-arrests-serve-warning-37707860">mirror.co.uk</source>
     </item>
   </channel>
 </rss>
