@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-10T12:12:06+00:00",
-  "latest_updated_at": "2026-10-10T12:12:06.565821+00:00",
-  "total_unique_items": 197,
+  "generated_at": "2026-10-11T12:25:06+00:00",
+  "latest_updated_at": "2026-10-11T12:25:06.165305+00:00",
+  "total_unique_items": 191,
   "by_source": {
-    "gdelt": 197
+    "gdelt": 191
   },
   "top_domains": {
     "english.aawsat.com": {
@@ -12,8 +12,8 @@
       "orphans": 0
     },
     "aa.com.tr": {
-      "count": 7,
-      "last_date": "2026-10-06",
+      "count": 8,
+      "last_date": "2026-10-10",
       "orphans": 0
     },
     "dailymail.com": {
@@ -21,24 +21,9 @@
       "last_date": "2026-10-06",
       "orphans": 0
     },
-    "jns.org": {
-      "count": 6,
-      "last_date": "2026-09-30",
-      "orphans": 0
-    },
-    "clevelandjewishnews.com": {
-      "count": 5,
-      "last_date": "2026-09-30",
-      "orphans": 0
-    },
     "news.antiwar.com": {
       "count": 5,
       "last_date": "2026-09-28",
-      "orphans": 0
-    },
-    "eng.kavkaz-uzel.eu": {
-      "count": 4,
-      "last_date": "2026-10-09",
       "orphans": 0
     },
     "naturalnews.com": {
@@ -61,9 +46,19 @@
       "last_date": "2026-09-22",
       "orphans": 0
     },
+    "clevelandjewishnews.com": {
+      "count": 4,
+      "last_date": "2026-09-30",
+      "orphans": 0
+    },
     "nypost.com": {
       "count": 4,
       "last_date": "2026-10-08",
+      "orphans": 0
+    },
+    "eng.kavkaz-uzel.eu": {
+      "count": 3,
+      "last_date": "2026-10-09",
       "orphans": 0
     },
     "whbl.com": {
@@ -81,14 +76,14 @@
       "last_date": "2026-09-30",
       "orphans": 0
     },
+    "jns.org": {
+      "count": 3,
+      "last_date": "2026-09-30",
+      "orphans": 0
+    },
     "algemeiner.com": {
       "count": 3,
       "last_date": "2026-10-07",
-      "orphans": 0
-    },
-    "yahoo.com": {
-      "count": 2,
-      "last_date": "2026-09-15",
       "orphans": 0
     },
     "smh.com.au": {
@@ -105,13 +100,14 @@
       "count": 2,
       "last_date": "2026-09-17",
       "orphans": 0
+    },
+    "watoday.com.au": {
+      "count": 2,
+      "last_date": "2026-10-04",
+      "orphans": 0
     }
   },
   "date_histogram": [
-    {
-      "date": "2026-09-27",
-      "count": 4
-    },
     {
       "date": "2026-09-28",
       "count": 5
@@ -162,17 +158,21 @@
     },
     {
       "date": "2026-10-10",
+      "count": 4
+    },
+    {
+      "date": "2026-10-11",
       "count": 0
     }
   ],
   "llm_coverage": {
-    "total": 197,
-    "criticality_coverage": 0.1421,
+    "total": 191,
+    "criticality_coverage": 0.1518,
     "title_en_coverage": 1.0,
     "summary_en_coverage": 1.0,
     "clustered": 0,
     "cross_bias_items": 0,
-    "missing_criticality": 169,
+    "missing_criticality": 162,
     "missing_title_en": 0,
     "missing_summary_en": 0
   },
@@ -186,8 +186,8 @@
     {
       "code": "high_missing_criticality",
       "severity": "warn",
-      "message": "BLUF 缺失率 85.8% (>5%)",
-      "missing": 169
+      "message": "BLUF 缺失率 84.8% (>5%)",
+      "missing": 162
     }
   ],
   "status": "degraded"
