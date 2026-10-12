@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T12:25:06+00:00Z",
+  "updated_at": "2026-10-12T14:49:48+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -1373,6 +1373,39 @@
                 "geo_lat": 25.0,
                 "geo_lon": 17.0,
                 "geo_name": "Libya"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1327439176",
+              "title": "RUSSIA → ASYLUM SEEKER : Impose administrative sanctions, not specified below (Kremlin, Moskva, Russia)",
+              "title_en": "RUSSIA → ASYLUM SEEKER : Impose administrative sanctions, not specified below (Kremlin, Moskva, Russia)",
+              "summary": "GDELT Event: Impose administrative sanctions, not specified below. Actors: RUSSIA / ASYLUM SEEKER. Location: Kremlin, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 4 sources.",
+              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: RUSSIA / ASYLUM SEEKER. Location: Kremlin, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 4 sources.",
+              "source": "gdelt",
+              "source_label": "ghanamma.com",
+              "date": "2026-10-11",
+              "url": "https://www.ghanamma.com/2026/10/11/nigel-farage-vows-to-ban-asylum-seekers-and-deport-90000-people-if-reform-wins/",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 4,
+                "sources": 1,
+                "articles": 4,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1327439176",
+                "event_code": "172",
+                "cameo_desc": "Impose administrative sanctions, not specified below",
+                "actor1": "RUSSIA",
+                "actor2": "ASYLUM SEEKER",
+                "actor1_country": "RUS",
+                "actor2_country": "nan",
+                "geo_lat": 55.7522,
+                "geo_lon": 37.6156,
+                "geo_name": "Kremlin, Moskva, Russia"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -3965,6 +3998,39 @@
               "admiralty_source": "B",
               "admiralty_info": 3,
               "admiralty_code": "B3"
+            },
+            {
+              "id": "gdelt_1327439083",
+              "title": "ISRAEL → nan : Arrest, detain, or charge with legal action (Mediterranean Sea, Oceans (general), Oceans)",
+              "title_en": "ISRAEL → nan : Arrest, detain, or charge with legal action (Mediterranean Sea, Oceans (general), Oceans)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: ISRAEL / nan. Location: Mediterranean Sea, Oceans (general), Oceans. Goldstein Scale: -5.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: ISRAEL / nan. Location: Mediterranean Sea, Oceans (general), Oceans. Goldstein Scale: -5.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "clevelandjewishnews.com",
+              "date": "2026-10-11",
+              "url": "https://www.clevelandjewishnews.com/jta/what-i-found-at-the-nyc-protest-on-oct-7-no-room-for-jewish-grief/article_ab7d6070-5cff-5a05-bd43-438e5881ec50.html",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1327439083",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "ISRAEL",
+                "actor2": "nan",
+                "actor1_country": "ISR",
+                "actor2_country": "nan",
+                "geo_lat": 35.0,
+                "geo_lon": 20.0,
+                "geo_name": "Mediterranean Sea, Oceans (general), Oceans"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -4107,72 +4173,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1322656892",
-              "title": "nan → IRAN : Occupy territory (United States)",
-              "title_en": "nan → IRAN : Occupy territory (United States)",
-              "summary": "GDELT Event: Occupy territory. Actors: nan / IRAN. Location: United States. Goldstein Scale: -9.5. Mentioned in 4 sources.",
-              "summary_en": "GDELT Event: Occupy territory. Actors: nan / IRAN. Location: United States. Goldstein Scale: -9.5. Mentioned in 4 sources.",
-              "source": "gdelt",
-              "source_label": "jns.org",
-              "date": "2026-09-11",
-              "url": "https://www.jns.org/houthis-take-control-of-key-island-in-bab-al-mandeb-strait",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 4,
-                "sources": 1,
-                "articles": 4,
-                "goldstein": -9.5
-              },
-              "gdelt_meta": {
-                "event_id": "1322656892",
-                "event_code": "192",
-                "cameo_desc": "Occupy territory",
-                "actor1": "nan",
-                "actor2": "IRAN",
-                "actor1_country": "nan",
-                "actor2_country": "IRN",
-                "geo_lat": 39.828175,
-                "geo_lon": -98.5795,
-                "geo_name": "United States"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1322657520",
-              "title": "UNITED STATES → IRANIAN : Fight with artillery and tanks (Saudi Arabia)",
-              "title_en": "UNITED STATES → IRANIAN : Fight with artillery and tanks (Saudi Arabia)",
-              "summary": "GDELT Event: Fight with artillery and tanks. Actors: UNITED STATES / IRANIAN. Location: Saudi Arabia. Goldstein Scale: -10.0. Mentioned in 1 sources.",
-              "summary_en": "GDELT Event: Fight with artillery and tanks. Actors: UNITED STATES / IRANIAN. Location: Saudi Arabia. Goldstein Scale: -10.0. Mentioned in 1 sources.",
-              "source": "gdelt",
-              "source_label": "dailyadvance.com",
-              "date": "2026-09-11",
-              "url": "http://www.dailyadvance.com/news/world/saudi-arabia-shuts-down-a-pipeline-as-houthis-seize-an-island-opening-a-new-front/article_832ebd73-973b-5aac-a974-f5caf0b258f4.html",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 1,
-                "sources": 1,
-                "articles": 1,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1322657520",
-                "event_code": "194",
-                "cameo_desc": "Fight with artillery and tanks",
-                "actor1": "UNITED STATES",
-                "actor2": "IRANIAN",
-                "actor1_country": "USA",
-                "actor2_country": "IRN",
-                "geo_lat": 25.0,
-                "geo_lon": 45.0,
-                "geo_name": "Saudi Arabia"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1322883311",
               "title": "YEMEN → IRAN : Use conventional military force, not specified below (Qeshm, Kordestan, Iran)",
@@ -5500,40 +5500,6 @@
           "icon": "⚔️",
           "items": [
             {
-              "id": "gdelt_1322657065",
-              "title": "CIVILIAN → nan : Use conventional military force, not specified below (Hudaydah, Al ?udaydah, Yemen)",
-              "title_en": "CIVILIAN → nan : Use conventional military force, not specified below (Hudaydah, Al ?udaydah, Yemen)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: CIVILIAN / nan. Location: Hudaydah, Al ?udaydah, Yemen. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: CIVILIAN / nan. Location: Hudaydah, Al ?udaydah, Yemen. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "source": "gdelt",
-              "source_label": "greanvillepost.com",
-              "date": "2026-09-11",
-              "url": "https://www.greanvillepost.com/yemen-saudi-war-heats-up-us-involved-again/",
-              "primary_conflict": "yemen-houthi",
-              "metrics": {
-                "mentions": 10,
-                "sources": 1,
-                "articles": 10,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1322657065",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "CIVILIAN",
-                "actor2": "nan",
-                "actor1_country": "nan",
-                "actor2_country": "nan",
-                "geo_lat": 14.7978,
-                "geo_lon": 42.9545,
-                "geo_name": "Hudaydah, Al ?udaydah, Yemen"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3",
-              "criticality": "background"
-            },
-            {
               "id": "gdelt_1323420289",
               "title": "MEDIA → nan : Use conventional military force, not specified below (Marib, Ma'rib, Yemen)",
               "title_en": "MEDIA → nan : Use conventional military force, not specified below (Marib, Ma'rib, Yemen)",
@@ -5965,6 +5931,74 @@
                 "actor1": "CIVILIAN",
                 "actor2": "nan",
                 "actor1_country": "nan",
+                "actor2_country": "nan",
+                "geo_lat": 15.5,
+                "geo_lon": 47.5,
+                "geo_name": "Yemen"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3",
+              "criticality": "background"
+            },
+            {
+              "id": "gdelt_1327439295",
+              "title": "YEMEN → SAUDI ARABIA : Use conventional military force, not specified below (Yemen)",
+              "title_en": "YEMEN → SAUDI ARABIA : Use conventional military force, not specified below (Yemen)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: YEMEN / SAUDI ARABIA. Location: Yemen. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: YEMEN / SAUDI ARABIA. Location: Yemen. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "kurv.com",
+              "date": "2026-10-11",
+              "url": "https://www.kurv.com/saudi-airport-hit-by-missile-attack-again-sunday/",
+              "primary_conflict": "yemen-houthi",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1327439295",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "YEMEN",
+                "actor2": "SAUDI ARABIA",
+                "actor1_country": "YEM",
+                "actor2_country": "SAU",
+                "geo_lat": 15.5,
+                "geo_lon": 47.5,
+                "geo_name": "Yemen"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3",
+              "criticality": "background"
+            },
+            {
+              "id": "gdelt_1327439185",
+              "title": "SAUDI ARABIA → nan : Use conventional military force, not specified below (Yemen)",
+              "title_en": "SAUDI ARABIA → nan : Use conventional military force, not specified below (Yemen)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: SAUDI ARABIA / nan. Location: Yemen. Goldstein Scale: -10.0. Mentioned in 4 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: SAUDI ARABIA / nan. Location: Yemen. Goldstein Scale: -10.0. Mentioned in 4 sources.",
+              "source": "gdelt",
+              "source_label": "english.news.cn",
+              "date": "2026-10-11",
+              "url": "https://english.news.cn/20261012/0364481e34464c56a6e84e1fdf76f4bd/c.html",
+              "primary_conflict": "yemen-houthi",
+              "metrics": {
+                "mentions": 4,
+                "sources": 1,
+                "articles": 4,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1327439185",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "SAUDI ARABIA",
+                "actor2": "nan",
+                "actor1_country": "SAU",
                 "actor2_country": "nan",
                 "geo_lat": 15.5,
                 "geo_lon": 47.5,
@@ -6510,13 +6544,13 @@
     }
   },
   "stats": {
-    "total_items": 184,
+    "total_items": 185,
     "sources": {
-      "gdelt": 184
+      "gdelt": 185
     },
     "date_range": {
-      "from": "2026-09-11",
-      "to": "2026-10-10"
+      "from": "2026-09-12",
+      "to": "2026-10-11"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
