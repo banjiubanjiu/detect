@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T14:49:48+00:00Z",
+  "updated_at": "2026-10-13T13:53:51+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -975,6 +975,105 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1327610801",
+              "title": "RUSSIA → nan : Use conventional military force, not specified below (Black Sea, Oceans (general), Oceans)",
+              "title_en": "RUSSIA → nan : Use conventional military force, not specified below (Black Sea, Oceans (general), Oceans)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: RUSSIA / nan. Location: Black Sea, Oceans (general), Oceans. Goldstein Scale: -10.0. Mentioned in 7 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: RUSSIA / nan. Location: Black Sea, Oceans (general), Oceans. Goldstein Scale: -10.0. Mentioned in 7 sources.",
+              "source": "gdelt",
+              "source_label": "ironmountaindailynews.com",
+              "date": "2026-10-12",
+              "url": "https://www.ironmountaindailynews.com/news/2026/10/russia-continues-to-attack-energy-facilities-zelenskyy/",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 7,
+                "sources": 1,
+                "articles": 7,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1327610801",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "RUSSIA",
+                "actor2": "nan",
+                "actor1_country": "RUS",
+                "actor2_country": "nan",
+                "geo_lat": 43.0,
+                "geo_lon": 35.0,
+                "geo_name": "Black Sea, Oceans (general), Oceans"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1327610405",
+              "title": "PRAGUE → FIGHTER : Assassinate (Terez, Khanty-Mansiyskiy Avtonomnyy Okrug, Russia)",
+              "title_en": "PRAGUE → FIGHTER : Assassinate (Terez, Khanty-Mansiyskiy Avtonomnyy Okrug, Russia)",
+              "summary": "GDELT Event: Assassinate. Actors: PRAGUE / FIGHTER. Location: Terez, Khanty-Mansiyskiy Avtonomnyy Okrug, Russia. Goldstein Scale: -10.0. Mentioned in 4 sources.",
+              "summary_en": "GDELT Event: Assassinate. Actors: PRAGUE / FIGHTER. Location: Terez, Khanty-Mansiyskiy Avtonomnyy Okrug, Russia. Goldstein Scale: -10.0. Mentioned in 4 sources.",
+              "source": "gdelt",
+              "source_label": "prague.tv",
+              "date": "2026-10-12",
+              "url": "https://prague.tv/ptv/culture-trends/a-short-history-of-prague-from-libuse-to-the-present",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 4,
+                "sources": 1,
+                "articles": 4,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1327610405",
+                "event_code": "186",
+                "cameo_desc": "Assassinate",
+                "actor1": "PRAGUE",
+                "actor2": "FIGHTER",
+                "actor1_country": "CZE",
+                "actor2_country": "nan",
+                "geo_lat": 59.7667,
+                "geo_lon": 65.5,
+                "geo_name": "Terez, Khanty-Mansiyskiy Avtonomnyy Okrug, Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1327610810",
+              "title": "RUSSIAN → KYIV : Fight with artillery and tanks (Pechersk, Samarskaya Oblast', Russia)",
+              "title_en": "RUSSIAN → KYIV : Fight with artillery and tanks (Pechersk, Samarskaya Oblast', Russia)",
+              "summary": "GDELT Event: Fight with artillery and tanks. Actors: RUSSIAN / KYIV. Location: Pechersk, Samarskaya Oblast', Russia. Goldstein Scale: -10.0. Mentioned in 1 sources.",
+              "summary_en": "GDELT Event: Fight with artillery and tanks. Actors: RUSSIAN / KYIV. Location: Pechersk, Samarskaya Oblast', Russia. Goldstein Scale: -10.0. Mentioned in 1 sources.",
+              "source": "gdelt",
+              "source_label": "kyivpost.com",
+              "date": "2026-10-12",
+              "url": "https://www.kyivpost.com/post/86856",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 1,
+                "sources": 1,
+                "articles": 1,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1327610810",
+                "event_code": "194",
+                "cameo_desc": "Fight with artillery and tanks",
+                "actor1": "RUSSIAN",
+                "actor2": "KYIV",
+                "actor1_country": "RUS",
+                "actor2_country": "UKR",
+                "geo_lat": 53.2406,
+                "geo_lon": 49.0175,
+                "geo_name": "Pechersk, Samarskaya Oblast', Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -982,39 +1081,6 @@
           "label": "外交谈判",
           "icon": "🕊️",
           "items": [
-            {
-              "id": "gdelt_1322780062",
-              "title": "SAKHALIN → nan : Impose administrative sanctions, not specified below (Netherlands)",
-              "title_en": "SAKHALIN → nan : Impose administrative sanctions, not specified below (Netherlands)",
-              "summary": "GDELT Event: Impose administrative sanctions, not specified below. Actors: SAKHALIN / nan. Location: Netherlands. Goldstein Scale: -5.0. Mentioned in 3 sources.",
-              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: SAKHALIN / nan. Location: Netherlands. Goldstein Scale: -5.0. Mentioned in 3 sources.",
-              "source": "gdelt",
-              "source_label": "royaldutchshellplc.com",
-              "date": "2026-09-12",
-              "url": "https://royaldutchshellplc.com/2026/09/12/the-shell-leaks-files-12-september-2026/",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 3,
-                "sources": 1,
-                "articles": 3,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1322780062",
-                "event_code": "172",
-                "cameo_desc": "Impose administrative sanctions, not specified below",
-                "actor1": "SAKHALIN",
-                "actor2": "nan",
-                "actor1_country": "RUS",
-                "actor2_country": "nan",
-                "geo_lat": 52.5,
-                "geo_lon": 5.75,
-                "geo_name": "Netherlands"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1323419862",
               "title": "PRISON → nan : Arrest, detain, or charge with legal action (Temryuk, Krasnodarskiy Kray, Russia)",
@@ -6526,7 +6592,42 @@
         "diplomacy": {
           "label": "外交谈判",
           "icon": "🕊️",
-          "items": []
+          "items": [
+            {
+              "id": "gdelt_1327610628",
+              "title": "ATTORNEY → CHINESE : Arrest, detain, or charge with legal action (Taiwan)",
+              "title_en": "ATTORNEY → CHINESE : Arrest, detain, or charge with legal action (Taiwan)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: ATTORNEY / CHINESE. Location: Taiwan. Goldstein Scale: -5.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: ATTORNEY / CHINESE. Location: Taiwan. Goldstein Scale: -5.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "chinatechnews.com",
+              "date": "2026-10-12",
+              "url": "https://www.chinatechnews.com/2026/10/13/130764-doj-prosecutor-says-chinese-espionage-is-extremely-pervasive-in-us",
+              "primary_conflict": "taiwan-strait",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1327610628",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "ATTORNEY",
+                "actor2": "CHINESE",
+                "actor1_country": "nan",
+                "actor2_country": "CHN",
+                "geo_lat": 24.0,
+                "geo_lon": 121.0,
+                "geo_name": "Taiwan"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3",
+              "criticality": "background"
+            }
+          ]
         },
         "opinion": {
           "label": "舆论热点",
@@ -6544,13 +6645,13 @@
     }
   },
   "stats": {
-    "total_items": 185,
+    "total_items": 188,
     "sources": {
-      "gdelt": 185
+      "gdelt": 188
     },
     "date_range": {
-      "from": "2026-09-12",
-      "to": "2026-10-11"
+      "from": "2026-09-13",
+      "to": "2026-10-12"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
