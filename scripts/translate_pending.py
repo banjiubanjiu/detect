@@ -4,7 +4,7 @@
 设计原则:
 - 每次只翻译固定数量（默认 30 篇），可控制单次运行时长
 - 按文件 mtime 倒序，优先翻最新的文章
-- 每篇翻译失败不影响其他
+- 每篇翻译失败不影响其他；HTTP 402 账户错误终止批次
 - 完成后退出，由 CI 负责 commit & push
 
 用法:
@@ -16,11 +16,12 @@
 import os
 import sys
 import time
-from concurrent.futures import ThreadPoolExecutor, as_completed
+from concurrent.futures import CancelledError, ThreadPoolExecutor, as_completed
 from pathlib import Path
+from threading import Event
 
 sys.path.insert(0, os.path.dirname(__file__))
-from collect import translate_file
+from collect import TranslationPaymentRequired, translate_file
 
 PROJECT_ROOT = Path(__file__).parent.parent
 SOURCES_DIR = PROJECT_ROOT / "data" / "sources"
@@ -82,9 +83,12 @@ def main():
     start = time.time()
     ok = 0
     failed = 0
+    fatal = False
+    stop_event = Event()
 
     with ThreadPoolExecutor(max_workers=WORKERS) as pool:
-        futures = {pool.submit(translate_file, str(fp)): fp for fp in pending}
+        futures = {pool.submit(translate_file, str(fp), stop_event=stop_event): fp
+                   for fp in pending}
         for i, future in enumerate(as_completed(futures), 1):
             fp = futures[future]
             try:
@@ -97,6 +101,16 @@ def main():
                 else:
                     failed += 1
                     print(f"  [{i:3d}/{len(pending)}] ✗ {fp.name[:60]} (空输出)")
+            except CancelledError:
+                continue
+            except TranslationPaymentRequired as e:
+                failed += 1
+                if not fatal:
+                    fatal = True
+                    stop_event.set()
+                    print(f"ERROR: {e}", file=sys.stderr)
+                    for queued in futures:
+                        queued.cancel()
             except Exception as e:
                 failed += 1
                 print(f"  [{i:3d}/{len(pending)}] ✗ {fp.name[:60]}: {e}")
@@ -106,6 +120,9 @@ def main():
     print()
     print(f"═══ 完成: {ok} 成功 / {failed} 失败 / 耗时 {elapsed:.0f}s ═══")
     print(f"剩余待翻译: {remaining} 篇")
+    if fatal:
+        print(f"已取消/跳过: {len(pending) - ok - failed} 篇")
+        return 1
 
     return 0 if ok > 0 or len(pending) == 0 else 1
 
