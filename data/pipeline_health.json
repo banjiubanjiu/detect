@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-13T13:53:51+00:00",
-  "latest_updated_at": "2026-10-13T13:53:51.685875+00:00",
-  "total_unique_items": 189,
+  "generated_at": "2026-10-14T11:31:26+00:00",
+  "latest_updated_at": "2026-10-14T11:31:26.261250+00:00",
+  "total_unique_items": 193,
   "by_source": {
-    "gdelt": 189
+    "gdelt": 193
   },
   "top_domains": {
     "english.aawsat.com": {
@@ -31,6 +31,11 @@
       "last_date": "2026-09-28",
       "orphans": 0
     },
+    "nypost.com": {
+      "count": 5,
+      "last_date": "2026-10-13",
+      "orphans": 0
+    },
     "naturalnews.com": {
       "count": 4,
       "last_date": "2026-10-08",
@@ -44,11 +49,6 @@
     "imemc.org": {
       "count": 4,
       "last_date": "2026-09-22",
-      "orphans": 0
-    },
-    "nypost.com": {
-      "count": 4,
-      "last_date": "2026-10-08",
       "orphans": 0
     },
     "eng.kavkaz-uzel.eu": {
@@ -109,10 +109,6 @@
   },
   "date_histogram": [
     {
-      "date": "2026-09-30",
-      "count": 10
-    },
-    {
       "date": "2026-10-01",
       "count": 12
     },
@@ -162,17 +158,21 @@
     },
     {
       "date": "2026-10-13",
+      "count": 5
+    },
+    {
+      "date": "2026-10-14",
       "count": 0
     }
   ],
   "llm_coverage": {
-    "total": 189,
-    "criticality_coverage": 0.164,
+    "total": 193,
+    "criticality_coverage": 0.1658,
     "title_en_coverage": 1.0,
     "summary_en_coverage": 1.0,
     "clustered": 0,
     "cross_bias_items": 0,
-    "missing_criticality": 158,
+    "missing_criticality": 161,
     "missing_title_en": 0,
     "missing_summary_en": 0
   },
@@ -186,8 +186,8 @@
     {
       "code": "high_missing_criticality",
       "severity": "warn",
-      "message": "BLUF 缺失率 83.6% (>5%)",
-      "missing": 158
+      "message": "BLUF 缺失率 83.4% (>5%)",
+      "missing": 161
     }
   ],
   "status": "degraded"

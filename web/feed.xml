@@ -5,8 +5,48 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 13 Oct 2026 13:53:30 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 11:31:09 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] RUSSIA → nan : Use conventional military force, not specified below (Black Sea, Oceans (general), Oceans)</title>
+      <link>https://www.ironmountaindailynews.com/news/2026/10/russia-continues-to-attack-energy-facilities-zelenskyy/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: RUSSIA / nan. Location: Black Sea, Oceans (general), Oceans. Goldstein Scale: -10.0. Mentioned in 7 sources.</description>
+      <guid isPermaLink="true">https://www.ironmountaindailynews.com/news/2026/10/russia-continues-to-attack-energy-facilities-zelenskyy/</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.ironmountaindailynews.com/news/2026/10/russia-continues-to-attack-energy-facilities-zelenskyy/">ironmountaindailynews.com</source>
+    </item>
+    <item>
+      <title>[俄乌战争] PRAGUE → FIGHTER : Assassinate (Terez, Khanty-Mansiyskiy Avtonomnyy Okrug, Russia)</title>
+      <link>https://prague.tv/ptv/culture-trends/a-short-history-of-prague-from-libuse-to-the-present</link>
+      <description>GDELT Event: Assassinate. Actors: PRAGUE / FIGHTER. Location: Terez, Khanty-Mansiyskiy Avtonomnyy Okrug, Russia. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://prague.tv/ptv/culture-trends/a-short-history-of-prague-from-libuse-to-the-present</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://prague.tv/ptv/culture-trends/a-short-history-of-prague-from-libuse-to-the-present">prague.tv</source>
+    </item>
+    <item>
+      <title>[俄乌战争] RUSSIAN → KYIV : Fight with artillery and tanks (Pechersk, Samarskaya Oblast', Russia)</title>
+      <link>https://www.kyivpost.com/post/86856</link>
+      <description>GDELT Event: Fight with artillery and tanks. Actors: RUSSIAN / KYIV. Location: Pechersk, Samarskaya Oblast', Russia. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">https://www.kyivpost.com/post/86856</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.kyivpost.com/post/86856">kyivpost.com</source>
+    </item>
+    <item>
+      <title>[台海局势] ATTORNEY → CHINESE : Arrest, detain, or charge with legal action (Taiwan)</title>
+      <link>https://www.chinatechnews.com/2026/10/13/130764-doj-prosecutor-says-chinese-espionage-is-extremely-pervasive-in-us</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: ATTORNEY / CHINESE. Location: Taiwan. Goldstein Scale: -5.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.chinatechnews.com/2026/10/13/130764-doj-prosecutor-says-chinese-espionage-is-extremely-pervasive-in-us</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <category>台海局势</category>
+      <category>外交谈判</category>
+      <source url="https://www.chinatechnews.com/2026/10/13/130764-doj-prosecutor-says-chinese-espionage-is-extremely-pervasive-in-us">chinatechnews.com</source>
+    </item>
     <item>
       <title>[俄乌战争] RUSSIA → ASYLUM SEEKER : Impose administrative sanctions, not specified below (Kremlin, Moskva, Russia)</title>
       <link>https://www.ghanamma.com/2026/10/11/nigel-farage-vows-to-ban-asylum-seekers-and-deport-90000-people-if-reform-wins/</link>
@@ -466,46 +506,6 @@
       <category>美伊对峙</category>
       <category>军事动态</category>
       <source url="https://wabx.net/2026/10/06/transcript-of-us-vice-president-vance-interview-in-alaska/">wabx.net</source>
-    </item>
-    <item>
-      <title>[美伊对峙] TEHRAN → A US : Use conventional military force, not specified below (Doha, Ad Daw?ah, Qatar)</title>
-      <link>https://aa.com.tr/en/middle-east/qatar-says-washington-tehran-exchanging-messages-as-mediation-continues/4080290</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: TEHRAN / A US. Location: Doha, Ad Daw?ah, Qatar. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">https://aa.com.tr/en/middle-east/qatar-says-washington-tehran-exchanging-messages-as-mediation-continues/4080290</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://aa.com.tr/en/middle-east/qatar-says-washington-tehran-exchanging-messages-as-mediation-continues/4080290">aa.com.tr</source>
-    </item>
-    <item>
-      <title>[美伊对峙] PERSIAN GULF → SOUTHEAST ASIA : Impose administrative sanctions, not specified below (Iran)</title>
-      <link>https://gcaptain.com/irans-offshore-oil-stockpile-nears-exhaustion-as-blockade-chokes-new-supply/</link>
-      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: PERSIAN GULF / SOUTHEAST ASIA. Location: Iran. Goldstein Scale: -5.0. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">https://gcaptain.com/irans-offshore-oil-stockpile-nears-exhaustion-as-blockade-chokes-new-supply/</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>外交谈判</category>
-      <source url="https://gcaptain.com/irans-offshore-oil-stockpile-nears-exhaustion-as-blockade-chokes-new-supply/">gcaptain.com</source>
-    </item>
-    <item>
-      <title>[也门/胡塞武装] KUWAIT CITY → YEMEN : Use conventional military force, not specified below (Makkah, Makkah, Saudi Arabia)</title>
-      <link>https://www.arabtimesonline.com/news/kuwait-slams-houthi-cowardly-attacks-on-saudi-holy-cities/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: KUWAIT CITY / YEMEN. Location: Makkah, Makkah, Saudi Arabia. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.arabtimesonline.com/news/kuwait-slams-houthi-cowardly-attacks-on-saudi-holy-cities/</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-      <category>也门/胡塞武装</category>
-      <category>军事动态</category>
-      <source url="https://www.arabtimesonline.com/news/kuwait-slams-houthi-cowardly-attacks-on-saudi-holy-cities/">arabtimesonline.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] RUSSIA → nan : Destroy property (Los Angeles, California, United States)</title>
-      <link>https://townhall.com/news/amy-curtis/2026/10/05/la-mansion-tax-lost-houses-and-jobs-n2684112</link>
-      <description>GDELT Event: Destroy property. Actors: RUSSIA / nan. Location: Los Angeles, California, United States. Goldstein Scale: -9.2. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://townhall.com/news/amy-curtis/2026/10/05/la-mansion-tax-lost-houses-and-jobs-n2684112</guid>
-      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>外交谈判</category>
-      <source url="https://townhall.com/news/amy-curtis/2026/10/05/la-mansion-tax-lost-houses-and-jobs-n2684112">townhall.com</source>
     </item>
   </channel>
 </rss>
