@@ -5,8 +5,58 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 14 Oct 2026 11:31:09 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 11:08:00 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] RUSSIA → KYIV : Fight with artillery and tanks (Kyiv, Kyyiv, Misto, Ukraine)</title>
+      <link>https://www.lynnnews.co.uk/national/burnham-to-meet-zelensky-in-wake-of-trump-s-diesel-deal-with-moscow-172928/</link>
+      <description>GDELT Event: Fight with artillery and tanks. Actors: RUSSIA / KYIV. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://www.lynnnews.co.uk/national/burnham-to-meet-zelensky-in-wake-of-trump-s-diesel-deal-with-moscow-172928/</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.lynnnews.co.uk/national/burnham-to-meet-zelensky-in-wake-of-trump-s-diesel-deal-with-moscow-172928/">lynnnews.co.uk</source>
+    </item>
+    <item>
+      <title>[美伊对峙] IRAN → SAUDI : Use conventional military force, not specified below (Arabian Peninsula, Saudi Arabia (general), Saudi Arabia)</title>
+      <link>https://nypost.com/2026/10/13/opinion/trump-must-answer-houthis-airport-strike-to-punish-irans-chaos/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: IRAN / SAUDI. Location: Arabian Peninsula, Saudi Arabia (general), Saudi Arabia. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">https://nypost.com/2026/10/13/opinion/trump-must-answer-houthis-airport-strike-to-punish-irans-chaos/</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://nypost.com/2026/10/13/opinion/trump-must-answer-houthis-airport-strike-to-punish-irans-chaos/">nypost.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] UNITED STATES → nan : Impose administrative sanctions, not specified below (Iran)</title>
+      <link>https://bnonews.com/index.php/2026/10/bank-of-america-fined-more-than-1-2-billion-for-anti-money-laundering-and-sanctions-violations/</link>
+      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: UNITED STATES / nan. Location: Iran. Goldstein Scale: -5.0. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://bnonews.com/index.php/2026/10/bank-of-america-fined-more-than-1-2-billion-for-anti-money-laundering-and-sanctions-violations/</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>外交谈判</category>
+      <source url="https://bnonews.com/index.php/2026/10/bank-of-america-fined-more-than-1-2-billion-for-anti-money-laundering-and-sanctions-violations/">bnonews.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] IRAN → WASHINGTON : Demonstrate or rally (Iran)</title>
+      <link>https://truthout.org/articles/air-force-major-who-called-for-trumps-impeachment-held-in-solitary-confinement/</link>
+      <description>GDELT Event: Demonstrate or rally. Actors: IRAN / WASHINGTON. Location: Iran. Goldstein Scale: -6.5. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://truthout.org/articles/air-force-major-who-called-for-trumps-impeachment-held-in-solitary-confinement/</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>舆论热点</category>
+      <source url="https://truthout.org/articles/air-force-major-who-called-for-trumps-impeachment-held-in-solitary-confinement/">truthout.org</source>
+    </item>
+    <item>
+      <title>[也门/胡塞武装] SAUDI → YEMEN : Employ aerial weapons (King Khalid International, Ar Riya?, Saudi Arabia)</title>
+      <link>https://balticbusinessnews.com/airport-attacks-put-aviation-in-crosshairs-of-geopolitical-conflicts/</link>
+      <description>GDELT Event: Employ aerial weapons. Actors: SAUDI / YEMEN. Location: King Khalid International, Ar Riya?, Saudi Arabia. Goldstein Scale: -10.0. Mentioned in 5 sources.</description>
+      <guid isPermaLink="true">https://balticbusinessnews.com/airport-attacks-put-aviation-in-crosshairs-of-geopolitical-conflicts/</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+      <category>也门/胡塞武装</category>
+      <category>军事动态</category>
+      <source url="https://balticbusinessnews.com/airport-attacks-put-aviation-in-crosshairs-of-geopolitical-conflicts/">balticbusinessnews.com</source>
+    </item>
     <item>
       <title>[俄乌战争] RUSSIA → nan : Use conventional military force, not specified below (Black Sea, Oceans (general), Oceans)</title>
       <link>https://www.ironmountaindailynews.com/news/2026/10/russia-continues-to-attack-energy-facilities-zelenskyy/</link>
@@ -456,56 +506,6 @@
       <category>巴以冲突</category>
       <category>军事动态</category>
       <source url="https://www.dailymail.com/news/article-16188415/Terrorist-hijacker-tried-undertake-Israeli-9-11-learned-fly-Britain-reports.html">dailymail.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ARMY → nan : Use conventional military force, not specified below (Ramallah, West Bank (general), West Bank)</title>
-      <link>https://english.aawsat.com/features/5326789-how-oct-7-attack-led-abbas-reshape-palestinian-authority</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: ARMY / nan. Location: Ramallah, West Bank (general), West Bank. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://english.aawsat.com/features/5326789-how-oct-7-attack-led-abbas-reshape-palestinian-authority</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://english.aawsat.com/features/5326789-how-oct-7-attack-led-abbas-reshape-palestinian-authority">english.aawsat.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] nan → IRAN : Use conventional military force, not specified below (Lebanon)</title>
-      <link>https://english.aawsat.com/world/5326829-trump-says-nobody-knows-who-running-iran</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: nan / IRAN. Location: Lebanon. Goldstein Scale: -10.0. Mentioned in 3 sources.</description>
-      <guid isPermaLink="true">https://english.aawsat.com/world/5326829-trump-says-nobody-knows-who-running-iran</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://english.aawsat.com/world/5326829-trump-says-nobody-knows-who-running-iran">english.aawsat.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] nan → CRIMINAL : Arrest, detain, or charge with legal action (Israel)</title>
-      <link>http://www.bozemandailychronicle.com/news/politics/shapiro-weighs-in-on-livingston-pro-ice-film-attorney-alleges-12-days-of-threats-assaults/article_02e3fa7f-2848-4448-ae6b-486ebdd0d20c.html</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: nan / CRIMINAL. Location: Israel. Goldstein Scale: -5.0. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">http://www.bozemandailychronicle.com/news/politics/shapiro-weighs-in-on-livingston-pro-ice-film-attorney-alleges-12-days-of-threats-assaults/article_02e3fa7f-2848-4448-ae6b-486ebdd0d20c.html</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>外交谈判</category>
-      <source url="http://www.bozemandailychronicle.com/news/politics/shapiro-weighs-in-on-livingston-pro-ice-film-attorney-alleges-12-days-of-threats-assaults/article_02e3fa7f-2848-4448-ae6b-486ebdd0d20c.html">bozemandailychronicle.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAEL → MILITARY : Impose administrative sanctions, not specified below (Gaza, Israel (general), Israel)</title>
-      <link>https://aa.com.tr/en/middle-east/netanyahu-fined-again-over-election-propaganda-filmed-at-military-site/4080309</link>
-      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: ISRAEL / MILITARY. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://aa.com.tr/en/middle-east/netanyahu-fined-again-over-election-propaganda-filmed-at-military-site/4080309</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>外交谈判</category>
-      <source url="https://aa.com.tr/en/middle-east/netanyahu-fined-again-over-election-propaganda-filmed-at-military-site/4080309">aa.com.tr</source>
-    </item>
-    <item>
-      <title>[美伊对峙] PRESIDENT → IRANIAN : Use unconventional violence, not specified below (New York, United States)</title>
-      <link>https://wabx.net/2026/10/06/transcript-of-us-vice-president-vance-interview-in-alaska/</link>
-      <description>GDELT Event: Use unconventional violence, not specified below. Actors: PRESIDENT / IRANIAN. Location: New York, United States. Goldstein Scale: -9.0. Mentioned in 12 sources.</description>
-      <guid isPermaLink="true">https://wabx.net/2026/10/06/transcript-of-us-vice-president-vance-interview-in-alaska/</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://wabx.net/2026/10/06/transcript-of-us-vice-president-vance-interview-in-alaska/">wabx.net</source>
     </item>
   </channel>
 </rss>
