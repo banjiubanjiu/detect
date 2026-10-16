@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-15T11:08:17+00:00",
-  "latest_updated_at": "2026-10-15T11:08:17.303475+00:00",
-  "total_unique_items": 197,
+  "generated_at": "2026-10-16T11:03:08+00:00",
+  "latest_updated_at": "2026-10-16T11:03:08.435429+00:00",
+  "total_unique_items": 192,
   "by_source": {
-    "gdelt": 197
+    "gdelt": 192
   },
   "top_domains": {
     "english.aawsat.com": {
-      "count": 9,
-      "last_date": "2026-10-06",
+      "count": 10,
+      "last_date": "2026-10-15",
       "orphans": 0
     },
     "aa.com.tr": {
@@ -18,7 +18,7 @@
     },
     "dailymail.com": {
       "count": 6,
-      "last_date": "2026-10-06",
+      "last_date": "2026-10-15",
       "orphans": 0
     },
     "clevelandjewishnews.com": {
@@ -49,11 +49,6 @@
     "imemc.org": {
       "count": 4,
       "last_date": "2026-09-22",
-      "orphans": 0
-    },
-    "eng.kavkaz-uzel.eu": {
-      "count": 3,
-      "last_date": "2026-10-09",
       "orphans": 0
     },
     "whbl.com": {
@@ -91,9 +86,9 @@
       "last_date": "2026-09-24",
       "orphans": 0
     },
-    "nhpr.org": {
+    "eng.kavkaz-uzel.eu": {
       "count": 2,
-      "last_date": "2026-09-15",
+      "last_date": "2026-10-09",
       "orphans": 0
     },
     "middleeasteye.net": {
@@ -105,13 +100,14 @@
       "count": 2,
       "last_date": "2026-09-16",
       "orphans": 0
+    },
+    "haaretz.com": {
+      "count": 2,
+      "last_date": "2026-09-21",
+      "orphans": 0
     }
   },
   "date_histogram": [
-    {
-      "date": "2026-10-02",
-      "count": 4
-    },
     {
       "date": "2026-10-03",
       "count": 7
@@ -162,17 +158,21 @@
     },
     {
       "date": "2026-10-15",
+      "count": 5
+    },
+    {
+      "date": "2026-10-16",
       "count": 0
     }
   ],
   "llm_coverage": {
-    "total": 197,
-    "criticality_coverage": 0.1777,
+    "total": 192,
+    "criticality_coverage": 0.1823,
     "title_en_coverage": 1.0,
     "summary_en_coverage": 1.0,
     "clustered": 0,
     "cross_bias_items": 0,
-    "missing_criticality": 162,
+    "missing_criticality": 157,
     "missing_title_en": 0,
     "missing_summary_en": 0
   },
@@ -186,8 +186,8 @@
     {
       "code": "high_missing_criticality",
       "severity": "warn",
-      "message": "BLUF 缺失率 82.2% (>5%)",
-      "missing": 162
+      "message": "BLUF 缺失率 81.8% (>5%)",
+      "missing": 157
     }
   ],
   "status": "degraded"
