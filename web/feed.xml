@@ -5,8 +5,58 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 16 Oct 2026 11:02:52 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 10:25:26 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] UNIVERSITY → nan : Use conventional military force, not specified below (Kyiv, Kyyiv, Misto, Ukraine)</title>
+      <link>https://www.dailymail.com/news/article-16212819/ANDY-JEHRING-Ukrainian-drones-Putin-Trump.html</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: UNIVERSITY / nan. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -10.0. Mentioned in 5 sources.</description>
+      <guid isPermaLink="true">https://www.dailymail.com/news/article-16212819/ANDY-JEHRING-Ukrainian-drones-Putin-Trump.html</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.dailymail.com/news/article-16212819/ANDY-JEHRING-Ukrainian-drones-Putin-Trump.html">dailymail.com</source>
+    </item>
+    <item>
+      <title>[俄乌战争] RUSSIAN → UKRAINE : Impose administrative sanctions, not specified below (Russia)</title>
+      <link>http://www.russiaherald.com/news/279377401/russia-could-make-olympic-return-under-national-flag-trump-envoy</link>
+      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: RUSSIAN / UKRAINE. Location: Russia. Goldstein Scale: -5.0. Mentioned in 8 sources.</description>
+      <guid isPermaLink="true">http://www.russiaherald.com/news/279377401/russia-could-make-olympic-return-under-national-flag-trump-envoy</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>外交谈判</category>
+      <source url="http://www.russiaherald.com/news/279377401/russia-could-make-olympic-return-under-national-flag-trump-envoy">russiaherald.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAELI → LEBANON : Use conventional military force, not specified below (Israel)</title>
+      <link>https://www.straitstimes.com/world/middle-east/rubio-urges-lebanon-to-not-return-confiscated-explosives-to-hezbollah-us-official-says</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAELI / LEBANON. Location: Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.</description>
+      <guid isPermaLink="true">https://www.straitstimes.com/world/middle-east/rubio-urges-lebanon-to-not-return-confiscated-explosives-to-hezbollah-us-official-says</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.straitstimes.com/world/middle-east/rubio-urges-lebanon-to-not-return-confiscated-explosives-to-hezbollah-us-official-says">straitstimes.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAEL → SYRIA : Use conventional military force, not specified below (Sweida, As Suwayda', Syria)</title>
+      <link>https://english.aawsat.com/arab-world/5330151-netanyahu-says-spoke-syria%E2%80%99s-sharaa-sweida-unrest</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / SYRIA. Location: Sweida, As Suwayda', Syria. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">https://english.aawsat.com/arab-world/5330151-netanyahu-says-spoke-syria%E2%80%99s-sharaa-sweida-unrest</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://english.aawsat.com/arab-world/5330151-netanyahu-says-spoke-syria%E2%80%99s-sharaa-sweida-unrest">english.aawsat.com</source>
+    </item>
+    <item>
+      <title>[也门/胡塞武装] YEMEN → nan : Use conventional military force, not specified below (Sanaa, Sana', Yemen)</title>
+      <link>https://aninews.in/news/world/middle-east/5-killed-16-injured-in-houthi-attack-on-yemen8217s-aden-presidential-palace20261016044500/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: YEMEN / nan. Location: Sanaa, Sana', Yemen. Goldstein Scale: -10.0. Mentioned in 3 sources.</description>
+      <guid isPermaLink="true">https://aninews.in/news/world/middle-east/5-killed-16-injured-in-houthi-attack-on-yemen8217s-aden-presidential-palace20261016044500/</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <category>也门/胡塞武装</category>
+      <category>军事动态</category>
+      <source url="https://aninews.in/news/world/middle-east/5-killed-16-injured-in-houthi-attack-on-yemen8217s-aden-presidential-palace20261016044500/">aninews.in</source>
+    </item>
     <item>
       <title>[俄乌战争] IRAN → TANKER : Use conventional military force, not specified below (Russia)</title>
       <link>https://oilprice.com/Energy/Crude-Oil/Oil-Market-Tightens-as-Tanker-Attacks-and-Inventory-Draws-Mount.html</link>
@@ -456,56 +506,6 @@
       <category>俄乌战争</category>
       <category>舆论热点</category>
       <source url="https://www.naturalnews.com/2026-10-07-russia-last-resort-nuclear-weapon-threat-bluff.html">naturalnews.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] CHICAGO → ISRAEL : Use conventional military force, not specified below (Israel)</title>
-      <link>https://www.nbcchicago.com/news/local/adl-warns-antisemitic-incidents-in-chicago-are-rising-amid-october-7-observances/3999325/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: CHICAGO / ISRAEL. Location: Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://www.nbcchicago.com/news/local/adl-warns-antisemitic-incidents-in-chicago-are-rising-amid-october-7-observances/3999325/</guid>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.nbcchicago.com/news/local/adl-warns-antisemitic-incidents-in-chicago-are-rising-amid-october-7-observances/3999325/">nbcchicago.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] US AMBASSADOR → HAMAS : Use conventional military force, not specified below (New York, United States)</title>
-      <link>https://www.algemeiner.com/2026/10/07/mamdani-ignites-outrage-accusing-israel-genocide-oct-7-anniversary-statement/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: US AMBASSADOR / HAMAS. Location: New York, United States. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">https://www.algemeiner.com/2026/10/07/mamdani-ignites-outrage-accusing-israel-genocide-oct-7-anniversary-statement/</guid>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.algemeiner.com/2026/10/07/mamdani-ignites-outrage-accusing-israel-genocide-oct-7-anniversary-statement/">algemeiner.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAELI → HAMAS : Abduct, hijack, or take hostage (Gaza, Israel (general), Israel)</title>
-      <link>https://www.algemeiner.com/2026/10/07/new-milan-mural-depicts-former-hostages-noa-argamani-avinatan-or-separated-hamas-terrorists/</link>
-      <description>GDELT Event: Abduct, hijack, or take hostage. Actors: ISRAELI / HAMAS. Location: Gaza, Israel (general), Israel. Goldstein Scale: -9.0. Mentioned in 6 sources.</description>
-      <guid isPermaLink="true">https://www.algemeiner.com/2026/10/07/new-milan-mural-depicts-former-hostages-noa-argamani-avinatan-or-separated-hamas-terrorists/</guid>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.algemeiner.com/2026/10/07/new-milan-mural-depicts-former-hostages-noa-argamani-avinatan-or-separated-hamas-terrorists/">algemeiner.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] HAMAS → CIVILIAN : Use conventional military force, not specified below (Tel Aviv, Tel Aviv, Israel)</title>
-      <link>https://www.al-monitor.com/originals/2026/10/why-netanyahu-still-resists-independent-probe-3-years-after-oct-7</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: HAMAS / CIVILIAN. Location: Tel Aviv, Tel Aviv, Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.al-monitor.com/originals/2026/10/why-netanyahu-still-resists-independent-probe-3-years-after-oct-7</guid>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.al-monitor.com/originals/2026/10/why-netanyahu-still-resists-independent-probe-3-years-after-oct-7">al-monitor.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAEL → FRANCE : Use conventional military force, not specified below (Gaza, Israel (general), Israel)</title>
-      <link>https://www.algemeiner.com/2026/10/07/berlin-jews-fear-leftward-political-shift-antisemitism-remains-alarming-levels-three-years-oct-7/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / FRANCE. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
-      <guid isPermaLink="true">https://www.algemeiner.com/2026/10/07/berlin-jews-fear-leftward-political-shift-antisemitism-remains-alarming-levels-three-years-oct-7/</guid>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.algemeiner.com/2026/10/07/berlin-jews-fear-leftward-political-shift-antisemitism-remains-alarming-levels-three-years-oct-7/">algemeiner.com</source>
     </item>
   </channel>
 </rss>
