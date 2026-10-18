@@ -5,8 +5,48 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 17 Oct 2026 10:25:26 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 10:40:48 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] BRITISH → UKRAINE : Use unconventional violence, not specified below (Catterick, North Yorkshire, United Kingdom)</title>
+      <link>https://www.dailymail.com/news/article-16215879/British-troops-rehearse-Ukraine-mission-ceasefire.html</link>
+      <description>GDELT Event: Use unconventional violence, not specified below. Actors: BRITISH / UKRAINE. Location: Catterick, North Yorkshire, United Kingdom. Goldstein Scale: -9.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.dailymail.com/news/article-16215879/British-troops-rehearse-Ukraine-mission-ceasefire.html</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.dailymail.com/news/article-16215879/British-troops-rehearse-Ukraine-mission-ceasefire.html">dailymail.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAELI → ISRAEL : Use conventional military force, not specified below (Israel)</title>
+      <link>https://www.perthnow.com.au/news/conflict/israeli-settlers-burn-trees-hurt-reporter-in-west-bank-c-23034035</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAELI / ISRAEL. Location: Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.perthnow.com.au/news/conflict/israeli-settlers-burn-trees-hurt-reporter-in-west-bank-c-23034035</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.perthnow.com.au/news/conflict/israeli-settlers-burn-trees-hurt-reporter-in-west-bank-c-23034035">perthnow.com.au</source>
+    </item>
+    <item>
+      <title>[美伊对峙] IRAN → nan : Destroy property (United States)</title>
+      <link>https://redstate.com/bobhoge/2026/10/16/centcom-chief-strait-of-hormuz-open-for-business-while-desperate-iran-cant-even-pay-own-troops-n2208242</link>
+      <description>GDELT Event: Destroy property. Actors: IRAN / nan. Location: United States. Goldstein Scale: -9.2. Mentioned in 5 sources.</description>
+      <guid isPermaLink="true">https://redstate.com/bobhoge/2026/10/16/centcom-chief-strait-of-hormuz-open-for-business-while-desperate-iran-cant-even-pay-own-troops-n2208242</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>外交谈判</category>
+      <source url="https://redstate.com/bobhoge/2026/10/16/centcom-chief-strait-of-hormuz-open-for-business-while-desperate-iran-cant-even-pay-own-troops-n2208242">redstate.com</source>
+    </item>
+    <item>
+      <title>[也门/胡塞武装] YEMEN → CIVILIAN : Employ aerial weapons (Khamis Mushait, Saudi Arabia (general), Saudi Arabia)</title>
+      <link>https://aninews.in/news/world/middle-east/yemen-govt-accuses-houthis-of-targeting-aden-airport-with-2-missiles20261017045702/</link>
+      <description>GDELT Event: Employ aerial weapons. Actors: YEMEN / CIVILIAN. Location: Khamis Mushait, Saudi Arabia (general), Saudi Arabia. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">https://aninews.in/news/world/middle-east/yemen-govt-accuses-houthis-of-targeting-aden-airport-with-2-missiles20261017045702/</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <category>也门/胡塞武装</category>
+      <category>军事动态</category>
+      <source url="https://aninews.in/news/world/middle-east/yemen-govt-accuses-houthis-of-targeting-aden-airport-with-2-missiles20261017045702/">aninews.in</source>
+    </item>
     <item>
       <title>[俄乌战争] UNIVERSITY → nan : Use conventional military force, not specified below (Kyiv, Kyyiv, Misto, Ukraine)</title>
       <link>https://www.dailymail.com/news/article-16212819/ANDY-JEHRING-Ukrainian-drones-Putin-Trump.html</link>
@@ -466,46 +506,6 @@
       <category>苏丹内战</category>
       <category>军事动态</category>
       <source url="https://www.nzherald.co.nz/business/companies/airlines/houthis-claim-attack-on-riyadh-airport-debris-hits-saudi-kindergarten/BOZ76DG7ZFBPDKRMW64VOYVGHU/">nzherald.co.nz</source>
-    </item>
-    <item>
-      <title>[也门/胡塞武装] RIYADH → SAUDI ARABIA : Fight with artillery and tanks (Sanaa, Sana', Yemen)</title>
-      <link>http://www.iraqsun.com/news/279360714/saudi-led-coalition-houthis-trade-strikes-as-yemen-conflict-escalates-casualties-reported</link>
-      <description>GDELT Event: Fight with artillery and tanks. Actors: RIYADH / SAUDI ARABIA. Location: Sanaa, Sana', Yemen. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">http://www.iraqsun.com/news/279360714/saudi-led-coalition-houthis-trade-strikes-as-yemen-conflict-escalates-casualties-reported</guid>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
-      <category>也门/胡塞武装</category>
-      <category>军事动态</category>
-      <source url="http://www.iraqsun.com/news/279360714/saudi-led-coalition-houthis-trade-strikes-as-yemen-conflict-escalates-casualties-reported">iraqsun.com</source>
-    </item>
-    <item>
-      <title>[刚果(金)冲突] CONGO → nan : Use unconventional violence, not specified below (Congo)</title>
-      <link>https://www.nzherald.co.nz/nz/nzsas-veteran-justin-conaglen-linked-to-congo-ambush-that-wounded-green-beret-mma-star-tim-kennedy/premium/NTEYWX3XSRGYTAA6PBW5MNCSDE/</link>
-      <description>GDELT Event: Use unconventional violence, not specified below. Actors: CONGO / nan. Location: Congo. Goldstein Scale: -9.0. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://www.nzherald.co.nz/nz/nzsas-veteran-justin-conaglen-linked-to-congo-ambush-that-wounded-green-beret-mma-star-tim-kennedy/premium/NTEYWX3XSRGYTAA6PBW5MNCSDE/</guid>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
-      <category>刚果(金)冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.nzherald.co.nz/nz/nzsas-veteran-justin-conaglen-linked-to-congo-ambush-that-wounded-green-beret-mma-star-tim-kennedy/premium/NTEYWX3XSRGYTAA6PBW5MNCSDE/">nzherald.co.nz</source>
-    </item>
-    <item>
-      <title>[叙利亚局势] SYRIA → AFRICA : Fight with small arms and light weapons (China)</title>
-      <link>https://nypost.com/2026/10/08/opinion/mamdanis-disgraceful-oct-7-remarks-letters/</link>
-      <description>GDELT Event: Fight with small arms and light weapons. Actors: SYRIA / AFRICA. Location: China. Goldstein Scale: -10.0. Mentioned in 3 sources.</description>
-      <guid isPermaLink="true">https://nypost.com/2026/10/08/opinion/mamdanis-disgraceful-oct-7-remarks-letters/</guid>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
-      <category>叙利亚局势</category>
-      <category>军事动态</category>
-      <source url="https://nypost.com/2026/10/08/opinion/mamdanis-disgraceful-oct-7-remarks-letters/">nypost.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] MOSCOW → nan : Conduct strike or boycott, not specified below (Moscow, Moskva, Russia)</title>
-      <link>https://www.naturalnews.com/2026-10-07-russia-last-resort-nuclear-weapon-threat-bluff.html</link>
-      <description>GDELT Event: Conduct strike or boycott, not specified below. Actors: MOSCOW / nan. Location: Moscow, Moskva, Russia. Goldstein Scale: -6.5. Mentioned in 7 sources.</description>
-      <guid isPermaLink="true">https://www.naturalnews.com/2026-10-07-russia-last-resort-nuclear-weapon-threat-bluff.html</guid>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>舆论热点</category>
-      <source url="https://www.naturalnews.com/2026-10-07-russia-last-resort-nuclear-weapon-threat-bluff.html">naturalnews.com</source>
     </item>
   </channel>
 </rss>
