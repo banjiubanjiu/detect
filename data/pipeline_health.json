@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-18T10:41:04+00:00",
-  "latest_updated_at": "2026-10-18T10:41:03.999960+00:00",
-  "total_unique_items": 187,
+  "generated_at": "2026-10-19T12:34:04+00:00",
+  "latest_updated_at": "2026-10-19T12:34:04.159104+00:00",
+  "total_unique_items": 183,
   "by_source": {
-    "gdelt": 187
+    "gdelt": 183
   },
   "top_domains": {
     "english.aawsat.com": {
@@ -46,11 +46,6 @@
       "last_date": "2026-10-09",
       "orphans": 0
     },
-    "imemc.org": {
-      "count": 4,
-      "last_date": "2026-09-22",
-      "orphans": 0
-    },
     "whbl.com": {
       "count": 3,
       "last_date": "2026-10-03",
@@ -66,14 +61,14 @@
       "last_date": "2026-09-30",
       "orphans": 0
     },
+    "jns.org": {
+      "count": 3,
+      "last_date": "2026-10-18",
+      "orphans": 0
+    },
     "algemeiner.com": {
       "count": 3,
       "last_date": "2026-10-07",
-      "orphans": 0
-    },
-    "jamestown.org": {
-      "count": 2,
-      "last_date": "2026-09-17",
       "orphans": 0
     },
     "watoday.com.au": {
@@ -96,6 +91,11 @@
       "last_date": "2026-09-22",
       "orphans": 0
     },
+    "imemc.org": {
+      "count": 2,
+      "last_date": "2026-09-22",
+      "orphans": 0
+    },
     "cp24.com": {
       "count": 2,
       "last_date": "2026-10-02",
@@ -108,10 +108,6 @@
     }
   },
   "date_histogram": [
-    {
-      "date": "2026-10-05",
-      "count": 5
-    },
     {
       "date": "2026-10-06",
       "count": 13
@@ -162,17 +158,21 @@
     },
     {
       "date": "2026-10-18",
+      "count": 4
+    },
+    {
+      "date": "2026-10-19",
       "count": 0
     }
   ],
   "llm_coverage": {
-    "total": 187,
-    "criticality_coverage": 0.1711,
+    "total": 183,
+    "criticality_coverage": 0.1694,
     "title_en_coverage": 1.0,
     "summary_en_coverage": 1.0,
     "clustered": 0,
     "cross_bias_items": 0,
-    "missing_criticality": 155,
+    "missing_criticality": 152,
     "missing_title_en": 0,
     "missing_summary_en": 0
   },
@@ -186,8 +186,8 @@
     {
       "code": "high_missing_criticality",
       "severity": "warn",
-      "message": "BLUF 缺失率 82.9% (>5%)",
-      "missing": 155
+      "message": "BLUF 缺失率 83.1% (>5%)",
+      "missing": 152
     }
   ],
   "status": "degraded"
