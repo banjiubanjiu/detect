@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T12:34:04+00:00Z",
+  "updated_at": "2026-10-20T11:11:58+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -1485,39 +1485,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1323896151",
-              "title": "ISRAEL → IRAN : Use conventional military force, not specified below (Riyadh, Ar Riya?, Saudi Arabia)",
-              "title_en": "ISRAEL → IRAN : Use conventional military force, not specified below (Riyadh, Ar Riya?, Saudi Arabia)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / IRAN. Location: Riyadh, Ar Riya?, Saudi Arabia. Goldstein Scale: -10.0. Mentioned in 1 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / IRAN. Location: Riyadh, Ar Riya?, Saudi Arabia. Goldstein Scale: -10.0. Mentioned in 1 sources.",
-              "source": "gdelt",
-              "source_label": "smh.com.au",
-              "date": "2026-09-19",
-              "url": "https://www.smh.com.au/world/middle-east/flames-smoke-seen-near-riyadh-airport-houthis-claim-attacks-on-saudi-capital-20260920-p60yve.html",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 1,
-                "sources": 1,
-                "articles": 1,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1323896151",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "ISRAEL",
-                "actor2": "IRAN",
-                "actor1_country": "ISR",
-                "actor2_country": "IRN",
-                "geo_lat": 24.6408,
-                "geo_lon": 46.7728,
-                "geo_name": "Riyadh, Ar Riya?, Saudi Arabia"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1323999877",
               "title": "WEST BANK → ISRAELI : Fight with small arms and light weapons (West Bank)",
@@ -3200,6 +3167,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1328790777",
+              "title": "ISRAELI → IRAN : Assassinate (Minab, Sistan va Baluchestan, Iran)",
+              "title_en": "ISRAELI → IRAN : Assassinate (Minab, Sistan va Baluchestan, Iran)",
+              "summary": "GDELT Event: Assassinate. Actors: ISRAELI / IRAN. Location: Minab, Sistan va Baluchestan, Iran. Goldstein Scale: -10.0. Mentioned in 4 sources.",
+              "summary_en": "GDELT Event: Assassinate. Actors: ISRAELI / IRAN. Location: Minab, Sistan va Baluchestan, Iran. Goldstein Scale: -10.0. Mentioned in 4 sources.",
+              "source": "gdelt",
+              "source_label": "wrp.org.uk",
+              "date": "2026-10-19",
+              "url": "https://wrp.org.uk/features/iran-offers-7-day-plan-to-reopen-strait-of-hormuz/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 4,
+                "sources": 1,
+                "articles": 4,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1328790777",
+                "event_code": "186",
+                "cameo_desc": "Assassinate",
+                "actor1": "ISRAELI",
+                "actor2": "IRAN",
+                "actor1_country": "ISR",
+                "actor2_country": "IRN",
+                "geo_lat": 25.7893,
+                "geo_lon": 61.1025,
+                "geo_name": "Minab, Sistan va Baluchestan, Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -3843,39 +3843,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1323896149",
-              "title": "IRAN → nan : Use unconventional violence, not specified below (Iran)",
-              "title_en": "IRAN → nan : Use unconventional violence, not specified below (Iran)",
-              "summary": "GDELT Event: Use unconventional violence, not specified below. Actors: IRAN / nan. Location: Iran. Goldstein Scale: -9.0. Mentioned in 10 sources.",
-              "summary_en": "GDELT Event: Use unconventional violence, not specified below. Actors: IRAN / nan. Location: Iran. Goldstein Scale: -9.0. Mentioned in 10 sources.",
-              "source": "gdelt",
-              "source_label": "sott.net",
-              "date": "2026-09-19",
-              "url": "https://www.sott.net/article/508470-Reasonable-grounds-to-believe-US-committed-war-crimes-in-Iran-UN",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 10,
-                "sources": 1,
-                "articles": 10,
-                "goldstein": -9.0
-              },
-              "gdelt_meta": {
-                "event_id": "1323896149",
-                "event_code": "180",
-                "cameo_desc": "Use unconventional violence, not specified below",
-                "actor1": "IRAN",
-                "actor2": "nan",
-                "actor1_country": "IRN",
-                "actor2_country": "nan",
-                "geo_lat": 32.0,
-                "geo_lon": 53.0,
-                "geo_name": "Iran"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1323999698",
               "title": "ALGERIAN → FRANCE : Fight with small arms and light weapons (Tehran, Tehran, Iran)",
@@ -6378,13 +6345,13 @@
     }
   },
   "stats": {
-    "total_items": 180,
+    "total_items": 179,
     "sources": {
-      "gdelt": 180
+      "gdelt": 179
     },
     "date_range": {
-      "from": "2026-09-19",
-      "to": "2026-10-18"
+      "from": "2026-09-20",
+      "to": "2026-10-19"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",

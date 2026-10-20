@@ -5,8 +5,48 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 19 Oct 2026 12:33:47 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 11:11:41 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] nan → UKRAINE : Use conventional military force, not specified below (Kremlin, Moskva, Russia)</title>
+      <link>https://www.cnbc.com/2026/10/18/trump-russia-ukraine-war-drones.html</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: nan / UKRAINE. Location: Kremlin, Moskva, Russia. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">https://www.cnbc.com/2026/10/18/trump-russia-ukraine-war-drones.html</guid>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.cnbc.com/2026/10/18/trump-russia-ukraine-war-drones.html">cnbc.com</source>
+    </item>
+    <item>
+      <title>[俄乌战争] RUSSIA → CITIZEN : Demonstrate or rally (Russia)</title>
+      <link>https://albaniandailynews.com/news/russia-rejects-rama-s-claims-of-foreign-involvement-in-violent-protests-in-albania</link>
+      <description>GDELT Event: Demonstrate or rally. Actors: RUSSIA / CITIZEN. Location: Russia. Goldstein Scale: -6.5. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">https://albaniandailynews.com/news/russia-rejects-rama-s-claims-of-foreign-involvement-in-violent-protests-in-albania</guid>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>舆论热点</category>
+      <source url="https://albaniandailynews.com/news/russia-rejects-rama-s-claims-of-foreign-involvement-in-violent-protests-in-albania">albaniandailynews.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAEL → nan : Fight with artillery and tanks (Jerusalem, Israel (general), Israel)</title>
+      <link>https://www.jns.org/opinion/eyal-dror/al-sharaas-yemen-gambit-syria-wants-to-sell-security-not-just-buy-aid</link>
+      <description>GDELT Event: Fight with artillery and tanks. Actors: ISRAEL / nan. Location: Jerusalem, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://www.jns.org/opinion/eyal-dror/al-sharaas-yemen-gambit-syria-wants-to-sell-security-not-just-buy-aid</guid>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.jns.org/opinion/eyal-dror/al-sharaas-yemen-gambit-syria-wants-to-sell-security-not-just-buy-aid">jns.org</source>
+    </item>
+    <item>
+      <title>[美伊对峙] TIRANA → ALBANIA : Use conventional military force, not specified below (Tirana, Tirane, Albania)</title>
+      <link>https://tiranaexaminer.com/three-sentences-general/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: TIRANA / ALBANIA. Location: Tirana, Tirane, Albania. Goldstein Scale: -10.0. Mentioned in 5 sources.</description>
+      <guid isPermaLink="true">https://tiranaexaminer.com/three-sentences-general/</guid>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://tiranaexaminer.com/three-sentences-general/">tiranaexaminer.com</source>
+    </item>
     <item>
       <title>[俄乌战争] UKRAINIAN → BELARUS : Use conventional military force, not specified below (Kyiv, Kyyiv, Misto, Ukraine)</title>
       <link>http://www.middleeaststar.com/news/279381821/would-be-very-dangerous-zelenskyy-claims-russia-planning-to-strike-western-ukraine-using-belarusian-territory</link>
@@ -466,46 +506,6 @@
       <category>巴以冲突</category>
       <category>军事动态</category>
       <source url="https://news.az/news/israeli-settler-attacks-disrupt-palestinian-olive-harvest-in-west-bank">news.az</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAEL → SYRIA : Occupy territory (Jaba, H_efa, Israel)</title>
-      <link>https://sana.sy/en/syria/2349329/</link>
-      <description>GDELT Event: Occupy territory. Actors: ISRAEL / SYRIA. Location: Jaba, H_efa, Israel. Goldstein Scale: -9.5. Mentioned in 5 sources.</description>
-      <guid isPermaLink="true">https://sana.sy/en/syria/2349329/</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://sana.sy/en/syria/2349329/">sana.sy</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAEL → CIVILIAN : Use conventional military force, not specified below (Bureij, Yerushalayim, Israel)</title>
-      <link>https://news.az/news/over-100-ngos-say-gaza-ceasefire-exists-in-name-only</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / CIVILIAN. Location: Bureij, Yerushalayim, Israel. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://news.az/news/over-100-ngos-say-gaza-ceasefire-exists-in-name-only</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://news.az/news/over-100-ngos-say-gaza-ceasefire-exists-in-name-only">news.az</source>
-    </item>
-    <item>
-      <title>[巴以冲突] SYRIAN → TERRORIST : Arrest, detain, or charge with legal action (Gaza, Israel (general), Israel)</title>
-      <link>https://www.ynetnews.com/article/bjhms6usze</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: SYRIAN / TERRORIST. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 3 sources.</description>
-      <guid isPermaLink="true">https://www.ynetnews.com/article/bjhms6usze</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>外交谈判</category>
-      <source url="https://www.ynetnews.com/article/bjhms6usze">ynetnews.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] POLICE → nan : Abduct, hijack, or take hostage (Moscow, Moskva, Russia)</title>
-      <link>https://www.naturalnews.com/2026-10-08-former-german-intelligence-chief-arrested-suspicion-treason.html</link>
-      <description>GDELT Event: Abduct, hijack, or take hostage. Actors: POLICE / nan. Location: Moscow, Moskva, Russia. Goldstein Scale: -9.0. Mentioned in 3 sources.</description>
-      <guid isPermaLink="true">https://www.naturalnews.com/2026-10-08-former-german-intelligence-chief-arrested-suspicion-treason.html</guid>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://www.naturalnews.com/2026-10-08-former-german-intelligence-chief-arrested-suspicion-treason.html">naturalnews.com</source>
     </item>
   </channel>
 </rss>
