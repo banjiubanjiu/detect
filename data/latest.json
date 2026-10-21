@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T11:11:58+00:00Z",
+  "updated_at": "2026-10-21T11:28:34+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -19,39 +19,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1323999899",
-              "title": "MOSCOW → CIVILIAN : Use conventional military force, not specified below (Moscow, Moskva, Russia)",
-              "title_en": "MOSCOW → CIVILIAN : Use conventional military force, not specified below (Moscow, Moskva, Russia)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: MOSCOW / CIVILIAN. Location: Moscow, Moskva, Russia. Goldstein Scale: -10.0. Mentioned in 8 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: MOSCOW / CIVILIAN. Location: Moscow, Moskva, Russia. Goldstein Scale: -10.0. Mentioned in 8 sources.",
-              "source": "gdelt",
-              "source_label": "politico.eu",
-              "date": "2026-09-20",
-              "url": "https://www.politico.eu/article/russias-secret-plan-to-supercharge-kamikaze-drone-production/",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 8,
-                "sources": 1,
-                "articles": 8,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1323999899",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "MOSCOW",
-                "actor2": "CIVILIAN",
-                "actor1_country": "RUS",
-                "actor2_country": "nan",
-                "geo_lat": 55.7522,
-                "geo_lon": 37.6156,
-                "geo_name": "Moscow, Moskva, Russia"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1324167476",
               "title": "UKRAINIAN → RUSSIAN : Use conventional military force, not specified below (Russia)",
@@ -975,6 +942,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1328990250",
+              "title": "IRAN → RUSSIAN : Use conventional military force, not specified below (Russia)",
+              "title_en": "IRAN → RUSSIAN : Use conventional military force, not specified below (Russia)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: IRAN / RUSSIAN. Location: Russia. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: IRAN / RUSSIAN. Location: Russia. Goldstein Scale: -10.0. Mentioned in 3 sources.",
+              "source": "gdelt",
+              "source_label": "punchng.com",
+              "date": "2026-10-20",
+              "url": "https://punchng.com/crude-hits-111-as-iea-warns-of-prolonged-crisis/",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 3,
+                "sources": 1,
+                "articles": 3,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1328990250",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "IRAN",
+                "actor2": "RUSSIAN",
+                "actor1_country": "IRN",
+                "actor2_country": "RUS",
+                "geo_lat": 60.0,
+                "geo_lon": 100.0,
+                "geo_name": "Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -1377,6 +1377,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1328990386",
+              "title": "ABUJA → UKRAINIAN : Arrest, detain, or charge with legal action (Abuja, Abuja Federal Capital Territory, Nigeria)",
+              "title_en": "ABUJA → UKRAINIAN : Arrest, detain, or charge with legal action (Abuja, Abuja Federal Capital Territory, Nigeria)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: ABUJA / UKRAINIAN. Location: Abuja, Abuja Federal Capital Territory, Nigeria. Goldstein Scale: -5.0. Mentioned in 5 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: ABUJA / UKRAINIAN. Location: Abuja, Abuja Federal Capital Territory, Nigeria. Goldstein Scale: -5.0. Mentioned in 5 sources.",
+              "source": "gdelt",
+              "source_label": "punchng.com",
+              "date": "2026-10-20",
+              "url": "https://punchng.com/abuja-bizman-arrested-over-alleged-120m-fraud/",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 5,
+                "sources": 1,
+                "articles": 5,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1328990386",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "ABUJA",
+                "actor2": "UKRAINIAN",
+                "actor1_country": "NGA",
+                "actor2_country": "UKR",
+                "geo_lat": 9.08333,
+                "geo_lon": 7.53333,
+                "geo_name": "Abuja, Abuja Federal Capital Territory, Nigeria"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -1485,39 +1518,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1323999877",
-              "title": "WEST BANK → ISRAELI : Fight with small arms and light weapons (West Bank)",
-              "title_en": "WEST BANK → ISRAELI : Fight with small arms and light weapons (West Bank)",
-              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: WEST BANK / ISRAELI. Location: West Bank. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: WEST BANK / ISRAELI. Location: West Bank. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "source": "gdelt",
-              "source_label": "theamericanconservative.com",
-              "date": "2026-09-20",
-              "url": "https://www.theamericanconservative.com/iran-war-day-205-u-s-puts-embassies-on-alert-as-trump-says-hes-in-a-deciding-mode-on-iran/",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 2,
-                "sources": 1,
-                "articles": 2,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1323999877",
-                "event_code": "193",
-                "cameo_desc": "Fight with small arms and light weapons",
-                "actor1": "WEST BANK",
-                "actor2": "ISRAELI",
-                "actor1_country": "PSE",
-                "actor2_country": "ISR",
-                "geo_lat": 31.666667,
-                "geo_lon": 35.25,
-                "geo_name": "West Bank"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1324167273",
               "title": "ISRAELI → PRISONER : Use unconventional violence, not specified below (West Bank)",
@@ -3200,6 +3200,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1328990218",
+              "title": "GOVERNMENT → YEMEN : Use conventional military force, not specified below (Israel)",
+              "title_en": "GOVERNMENT → YEMEN : Use conventional military force, not specified below (Israel)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: GOVERNMENT / YEMEN. Location: Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: GOVERNMENT / YEMEN. Location: Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "businesstimes.com.sg",
+              "date": "2026-10-20",
+              "url": "https://www.businesstimes.com.sg/companies-markets/energy-commodities/brent-slips-iran-president-discusses-mediation-pakistan-army-chief",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1328990218",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "GOVERNMENT",
+                "actor2": "YEMEN",
+                "actor1_country": "nan",
+                "actor2_country": "YEM",
+                "geo_lat": 31.5,
+                "geo_lon": 34.75,
+                "geo_name": "Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -3843,72 +3876,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1323999698",
-              "title": "ALGERIAN → FRANCE : Fight with small arms and light weapons (Tehran, Tehran, Iran)",
-              "title_en": "ALGERIAN → FRANCE : Fight with small arms and light weapons (Tehran, Tehran, Iran)",
-              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: ALGERIAN / FRANCE. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 1 sources.",
-              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: ALGERIAN / FRANCE. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 1 sources.",
-              "source": "gdelt",
-              "source_label": "haaretz.com",
-              "date": "2026-09-20",
-              "url": "https://www.haaretz.com/israel-news/israel-security/2026-09-21/ty-article-live/houthis-warn-countries-against-joining-saudi-arabia-in-renewed-yemen-fighting/000001a0-c0b5-d9a4-adf9-f1fd79c00000",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 1,
-                "sources": 1,
-                "articles": 1,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1323999698",
-                "event_code": "193",
-                "cameo_desc": "Fight with small arms and light weapons",
-                "actor1": "ALGERIAN",
-                "actor2": "FRANCE",
-                "actor1_country": "DZA",
-                "actor2_country": "FRA",
-                "geo_lat": 35.75,
-                "geo_lon": 51.5148,
-                "geo_name": "Tehran, Tehran, Iran"
-              },
-              "admiralty_source": "B",
-              "admiralty_info": 3,
-              "admiralty_code": "B3"
-            },
-            {
-              "id": "gdelt_1323999802",
-              "title": "IRAN → ALGERIA : Fight with small arms and light weapons (Paris, France (general), France)",
-              "title_en": "IRAN → ALGERIA : Fight with small arms and light weapons (Paris, France (general), France)",
-              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: IRAN / ALGERIA. Location: Paris, France (general), France. Goldstein Scale: -10.0. Mentioned in 1 sources.",
-              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: IRAN / ALGERIA. Location: Paris, France (general), France. Goldstein Scale: -10.0. Mentioned in 1 sources.",
-              "source": "gdelt",
-              "source_label": "whbl.com",
-              "date": "2026-09-20",
-              "url": "https://whbl.com/2026/09/20/france-vows-response-after-iran-closes-language-centre-in-tehran/",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 1,
-                "sources": 1,
-                "articles": 1,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1323999802",
-                "event_code": "193",
-                "cameo_desc": "Fight with small arms and light weapons",
-                "actor1": "IRAN",
-                "actor2": "ALGERIA",
-                "actor1_country": "IRN",
-                "actor2_country": "DZA",
-                "geo_lat": 48.8667,
-                "geo_lon": 2.33333,
-                "geo_name": "Paris, France (general), France"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1324575668",
               "title": "nan → IRAN : Use conventional military force, not specified below (Toronto, Ontario, Canada)",
@@ -5211,6 +5178,40 @@
               "admiralty_info": 3,
               "admiralty_code": "C3",
               "criticality": "background"
+            },
+            {
+              "id": "gdelt_1328990449",
+              "title": "SUDAN → RIGHTS GROUP : Employ aerial weapons (Abyei, Janub Kurdufan, Sudan)",
+              "title_en": "SUDAN → RIGHTS GROUP : Employ aerial weapons (Abyei, Janub Kurdufan, Sudan)",
+              "summary": "GDELT Event: Employ aerial weapons. Actors: SUDAN / RIGHTS GROUP. Location: Abyei, Janub Kurdufan, Sudan. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Employ aerial weapons. Actors: SUDAN / RIGHTS GROUP. Location: Abyei, Janub Kurdufan, Sudan. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "bdnews24.com",
+              "date": "2026-10-20",
+              "url": "https://bdnews24.com/world/f4dskscs1c",
+              "primary_conflict": "sudan",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1328990449",
+                "event_code": "195",
+                "cameo_desc": "Employ aerial weapons",
+                "actor1": "SUDAN",
+                "actor2": "RIGHTS GROUP",
+                "actor1_country": "SDN",
+                "actor2_country": "nan",
+                "geo_lat": 9.59525,
+                "geo_lon": 28.4349,
+                "geo_name": "Abyei, Janub Kurdufan, Sudan"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3",
+              "criticality": "background"
             }
           ]
         },
@@ -6129,6 +6130,40 @@
               "admiralty_info": 3,
               "admiralty_code": "C3",
               "criticality": "background"
+            },
+            {
+              "id": "gdelt_1328990028",
+              "title": "DEMOCRATIC REPUBLIC OF THE CONGO → KENYA : Use conventional military force, not specified below (Democratic Republic Of The Congo)",
+              "title_en": "DEMOCRATIC REPUBLIC OF THE CONGO → KENYA : Use conventional military force, not specified below (Democratic Republic Of The Congo)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: DEMOCRATIC REPUBLIC OF THE CONGO / KENYA. Location: Democratic Republic Of The Congo. Goldstein Scale: -10.0. Mentioned in 4 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: DEMOCRATIC REPUBLIC OF THE CONGO / KENYA. Location: Democratic Republic Of The Congo. Goldstein Scale: -10.0. Mentioned in 4 sources.",
+              "source": "gdelt",
+              "source_label": "punchng.com",
+              "date": "2026-10-20",
+              "url": "https://punchng.com/ebola-hits-nigeria-44-contacts-under-surveillance/",
+              "primary_conflict": "congo-drc",
+              "metrics": {
+                "mentions": 4,
+                "sources": 1,
+                "articles": 4,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1328990028",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "DEMOCRATIC REPUBLIC OF THE CONGO",
+                "actor2": "KENYA",
+                "actor1_country": "COD",
+                "actor2_country": "KEN",
+                "geo_lat": 0.0,
+                "geo_lon": 25.0,
+                "geo_name": "Democratic Republic Of The Congo"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3",
+              "criticality": "background"
             }
           ]
         },
@@ -6345,13 +6380,13 @@
     }
   },
   "stats": {
-    "total_items": 179,
+    "total_items": 180,
     "sources": {
-      "gdelt": 179
+      "gdelt": 180
     },
     "date_range": {
-      "from": "2026-09-20",
-      "to": "2026-10-19"
+      "from": "2026-09-21",
+      "to": "2026-10-20"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",

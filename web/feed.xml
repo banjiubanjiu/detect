@@ -5,8 +5,18 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 20 Oct 2026 11:11:41 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 11:28:18 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[巴以冲突] ISRAELI → IRAN : Assassinate (Minab, Sistan va Baluchestan, Iran)</title>
+      <link>https://wrp.org.uk/features/iran-offers-7-day-plan-to-reopen-strait-of-hormuz/</link>
+      <description>GDELT Event: Assassinate. Actors: ISRAELI / IRAN. Location: Minab, Sistan va Baluchestan, Iran. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://wrp.org.uk/features/iran-offers-7-day-plan-to-reopen-strait-of-hormuz/</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://wrp.org.uk/features/iran-offers-7-day-plan-to-reopen-strait-of-hormuz/">wrp.org.uk</source>
+    </item>
     <item>
       <title>[俄乌战争] nan → UKRAINE : Use conventional military force, not specified below (Kremlin, Moskva, Russia)</title>
       <link>https://www.cnbc.com/2026/10/18/trump-russia-ukraine-war-drones.html</link>
@@ -496,16 +506,6 @@
       <category>俄乌战争</category>
       <category>外交谈判</category>
       <source url="https://www.odt.co.nz/news/world/us-imposes-sanctions-on-international-criminal-court-hours-after-former-judge-wins-nobel-peace-prize-jw4xkeo2">odt.co.nz</source>
-    </item>
-    <item>
-      <title>[巴以冲突] WEST BANK → SETTLER : Use conventional military force, not specified below (Deir Ballut, West Bank (general), West Bank)</title>
-      <link>https://news.az/news/israeli-settler-attacks-disrupt-palestinian-olive-harvest-in-west-bank</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: WEST BANK / SETTLER. Location: Deir Ballut, West Bank (general), West Bank. Goldstein Scale: -10.0. Mentioned in 6 sources.</description>
-      <guid isPermaLink="true">https://news.az/news/israeli-settler-attacks-disrupt-palestinian-olive-harvest-in-west-bank</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://news.az/news/israeli-settler-attacks-disrupt-palestinian-olive-harvest-in-west-bank">news.az</source>
     </item>
   </channel>
 </rss>
