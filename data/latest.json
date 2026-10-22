@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T11:28:34+00:00Z",
+  "updated_at": "2026-10-22T11:28:10+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -19,72 +19,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1324167476",
-              "title": "UKRAINIAN → RUSSIAN : Use conventional military force, not specified below (Russia)",
-              "title_en": "UKRAINIAN → RUSSIAN : Use conventional military force, not specified below (Russia)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: UKRAINIAN / RUSSIAN. Location: Russia. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: UKRAINIAN / RUSSIAN. Location: Russia. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "source": "gdelt",
-              "source_label": "maritime-executive.com",
-              "date": "2026-09-21",
-              "url": "https://maritime-executive.com/article/u-s-landing-drone-startup-gets-support-from-a-small-japanese-shipyard",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 10,
-                "sources": 1,
-                "articles": 10,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1324167476",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "UKRAINIAN",
-                "actor2": "RUSSIAN",
-                "actor1_country": "UKR",
-                "actor2_country": "RUS",
-                "geo_lat": 60.0,
-                "geo_lon": 100.0,
-                "geo_name": "Russia"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1324167298",
-              "title": "PROSECUTOR → KHARKIV : Use conventional military force, not specified below (Black Sea, Oceans (general), Oceans)",
-              "title_en": "PROSECUTOR → KHARKIV : Use conventional military force, not specified below (Black Sea, Oceans (general), Oceans)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: PROSECUTOR / KHARKIV. Location: Black Sea, Oceans (general), Oceans. Goldstein Scale: -10.0. Mentioned in 4 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: PROSECUTOR / KHARKIV. Location: Black Sea, Oceans (general), Oceans. Goldstein Scale: -10.0. Mentioned in 4 sources.",
-              "source": "gdelt",
-              "source_label": "whbl.com",
-              "date": "2026-09-21",
-              "url": "https://whbl.com/2026/09/21/five-dead-in-russian-attacks-across-ukrainian-regions-officials-say/",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 4,
-                "sources": 1,
-                "articles": 4,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1324167298",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "PROSECUTOR",
-                "actor2": "KHARKIV",
-                "actor1_country": "nan",
-                "actor2_country": "UKR",
-                "geo_lat": 43.0,
-                "geo_lon": 35.0,
-                "geo_name": "Black Sea, Oceans (general), Oceans"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1324367940",
               "title": "ESTONIA → COMPANY : Use unconventional violence, not specified below (Moscow, Moskva, Russia)",
@@ -975,6 +909,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1329198829",
+              "title": "UNITED STATES → RUSSIA : Use unconventional violence, not specified below (Kremlin, Moskva, Russia)",
+              "title_en": "UNITED STATES → RUSSIA : Use unconventional violence, not specified below (Kremlin, Moskva, Russia)",
+              "summary": "GDELT Event: Use unconventional violence, not specified below. Actors: UNITED STATES / RUSSIA. Location: Kremlin, Moskva, Russia. Goldstein Scale: -9.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Use unconventional violence, not specified below. Actors: UNITED STATES / RUSSIA. Location: Kremlin, Moskva, Russia. Goldstein Scale: -9.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "nypost.com",
+              "date": "2026-10-21",
+              "url": "https://nypost.com/2026/10/21/opinion/putin-the-great-humanitarian-of-our-time-all-the-reasons-hes-anything-but/",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -9.0
+              },
+              "gdelt_meta": {
+                "event_id": "1329198829",
+                "event_code": "180",
+                "cameo_desc": "Use unconventional violence, not specified below",
+                "actor1": "UNITED STATES",
+                "actor2": "RUSSIA",
+                "actor1_country": "USA",
+                "actor2_country": "RUS",
+                "geo_lat": 55.7522,
+                "geo_lon": 37.6156,
+                "geo_name": "Kremlin, Moskva, Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -982,39 +949,6 @@
           "label": "外交谈判",
           "icon": "🕊️",
           "items": [
-            {
-              "id": "gdelt_1324167240",
-              "title": "PRESIDENT → RUSSIAN : Impose administrative sanctions, not specified below (White House, District of Columbia, United States)",
-              "title_en": "PRESIDENT → RUSSIAN : Impose administrative sanctions, not specified below (White House, District of Columbia, United States)",
-              "summary": "GDELT Event: Impose administrative sanctions, not specified below. Actors: PRESIDENT / RUSSIAN. Location: White House, District of Columbia, United States. Goldstein Scale: -5.0. Mentioned in 2 sources.",
-              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: PRESIDENT / RUSSIAN. Location: White House, District of Columbia, United States. Goldstein Scale: -5.0. Mentioned in 2 sources.",
-              "source": "gdelt",
-              "source_label": "dailymail.com",
-              "date": "2026-09-21",
-              "url": "https://www.dailymail.com/media/article-16149099/Kaitlan-Collins-white-house-ban-reaction-Trump.html",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 2,
-                "sources": 1,
-                "articles": 2,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1324167240",
-                "event_code": "172",
-                "cameo_desc": "Impose administrative sanctions, not specified below",
-                "actor1": "PRESIDENT",
-                "actor2": "RUSSIAN",
-                "actor1_country": "nan",
-                "actor2_country": "RUS",
-                "geo_lat": 38.8951,
-                "geo_lon": -77.0364,
-                "geo_name": "White House, District of Columbia, United States"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1324368024",
               "title": "TREASURY SECRETARY → UKRAINE : Impose administrative sanctions, not specified below (Ukraine)",
@@ -1410,6 +1344,105 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1329198580",
+              "title": "RUSSIA → UKRAINE : Arrest, detain, or charge with legal action (Ukraine)",
+              "title_en": "RUSSIA → UKRAINE : Arrest, detain, or charge with legal action (Ukraine)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: RUSSIA / UKRAINE. Location: Ukraine. Goldstein Scale: -5.0. Mentioned in 15 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: RUSSIA / UKRAINE. Location: Ukraine. Goldstein Scale: -5.0. Mentioned in 15 sources.",
+              "source": "gdelt",
+              "source_label": "news.crossmap.com",
+              "date": "2026-10-21",
+              "url": "https://news.crossmap.com/2026/10/21/a-gift-of-mercy-russia-releases-74-year-old-us-citizen-charged-with-aiding-ukraine/",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 15,
+                "sources": 1,
+                "articles": 15,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1329198580",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "RUSSIA",
+                "actor2": "UKRAINE",
+                "actor1_country": "RUS",
+                "actor2_country": "UKR",
+                "geo_lat": 49.0,
+                "geo_lon": 32.0,
+                "geo_name": "Ukraine"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1329198868",
+              "title": "AMERICAN → RUSSIA : Arrest, detain, or charge with legal action (Russia)",
+              "title_en": "AMERICAN → RUSSIA : Arrest, detain, or charge with legal action (Russia)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: AMERICAN / RUSSIA. Location: Russia. Goldstein Scale: -5.0. Mentioned in 12 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: AMERICAN / RUSSIA. Location: Russia. Goldstein Scale: -5.0. Mentioned in 12 sources.",
+              "source": "gdelt",
+              "source_label": "news.crossmap.com",
+              "date": "2026-10-21",
+              "url": "https://news.crossmap.com/2026/10/21/supreme-court-rejects-trump-admin-policy-banning-trans-procedures-for-inmates/",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 12,
+                "sources": 1,
+                "articles": 12,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1329198868",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "AMERICAN",
+                "actor2": "RUSSIA",
+                "actor1_country": "USA",
+                "actor2_country": "RUS",
+                "geo_lat": 60.0,
+                "geo_lon": 100.0,
+                "geo_name": "Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1329198619",
+              "title": "UKRAINE → UNITED STATES : Arrest, detain, or charge with legal action (South Carolina, United States)",
+              "title_en": "UKRAINE → UNITED STATES : Arrest, detain, or charge with legal action (South Carolina, United States)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: UKRAINE / UNITED STATES. Location: South Carolina, United States. Goldstein Scale: -5.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: UKRAINE / UNITED STATES. Location: South Carolina, United States. Goldstein Scale: -5.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "kdhnews.com",
+              "date": "2026-10-21",
+              "url": "https://kdhnews.com/news/nation/the-latest-supreme-court-rebuffs-trump-restrictions-on-medical-care-for-trans-inmates/article_5f9bdd6e-d918-5c40-aa7f-1ff8462dd8fa.html",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1329198619",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "UKRAINE",
+                "actor2": "UNITED STATES",
+                "actor1_country": "UKR",
+                "actor2_country": "USA",
+                "geo_lat": 33.8191,
+                "geo_lon": -80.9066,
+                "geo_name": "South Carolina, United States"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -1518,39 +1551,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1324167273",
-              "title": "ISRAELI → PRISONER : Use unconventional violence, not specified below (West Bank)",
-              "title_en": "ISRAELI → PRISONER : Use unconventional violence, not specified below (West Bank)",
-              "summary": "GDELT Event: Use unconventional violence, not specified below. Actors: ISRAELI / PRISONER. Location: West Bank. Goldstein Scale: -9.0. Mentioned in 6 sources.",
-              "summary_en": "GDELT Event: Use unconventional violence, not specified below. Actors: ISRAELI / PRISONER. Location: West Bank. Goldstein Scale: -9.0. Mentioned in 6 sources.",
-              "source": "gdelt",
-              "source_label": "haaretz.com",
-              "date": "2026-09-21",
-              "url": "https://www.haaretz.com/israel-news/israel-crime/2026-09-21/ty-article/.premium/israeli-settler-charged-with-violating-idf-order-attacked-by-fellow-prisoners/000001a0-c4fe-d041-adec-c5fe05920000",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 6,
-                "sources": 1,
-                "articles": 6,
-                "goldstein": -9.0
-              },
-              "gdelt_meta": {
-                "event_id": "1324167273",
-                "event_code": "180",
-                "cameo_desc": "Use unconventional violence, not specified below",
-                "actor1": "ISRAELI",
-                "actor2": "PRISONER",
-                "actor1_country": "ISR",
-                "actor2_country": "nan",
-                "geo_lat": 31.666667,
-                "geo_lon": 35.25,
-                "geo_name": "West Bank"
-              },
-              "admiralty_source": "B",
-              "admiralty_info": 3,
-              "admiralty_code": "B3"
-            },
             {
               "id": "gdelt_1324368391",
               "title": "WEST BANK → STUDENT : Use conventional military force, not specified below (Birzeit, West Bank (general), West Bank)",
@@ -3241,39 +3241,6 @@
           "icon": "🕊️",
           "items": [
             {
-              "id": "gdelt_1324167274",
-              "title": "ISRAELI → WEST BANK : Impose administrative sanctions, not specified below (Israel)",
-              "title_en": "ISRAELI → WEST BANK : Impose administrative sanctions, not specified below (Israel)",
-              "summary": "GDELT Event: Impose administrative sanctions, not specified below. Actors: ISRAELI / WEST BANK. Location: Israel. Goldstein Scale: -5.0. Mentioned in 6 sources.",
-              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: ISRAELI / WEST BANK. Location: Israel. Goldstein Scale: -5.0. Mentioned in 6 sources.",
-              "source": "gdelt",
-              "source_label": "mondaq.com:443",
-              "date": "2026-09-21",
-              "url": "https://www.mondaq.com:443/unitedstates/money-laundering/1845104/weekly-sanctions-update-september-14-2026",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 6,
-                "sources": 1,
-                "articles": 6,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1324167274",
-                "event_code": "172",
-                "cameo_desc": "Impose administrative sanctions, not specified below",
-                "actor1": "ISRAELI",
-                "actor2": "WEST BANK",
-                "actor1_country": "ISR",
-                "actor2_country": "PSE",
-                "geo_lat": 31.5,
-                "geo_lon": 34.75,
-                "geo_name": "Israel"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
               "id": "gdelt_1324368613",
               "title": "WASHINGTON → PALESTINIAN : Impose administrative sanctions, not specified below (Gaza, Israel (general), Israel)",
               "title_en": "WASHINGTON → PALESTINIAN : Impose administrative sanctions, not specified below (Gaza, Israel (general), Israel)",
@@ -3697,6 +3664,39 @@
                 "geo_lat": 31.5,
                 "geo_lon": 34.75,
                 "geo_name": "Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1329198393",
+              "title": "JERUSALEM → CITIZEN : Arrest, detain, or charge with legal action (Jerusalem, Israel (general), Israel)",
+              "title_en": "JERUSALEM → CITIZEN : Arrest, detain, or charge with legal action (Jerusalem, Israel (general), Israel)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: JERUSALEM / CITIZEN. Location: Jerusalem, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: JERUSALEM / CITIZEN. Location: Jerusalem, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "japantoday.com",
+              "date": "2026-10-21",
+              "url": "https://japantoday.com/category/world/us-congressional-candidate-brad-lander-released-after-being-detained-by-israeli-military-in-west-bank",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1329198393",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "JERUSALEM",
+                "actor2": "CITIZEN",
+                "actor1_country": "ISR",
+                "actor2_country": "nan",
+                "geo_lat": 31.7667,
+                "geo_lon": 35.2333,
+                "geo_name": "Jerusalem, Israel (general), Israel"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -5338,40 +5338,6 @@
           "icon": "⚔️",
           "items": [
             {
-              "id": "gdelt_1324167465",
-              "title": "SAUDI ARABIA → NAVAL : Impose blockade, restrict movement (Red Sea, Djibouti (general), Djibouti)",
-              "title_en": "SAUDI ARABIA → NAVAL : Impose blockade, restrict movement (Red Sea, Djibouti (general), Djibouti)",
-              "summary": "GDELT Event: Impose blockade, restrict movement. Actors: SAUDI ARABIA / NAVAL. Location: Red Sea, Djibouti (general), Djibouti. Goldstein Scale: -9.5. Mentioned in 2 sources.",
-              "summary_en": "GDELT Event: Impose blockade, restrict movement. Actors: SAUDI ARABIA / NAVAL. Location: Red Sea, Djibouti (general), Djibouti. Goldstein Scale: -9.5. Mentioned in 2 sources.",
-              "source": "gdelt",
-              "source_label": "aol.com",
-              "date": "2026-09-21",
-              "url": "https://www.aol.com/articles/houthis-escalating-attacks-saudi-arabia-223949000.html",
-              "primary_conflict": "yemen-houthi",
-              "metrics": {
-                "mentions": 2,
-                "sources": 1,
-                "articles": 2,
-                "goldstein": -9.5
-              },
-              "gdelt_meta": {
-                "event_id": "1324167465",
-                "event_code": "191",
-                "cameo_desc": "Impose blockade, restrict movement",
-                "actor1": "SAUDI ARABIA",
-                "actor2": "NAVAL",
-                "actor1_country": "SAU",
-                "actor2_country": "nan",
-                "geo_lat": 19.0,
-                "geo_lon": 39.5,
-                "geo_name": "Red Sea, Djibouti (general), Djibouti"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3",
-              "criticality": "background"
-            },
-            {
               "id": "gdelt_1324776121",
               "title": "SAUDI ARABIA → YEMEN : Use conventional military force, not specified below (France)",
               "title_en": "SAUDI ARABIA → YEMEN : Use conventional military force, not specified below (France)",
@@ -6380,13 +6346,13 @@
     }
   },
   "stats": {
-    "total_items": 180,
+    "total_items": 179,
     "sources": {
-      "gdelt": 180
+      "gdelt": 179
     },
     "date_range": {
-      "from": "2026-09-21",
-      "to": "2026-10-20"
+      "from": "2026-09-22",
+      "to": "2026-10-21"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
