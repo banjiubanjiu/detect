@@ -5,8 +5,58 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 22 Oct 2026 11:27:53 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 11:18:14 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] UNITED STATES → RUSSIA : Use unconventional violence, not specified below (Kremlin, Moskva, Russia)</title>
+      <link>https://nypost.com/2026/10/21/opinion/putin-the-great-humanitarian-of-our-time-all-the-reasons-hes-anything-but/</link>
+      <description>GDELT Event: Use unconventional violence, not specified below. Actors: UNITED STATES / RUSSIA. Location: Kremlin, Moskva, Russia. Goldstein Scale: -9.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://nypost.com/2026/10/21/opinion/putin-the-great-humanitarian-of-our-time-all-the-reasons-hes-anything-but/</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://nypost.com/2026/10/21/opinion/putin-the-great-humanitarian-of-our-time-all-the-reasons-hes-anything-but/">nypost.com</source>
+    </item>
+    <item>
+      <title>[俄乌战争] RUSSIA → UKRAINE : Arrest, detain, or charge with legal action (Ukraine)</title>
+      <link>https://news.crossmap.com/2026/10/21/a-gift-of-mercy-russia-releases-74-year-old-us-citizen-charged-with-aiding-ukraine/</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: RUSSIA / UKRAINE. Location: Ukraine. Goldstein Scale: -5.0. Mentioned in 15 sources.</description>
+      <guid isPermaLink="true">https://news.crossmap.com/2026/10/21/a-gift-of-mercy-russia-releases-74-year-old-us-citizen-charged-with-aiding-ukraine/</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>外交谈判</category>
+      <source url="https://news.crossmap.com/2026/10/21/a-gift-of-mercy-russia-releases-74-year-old-us-citizen-charged-with-aiding-ukraine/">news.crossmap.com</source>
+    </item>
+    <item>
+      <title>[俄乌战争] AMERICAN → RUSSIA : Arrest, detain, or charge with legal action (Russia)</title>
+      <link>https://news.crossmap.com/2026/10/21/supreme-court-rejects-trump-admin-policy-banning-trans-procedures-for-inmates/</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: AMERICAN / RUSSIA. Location: Russia. Goldstein Scale: -5.0. Mentioned in 12 sources.</description>
+      <guid isPermaLink="true">https://news.crossmap.com/2026/10/21/supreme-court-rejects-trump-admin-policy-banning-trans-procedures-for-inmates/</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>外交谈判</category>
+      <source url="https://news.crossmap.com/2026/10/21/supreme-court-rejects-trump-admin-policy-banning-trans-procedures-for-inmates/">news.crossmap.com</source>
+    </item>
+    <item>
+      <title>[俄乌战争] UKRAINE → UNITED STATES : Arrest, detain, or charge with legal action (South Carolina, United States)</title>
+      <link>https://kdhnews.com/news/nation/the-latest-supreme-court-rebuffs-trump-restrictions-on-medical-care-for-trans-inmates/article_5f9bdd6e-d918-5c40-aa7f-1ff8462dd8fa.html</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: UKRAINE / UNITED STATES. Location: South Carolina, United States. Goldstein Scale: -5.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://kdhnews.com/news/nation/the-latest-supreme-court-rebuffs-trump-restrictions-on-medical-care-for-trans-inmates/article_5f9bdd6e-d918-5c40-aa7f-1ff8462dd8fa.html</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>外交谈判</category>
+      <source url="https://kdhnews.com/news/nation/the-latest-supreme-court-rebuffs-trump-restrictions-on-medical-care-for-trans-inmates/article_5f9bdd6e-d918-5c40-aa7f-1ff8462dd8fa.html">kdhnews.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] JERUSALEM → CITIZEN : Arrest, detain, or charge with legal action (Jerusalem, Israel (general), Israel)</title>
+      <link>https://japantoday.com/category/world/us-congressional-candidate-brad-lander-released-after-being-detained-by-israeli-military-in-west-bank</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: JERUSALEM / CITIZEN. Location: Jerusalem, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://japantoday.com/category/world/us-congressional-candidate-brad-lander-released-after-being-detained-by-israeli-military-in-west-bank</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>外交谈判</category>
+      <source url="https://japantoday.com/category/world/us-congressional-candidate-brad-lander-released-after-being-detained-by-israeli-military-in-west-bank">japantoday.com</source>
+    </item>
     <item>
       <title>[俄乌战争] IRAN → RUSSIAN : Use conventional military force, not specified below (Russia)</title>
       <link>https://punchng.com/crude-hits-111-as-iea-warns-of-prolonged-crisis/</link>
@@ -456,56 +506,6 @@
       <category>也门/胡塞武装</category>
       <category>军事动态</category>
       <source url="https://www.kurv.com/saudi-airport-hit-by-missile-attack-again-sunday/">kurv.com</source>
-    </item>
-    <item>
-      <title>[也门/胡塞武装] SAUDI ARABIA → nan : Use conventional military force, not specified below (Yemen)</title>
-      <link>https://english.news.cn/20261012/0364481e34464c56a6e84e1fdf76f4bd/c.html</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: SAUDI ARABIA / nan. Location: Yemen. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://english.news.cn/20261012/0364481e34464c56a6e84e1fdf76f4bd/c.html</guid>
-      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
-      <category>也门/胡塞武装</category>
-      <category>军事动态</category>
-      <source url="https://english.news.cn/20261012/0364481e34464c56a6e84e1fdf76f4bd/c.html">english.news.cn</source>
-    </item>
-    <item>
-      <title>[俄乌战争] POLITICIAN → RUSSIA : Fight with small arms and light weapons (Kremlin, Moskva, Russia)</title>
-      <link>https://finchannel.com/why-trump-wants-zelensky-replaced-but-avoids-challenging-putin-a-president-wanted-by-the-icc/137612/russian-invasion-of-ukraine/2026/10/</link>
-      <description>GDELT Event: Fight with small arms and light weapons. Actors: POLITICIAN / RUSSIA. Location: Kremlin, Moskva, Russia. Goldstein Scale: -10.0. Mentioned in 6 sources.</description>
-      <guid isPermaLink="true">https://finchannel.com/why-trump-wants-zelensky-replaced-but-avoids-challenging-putin-a-president-wanted-by-the-icc/137612/russian-invasion-of-ukraine/2026/10/</guid>
-      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://finchannel.com/why-trump-wants-zelensky-replaced-but-avoids-challenging-putin-a-president-wanted-by-the-icc/137612/russian-invasion-of-ukraine/2026/10/">finchannel.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAEL → WEST BANK : Engage in ethnic cleansing (Gaza, Israel (general), Israel)</title>
-      <link>https://aa.com.tr/en/middle-east/arab-bloc-in-israel-can-help-bring-down-netanyahu-government-joint-list-leader/4084781</link>
-      <description>GDELT Event: Engage in ethnic cleansing. Actors: ISRAEL / WEST BANK. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://aa.com.tr/en/middle-east/arab-bloc-in-israel-can-help-bring-down-netanyahu-government-joint-list-leader/4084781</guid>
-      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://aa.com.tr/en/middle-east/arab-bloc-in-israel-can-help-bring-down-netanyahu-government-joint-list-leader/4084781">aa.com.tr</source>
-    </item>
-    <item>
-      <title>[美伊对峙] SAUDI → IRAN : Use unconventional violence, not specified below (Iran)</title>
-      <link>https://www.cbsnews.com/news/riyadh-saudi-airport-attack-deaths-injuries/</link>
-      <description>GDELT Event: Use unconventional violence, not specified below. Actors: SAUDI / IRAN. Location: Iran. Goldstein Scale: -9.0. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://www.cbsnews.com/news/riyadh-saudi-airport-attack-deaths-injuries/</guid>
-      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://www.cbsnews.com/news/riyadh-saudi-airport-attack-deaths-injuries/">cbsnews.com</source>
-    </item>
-    <item>
-      <title>[也门/胡塞武装] CIVILIAN → nan : Use conventional military force, not specified below (Yemen)</title>
-      <link>https://www.freemalaysiatoday.com/category/highlight/2026/10/11/attack-on-saudi-airport-leaves-12-dead-dozens-wounded</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: CIVILIAN / nan. Location: Yemen. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.freemalaysiatoday.com/category/highlight/2026/10/11/attack-on-saudi-airport-leaves-12-dead-dozens-wounded</guid>
-      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
-      <category>也门/胡塞武装</category>
-      <category>军事动态</category>
-      <source url="https://www.freemalaysiatoday.com/category/highlight/2026/10/11/attack-on-saudi-airport-leaves-12-dead-dozens-wounded">freemalaysiatoday.com</source>
     </item>
   </channel>
 </rss>
