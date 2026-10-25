@@ -5,8 +5,28 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 24 Oct 2026 10:35:39 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 11:03:22 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[也门/胡塞武装] SAUDI ARABIA → YEMEN : Employ aerial weapons (Hamam, Saudi Arabia (general), Saudi Arabia)</title>
+      <link>https://www.presstv.co.uk/Detail/2026/10/23/779024/At-least-three-killed-in-Saudi-airstrikes-Yemen%E2%80%99s-capital</link>
+      <description>GDELT Event: Employ aerial weapons. Actors: SAUDI ARABIA / YEMEN. Location: Hamam, Saudi Arabia (general), Saudi Arabia. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://www.presstv.co.uk/Detail/2026/10/23/779024/At-least-three-killed-in-Saudi-airstrikes-Yemen%E2%80%99s-capital</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <category>也门/胡塞武装</category>
+      <category>军事动态</category>
+      <source url="https://www.presstv.co.uk/Detail/2026/10/23/779024/At-least-three-killed-in-Saudi-airstrikes-Yemen%E2%80%99s-capital">presstv.co.uk</source>
+    </item>
+    <item>
+      <title>[也门/胡塞武装] YEMEN → DJIBOUTI : Employ aerial weapons (Riyadh, Ar Riya?, Saudi Arabia)</title>
+      <link>https://tribune.com.pk/story/2636650/regional-powers-back-islamabad-mou</link>
+      <description>GDELT Event: Employ aerial weapons. Actors: YEMEN / DJIBOUTI. Location: Riyadh, Ar Riya?, Saudi Arabia. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://tribune.com.pk/story/2636650/regional-powers-back-islamabad-mou</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <category>也门/胡塞武装</category>
+      <category>军事动态</category>
+      <source url="https://tribune.com.pk/story/2636650/regional-powers-back-islamabad-mou">tribune.com.pk</source>
+    </item>
     <item>
       <title>[俄乌战争] YEMEN → SAUDI : Use conventional military force, not specified below (Moscow, Moskva, Russia)</title>
       <link>https://www.businesstimes.com.sg/companies-markets/energy-commodities/oil-rises-deadly-saudi-attacks-fan-middle-east-supply-fears</link>
@@ -486,26 +506,6 @@
       <category>美伊对峙</category>
       <category>军事动态</category>
       <source url="https://nypost.com/2026/10/13/opinion/trump-must-answer-houthis-airport-strike-to-punish-irans-chaos/">nypost.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] UNITED STATES → nan : Impose administrative sanctions, not specified below (Iran)</title>
-      <link>https://bnonews.com/index.php/2026/10/bank-of-america-fined-more-than-1-2-billion-for-anti-money-laundering-and-sanctions-violations/</link>
-      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: UNITED STATES / nan. Location: Iran. Goldstein Scale: -5.0. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://bnonews.com/index.php/2026/10/bank-of-america-fined-more-than-1-2-billion-for-anti-money-laundering-and-sanctions-violations/</guid>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>外交谈判</category>
-      <source url="https://bnonews.com/index.php/2026/10/bank-of-america-fined-more-than-1-2-billion-for-anti-money-laundering-and-sanctions-violations/">bnonews.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] IRAN → WASHINGTON : Demonstrate or rally (Iran)</title>
-      <link>https://truthout.org/articles/air-force-major-who-called-for-trumps-impeachment-held-in-solitary-confinement/</link>
-      <description>GDELT Event: Demonstrate or rally. Actors: IRAN / WASHINGTON. Location: Iran. Goldstein Scale: -6.5. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://truthout.org/articles/air-force-major-who-called-for-trumps-impeachment-held-in-solitary-confinement/</guid>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>舆论热点</category>
-      <source url="https://truthout.org/articles/air-force-major-who-called-for-trumps-impeachment-held-in-solitary-confinement/">truthout.org</source>
     </item>
   </channel>
 </rss>
