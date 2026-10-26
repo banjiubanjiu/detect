@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T11:03:40+00:00Z",
+  "updated_at": "2026-10-26T12:34:14+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -1515,6 +1515,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1329812417",
+              "title": "UKRAINIAN → RUSSIAN : Demonstrate or rally (New York, United States)",
+              "title_en": "UKRAINIAN → RUSSIAN : Demonstrate or rally (New York, United States)",
+              "summary": "GDELT Event: Demonstrate or rally. Actors: UKRAINIAN / RUSSIAN. Location: New York, United States. Goldstein Scale: -6.5. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Demonstrate or rally. Actors: UKRAINIAN / RUSSIAN. Location: New York, United States. Goldstein Scale: -6.5. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "cbs6albany.com",
+              "date": "2026-10-25",
+              "url": "https://cbs6albany.com/news/local/capital-region-ukrainians-protest-proposed-us-deal-to-ship-russian-diesel",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -6.5
+              },
+              "gdelt_meta": {
+                "event_id": "1329812417",
+                "event_code": "141",
+                "cameo_desc": "Demonstrate or rally",
+                "actor1": "UKRAINIAN",
+                "actor2": "RUSSIAN",
+                "actor1_country": "UKR",
+                "actor2_country": "RUS",
+                "geo_lat": 42.1497,
+                "geo_lon": -74.9384,
+                "geo_name": "New York, United States"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -1551,105 +1584,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1324962199",
-              "title": "RADIO STATION → HAMAS : Use conventional military force, not specified below (New York, United States)",
-              "title_en": "RADIO STATION → HAMAS : Use conventional military force, not specified below (New York, United States)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: RADIO STATION / HAMAS. Location: New York, United States. Goldstein Scale: -10.0. Mentioned in 3 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: RADIO STATION / HAMAS. Location: New York, United States. Goldstein Scale: -10.0. Mentioned in 3 sources.",
-              "source": "gdelt",
-              "source_label": "clevelandjewishnews.com",
-              "date": "2026-09-25",
-              "url": "https://www.clevelandjewishnews.com/jta/ny-jewish-democrats-defend-mamdani-after-netanyahu-calls-him-a-hamas-supporter/article_595aff77-6211-5069-94f4-ea022291921d.html",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 3,
-                "sources": 1,
-                "articles": 3,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1324962199",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "RADIO STATION",
-                "actor2": "HAMAS",
-                "actor1_country": "nan",
-                "actor2_country": "PSE",
-                "geo_lat": 42.1497,
-                "geo_lon": -74.9384,
-                "geo_name": "New York, United States"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1324962278",
-              "title": "SETTLER → nan : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
-              "title_en": "SETTLER → nan : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: SETTLER / nan. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: SETTLER / nan. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "source": "gdelt",
-              "source_label": "wrp.org.uk",
-              "date": "2026-09-25",
-              "url": "https://wrp.org.uk/editorials/trade-unions-must-take-action-and-call-a-general-strike-to-give-full-support-to-the-state-of-palestine/",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 2,
-                "sources": 1,
-                "articles": 2,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1324962278",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "SETTLER",
-                "actor2": "nan",
-                "actor1_country": "nan",
-                "actor2_country": "nan",
-                "geo_lat": 31.4167,
-                "geo_lon": 34.3333,
-                "geo_name": "Gaza, Israel (general), Israel"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1324962265",
-              "title": "GAZA → ISRAEL : Use conventional military force, not specified below (Sanaa, Sana', Yemen)",
-              "title_en": "GAZA → ISRAEL : Use conventional military force, not specified below (Sanaa, Sana', Yemen)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: GAZA / ISRAEL. Location: Sanaa, Sana', Yemen. Goldstein Scale: -10.0. Mentioned in 1 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: GAZA / ISRAEL. Location: Sanaa, Sana', Yemen. Goldstein Scale: -10.0. Mentioned in 1 sources.",
-              "source": "gdelt",
-              "source_label": "cp24.com",
-              "date": "2026-09-25",
-              "url": "https://www.cp24.com/news/world/2026/09/25/top-saudi-cleric-urges-troops-to-defend-against-the-houthis-and-other-mideast-developments/",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 1,
-                "sources": 1,
-                "articles": 1,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1324962265",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "GAZA",
-                "actor2": "ISRAEL",
-                "actor1_country": "PSE",
-                "actor2_country": "ISR",
-                "geo_lat": 15.3547,
-                "geo_lon": 44.2067,
-                "geo_name": "Sanaa, Sana', Yemen"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1325079104",
               "title": "HASSAN → nan : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
@@ -4378,39 +4312,6 @@
           "icon": "🕊️",
           "items": [
             {
-              "id": "gdelt_1324962282",
-              "title": "TURKEY → IRAN : Impose administrative sanctions, not specified below (Tehran, Tehran, Iran)",
-              "title_en": "TURKEY → IRAN : Impose administrative sanctions, not specified below (Tehran, Tehran, Iran)",
-              "summary": "GDELT Event: Impose administrative sanctions, not specified below. Actors: TURKEY / IRAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -5.0. Mentioned in 6 sources.",
-              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: TURKEY / IRAN. Location: Tehran, Tehran, Iran. Goldstein Scale: -5.0. Mentioned in 6 sources.",
-              "source": "gdelt",
-              "source_label": "yalibnan.com",
-              "date": "2026-09-25",
-              "url": "https://yalibnan.com/2026/09/26/new-us-sanctions-shut-down-iranian-flights-and-deepen-irans-isolation/",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 6,
-                "sources": 1,
-                "articles": 6,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1324962282",
-                "event_code": "172",
-                "cameo_desc": "Impose administrative sanctions, not specified below",
-                "actor1": "TURKEY",
-                "actor2": "IRAN",
-                "actor1_country": "TUR",
-                "actor2_country": "IRN",
-                "geo_lat": 35.75,
-                "geo_lon": 51.5148,
-                "geo_name": "Tehran, Tehran, Iran"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
               "id": "gdelt_1325185659",
               "title": "IRAN → UNITED KINGDOM : Arrest, detain, or charge with legal action (Fairford, Gloucestershire, United Kingdom)",
               "title_en": "IRAN → UNITED KINGDOM : Arrest, detain, or charge with legal action (Fairford, Gloucestershire, United Kingdom)",
@@ -4772,6 +4673,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1329812342",
+              "title": "MUSLIM → THE US : Impose administrative sanctions, not specified below (Iran)",
+              "title_en": "MUSLIM → THE US : Impose administrative sanctions, not specified below (Iran)",
+              "summary": "GDELT Event: Impose administrative sanctions, not specified below. Actors: MUSLIM / THE US. Location: Iran. Goldstein Scale: -5.0. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: MUSLIM / THE US. Location: Iran. Goldstein Scale: -5.0. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "1190talkradio.iheart.com",
+              "date": "2026-10-25",
+              "url": "https://1190talkradio.iheart.com/content/2026-10-25-trump-goes-to-michigan-says-middle-east-war-ends-soon/",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1329812342",
+                "event_code": "172",
+                "cameo_desc": "Impose administrative sanctions, not specified below",
+                "actor1": "MUSLIM",
+                "actor2": "THE US",
+                "actor1_country": "nan",
+                "actor2_country": "USA",
+                "geo_lat": 32.0,
+                "geo_lon": 53.0,
+                "geo_name": "Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -5008,6 +4942,40 @@
                 "geo_lat": 9.59525,
                 "geo_lon": 28.4349,
                 "geo_name": "Abyei, Janub Kurdufan, Sudan"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3",
+              "criticality": "background"
+            },
+            {
+              "id": "gdelt_1329812063",
+              "title": "AFRICA → nan : Use unconventional violence, not specified below (South Sudan)",
+              "title_en": "AFRICA → nan : Use unconventional violence, not specified below (South Sudan)",
+              "summary": "GDELT Event: Use unconventional violence, not specified below. Actors: AFRICA / nan. Location: South Sudan. Goldstein Scale: -9.0. Mentioned in 3 sources.",
+              "summary_en": "GDELT Event: Use unconventional violence, not specified below. Actors: AFRICA / nan. Location: South Sudan. Goldstein Scale: -9.0. Mentioned in 3 sources.",
+              "source": "gdelt",
+              "source_label": "cbsnews.com",
+              "date": "2026-10-25",
+              "url": "https://www.cbsnews.com/news/how-some-deportees-end-up-in-countries-us-judges-ruled-off-limits-60-minutes-transcript/",
+              "primary_conflict": "sudan",
+              "metrics": {
+                "mentions": 3,
+                "sources": 1,
+                "articles": 3,
+                "goldstein": -9.0
+              },
+              "gdelt_meta": {
+                "event_id": "1329812063",
+                "event_code": "180",
+                "cameo_desc": "Use unconventional violence, not specified below",
+                "actor1": "AFRICA",
+                "actor2": "nan",
+                "actor1_country": "AFR",
+                "actor2_country": "nan",
+                "geo_lat": 8.0,
+                "geo_lon": 30.0,
+                "geo_name": "South Sudan"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -6146,13 +6114,13 @@
     }
   },
   "stats": {
-    "total_items": 173,
+    "total_items": 172,
     "sources": {
-      "gdelt": 173
+      "gdelt": 172
     },
     "date_range": {
-      "from": "2026-09-25",
-      "to": "2026-10-24"
+      "from": "2026-09-26",
+      "to": "2026-10-25"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
