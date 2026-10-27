@@ -5,8 +5,38 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 26 Oct 2026 12:33:58 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 11:52:38 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] UKRAINIAN → RUSSIAN : Demonstrate or rally (New York, United States)</title>
+      <link>https://cbs6albany.com/news/local/capital-region-ukrainians-protest-proposed-us-deal-to-ship-russian-diesel</link>
+      <description>GDELT Event: Demonstrate or rally. Actors: UKRAINIAN / RUSSIAN. Location: New York, United States. Goldstein Scale: -6.5. Mentioned in 6 sources.</description>
+      <guid isPermaLink="true">https://cbs6albany.com/news/local/capital-region-ukrainians-protest-proposed-us-deal-to-ship-russian-diesel</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>舆论热点</category>
+      <source url="https://cbs6albany.com/news/local/capital-region-ukrainians-protest-proposed-us-deal-to-ship-russian-diesel">cbs6albany.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] MUSLIM → THE US : Impose administrative sanctions, not specified below (Iran)</title>
+      <link>https://1190talkradio.iheart.com/content/2026-10-25-trump-goes-to-michigan-says-middle-east-war-ends-soon/</link>
+      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: MUSLIM / THE US. Location: Iran. Goldstein Scale: -5.0. Mentioned in 6 sources.</description>
+      <guid isPermaLink="true">https://1190talkradio.iheart.com/content/2026-10-25-trump-goes-to-michigan-says-middle-east-war-ends-soon/</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>外交谈判</category>
+      <source url="https://1190talkradio.iheart.com/content/2026-10-25-trump-goes-to-michigan-says-middle-east-war-ends-soon/">1190talkradio.iheart.com</source>
+    </item>
+    <item>
+      <title>[苏丹内战] AFRICA → nan : Use unconventional violence, not specified below (South Sudan)</title>
+      <link>https://www.cbsnews.com/news/how-some-deportees-end-up-in-countries-us-judges-ruled-off-limits-60-minutes-transcript/</link>
+      <description>GDELT Event: Use unconventional violence, not specified below. Actors: AFRICA / nan. Location: South Sudan. Goldstein Scale: -9.0. Mentioned in 3 sources.</description>
+      <guid isPermaLink="true">https://www.cbsnews.com/news/how-some-deportees-end-up-in-countries-us-judges-ruled-off-limits-60-minutes-transcript/</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+      <category>苏丹内战</category>
+      <category>军事动态</category>
+      <source url="https://www.cbsnews.com/news/how-some-deportees-end-up-in-countries-us-judges-ruled-off-limits-60-minutes-transcript/">cbsnews.com</source>
+    </item>
     <item>
       <title>[巴以冲突] nan → ISRAEL : Use conventional military force, not specified below (Paris, France (general), France)</title>
       <link>https://www.bbc.co.uk/news/articles/cmvg7w0x742do</link>
@@ -476,36 +506,6 @@
       <category>巴以冲突</category>
       <category>军事动态</category>
       <source url="https://www.newsday.com/news/nation/mideast-israel-palestinians-iran-october-14-2026-k34809">newsday.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ADMINISTRATION → ISRAELI : Coerce, not specified below (Israel)</title>
-      <link>https://thezimbabwemail.com/news/world-world-3/washington-sanctions-icc-as-nobel-peace-prize-for-south-african-jurist-sharpens-global-rule-of-law-debate/</link>
-      <description>GDELT Event: Coerce, not specified below. Actors: ADMINISTRATION / ISRAELI. Location: Israel. Goldstein Scale: -7.0. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">https://thezimbabwemail.com/news/world-world-3/washington-sanctions-icc-as-nobel-peace-prize-for-south-african-jurist-sharpens-global-rule-of-law-debate/</guid>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>外交谈判</category>
-      <source url="https://thezimbabwemail.com/news/world-world-3/washington-sanctions-icc-as-nobel-peace-prize-for-south-african-jurist-sharpens-global-rule-of-law-debate/">thezimbabwemail.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] TIRANA → ALBANIA : Protest violently, riot (Tirana, Tirane, Albania)</title>
-      <link>http://www.dailyadvance.com/news/world/tear-gas-fires-and-clashes-as-anti-government-unrest-escalates-in-albania-in-photos/article_8114290a-233d-5a4f-b001-c407adc66ab9.html</link>
-      <description>GDELT Event: Protest violently, riot. Actors: TIRANA / ALBANIA. Location: Tirana, Tirane, Albania. Goldstein Scale: -7.5. Mentioned in 20 sources.</description>
-      <guid isPermaLink="true">http://www.dailyadvance.com/news/world/tear-gas-fires-and-clashes-as-anti-government-unrest-escalates-in-albania-in-photos/article_8114290a-233d-5a4f-b001-c407adc66ab9.html</guid>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>舆论热点</category>
-      <source url="http://www.dailyadvance.com/news/world/tear-gas-fires-and-clashes-as-anti-government-unrest-escalates-in-albania-in-photos/article_8114290a-233d-5a4f-b001-c407adc66ab9.html">dailyadvance.com</source>
-    </item>
-    <item>
-      <title>[苏丹内战] PARAMILITARY → SUDANESE : Use conventional military force, not specified below (Darfur, Gharb Darfur, Sudan)</title>
-      <link>https://www.radiotamazuj.org/en/news/article/sudanese-army-announces-capture-of-strategic-area-in-west-darfur</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: PARAMILITARY / SUDANESE. Location: Darfur, Gharb Darfur, Sudan. Goldstein Scale: -10.0. Mentioned in 3 sources.</description>
-      <guid isPermaLink="true">https://www.radiotamazuj.org/en/news/article/sudanese-army-announces-capture-of-strategic-area-in-west-darfur</guid>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
-      <category>苏丹内战</category>
-      <category>军事动态</category>
-      <source url="https://www.radiotamazuj.org/en/news/article/sudanese-army-announces-capture-of-strategic-area-in-west-darfur">radiotamazuj.org</source>
     </item>
   </channel>
 </rss>
