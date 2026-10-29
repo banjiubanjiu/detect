@@ -5,8 +5,28 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 28 Oct 2026 12:26:01 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 12:35:04 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] RUSSIAN → CIVILIAN : Occupy territory (Kharkiv, Kharkivs'ka Oblast', Ukraine)</title>
+      <link>https://www.investmentwatchblog.com/un-report-calls-russian-energy-strikes-war-crimes-while-ukraine-keeps-hitting-russian-refineries/</link>
+      <description>GDELT Event: Occupy territory. Actors: RUSSIAN / CIVILIAN. Location: Kharkiv, Kharkivs'ka Oblast', Ukraine. Goldstein Scale: -9.5. Mentioned in 3 sources.</description>
+      <guid isPermaLink="true">https://www.investmentwatchblog.com/un-report-calls-russian-energy-strikes-war-crimes-while-ukraine-keeps-hitting-russian-refineries/</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.investmentwatchblog.com/un-report-calls-russian-energy-strikes-war-crimes-while-ukraine-keeps-hitting-russian-refineries/">investmentwatchblog.com</source>
+    </item>
+    <item>
+      <title>[也门/胡塞武装] nan → UNITED STATES : Use conventional military force, not specified below (Bladen County, North Carolina, United States)</title>
+      <link>https://www.robesonian.com/news/429027/revolutionary-heroes-remembered</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: nan / UNITED STATES. Location: Bladen County, North Carolina, United States. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://www.robesonian.com/news/429027/revolutionary-heroes-remembered</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <category>也门/胡塞武装</category>
+      <category>军事动态</category>
+      <source url="https://www.robesonian.com/news/429027/revolutionary-heroes-remembered">robesonian.com</source>
+    </item>
     <item>
       <title>[俄乌战争] THE UN → RUSSIA : Use conventional military force, not specified below (Kyiv, Kyyiv, Misto, Ukraine)</title>
       <link>https://www.arabnews.com/world/russia-committed-war-crimes-in-ukraine-by-attacking-its-energy-grid-un-backed-inquiry-says-3008433</link>
@@ -486,26 +506,6 @@
       <category>巴以冲突</category>
       <category>军事动态</category>
       <source url="https://www.perthnow.com.au/news/conflict/israeli-settlers-burn-trees-hurt-reporter-in-west-bank-c-23034035">perthnow.com.au</source>
-    </item>
-    <item>
-      <title>[美伊对峙] IRAN → nan : Destroy property (United States)</title>
-      <link>https://redstate.com/bobhoge/2026/10/16/centcom-chief-strait-of-hormuz-open-for-business-while-desperate-iran-cant-even-pay-own-troops-n2208242</link>
-      <description>GDELT Event: Destroy property. Actors: IRAN / nan. Location: United States. Goldstein Scale: -9.2. Mentioned in 5 sources.</description>
-      <guid isPermaLink="true">https://redstate.com/bobhoge/2026/10/16/centcom-chief-strait-of-hormuz-open-for-business-while-desperate-iran-cant-even-pay-own-troops-n2208242</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>外交谈判</category>
-      <source url="https://redstate.com/bobhoge/2026/10/16/centcom-chief-strait-of-hormuz-open-for-business-while-desperate-iran-cant-even-pay-own-troops-n2208242">redstate.com</source>
-    </item>
-    <item>
-      <title>[也门/胡塞武装] YEMEN → CIVILIAN : Employ aerial weapons (Khamis Mushait, Saudi Arabia (general), Saudi Arabia)</title>
-      <link>https://aninews.in/news/world/middle-east/yemen-govt-accuses-houthis-of-targeting-aden-airport-with-2-missiles20261017045702/</link>
-      <description>GDELT Event: Employ aerial weapons. Actors: YEMEN / CIVILIAN. Location: Khamis Mushait, Saudi Arabia (general), Saudi Arabia. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
-      <guid isPermaLink="true">https://aninews.in/news/world/middle-east/yemen-govt-accuses-houthis-of-targeting-aden-airport-with-2-missiles20261017045702/</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <category>也门/胡塞武装</category>
-      <category>军事动态</category>
-      <source url="https://aninews.in/news/world/middle-east/yemen-govt-accuses-houthis-of-targeting-aden-airport-with-2-missiles20261017045702/">aninews.in</source>
     </item>
   </channel>
 </rss>
