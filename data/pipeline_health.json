@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-30T12:26:55+00:00",
-  "latest_updated_at": "2026-10-30T12:26:55.108875+00:00",
-  "total_unique_items": 175,
+  "generated_at": "2026-10-31T11:58:37+00:00",
+  "latest_updated_at": "2026-10-31T11:58:37.079969+00:00",
+  "total_unique_items": 174,
   "by_source": {
-    "gdelt": 175
+    "gdelt": 174
   },
   "top_domains": {
     "english.aawsat.com": {
@@ -16,11 +16,6 @@
       "last_date": "2026-10-10",
       "orphans": 0
     },
-    "dailymail.com": {
-      "count": 7,
-      "last_date": "2026-10-24",
-      "orphans": 0
-    },
     "nypost.com": {
       "count": 6,
       "last_date": "2026-10-21",
@@ -29,6 +24,11 @@
     "clevelandjewishnews.com": {
       "count": 6,
       "last_date": "2026-10-26",
+      "orphans": 0
+    },
+    "dailymail.com": {
+      "count": 5,
+      "last_date": "2026-10-24",
       "orphans": 0
     },
     "worthynews.com": {
@@ -49,11 +49,6 @@
     "punchng.com": {
       "count": 3,
       "last_date": "2026-10-20",
-      "orphans": 0
-    },
-    "arabnews.com": {
-      "count": 3,
-      "last_date": "2026-10-26",
       "orphans": 0
     },
     "jns.org": {
@@ -79,6 +74,11 @@
     "businesstimes.com.sg": {
       "count": 2,
       "last_date": "2026-10-22",
+      "orphans": 0
+    },
+    "arabnews.com": {
+      "count": 2,
+      "last_date": "2026-10-26",
       "orphans": 0
     },
     "news.crossmap.com": {
@@ -108,10 +108,6 @@
     }
   },
   "date_histogram": [
-    {
-      "date": "2026-10-17",
-      "count": 6
-    },
     {
       "date": "2026-10-18",
       "count": 4
@@ -162,17 +158,21 @@
     },
     {
       "date": "2026-10-30",
+      "count": 4
+    },
+    {
+      "date": "2026-10-31",
       "count": 0
     }
   ],
   "llm_coverage": {
-    "total": 175,
-    "criticality_coverage": 0.1829,
+    "total": 174,
+    "criticality_coverage": 0.1839,
     "title_en_coverage": 1.0,
     "summary_en_coverage": 1.0,
     "clustered": 0,
     "cross_bias_items": 0,
-    "missing_criticality": 143,
+    "missing_criticality": 142,
     "missing_title_en": 0,
     "missing_summary_en": 0
   },
@@ -186,8 +186,8 @@
     {
       "code": "high_missing_criticality",
       "severity": "warn",
-      "message": "BLUF 缺失率 81.7% (>5%)",
-      "missing": 143
+      "message": "BLUF 缺失率 81.6% (>5%)",
+      "missing": 142
     }
   ],
   "status": "degraded"

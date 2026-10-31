@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T12:26:55+00:00Z",
+  "updated_at": "2026-10-31T11:58:37+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -19,72 +19,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1325712062",
-              "title": "BRYANSK → RUSSIAN : Use conventional military force, not specified below (Bryansk, Bryanskaya Oblast', Russia)",
-              "title_en": "BRYANSK → RUSSIAN : Use conventional military force, not specified below (Bryansk, Bryanskaya Oblast', Russia)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: BRYANSK / RUSSIAN. Location: Bryansk, Bryanskaya Oblast', Russia. Goldstein Scale: -10.0. Mentioned in 8 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: BRYANSK / RUSSIAN. Location: Bryansk, Bryanskaya Oblast', Russia. Goldstein Scale: -10.0. Mentioned in 8 sources.",
-              "source": "gdelt",
-              "source_label": "worthynews.com",
-              "date": "2026-09-30",
-              "url": "https://www.worthynews.com/117878-russia-ukraine-exchange-deadly-strikes-as-moscow-issues-nuclear-warning-to-nato-worthy-news-radio",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 8,
-                "sources": 1,
-                "articles": 8,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1325712062",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "BRYANSK",
-                "actor2": "RUSSIAN",
-                "actor1_country": "RUS",
-                "actor2_country": "RUS",
-                "geo_lat": 53.2521,
-                "geo_lon": 34.3717,
-                "geo_name": "Bryansk, Bryanskaya Oblast', Russia"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1325712067",
-              "title": "RUSSIAN → UKRAINIAN : Use conventional military force, not specified below (Kyiv, Kyyiv, Misto, Ukraine)",
-              "title_en": "RUSSIAN → UKRAINIAN : Use conventional military force, not specified below (Kyiv, Kyyiv, Misto, Ukraine)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: RUSSIAN / UKRAINIAN. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -10.0. Mentioned in 6 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: RUSSIAN / UKRAINIAN. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -10.0. Mentioned in 6 sources.",
-              "source": "gdelt",
-              "source_label": "worthynews.com",
-              "date": "2026-09-30",
-              "url": "https://www.worthynews.com/117888-russia-threatens-nuclear-response-if-nato-moves-to-isolate-kaliningrad-worthy-news-briefing",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 6,
-                "sources": 1,
-                "articles": 6,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1325712067",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "RUSSIAN",
-                "actor2": "UKRAINIAN",
-                "actor1_country": "RUS",
-                "actor2_country": "UKR",
-                "geo_lat": 50.4333,
-                "geo_lon": 30.5167,
-                "geo_name": "Kyiv, Kyyiv, Misto, Ukraine"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1325900395",
               "title": "KYRGYZSTAN → RUSSIA : Use conventional military force, not specified below (Russia)",
@@ -1016,39 +950,6 @@
           "icon": "🕊️",
           "items": [
             {
-              "id": "gdelt_1325711787",
-              "title": "HUNGARY → GOVERNMENT : Expel or deport individuals (Moscow, Moskva, Russia)",
-              "title_en": "HUNGARY → GOVERNMENT : Expel or deport individuals (Moscow, Moskva, Russia)",
-              "summary": "GDELT Event: Expel or deport individuals. Actors: HUNGARY / GOVERNMENT. Location: Moscow, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 2 sources.",
-              "summary_en": "GDELT Event: Expel or deport individuals. Actors: HUNGARY / GOVERNMENT. Location: Moscow, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 2 sources.",
-              "source": "gdelt",
-              "source_label": "worthynews.com",
-              "date": "2026-09-30",
-              "url": "https://www.worthynews.com/117872-hungary-detains-two-former-orban-ministers-as-anti-corruption-drive-widens",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 2,
-                "sources": 1,
-                "articles": 2,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1325711787",
-                "event_code": "174",
-                "cameo_desc": "Expel or deport individuals",
-                "actor1": "HUNGARY",
-                "actor2": "GOVERNMENT",
-                "actor1_country": "HUN",
-                "actor2_country": "nan",
-                "geo_lat": 55.7522,
-                "geo_lon": 37.6156,
-                "geo_name": "Moscow, Moskva, Russia"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
               "id": "gdelt_1326461200",
               "title": "RUSSIA → nan : Destroy property (Los Angeles, California, United States)",
               "title_en": "RUSSIA → nan : Destroy property (Los Angeles, California, United States)",
@@ -1509,6 +1410,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1330749184",
+              "title": "CHERNOBYL → nan : Impose curfew (Russia)",
+              "title_en": "CHERNOBYL → nan : Impose curfew (Russia)",
+              "summary": "GDELT Event: Impose curfew. Actors: CHERNOBYL / nan. Location: Russia. Goldstein Scale: -5.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Impose curfew. Actors: CHERNOBYL / nan. Location: Russia. Goldstein Scale: -5.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "sciencealert.com",
+              "date": "2026-10-30",
+              "url": "https://www.sciencealert.com/chernobyls-dogs-are-genetically-different-and-we-may-finally-know-why",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1330749184",
+                "event_code": "1723",
+                "cameo_desc": "Impose curfew",
+                "actor1": "CHERNOBYL",
+                "actor2": "nan",
+                "actor1_country": "UKR",
+                "actor2_country": "nan",
+                "geo_lat": 60.0,
+                "geo_lon": 100.0,
+                "geo_name": "Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -1650,171 +1584,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1325711866",
-              "title": "ISRAEL → TERRORIST : Use conventional military force, not specified below (Tel Aviv, Tel Aviv, Israel)",
-              "title_en": "ISRAEL → TERRORIST : Use conventional military force, not specified below (Tel Aviv, Tel Aviv, Israel)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / TERRORIST. Location: Tel Aviv, Tel Aviv, Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / TERRORIST. Location: Tel Aviv, Tel Aviv, Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.",
-              "source": "gdelt",
-              "source_label": "oann.com",
-              "date": "2026-09-30",
-              "url": "https://www.oann.com/newsroom/netanyahu-meets-with-passenger-who-helped-thwart-attempted-hijacking-of-flydubai-flight-saving-174-lives/",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 6,
-                "sources": 1,
-                "articles": 6,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1325711866",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "ISRAEL",
-                "actor2": "TERRORIST",
-                "actor1_country": "ISR",
-                "actor2_country": "nan",
-                "geo_lat": 32.0667,
-                "geo_lon": 34.7667,
-                "geo_name": "Tel Aviv, Tel Aviv, Israel"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1325711880",
-              "title": "JEWISH → nan : Use conventional military force, not specified below (Israel)",
-              "title_en": "JEWISH → nan : Use conventional military force, not specified below (Israel)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: JEWISH / nan. Location: Israel. Goldstein Scale: -10.0. Mentioned in 5 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: JEWISH / nan. Location: Israel. Goldstein Scale: -10.0. Mentioned in 5 sources.",
-              "source": "gdelt",
-              "source_label": "jns.org",
-              "date": "2026-09-30",
-              "url": "https://www.jns.org/news/u-s-news/mamdanis-new-jew-hatred-strategy-fails-to-address-his-hateful-rhetoric-city-council-member-says",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 5,
-                "sources": 2,
-                "articles": 5,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1325711880",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "JEWISH",
-                "actor2": "nan",
-                "actor1_country": "nan",
-                "actor2_country": "nan",
-                "geo_lat": 31.5,
-                "geo_lon": 34.75,
-                "geo_name": "Israel"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1325711997",
-              "title": "CAPTAIN → nan : Occupy territory (Tel Aviv, Tel Aviv, Israel)",
-              "title_en": "CAPTAIN → nan : Occupy territory (Tel Aviv, Tel Aviv, Israel)",
-              "summary": "GDELT Event: Occupy territory. Actors: CAPTAIN / nan. Location: Tel Aviv, Tel Aviv, Israel. Goldstein Scale: -9.5. Mentioned in 5 sources.",
-              "summary_en": "GDELT Event: Occupy territory. Actors: CAPTAIN / nan. Location: Tel Aviv, Tel Aviv, Israel. Goldstein Scale: -9.5. Mentioned in 5 sources.",
-              "source": "gdelt",
-              "source_label": "jns.org",
-              "date": "2026-09-30",
-              "url": "https://www.jns.org/opinion/column/fiamma-nirenstein/a-new-9-11-in-the-skies-was-narrowly-averted",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 5,
-                "sources": 1,
-                "articles": 5,
-                "goldstein": -9.5
-              },
-              "gdelt_meta": {
-                "event_id": "1325711997",
-                "event_code": "192",
-                "cameo_desc": "Occupy territory",
-                "actor1": "CAPTAIN",
-                "actor2": "nan",
-                "actor1_country": "nan",
-                "actor2_country": "nan",
-                "geo_lat": 32.0667,
-                "geo_lon": 34.7667,
-                "geo_name": "Tel Aviv, Tel Aviv, Israel"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1325712076",
-              "title": "SINGAPORE → nan : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
-              "title_en": "SINGAPORE → nan : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: SINGAPORE / nan. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 4 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: SINGAPORE / nan. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 4 sources.",
-              "source": "gdelt",
-              "source_label": "nypost.com",
-              "date": "2026-09-30",
-              "url": "https://nypost.com/2026/09/30/opinion/why-i-left-the-democratic-party-and-why-california-voters-should-too/",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 4,
-                "sources": 1,
-                "articles": 4,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1325712076",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "SINGAPORE",
-                "actor2": "nan",
-                "actor1_country": "SGP",
-                "actor2_country": "nan",
-                "geo_lat": 31.4167,
-                "geo_lon": 34.3333,
-                "geo_name": "Gaza, Israel (general), Israel"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1325711881",
-              "title": "JEWISH → nan : Use conventional military force, not specified below (Israel)",
-              "title_en": "JEWISH → nan : Use conventional military force, not specified below (Israel)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: JEWISH / nan. Location: Israel. Goldstein Scale: -10.0. Mentioned in 1 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: JEWISH / nan. Location: Israel. Goldstein Scale: -10.0. Mentioned in 1 sources.",
-              "source": "gdelt",
-              "source_label": "clevelandjewishnews.com",
-              "date": "2026-09-30",
-              "url": "https://www.clevelandjewishnews.com/jns/mamdani-s-new-jew-hatred-strategy-fails-to-address-his-hateful-rhetoric-city-council-member/article_6ddd2212-5331-544d-891e-cd4c45a5524c.html",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 1,
-                "sources": 1,
-                "articles": 1,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1325711881",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "JEWISH",
-                "actor2": "nan",
-                "actor1_country": "nan",
-                "actor2_country": "nan",
-                "geo_lat": 31.5,
-                "geo_lon": 34.75,
-                "geo_name": "Israel"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1325900297",
               "title": "IRANIAN → ISRAELI : Use unconventional violence, not specified below (Iran)",
@@ -2969,6 +2738,105 @@
               "admiralty_source": "B",
               "admiralty_info": 3,
               "admiralty_code": "B3"
+            },
+            {
+              "id": "gdelt_1330748739",
+              "title": "nan → NEIGHBORHOOD : Engage in ethnic cleansing (Hebron, Israel (general), Israel)",
+              "title_en": "nan → NEIGHBORHOOD : Engage in ethnic cleansing (Hebron, Israel (general), Israel)",
+              "summary": "GDELT Event: Engage in ethnic cleansing. Actors: nan / NEIGHBORHOOD. Location: Hebron, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Engage in ethnic cleansing. Actors: nan / NEIGHBORHOOD. Location: Hebron, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "econotimes.com",
+              "date": "2026-10-30",
+              "url": "https://econotimes.com/Israel-s-Hebron-Operation-Forcibly-Displaces-More-Than-3-000-Palestinians-1767400",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1330748739",
+                "event_code": "203",
+                "cameo_desc": "Engage in ethnic cleansing",
+                "actor1": "nan",
+                "actor2": "NEIGHBORHOOD",
+                "actor1_country": "nan",
+                "actor2_country": "nan",
+                "geo_lat": 31.5333,
+                "geo_lon": 35.1,
+                "geo_name": "Hebron, Israel (general), Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1330749037",
+              "title": "ISRAELI → GOVERNMENT : Fight with small arms and light weapons (Israel)",
+              "title_en": "ISRAELI → GOVERNMENT : Fight with small arms and light weapons (Israel)",
+              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: ISRAELI / GOVERNMENT. Location: Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: ISRAELI / GOVERNMENT. Location: Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "pjmedia.com",
+              "date": "2026-10-30",
+              "url": "https://pjmedia.com/rick-moran/2026/10/30/has-netanyahu-reached-the-end-of-the-road-n4958845",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1330749037",
+                "event_code": "193",
+                "cameo_desc": "Fight with small arms and light weapons",
+                "actor1": "ISRAELI",
+                "actor2": "GOVERNMENT",
+                "actor1_country": "ISR",
+                "actor2_country": "nan",
+                "geo_lat": 31.5,
+                "geo_lon": 34.75,
+                "geo_name": "Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1330749262",
+              "title": "UNITED STATES → nan : Abduct, hijack, or take hostage (Gaza, Israel (general), Israel)",
+              "title_en": "UNITED STATES → nan : Abduct, hijack, or take hostage (Gaza, Israel (general), Israel)",
+              "summary": "GDELT Event: Abduct, hijack, or take hostage. Actors: UNITED STATES / nan. Location: Gaza, Israel (general), Israel. Goldstein Scale: -9.0. Mentioned in 1 sources.",
+              "summary_en": "GDELT Event: Abduct, hijack, or take hostage. Actors: UNITED STATES / nan. Location: Gaza, Israel (general), Israel. Goldstein Scale: -9.0. Mentioned in 1 sources.",
+              "source": "gdelt",
+              "source_label": "dailygazette.com",
+              "date": "2026-10-30",
+              "url": "https://www.dailygazette.com/hv360/opinion/letters-for-saturday-october-31-2026/article_a3195454-6912-453b-ac24-78983c079d96.html",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 1,
+                "sources": 1,
+                "articles": 1,
+                "goldstein": -9.0
+              },
+              "gdelt_meta": {
+                "event_id": "1330749262",
+                "event_code": "181",
+                "cameo_desc": "Abduct, hijack, or take hostage",
+                "actor1": "UNITED STATES",
+                "actor2": "nan",
+                "actor1_country": "USA",
+                "actor2_country": "nan",
+                "geo_lat": 31.4167,
+                "geo_lon": 34.3333,
+                "geo_name": "Gaza, Israel (general), Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -2976,39 +2844,6 @@
           "label": "外交谈判",
           "icon": "🕊️",
           "items": [
-            {
-              "id": "gdelt_1325711660",
-              "title": "FRANCE → nan : Arrest, detain, or charge with legal action (Jerusalem, Israel (general), Israel)",
-              "title_en": "FRANCE → nan : Arrest, detain, or charge with legal action (Jerusalem, Israel (general), Israel)",
-              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: FRANCE / nan. Location: Jerusalem, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 2 sources.",
-              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: FRANCE / nan. Location: Jerusalem, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 2 sources.",
-              "source": "gdelt",
-              "source_label": "clevelandjewishnews.com",
-              "date": "2026-09-30",
-              "url": "https://www.clevelandjewishnews.com/jta/french-far-right-leader-accused-of-antisemitism-defended-by-israeli-minister/article_badbd508-1e00-5579-86a5-61e1e94a4de7.html",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 2,
-                "sources": 1,
-                "articles": 2,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1325711660",
-                "event_code": "173",
-                "cameo_desc": "Arrest, detain, or charge with legal action",
-                "actor1": "FRANCE",
-                "actor2": "nan",
-                "actor1_country": "FRA",
-                "actor2_country": "nan",
-                "geo_lat": 31.7667,
-                "geo_lon": 35.2333,
-                "geo_name": "Jerusalem, Israel (general), Israel"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1326292910",
               "title": "OMAN → ISRAEL : Impose administrative sanctions, not specified below (Tel Aviv, Tel Aviv, Israel)",
@@ -3477,39 +3312,6 @@
           "label": "舆论热点",
           "icon": "💬",
           "items": [
-            {
-              "id": "gdelt_1325711854",
-              "title": "ISRAEL → NEW YORK : Demonstrate or rally (New York, United States)",
-              "title_en": "ISRAEL → NEW YORK : Demonstrate or rally (New York, United States)",
-              "summary": "GDELT Event: Demonstrate or rally. Actors: ISRAEL / NEW YORK. Location: New York, United States. Goldstein Scale: -6.5. Mentioned in 4 sources.",
-              "summary_en": "GDELT Event: Demonstrate or rally. Actors: ISRAEL / NEW YORK. Location: New York, United States. Goldstein Scale: -6.5. Mentioned in 4 sources.",
-              "source": "gdelt",
-              "source_label": "clevelandjewishnews.com",
-              "date": "2026-09-30",
-              "url": "https://www.clevelandjewishnews.com/jta/for-some-jewish-staffers-new-york-magazine-leaves-a-bad-taste/article_d7dc3234-2313-583d-8338-78e866248079.html",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 4,
-                "sources": 1,
-                "articles": 4,
-                "goldstein": -6.5
-              },
-              "gdelt_meta": {
-                "event_id": "1325711854",
-                "event_code": "141",
-                "cameo_desc": "Demonstrate or rally",
-                "actor1": "ISRAEL",
-                "actor2": "NEW YORK",
-                "actor1_country": "ISR",
-                "actor2_country": "USA",
-                "geo_lat": 42.1497,
-                "geo_lon": -74.9384,
-                "geo_name": "New York, United States"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1326830461",
               "title": "DAVID THOMPSON → CALIFORNIA : Demonstrate or rally (Gaza, Israel (general), Israel)",
@@ -6049,13 +5851,13 @@
     }
   },
   "stats": {
-    "total_items": 170,
+    "total_items": 164,
     "sources": {
-      "gdelt": 170
+      "gdelt": 164
     },
     "date_range": {
-      "from": "2026-09-30",
-      "to": "2026-10-29"
+      "from": "2026-10-01",
+      "to": "2026-10-30"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",

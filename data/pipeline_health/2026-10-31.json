@@ -1,0 +1,194 @@
+{
+  "generated_at": "2026-10-31T11:58:37+00:00",
+  "latest_updated_at": "2026-10-31T11:58:37.079969+00:00",
+  "total_unique_items": 174,
+  "by_source": {
+    "gdelt": 174
+  },
+  "top_domains": {
+    "english.aawsat.com": {
+      "count": 9,
+      "last_date": "2026-10-15",
+      "orphans": 0
+    },
+    "aa.com.tr": {
+      "count": 8,
+      "last_date": "2026-10-10",
+      "orphans": 0
+    },
+    "nypost.com": {
+      "count": 6,
+      "last_date": "2026-10-21",
+      "orphans": 0
+    },
+    "clevelandjewishnews.com": {
+      "count": 6,
+      "last_date": "2026-10-26",
+      "orphans": 0
+    },
+    "dailymail.com": {
+      "count": 5,
+      "last_date": "2026-10-24",
+      "orphans": 0
+    },
+    "worthynews.com": {
+      "count": 3,
+      "last_date": "2026-09-30",
+      "orphans": 0
+    },
+    "naturalnews.com": {
+      "count": 3,
+      "last_date": "2026-10-08",
+      "orphans": 0
+    },
+    "news.az": {
+      "count": 3,
+      "last_date": "2026-10-09",
+      "orphans": 0
+    },
+    "punchng.com": {
+      "count": 3,
+      "last_date": "2026-10-20",
+      "orphans": 0
+    },
+    "jns.org": {
+      "count": 3,
+      "last_date": "2026-10-18",
+      "orphans": 0
+    },
+    "algemeiner.com": {
+      "count": 3,
+      "last_date": "2026-10-07",
+      "orphans": 0
+    },
+    "english.news.cn": {
+      "count": 3,
+      "last_date": "2026-10-26",
+      "orphans": 0
+    },
+    "finchannel.com": {
+      "count": 2,
+      "last_date": "2026-10-28",
+      "orphans": 0
+    },
+    "businesstimes.com.sg": {
+      "count": 2,
+      "last_date": "2026-10-22",
+      "orphans": 0
+    },
+    "arabnews.com": {
+      "count": 2,
+      "last_date": "2026-10-26",
+      "orphans": 0
+    },
+    "news.crossmap.com": {
+      "count": 2,
+      "last_date": "2026-10-21",
+      "orphans": 0
+    },
+    "bostonglobe.com": {
+      "count": 2,
+      "last_date": "2026-10-22",
+      "orphans": 0
+    },
+    "al-monitor.com": {
+      "count": 2,
+      "last_date": "2026-10-07",
+      "orphans": 0
+    },
+    "tribuneindia.com": {
+      "count": 2,
+      "last_date": "2026-10-04",
+      "orphans": 0
+    },
+    "japantoday.com": {
+      "count": 2,
+      "last_date": "2026-10-28",
+      "orphans": 0
+    }
+  },
+  "date_histogram": [
+    {
+      "date": "2026-10-18",
+      "count": 4
+    },
+    {
+      "date": "2026-10-19",
+      "count": 1
+    },
+    {
+      "date": "2026-10-20",
+      "count": 5
+    },
+    {
+      "date": "2026-10-21",
+      "count": 5
+    },
+    {
+      "date": "2026-10-22",
+      "count": 8
+    },
+    {
+      "date": "2026-10-23",
+      "count": 2
+    },
+    {
+      "date": "2026-10-24",
+      "count": 4
+    },
+    {
+      "date": "2026-10-25",
+      "count": 3
+    },
+    {
+      "date": "2026-10-26",
+      "count": 8
+    },
+    {
+      "date": "2026-10-27",
+      "count": 2
+    },
+    {
+      "date": "2026-10-28",
+      "count": 4
+    },
+    {
+      "date": "2026-10-29",
+      "count": 1
+    },
+    {
+      "date": "2026-10-30",
+      "count": 4
+    },
+    {
+      "date": "2026-10-31",
+      "count": 0
+    }
+  ],
+  "llm_coverage": {
+    "total": 174,
+    "criticality_coverage": 0.1839,
+    "title_en_coverage": 1.0,
+    "summary_en_coverage": 1.0,
+    "clustered": 0,
+    "cross_bias_items": 0,
+    "missing_criticality": 142,
+    "missing_title_en": 0,
+    "missing_summary_en": 0
+  },
+  "orphans": {
+    "checked": 0,
+    "orphan_count": 0,
+    "orphan_rate": 0.0,
+    "samples": []
+  },
+  "issues": [
+    {
+      "code": "high_missing_criticality",
+      "severity": "warn",
+      "message": "BLUF 缺失率 81.6% (>5%)",
+      "missing": 142
+    }
+  ],
+  "status": "degraded"
+}
