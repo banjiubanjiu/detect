@@ -5,8 +5,48 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 31 Oct 2026 11:58:20 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 12:57:36 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] CHERNOBYL → nan : Impose curfew (Russia)</title>
+      <link>https://www.sciencealert.com/chernobyls-dogs-are-genetically-different-and-we-may-finally-know-why</link>
+      <description>GDELT Event: Impose curfew. Actors: CHERNOBYL / nan. Location: Russia. Goldstein Scale: -5.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.sciencealert.com/chernobyls-dogs-are-genetically-different-and-we-may-finally-know-why</guid>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>外交谈判</category>
+      <source url="https://www.sciencealert.com/chernobyls-dogs-are-genetically-different-and-we-may-finally-know-why">sciencealert.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] nan → NEIGHBORHOOD : Engage in ethnic cleansing (Hebron, Israel (general), Israel)</title>
+      <link>https://econotimes.com/Israel-s-Hebron-Operation-Forcibly-Displaces-More-Than-3-000-Palestinians-1767400</link>
+      <description>GDELT Event: Engage in ethnic cleansing. Actors: nan / NEIGHBORHOOD. Location: Hebron, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://econotimes.com/Israel-s-Hebron-Operation-Forcibly-Displaces-More-Than-3-000-Palestinians-1767400</guid>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://econotimes.com/Israel-s-Hebron-Operation-Forcibly-Displaces-More-Than-3-000-Palestinians-1767400">econotimes.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAELI → GOVERNMENT : Fight with small arms and light weapons (Israel)</title>
+      <link>https://pjmedia.com/rick-moran/2026/10/30/has-netanyahu-reached-the-end-of-the-road-n4958845</link>
+      <description>GDELT Event: Fight with small arms and light weapons. Actors: ISRAELI / GOVERNMENT. Location: Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://pjmedia.com/rick-moran/2026/10/30/has-netanyahu-reached-the-end-of-the-road-n4958845</guid>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://pjmedia.com/rick-moran/2026/10/30/has-netanyahu-reached-the-end-of-the-road-n4958845">pjmedia.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] UNITED STATES → nan : Abduct, hijack, or take hostage (Gaza, Israel (general), Israel)</title>
+      <link>https://www.dailygazette.com/hv360/opinion/letters-for-saturday-october-31-2026/article_a3195454-6912-453b-ac24-78983c079d96.html</link>
+      <description>GDELT Event: Abduct, hijack, or take hostage. Actors: UNITED STATES / nan. Location: Gaza, Israel (general), Israel. Goldstein Scale: -9.0. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">https://www.dailygazette.com/hv360/opinion/letters-for-saturday-october-31-2026/article_a3195454-6912-453b-ac24-78983c079d96.html</guid>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.dailygazette.com/hv360/opinion/letters-for-saturday-october-31-2026/article_a3195454-6912-453b-ac24-78983c079d96.html">dailygazette.com</source>
+    </item>
     <item>
       <title>[巴以冲突] ORGANIZED CRIME → nan : Use unconventional violence, not specified below (Gaza, Israel (general), Israel)</title>
       <link>http://www.jpost.com/opinion/article-913305</link>
@@ -466,46 +506,6 @@
       <category>巴以冲突</category>
       <category>军事动态</category>
       <source url="https://www.jns.org/opinion/eyal-dror/al-sharaas-yemen-gambit-syria-wants-to-sell-security-not-just-buy-aid">jns.org</source>
-    </item>
-    <item>
-      <title>[美伊对峙] TIRANA → ALBANIA : Use conventional military force, not specified below (Tirana, Tirane, Albania)</title>
-      <link>https://tiranaexaminer.com/three-sentences-general/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: TIRANA / ALBANIA. Location: Tirana, Tirane, Albania. Goldstein Scale: -10.0. Mentioned in 5 sources.</description>
-      <guid isPermaLink="true">https://tiranaexaminer.com/three-sentences-general/</guid>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://tiranaexaminer.com/three-sentences-general/">tiranaexaminer.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] UKRAINIAN → BELARUS : Use conventional military force, not specified below (Kyiv, Kyyiv, Misto, Ukraine)</title>
-      <link>http://www.middleeaststar.com/news/279381821/would-be-very-dangerous-zelenskyy-claims-russia-planning-to-strike-western-ukraine-using-belarusian-territory</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: UKRAINIAN / BELARUS. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">http://www.middleeaststar.com/news/279381821/would-be-very-dangerous-zelenskyy-claims-russia-planning-to-strike-western-ukraine-using-belarusian-territory</guid>
-      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="http://www.middleeaststar.com/news/279381821/would-be-very-dangerous-zelenskyy-claims-russia-planning-to-strike-western-ukraine-using-belarusian-territory">middleeaststar.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] HAMBURG → UKRAINIAN : Arrest, detain, or charge with legal action (Ukraine)</title>
-      <link>https://royaldutchshellplc.com/2026/10/17/the-shell-leaks-files-17-october-2026/</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: HAMBURG / UKRAINIAN. Location: Ukraine. Goldstein Scale: -5.0. Mentioned in 6 sources.</description>
-      <guid isPermaLink="true">https://royaldutchshellplc.com/2026/10/17/the-shell-leaks-files-17-october-2026/</guid>
-      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>外交谈判</category>
-      <source url="https://royaldutchshellplc.com/2026/10/17/the-shell-leaks-files-17-october-2026/">royaldutchshellplc.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] PALESTINE → MARCHE : Demonstrate or rally (Jerusalem, Israel (general), Israel)</title>
-      <link>https://theindependent.ca/news/lji/n-l-faces-serious-liability-questions-over-ithaca-energys-entry-into-provinces-oil-sector-legal-expert-warns/</link>
-      <description>GDELT Event: Demonstrate or rally. Actors: PALESTINE / MARCHE. Location: Jerusalem, Israel (general), Israel. Goldstein Scale: -6.5. Mentioned in 3 sources.</description>
-      <guid isPermaLink="true">https://theindependent.ca/news/lji/n-l-faces-serious-liability-questions-over-ithaca-energys-entry-into-provinces-oil-sector-legal-expert-warns/</guid>
-      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>舆论热点</category>
-      <source url="https://theindependent.ca/news/lji/n-l-faces-serious-liability-questions-over-ithaca-energys-entry-into-provinces-oil-sector-legal-expert-warns/">theindependent.ca</source>
     </item>
   </channel>
 </rss>

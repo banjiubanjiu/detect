@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-31T11:58:37+00:00",
-  "latest_updated_at": "2026-10-31T11:58:37.079969+00:00",
-  "total_unique_items": 174,
+  "generated_at": "2026-11-01T12:57:54+00:00",
+  "latest_updated_at": "2026-11-01T12:57:54.693842+00:00",
+  "total_unique_items": 165,
   "by_source": {
-    "gdelt": 174
+    "gdelt": 165
   },
   "top_domains": {
     "english.aawsat.com": {
@@ -16,24 +16,14 @@
       "last_date": "2026-10-10",
       "orphans": 0
     },
-    "nypost.com": {
-      "count": 6,
-      "last_date": "2026-10-21",
-      "orphans": 0
-    },
-    "clevelandjewishnews.com": {
-      "count": 6,
-      "last_date": "2026-10-26",
-      "orphans": 0
-    },
     "dailymail.com": {
       "count": 5,
       "last_date": "2026-10-24",
       "orphans": 0
     },
-    "worthynews.com": {
-      "count": 3,
-      "last_date": "2026-09-30",
+    "nypost.com": {
+      "count": 5,
+      "last_date": "2026-10-21",
       "orphans": 0
     },
     "naturalnews.com": {
@@ -51,14 +41,14 @@
       "last_date": "2026-10-20",
       "orphans": 0
     },
-    "jns.org": {
-      "count": 3,
-      "last_date": "2026-10-18",
-      "orphans": 0
-    },
     "algemeiner.com": {
       "count": 3,
       "last_date": "2026-10-07",
+      "orphans": 0
+    },
+    "clevelandjewishnews.com": {
+      "count": 3,
+      "last_date": "2026-10-26",
       "orphans": 0
     },
     "english.news.cn": {
@@ -105,13 +95,19 @@
       "count": 2,
       "last_date": "2026-10-28",
       "orphans": 0
+    },
+    "foreignpolicy.com": {
+      "count": 2,
+      "last_date": "2026-10-08",
+      "orphans": 0
+    },
+    "cbsnews.com": {
+      "count": 2,
+      "last_date": "2026-10-25",
+      "orphans": 0
     }
   },
   "date_histogram": [
-    {
-      "date": "2026-10-18",
-      "count": 4
-    },
     {
       "date": "2026-10-19",
       "count": 1
@@ -162,17 +158,21 @@
     },
     {
       "date": "2026-10-31",
+      "count": 1
+    },
+    {
+      "date": "2026-11-01",
       "count": 0
     }
   ],
   "llm_coverage": {
-    "total": 174,
-    "criticality_coverage": 0.1839,
+    "total": 165,
+    "criticality_coverage": 0.1939,
     "title_en_coverage": 1.0,
     "summary_en_coverage": 1.0,
     "clustered": 0,
     "cross_bias_items": 0,
-    "missing_criticality": 142,
+    "missing_criticality": 133,
     "missing_title_en": 0,
     "missing_summary_en": 0
   },
@@ -186,8 +186,8 @@
     {
       "code": "high_missing_criticality",
       "severity": "warn",
-      "message": "BLUF 缺失率 81.6% (>5%)",
-      "missing": 142
+      "message": "BLUF 缺失率 80.6% (>5%)",
+      "missing": 133
     }
   ],
   "status": "degraded"
