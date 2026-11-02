@@ -5,8 +5,18 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 01 Nov 2026 12:57:36 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 15:06:44 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] UKRAINE → BUSINESS : Use unconventional violence, not specified below (Black Sea, Oceans (general), Oceans)</title>
+      <link>https://dominicanrepublicpost.com/turkiyes-erdogan-urges-russia-and-ukraine-to-stop-black-sea-attacks/</link>
+      <description>GDELT Event: Use unconventional violence, not specified below. Actors: UKRAINE / BUSINESS. Location: Black Sea, Oceans (general), Oceans. Goldstein Scale: -9.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://dominicanrepublicpost.com/turkiyes-erdogan-urges-russia-and-ukraine-to-stop-black-sea-attacks/</guid>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://dominicanrepublicpost.com/turkiyes-erdogan-urges-russia-and-ukraine-to-stop-black-sea-attacks/">dominicanrepublicpost.com</source>
+    </item>
     <item>
       <title>[俄乌战争] CHERNOBYL → nan : Impose curfew (Russia)</title>
       <link>https://www.sciencealert.com/chernobyls-dogs-are-genetically-different-and-we-may-finally-know-why</link>
@@ -496,16 +506,6 @@
       <category>俄乌战争</category>
       <category>舆论热点</category>
       <source url="https://albaniandailynews.com/news/russia-rejects-rama-s-claims-of-foreign-involvement-in-violent-protests-in-albania">albaniandailynews.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAEL → nan : Fight with artillery and tanks (Jerusalem, Israel (general), Israel)</title>
-      <link>https://www.jns.org/opinion/eyal-dror/al-sharaas-yemen-gambit-syria-wants-to-sell-security-not-just-buy-aid</link>
-      <description>GDELT Event: Fight with artillery and tanks. Actors: ISRAEL / nan. Location: Jerusalem, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://www.jns.org/opinion/eyal-dror/al-sharaas-yemen-gambit-syria-wants-to-sell-security-not-just-buy-aid</guid>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.jns.org/opinion/eyal-dror/al-sharaas-yemen-gambit-syria-wants-to-sell-security-not-just-buy-aid">jns.org</source>
     </item>
   </channel>
 </rss>
