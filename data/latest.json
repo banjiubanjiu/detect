@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T13:54:47+00:00Z",
+  "updated_at": "2026-11-04T14:03:02+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -19,39 +19,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1326292932",
-              "title": "RUSSIA → KYIV : Use conventional military force, not specified below (Germany)",
-              "title_en": "RUSSIA → KYIV : Use conventional military force, not specified below (Germany)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: RUSSIA / KYIV. Location: Germany. Goldstein Scale: -10.0. Mentioned in 1 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: RUSSIA / KYIV. Location: Germany. Goldstein Scale: -10.0. Mentioned in 1 sources.",
-              "source": "gdelt",
-              "source_label": "watoday.com.au",
-              "date": "2026-10-04",
-              "url": "https://www.watoday.com.au/world/europe/russian-drones-attack-kyiv-as-merz-meets-zelensky-20261005-p612t7.html",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 1,
-                "sources": 1,
-                "articles": 1,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1326292932",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "RUSSIA",
-                "actor2": "KYIV",
-                "actor1_country": "RUS",
-                "actor2_country": "UKR",
-                "geo_lat": 51.5,
-                "geo_lon": 10.5,
-                "geo_name": "Germany"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1326645778",
               "title": "RUSSIAN → OIL TANKER : Use conventional military force, not specified below (Black Sea, Oceans (general), Oceans)",
@@ -1004,6 +971,39 @@
                 "geo_lat": 55.7522,
                 "geo_lon": 37.6156,
                 "geo_name": "Moscow, Moskva, Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1331334508",
+              "title": "UKRAINIAN → RUSSIAN : Employ aerial weapons (Dnipro, Ukraine (general), Ukraine)",
+              "title_en": "UKRAINIAN → RUSSIAN : Employ aerial weapons (Dnipro, Ukraine (general), Ukraine)",
+              "summary": "GDELT Event: Employ aerial weapons. Actors: UKRAINIAN / RUSSIAN. Location: Dnipro, Ukraine (general), Ukraine. Goldstein Scale: -10.0. Mentioned in 1 sources.",
+              "summary_en": "GDELT Event: Employ aerial weapons. Actors: UKRAINIAN / RUSSIAN. Location: Dnipro, Ukraine (general), Ukraine. Goldstein Scale: -10.0. Mentioned in 1 sources.",
+              "source": "gdelt",
+              "source_label": "politico.eu",
+              "date": "2026-11-03",
+              "url": "https://www.politico.eu/article/ukraine-accession-path-eu-membership-wobbles-european-commission-brussels-caution/",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 1,
+                "sources": 1,
+                "articles": 1,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1331334508",
+                "event_code": "195",
+                "cameo_desc": "Employ aerial weapons",
+                "actor1": "UKRAINIAN",
+                "actor2": "RUSSIAN",
+                "actor1_country": "UKR",
+                "actor2_country": "RUS",
+                "geo_lat": 46.4975,
+                "geo_lon": 32.3086,
+                "geo_name": "Dnipro, Ukraine (general), Ukraine"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -2903,6 +2903,72 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1331333843",
+              "title": "AFGHANISTAN → nan : Torture (Israel)",
+              "title_en": "AFGHANISTAN → nan : Torture (Israel)",
+              "summary": "GDELT Event: Torture. Actors: AFGHANISTAN / nan. Location: Israel. Goldstein Scale: -9.0. Mentioned in 5 sources.",
+              "summary_en": "GDELT Event: Torture. Actors: AFGHANISTAN / nan. Location: Israel. Goldstein Scale: -9.0. Mentioned in 5 sources.",
+              "source": "gdelt",
+              "source_label": "kyrs.org",
+              "date": "2026-11-03",
+              "url": "https://kyrs.org/show/codepink-radio/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 5,
+                "sources": 1,
+                "articles": 5,
+                "goldstein": -9.0
+              },
+              "gdelt_meta": {
+                "event_id": "1331333843",
+                "event_code": "1822",
+                "cameo_desc": "Torture",
+                "actor1": "AFGHANISTAN",
+                "actor2": "nan",
+                "actor1_country": "AFG",
+                "actor2_country": "nan",
+                "geo_lat": 31.5,
+                "geo_lon": 34.75,
+                "geo_name": "Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1331334266",
+              "title": "ISRAEL → IRANIAN : Use conventional military force, not specified below (Michigan, United States)",
+              "title_en": "ISRAEL → IRANIAN : Use conventional military force, not specified below (Michigan, United States)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / IRANIAN. Location: Michigan, United States. Goldstein Scale: -10.0. Mentioned in 1 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / IRANIAN. Location: Michigan, United States. Goldstein Scale: -10.0. Mentioned in 1 sources.",
+              "source": "gdelt",
+              "source_label": "ynetnews.com",
+              "date": "2026-11-03",
+              "url": "https://www.ynetnews.com/article/h1airtwtfg",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 1,
+                "sources": 1,
+                "articles": 1,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1331334266",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "ISRAEL",
+                "actor2": "IRANIAN",
+                "actor1_country": "ISR",
+                "actor2_country": "IRN",
+                "geo_lat": 43.3504,
+                "geo_lon": -84.5603,
+                "geo_name": "Michigan, United States"
+              },
+              "admiralty_source": "B",
+              "admiralty_info": 3,
+              "admiralty_code": "B3"
             }
           ]
         },
@@ -2910,39 +2976,6 @@
           "label": "外交谈判",
           "icon": "🕊️",
           "items": [
-            {
-              "id": "gdelt_1326292910",
-              "title": "OMAN → ISRAEL : Impose administrative sanctions, not specified below (Tel Aviv, Tel Aviv, Israel)",
-              "title_en": "OMAN → ISRAEL : Impose administrative sanctions, not specified below (Tel Aviv, Tel Aviv, Israel)",
-              "summary": "GDELT Event: Impose administrative sanctions, not specified below. Actors: OMAN / ISRAEL. Location: Tel Aviv, Tel Aviv, Israel. Goldstein Scale: -5.0. Mentioned in 2 sources.",
-              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: OMAN / ISRAEL. Location: Tel Aviv, Tel Aviv, Israel. Goldstein Scale: -5.0. Mentioned in 2 sources.",
-              "source": "gdelt",
-              "source_label": "tribuneindia.com",
-              "date": "2026-10-04",
-              "url": "https://www.tribuneindia.com/news/world/israeli-pm-invites-smit-to-light-flame-on-i-day/",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 2,
-                "sources": 1,
-                "articles": 2,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1326292910",
-                "event_code": "172",
-                "cameo_desc": "Impose administrative sanctions, not specified below",
-                "actor1": "OMAN",
-                "actor2": "ISRAEL",
-                "actor1_country": "OMN",
-                "actor2_country": "ISR",
-                "geo_lat": 32.0667,
-                "geo_lon": 34.7667,
-                "geo_name": "Tel Aviv, Tel Aviv, Israel"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1326645055",
               "title": "nan → CRIMINAL : Arrest, detain, or charge with legal action (Israel)",
@@ -3437,6 +3470,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1331334668",
+              "title": "LOUISIANA → ISRAEL : Arrest, detain, or charge with legal action (Mississippi, United States)",
+              "title_en": "LOUISIANA → ISRAEL : Arrest, detain, or charge with legal action (Mississippi, United States)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: LOUISIANA / ISRAEL. Location: Mississippi, United States. Goldstein Scale: -5.0. Mentioned in 4 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: LOUISIANA / ISRAEL. Location: Mississippi, United States. Goldstein Scale: -5.0. Mentioned in 4 sources.",
+              "source": "gdelt",
+              "source_label": "latintimes.com",
+              "date": "2026-11-03",
+              "url": "https://www.latintimes.com/ice-rearrested-immigrants-after-court-ordered-releases-600860",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 4,
+                "sources": 1,
+                "articles": 4,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1331334668",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "LOUISIANA",
+                "actor2": "ISRAEL",
+                "actor1_country": "USA",
+                "actor2_country": "ISR",
+                "geo_lat": 32.7673,
+                "geo_lon": -89.6812,
+                "geo_name": "Mississippi, United States"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -3542,6 +3608,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1331334436",
+              "title": "MALAYSIA → PALESTINIAN : Demonstrate or rally (Malaysia)",
+              "title_en": "MALAYSIA → PALESTINIAN : Demonstrate or rally (Malaysia)",
+              "summary": "GDELT Event: Demonstrate or rally. Actors: MALAYSIA / PALESTINIAN. Location: Malaysia. Goldstein Scale: -6.5. Mentioned in 4 sources.",
+              "summary_en": "GDELT Event: Demonstrate or rally. Actors: MALAYSIA / PALESTINIAN. Location: Malaysia. Goldstein Scale: -6.5. Mentioned in 4 sources.",
+              "source": "gdelt",
+              "source_label": "freemalaysiatoday.com",
+              "date": "2026-11-03",
+              "url": "https://www.freemalaysiatoday.com/category/nation/2026/11/04/rights-groups-question-need-for-curbs-on-rohingyas",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 4,
+                "sources": 1,
+                "articles": 4,
+                "goldstein": -6.5
+              },
+              "gdelt_meta": {
+                "event_id": "1331334436",
+                "event_code": "141",
+                "cameo_desc": "Demonstrate or rally",
+                "actor1": "MALAYSIA",
+                "actor2": "PALESTINIAN",
+                "actor1_country": "MYS",
+                "actor2_country": "PSE",
+                "geo_lat": 2.5,
+                "geo_lon": 112.5,
+                "geo_name": "Malaysia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -3579,39 +3678,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1326292864",
-              "title": "AIR FORCE → BRITISH : Fight with artillery and tanks (Iran)",
-              "title_en": "AIR FORCE → BRITISH : Fight with artillery and tanks (Iran)",
-              "summary": "GDELT Event: Fight with artillery and tanks. Actors: AIR FORCE / BRITISH. Location: Iran. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "summary_en": "GDELT Event: Fight with artillery and tanks. Actors: AIR FORCE / BRITISH. Location: Iran. Goldstein Scale: -10.0. Mentioned in 2 sources.",
-              "source": "gdelt",
-              "source_label": "bhpioneer.com",
-              "date": "2026-10-04",
-              "url": "https://www.bhpioneer.com/national_news/ap-news-summary-at-6-40-p-m-edt/article_ad2b6248-e756-515c-9578-a551e84fd01a.html",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 2,
-                "sources": 1,
-                "articles": 2,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1326292864",
-                "event_code": "194",
-                "cameo_desc": "Fight with artillery and tanks",
-                "actor1": "AIR FORCE",
-                "actor2": "BRITISH",
-                "actor1_country": "nan",
-                "actor2_country": "GBR",
-                "geo_lat": 32.0,
-                "geo_lon": 53.0,
-                "geo_name": "Iran"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1326460953",
               "title": "IRAN → nan : Occupy territory (Iran)",
@@ -4205,6 +4271,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1331334219",
+              "title": "INTERNATIONAL MARITIME ORGANIZATION → nan : Use conventional military force, not specified below (Gulf Of Oman, Iran (general), Iran)",
+              "title_en": "INTERNATIONAL MARITIME ORGANIZATION → nan : Use conventional military force, not specified below (Gulf Of Oman, Iran (general), Iran)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: INTERNATIONAL MARITIME ORGANIZATION / nan. Location: Gulf Of Oman, Iran (general), Iran. Goldstein Scale: -10.0. Mentioned in 5 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: INTERNATIONAL MARITIME ORGANIZATION / nan. Location: Gulf Of Oman, Iran (general), Iran. Goldstein Scale: -10.0. Mentioned in 5 sources.",
+              "source": "gdelt",
+              "source_label": "middle-east-online.com",
+              "date": "2026-11-03",
+              "url": "https://www.middle-east-online.com/en/iran-exempts-ships-four-countries-strait-hormuz-transit-restrictions",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 5,
+                "sources": 1,
+                "articles": 5,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1331334219",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "INTERNATIONAL MARITIME ORGANIZATION",
+                "actor2": "nan",
+                "actor1_country": "nan",
+                "actor2_country": "nan",
+                "geo_lat": 25.4489,
+                "geo_lon": 57.7939,
+                "geo_name": "Gulf Of Oman, Iran (general), Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -4515,40 +4614,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1326292935",
-              "title": "SUDAN → VILLAGER : Abduct, hijack, or take hostage (Poonch, Azad Kashmir, Pakistan)",
-              "title_en": "SUDAN → VILLAGER : Abduct, hijack, or take hostage (Poonch, Azad Kashmir, Pakistan)",
-              "summary": "GDELT Event: Abduct, hijack, or take hostage. Actors: SUDAN / VILLAGER. Location: Poonch, Azad Kashmir, Pakistan. Goldstein Scale: -9.0. Mentioned in 2 sources.",
-              "summary_en": "GDELT Event: Abduct, hijack, or take hostage. Actors: SUDAN / VILLAGER. Location: Poonch, Azad Kashmir, Pakistan. Goldstein Scale: -9.0. Mentioned in 2 sources.",
-              "source": "gdelt",
-              "source_label": "tribuneindia.com",
-              "date": "2026-10-04",
-              "url": "https://www.tribuneindia.com/news/j-k/security-forces-intensify-vigil-amid-reports-of-terrorist-movement-in-jammu-region/",
-              "primary_conflict": "sudan",
-              "metrics": {
-                "mentions": 2,
-                "sources": 1,
-                "articles": 2,
-                "goldstein": -9.0
-              },
-              "gdelt_meta": {
-                "event_id": "1326292935",
-                "event_code": "181",
-                "cameo_desc": "Abduct, hijack, or take hostage",
-                "actor1": "SUDAN",
-                "actor2": "VILLAGER",
-                "actor1_country": "SDN",
-                "actor2_country": "nan",
-                "geo_lat": 33.8169,
-                "geo_lon": 73.8252,
-                "geo_name": "Poonch, Azad Kashmir, Pakistan"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3",
-              "criticality": "background"
-            },
             {
               "id": "gdelt_1327019792",
               "title": "SUDAN → SAUDI ARABIA : Use conventional military force, not specified below (Sudan)",
@@ -5713,13 +5778,13 @@
     }
   },
   "stats": {
-    "total_items": 160,
+    "total_items": 162,
     "sources": {
-      "gdelt": 160
+      "gdelt": 162
     },
     "date_range": {
-      "from": "2026-10-04",
-      "to": "2026-11-02"
+      "from": "2026-10-05",
+      "to": "2026-11-03"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
