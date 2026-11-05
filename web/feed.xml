@@ -5,8 +5,68 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 04 Nov 2026 14:02:45 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 14:18:34 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] UKRAINIAN → RUSSIAN : Employ aerial weapons (Dnipro, Ukraine (general), Ukraine)</title>
+      <link>https://www.politico.eu/article/ukraine-accession-path-eu-membership-wobbles-european-commission-brussels-caution/</link>
+      <description>GDELT Event: Employ aerial weapons. Actors: UKRAINIAN / RUSSIAN. Location: Dnipro, Ukraine (general), Ukraine. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">https://www.politico.eu/article/ukraine-accession-path-eu-membership-wobbles-european-commission-brussels-caution/</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.politico.eu/article/ukraine-accession-path-eu-membership-wobbles-european-commission-brussels-caution/">politico.eu</source>
+    </item>
+    <item>
+      <title>[巴以冲突] AFGHANISTAN → nan : Torture (Israel)</title>
+      <link>https://kyrs.org/show/codepink-radio/</link>
+      <description>GDELT Event: Torture. Actors: AFGHANISTAN / nan. Location: Israel. Goldstein Scale: -9.0. Mentioned in 5 sources.</description>
+      <guid isPermaLink="true">https://kyrs.org/show/codepink-radio/</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://kyrs.org/show/codepink-radio/">kyrs.org</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAEL → IRANIAN : Use conventional military force, not specified below (Michigan, United States)</title>
+      <link>https://www.ynetnews.com/article/h1airtwtfg</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / IRANIAN. Location: Michigan, United States. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">https://www.ynetnews.com/article/h1airtwtfg</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.ynetnews.com/article/h1airtwtfg">ynetnews.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] LOUISIANA → ISRAEL : Arrest, detain, or charge with legal action (Mississippi, United States)</title>
+      <link>https://www.latintimes.com/ice-rearrested-immigrants-after-court-ordered-releases-600860</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: LOUISIANA / ISRAEL. Location: Mississippi, United States. Goldstein Scale: -5.0. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://www.latintimes.com/ice-rearrested-immigrants-after-court-ordered-releases-600860</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>外交谈判</category>
+      <source url="https://www.latintimes.com/ice-rearrested-immigrants-after-court-ordered-releases-600860">latintimes.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] MALAYSIA → PALESTINIAN : Demonstrate or rally (Malaysia)</title>
+      <link>https://www.freemalaysiatoday.com/category/nation/2026/11/04/rights-groups-question-need-for-curbs-on-rohingyas</link>
+      <description>GDELT Event: Demonstrate or rally. Actors: MALAYSIA / PALESTINIAN. Location: Malaysia. Goldstein Scale: -6.5. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://www.freemalaysiatoday.com/category/nation/2026/11/04/rights-groups-question-need-for-curbs-on-rohingyas</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>舆论热点</category>
+      <source url="https://www.freemalaysiatoday.com/category/nation/2026/11/04/rights-groups-question-need-for-curbs-on-rohingyas">freemalaysiatoday.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] INTERNATIONAL MARITIME ORGANIZATION → nan : Use conventional military force, not specified below (Gulf Of Oman, Iran (general), Iran)</title>
+      <link>https://www.middle-east-online.com/en/iran-exempts-ships-four-countries-strait-hormuz-transit-restrictions</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: INTERNATIONAL MARITIME ORGANIZATION / nan. Location: Gulf Of Oman, Iran (general), Iran. Goldstein Scale: -10.0. Mentioned in 5 sources.</description>
+      <guid isPermaLink="true">https://www.middle-east-online.com/en/iran-exempts-ships-four-countries-strait-hormuz-transit-restrictions</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://www.middle-east-online.com/en/iran-exempts-ships-four-countries-strait-hormuz-transit-restrictions">middle-east-online.com</source>
+    </item>
     <item>
       <title>[俄乌战争] RUSSIAN → UKRAINE : Use conventional military force, not specified below (Kherson, Khersons'ka Oblast', Ukraine)</title>
       <link>https://www.canberratimes.com.au/story/9384723/russian-bombing-kills-26-in-ukraine-village-school/</link>
@@ -446,66 +506,6 @@
       <category>美伊对峙</category>
       <category>军事动态</category>
       <source url="https://www.whmi.com/news/fox/nearly-1000-arrested-across-france-police-find-potential-weapons-protestors">whmi.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] US OFFICIAL → IRAN : Use conventional military force, not specified below (Iran)</title>
-      <link>https://ksevradio.com/the-media-line-pentagon-presents-president-trump-with-options-for-renewed-iran-strikes/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: US OFFICIAL / IRAN. Location: Iran. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://ksevradio.com/the-media-line-pentagon-presents-president-trump-with-options-for-renewed-iran-strikes/</guid>
-      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://ksevradio.com/the-media-line-pentagon-presents-president-trump-with-options-for-renewed-iran-strikes/">ksevradio.com</source>
-    </item>
-    <item>
-      <title>[也门/胡塞武装] SAUDI ARABIA → YEMEN : Employ aerial weapons (Hamam, Saudi Arabia (general), Saudi Arabia)</title>
-      <link>https://www.presstv.co.uk/Detail/2026/10/23/779024/At-least-three-killed-in-Saudi-airstrikes-Yemen%E2%80%99s-capital</link>
-      <description>GDELT Event: Employ aerial weapons. Actors: SAUDI ARABIA / YEMEN. Location: Hamam, Saudi Arabia (general), Saudi Arabia. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://www.presstv.co.uk/Detail/2026/10/23/779024/At-least-three-killed-in-Saudi-airstrikes-Yemen%E2%80%99s-capital</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <category>也门/胡塞武装</category>
-      <category>军事动态</category>
-      <source url="https://www.presstv.co.uk/Detail/2026/10/23/779024/At-least-three-killed-in-Saudi-airstrikes-Yemen%E2%80%99s-capital">presstv.co.uk</source>
-    </item>
-    <item>
-      <title>[也门/胡塞武装] YEMEN → DJIBOUTI : Employ aerial weapons (Riyadh, Ar Riya?, Saudi Arabia)</title>
-      <link>https://tribune.com.pk/story/2636650/regional-powers-back-islamabad-mou</link>
-      <description>GDELT Event: Employ aerial weapons. Actors: YEMEN / DJIBOUTI. Location: Riyadh, Ar Riya?, Saudi Arabia. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://tribune.com.pk/story/2636650/regional-powers-back-islamabad-mou</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <category>也门/胡塞武装</category>
-      <category>军事动态</category>
-      <source url="https://tribune.com.pk/story/2636650/regional-powers-back-islamabad-mou">tribune.com.pk</source>
-    </item>
-    <item>
-      <title>[俄乌战争] YEMEN → SAUDI : Use conventional military force, not specified below (Moscow, Moskva, Russia)</title>
-      <link>https://www.businesstimes.com.sg/companies-markets/energy-commodities/oil-rises-deadly-saudi-attacks-fan-middle-east-supply-fears</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: YEMEN / SAUDI. Location: Moscow, Moskva, Russia. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">https://www.businesstimes.com.sg/companies-markets/energy-commodities/oil-rises-deadly-saudi-attacks-fan-middle-east-supply-fears</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://www.businesstimes.com.sg/companies-markets/energy-commodities/oil-rises-deadly-saudi-attacks-fan-middle-east-supply-fears">businesstimes.com.sg</source>
-    </item>
-    <item>
-      <title>[俄乌战争] RUSSIAN → IRAN : Use conventional military force, not specified below (Moscow, Moskva, Russia)</title>
-      <link>https://www.latintimes.com/russia-launches-first-diesel-tanker-us-drone-hit-refineries-cast-doubt-deal-600464</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: RUSSIAN / IRAN. Location: Moscow, Moskva, Russia. Goldstein Scale: -10.0. Mentioned in 3 sources.</description>
-      <guid isPermaLink="true">https://www.latintimes.com/russia-launches-first-diesel-tanker-us-drone-hit-refineries-cast-doubt-deal-600464</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://www.latintimes.com/russia-launches-first-diesel-tanker-us-drone-hit-refineries-cast-doubt-deal-600464">latintimes.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] UNITED STATES → UKRAINE : Physically assault, not specified below (White House, District of Columbia, United States)</title>
-      <link>https://www.odnako.org/nato-warns-if-attacked-we-will-fight-and-moscow-freezes-the-truce-kiev-6-power-plants-hit-after-trumps-announcement/</link>
-      <description>GDELT Event: Physically assault, not specified below. Actors: UNITED STATES / UKRAINE. Location: White House, District of Columbia, United States. Goldstein Scale: -9.5. Mentioned in 1 sources.</description>
-      <guid isPermaLink="true">https://www.odnako.org/nato-warns-if-attacked-we-will-fight-and-moscow-freezes-the-truce-kiev-6-power-plants-hit-after-trumps-announcement/</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://www.odnako.org/nato-warns-if-attacked-we-will-fight-and-moscow-freezes-the-truce-kiev-6-power-plants-hit-after-trumps-announcement/">odnako.org</source>
     </item>
   </channel>
 </rss>
