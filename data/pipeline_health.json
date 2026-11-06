@@ -1,16 +1,11 @@
 {
-  "generated_at": "2026-11-05T14:18:50+00:00",
-  "latest_updated_at": "2026-11-05T14:18:50.228258+00:00",
-  "total_unique_items": 166,
+  "generated_at": "2026-11-06T14:00:52+00:00",
+  "latest_updated_at": "2026-11-06T14:00:52.705672+00:00",
+  "total_unique_items": 173,
   "by_source": {
-    "gdelt": 166
+    "gdelt": 173
   },
   "top_domains": {
-    "english.aawsat.com": {
-      "count": 6,
-      "last_date": "2026-10-15",
-      "orphans": 0
-    },
     "dailymail.com": {
       "count": 5,
       "last_date": "2026-10-24",
@@ -24,6 +19,11 @@
     "aa.com.tr": {
       "count": 4,
       "last_date": "2026-10-10",
+      "orphans": 0
+    },
+    "english.aawsat.com": {
+      "count": 4,
+      "last_date": "2026-10-15",
       "orphans": 0
     },
     "clevelandjewishnews.com": {
@@ -46,14 +46,34 @@
       "last_date": "2026-10-20",
       "orphans": 0
     },
+    "theyeshivaworld.com": {
+      "count": 3,
+      "last_date": "2026-11-05",
+      "orphans": 0
+    },
     "nzherald.co.nz": {
       "count": 3,
       "last_date": "2026-11-02",
       "orphans": 0
     },
+    "dailypioneer.com": {
+      "count": 3,
+      "last_date": "2026-11-05",
+      "orphans": 0
+    },
+    "japantoday.com": {
+      "count": 3,
+      "last_date": "2026-11-05",
+      "orphans": 0
+    },
     "algemeiner.com": {
       "count": 3,
       "last_date": "2026-10-07",
+      "orphans": 0
+    },
+    "jpost.com": {
+      "count": 3,
+      "last_date": "2026-11-05",
       "orphans": 0
     },
     "news.antiwar.com": {
@@ -85,33 +105,9 @@
       "count": 2,
       "last_date": "2026-11-02",
       "orphans": 0
-    },
-    "radaronline.com": {
-      "count": 2,
-      "last_date": "2026-11-04",
-      "orphans": 0
-    },
-    "news.crossmap.com": {
-      "count": 2,
-      "last_date": "2026-10-21",
-      "orphans": 0
-    },
-    "bostonglobe.com": {
-      "count": 2,
-      "last_date": "2026-10-22",
-      "orphans": 0
-    },
-    "al-monitor.com": {
-      "count": 2,
-      "last_date": "2026-10-07",
-      "orphans": 0
     }
   },
   "date_histogram": [
-    {
-      "date": "2026-10-23",
-      "count": 2
-    },
     {
       "date": "2026-10-24",
       "count": 4
@@ -162,17 +158,21 @@
     },
     {
       "date": "2026-11-05",
+      "count": 12
+    },
+    {
+      "date": "2026-11-06",
       "count": 0
     }
   ],
   "llm_coverage": {
-    "total": 166,
-    "criticality_coverage": 0.1627,
+    "total": 173,
+    "criticality_coverage": 0.1561,
     "title_en_coverage": 1.0,
     "summary_en_coverage": 1.0,
     "clustered": 0,
     "cross_bias_items": 0,
-    "missing_criticality": 139,
+    "missing_criticality": 146,
     "missing_title_en": 0,
     "missing_summary_en": 0
   },
@@ -186,8 +186,8 @@
     {
       "code": "high_missing_criticality",
       "severity": "warn",
-      "message": "BLUF 缺失率 83.7% (>5%)",
-      "missing": 139
+      "message": "BLUF 缺失率 84.4% (>5%)",
+      "missing": 146
     }
   ],
   "status": "degraded"
