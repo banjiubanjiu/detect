@@ -5,8 +5,68 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 07 Nov 2026 12:44:50 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 13:02:26 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] FINLAND → RUSSIAN : Impose blockade, restrict movement (Finland)</title>
+      <link>https://news.az/news/finland-considers-tighter-entry-rules-for-russian-athletes</link>
+      <description>GDELT Event: Impose blockade, restrict movement. Actors: FINLAND / RUSSIAN. Location: Finland. Goldstein Scale: -9.5. Mentioned in 3 sources.</description>
+      <guid isPermaLink="true">https://news.az/news/finland-considers-tighter-entry-rules-for-russian-athletes</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://news.az/news/finland-considers-tighter-entry-rules-for-russian-athletes">news.az</source>
+    </item>
+    <item>
+      <title>[俄乌战争] RUSSIA → MALE : Impose administrative sanctions, not specified below (Moscow, Moskva, Russia)</title>
+      <link>https://tribune.com.pk/story/2639092/newsroom-bomb-threats-add-to-euro-flight-hoaxes</link>
+      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: RUSSIA / MALE. Location: Moscow, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://tribune.com.pk/story/2639092/newsroom-bomb-threats-add-to-euro-flight-hoaxes</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>外交谈判</category>
+      <source url="https://tribune.com.pk/story/2639092/newsroom-bomb-threats-add-to-euro-flight-hoaxes">tribune.com.pk</source>
+    </item>
+    <item>
+      <title>[美伊对峙] PAKISTAN → TEHRAN : Use conventional military force, not specified below (Kartarpur, Punjab, Pakistan)</title>
+      <link>https://tribune.com.pk/story/2639098/pakistan-says-us-midterm-results-wont-unravel-ties</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: PAKISTAN / TEHRAN. Location: Kartarpur, Punjab, Pakistan. Goldstein Scale: -10.0. Mentioned in 7 sources.</description>
+      <guid isPermaLink="true">https://tribune.com.pk/story/2639098/pakistan-says-us-midterm-results-wont-unravel-ties</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://tribune.com.pk/story/2639098/pakistan-says-us-midterm-results-wont-unravel-ties">tribune.com.pk</source>
+    </item>
+    <item>
+      <title>[美伊对峙] VOTER → nan : Impose administrative sanctions, not specified below (Iran)</title>
+      <link>https://tribune.com.pk/story/2639033/message-hiding-in-plain-sight</link>
+      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: VOTER / nan. Location: Iran. Goldstein Scale: -5.0. Mentioned in 7 sources.</description>
+      <guid isPermaLink="true">https://tribune.com.pk/story/2639033/message-hiding-in-plain-sight</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>外交谈判</category>
+      <source url="https://tribune.com.pk/story/2639033/message-hiding-in-plain-sight">tribune.com.pk</source>
+    </item>
+    <item>
+      <title>[美伊对峙] MAYOR → nan : Impose administrative sanctions, not specified below (Iran)</title>
+      <link>https://montrealgazette.com/news/hampstead-mayor-jeremy-levi-sanctioned-fined/</link>
+      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: MAYOR / nan. Location: Iran. Goldstein Scale: -5.0. Mentioned in 3 sources.</description>
+      <guid isPermaLink="true">https://montrealgazette.com/news/hampstead-mayor-jeremy-levi-sanctioned-fined/</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>外交谈判</category>
+      <source url="https://montrealgazette.com/news/hampstead-mayor-jeremy-levi-sanctioned-fined/">montrealgazette.com</source>
+    </item>
+    <item>
+      <title>[也门/胡塞武装] MEDIA → CIVILIAN : Fight with artillery and tanks (Jawf, Abyan, Yemen)</title>
+      <link>https://www.nbcnews.com/world/yemen/airstrikes-market-southwestern-yemen-kill-least-30-houthis-say-rcna607908</link>
+      <description>GDELT Event: Fight with artillery and tanks. Actors: MEDIA / CIVILIAN. Location: Jawf, Abyan, Yemen. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.nbcnews.com/world/yemen/airstrikes-market-southwestern-yemen-kill-least-30-houthis-say-rcna607908</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <category>也门/胡塞武装</category>
+      <category>军事动态</category>
+      <source url="https://www.nbcnews.com/world/yemen/airstrikes-market-southwestern-yemen-kill-least-30-houthis-say-rcna607908">nbcnews.com</source>
+    </item>
     <item>
       <title>[俄乌战争] RUSSIA → nan : Employ aerial weapons (Komyshuvakha, Zaporiz'ka Oblast', Ukraine)</title>
       <link>https://www.theyeshivaworld.com/news/general/2619747/ukraine-horror-death-toll-at-komyshuvakha-aid-site-rises-to-42.html</link>
@@ -446,66 +506,6 @@
       <category>巴以冲突</category>
       <category>军事动态</category>
       <source url="https://pjmedia.com/rick-moran/2026/10/30/has-netanyahu-reached-the-end-of-the-road-n4958845">pjmedia.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] UNITED STATES → nan : Abduct, hijack, or take hostage (Gaza, Israel (general), Israel)</title>
-      <link>https://www.dailygazette.com/hv360/opinion/letters-for-saturday-october-31-2026/article_a3195454-6912-453b-ac24-78983c079d96.html</link>
-      <description>GDELT Event: Abduct, hijack, or take hostage. Actors: UNITED STATES / nan. Location: Gaza, Israel (general), Israel. Goldstein Scale: -9.0. Mentioned in 1 sources.</description>
-      <guid isPermaLink="true">https://www.dailygazette.com/hv360/opinion/letters-for-saturday-october-31-2026/article_a3195454-6912-453b-ac24-78983c079d96.html</guid>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.dailygazette.com/hv360/opinion/letters-for-saturday-october-31-2026/article_a3195454-6912-453b-ac24-78983c079d96.html">dailygazette.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ORGANIZED CRIME → nan : Use unconventional violence, not specified below (Gaza, Israel (general), Israel)</title>
-      <link>http://www.jpost.com/opinion/article-913305</link>
-      <description>GDELT Event: Use unconventional violence, not specified below. Actors: ORGANIZED CRIME / nan. Location: Gaza, Israel (general), Israel. Goldstein Scale: -9.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">http://www.jpost.com/opinion/article-913305</guid>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="http://www.jpost.com/opinion/article-913305">jpost.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] nan → WRITER : Use conventional military force, not specified below (Dagestan, Dagestan, Russia)</title>
-      <link>https://finchannel.com/americans-abuse-account-and-jew-photo-renew-focus-on-russian-torture/139333/russian-invasion-of-ukraine/2026/10/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: nan / WRITER. Location: Dagestan, Dagestan, Russia. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">https://finchannel.com/americans-abuse-account-and-jew-photo-renew-focus-on-russian-torture/139333/russian-invasion-of-ukraine/2026/10/</guid>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://finchannel.com/americans-abuse-account-and-jew-photo-renew-focus-on-russian-torture/139333/russian-invasion-of-ukraine/2026/10/">finchannel.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] HAMAS → nan : Use conventional military force, not specified below (Gaza, Israel (general), Israel)</title>
-      <link>https://www.crikey.com.au/2026/10/29/israel-genocide-gaza-extermination-west-bank-un-report-netanyahu-election/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: HAMAS / nan. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://www.crikey.com.au/2026/10/29/israel-genocide-gaza-extermination-west-bank-un-report-netanyahu-election/</guid>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.crikey.com.au/2026/10/29/israel-genocide-gaza-extermination-west-bank-un-report-netanyahu-election/">crikey.com.au</source>
-    </item>
-    <item>
-      <title>[美伊对峙] IRAN → IRAN : Use conventional military force, not specified below (Washington, District of Columbia, United States)</title>
-      <link>https://www.mercurynews.com/2026/10/28/iran-us-midterm-elections/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: IRAN / IRAN. Location: Washington, District of Columbia, United States. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://www.mercurynews.com/2026/10/28/iran-us-midterm-elections/</guid>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://www.mercurynews.com/2026/10/28/iran-us-midterm-elections/">mercurynews.com</source>
-    </item>
-    <item>
-      <title>[台海局势] TAIWAN → YAMANASHI : Arrest, detain, or charge with legal action (Taiwan)</title>
-      <link>https://japantoday.com/category/crime/husband-of-woman-found-dead-in-yamanashi-hotel-room-arrested-in-taiwan</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: TAIWAN / YAMANASHI. Location: Taiwan. Goldstein Scale: -5.0. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">https://japantoday.com/category/crime/husband-of-woman-found-dead-in-yamanashi-hotel-room-arrested-in-taiwan</guid>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <category>台海局势</category>
-      <category>外交谈判</category>
-      <source url="https://japantoday.com/category/crime/husband-of-woman-found-dead-in-yamanashi-hotel-room-arrested-in-taiwan">japantoday.com</source>
     </item>
   </channel>
 </rss>
