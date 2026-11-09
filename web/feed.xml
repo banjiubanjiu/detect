@@ -5,8 +5,58 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 08 Nov 2026 13:02:26 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 15:36:40 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] RUSSIA → nan : Fight with small arms and light weapons (Hollywood, California, United States)</title>
+      <link>https://collider.com/tom-hanks-hbo-from-the-earth-to-the-moon-miniseries/</link>
+      <description>GDELT Event: Fight with small arms and light weapons. Actors: RUSSIA / nan. Location: Hollywood, California, United States. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">https://collider.com/tom-hanks-hbo-from-the-earth-to-the-moon-miniseries/</guid>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://collider.com/tom-hanks-hbo-from-the-earth-to-the-moon-miniseries/">collider.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] THE US → IRANIAN : Use conventional military force, not specified below (Israel)</title>
+      <link>https://nypost.com/2026/11/07/world-news/trump-confirms-fresh-us-strike-on-iran-defenses/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: THE US / IRANIAN. Location: Israel. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://nypost.com/2026/11/07/world-news/trump-confirms-fresh-us-strike-on-iran-defenses/</guid>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://nypost.com/2026/11/07/world-news/trump-confirms-fresh-us-strike-on-iran-defenses/">nypost.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] CRIMINAL → nan : Arrest, detain, or charge with legal action (Israel)</title>
+      <link>https://huntnewsnu.com/94826/primary-homepage/ydsa-discusses-immigration-demonstration-policies-at-town-hall-meeting-following-democratic-midterm-sweep/</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: CRIMINAL / nan. Location: Israel. Goldstein Scale: -5.0. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">https://huntnewsnu.com/94826/primary-homepage/ydsa-discusses-immigration-demonstration-policies-at-town-hall-meeting-following-democratic-midterm-sweep/</guid>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>外交谈判</category>
+      <source url="https://huntnewsnu.com/94826/primary-homepage/ydsa-discusses-immigration-demonstration-policies-at-town-hall-meeting-following-democratic-midterm-sweep/">huntnewsnu.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] IRANIAN → PRESIDENT : Demonstrate or rally (Qeshm, Kordestan, Iran)</title>
+      <link>https://www.aol.co.uk/articles/donald-trump-insists-total-control-225448000.html</link>
+      <description>GDELT Event: Demonstrate or rally. Actors: IRANIAN / PRESIDENT. Location: Qeshm, Kordestan, Iran. Goldstein Scale: -6.5. Mentioned in 8 sources.</description>
+      <guid isPermaLink="true">https://www.aol.co.uk/articles/donald-trump-insists-total-control-225448000.html</guid>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>舆论热点</category>
+      <source url="https://www.aol.co.uk/articles/donald-trump-insists-total-control-225448000.html">aol.co.uk</source>
+    </item>
+    <item>
+      <title>[也门/胡塞武装] HEALTH MINIST → YEMEN : Employ aerial weapons (Sanaa, Sana', Yemen)</title>
+      <link>https://www.al-monitor.com/originals/2026/11/houthi-run-health-ministry-says-airstrikes-it-blames-saudi-arabia-kill-27-near</link>
+      <description>GDELT Event: Employ aerial weapons. Actors: HEALTH MINIST / YEMEN. Location: Sanaa, Sana', Yemen. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://www.al-monitor.com/originals/2026/11/houthi-run-health-ministry-says-airstrikes-it-blames-saudi-arabia-kill-27-near</guid>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+      <category>也门/胡塞武装</category>
+      <category>军事动态</category>
+      <source url="https://www.al-monitor.com/originals/2026/11/houthi-run-health-ministry-says-airstrikes-it-blames-saudi-arabia-kill-27-near">al-monitor.com</source>
+    </item>
     <item>
       <title>[俄乌战争] FINLAND → RUSSIAN : Impose blockade, restrict movement (Finland)</title>
       <link>https://news.az/news/finland-considers-tighter-entry-rules-for-russian-athletes</link>
@@ -456,56 +506,6 @@
       <category>美伊对峙</category>
       <category>军事动态</category>
       <source url="https://www.cei.int/ansa/181953">cei.int</source>
-    </item>
-    <item>
-      <title>[也门/胡塞武装] CIVILIAN → SAUDI : Conduct suicide, car, or other non-military bombing, not spec below (Al-Jawf, Al Bay?a', Yemen)</title>
-      <link>https://news.antiwar.com/2026/11/01/saudi-attacks-in-yemen-have-killed-232-civilians-since-july-health-ministry/</link>
-      <description>GDELT Event: Conduct suicide, car, or other non-military bombing, not spec below. Actors: CIVILIAN / SAUDI. Location: Al-Jawf, Al Bay?a', Yemen. Goldstein Scale: -10.0. Mentioned in 3 sources.</description>
-      <guid isPermaLink="true">https://news.antiwar.com/2026/11/01/saudi-attacks-in-yemen-have-killed-232-civilians-since-july-health-ministry/</guid>
-      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
-      <category>也门/胡塞武装</category>
-      <category>军事动态</category>
-      <source url="https://news.antiwar.com/2026/11/01/saudi-attacks-in-yemen-have-killed-232-civilians-since-july-health-ministry/">news.antiwar.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] UKRAINE → BUSINESS : Use unconventional violence, not specified below (Black Sea, Oceans (general), Oceans)</title>
-      <link>https://dominicanrepublicpost.com/turkiyes-erdogan-urges-russia-and-ukraine-to-stop-black-sea-attacks/</link>
-      <description>GDELT Event: Use unconventional violence, not specified below. Actors: UKRAINE / BUSINESS. Location: Black Sea, Oceans (general), Oceans. Goldstein Scale: -9.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://dominicanrepublicpost.com/turkiyes-erdogan-urges-russia-and-ukraine-to-stop-black-sea-attacks/</guid>
-      <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://dominicanrepublicpost.com/turkiyes-erdogan-urges-russia-and-ukraine-to-stop-black-sea-attacks/">dominicanrepublicpost.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] CHERNOBYL → nan : Impose curfew (Russia)</title>
-      <link>https://www.sciencealert.com/chernobyls-dogs-are-genetically-different-and-we-may-finally-know-why</link>
-      <description>GDELT Event: Impose curfew. Actors: CHERNOBYL / nan. Location: Russia. Goldstein Scale: -5.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://www.sciencealert.com/chernobyls-dogs-are-genetically-different-and-we-may-finally-know-why</guid>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>外交谈判</category>
-      <source url="https://www.sciencealert.com/chernobyls-dogs-are-genetically-different-and-we-may-finally-know-why">sciencealert.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] nan → NEIGHBORHOOD : Engage in ethnic cleansing (Hebron, Israel (general), Israel)</title>
-      <link>https://econotimes.com/Israel-s-Hebron-Operation-Forcibly-Displaces-More-Than-3-000-Palestinians-1767400</link>
-      <description>GDELT Event: Engage in ethnic cleansing. Actors: nan / NEIGHBORHOOD. Location: Hebron, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://econotimes.com/Israel-s-Hebron-Operation-Forcibly-Displaces-More-Than-3-000-Palestinians-1767400</guid>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://econotimes.com/Israel-s-Hebron-Operation-Forcibly-Displaces-More-Than-3-000-Palestinians-1767400">econotimes.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAELI → GOVERNMENT : Fight with small arms and light weapons (Israel)</title>
-      <link>https://pjmedia.com/rick-moran/2026/10/30/has-netanyahu-reached-the-end-of-the-road-n4958845</link>
-      <description>GDELT Event: Fight with small arms and light weapons. Actors: ISRAELI / GOVERNMENT. Location: Israel. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://pjmedia.com/rick-moran/2026/10/30/has-netanyahu-reached-the-end-of-the-road-n4958845</guid>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://pjmedia.com/rick-moran/2026/10/30/has-netanyahu-reached-the-end-of-the-road-n4958845">pjmedia.com</source>
     </item>
   </channel>
 </rss>
