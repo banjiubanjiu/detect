@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T14:37:47+00:00Z",
+  "updated_at": "2026-11-11T13:51:47+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -1016,39 +1016,6 @@
           "icon": "🕊️",
           "items": [
             {
-              "id": "gdelt_1327439176",
-              "title": "RUSSIA → ASYLUM SEEKER : Impose administrative sanctions, not specified below (Kremlin, Moskva, Russia)",
-              "title_en": "RUSSIA → ASYLUM SEEKER : Impose administrative sanctions, not specified below (Kremlin, Moskva, Russia)",
-              "summary": "GDELT Event: Impose administrative sanctions, not specified below. Actors: RUSSIA / ASYLUM SEEKER. Location: Kremlin, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 4 sources.",
-              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: RUSSIA / ASYLUM SEEKER. Location: Kremlin, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 4 sources.",
-              "source": "gdelt",
-              "source_label": "ghanamma.com",
-              "date": "2026-10-11",
-              "url": "https://www.ghanamma.com/2026/10/11/nigel-farage-vows-to-ban-asylum-seekers-and-deport-90000-people-if-reform-wins/",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 4,
-                "sources": 1,
-                "articles": 4,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1327439176",
-                "event_code": "172",
-                "cameo_desc": "Impose administrative sanctions, not specified below",
-                "actor1": "RUSSIA",
-                "actor2": "ASYLUM SEEKER",
-                "actor1_country": "RUS",
-                "actor2_country": "nan",
-                "geo_lat": 55.7522,
-                "geo_lon": 37.6156,
-                "geo_name": "Kremlin, Moskva, Russia"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
               "id": "gdelt_1328192833",
               "title": "RUSSIAN → UKRAINE : Impose administrative sanctions, not specified below (Russia)",
               "title_en": "RUSSIAN → UKRAINE : Impose administrative sanctions, not specified below (Russia)",
@@ -1571,6 +1538,105 @@
                 "geo_lat": 43.4108,
                 "geo_lon": -71.5653,
                 "geo_name": "New Hampshire, United States"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1332490245",
+              "title": "RUSSIA → ARMY : Arrest, detain, or charge with legal action (Moscow, Moskva, Russia)",
+              "title_en": "RUSSIA → ARMY : Arrest, detain, or charge with legal action (Moscow, Moskva, Russia)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: RUSSIA / ARMY. Location: Moscow, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 8 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: RUSSIA / ARMY. Location: Moscow, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 8 sources.",
+              "source": "gdelt",
+              "source_label": "japantoday.com",
+              "date": "2026-11-10",
+              "url": "https://japantoday.com/category/world/us-soldier-arrested-in-britain-on-suspicion-of-espionage-linked-to-russia",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 8,
+                "sources": 1,
+                "articles": 8,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1332490245",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "RUSSIA",
+                "actor2": "ARMY",
+                "actor1_country": "RUS",
+                "actor2_country": "nan",
+                "geo_lat": 55.7522,
+                "geo_lon": 37.6156,
+                "geo_name": "Moscow, Moskva, Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1332489953",
+              "title": "UNITED KINGDOM → RUSSIA : Arrest, detain, or charge with legal action (Fairford, Gloucestershire, United Kingdom)",
+              "title_en": "UNITED KINGDOM → RUSSIA : Arrest, detain, or charge with legal action (Fairford, Gloucestershire, United Kingdom)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: UNITED KINGDOM / RUSSIA. Location: Fairford, Gloucestershire, United Kingdom. Goldstein Scale: -5.0. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: UNITED KINGDOM / RUSSIA. Location: Fairford, Gloucestershire, United Kingdom. Goldstein Scale: -5.0. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "grenadachronicle.com",
+              "date": "2026-11-10",
+              "url": "https://grenadachronicle.com/us-soldier-arrested-in-uk-on-suspicion-of-spying-for-russia/",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1332489953",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "UNITED KINGDOM",
+                "actor2": "RUSSIA",
+                "actor1_country": "GBR",
+                "actor2_country": "RUS",
+                "geo_lat": 51.7,
+                "geo_lon": -1.78333,
+                "geo_name": "Fairford, Gloucestershire, United Kingdom"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1332490250",
+              "title": "RUSSIA → THE US : Arrest, detain, or charge with legal action (Moscow, Moskva, Russia)",
+              "title_en": "RUSSIA → THE US : Arrest, detain, or charge with legal action (Moscow, Moskva, Russia)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: RUSSIA / THE US. Location: Moscow, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: RUSSIA / THE US. Location: Moscow, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "smh.com.au",
+              "date": "2026-11-10",
+              "url": "https://www.smh.com.au/world/north-america/three-charged-of-plotting-attacks-on-raf-base-jewish-communities-for-iran-20261111-p61d50.html",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1332490250",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "RUSSIA",
+                "actor2": "THE US",
+                "actor1_country": "RUS",
+                "actor2_country": "USA",
+                "geo_lat": 55.7522,
+                "geo_lon": 37.6156,
+                "geo_name": "Moscow, Moskva, Russia"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -2738,6 +2804,39 @@
               "admiralty_source": "B",
               "admiralty_info": 3,
               "admiralty_code": "B3"
+            },
+            {
+              "id": "gdelt_1332490272",
+              "title": "SYRIAN → SYRIA : Assassinate (Israel)",
+              "title_en": "SYRIAN → SYRIA : Assassinate (Israel)",
+              "summary": "GDELT Event: Assassinate. Actors: SYRIAN / SYRIA. Location: Israel. Goldstein Scale: -10.0. Mentioned in 1 sources.",
+              "summary_en": "GDELT Event: Assassinate. Actors: SYRIAN / SYRIA. Location: Israel. Goldstein Scale: -10.0. Mentioned in 1 sources.",
+              "source": "gdelt",
+              "source_label": "arabnews.com",
+              "date": "2026-11-10",
+              "url": "https://www.arabnews.com/middle-east/restored-lebanon-syria-border-crossing-could-handle-10000-travelers-a-day-officials-say-3011064",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 1,
+                "sources": 1,
+                "articles": 1,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1332490272",
+                "event_code": "186",
+                "cameo_desc": "Assassinate",
+                "actor1": "SYRIAN",
+                "actor2": "SYRIA",
+                "actor1_country": "SYR",
+                "actor2_country": "SYR",
+                "geo_lat": 31.5,
+                "geo_lon": 34.75,
+                "geo_name": "Israel"
+              },
+              "admiralty_source": "B",
+              "admiralty_info": 3,
+              "admiralty_code": "B3"
             }
           ]
         },
@@ -2745,39 +2844,6 @@
           "label": "外交谈判",
           "icon": "🕊️",
           "items": [
-            {
-              "id": "gdelt_1327439083",
-              "title": "ISRAEL → nan : Arrest, detain, or charge with legal action (Mediterranean Sea, Oceans (general), Oceans)",
-              "title_en": "ISRAEL → nan : Arrest, detain, or charge with legal action (Mediterranean Sea, Oceans (general), Oceans)",
-              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: ISRAEL / nan. Location: Mediterranean Sea, Oceans (general), Oceans. Goldstein Scale: -5.0. Mentioned in 2 sources.",
-              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: ISRAEL / nan. Location: Mediterranean Sea, Oceans (general), Oceans. Goldstein Scale: -5.0. Mentioned in 2 sources.",
-              "source": "gdelt",
-              "source_label": "clevelandjewishnews.com",
-              "date": "2026-10-11",
-              "url": "https://www.clevelandjewishnews.com/jta/what-i-found-at-the-nyc-protest-on-oct-7-no-room-for-jewish-grief/article_ab7d6070-5cff-5a05-bd43-438e5881ec50.html",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 2,
-                "sources": 1,
-                "articles": 2,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1327439083",
-                "event_code": "173",
-                "cameo_desc": "Arrest, detain, or charge with legal action",
-                "actor1": "ISRAEL",
-                "actor2": "nan",
-                "actor1_country": "ISR",
-                "actor2_country": "nan",
-                "geo_lat": 35.0,
-                "geo_lon": 20.0,
-                "geo_name": "Mediterranean Sea, Oceans (general), Oceans"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1327995337",
               "title": "ADMINISTRATION → ISRAELI : Coerce, not specified below (Israel)",
@@ -3202,6 +3268,39 @@
                 "geo_lat": 31.5,
                 "geo_lon": 34.75,
                 "geo_name": "Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1332490510",
+              "title": "JOE BIDEN → STUDENT : Arrest, detain, or charge with legal action (Gaza, Israel (general), Israel)",
+              "title_en": "JOE BIDEN → STUDENT : Arrest, detain, or charge with legal action (Gaza, Israel (general), Israel)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: JOE BIDEN / STUDENT. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: JOE BIDEN / STUDENT. Location: Gaza, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "metro.co.uk",
+              "date": "2026-11-10",
+              "url": "https://metro.co.uk/2026/11/10/cartons-milk-thrown-joe-biden-students-ireland-29782664/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1332490510",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "JOE BIDEN",
+                "actor2": "STUDENT",
+                "actor1_country": "USA",
+                "actor2_country": "nan",
+                "geo_lat": 31.4167,
+                "geo_lon": 34.3333,
+                "geo_name": "Gaza, Israel (general), Israel"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -4643,74 +4742,6 @@
           "icon": "⚔️",
           "items": [
             {
-              "id": "gdelt_1327439295",
-              "title": "YEMEN → SAUDI ARABIA : Use conventional military force, not specified below (Yemen)",
-              "title_en": "YEMEN → SAUDI ARABIA : Use conventional military force, not specified below (Yemen)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: YEMEN / SAUDI ARABIA. Location: Yemen. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: YEMEN / SAUDI ARABIA. Location: Yemen. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "source": "gdelt",
-              "source_label": "kurv.com",
-              "date": "2026-10-11",
-              "url": "https://www.kurv.com/saudi-airport-hit-by-missile-attack-again-sunday/",
-              "primary_conflict": "yemen-houthi",
-              "metrics": {
-                "mentions": 10,
-                "sources": 1,
-                "articles": 10,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1327439295",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "YEMEN",
-                "actor2": "SAUDI ARABIA",
-                "actor1_country": "YEM",
-                "actor2_country": "SAU",
-                "geo_lat": 15.5,
-                "geo_lon": 47.5,
-                "geo_name": "Yemen"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3",
-              "criticality": "background"
-            },
-            {
-              "id": "gdelt_1327439185",
-              "title": "SAUDI ARABIA → nan : Use conventional military force, not specified below (Yemen)",
-              "title_en": "SAUDI ARABIA → nan : Use conventional military force, not specified below (Yemen)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: SAUDI ARABIA / nan. Location: Yemen. Goldstein Scale: -10.0. Mentioned in 4 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: SAUDI ARABIA / nan. Location: Yemen. Goldstein Scale: -10.0. Mentioned in 4 sources.",
-              "source": "gdelt",
-              "source_label": "english.news.cn",
-              "date": "2026-10-11",
-              "url": "https://english.news.cn/20261012/0364481e34464c56a6e84e1fdf76f4bd/c.html",
-              "primary_conflict": "yemen-houthi",
-              "metrics": {
-                "mentions": 4,
-                "sources": 1,
-                "articles": 4,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1327439185",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "SAUDI ARABIA",
-                "actor2": "nan",
-                "actor1_country": "SAU",
-                "actor2_country": "nan",
-                "geo_lat": 15.5,
-                "geo_lon": 47.5,
-                "geo_name": "Yemen"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3",
-              "criticality": "background"
-            },
-            {
               "id": "gdelt_1327798590",
               "title": "SAUDI → YEMEN : Employ aerial weapons (King Khalid International, Ar Riya?, Saudi Arabia)",
               "title_en": "SAUDI → YEMEN : Employ aerial weapons (King Khalid International, Ar Riya?, Saudi Arabia)",
@@ -5513,13 +5544,13 @@
     }
   },
   "stats": {
-    "total_items": 154,
+    "total_items": 155,
     "sources": {
-      "gdelt": 154
+      "gdelt": 155
     },
     "date_range": {
-      "from": "2026-10-11",
-      "to": "2026-11-09"
+      "from": "2026-10-12",
+      "to": "2026-11-10"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
