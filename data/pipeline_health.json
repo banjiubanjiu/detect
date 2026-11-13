@@ -1,16 +1,11 @@
 {
-  "generated_at": "2026-11-12T14:55:01+00:00",
-  "latest_updated_at": "2026-11-12T14:55:01.254014+00:00",
-  "total_unique_items": 162,
+  "generated_at": "2026-11-13T14:13:20+00:00",
+  "latest_updated_at": "2026-11-13T14:13:20.614054+00:00",
+  "total_unique_items": 161,
   "by_source": {
-    "gdelt": 162
+    "gdelt": 161
   },
   "top_domains": {
-    "arabnews.com": {
-      "count": 5,
-      "last_date": "2026-11-10",
-      "orphans": 0
-    },
     "news.crossmap.com": {
       "count": 5,
       "last_date": "2026-11-09",
@@ -19,6 +14,11 @@
     "dailymail.com": {
       "count": 4,
       "last_date": "2026-11-11",
+      "orphans": 0
+    },
+    "arabnews.com": {
+      "count": 4,
+      "last_date": "2026-11-10",
       "orphans": 0
     },
     "japantoday.com": {
@@ -109,10 +109,6 @@
   },
   "date_histogram": [
     {
-      "date": "2026-10-30",
-      "count": 4
-    },
-    {
       "date": "2026-10-31",
       "count": 1
     },
@@ -162,12 +158,16 @@
     },
     {
       "date": "2026-11-12",
+      "count": 4
+    },
+    {
+      "date": "2026-11-13",
       "count": 0
     }
   ],
   "llm_coverage": {
-    "total": 162,
-    "criticality_coverage": 0.1605,
+    "total": 161,
+    "criticality_coverage": 0.1553,
     "title_en_coverage": 1.0,
     "summary_en_coverage": 1.0,
     "clustered": 0,
@@ -186,7 +186,7 @@
     {
       "code": "high_missing_criticality",
       "severity": "warn",
-      "message": "BLUF 缺失率 84.0% (>5%)",
+      "message": "BLUF 缺失率 84.5% (>5%)",
       "missing": 136
     }
   ],

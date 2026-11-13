@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T14:55:01+00:00Z",
+  "updated_at": "2026-11-13T14:13:20+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -19,39 +19,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1327798581",
-              "title": "RUSSIA → KYIV : Fight with artillery and tanks (Kyiv, Kyyiv, Misto, Ukraine)",
-              "title_en": "RUSSIA → KYIV : Fight with artillery and tanks (Kyiv, Kyyiv, Misto, Ukraine)",
-              "summary": "GDELT Event: Fight with artillery and tanks. Actors: RUSSIA / KYIV. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -10.0. Mentioned in 4 sources.",
-              "summary_en": "GDELT Event: Fight with artillery and tanks. Actors: RUSSIA / KYIV. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -10.0. Mentioned in 4 sources.",
-              "source": "gdelt",
-              "source_label": "lynnnews.co.uk",
-              "date": "2026-10-13",
-              "url": "https://www.lynnnews.co.uk/national/burnham-to-meet-zelensky-in-wake-of-trump-s-diesel-deal-with-moscow-172928/",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 4,
-                "sources": 4,
-                "articles": 4,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1327798581",
-                "event_code": "194",
-                "cameo_desc": "Fight with artillery and tanks",
-                "actor1": "RUSSIA",
-                "actor2": "KYIV",
-                "actor1_country": "RUS",
-                "actor2_country": "UKR",
-                "geo_lat": 50.4333,
-                "geo_lon": 30.5167,
-                "geo_name": "Kyiv, Kyyiv, Misto, Ukraine"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1327995414",
               "title": "IRAN → TANKER : Use conventional military force, not specified below (Russia)",
@@ -942,6 +909,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1332883617",
+              "title": "UKRAINE → HUNTER : Fight with small arms and light weapons (Kyiv, Kyyiv, Misto, Ukraine)",
+              "title_en": "UKRAINE → HUNTER : Fight with small arms and light weapons (Kyiv, Kyyiv, Misto, Ukraine)",
+              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: UKRAINE / HUNTER. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -10.0. Mentioned in 5 sources.",
+              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: UKRAINE / HUNTER. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -10.0. Mentioned in 5 sources.",
+              "source": "gdelt",
+              "source_label": "theaviationist.com",
+              "date": "2026-11-12",
+              "url": "https://theaviationist.com/2026/11/12/ukraine-eyes-up-to-16-l-39ng-skyfox-trainers/",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 5,
+                "sources": 1,
+                "articles": 5,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1332883617",
+                "event_code": "193",
+                "cameo_desc": "Fight with small arms and light weapons",
+                "actor1": "UKRAINE",
+                "actor2": "HUNTER",
+                "actor1_country": "UKR",
+                "actor2_country": "nan",
+                "geo_lat": 50.4333,
+                "geo_lon": 30.5167,
+                "geo_name": "Kyiv, Kyyiv, Misto, Ukraine"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -1571,6 +1571,39 @@
                 "geo_lat": 55.7522,
                 "geo_lon": 37.6156,
                 "geo_name": "Moscow, Moskva, Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1332883276",
+              "title": "UNITED KINGDOM → MILITARY JUSTICE : Arrest, detain, or charge with legal action (Russia)",
+              "title_en": "UNITED KINGDOM → MILITARY JUSTICE : Arrest, detain, or charge with legal action (Russia)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: UNITED KINGDOM / MILITARY JUSTICE. Location: Russia. Goldstein Scale: -5.0. Mentioned in 1 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: UNITED KINGDOM / MILITARY JUSTICE. Location: Russia. Goldstein Scale: -5.0. Mentioned in 1 sources.",
+              "source": "gdelt",
+              "source_label": "idahostatejournal.com",
+              "date": "2026-11-12",
+              "url": "https://www.idahostatejournal.com/news/national/the-latest-senators-investigate-whether-health-secretary-rfk-jr-lied-to-congress-about-samoa-trip/article_0637df9c-7dbb-5f6b-b4c7-011c11015899.html",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 1,
+                "sources": 1,
+                "articles": 1,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1332883276",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "UNITED KINGDOM",
+                "actor2": "MILITARY JUSTICE",
+                "actor1_country": "GBR",
+                "actor2_country": "nan",
+                "geo_lat": 60.0,
+                "geo_lon": 100.0,
+                "geo_name": "Russia"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -2771,6 +2804,39 @@
               "admiralty_source": "B",
               "admiralty_info": 3,
               "admiralty_code": "B3"
+            },
+            {
+              "id": "gdelt_1332883590",
+              "title": "GAZA → HOSPITAL : Physically assault, not specified below (Fujairah, Al Fujayrah, United Arab Emirates)",
+              "title_en": "GAZA → HOSPITAL : Physically assault, not specified below (Fujairah, Al Fujayrah, United Arab Emirates)",
+              "summary": "GDELT Event: Physically assault, not specified below. Actors: GAZA / HOSPITAL. Location: Fujairah, Al Fujayrah, United Arab Emirates. Goldstein Scale: -9.5. Mentioned in 7 sources.",
+              "summary_en": "GDELT Event: Physically assault, not specified below. Actors: GAZA / HOSPITAL. Location: Fujairah, Al Fujayrah, United Arab Emirates. Goldstein Scale: -9.5. Mentioned in 7 sources.",
+              "source": "gdelt",
+              "source_label": "dailygazette.com",
+              "date": "2026-11-12",
+              "url": "https://www.dailygazette.com/hv360/ap/national/israel-hits-gaza-hospital-and-france-turns-away-a-settler-leader-and-other-mideast-news/article_abb3a354-42d5-56f0-9ed8-f6a66f7365d8.html",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 7,
+                "sources": 1,
+                "articles": 7,
+                "goldstein": -9.5
+              },
+              "gdelt_meta": {
+                "event_id": "1332883590",
+                "event_code": "182",
+                "cameo_desc": "Physically assault, not specified below",
+                "actor1": "GAZA",
+                "actor2": "HOSPITAL",
+                "actor1_country": "PSE",
+                "actor2_country": "nan",
+                "geo_lat": 25.1164,
+                "geo_lon": 56.3414,
+                "geo_name": "Fujairah, Al Fujayrah, United Arab Emirates"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -3481,39 +3547,6 @@
           "icon": "⚔️",
           "items": [
             {
-              "id": "gdelt_1327798399",
-              "title": "IRAN → SAUDI : Use conventional military force, not specified below (Arabian Peninsula, Saudi Arabia (general), Saudi Arabia)",
-              "title_en": "IRAN → SAUDI : Use conventional military force, not specified below (Arabian Peninsula, Saudi Arabia (general), Saudi Arabia)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: IRAN / SAUDI. Location: Arabian Peninsula, Saudi Arabia (general), Saudi Arabia. Goldstein Scale: -10.0. Mentioned in 1 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: IRAN / SAUDI. Location: Arabian Peninsula, Saudi Arabia (general), Saudi Arabia. Goldstein Scale: -10.0. Mentioned in 1 sources.",
-              "source": "gdelt",
-              "source_label": "nypost.com",
-              "date": "2026-10-13",
-              "url": "https://nypost.com/2026/10/13/opinion/trump-must-answer-houthis-airport-strike-to-punish-irans-chaos/",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 1,
-                "sources": 1,
-                "articles": 1,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1327798399",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "IRAN",
-                "actor2": "SAUDI",
-                "actor1_country": "IRN",
-                "actor2_country": "SAU",
-                "geo_lat": 25.0,
-                "geo_lon": 45.0,
-                "geo_name": "Arabian Peninsula, Saudi Arabia (general), Saudi Arabia"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
               "id": "gdelt_1328502108",
               "title": "IRANIAN → YEMEN : Employ aerial weapons (Saudi Arabia)",
               "title_en": "IRANIAN → YEMEN : Employ aerial weapons (Saudi Arabia)",
@@ -4007,35 +4040,29 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
-            }
-          ]
-        },
-        "diplomacy": {
-          "label": "外交谈判",
-          "icon": "🕊️",
-          "items": [
+            },
             {
-              "id": "gdelt_1327798792",
-              "title": "UNITED STATES → nan : Impose administrative sanctions, not specified below (Iran)",
-              "title_en": "UNITED STATES → nan : Impose administrative sanctions, not specified below (Iran)",
-              "summary": "GDELT Event: Impose administrative sanctions, not specified below. Actors: UNITED STATES / nan. Location: Iran. Goldstein Scale: -5.0. Mentioned in 4 sources.",
-              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: UNITED STATES / nan. Location: Iran. Goldstein Scale: -5.0. Mentioned in 4 sources.",
+              "id": "gdelt_1332883701",
+              "title": "WASHINGTON → nan : Occupy territory (Iran)",
+              "title_en": "WASHINGTON → nan : Occupy territory (Iran)",
+              "summary": "GDELT Event: Occupy territory. Actors: WASHINGTON / nan. Location: Iran. Goldstein Scale: -9.5. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Occupy territory. Actors: WASHINGTON / nan. Location: Iran. Goldstein Scale: -9.5. Mentioned in 10 sources.",
               "source": "gdelt",
-              "source_label": "bnonews.com",
-              "date": "2026-10-13",
-              "url": "https://bnonews.com/index.php/2026/10/bank-of-america-fined-more-than-1-2-billion-for-anti-money-laundering-and-sanctions-violations/",
+              "source_label": "independent.co.uk",
+              "date": "2026-11-12",
+              "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-midterm-elections-districts-democrats-b3084179.html",
               "primary_conflict": "us-iran",
               "metrics": {
-                "mentions": 4,
+                "mentions": 10,
                 "sources": 1,
-                "articles": 4,
-                "goldstein": -5.0
+                "articles": 10,
+                "goldstein": -9.5
               },
               "gdelt_meta": {
-                "event_id": "1327798792",
-                "event_code": "172",
-                "cameo_desc": "Impose administrative sanctions, not specified below",
-                "actor1": "UNITED STATES",
+                "event_id": "1332883701",
+                "event_code": "192",
+                "cameo_desc": "Occupy territory",
+                "actor1": "WASHINGTON",
                 "actor2": "nan",
                 "actor1_country": "USA",
                 "actor2_country": "nan",
@@ -4043,10 +4070,16 @@
                 "geo_lon": 53.0,
                 "geo_name": "Iran"
               },
-              "admiralty_source": "C",
+              "admiralty_source": "B",
               "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
+              "admiralty_code": "B3"
+            }
+          ]
+        },
+        "diplomacy": {
+          "label": "外交谈判",
+          "icon": "🕊️",
+          "items": [
             {
               "id": "gdelt_1328380994",
               "title": "IRAN → nan : Destroy property (United States)",
@@ -4350,39 +4383,6 @@
           "label": "舆论热点",
           "icon": "💬",
           "items": [
-            {
-              "id": "gdelt_1327798407",
-              "title": "IRAN → WASHINGTON : Demonstrate or rally (Iran)",
-              "title_en": "IRAN → WASHINGTON : Demonstrate or rally (Iran)",
-              "summary": "GDELT Event: Demonstrate or rally. Actors: IRAN / WASHINGTON. Location: Iran. Goldstein Scale: -6.5. Mentioned in 2 sources.",
-              "summary_en": "GDELT Event: Demonstrate or rally. Actors: IRAN / WASHINGTON. Location: Iran. Goldstein Scale: -6.5. Mentioned in 2 sources.",
-              "source": "gdelt",
-              "source_label": "truthout.org",
-              "date": "2026-10-13",
-              "url": "https://truthout.org/articles/air-force-major-who-called-for-trumps-impeachment-held-in-solitary-confinement/",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 2,
-                "sources": 1,
-                "articles": 2,
-                "goldstein": -6.5
-              },
-              "gdelt_meta": {
-                "event_id": "1327798407",
-                "event_code": "141",
-                "cameo_desc": "Demonstrate or rally",
-                "actor1": "IRAN",
-                "actor2": "WASHINGTON",
-                "actor1_country": "IRN",
-                "actor2_country": "USA",
-                "geo_lat": 32.0,
-                "geo_lon": 53.0,
-                "geo_name": "Iran"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1327995012",
               "title": "TIRANA → ALBANIA : Protest violently, riot (Tirana, Tirane, Albania)",
@@ -4774,40 +4774,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1327798590",
-              "title": "SAUDI → YEMEN : Employ aerial weapons (King Khalid International, Ar Riya?, Saudi Arabia)",
-              "title_en": "SAUDI → YEMEN : Employ aerial weapons (King Khalid International, Ar Riya?, Saudi Arabia)",
-              "summary": "GDELT Event: Employ aerial weapons. Actors: SAUDI / YEMEN. Location: King Khalid International, Ar Riya?, Saudi Arabia. Goldstein Scale: -10.0. Mentioned in 5 sources.",
-              "summary_en": "GDELT Event: Employ aerial weapons. Actors: SAUDI / YEMEN. Location: King Khalid International, Ar Riya?, Saudi Arabia. Goldstein Scale: -10.0. Mentioned in 5 sources.",
-              "source": "gdelt",
-              "source_label": "balticbusinessnews.com",
-              "date": "2026-10-13",
-              "url": "https://balticbusinessnews.com/airport-attacks-put-aviation-in-crosshairs-of-geopolitical-conflicts/",
-              "primary_conflict": "yemen-houthi",
-              "metrics": {
-                "mentions": 5,
-                "sources": 1,
-                "articles": 5,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1327798590",
-                "event_code": "195",
-                "cameo_desc": "Employ aerial weapons",
-                "actor1": "SAUDI",
-                "actor2": "YEMEN",
-                "actor1_country": "SAU",
-                "actor2_country": "YEM",
-                "geo_lat": 24.9581,
-                "geo_lon": 46.6956,
-                "geo_name": "King Khalid International, Ar Riya?, Saudi Arabia"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3",
-              "criticality": "background"
-            },
             {
               "id": "gdelt_1327995843",
               "title": "UNITED STATES → EMPLOYEE : Use conventional military force, not specified below (Pasadena City Hall, California, United States)",
@@ -5611,13 +5577,13 @@
     }
   },
   "stats": {
-    "total_items": 157,
+    "total_items": 156,
     "sources": {
-      "gdelt": 157
+      "gdelt": 156
     },
     "date_range": {
-      "from": "2026-10-13",
-      "to": "2026-11-11"
+      "from": "2026-10-14",
+      "to": "2026-11-12"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
