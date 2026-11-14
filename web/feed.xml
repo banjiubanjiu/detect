@@ -5,8 +5,48 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 13 Nov 2026 14:13:05 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 13:17:00 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] UKRAINE → HUNTER : Fight with small arms and light weapons (Kyiv, Kyyiv, Misto, Ukraine)</title>
+      <link>https://theaviationist.com/2026/11/12/ukraine-eyes-up-to-16-l-39ng-skyfox-trainers/</link>
+      <description>GDELT Event: Fight with small arms and light weapons. Actors: UKRAINE / HUNTER. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -10.0. Mentioned in 5 sources.</description>
+      <guid isPermaLink="true">https://theaviationist.com/2026/11/12/ukraine-eyes-up-to-16-l-39ng-skyfox-trainers/</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://theaviationist.com/2026/11/12/ukraine-eyes-up-to-16-l-39ng-skyfox-trainers/">theaviationist.com</source>
+    </item>
+    <item>
+      <title>[俄乌战争] UNITED KINGDOM → MILITARY JUSTICE : Arrest, detain, or charge with legal action (Russia)</title>
+      <link>https://www.idahostatejournal.com/news/national/the-latest-senators-investigate-whether-health-secretary-rfk-jr-lied-to-congress-about-samoa-trip/article_0637df9c-7dbb-5f6b-b4c7-011c11015899.html</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: UNITED KINGDOM / MILITARY JUSTICE. Location: Russia. Goldstein Scale: -5.0. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">https://www.idahostatejournal.com/news/national/the-latest-senators-investigate-whether-health-secretary-rfk-jr-lied-to-congress-about-samoa-trip/article_0637df9c-7dbb-5f6b-b4c7-011c11015899.html</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>外交谈判</category>
+      <source url="https://www.idahostatejournal.com/news/national/the-latest-senators-investigate-whether-health-secretary-rfk-jr-lied-to-congress-about-samoa-trip/article_0637df9c-7dbb-5f6b-b4c7-011c11015899.html">idahostatejournal.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] GAZA → HOSPITAL : Physically assault, not specified below (Fujairah, Al Fujayrah, United Arab Emirates)</title>
+      <link>https://www.dailygazette.com/hv360/ap/national/israel-hits-gaza-hospital-and-france-turns-away-a-settler-leader-and-other-mideast-news/article_abb3a354-42d5-56f0-9ed8-f6a66f7365d8.html</link>
+      <description>GDELT Event: Physically assault, not specified below. Actors: GAZA / HOSPITAL. Location: Fujairah, Al Fujayrah, United Arab Emirates. Goldstein Scale: -9.5. Mentioned in 7 sources.</description>
+      <guid isPermaLink="true">https://www.dailygazette.com/hv360/ap/national/israel-hits-gaza-hospital-and-france-turns-away-a-settler-leader-and-other-mideast-news/article_abb3a354-42d5-56f0-9ed8-f6a66f7365d8.html</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.dailygazette.com/hv360/ap/national/israel-hits-gaza-hospital-and-france-turns-away-a-settler-leader-and-other-mideast-news/article_abb3a354-42d5-56f0-9ed8-f6a66f7365d8.html">dailygazette.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] WASHINGTON → nan : Occupy territory (Iran)</title>
+      <link>https://www.independent.co.uk/news/world/americas/us-politics/trump-midterm-elections-districts-democrats-b3084179.html</link>
+      <description>GDELT Event: Occupy territory. Actors: WASHINGTON / nan. Location: Iran. Goldstein Scale: -9.5. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.independent.co.uk/news/world/americas/us-politics/trump-midterm-elections-districts-democrats-b3084179.html</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://www.independent.co.uk/news/world/americas/us-politics/trump-midterm-elections-districts-democrats-b3084179.html">independent.co.uk</source>
+    </item>
     <item>
       <title>[俄乌战争] RUSSIA → ABU DHABI : Use conventional military force, not specified below (Odesa, Odes'ka Oblast, Ukraine)</title>
       <link>https://www.al-monitor.com/originals/2026/11/russia-ukraine-reach-deal-prisoner-swap-us-says-lack-trust-holds-back-talks</link>
@@ -466,46 +506,6 @@
       <category>巴以冲突</category>
       <category>舆论热点</category>
       <source url="http://www.jpost.com/israel-news/article-914019">jpost.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] UNITED STATES → nan : Use conventional military force, not specified below (Iran)</title>
-      <link>https://www.straitstimes.com/world/middle-east/hegseth-vows-to-keep-fighting-from-pentagon-defends-iran-war</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: UNITED STATES / nan. Location: Iran. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
-      <guid isPermaLink="true">https://www.straitstimes.com/world/middle-east/hegseth-vows-to-keep-fighting-from-pentagon-defends-iran-war</guid>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://www.straitstimes.com/world/middle-east/hegseth-vows-to-keep-fighting-from-pentagon-defends-iran-war">straitstimes.com</source>
-    </item>
-    <item>
-      <title>[也门/胡塞武装] CIVILIAN → nan : Abduct, hijack, or take hostage (Dhubab, Taizz, Yemen)</title>
-      <link>https://www.theyeshivaworld.com/news/israel-news/2619761/yemen-shake-up-president-sacks-ministers-and-front-commanders-amid-houthi-advances.html</link>
-      <description>GDELT Event: Abduct, hijack, or take hostage. Actors: CIVILIAN / nan. Location: Dhubab, Taizz, Yemen. Goldstein Scale: -9.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://www.theyeshivaworld.com/news/israel-news/2619761/yemen-shake-up-president-sacks-ministers-and-front-commanders-amid-houthi-advances.html</guid>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <category>也门/胡塞武装</category>
-      <category>军事动态</category>
-      <source url="https://www.theyeshivaworld.com/news/israel-news/2619761/yemen-shake-up-president-sacks-ministers-and-front-commanders-amid-houthi-advances.html">theyeshivaworld.com</source>
-    </item>
-    <item>
-      <title>[台海局势] nan → GOVERNMENT : Arrest, detain, or charge with legal action (Wang Dan, Hsin-pei Shih, Taiwan)</title>
-      <link>https://www.rfa.org/english/china/2026/11/05/joshua-wong-hong-kong-sentence/</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: nan / GOVERNMENT. Location: Wang Dan, Hsin-pei Shih, Taiwan. Goldstein Scale: -5.0. Mentioned in 2 sources.</description>
-      <guid isPermaLink="true">https://www.rfa.org/english/china/2026/11/05/joshua-wong-hong-kong-sentence/</guid>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-      <category>台海局势</category>
-      <category>外交谈判</category>
-      <source url="https://www.rfa.org/english/china/2026/11/05/joshua-wong-hong-kong-sentence/">rfa.org</source>
-    </item>
-    <item>
-      <title>[俄乌战争] SUPREME COURT → RUSSIA : Use conventional military force, not specified below (Russia)</title>
-      <link>https://radaronline.com/p/hillary-clinton-ordered-respond-trump-russia-gate-lawsuit-supreme-court/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: SUPREME COURT / RUSSIA. Location: Russia. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://radaronline.com/p/hillary-clinton-ordered-respond-trump-russia-gate-lawsuit-supreme-court/</guid>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://radaronline.com/p/hillary-clinton-ordered-respond-trump-russia-gate-lawsuit-supreme-court/">radaronline.com</source>
     </item>
   </channel>
 </rss>
