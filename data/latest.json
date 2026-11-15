@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T13:17:17+00:00Z",
+  "updated_at": "2026-11-15T13:44:27+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -19,39 +19,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1328192480",
-              "title": "UNIVERSITY → nan : Use conventional military force, not specified below (Kyiv, Kyyiv, Misto, Ukraine)",
-              "title_en": "UNIVERSITY → nan : Use conventional military force, not specified below (Kyiv, Kyyiv, Misto, Ukraine)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: UNIVERSITY / nan. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -10.0. Mentioned in 5 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: UNIVERSITY / nan. Location: Kyiv, Kyyiv, Misto, Ukraine. Goldstein Scale: -10.0. Mentioned in 5 sources.",
-              "source": "gdelt",
-              "source_label": "dailymail.com",
-              "date": "2026-10-15",
-              "url": "https://www.dailymail.com/news/article-16212819/ANDY-JEHRING-Ukrainian-drones-Putin-Trump.html",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 5,
-                "sources": 1,
-                "articles": 5,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1328192480",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "UNIVERSITY",
-                "actor2": "nan",
-                "actor1_country": "nan",
-                "actor2_country": "nan",
-                "geo_lat": 50.4333,
-                "geo_lon": 30.5167,
-                "geo_name": "Kyiv, Kyyiv, Misto, Ukraine"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1328380917",
               "title": "BRITISH → UKRAINE : Use unconventional violence, not specified below (Catterick, North Yorkshire, United Kingdom)",
@@ -917,39 +884,6 @@
           "icon": "🕊️",
           "items": [
             {
-              "id": "gdelt_1328192833",
-              "title": "RUSSIAN → UKRAINE : Impose administrative sanctions, not specified below (Russia)",
-              "title_en": "RUSSIAN → UKRAINE : Impose administrative sanctions, not specified below (Russia)",
-              "summary": "GDELT Event: Impose administrative sanctions, not specified below. Actors: RUSSIAN / UKRAINE. Location: Russia. Goldstein Scale: -5.0. Mentioned in 8 sources.",
-              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: RUSSIAN / UKRAINE. Location: Russia. Goldstein Scale: -5.0. Mentioned in 8 sources.",
-              "source": "gdelt",
-              "source_label": "russiaherald.com",
-              "date": "2026-10-15",
-              "url": "http://www.russiaherald.com/news/279377401/russia-could-make-olympic-return-under-national-flag-trump-envoy",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 8,
-                "sources": 1,
-                "articles": 8,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1328192833",
-                "event_code": "172",
-                "cameo_desc": "Impose administrative sanctions, not specified below",
-                "actor1": "RUSSIAN",
-                "actor2": "UKRAINE",
-                "actor1_country": "RUS",
-                "actor2_country": "UKR",
-                "geo_lat": 60.0,
-                "geo_lon": 100.0,
-                "geo_name": "Russia"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
               "id": "gdelt_1328502029",
               "title": "HAMBURG → UKRAINIAN : Arrest, detain, or charge with legal action (Ukraine)",
               "title_en": "HAMBURG → UKRAINIAN : Arrest, detain, or charge with legal action (Ukraine)",
@@ -1782,72 +1716,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1328192666",
-              "title": "ISRAELI → LEBANON : Use conventional military force, not specified below (Israel)",
-              "title_en": "ISRAELI → LEBANON : Use conventional military force, not specified below (Israel)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAELI / LEBANON. Location: Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAELI / LEBANON. Location: Israel. Goldstein Scale: -10.0. Mentioned in 6 sources.",
-              "source": "gdelt",
-              "source_label": "straitstimes.com",
-              "date": "2026-10-15",
-              "url": "https://www.straitstimes.com/world/middle-east/rubio-urges-lebanon-to-not-return-confiscated-explosives-to-hezbollah-us-official-says",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 6,
-                "sources": 1,
-                "articles": 6,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1328192666",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "ISRAELI",
-                "actor2": "LEBANON",
-                "actor1_country": "ISR",
-                "actor2_country": "LBN",
-                "geo_lat": 31.5,
-                "geo_lon": 34.75,
-                "geo_name": "Israel"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
-              "id": "gdelt_1328192668",
-              "title": "ISRAEL → SYRIA : Use conventional military force, not specified below (Sweida, As Suwayda', Syria)",
-              "title_en": "ISRAEL → SYRIA : Use conventional military force, not specified below (Sweida, As Suwayda', Syria)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / SYRIA. Location: Sweida, As Suwayda', Syria. Goldstein Scale: -10.0. Mentioned in 1 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / SYRIA. Location: Sweida, As Suwayda', Syria. Goldstein Scale: -10.0. Mentioned in 1 sources.",
-              "source": "gdelt",
-              "source_label": "english.aawsat.com",
-              "date": "2026-10-15",
-              "url": "https://english.aawsat.com/arab-world/5330151-netanyahu-says-spoke-syria%E2%80%99s-sharaa-sweida-unrest",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 1,
-                "sources": 1,
-                "articles": 1,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1328192668",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "ISRAEL",
-                "actor2": "SYRIA",
-                "actor1_country": "ISR",
-                "actor2_country": "SYR",
-                "geo_lat": 32.709,
-                "geo_lon": 36.5695,
-                "geo_name": "Sweida, As Suwayda', Syria"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1328380995",
               "title": "ISRAELI → ISRAEL : Use conventional military force, not specified below (Israel)",
@@ -2936,6 +2804,39 @@
               "admiralty_source": "B",
               "admiralty_info": 3,
               "admiralty_code": "B3"
+            },
+            {
+              "id": "gdelt_1333187204",
+              "title": "ISRAEL → HAMAS : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
+              "title_en": "ISRAEL → HAMAS : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / HAMAS. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 60 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / HAMAS. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 60 sources.",
+              "source": "gdelt",
+              "source_label": "bordermail.com.au",
+              "date": "2026-11-14",
+              "url": "https://www.bordermail.com.au/story/9391666/israel-kills-senior-hamas-military-commander-in-gaza/",
+              "primary_conflict": "israel-palestine",
+              "metrics": {
+                "mentions": 60,
+                "sources": 2,
+                "articles": 20,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1333187204",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "ISRAEL",
+                "actor2": "HAMAS",
+                "actor1_country": "ISR",
+                "actor2_country": "PSE",
+                "geo_lat": 31.4167,
+                "geo_lon": 34.3333,
+                "geo_name": "Gaza, Israel (general), Israel"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -4205,6 +4106,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1333187316",
+              "title": "POLITICAL PRISONER → IRAN : Engage in mass killings (Vakilabad, Kerman, Iran)",
+              "title_en": "POLITICAL PRISONER → IRAN : Engage in mass killings (Vakilabad, Kerman, Iran)",
+              "summary": "GDELT Event: Engage in mass killings. Actors: POLITICAL PRISONER / IRAN. Location: Vakilabad, Kerman, Iran. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Engage in mass killings. Actors: POLITICAL PRISONER / IRAN. Location: Vakilabad, Kerman, Iran. Goldstein Scale: -10.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "irannewsupdate.com",
+              "date": "2026-11-14",
+              "url": "https://irannewsupdate.com/news/iranian-opposition/mohammad-javad-vafaei-sani-accepts-2026-magnitsky-human-rights-award-on-behalf-of-irans-political-prisoners/",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1333187316",
+                "event_code": "202",
+                "cameo_desc": "Engage in mass killings",
+                "actor1": "POLITICAL PRISONER",
+                "actor2": "IRAN",
+                "actor1_country": "nan",
+                "actor2_country": "IRN",
+                "geo_lat": 29.7679,
+                "geo_lon": 55.9564,
+                "geo_name": "Vakilabad, Kerman, Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -4541,6 +4475,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1333187015",
+              "title": "PRISON → AUTHORITIES : Arrest, detain, or charge with legal action (Qezel Hesar, Ostan-e Alborz, Iran)",
+              "title_en": "PRISON → AUTHORITIES : Arrest, detain, or charge with legal action (Qezel Hesar, Ostan-e Alborz, Iran)",
+              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: PRISON / AUTHORITIES. Location: Qezel Hesar, Ostan-e Alborz, Iran. Goldstein Scale: -5.0. Mentioned in 10 sources.",
+              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: PRISON / AUTHORITIES. Location: Qezel Hesar, Ostan-e Alborz, Iran. Goldstein Scale: -5.0. Mentioned in 10 sources.",
+              "source": "gdelt",
+              "source_label": "irannewsupdate.com",
+              "date": "2026-11-14",
+              "url": "https://irannewsupdate.com/news/iranian-opposition/iranian-political-prisoners-send-messages-of-solidarity-to-death-row-prisoner-mohammad-javad-vafaei-sani/",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 10,
+                "sources": 1,
+                "articles": 10,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1333187015",
+                "event_code": "173",
+                "cameo_desc": "Arrest, detain, or charge with legal action",
+                "actor1": "PRISON",
+                "actor2": "AUTHORITIES",
+                "actor1_country": "nan",
+                "actor2_country": "nan",
+                "geo_lat": 35.793,
+                "geo_lon": 50.8527,
+                "geo_name": "Qezel Hesar, Ostan-e Alborz, Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -4872,40 +4839,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1328193156",
-              "title": "YEMEN → nan : Use conventional military force, not specified below (Sanaa, Sana', Yemen)",
-              "title_en": "YEMEN → nan : Use conventional military force, not specified below (Sanaa, Sana', Yemen)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: YEMEN / nan. Location: Sanaa, Sana', Yemen. Goldstein Scale: -10.0. Mentioned in 3 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: YEMEN / nan. Location: Sanaa, Sana', Yemen. Goldstein Scale: -10.0. Mentioned in 3 sources.",
-              "source": "gdelt",
-              "source_label": "aninews.in",
-              "date": "2026-10-15",
-              "url": "https://aninews.in/news/world/middle-east/5-killed-16-injured-in-houthi-attack-on-yemen8217s-aden-presidential-palace20261016044500/",
-              "primary_conflict": "yemen-houthi",
-              "metrics": {
-                "mentions": 3,
-                "sources": 1,
-                "articles": 3,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1328193156",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "YEMEN",
-                "actor2": "nan",
-                "actor1_country": "YEM",
-                "actor2_country": "nan",
-                "geo_lat": 15.3547,
-                "geo_lon": 44.2067,
-                "geo_name": "Sanaa, Sana', Yemen"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3",
-              "criticality": "background"
-            },
             {
               "id": "gdelt_1328381436",
               "title": "YEMEN → CIVILIAN : Employ aerial weapons (Khamis Mushait, Saudi Arabia (general), Saudi Arabia)",
@@ -5471,6 +5404,40 @@
               "admiralty_info": 3,
               "admiralty_code": "C3",
               "criticality": "background"
+            },
+            {
+              "id": "gdelt_1333187371",
+              "title": "SYRIA → nan : Impose blockade, restrict movement (Raqqa, Ar Raqqah, Syria)",
+              "title_en": "SYRIA → nan : Impose blockade, restrict movement (Raqqa, Ar Raqqah, Syria)",
+              "summary": "GDELT Event: Impose blockade, restrict movement. Actors: SYRIA / nan. Location: Raqqa, Ar Raqqah, Syria. Goldstein Scale: -9.5. Mentioned in 8 sources.",
+              "summary_en": "GDELT Event: Impose blockade, restrict movement. Actors: SYRIA / nan. Location: Raqqa, Ar Raqqah, Syria. Goldstein Scale: -9.5. Mentioned in 8 sources.",
+              "source": "gdelt",
+              "source_label": "aljazeera.com",
+              "date": "2026-11-14",
+              "url": "https://www.aljazeera.com/news/2026/11/14/explosion-near-syrias-capital-kills-father-and-child",
+              "primary_conflict": "syria",
+              "metrics": {
+                "mentions": 8,
+                "sources": 1,
+                "articles": 8,
+                "goldstein": -9.5
+              },
+              "gdelt_meta": {
+                "event_id": "1333187371",
+                "event_code": "191",
+                "cameo_desc": "Impose blockade, restrict movement",
+                "actor1": "SYRIA",
+                "actor2": "nan",
+                "actor1_country": "SYR",
+                "actor2_country": "nan",
+                "geo_lat": 35.95,
+                "geo_lon": 39.0167,
+                "geo_name": "Raqqa, Ar Raqqah, Syria"
+              },
+              "admiralty_source": "B",
+              "admiralty_info": 3,
+              "admiralty_code": "B3",
+              "criticality": "background"
             }
           ]
         },
@@ -5607,13 +5574,13 @@
     }
   },
   "stats": {
-    "total_items": 157,
+    "total_items": 156,
     "sources": {
-      "gdelt": 157
+      "gdelt": 156
     },
     "date_range": {
-      "from": "2026-10-15",
-      "to": "2026-11-13"
+      "from": "2026-10-16",
+      "to": "2026-11-14"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
