@@ -5,8 +5,18 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 19 Nov 2026 15:31:17 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 15:08:10 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[巴以冲突] ISRAELI → HAMAS : Occupy territory (Gaza, Israel (general), Israel)</title>
+      <link>https://www.theguardian.com/world/2026/nov/18/israeli-tanks-cross-yellow-line-boundary-into-hamas-controlled-central-gaza</link>
+      <description>GDELT Event: Occupy territory. Actors: ISRAELI / HAMAS. Location: Gaza, Israel (general), Israel. Goldstein Scale: -9.5. Mentioned in 12 sources.</description>
+      <guid isPermaLink="true">https://www.theguardian.com/world/2026/nov/18/israeli-tanks-cross-yellow-line-boundary-into-hamas-controlled-central-gaza</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>军事动态</category>
+      <source url="https://www.theguardian.com/world/2026/nov/18/israeli-tanks-cross-yellow-line-boundary-into-hamas-controlled-central-gaza">theguardian.com</source>
+    </item>
     <item>
       <title>[巴以冲突] LEBANON → TERRORIST : Use conventional military force, not specified below (Beirut, Beyrouth, Lebanon)</title>
       <link>https://www.jpost.com/israel-news/defense-news/article-915245</link>
@@ -496,16 +506,6 @@
       <category>巴以冲突</category>
       <category>外交谈判</category>
       <source url="https://metro.co.uk/2026/11/10/cartons-milk-thrown-joe-biden-students-ireland-29782664/">metro.co.uk</source>
-    </item>
-    <item>
-      <title>[也门/胡塞武装] RIYADH → nan : Fight with artillery and tanks (Red Sea, Djibouti (general), Djibouti)</title>
-      <link>https://www.gdnonline.com:443/Details/1412616</link>
-      <description>GDELT Event: Fight with artillery and tanks. Actors: RIYADH / nan. Location: Red Sea, Djibouti (general), Djibouti. Goldstein Scale: -10.0. Mentioned in 7 sources.</description>
-      <guid isPermaLink="true">https://www.gdnonline.com:443/Details/1412616</guid>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-      <category>也门/胡塞武装</category>
-      <category>军事动态</category>
-      <source url="https://www.gdnonline.com:443/Details/1412616">gdnonline.com:443</source>
     </item>
   </channel>
 </rss>
