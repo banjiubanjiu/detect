@@ -5,8 +5,88 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 22 Nov 2026 14:21:35 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 17:43:20 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] GOVERNOR → RUSSIA : Use conventional military force, not specified below (Loviisa, Uusimaa Region, Finland)</title>
+      <link>https://english.news.cn/europe/20261122/31714966a1fa46e2a9c729db699ecf18/c.html</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: GOVERNOR / RUSSIA. Location: Loviisa, Uusimaa Region, Finland. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
+      <guid isPermaLink="true">https://english.news.cn/europe/20261122/31714966a1fa46e2a9c729db699ecf18/c.html</guid>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://english.news.cn/europe/20261122/31714966a1fa46e2a9c729db699ecf18/c.html">english.news.cn</source>
+    </item>
+    <item>
+      <title>[俄乌战争] RUSSIAN → UKRAINIAN : Use conventional military force, not specified below (Moscow, Moskva, Russia)</title>
+      <link>https://www.dailymail.com/news/article-16311801/brave-Ukrainians-deaths-brutal-Russians-LORD-ASHCROFT.html</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: RUSSIAN / UKRAINIAN. Location: Moscow, Moskva, Russia. Goldstein Scale: -10.0. Mentioned in 6 sources.</description>
+      <guid isPermaLink="true">https://www.dailymail.com/news/article-16311801/brave-Ukrainians-deaths-brutal-Russians-LORD-ASHCROFT.html</guid>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.dailymail.com/news/article-16311801/brave-Ukrainians-deaths-brutal-Russians-LORD-ASHCROFT.html">dailymail.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] ISRAEL → JEWISH : Impose administrative sanctions, not specified below (Lincoln Square, Illinois, United States)</title>
+      <link>https://www.nbcchicago.com/news/local/man-who-punched-jewish-man-yelled-free-palestine-outside-ogilvie-center-charged/4019908/</link>
+      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: ISRAEL / JEWISH. Location: Lincoln Square, Illinois, United States. Goldstein Scale: -5.0. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://www.nbcchicago.com/news/local/man-who-punched-jewish-man-yelled-free-palestine-outside-ogilvie-center-charged/4019908/</guid>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>外交谈判</category>
+      <source url="https://www.nbcchicago.com/news/local/man-who-punched-jewish-man-yelled-free-palestine-outside-ogilvie-center-charged/4019908/">nbcchicago.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] GERMANY → nan : Arrest, detain, or charge with legal action (Tel Aviv, Tel Aviv, Israel)</title>
+      <link>https://internationaltimes.it/richard-wagner-exposing-the-antisemitism-racism-and-poisonous-prejudice-of-a-hateful-composer-for-the-21/</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: GERMANY / nan. Location: Tel Aviv, Tel Aviv, Israel. Goldstein Scale: -5.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://internationaltimes.it/richard-wagner-exposing-the-antisemitism-racism-and-poisonous-prejudice-of-a-hateful-composer-for-the-21/</guid>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>外交谈判</category>
+      <source url="https://internationaltimes.it/richard-wagner-exposing-the-antisemitism-racism-and-poisonous-prejudice-of-a-hateful-composer-for-the-21/">internationaltimes.it</source>
+    </item>
+    <item>
+      <title>[美伊对峙] nan → IRAN : Assassinate (Iran)</title>
+      <link>https://www.foxla.com/news/man-sentenced-over-27-years-iran-linked-plot-assassinate-trump</link>
+      <description>GDELT Event: Assassinate. Actors: nan / IRAN. Location: Iran. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://www.foxla.com/news/man-sentenced-over-27-years-iran-linked-plot-assassinate-trump</guid>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://www.foxla.com/news/man-sentenced-over-27-years-iran-linked-plot-assassinate-trump">foxla.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] IRAN → BAHRAIN : Use conventional military force, not specified below (Iran)</title>
+      <link>https://english.news.cn/20261122/a6d000cae1324ad3a3b29cf3ec93c34a/c.html</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: IRAN / BAHRAIN. Location: Iran. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
+      <guid isPermaLink="true">https://english.news.cn/20261122/a6d000cae1324ad3a3b29cf3ec93c34a/c.html</guid>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://english.news.cn/20261122/a6d000cae1324ad3a3b29cf3ec93c34a/c.html">english.news.cn</source>
+    </item>
+    <item>
+      <title>[美伊对峙] BAHRAIN → MILITARY : Use conventional military force, not specified below (Tehran, Tehran, Iran)</title>
+      <link>https://www.rferl.org/a/iran-electricity-ration-bread-trump-/33903259.html</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: BAHRAIN / MILITARY. Location: Tehran, Tehran, Iran. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.rferl.org/a/iran-electricity-ration-bread-trump-/33903259.html</guid>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://www.rferl.org/a/iran-electricity-ration-bread-trump-/33903259.html">rferl.org</source>
+    </item>
+    <item>
+      <title>[也门/胡塞武装] nan → YEMENI : Employ aerial weapons (Sanaa, Sana', Yemen)</title>
+      <link>https://english.news.cn/20261122/e873d385a5bb45b8832b89c53cd2ac98/c.html</link>
+      <description>GDELT Event: Employ aerial weapons. Actors: nan / YEMENI. Location: Sanaa, Sana', Yemen. Goldstein Scale: -10.0. Mentioned in 6 sources.</description>
+      <guid isPermaLink="true">https://english.news.cn/20261122/e873d385a5bb45b8832b89c53cd2ac98/c.html</guid>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      <category>也门/胡塞武装</category>
+      <category>军事动态</category>
+      <source url="https://english.news.cn/20261122/e873d385a5bb45b8832b89c53cd2ac98/c.html">english.news.cn</source>
+    </item>
     <item>
       <title>[俄乌战争] UKRAINE → RUSSIA : Use conventional military force, not specified below (Kyiv, Kyyiv, Misto, Ukraine)</title>
       <link>https://econotimes.com/Ukraine-Says-Strike-Damaged-Key-Russian-Oil-Hub-in-Tatarstan-1780547</link>
@@ -426,86 +506,6 @@
       <category>也门/胡塞武装</category>
       <category>军事动态</category>
       <source url="https://www.thehindubusinessline.com/news/world/yemens-houthis-claim-missile-strikes-on-riyadh-airport-and-financial-centre/article71705956.ece">thehindubusinessline.com</source>
-    </item>
-    <item>
-      <title>[叙利亚局势] KUWAIT CITY → SYRIAN : Arrest, detain, or charge with legal action (Syria)</title>
-      <link>https://www.arabtimesonline.com/news/kuwait-police-arrest-two-syrians-close-11-armed-robbery-cases-in-72-hours/</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: KUWAIT CITY / SYRIAN. Location: Syria. Goldstein Scale: -5.0. Mentioned in 6 sources.</description>
-      <guid isPermaLink="true">https://www.arabtimesonline.com/news/kuwait-police-arrest-two-syrians-close-11-armed-robbery-cases-in-72-hours/</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <category>叙利亚局势</category>
-      <category>外交谈判</category>
-      <source url="https://www.arabtimesonline.com/news/kuwait-police-arrest-two-syrians-close-11-armed-robbery-cases-in-72-hours/">arabtimesonline.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAEL → HAMAS : Use conventional military force, not specified below (Gaza, Israel (general), Israel)</title>
-      <link>https://www.bordermail.com.au/story/9391666/israel-kills-senior-hamas-military-commander-in-gaza/</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / HAMAS. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 60 sources.</description>
-      <guid isPermaLink="true">https://www.bordermail.com.au/story/9391666/israel-kills-senior-hamas-military-commander-in-gaza/</guid>
-      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.bordermail.com.au/story/9391666/israel-kills-senior-hamas-military-commander-in-gaza/">bordermail.com.au</source>
-    </item>
-    <item>
-      <title>[美伊对峙] POLITICAL PRISONER → IRAN : Engage in mass killings (Vakilabad, Kerman, Iran)</title>
-      <link>https://irannewsupdate.com/news/iranian-opposition/mohammad-javad-vafaei-sani-accepts-2026-magnitsky-human-rights-award-on-behalf-of-irans-political-prisoners/</link>
-      <description>GDELT Event: Engage in mass killings. Actors: POLITICAL PRISONER / IRAN. Location: Vakilabad, Kerman, Iran. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://irannewsupdate.com/news/iranian-opposition/mohammad-javad-vafaei-sani-accepts-2026-magnitsky-human-rights-award-on-behalf-of-irans-political-prisoners/</guid>
-      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>军事动态</category>
-      <source url="https://irannewsupdate.com/news/iranian-opposition/mohammad-javad-vafaei-sani-accepts-2026-magnitsky-human-rights-award-on-behalf-of-irans-political-prisoners/">irannewsupdate.com</source>
-    </item>
-    <item>
-      <title>[美伊对峙] PRISON → AUTHORITIES : Arrest, detain, or charge with legal action (Qezel Hesar, Ostan-e Alborz, Iran)</title>
-      <link>https://irannewsupdate.com/news/iranian-opposition/iranian-political-prisoners-send-messages-of-solidarity-to-death-row-prisoner-mohammad-javad-vafaei-sani/</link>
-      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: PRISON / AUTHORITIES. Location: Qezel Hesar, Ostan-e Alborz, Iran. Goldstein Scale: -5.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://irannewsupdate.com/news/iranian-opposition/iranian-political-prisoners-send-messages-of-solidarity-to-death-row-prisoner-mohammad-javad-vafaei-sani/</guid>
-      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
-      <category>美伊对峙</category>
-      <category>外交谈判</category>
-      <source url="https://irannewsupdate.com/news/iranian-opposition/iranian-political-prisoners-send-messages-of-solidarity-to-death-row-prisoner-mohammad-javad-vafaei-sani/">irannewsupdate.com</source>
-    </item>
-    <item>
-      <title>[叙利亚局势] SYRIA → nan : Impose blockade, restrict movement (Raqqa, Ar Raqqah, Syria)</title>
-      <link>https://www.aljazeera.com/news/2026/11/14/explosion-near-syrias-capital-kills-father-and-child</link>
-      <description>GDELT Event: Impose blockade, restrict movement. Actors: SYRIA / nan. Location: Raqqa, Ar Raqqah, Syria. Goldstein Scale: -9.5. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">https://www.aljazeera.com/news/2026/11/14/explosion-near-syrias-capital-kills-father-and-child</guid>
-      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
-      <category>叙利亚局势</category>
-      <category>军事动态</category>
-      <source url="https://www.aljazeera.com/news/2026/11/14/explosion-near-syrias-capital-kills-father-and-child">aljazeera.com</source>
-    </item>
-    <item>
-      <title>[俄乌战争] RUSSIA → IRAN : Use conventional military force, not specified below (Islamabad, Islamabad, Pakistan)</title>
-      <link>https://www.pakistantoday.com.pk/2026/11/14/in-the-new-world-order-the-world-is-without-a-referee</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: RUSSIA / IRAN. Location: Islamabad, Islamabad, Pakistan. Goldstein Scale: -10.0. Mentioned in 1 sources.</description>
-      <guid isPermaLink="true">https://www.pakistantoday.com.pk/2026/11/14/in-the-new-world-order-the-world-is-without-a-referee</guid>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>军事动态</category>
-      <source url="https://www.pakistantoday.com.pk/2026/11/14/in-the-new-world-order-the-world-is-without-a-referee">pakistantoday.com.pk</source>
-    </item>
-    <item>
-      <title>[俄乌战争] MOSCOW → UKRAINE : Impose administrative sanctions, not specified below (Moscow, Moskva, Russia)</title>
-      <link>https://www.newsweek.com/putins-ukraine-peace-plan-the-prewar-ultimatum-with-interest-12713065</link>
-      <description>GDELT Event: Impose administrative sanctions, not specified below. Actors: MOSCOW / UKRAINE. Location: Moscow, Moskva, Russia. Goldstein Scale: -5.0. Mentioned in 5 sources.</description>
-      <guid isPermaLink="true">https://www.newsweek.com/putins-ukraine-peace-plan-the-prewar-ultimatum-with-interest-12713065</guid>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
-      <category>俄乌战争</category>
-      <category>外交谈判</category>
-      <source url="https://www.newsweek.com/putins-ukraine-peace-plan-the-prewar-ultimatum-with-interest-12713065">newsweek.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAEL → WORKER : Use conventional military force, not specified below (Gaza, Israel (general), Israel)</title>
-      <link>https://www.middleeasteye.net/news/activists-demand-end-transfer-military-materials-israel-through-new-yorks-jfk-airport</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / WORKER. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.</description>
-      <guid isPermaLink="true">https://www.middleeasteye.net/news/activists-demand-end-transfer-military-materials-israel-through-new-yorks-jfk-airport</guid>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.middleeasteye.net/news/activists-demand-end-transfer-military-materials-israel-through-new-yorks-jfk-airport">middleeasteye.net</source>
     </item>
   </channel>
 </rss>
