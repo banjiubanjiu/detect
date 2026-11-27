@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T16:40:33+00:00Z",
+  "updated_at": "2026-11-27T16:26:38+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -19,39 +19,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1330182796",
-              "title": "RUSSIAN → CIVILIAN : Occupy territory (Kharkiv, Kharkivs'ka Oblast', Ukraine)",
-              "title_en": "RUSSIAN → CIVILIAN : Occupy territory (Kharkiv, Kharkivs'ka Oblast', Ukraine)",
-              "summary": "GDELT Event: Occupy territory. Actors: RUSSIAN / CIVILIAN. Location: Kharkiv, Kharkivs'ka Oblast', Ukraine. Goldstein Scale: -9.5. Mentioned in 3 sources.",
-              "summary_en": "GDELT Event: Occupy territory. Actors: RUSSIAN / CIVILIAN. Location: Kharkiv, Kharkivs'ka Oblast', Ukraine. Goldstein Scale: -9.5. Mentioned in 3 sources.",
-              "source": "gdelt",
-              "source_label": "investmentwatchblog.com",
-              "date": "2026-10-27",
-              "url": "https://www.investmentwatchblog.com/un-report-calls-russian-energy-strikes-war-crimes-while-ukraine-keeps-hitting-russian-refineries/",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 3,
-                "sources": 1,
-                "articles": 3,
-                "goldstein": -9.5
-              },
-              "gdelt_meta": {
-                "event_id": "1330182796",
-                "event_code": "192",
-                "cameo_desc": "Occupy territory",
-                "actor1": "RUSSIAN",
-                "actor2": "CIVILIAN",
-                "actor1_country": "RUS",
-                "actor2_country": "nan",
-                "geo_lat": 49.9808,
-                "geo_lon": 36.2527,
-                "geo_name": "Kharkiv, Kharkivs'ka Oblast', Ukraine"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1330379394",
               "title": "nan → WRITER : Use conventional military force, not specified below (Dagestan, Dagestan, Russia)",
@@ -1074,6 +1041,39 @@
               "admiralty_source": "B",
               "admiralty_info": 3,
               "admiralty_code": "B3"
+            },
+            {
+              "id": "gdelt_1335234609",
+              "title": "RUSSIA → UKRAINE : Use conventional military force, not specified below (Kremlin, Moskva, Russia)",
+              "title_en": "RUSSIA → UKRAINE : Use conventional military force, not specified below (Kremlin, Moskva, Russia)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: RUSSIA / UKRAINE. Location: Kremlin, Moskva, Russia. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: RUSSIA / UKRAINE. Location: Kremlin, Moskva, Russia. Goldstein Scale: -10.0. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "politico.eu",
+              "date": "2026-11-26",
+              "url": "https://www.politico.eu/article/donald-trump-diverges-from-nato-statement-emphasizing-ukraine-mustnt-expand-war/",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1335234609",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "RUSSIA",
+                "actor2": "UKRAINE",
+                "actor1_country": "RUS",
+                "actor2_country": "UKR",
+                "geo_lat": 55.7522,
+                "geo_lon": 37.6156,
+                "geo_name": "Kremlin, Moskva, Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -1604,6 +1604,39 @@
                 "geo_lat": 55.7667,
                 "geo_lon": 37.7,
                 "geo_name": "Lefortovo, Moskva, Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1335234607",
+              "title": "RUSSIAN → HIT MAN : Expel or deport individuals (Odessa, New York, United States)",
+              "title_en": "RUSSIAN → HIT MAN : Expel or deport individuals (Odessa, New York, United States)",
+              "summary": "GDELT Event: Expel or deport individuals. Actors: RUSSIAN / HIT MAN. Location: Odessa, New York, United States. Goldstein Scale: -5.0. Mentioned in 1 sources.",
+              "summary_en": "GDELT Event: Expel or deport individuals. Actors: RUSSIAN / HIT MAN. Location: Odessa, New York, United States. Goldstein Scale: -5.0. Mentioned in 1 sources.",
+              "source": "gdelt",
+              "source_label": "webwire.com",
+              "date": "2026-11-26",
+              "url": "https://www.webwire.com/ViewPressRel.asp?aId=364765",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 1,
+                "sources": 1,
+                "articles": 1,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1335234607",
+                "event_code": "174",
+                "cameo_desc": "Expel or deport individuals",
+                "actor1": "RUSSIAN",
+                "actor2": "HIT MAN",
+                "actor1_country": "RUS",
+                "actor2_country": "nan",
+                "geo_lat": 42.3367,
+                "geo_lon": -76.7886,
+                "geo_name": "Odessa, New York, United States"
               },
               "admiralty_source": "C",
               "admiralty_info": 3,
@@ -5294,6 +5327,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1335234501",
+              "title": "IRANIAN → KUWAITI : Physically assault, not specified below (Tehran, Tehran, Iran)",
+              "title_en": "IRANIAN → KUWAITI : Physically assault, not specified below (Tehran, Tehran, Iran)",
+              "summary": "GDELT Event: Physically assault, not specified below. Actors: IRANIAN / KUWAITI. Location: Tehran, Tehran, Iran. Goldstein Scale: -9.5. Mentioned in 1 sources.",
+              "summary_en": "GDELT Event: Physically assault, not specified below. Actors: IRANIAN / KUWAITI. Location: Tehran, Tehran, Iran. Goldstein Scale: -9.5. Mentioned in 1 sources.",
+              "source": "gdelt",
+              "source_label": "middle-east-online.com",
+              "date": "2026-11-26",
+              "url": "https://www.middle-east-online.com/en/two-italians-killed-houthi-attack-kuwait",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 1,
+                "sources": 1,
+                "articles": 1,
+                "goldstein": -9.5
+              },
+              "gdelt_meta": {
+                "event_id": "1335234501",
+                "event_code": "182",
+                "cameo_desc": "Physically assault, not specified below",
+                "actor1": "IRANIAN",
+                "actor2": "KUWAITI",
+                "actor1_country": "IRN",
+                "actor2_country": "KWT",
+                "geo_lat": 35.75,
+                "geo_lon": 51.5148,
+                "geo_name": "Tehran, Tehran, Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -5928,40 +5994,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1330182417",
-              "title": "nan → UNITED STATES : Use conventional military force, not specified below (Bladen County, North Carolina, United States)",
-              "title_en": "nan → UNITED STATES : Use conventional military force, not specified below (Bladen County, North Carolina, United States)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: nan / UNITED STATES. Location: Bladen County, North Carolina, United States. Goldstein Scale: -10.0. Mentioned in 4 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: nan / UNITED STATES. Location: Bladen County, North Carolina, United States. Goldstein Scale: -10.0. Mentioned in 4 sources.",
-              "source": "gdelt",
-              "source_label": "robesonian.com",
-              "date": "2026-10-27",
-              "url": "https://www.robesonian.com/news/429027/revolutionary-heroes-remembered",
-              "primary_conflict": "yemen-houthi",
-              "metrics": {
-                "mentions": 4,
-                "sources": 1,
-                "articles": 4,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1330182417",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "nan",
-                "actor2": "UNITED STATES",
-                "actor1_country": "nan",
-                "actor2_country": "USA",
-                "geo_lat": 34.6335,
-                "geo_lon": -78.5664,
-                "geo_name": "Bladen County, North Carolina, United States"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3",
-              "criticality": "background"
-            },
             {
               "id": "gdelt_1330981301",
               "title": "CIVILIAN → SAUDI : Conduct suicide, car, or other non-military bombing, not spec below (Al-Jawf, Al Bay?a', Yemen)",
@@ -6629,13 +6661,13 @@
     }
   },
   "stats": {
-    "total_items": 188,
+    "total_items": 189,
     "sources": {
-      "gdelt": 188
+      "gdelt": 189
     },
     "date_range": {
-      "from": "2026-10-27",
-      "to": "2026-11-25"
+      "from": "2026-10-28",
+      "to": "2026-11-26"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",

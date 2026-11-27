@@ -5,8 +5,28 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 26 Nov 2026 16:40:17 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 16:26:22 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] ISRAEL → ISRAEL : Use conventional military force, not specified below (Moscow, Moskva, Russia)</title>
+      <link>https://www.arabnews.com/media/palestinian-journalist-killed-by-israel-in-gaza-wins-prestigious-rory-peck-prize-3014067</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: ISRAEL / ISRAEL. Location: Moscow, Moskva, Russia. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
+      <guid isPermaLink="true">https://www.arabnews.com/media/palestinian-journalist-killed-by-israel-in-gaza-wins-prestigious-rory-peck-prize-3014067</guid>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.arabnews.com/media/palestinian-journalist-killed-by-israel-in-gaza-wins-prestigious-rory-peck-prize-3014067">arabnews.com</source>
+    </item>
+    <item>
+      <title>[巴以冲突] JERUSALEM → ATTORNEY GENERAL : Arrest, detain, or charge with legal action (Jerusalem, Israel (general), Israel)</title>
+      <link>https://www.inquisitr.com/netanyahu-bribery-review-jerusalem-judges/</link>
+      <description>GDELT Event: Arrest, detain, or charge with legal action. Actors: JERUSALEM / ATTORNEY GENERAL. Location: Jerusalem, Israel (general), Israel. Goldstein Scale: -5.0. Mentioned in 3 sources.</description>
+      <guid isPermaLink="true">https://www.inquisitr.com/netanyahu-bribery-review-jerusalem-judges/</guid>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+      <category>巴以冲突</category>
+      <category>外交谈判</category>
+      <source url="https://www.inquisitr.com/netanyahu-bribery-review-jerusalem-judges/">inquisitr.com</source>
+    </item>
     <item>
       <title>[俄乌战争] SAMARA → HAMAS : Use conventional military force, not specified below (nan)</title>
       <link>https://www.theyeshivaworld.com/news/israel-news/2627030/still-no-charges-ben-gvir-demands-answers-on-why-hamas-terrorist-who-murdered-netanel-shokron-hyd-hasnt-been-indicted.html</link>
@@ -486,26 +506,6 @@
       <category>巴以冲突</category>
       <category>军事动态</category>
       <source url="https://www.jpost.com/israel-news/crime-in-israel/article-915551">jpost.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] ISRAEL → nan : Impose blockade, restrict movement (Gaza, Israel (general), Israel)</title>
-      <link>https://www.scoop.co.nz/stories/WO2611/S00191/one-year-on-gazas-peace-plan-has-failed-delivering-more-death-displacement-despair-humanitarian-scorecard.htm</link>
-      <description>GDELT Event: Impose blockade, restrict movement. Actors: ISRAEL / nan. Location: Gaza, Israel (general), Israel. Goldstein Scale: -9.5. Mentioned in 5 sources.</description>
-      <guid isPermaLink="true">https://www.scoop.co.nz/stories/WO2611/S00191/one-year-on-gazas-peace-plan-has-failed-delivering-more-death-displacement-despair-humanitarian-scorecard.htm</guid>
-      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.scoop.co.nz/stories/WO2611/S00191/one-year-on-gazas-peace-plan-has-failed-delivering-more-death-displacement-despair-humanitarian-scorecard.htm">scoop.co.nz</source>
-    </item>
-    <item>
-      <title>[巴以冲突] REGIME → IRAN : Employ aerial weapons (Tel Aviv, Tel Aviv, Israel)</title>
-      <link>https://www.presstv.co.uk/Detail/2025/06/30/750303/FM-Iran-victim-chemical-weapons-advocate-WMD-</link>
-      <description>GDELT Event: Employ aerial weapons. Actors: REGIME / IRAN. Location: Tel Aviv, Tel Aviv, Israel. Goldstein Scale: -10.0. Mentioned in 4 sources.</description>
-      <guid isPermaLink="true">https://www.presstv.co.uk/Detail/2025/06/30/750303/FM-Iran-victim-chemical-weapons-advocate-WMD-</guid>
-      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.presstv.co.uk/Detail/2025/06/30/750303/FM-Iran-victim-chemical-weapons-advocate-WMD-">presstv.co.uk</source>
     </item>
   </channel>
 </rss>
