@@ -5,8 +5,38 @@
     <link>https://detect.example.com</link>
     <description>实时追踪全球主要冲突态势，多源聚合情报</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 27 Nov 2026 16:26:22 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 15:19:25 +0000</lastBuildDate>
     <atom:link href="https://detect.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[俄乌战争] RUSSIA → UKRAINE : Use conventional military force, not specified below (Kremlin, Moskva, Russia)</title>
+      <link>https://www.politico.eu/article/donald-trump-diverges-from-nato-statement-emphasizing-ukraine-mustnt-expand-war/</link>
+      <description>GDELT Event: Use conventional military force, not specified below. Actors: RUSSIA / UKRAINE. Location: Kremlin, Moskva, Russia. Goldstein Scale: -10.0. Mentioned in 2 sources.</description>
+      <guid isPermaLink="true">https://www.politico.eu/article/donald-trump-diverges-from-nato-statement-emphasizing-ukraine-mustnt-expand-war/</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>军事动态</category>
+      <source url="https://www.politico.eu/article/donald-trump-diverges-from-nato-statement-emphasizing-ukraine-mustnt-expand-war/">politico.eu</source>
+    </item>
+    <item>
+      <title>[俄乌战争] RUSSIAN → HIT MAN : Expel or deport individuals (Odessa, New York, United States)</title>
+      <link>https://www.webwire.com/ViewPressRel.asp?aId=364765</link>
+      <description>GDELT Event: Expel or deport individuals. Actors: RUSSIAN / HIT MAN. Location: Odessa, New York, United States. Goldstein Scale: -5.0. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">https://www.webwire.com/ViewPressRel.asp?aId=364765</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+      <category>俄乌战争</category>
+      <category>外交谈判</category>
+      <source url="https://www.webwire.com/ViewPressRel.asp?aId=364765">webwire.com</source>
+    </item>
+    <item>
+      <title>[美伊对峙] IRANIAN → KUWAITI : Physically assault, not specified below (Tehran, Tehran, Iran)</title>
+      <link>https://www.middle-east-online.com/en/two-italians-killed-houthi-attack-kuwait</link>
+      <description>GDELT Event: Physically assault, not specified below. Actors: IRANIAN / KUWAITI. Location: Tehran, Tehran, Iran. Goldstein Scale: -9.5. Mentioned in 1 sources.</description>
+      <guid isPermaLink="true">https://www.middle-east-online.com/en/two-italians-killed-houthi-attack-kuwait</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+      <category>美伊对峙</category>
+      <category>军事动态</category>
+      <source url="https://www.middle-east-online.com/en/two-italians-killed-houthi-attack-kuwait">middle-east-online.com</source>
+    </item>
     <item>
       <title>[俄乌战争] ISRAEL → ISRAEL : Use conventional military force, not specified below (Moscow, Moskva, Russia)</title>
       <link>https://www.arabnews.com/media/palestinian-journalist-killed-by-israel-in-gaza-wins-prestigious-rory-peck-prize-3014067</link>
@@ -476,36 +506,6 @@
       <category>俄乌战争</category>
       <category>军事动态</category>
       <source url="https://www.rferl.org/a/trump-xi-putin-summit-four-key-takeaways/33902100.html">rferl.org</source>
-    </item>
-    <item>
-      <title>[巴以冲突] IAEA → IRAN : Use conventional military force, not specified below (Israel)</title>
-      <link>https://www.presstv.co.uk/Detail/2026/11/19/781105/iran-rejects-unlimited-iaea-inspections-amid-continued-military-threats</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: IAEA / IRAN. Location: Israel. Goldstein Scale: -10.0. Mentioned in 8 sources.</description>
-      <guid isPermaLink="true">https://www.presstv.co.uk/Detail/2026/11/19/781105/iran-rejects-unlimited-iaea-inspections-amid-continued-military-threats</guid>
-      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.presstv.co.uk/Detail/2026/11/19/781105/iran-rejects-unlimited-iaea-inspections-amid-continued-military-threats">presstv.co.uk</source>
-    </item>
-    <item>
-      <title>[巴以冲突] HUMAN RIGHTS ACTIVIST → ISRAEL : Use unconventional violence, not specified below (Hebron, Israel (general), Israel)</title>
-      <link>https://www.jpost.com/israel-news/article-915548</link>
-      <description>GDELT Event: Use unconventional violence, not specified below. Actors: HUMAN RIGHTS ACTIVIST / ISRAEL. Location: Hebron, Israel (general), Israel. Goldstein Scale: -9.0. Mentioned in 6 sources.</description>
-      <guid isPermaLink="true">https://www.jpost.com/israel-news/article-915548</guid>
-      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.jpost.com/israel-news/article-915548">jpost.com</source>
-    </item>
-    <item>
-      <title>[巴以冲突] WEST BANK → nan : Use conventional military force, not specified below (West Bank)</title>
-      <link>https://www.jpost.com/israel-news/crime-in-israel/article-915551</link>
-      <description>GDELT Event: Use conventional military force, not specified below. Actors: WEST BANK / nan. Location: West Bank. Goldstein Scale: -10.0. Mentioned in 6 sources.</description>
-      <guid isPermaLink="true">https://www.jpost.com/israel-news/crime-in-israel/article-915551</guid>
-      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
-      <category>巴以冲突</category>
-      <category>军事动态</category>
-      <source url="https://www.jpost.com/israel-news/crime-in-israel/article-915551">jpost.com</source>
     </item>
   </channel>
 </rss>

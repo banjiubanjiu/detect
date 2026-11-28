@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T16:26:38+00:00Z",
+  "updated_at": "2026-11-28T15:19:41+00:00Z",
   "conflicts": {
     "russia-ukraine": {
       "name": "俄乌战争",
@@ -19,39 +19,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1330379394",
-              "title": "nan → WRITER : Use conventional military force, not specified below (Dagestan, Dagestan, Russia)",
-              "title_en": "nan → WRITER : Use conventional military force, not specified below (Dagestan, Dagestan, Russia)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: nan / WRITER. Location: Dagestan, Dagestan, Russia. Goldstein Scale: -10.0. Mentioned in 8 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: nan / WRITER. Location: Dagestan, Dagestan, Russia. Goldstein Scale: -10.0. Mentioned in 8 sources.",
-              "source": "gdelt",
-              "source_label": "finchannel.com",
-              "date": "2026-10-28",
-              "url": "https://finchannel.com/americans-abuse-account-and-jew-photo-renew-focus-on-russian-torture/139333/russian-invasion-of-ukraine/2026/10/",
-              "primary_conflict": "russia-ukraine",
-              "metrics": {
-                "mentions": 8,
-                "sources": 1,
-                "articles": 8,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1330379394",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "nan",
-                "actor2": "WRITER",
-                "actor1_country": "nan",
-                "actor2_country": "nan",
-                "geo_lat": 43.0,
-                "geo_lon": 47.0,
-                "geo_name": "Dagestan, Dagestan, Russia"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1330872456",
               "title": "UKRAINE → BUSINESS : Use unconventional violence, not specified below (Black Sea, Oceans (general), Oceans)",
@@ -1074,6 +1041,72 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1335390737",
+              "title": "FRENCH → nan : Use conventional military force, not specified below (Ukraine)",
+              "title_en": "FRENCH → nan : Use conventional military force, not specified below (Ukraine)",
+              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: FRENCH / nan. Location: Ukraine. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: FRENCH / nan. Location: Ukraine. Goldstein Scale: -10.0. Mentioned in 6 sources.",
+              "source": "gdelt",
+              "source_label": "arabnews.com",
+              "date": "2026-11-27",
+              "url": "https://www.arabnews.com/world/french-far-right-leader-le-pen-clashes-with-macron-over-eu-budget-3014325",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 6,
+                "sources": 1,
+                "articles": 6,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1335390737",
+                "event_code": "190",
+                "cameo_desc": "Use conventional military force, not specified below",
+                "actor1": "FRENCH",
+                "actor2": "nan",
+                "actor1_country": "FRA",
+                "actor2_country": "nan",
+                "geo_lat": 49.0,
+                "geo_lon": 32.0,
+                "geo_name": "Ukraine"
+              },
+              "admiralty_source": "B",
+              "admiralty_info": 3,
+              "admiralty_code": "B3"
+            },
+            {
+              "id": "gdelt_1335390934",
+              "title": "RUSSIA → RUSSIA : Fight with small arms and light weapons (Moscow, Moskva, Russia)",
+              "title_en": "RUSSIA → RUSSIA : Fight with small arms and light weapons (Moscow, Moskva, Russia)",
+              "summary": "GDELT Event: Fight with small arms and light weapons. Actors: RUSSIA / RUSSIA. Location: Moscow, Moskva, Russia. Goldstein Scale: -10.0. Mentioned in 1 sources.",
+              "summary_en": "GDELT Event: Fight with small arms and light weapons. Actors: RUSSIA / RUSSIA. Location: Moscow, Moskva, Russia. Goldstein Scale: -10.0. Mentioned in 1 sources.",
+              "source": "gdelt",
+              "source_label": "kenyastar.com",
+              "date": "2026-11-27",
+              "url": "http://www.kenyastar.com/news/279468839/ukraine-offers-black-sea-cease-fire-awaits-kremlin-response",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 1,
+                "sources": 1,
+                "articles": 1,
+                "goldstein": -10.0
+              },
+              "gdelt_meta": {
+                "event_id": "1335390934",
+                "event_code": "193",
+                "cameo_desc": "Fight with small arms and light weapons",
+                "actor1": "RUSSIA",
+                "actor2": "RUSSIA",
+                "actor1_country": "RUS",
+                "actor2_country": "RUS",
+                "geo_lat": 55.7522,
+                "geo_lon": 37.6156,
+                "geo_name": "Moscow, Moskva, Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -1641,6 +1674,39 @@
               "admiralty_source": "C",
               "admiralty_info": 3,
               "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1335391083",
+              "title": "US GOVERNMENT → AMERICAN : Impose administrative sanctions, not specified below (Russia)",
+              "title_en": "US GOVERNMENT → AMERICAN : Impose administrative sanctions, not specified below (Russia)",
+              "summary": "GDELT Event: Impose administrative sanctions, not specified below. Actors: US GOVERNMENT / AMERICAN. Location: Russia. Goldstein Scale: -5.0. Mentioned in 7 sources.",
+              "summary_en": "GDELT Event: Impose administrative sanctions, not specified below. Actors: US GOVERNMENT / AMERICAN. Location: Russia. Goldstein Scale: -5.0. Mentioned in 7 sources.",
+              "source": "gdelt",
+              "source_label": "933thedrive.com",
+              "date": "2026-11-27",
+              "url": "https://www.933thedrive.com/2026/11/27/us-government-bars-bandwidth-provider-retn-from-american-networks/",
+              "primary_conflict": "russia-ukraine",
+              "metrics": {
+                "mentions": 7,
+                "sources": 1,
+                "articles": 7,
+                "goldstein": -5.0
+              },
+              "gdelt_meta": {
+                "event_id": "1335391083",
+                "event_code": "172",
+                "cameo_desc": "Impose administrative sanctions, not specified below",
+                "actor1": "US GOVERNMENT",
+                "actor2": "AMERICAN",
+                "actor1_country": "USA",
+                "actor2_country": "USA",
+                "geo_lat": 60.0,
+                "geo_lon": 100.0,
+                "geo_name": "Russia"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
             }
           ]
         },
@@ -1848,39 +1914,6 @@
           "label": "军事动态",
           "icon": "⚔️",
           "items": [
-            {
-              "id": "gdelt_1330379893",
-              "title": "HAMAS → nan : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
-              "title_en": "HAMAS → nan : Use conventional military force, not specified below (Gaza, Israel (general), Israel)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: HAMAS / nan. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: HAMAS / nan. Location: Gaza, Israel (general), Israel. Goldstein Scale: -10.0. Mentioned in 10 sources.",
-              "source": "gdelt",
-              "source_label": "crikey.com.au",
-              "date": "2026-10-28",
-              "url": "https://www.crikey.com.au/2026/10/29/israel-genocide-gaza-extermination-west-bank-un-report-netanyahu-election/",
-              "primary_conflict": "israel-palestine",
-              "metrics": {
-                "mentions": 10,
-                "sources": 1,
-                "articles": 10,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1330379893",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "HAMAS",
-                "actor2": "nan",
-                "actor1_country": "PSE",
-                "actor2_country": "nan",
-                "geo_lat": 31.4167,
-                "geo_lon": 34.3333,
-                "geo_name": "Gaza, Israel (general), Israel"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
             {
               "id": "gdelt_1330568482",
               "title": "ORGANIZED CRIME → nan : Use unconventional violence, not specified below (Gaza, Israel (general), Israel)",
@@ -4438,39 +4471,6 @@
           "icon": "⚔️",
           "items": [
             {
-              "id": "gdelt_1330379723",
-              "title": "IRAN → IRAN : Use conventional military force, not specified below (Washington, District of Columbia, United States)",
-              "title_en": "IRAN → IRAN : Use conventional military force, not specified below (Washington, District of Columbia, United States)",
-              "summary": "GDELT Event: Use conventional military force, not specified below. Actors: IRAN / IRAN. Location: Washington, District of Columbia, United States. Goldstein Scale: -10.0. Mentioned in 4 sources.",
-              "summary_en": "GDELT Event: Use conventional military force, not specified below. Actors: IRAN / IRAN. Location: Washington, District of Columbia, United States. Goldstein Scale: -10.0. Mentioned in 4 sources.",
-              "source": "gdelt",
-              "source_label": "mercurynews.com",
-              "date": "2026-10-28",
-              "url": "https://www.mercurynews.com/2026/10/28/iran-us-midterm-elections/",
-              "primary_conflict": "us-iran",
-              "metrics": {
-                "mentions": 4,
-                "sources": 2,
-                "articles": 4,
-                "goldstein": -10.0
-              },
-              "gdelt_meta": {
-                "event_id": "1330379723",
-                "event_code": "190",
-                "cameo_desc": "Use conventional military force, not specified below",
-                "actor1": "IRAN",
-                "actor2": "IRAN",
-                "actor1_country": "IRN",
-                "actor2_country": "IRN",
-                "geo_lat": 38.8951,
-                "geo_lon": -77.0364,
-                "geo_name": "Washington, District of Columbia, United States"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3"
-            },
-            {
               "id": "gdelt_1330981238",
               "title": "TIRANA → ALBANIA : Physically assault, not specified below (Tirana, Tirane, Albania)",
               "title_en": "TIRANA → ALBANIA : Physically assault, not specified below (Tirana, Tirane, Albania)",
@@ -5353,6 +5353,39 @@
                 "actor2": "KUWAITI",
                 "actor1_country": "IRN",
                 "actor2_country": "KWT",
+                "geo_lat": 35.75,
+                "geo_lon": 51.5148,
+                "geo_name": "Tehran, Tehran, Iran"
+              },
+              "admiralty_source": "C",
+              "admiralty_info": 3,
+              "admiralty_code": "C3"
+            },
+            {
+              "id": "gdelt_1335390833",
+              "title": "IRAN → THE US : Impose blockade, restrict movement (Tehran, Tehran, Iran)",
+              "title_en": "IRAN → THE US : Impose blockade, restrict movement (Tehran, Tehran, Iran)",
+              "summary": "GDELT Event: Impose blockade, restrict movement. Actors: IRAN / THE US. Location: Tehran, Tehran, Iran. Goldstein Scale: -9.5. Mentioned in 2 sources.",
+              "summary_en": "GDELT Event: Impose blockade, restrict movement. Actors: IRAN / THE US. Location: Tehran, Tehran, Iran. Goldstein Scale: -9.5. Mentioned in 2 sources.",
+              "source": "gdelt",
+              "source_label": "news.webindia123.com",
+              "date": "2026-11-27",
+              "url": "https://news.webindia123.com/news/Articles/World/20261128/4525488.html",
+              "primary_conflict": "us-iran",
+              "metrics": {
+                "mentions": 2,
+                "sources": 1,
+                "articles": 2,
+                "goldstein": -9.5
+              },
+              "gdelt_meta": {
+                "event_id": "1335390833",
+                "event_code": "191",
+                "cameo_desc": "Impose blockade, restrict movement",
+                "actor1": "IRAN",
+                "actor2": "THE US",
+                "actor1_country": "IRN",
+                "actor2_country": "USA",
                 "geo_lat": 35.75,
                 "geo_lon": 51.5148,
                 "geo_name": "Tehran, Tehran, Iran"
@@ -6576,40 +6609,6 @@
           "icon": "🕊️",
           "items": [
             {
-              "id": "gdelt_1330379952",
-              "title": "TAIWAN → YAMANASHI : Arrest, detain, or charge with legal action (Taiwan)",
-              "title_en": "TAIWAN → YAMANASHI : Arrest, detain, or charge with legal action (Taiwan)",
-              "summary": "GDELT Event: Arrest, detain, or charge with legal action. Actors: TAIWAN / YAMANASHI. Location: Taiwan. Goldstein Scale: -5.0. Mentioned in 8 sources.",
-              "summary_en": "GDELT Event: Arrest, detain, or charge with legal action. Actors: TAIWAN / YAMANASHI. Location: Taiwan. Goldstein Scale: -5.0. Mentioned in 8 sources.",
-              "source": "gdelt",
-              "source_label": "japantoday.com",
-              "date": "2026-10-28",
-              "url": "https://japantoday.com/category/crime/husband-of-woman-found-dead-in-yamanashi-hotel-room-arrested-in-taiwan",
-              "primary_conflict": "taiwan-strait",
-              "metrics": {
-                "mentions": 8,
-                "sources": 1,
-                "articles": 8,
-                "goldstein": -5.0
-              },
-              "gdelt_meta": {
-                "event_id": "1330379952",
-                "event_code": "173",
-                "cameo_desc": "Arrest, detain, or charge with legal action",
-                "actor1": "TAIWAN",
-                "actor2": "YAMANASHI",
-                "actor1_country": "TWN",
-                "actor2_country": "JPN",
-                "geo_lat": 24.0,
-                "geo_lon": 121.0,
-                "geo_name": "Taiwan"
-              },
-              "admiralty_source": "C",
-              "admiralty_info": 3,
-              "admiralty_code": "C3",
-              "criticality": "background"
-            },
-            {
               "id": "gdelt_1331715299",
               "title": "nan → GOVERNMENT : Arrest, detain, or charge with legal action (Wang Dan, Hsin-pei Shih, Taiwan)",
               "title_en": "nan → GOVERNMENT : Arrest, detain, or charge with legal action (Wang Dan, Hsin-pei Shih, Taiwan)",
@@ -6666,8 +6665,8 @@
       "gdelt": 189
     },
     "date_range": {
-      "from": "2026-10-28",
-      "to": "2026-11-26"
+      "from": "2026-10-29",
+      "to": "2026-11-27"
     }
   },
   "briefing": "全球安全局势日益复杂，多条战线同时燃起。乌克兰战场的僵持与烈度不减，牵制了西方大量资源，客观上为其他地区的冲突创造了空间。巴以冲突、美伊对峙和黎以冲突呈现联动升级趋势，中东地区可能面临更大范围的动荡。与此同时，非洲的苏丹内战和刚果(金)冲突持续消耗地区资源，人道主义危机加剧。亚洲方面，缅甸内战胶着，台海局势依旧紧张，地缘政治风险不容忽视。",
